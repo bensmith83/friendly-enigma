@@ -1,0 +1,55 @@
+[
+  {
+    "id": "2312.12345",
+    "title": "Large Language Models for Automated Vulnerability Detection in Smart Contracts",
+    "summary": "We present a novel approach for detecting security vulnerabilities in smart contracts using large language models. Our method achieves state-of-the-art performance on benchmark datasets, demonstrating the potential of LLMs in automated security analysis. We evaluate our approach on over 10,000 smart contracts and show significant improvements in both precision and recall compared to existing static analysis tools.",
+    "published": "2024-12-15T10:30:00Z",
+    "link": "http://arxiv.org/abs/2312.12345",
+    "authors": [
+      "Jane Smith",
+      "John Doe",
+      "Alice Johnson"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "selected_date": "2024-12-28"
+  },
+  {
+    "id": "2312.54321",
+    "title": "Adversarial Robustness in Vision Transformers: A Comprehensive Survey",
+    "summary": "This survey provides a comprehensive overview of adversarial robustness techniques for vision transformers. We categorize existing defense mechanisms, analyze their effectiveness, and identify key challenges and future research directions. Our analysis covers both training-time and inference-time defenses, providing insights into the trade-offs between robustness and accuracy.",
+    "published": "2024-12-14T14:20:00Z",
+    "link": "http://arxiv.org/abs/2312.54321",
+    "authors": [
+      "Robert Chen",
+      "Maria Garcia"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.CR"
+    ],
+    "selected_date": "2024-12-27"
+  },
+  {
+    "id": "2312.98765",
+    "title": "Privacy-Preserving Federated Learning with Differential Privacy Guarantees",
+    "summary": "We propose a new framework for privacy-preserving federated learning that provides formal differential privacy guarantees while maintaining model utility. Our approach combines secure aggregation with adaptive noise injection, achieving better privacy-utility trade-offs than existing methods. Experiments on multiple datasets demonstrate the effectiveness of our approach in real-world scenarios.",
+    "published": "2024-12-13T09:15:00Z",
+    "link": "http://arxiv.org/abs/2312.98765",
+    "authors": [
+      "David Lee",
+      "Sarah Williams",
+      "Michael Brown",
+      "Emma Davis"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "selected_date": "2024-12-26"
+  }
+]
