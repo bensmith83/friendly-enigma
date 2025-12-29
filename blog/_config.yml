@@ -3,8 +3,8 @@ title: My Blog
 description: Short thoughts, quotes, and links
 author: Your Name
 email: your.email@example.com
-baseurl: "/blog" # Change this if deploying to root
-url: "https://yourusername.github.io" # Your GitHub Pages URL
+baseurl: "/blog"
+url: "https://bensmith83.github.io/friendly-enigma"
 
 # Build settings
 markdown: kramdown
