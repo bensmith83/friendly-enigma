@@ -4,19 +4,21 @@ This repository hosts multiple projects on GitHub Pages:
 
 - **Blog** (`/blog/`) - Personal blog with Jekyll
 - **ArXiv Scraper** (`/arxiv-scraper/`) - Daily curated AI and Cybersecurity papers
+- **CVSS Converter** (`/cvss-converter/`) - Convert between CVSS v3.x and v4.0
 
 ## How It Works
 
-The `deploy-pages.yml` workflow automatically builds and deploys both projects:
+The `deploy-pages.yml` workflow automatically builds and deploys all projects:
 
 1. **Blog**: Built with Jekyll and served at `/blog/`
 2. **ArXiv Scraper**: Static site served at `/arxiv-scraper/`
-3. **Landing Page**: Root (`/`) shows a navigation page to both projects
+3. **CVSS Converter**: Static site served at `/cvss-converter/`
+4. **Landing Page**: Root (`/`) shows a navigation page to all projects
 
 ## Deployment Triggers
 
 The site is automatically deployed when:
-- Changes are pushed to `main` branch in either `blog/` or `arxiv-scraper/` folders
+- Changes are pushed to `main` branch in `blog/`, `arxiv-scraper/`, or `cvss-converter/` folders
 - Manually triggered via workflow dispatch
 
 ## URLs
@@ -25,6 +27,7 @@ Once deployed:
 - Landing page: `https://bensmith83.github.io/friendly-enigma/`
 - Blog: `https://bensmith83.github.io/friendly-enigma/blog/`
 - ArXiv Scraper: `https://bensmith83.github.io/friendly-enigma/arxiv-scraper/`
+- CVSS Converter: `https://bensmith83.github.io/friendly-enigma/cvss-converter/`
 
 ## Setup
 
