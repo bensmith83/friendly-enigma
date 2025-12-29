@@ -14,7 +14,8 @@
     "categories": [
       "cs.CR"
     ],
-    "selected_date": "2025-12-29"
+    "selected_date": "2025-12-29",
+    "ai_summary": "The integration of Large Language Models (LLMs) into wearable sensing is creating a new class of mobile applications capable of nuanced human activity understanding. However, the reliability of these systems is critically undermined by their vulnerability to prompt injection attacks, where attackers deliberately input deceptive instructions into LLMs."
   },
   {
     "id": "2312.12345",
