@@ -102,9 +102,35 @@
                 categoriesEl.appendChild(badge);
             });
 
+            // AI-generated summary (if available)
+            let aiSummaryEl = null;
+            if (paper.ai_summary) {
+                aiSummaryEl = document.createElement('div');
+                aiSummaryEl.className = 'ai-summary';
+
+                const summaryLabel = document.createElement('div');
+                summaryLabel.className = 'summary-label';
+                summaryLabel.textContent = '✨ Quick Summary';
+
+                const summaryText = document.createElement('p');
+                summaryText.textContent = paper.ai_summary;
+
+                aiSummaryEl.appendChild(summaryLabel);
+                aiSummaryEl.appendChild(summaryText);
+            }
+
             const summaryEl = document.createElement('div');
             summaryEl.className = 'paper-summary';
-            summaryEl.textContent = paper.summary;
+
+            const abstractLabel = document.createElement('div');
+            abstractLabel.className = 'abstract-label';
+            abstractLabel.textContent = 'Abstract';
+
+            const abstractText = document.createElement('p');
+            abstractText.textContent = paper.summary;
+
+            summaryEl.appendChild(abstractLabel);
+            summaryEl.appendChild(abstractText);
 
             const linkEl = document.createElement('div');
             linkEl.className = 'paper-link';
@@ -119,6 +145,9 @@
             article.appendChild(titleEl);
             article.appendChild(authorsEl);
             article.appendChild(categoriesEl);
+            if (aiSummaryEl) {
+                article.appendChild(aiSummaryEl);
+            }
             article.appendChild(summaryEl);
             article.appendChild(linkEl);
 

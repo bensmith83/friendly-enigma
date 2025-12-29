@@ -92,6 +92,55 @@ def parse_arxiv_response(xml_data):
 
     return papers
 
+def summarize_text(text, max_length=150):
+    """
+    Summarize text using Hugging Face Inference API (free tier).
+    Falls back to extractive summary if API fails.
+    """
+    try:
+        # Hugging Face Inference API endpoint (free, no auth required for basic usage)
+        api_url = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
+
+        # Prepare the request
+        payload = {
+            "inputs": text,
+            "parameters": {
+                "max_length": max_length,
+                "min_length": 30,
+                "do_sample": False
+            }
+        }
+
+        # Make the request
+        req = urllib.request.Request(
+            api_url,
+            data=json.dumps(payload).encode('utf-8'),
+            headers={
+                'Content-Type': 'application/json',
+                'User-Agent': 'Mozilla/5.0 (compatible; ArXivBot/1.0)'
+            }
+        )
+
+        with urllib.request.urlopen(req, timeout=10) as response:
+            result = json.loads(response.read().decode('utf-8'))
+
+            if isinstance(result, list) and len(result) > 0:
+                summary = result[0].get('summary_text', '')
+                if summary:
+                    print("✓ Generated AI summary")
+                    return summary
+
+        # If API doesn't return expected format, fall back
+        raise Exception("Unexpected API response format")
+
+    except Exception as e:
+        print(f"Summarization API unavailable ({e}), using extractive summary")
+        # Fallback: Use first 2-3 sentences
+        sentences = text.split('. ')
+        if len(sentences) >= 2:
+            return '. '.join(sentences[:2]) + '.'
+        return text[:max_length] + '...'
+
 def select_interesting_paper(papers):
     """Select one interesting paper from the list."""
     if not papers:
@@ -180,6 +229,10 @@ def main():
         return
 
     print(f"Selected paper: {selected_paper['title']}")
+
+    # Generate human-readable summary
+    print("Generating summary...")
+    selected_paper['ai_summary'] = summarize_text(selected_paper['summary'])
 
     # Add selection date
     selected_paper['selected_date'] = datetime.now().strftime('%Y-%m-%d')
