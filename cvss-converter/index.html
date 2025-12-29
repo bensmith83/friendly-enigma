@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVSS v3 ⇄ v4 Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔐 CVSS Converter</h1>
+            <p class="subtitle">Convert between CVSS v3.x and v4.0</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <div class="version-selector">
+                    <button id="v3-btn" class="version-btn active" data-version="3">CVSS v3.x</button>
+                    <button id="v4-btn" class="version-btn" data-version="4">CVSS v4.0</button>
+                </div>
+
+                <div class="vector-input">
+                    <label for="vector-string">Vector String:</label>
+                    <input type="text" id="vector-string" placeholder="Enter CVSS vector or use buttons below">
+                    <div class="button-group">
+                        <button id="parse-btn" class="btn btn-primary">Parse Vector</button>
+                        <button id="clear-btn" class="btn btn-secondary">Clear</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="metrics-section" id="metrics-section">
+                <!-- CVSS v3 Metrics -->
+                <div id="v3-metrics" class="metrics-container">
+                    <h2>CVSS v3.x Metrics</h2>
+
+                    <div class="metric-group">
+                        <h3>Base Metrics</h3>
+
+                        <div class="metric">
+                            <label>Attack Vector (AV):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="AV" data-value="N">Network (N)</button>
+                                <button class="metric-btn" data-metric="AV" data-value="A">Adjacent (A)</button>
+                                <button class="metric-btn" data-metric="AV" data-value="L">Local (L)</button>
+                                <button class="metric-btn" data-metric="AV" data-value="P">Physical (P)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Attack Complexity (AC):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="AC" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="AC" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Privileges Required (PR):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="PR" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="PR" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="PR" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>User Interaction (UI):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="UI" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="UI" data-value="R">Required (R)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Scope (S):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="S" data-value="U">Unchanged (U)</button>
+                                <button class="metric-btn" data-metric="S" data-value="C">Changed (C)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Confidentiality (C):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="C" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="C" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="C" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Integrity (I):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="I" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="I" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="I" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Availability (A):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="A" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="A" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="A" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CVSS v4 Metrics -->
+                <div id="v4-metrics" class="metrics-container" style="display: none;">
+                    <h2>CVSS v4.0 Metrics</h2>
+
+                    <div class="metric-group">
+                        <h3>Base Metrics - Exploitability</h3>
+
+                        <div class="metric">
+                            <label>Attack Vector (AV):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="AV" data-value="N">Network (N)</button>
+                                <button class="metric-btn" data-metric="AV" data-value="A">Adjacent (A)</button>
+                                <button class="metric-btn" data-metric="AV" data-value="L">Local (L)</button>
+                                <button class="metric-btn" data-metric="AV" data-value="P">Physical (P)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Attack Complexity (AC):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="AC" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="AC" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Attack Requirements (AT):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="AT" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="AT" data-value="P">Present (P)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Privileges Required (PR):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="PR" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="PR" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="PR" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>User Interaction (UI):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="UI" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="UI" data-value="P">Passive (P)</button>
+                                <button class="metric-btn" data-metric="UI" data-value="A">Active (A)</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="metric-group">
+                        <h3>Base Metrics - Vulnerable System Impact</h3>
+
+                        <div class="metric">
+                            <label>Confidentiality (VC):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="VC" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="VC" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="VC" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Integrity (VI):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="VI" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="VI" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="VI" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Availability (VA):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="VA" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="VA" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="VA" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="metric-group">
+                        <h3>Base Metrics - Subsequent System Impact</h3>
+
+                        <div class="metric">
+                            <label>Confidentiality (SC):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="SC" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="SC" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="SC" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Integrity (SI):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="SI" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="SI" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="SI" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <label>Availability (SA):</label>
+                            <div class="button-options">
+                                <button class="metric-btn" data-metric="SA" data-value="N">None (N)</button>
+                                <button class="metric-btn" data-metric="SA" data-value="L">Low (L)</button>
+                                <button class="metric-btn" data-metric="SA" data-value="H">High (H)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-section" id="results-section" style="display: none;">
+                <div class="result-card">
+                    <h2>Current Vector</h2>
+                    <div class="vector-display" id="current-vector">-</div>
+                    <button id="copy-vector-btn" class="btn btn-secondary">Copy Vector</button>
+                </div>
+
+                <div class="result-card">
+                    <h2>Score</h2>
+                    <div class="score-display" id="score-display">-</div>
+                    <div class="severity-display" id="severity-display">-</div>
+                </div>
+
+                <div class="convert-section">
+                    <button id="convert-btn" class="btn btn-primary">
+                        Convert to <span id="convert-target">CVSS v4.0</span>
+                    </button>
+                </div>
+
+                <div class="conversion-result" id="conversion-result" style="display: none;">
+                    <h3>Converted Vector</h3>
+                    <div class="vector-display" id="converted-vector">-</div>
+                    <div class="conversion-warning" id="conversion-warning"></div>
+                    <button id="copy-converted-btn" class="btn btn-secondary">Copy Converted Vector</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>CVSS (Common Vulnerability Scoring System) is a free and open industry standard for assessing the severity of security vulnerabilities.</p>
+            <p>Learn more: <a href="https://www.first.org/cvss/" target="_blank">FIRST CVSS</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
