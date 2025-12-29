@@ -1,0 +1,33 @@
+---
+layout: default
+title: Archive
+---
+
+<h1>Archive</h1>
+
+{% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+{% for year in postsByYear %}
+  <h2>{{ year.name }}</h2>
+  <ul class="post-list">
+    {% for post in year.items %}
+      <li class="post-list-item">
+        <h3 class="post-list-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        <div class="post-list-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </time>
+          {% if post.tags.size > 0 %}
+            <span class="post-tags">
+              {% for tag in post.tags %}
+                <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag">{{ tag }}</a>
+              {% endfor %}
+            </span>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

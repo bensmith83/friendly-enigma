@@ -1,0 +1,49 @@
+# Site settings
+title: My Blog
+description: Short thoughts, quotes, and links
+author: Your Name
+email: your.email@example.com
+baseurl: "/blog" # Change this if deploying to root
+url: "https://yourusername.github.io" # Your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Security
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Feed settings
+feed:
+  path: feed.xml
