@@ -1,0 +1,35 @@
+name: Scrape ArXiv Papers
+
+on:
+  schedule:
+    # Run daily at 9 AM UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run scraper
+        run: |
+          cd arxiv-scraper
+          python scripts/scrape_arxiv.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add arxiv-scraper/data/papers.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update arxiv papers - $(date +'%Y-%m-%d')" && git push)

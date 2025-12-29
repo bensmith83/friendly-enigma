@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily ArXiv Papers - AI & Cybersecurity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Daily ArXiv Papers</h1>
+            <p class="subtitle">Curated AI and Cybersecurity Research - One Paper Per Day</p>
+        </header>
+
+        <main>
+            <div id="loading" class="loading">
+                <p>Loading papers...</p>
+            </div>
+
+            <div id="papers-container" class="papers-container"></div>
+
+            <div id="error" class="error" style="display: none;">
+                <p>Unable to load papers. Please try again later.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Papers are automatically curated daily from <a href="https://arxiv.org" target="_blank">arxiv.org</a></p>
+            <p>Last updated: <span id="last-updated">-</span></p>
+        </footer>
+    </div>
+
+    <script>
+        async function loadPapers() {
+            const loadingEl = document.getElementById('loading');
+            const errorEl = document.getElementById('error');
+            const containerEl = document.getElementById('papers-container');
+            const lastUpdatedEl = document.getElementById('last-updated');
+
+            try {
+                const response = await fetch('data/papers.json');
+
+                if (!response.ok) {
+                    throw new Error('Failed to load papers');
+                }
+
+                const papers = await response.json();
+
+                loadingEl.style.display = 'none';
+
+                if (!papers || papers.length === 0) {
+                    errorEl.style.display = 'block';
+                    errorEl.querySelector('p').textContent = 'No papers available yet.';
+                    return;
+                }
+
+                // Update last updated date
+                if (papers[0].selected_date) {
+                    lastUpdatedEl.textContent = papers[0].selected_date;
+                }
+
+                // Display papers
+                papers.forEach(paper => {
+                    const paperEl = createPaperElement(paper);
+                    containerEl.appendChild(paperEl);
+                });
+
+            } catch (error) {
+                console.error('Error loading papers:', error);
+                loadingEl.style.display = 'none';
+                errorEl.style.display = 'block';
+            }
+        }
+
+        function createPaperElement(paper) {
+            const article = document.createElement('article');
+            article.className = 'paper-card';
+
+            const dateEl = document.createElement('div');
+            dateEl.className = 'paper-date';
+            dateEl.textContent = paper.selected_date || 'Unknown Date';
+
+            const titleEl = document.createElement('h2');
+            titleEl.className = 'paper-title';
+            const titleLink = document.createElement('a');
+            titleLink.href = paper.link;
+            titleLink.target = '_blank';
+            titleLink.textContent = paper.title;
+            titleEl.appendChild(titleLink);
+
+            const authorsEl = document.createElement('div');
+            authorsEl.className = 'paper-authors';
+            authorsEl.textContent = paper.authors.join(', ');
+
+            const categoriesEl = document.createElement('div');
+            categoriesEl.className = 'paper-categories';
+            paper.categories.forEach(cat => {
+                const badge = document.createElement('span');
+                badge.className = 'category-badge';
+                badge.textContent = cat;
+                categoriesEl.appendChild(badge);
+            });
+
+            const summaryEl = document.createElement('div');
+            summaryEl.className = 'paper-summary';
+            summaryEl.textContent = paper.summary;
+
+            const linkEl = document.createElement('div');
+            linkEl.className = 'paper-link';
+            const readMoreLink = document.createElement('a');
+            readMoreLink.href = paper.link;
+            readMoreLink.target = '_blank';
+            readMoreLink.className = 'read-more';
+            readMoreLink.textContent = 'Read on ArXiv →';
+            linkEl.appendChild(readMoreLink);
+
+            article.appendChild(dateEl);
+            article.appendChild(titleEl);
+            article.appendChild(authorsEl);
+            article.appendChild(categoriesEl);
+            article.appendChild(summaryEl);
+            article.appendChild(linkEl);
+
+            return article;
+        }
+
+        // Load papers when page loads
+        document.addEventListener('DOMContentLoaded', loadPapers);
+    </script>
+</body>
+</html>
