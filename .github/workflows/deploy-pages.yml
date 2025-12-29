@@ -8,10 +8,12 @@ on:
     paths:
       - 'blog/**'
       - 'arxiv-scraper/**'
+      - 'cvss-converter/**'
   pull_request:
     paths:
       - 'blog/**'
       - 'arxiv-scraper/**'
+      - 'cvss-converter/**'
   workflow_dispatch:
 
 permissions:
@@ -57,6 +59,9 @@ jobs:
 
           # Copy arxiv-scraper to /arxiv-scraper subdirectory
           cp -r arxiv-scraper _site/arxiv-scraper
+
+          # Copy cvss-converter to /cvss-converter subdirectory
+          cp -r cvss-converter _site/cvss-converter
 
           # Create index.html that redirects to blog or provides navigation
           cat > _site/index.html << 'EOF'
@@ -113,6 +118,10 @@ jobs:
                       <a href="/arxiv-scraper/" class="project-link">
                           <div class="project-title">📚 ArXiv Papers</div>
                           <div class="project-desc">Daily curated AI and Cybersecurity research papers</div>
+                      </a>
+                      <a href="/cvss-converter/" class="project-link">
+                          <div class="project-title">🔐 CVSS Converter</div>
+                          <div class="project-desc">Convert between CVSS v3.x and v4.0 vulnerability scores</div>
                       </a>
                   </div>
               </div>
