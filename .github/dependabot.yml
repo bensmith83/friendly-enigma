@@ -1,0 +1,23 @@
+version: 2
+updates:
+  # Monitor GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    open-pull-requests-limit: 10
+
+  # Monitor Ruby dependencies
+  - package-ecosystem: "bundler"
+    directory: "/blog"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "ruby"
+    open-pull-requests-limit: 10
+    # Auto-approve and merge patch updates for security
+    versioning-strategy: increase
