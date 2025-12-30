@@ -40,6 +40,8 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
           working-directory: ./blog
+        env:
+          BUNDLE_PATH: ${{ github.workspace }}/.bundle-gems
 
       - name: Setup Pages
         id: pages
@@ -50,6 +52,7 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}/blog"
         env:
           JEKYLL_ENV: production
+          BUNDLE_PATH: ${{ github.workspace }}/.bundle-gems
 
       - name: Create combined site
         run: |
