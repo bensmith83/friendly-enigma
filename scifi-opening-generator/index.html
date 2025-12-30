@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover compelling sci-fi opening and ending pages inspired by Nebula and Hugo award-winning novels">
+
+    <!-- Security headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <title>Sci-Fi Opening Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+    <main class="container">
+        <header>
+            <h1>Sci-Fi Opening Generator</h1>
+            <p class="subtitle">Compelling story beginnings and endings inspired by<br>Nebula & Hugo Award-winning novels</p>
+        </header>
+
+        <div class="controls">
+            <button id="btn-opening" class="control-btn active" aria-pressed="true">Opening Page</button>
+            <button id="btn-ending" class="control-btn" aria-pressed="false">Ending Page</button>
+            <button id="btn-refresh" class="control-btn refresh-btn" aria-label="Get new random text">
+                <span class="refresh-icon">&#8635;</span> New Story
+            </button>
+        </div>
+
+        <article class="story-container" role="main">
+            <div class="story-text" id="story-text">
+                <p class="loading">Loading story...</p>
+            </div>
+            <footer class="story-meta" id="story-meta">
+                <!-- Populated by JavaScript -->
+            </footer>
+        </article>
+
+        <section class="info-panel">
+            <h2>About This Project</h2>
+            <p>
+                This generator creates original sci-fi story openings and endings, drawing inspiration from
+                the greatest works in science fiction history—novels and novellas that have won the
+                <strong>Nebula</strong> and <strong>Hugo</strong> awards.
+            </p>
+            <p>
+                Each refresh brings you a new piece of compelling prose, generated using AI and cached
+                for instant delivery. The stories explore themes of consciousness, space exploration,
+                time travel, artificial intelligence, and the human condition.
+            </p>
+            <details>
+                <summary>Award-Winning Inspirations</summary>
+                <ul class="inspiration-list">
+                    <li><em>Dune</em> by Frank Herbert</li>
+                    <li><em>The Left Hand of Darkness</em> by Ursula K. Le Guin</li>
+                    <li><em>Neuromancer</em> by William Gibson</li>
+                    <li><em>Ender's Game</em> by Orson Scott Card</li>
+                    <li><em>Hyperion</em> by Dan Simmons</li>
+                    <li><em>The Fifth Season</em> by N.K. Jemisin</li>
+                    <li><em>Ancillary Justice</em> by Ann Leckie</li>
+                    <li><em>A Memory Called Empire</em> by Arkady Martine</li>
+                    <li><em>All Systems Red</em> by Martha Wells</li>
+                    <li>...and 70+ more award winners</li>
+                </ul>
+            </details>
+        </section>
+
+        <footer class="page-footer">
+            <p>
+                <a href="../" rel="noopener">← Back to Projects</a>
+            </p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
