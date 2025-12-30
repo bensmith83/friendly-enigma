@@ -25,6 +25,8 @@ Once deployed:
 - Landing page: `https://bensmith83.github.io/friendly-enigma/`
 - Blog: `https://bensmith83.github.io/friendly-enigma/blog/`
 - ArXiv Scraper: `https://bensmith83.github.io/friendly-enigma/arxiv-scraper/`
+- CVSS Converter: `https://bensmith83.github.io/friendly-enigma/cvss-converter/`
+- Scifi Opening Generator: `https://bensmith83.github.io/friendly-enigma/scifi-opening-generator/`
 
 ## Setup
 
