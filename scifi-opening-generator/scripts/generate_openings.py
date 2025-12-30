@@ -135,8 +135,12 @@ THEMES = [
 
 def get_huggingface_response(prompt: str, api_token: str) -> str:
     """Call Hugging Face Inference API with a free-tier model."""
-    # Using Mistral or another capable free model
-    api_url = "https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
+    # Models to try in order of preference (some may be unavailable)
+    models = [
+        "mistralai/Mistral-7B-Instruct-v0.3",
+        "HuggingFaceH4/zephyr-7b-beta",
+        "microsoft/Phi-3-mini-4k-instruct",
+    ]
 
     headers = {
         "Authorization": f"Bearer {api_token}",
@@ -154,12 +158,24 @@ def get_huggingface_response(prompt: str, api_token: str) -> str:
         },
     }
 
-    response = requests.post(api_url, headers=headers, json=payload, timeout=60)
-    response.raise_for_status()
+    last_error = None
+    for model in models:
+        api_url = f"https://api-inference.huggingface.co/models/{model}"
+        try:
+            response = requests.post(api_url, headers=headers, json=payload, timeout=90)
+            response.raise_for_status()
+            result = response.json()
+            if isinstance(result, list) and len(result) > 0:
+                text = result[0].get("generated_text", "").strip()
+                if text:
+                    return text
+        except Exception as e:
+            last_error = e
+            print(f"Model {model} failed: {e}, trying next...")
+            continue
 
-    result = response.json()
-    if isinstance(result, list) and len(result) > 0:
-        return result[0].get("generated_text", "").strip()
+    if last_error:
+        raise last_error
     return ""
 
 
