@@ -221,10 +221,20 @@
         const typeClass = story.type === 'ending' ? 'ending' : '';
         const typeLabel = story.type === 'ending' ? 'Ending' : 'Opening';
 
+        // Handle both old format (single string) and new format (arrays)
+        let inspirationText;
+        if (Array.isArray(story.inspired_by)) {
+            // New format: multiple inspirations
+            const titles = story.inspired_by.map(t => `<em>${escapeHtml(t)}</em>`);
+            inspirationText = `Inspired by ${titles.slice(0, -1).join(', ')}${titles.length > 1 ? ' & ' : ''}${titles[titles.length - 1]}`;
+        } else {
+            // Old format: single inspiration
+            inspirationText = `Inspired by <em>${escapeHtml(story.inspired_by)}</em> by ${escapeHtml(story.author)}`;
+        }
+
         elements.storyMeta.innerHTML = `
             <span class="inspiration">
-                Inspired by <em>${escapeHtml(story.inspired_by)}</em>
-                by ${escapeHtml(story.author)}
+                ${inspirationText}
             </span>
             <span class="type-badge ${typeClass}">${typeLabel}</span>
         `;
