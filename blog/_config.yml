@@ -23,8 +23,10 @@ exclude:
   - Gemfile.lock
   - README.md
   - .gitignore
-  - vendor
+  - vendor/
+  - vendor/bundle/
   - .bundle
+  - node_modules
 
 # Collections
 collections:
