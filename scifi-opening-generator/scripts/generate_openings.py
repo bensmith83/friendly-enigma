@@ -212,24 +212,37 @@ def get_claude_response(prompt: str, api_key: str) -> str:
     return ""
 
 
-def generate_opening_prompt(work: dict, is_opening: bool = True) -> str:
-    """Create a prompt for generating an opening or ending."""
+def generate_opening_prompt(works: list[dict], is_opening: bool = True) -> str:
+    """Create a prompt for generating an opening or ending, blending multiple inspirations."""
     style = random.choice(STYLE_ELEMENTS)
     theme = random.choice(THEMES)
+    secondary_theme = random.choice([t for t in THEMES if t != theme])
     page_type = "opening" if is_opening else "ending"
 
-    prompt = f"""You are a masterful science fiction author inspired by the works of {work['author']},
-particularly their award-winning novel "{work['title']}".
+    # Format the list of inspirations
+    inspirations = []
+    for w in works:
+        inspirations.append(f'"{w["title"]}" by {w["author"]}')
+    inspiration_list = ", ".join(inspirations[:-1]) + f", and {inspirations[-1]}" if len(inspirations) > 1 else inspirations[0]
 
-Write a compelling {page_type} page for an original science fiction story in the style of {style},
-exploring the theme of {theme}.
+    prompt = f"""You are a masterful science fiction author creating an original work that synthesizes
+influences from multiple award-winning novels: {inspiration_list}.
+
+Write a compelling {page_type} page for a completely original science fiction story. Draw inspiration
+from the tone, prose style, and thematic depth of these works, but create something entirely new—not
+a pastiche or retelling of any single source.
+
+Style: {style}
+Primary theme: {theme}
+Secondary thread: {secondary_theme}
 
 Requirements:
 - Write exactly one page (about 250-300 words)
-- Create an original story, not a retelling of "{work['title']}"
+- Create wholly original characters, settings, and situations
+- Blend influences subtly—a reader familiar with the source works might sense echoes, but this should stand alone
 - {"Hook the reader immediately with intrigue, action, or mystery" if is_opening else "Provide a satisfying, thought-provoking conclusion that resonates"}
-- Use vivid, sensory prose
-- {"Introduce an intriguing character or situation" if is_opening else "Leave the reader with a lasting emotional impact"}
+- Use vivid, sensory prose with a distinctive voice
+- {"Introduce an intriguing character or situation that raises questions" if is_opening else "Leave the reader with a lasting emotional impact and thematic resonance"}
 
 Write only the {page_type} page, no titles or explanations:"""
 
@@ -283,42 +296,48 @@ def generate_content(
 
     # Generate openings
     for i in range(openings_needed):
-        work = random.choice(AWARD_WINNING_WORKS)
-        prompt = generate_opening_prompt(work, is_opening=True)
+        # Select 3-4 random works to blend as inspiration
+        num_inspirations = random.randint(3, 4)
+        works = random.sample(AWARD_WINNING_WORKS, num_inspirations)
+        prompt = generate_opening_prompt(works, is_opening=True)
 
         try:
             text = api_func(prompt)
             if text:
                 entry = {
                     "text": text,
-                    "inspired_by": work["title"],
-                    "author": work["author"],
+                    "inspired_by": [w["title"] for w in works],
+                    "authors": [w["author"] for w in works],
                     "type": "opening",
                     "generated_at": datetime.utcnow().isoformat(),
                 }
                 cache.setdefault("openings", []).append(entry)
-                print(f"Generated opening {i+1}/{openings_needed} (inspired by {work['title']})")
+                titles = ", ".join(w["title"] for w in works[:2]) + "..."
+                print(f"Generated opening {i+1}/{openings_needed} (inspired by {titles})")
         except Exception as e:
             print(f"Error generating opening: {e}")
             continue
 
     # Generate endings
     for i in range(endings_needed):
-        work = random.choice(AWARD_WINNING_WORKS)
-        prompt = generate_opening_prompt(work, is_opening=False)
+        # Select 3-4 random works to blend as inspiration
+        num_inspirations = random.randint(3, 4)
+        works = random.sample(AWARD_WINNING_WORKS, num_inspirations)
+        prompt = generate_opening_prompt(works, is_opening=False)
 
         try:
             text = api_func(prompt)
             if text:
                 entry = {
                     "text": text,
-                    "inspired_by": work["title"],
-                    "author": work["author"],
+                    "inspired_by": [w["title"] for w in works],
+                    "authors": [w["author"] for w in works],
                     "type": "ending",
                     "generated_at": datetime.utcnow().isoformat(),
                 }
                 cache.setdefault("endings", []).append(entry)
-                print(f"Generated ending {i+1}/{endings_needed} (inspired by {work['title']})")
+                titles = ", ".join(w["title"] for w in works[:2]) + "..."
+                print(f"Generated ending {i+1}/{endings_needed} (inspired by {titles})")
         except Exception as e:
             print(f"Error generating ending: {e}")
             continue
