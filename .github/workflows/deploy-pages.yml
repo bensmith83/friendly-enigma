@@ -119,19 +119,19 @@ jobs:
               <div class="container">
                   <h1>My Projects</h1>
                   <div class="projects">
-                      <a href="/blog/" class="project-link">
+                      <a href="/friendly-enigma/blog/" class="project-link">
                           <div class="project-title">📝 Blog</div>
                           <div class="project-desc">Personal blog with thoughts, quotes, and links</div>
                       </a>
-                      <a href="/arxiv-scraper/" class="project-link">
+                      <a href="/friendly-enigma/arxiv-scraper/" class="project-link">
                           <div class="project-title">📚 ArXiv Papers</div>
                           <div class="project-desc">Daily curated AI and Cybersecurity research papers</div>
                       </a>
-                      <a href="/cvss-converter/" class="project-link">
+                      <a href="/friendly-enigma/cvss-converter/" class="project-link">
                           <div class="project-title">🔐 CVSS Converter</div>
                           <div class="project-desc">Convert between CVSS v3.x and v4.0 vulnerability scores</div>
                       </a>
-                      <a href="/scifi-opening-generator/" class="project-link">
+                      <a href="/friendly-enigma/scifi-opening-generator/" class="project-link">
                           <div class="project-title">🚀 Sci-Fi Opening Generator</div>
                           <div class="project-desc">Random compelling sci-fi story openings inspired by award-winning novels</div>
                       </a>
