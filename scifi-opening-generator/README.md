@@ -17,7 +17,7 @@ A web app that displays compelling sci-fi story openings and endings, inspired b
 
 1. **Content Generation** (GitHub Actions)
    - Runs weekly via scheduled workflow
-   - Uses Hugging Face Inference API (free tier) or OpenAI
+   - Supports Claude (Anthropic), OpenAI, or Hugging Face APIs
    - Generates 5 new openings and 5 new endings per run
    - Caches up to 50 of each type
 
@@ -44,20 +44,26 @@ Content is inspired by 80+ Nebula and Hugo award-winning novels and novellas, in
 
 ### API Key Configuration
 
-The content generation script supports two LLM providers:
+The content generation script supports three LLM providers (checked in this order):
 
-#### Option 1: Hugging Face (Free Tier)
+#### Option 1: Claude (Anthropic)
 
-1. Create a free account at [huggingface.co](https://huggingface.co)
-2. Generate an access token at Settings → Access Tokens
-3. Add the token as a GitHub Secret:
+1. Get an API key from [console.anthropic.com](https://console.anthropic.com)
+2. Add as GitHub Secret:
    - Go to repo Settings → Secrets and variables → Actions
-   - Add new secret: `HF_TOKEN` = your token
+   - Add new secret: `ANTHROPIC_API_KEY` = your key
+3. Uses Claude 3 Haiku by default for cost efficiency
 
 #### Option 2: OpenAI
 
 1. Get an API key from [platform.openai.com](https://platform.openai.com)
 2. Add as GitHub Secret: `OPENAI_API_KEY` = your key
+
+#### Option 3: Hugging Face (Free Tier)
+
+1. Create a free account at [huggingface.co](https://huggingface.co)
+2. Generate an access token at Settings → Access Tokens
+3. Add as GitHub Secret: `HF_TOKEN` = your token
 
 ### Manual Content Generation
 
@@ -65,7 +71,11 @@ To generate content locally:
 
 ```bash
 cd scifi-opening-generator/scripts
-export HF_TOKEN="your-token-here"  # or OPENAI_API_KEY
+# Use one of:
+export ANTHROPIC_API_KEY="your-key-here"
+# or: export OPENAI_API_KEY="your-key-here"
+# or: export HF_TOKEN="your-token-here"
+
 python generate_openings.py
 ```
 

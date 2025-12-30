@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate compelling sci-fi opening and ending pages using award-winning novels
-as inspiration. Uses Hugging Face Inference API (free tier) or OpenAI.
+as inspiration. Uses Hugging Face Inference API (free tier), OpenAI, or Claude.
 """
 
 import json
@@ -186,6 +186,32 @@ def get_openai_response(prompt: str, api_key: str) -> str:
     return result["choices"][0]["message"]["content"].strip()
 
 
+def get_claude_response(prompt: str, api_key: str) -> str:
+    """Call Anthropic Claude API."""
+    api_url = "https://api.anthropic.com/v1/messages"
+
+    headers = {
+        "x-api-key": api_key,
+        "anthropic-version": "2023-06-01",
+        "Content-Type": "application/json",
+    }
+
+    payload = {
+        "model": "claude-3-haiku-20240307",  # Using Haiku for cost efficiency
+        "max_tokens": 600,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+
+    response = requests.post(api_url, headers=headers, json=payload, timeout=60)
+    response.raise_for_status()
+
+    result = response.json()
+    # Claude returns content as a list of content blocks
+    if result.get("content") and len(result["content"]) > 0:
+        return result["content"][0].get("text", "").strip()
+    return ""
+
+
 def generate_opening_prompt(work: dict, is_opening: bool = True) -> str:
     """Create a prompt for generating an opening or ending."""
     style = random.choice(STYLE_ELEMENTS)
@@ -250,6 +276,8 @@ def generate_content(
     # Select API function
     if api_type == "openai":
         api_func = lambda p: get_openai_response(p, api_token)
+    elif api_type == "claude":
+        api_func = lambda p: get_claude_response(p, api_token)
     else:
         api_func = lambda p: get_huggingface_response(p, api_token)
 
@@ -306,19 +334,23 @@ def generate_content(
 
 
 def main():
-    # Check for API tokens
-    hf_token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_TOKEN")
+    # Check for API tokens (in order of preference)
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY")
     openai_key = os.environ.get("OPENAI_API_KEY")
+    hf_token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_TOKEN")
 
-    if hf_token:
-        print("Using Hugging Face API")
-        generate_content(hf_token, api_type="huggingface", num_to_generate=5)
+    if anthropic_key:
+        print("Using Claude API (Anthropic)")
+        generate_content(anthropic_key, api_type="claude", num_to_generate=5)
     elif openai_key:
         print("Using OpenAI API")
         generate_content(openai_key, api_type="openai", num_to_generate=5)
+    elif hf_token:
+        print("Using Hugging Face API")
+        generate_content(hf_token, api_type="huggingface", num_to_generate=5)
     else:
         print("Error: No API token found!")
-        print("Set either HF_TOKEN (Hugging Face) or OPENAI_API_KEY environment variable")
+        print("Set one of: ANTHROPIC_API_KEY, OPENAI_API_KEY, or HF_TOKEN")
         sys.exit(1)
 
 
