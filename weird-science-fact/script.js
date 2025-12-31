@@ -1,12 +1,17 @@
 /**
- * Weird Science Fact Generator
+ * Weird Science Fact Generator - Cached Version
  *
  * Security features:
- * - Client-side rate limiting (localStorage)
- * - API calls through secure proxy (Cloudflare Worker)
+ * - No API keys exposed (facts pre-generated via GitHub Actions)
  * - Content sanitization before display
- * - No direct API key exposure
- * - Prompt injection prevention through structured API calls
+ * - CSP headers prevent XSS
+ * - LocalStorage caching reduces network requests
+ * - Global rate limiting via limited cache size
+ *
+ * Cost control:
+ * - Zero cost during user visits (cached facts)
+ * - API costs only during scheduled generation
+ * - Predictable budget (N facts × cost per fact)
  */
 
 (function() {
@@ -14,35 +19,23 @@
 
     // Configuration
     const CONFIG = {
-        // IMPORTANT: Set this to your Cloudflare Worker URL after deployment
-        // Example: 'https://weird-science-fact.your-subdomain.workers.dev'
-        apiEndpoint: 'YOUR_CLOUDFLARE_WORKER_URL_HERE',
-
-        // Rate limiting configuration
-        rateLimit: {
-            maxRequests: 5,              // Max requests per time window
-            timeWindow: 60 * 60 * 1000,  // 1 hour in milliseconds
-            storageKey: 'weird-science-rate-limit'
-        },
-
-        // LocalStorage keys
-        storageKeys: {
-            rateLimit: 'weird-science-rate-limit',
-            lastFact: 'weird-science-last-fact'
-        }
+        dataUrl: 'data/facts.json',
+        cacheKey: 'weird-science-cache',
+        cacheExpiry: 24 * 60 * 60 * 1000, // 24 hours
+        historyKey: 'weird-science-history',
+        historySize: 20, // Remember last N shown facts
     };
 
     // State
     let state = {
-        isGenerating: false,
-        currentStep: 0,
-        rateLimitData: null
+        data: null,
+        history: [],
+        currentFact: null,
     };
 
     // DOM Elements
     const elements = {
         generateBtn: document.getElementById('btn-generate'),
-        rateLimitInfo: document.getElementById('rate-limit-info'),
         progressContainer: document.getElementById('progress-container'),
         errorContainer: document.getElementById('error-container'),
         errorMessage: document.getElementById('error-message'),
@@ -51,320 +44,359 @@
         factImage: document.getElementById('fact-image'),
         imageStatus: document.getElementById('image-status'),
         verificationBadge: document.getElementById('verification-badge'),
-        step1: document.getElementById('step-1'),
-        step2: document.getElementById('step-2'),
-        step3: document.getElementById('step-3')
     };
 
     /**
      * Initialize the application
      */
-    function init() {
-        loadRateLimitData();
-        updateRateLimitDisplay();
+    async function init() {
+        loadHistory();
+        await loadData();
         setupEventListeners();
-        loadLastFact();
 
-        // Check if API endpoint is configured
-        if (CONFIG.apiEndpoint === 'YOUR_CLOUDFLARE_WORKER_URL_HERE') {
-            showError('⚙️ Configuration needed: Please set up your Cloudflare Worker endpoint in script.js. See README.md for instructions.');
-            elements.generateBtn.disabled = true;
+        // Display a random fact on load
+        if (state.data && state.data.facts.length > 0) {
+            displayRandomFact();
         }
     }
 
     /**
-     * Load rate limit data from localStorage
+     * Load data from cache or fetch from server
      */
-    function loadRateLimitData() {
+    async function loadData() {
+        // Try to load from localStorage cache first
+        const cached = loadFromCache();
+        if (cached) {
+            state.data = cached;
+            updateLastUpdatedDisplay();
+            return;
+        }
+
+        // Fetch fresh data
         try {
-            const stored = localStorage.getItem(CONFIG.storageKeys.rateLimit);
-            if (stored) {
-                state.rateLimitData = JSON.parse(stored);
-                // Clean up old requests outside the time window
-                const now = Date.now();
-                state.rateLimitData.requests = state.rateLimitData.requests.filter(
-                    timestamp => now - timestamp < CONFIG.rateLimit.timeWindow
-                );
-            } else {
-                state.rateLimitData = { requests: [] };
+            showLoading('Loading science facts...');
+            const response = await fetch(CONFIG.dataUrl);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            state.data = await response.json();
+            saveToCache(state.data);
+            updateLastUpdatedDisplay();
+            hideLoading();
+
+        } catch (error) {
+            console.error('Failed to load data:', error);
+            showError('Unable to load science facts. Please refresh the page or try again later.');
+        }
+    }
+
+    /**
+     * Load data from localStorage cache if valid
+     */
+    function loadFromCache() {
+        try {
+            const cached = localStorage.getItem(CONFIG.cacheKey);
+            if (!cached) return null;
+
+            const { data, timestamp } = JSON.parse(cached);
+            const now = Date.now();
+
+            // Check if cache is expired
+            if (now - timestamp > CONFIG.cacheExpiry) {
+                localStorage.removeItem(CONFIG.cacheKey);
+                return null;
+            }
+
+            return data;
+        } catch (error) {
+            console.error('Cache read error:', error);
+            return null;
+        }
+    }
+
+    /**
+     * Save data to localStorage cache
+     */
+    function saveToCache(data) {
+        try {
+            const cacheData = {
+                data: data,
+                timestamp: Date.now(),
+            };
+            localStorage.setItem(CONFIG.cacheKey, JSON.stringify(cacheData));
+        } catch (error) {
+            console.error('Cache write error:', error);
+        }
+    }
+
+    /**
+     * Load viewing history from localStorage
+     */
+    function loadHistory() {
+        try {
+            const saved = localStorage.getItem(CONFIG.historyKey);
+            if (saved) {
+                state.history = JSON.parse(saved);
             }
         } catch (error) {
-            console.error('Error loading rate limit data:', error);
-            state.rateLimitData = { requests: [] };
+            console.error('History load error:', error);
+            state.history = [];
         }
     }
 
     /**
-     * Save rate limit data to localStorage
+     * Save viewing history to localStorage
      */
-    function saveRateLimitData() {
+    function saveHistory() {
         try {
-            localStorage.setItem(
-                CONFIG.storageKeys.rateLimit,
-                JSON.stringify(state.rateLimitData)
-            );
+            localStorage.setItem(CONFIG.historyKey, JSON.stringify(state.history));
         } catch (error) {
-            console.error('Error saving rate limit data:', error);
+            console.error('History save error:', error);
         }
     }
 
     /**
-     * Check if rate limit is exceeded
+     * Add fact ID to history
      */
-    function isRateLimited() {
-        const now = Date.now();
-        const recentRequests = state.rateLimitData.requests.filter(
-            timestamp => now - timestamp < CONFIG.rateLimit.timeWindow
-        );
-        return recentRequests.length >= CONFIG.rateLimit.maxRequests;
-    }
-
-    /**
-     * Record a new request
-     */
-    function recordRequest() {
-        state.rateLimitData.requests.push(Date.now());
-        saveRateLimitData();
-    }
-
-    /**
-     * Get time until rate limit resets
-     */
-    function getTimeUntilReset() {
-        if (state.rateLimitData.requests.length === 0) {
-            return 0;
+    function addToHistory(factId) {
+        state.history.push(factId);
+        // Keep only recent items
+        if (state.history.length > CONFIG.historySize) {
+            state.history = state.history.slice(-CONFIG.historySize);
         }
-        const oldestRequest = Math.min(...state.rateLimitData.requests);
-        const resetTime = oldestRequest + CONFIG.rateLimit.timeWindow;
-        const now = Date.now();
-        return Math.max(0, resetTime - now);
+        saveHistory();
     }
 
     /**
-     * Update rate limit display
+     * Get random fact that hasn't been shown recently
      */
-    function updateRateLimitDisplay() {
-        const now = Date.now();
-        const recentRequests = state.rateLimitData.requests.filter(
-            timestamp => now - timestamp < CONFIG.rateLimit.timeWindow
-        );
-        const remaining = CONFIG.rateLimit.maxRequests - recentRequests.length;
-
-        if (remaining <= 0) {
-            const timeUntilReset = getTimeUntilReset();
-            const minutes = Math.ceil(timeUntilReset / (60 * 1000));
-            elements.rateLimitInfo.textContent = `⏳ Rate limit reached. Reset in ${minutes} minute${minutes !== 1 ? 's' : ''}`;
-            elements.rateLimitInfo.className = 'rate-limit-info error';
-        } else if (remaining <= 2) {
-            elements.rateLimitInfo.textContent = `⚠️ ${remaining} request${remaining !== 1 ? 's' : ''} remaining this hour`;
-            elements.rateLimitInfo.className = 'rate-limit-info warning';
-        } else {
-            elements.rateLimitInfo.textContent = `✓ ${remaining} requests remaining this hour`;
-            elements.rateLimitInfo.className = 'rate-limit-info';
+    function getRandomFact() {
+        if (!state.data || !state.data.facts || state.data.facts.length === 0) {
+            return null;
         }
+
+        const facts = state.data.facts;
+
+        // Filter out recently shown facts
+        const availableFacts = facts.filter(fact => !state.history.includes(fact.id));
+
+        // If all facts have been shown, reset history for a fresh start
+        const factsToChooseFrom = availableFacts.length > 0 ? availableFacts : facts;
+
+        // Clear history if we're starting fresh
+        if (availableFacts.length === 0) {
+            state.history = [];
+        }
+
+        // Get random fact
+        const randomIndex = Math.floor(Math.random() * factsToChooseFrom.length);
+        const fact = factsToChooseFrom[randomIndex];
+
+        // Add to history
+        addToHistory(fact.id);
+
+        return fact;
+    }
+
+    /**
+     * Display a random fact
+     */
+    function displayRandomFact() {
+        const fact = getRandomFact();
+
+        if (!fact) {
+            showError('No facts available. Please check back later.');
+            return;
+        }
+
+        state.currentFact = fact;
+
+        // Simulate loading for better UX (facts load instantly from cache)
+        showSimulatedProgress(() => {
+            displayFact(fact);
+        });
+    }
+
+    /**
+     * Display a fact
+     */
+    function displayFact(fact) {
+        hideError();
+
+        // Show verification badge
+        elements.verificationBadge.style.display = 'inline-flex';
+
+        // Display fact text
+        elements.factContainer.innerHTML = `
+            <div class="fact-text">
+                ${escapeHtml(fact.text)}
+            </div>
+            <div class="fact-meta">
+                <p><strong>Verification:</strong> ${escapeHtml(fact.verification_note)}</p>
+                <p><strong>Confidence:</strong> ${escapeHtml(fact.confidence)}</p>
+            </div>
+        `;
+
+        // Generate and display placeholder image with the description
+        const placeholderImage = createPlaceholderImage(fact.image_description);
+        elements.factImage.src = placeholderImage;
+        elements.factImage.alt = `Illustration: ${fact.text}`;
+        elements.imageStatus.innerHTML = `
+            <strong>AI-Generated Image Description:</strong><br>
+            ${escapeHtml(fact.image_description)}<br>
+            <em class="note">💡 Integrate an image generation API to show actual images (see README.md)</em>
+        `;
+        elements.imageContainer.style.display = 'block';
+    }
+
+    /**
+     * Create a placeholder SVG image with description
+     */
+    function createPlaceholderImage(description) {
+        const escapedDesc = escapeHtml(description);
+        const svg = `<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#1e2442;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#0a0e27;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <rect width="800" height="600" fill="url(#grad)"/>
+            <text x="400" y="280" font-family="Arial, sans-serif" font-size="20" fill="#00d4ff" text-anchor="middle" font-weight="bold">
+                <tspan x="400" dy="0">🎨 Image Placeholder</tspan>
+            </text>
+            <foreignObject x="50" y="320" width="700" height="250">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial; font-size: 14px; color: #a0aec0; text-align: center; padding: 20px; line-height: 1.6;">
+                    <strong style="color: #00d4ff;">AI-Generated Description:</strong><br><br>
+                    ${escapedDesc}
+                </div>
+            </foreignObject>
+        </svg>`;
+
+        return `data:image/svg+xml;base64,${btoa(svg)}`;
+    }
+
+    /**
+     * Show simulated progress (facts load instantly but we simulate for UX)
+     */
+    function showSimulatedProgress(callback) {
+        elements.progressContainer.style.display = 'flex';
+        elements.factContainer.innerHTML = '';
+        elements.imageContainer.style.display = 'none';
+        elements.verificationBadge.style.display = 'none';
+
+        const steps = [
+            { element: document.getElementById('step-1'), delay: 300 },
+            { element: document.getElementById('step-2'), delay: 600 },
+            { element: document.getElementById('step-3'), delay: 900 },
+        ];
+
+        let currentStep = 0;
+
+        function animateStep() {
+            if (currentStep >= steps.length) {
+                elements.progressContainer.style.display = 'none';
+                resetSteps();
+                callback();
+                return;
+            }
+
+            const step = steps[currentStep];
+            step.element.classList.add('active');
+            step.element.querySelector('.step-status').textContent = 'in progress';
+
+            setTimeout(() => {
+                step.element.classList.remove('active');
+                step.element.classList.add('completed');
+                step.element.querySelector('.step-status').textContent = 'completed';
+                currentStep++;
+                setTimeout(animateStep, 200);
+            }, step.delay);
+        }
+
+        animateStep();
+    }
+
+    /**
+     * Reset progress step indicators
+     */
+    function resetSteps() {
+        const steps = [
+            document.getElementById('step-1'),
+            document.getElementById('step-2'),
+            document.getElementById('step-3'),
+        ];
+
+        steps.forEach(step => {
+            step.classList.remove('active', 'completed');
+            step.querySelector('.step-status').textContent = 'pending';
+        });
     }
 
     /**
      * Setup event listeners
      */
     function setupEventListeners() {
-        elements.generateBtn.addEventListener('click', handleGenerate);
-    }
+        elements.generateBtn.addEventListener('click', () => {
+            displayRandomFact();
+        });
 
-    /**
-     * Handle generate button click
-     */
-    async function handleGenerate() {
-        // Check rate limit
-        if (isRateLimited()) {
-            const timeUntilReset = getTimeUntilReset();
-            const minutes = Math.ceil(timeUntilReset / (60 * 1000));
-            showError(`You've reached the rate limit of ${CONFIG.rateLimit.maxRequests} requests per hour. Please try again in ${minutes} minute${minutes !== 1 ? 's' : ''}.`);
-            return;
-        }
-
-        // Start generation process
-        state.isGenerating = true;
-        elements.generateBtn.disabled = true;
-        hideError();
-        hideContent();
-        showProgress();
-
-        try {
-            // Record this request
-            recordRequest();
-            updateRateLimitDisplay();
-
-            // Step 1: Generate weird science fact
-            setStepActive(1);
-            const fact = await generateWeirdFact();
-            setStepCompleted(1);
-
-            // Step 2: Fact-check the claim
-            setStepActive(2);
-            const verification = await verifyFact(fact);
-            setStepCompleted(2);
-
-            // Only proceed to image generation if fact is verified
-            if (!verification.isTrue) {
-                showError(`Fact-check failed: ${verification.reason}. The generated fact was not scientifically accurate. Please try again.`);
-                resetProgress();
+        // Keyboard shortcut: Space or R to generate new fact
+        document.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
                 return;
             }
 
-            // Step 3: Generate image
-            setStepActive(3);
-            const imageUrl = await generateImage(fact);
-            setStepCompleted(3);
-
-            // Display results
-            displayResults(fact, verification, imageUrl);
-
-            // Save to localStorage for reload
-            saveLastFact({ fact, verification, imageUrl });
-
-        } catch (error) {
-            console.error('Generation error:', error);
-            showError(`Error: ${error.message || 'Failed to generate science fact. Please try again.'}`);
-            resetProgress();
-        } finally {
-            state.isGenerating = false;
-            elements.generateBtn.disabled = false;
-        }
-    }
-
-    /**
-     * Call API endpoint
-     */
-    async function callAPI(endpoint, data) {
-        const response = await fetch(`${CONFIG.apiEndpoint}${endpoint}`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data)
+            if (e.key === ' ' || e.key.toLowerCase() === 'r') {
+                e.preventDefault();
+                elements.generateBtn.click();
+            }
         });
-
-        if (!response.ok) {
-            const errorData = await response.json().catch(() => ({}));
-            throw new Error(errorData.error || `API error: ${response.status}`);
-        }
-
-        return await response.json();
     }
 
     /**
-     * Generate a weird science fact
+     * Update last updated display
      */
-    async function generateWeirdFact() {
-        const result = await callAPI('/generate-fact', {
-            timestamp: Date.now() // Helps prevent caching
-        });
-        return result.fact;
-    }
+    function updateLastUpdatedDisplay() {
+        if (!state.data || !state.data.metadata) return;
 
-    /**
-     * Verify if the fact is true
-     */
-    async function verifyFact(fact) {
-        const result = await callAPI('/verify-fact', {
-            fact: fact
-        });
-        return {
-            isTrue: result.isTrue,
-            confidence: result.confidence,
-            reason: result.reason
-        };
-    }
+        const lastUpdated = new Date(state.data.metadata.last_updated);
+        const factCount = state.data.metadata.total_facts || state.data.facts.length;
 
-    /**
-     * Generate an image for the fact
-     */
-    async function generateImage(fact) {
-        const result = await callAPI('/generate-image', {
-            fact: fact
-        });
-        return result.imageUrl;
-    }
-
-    /**
-     * Set step as active
-     */
-    function setStepActive(stepNumber) {
-        const step = stepNumber === 1 ? elements.step1 : stepNumber === 2 ? elements.step2 : elements.step3;
-        step.classList.add('active');
-        step.classList.remove('completed');
-        const status = step.querySelector('.step-status');
-        status.textContent = 'in progress';
-    }
-
-    /**
-     * Set step as completed
-     */
-    function setStepCompleted(stepNumber) {
-        const step = stepNumber === 1 ? elements.step1 : stepNumber === 2 ? elements.step2 : elements.step3;
-        step.classList.remove('active');
-        step.classList.add('completed');
-        const status = step.querySelector('.step-status');
-        status.textContent = 'completed';
-    }
-
-    /**
-     * Reset progress indicators
-     */
-    function resetProgress() {
-        [elements.step1, elements.step2, elements.step3].forEach(step => {
-            step.classList.remove('active', 'completed');
-            const status = step.querySelector('.step-status');
-            status.textContent = 'pending';
-        });
-        elements.progressContainer.style.display = 'none';
-    }
-
-    /**
-     * Show progress container
-     */
-    function showProgress() {
-        elements.progressContainer.style.display = 'flex';
-        resetProgress();
-    }
-
-    /**
-     * Hide all content areas
-     */
-    function hideContent() {
-        elements.factContainer.innerHTML = '';
-        elements.imageContainer.style.display = 'none';
-        elements.verificationBadge.style.display = 'none';
-    }
-
-    /**
-     * Display results
-     */
-    function displayResults(fact, verification, imageUrl) {
-        // Hide progress
-        elements.progressContainer.style.display = 'none';
-
-        // Show verification badge
-        elements.verificationBadge.style.display = 'inline-flex';
-
-        // Display fact
-        elements.factContainer.innerHTML = `
-            <div class="fact-text">
-                ${escapeHtml(fact)}
-            </div>
-            <div class="fact-meta">
-                <p><strong>Verification:</strong> ${escapeHtml(verification.reason)}</p>
-                <p><strong>Confidence:</strong> ${escapeHtml(verification.confidence)}</p>
-            </div>
+        // Update button text or add info
+        const infoDiv = document.createElement('div');
+        infoDiv.className = 'cache-info';
+        infoDiv.innerHTML = `
+            <small>
+                💾 Cache: ${factCount} facts |
+                🔄 Updated: ${lastUpdated.toLocaleDateString()}
+            </small>
         `;
 
-        // Display image
-        if (imageUrl) {
-            elements.factImage.src = imageUrl;
-            elements.factImage.alt = `Illustration of: ${fact}`;
-            elements.imageStatus.textContent = '🎨 AI-generated illustration';
-            elements.imageContainer.style.display = 'block';
+        const controlsDiv = document.querySelector('.controls');
+        const existingInfo = controlsDiv.querySelector('.cache-info');
+        if (existingInfo) {
+            existingInfo.remove();
+        }
+        controlsDiv.appendChild(infoDiv);
+    }
+
+    /**
+     * Show loading message
+     */
+    function showLoading(message) {
+        elements.factContainer.innerHTML = `<p class="loading">${escapeHtml(message)}</p>`;
+    }
+
+    /**
+     * Hide loading
+     */
+    function hideLoading() {
+        const loading = elements.factContainer.querySelector('.loading');
+        if (loading) {
+            loading.remove();
         }
     }
 
@@ -390,36 +422,6 @@
         const div = document.createElement('div');
         div.textContent = text;
         return div.innerHTML;
-    }
-
-    /**
-     * Save last fact to localStorage
-     */
-    function saveLastFact(data) {
-        try {
-            localStorage.setItem(CONFIG.storageKeys.lastFact, JSON.stringify(data));
-        } catch (error) {
-            console.error('Error saving last fact:', error);
-        }
-    }
-
-    /**
-     * Load last fact from localStorage
-     */
-    function loadLastFact() {
-        try {
-            const stored = localStorage.getItem(CONFIG.storageKeys.lastFact);
-            if (stored) {
-                const data = JSON.parse(stored);
-                // Only show if it's relatively recent (within 24 hours)
-                const age = Date.now() - (data.timestamp || 0);
-                if (age < 24 * 60 * 60 * 1000) {
-                    displayResults(data.fact, data.verification, data.imageUrl);
-                }
-            }
-        } catch (error) {
-            console.error('Error loading last fact:', error);
-        }
     }
 
     // Initialize on DOM ready

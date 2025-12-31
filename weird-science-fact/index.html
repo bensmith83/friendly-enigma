@@ -25,12 +25,10 @@
         </header>
 
         <div class="controls">
-            <button id="btn-generate" class="control-btn generate-btn" aria-label="Generate new weird science fact">
-                <span class="generate-icon">✨</span> Generate Weird Fact
+            <button id="btn-generate" class="control-btn generate-btn" aria-label="Show next weird science fact">
+                <span class="generate-icon">✨</span> Next Weird Fact
             </button>
-            <div class="rate-limit-info" id="rate-limit-info">
-                <!-- Populated by JavaScript -->
-            </div>
+            <!-- Cache info populated by JavaScript -->
         </div>
 
         <!-- Multi-step progress indicator -->
@@ -103,11 +101,12 @@
             </ol>
 
             <details>
-                <summary>🔒 Security & Rate Limiting</summary>
+                <summary>🔒 Security & Cost Control</summary>
                 <ul class="security-list">
-                    <li><strong>Rate Limiting:</strong> 5 requests per hour per visitor to control API costs</li>
-                    <li><strong>API Key Protection:</strong> Your API key never touches the browser - it's stored securely in Cloudflare Workers</li>
-                    <li><strong>Prompt Injection Prevention:</strong> Structured API calls prevent LLM jacking</li>
+                    <li><strong>Zero User Costs:</strong> All facts pre-generated during weekly GitHub Actions runs</li>
+                    <li><strong>API Key Protection:</strong> API key only used in secure GitHub Actions environment, never exposed to browsers</li>
+                    <li><strong>Global Rate Limiting:</strong> Limited cache size (50 facts) prevents unlimited API costs</li>
+                    <li><strong>Prompt Injection Prevention:</strong> Structured prompts, no user input to LLM</li>
                     <li><strong>CSP Headers:</strong> Content Security Policy prevents XSS attacks</li>
                     <li><strong>Input Sanitization:</strong> All content is escaped before display</li>
                 </ul>
@@ -117,10 +116,11 @@
                 <summary>⚙️ Technical Details</summary>
                 <ul class="tech-list">
                     <li><strong>Frontend:</strong> Pure HTML/CSS/JavaScript (no frameworks)</li>
-                    <li><strong>Backend:</strong> Cloudflare Workers for serverless API proxy</li>
-                    <li><strong>AI Models:</strong> Claude API for fact generation & checking, image generation API for visuals</li>
-                    <li><strong>Hosting:</strong> GitHub Pages (static frontend) + Cloudflare Workers (API proxy)</li>
-                    <li><strong>Security:</strong> Multi-layer protection against abuse and attacks</li>
+                    <li><strong>Backend:</strong> GitHub Actions for scheduled fact generation</li>
+                    <li><strong>AI:</strong> Claude API for fact generation, verification & image descriptions</li>
+                    <li><strong>Hosting:</strong> GitHub Pages (fully static, no server required)</li>
+                    <li><strong>Caching:</strong> Facts cached in JSON, updated weekly automatically</li>
+                    <li><strong>Cost:</strong> Predictable and minimal (only during scheduled generation)</li>
                 </ul>
             </details>
         </section>

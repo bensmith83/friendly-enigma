@@ -1,0 +1,55 @@
+{
+  "facts": [
+    {
+      "id": 1,
+      "text": "Octopuses have three hearts and blue blood. Two hearts pump blood to the gills, while the third pumps it to the rest of the body. Their blood is blue because it uses copper-based hemocyanin instead of iron-based hemoglobin.",
+      "verified": true,
+      "confidence": "High",
+      "verification_note": "Well-documented biological fact. Hemocyanin is more efficient at transporting oxygen in cold, low-oxygen environments.",
+      "image_description": "A detailed anatomical cross-section of an octopus showing three beating hearts in translucent blue, with one central heart and two gill hearts. Blue blood vessels glow throughout the body against a deep ocean background. Scientific illustration style with labels.",
+      "generated_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "text": "There are more trees on Earth than stars in the Milky Way galaxy. Scientists estimate about 3 trillion trees exist on our planet, while the Milky Way contains roughly 100-400 billion stars.",
+      "verified": true,
+      "confidence": "High",
+      "verification_note": "Based on 2015 Yale study published in Nature and current astronomical estimates of Milky Way star count.",
+      "image_description": "A split-screen cosmic illustration: left side shows countless trees from an aerial view forming patterns like stars, right side shows the spiral Milky Way galaxy. The tree count (3 trillion) glows above Earth while star count (400 billion) glows in space. Surreal comparison in vibrant colors.",
+      "generated_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "text": "A day on Venus is longer than a year on Venus. Venus takes 243 Earth days to rotate once on its axis, but only 225 Earth days to orbit the Sun.",
+      "verified": true,
+      "confidence": "High",
+      "verification_note": "Venus has the slowest rotation of any planet in our solar system and rotates in the opposite direction to most planets.",
+      "image_description": "Venus shown with clock faces and calendar pages orbiting around it. One clock shows 243 days (rotation) moving slower than a calendar showing 225 days (orbit around the Sun in background). Time flows in opposite directions with swirling sulfuric acid clouds. Scientific yet surreal style.",
+      "generated_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "text": "Honey never spoils. Archaeologists have found 3,000-year-old honey in ancient Egyptian tombs that was still perfectly edible. Its low moisture content and acidic pH create an environment where bacteria cannot survive.",
+      "verified": true,
+      "confidence": "High",
+      "verification_note": "Well-documented archaeological and chemical fact. Honey's unique properties make it nearly eternal.",
+      "image_description": "An ancient Egyptian tomb with golden jars of honey glowing with eternal light. A modern scientist in protective gear carefully examines a 3000-year-old honey jar, with microscopic views showing no bacterial growth. Warm golden tones contrasted with cool tomb stones.",
+      "generated_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "text": "Your brain uses about 20% of your body's total energy despite being only 2% of your body weight. It consumes roughly 320 calories per day just to maintain basic functions.",
+      "verified": true,
+      "confidence": "High",
+      "verification_note": "Well-established neuroscience fact. The brain's high energy consumption is due to maintaining ion gradients and neurotransmitter production.",
+      "image_description": "A glowing brain floating in darkness with energy streams flowing into it from the body below. Percentage indicators show 20% energy consumption vs 2% body weight. Neural networks pulse with electrical activity. Scientific visualization with bioluminescent effects.",
+      "generated_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "metadata": {
+    "total_facts": 5,
+    "last_updated": "2024-01-01T00:00:00Z",
+    "version": "1.0",
+    "note": "This is a placeholder cache. Run the GitHub Actions workflow to generate fresh facts with Claude API."
+  }
+}

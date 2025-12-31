@@ -1,307 +1,313 @@
 # 🧪 Weird Science Fact Generator
 
-An AI-powered web application that generates bizarre science facts, verifies them, and creates AI-generated illustrations. Built with security, cost control, and user experience as top priorities.
+An AI-powered web application that displays bizarre science facts that have been AI-generated, fact-checked, and illustrated. Built with security, cost control, and user experience as top priorities.
 
 ## ✨ Features
 
-- **Multi-Stage AI Pipeline**: Three separate AI calls for generation, verification, and visualization
-- **Fact-Checking**: Independent AI judge verifies each fact before displaying
-- **AI-Generated Images**: Text-to-image generation for visual representation (placeholder included)
-- **Rate Limiting**: Client and server-side rate limiting to control API costs
-- **Security First**: Multiple layers of protection against common web vulnerabilities
-- **Progressive UX**: Step-by-step visual feedback during the 15-30 second generation process
-- **Responsive Design**: Works on desktop, tablet, and mobile devices
+- **Pre-Generated Cache**: Facts generated weekly via GitHub Actions, served instantly
+- **Multi-Stage AI Pipeline**: Each fact goes through generation → verification → illustration
+- **Independent Fact-Checking**: Separate AI judge verifies each fact
+- **AI Image Descriptions**: Detailed visual descriptions for each fact
+- **Zero Setup Required**: Works entirely on GitHub Pages, no external services needed
+- **Predictable Costs**: All API calls happen during scheduled builds, not user visits
+- **Security First**: Multiple layers of protection against common vulnerabilities
 
-## 🔒 Security Features
-
-This project implements comprehensive security measures:
-
-### Prevented Attacks
-
-1. **LLM Jacking / Prompt Injection**
-   - Structured API calls with predefined prompts
-   - Input sanitization in the backend
-   - No user-provided prompts
-   - Separate fact-checking without original context
-
-2. **API Key Exposure**
-   - API keys stored only in Cloudflare Workers (serverless backend)
-   - Never transmitted to client
-   - Environment variables for key management
-
-3. **Cross-Site Scripting (XSS)**
-   - Content Security Policy (CSP) headers
-   - HTML escaping before display
-   - No inline scripts or styles
-
-4. **Cross-Origin Resource Sharing (CORS)**
-   - Whitelist of allowed origins
-   - Proper CORS headers
-   - Origin verification on backend
-
-5. **Rate Limiting & DoS**
-   - Client-side: 5 requests per hour per browser
-   - Server-side: IP-based rate limiting
-   - Cloudflare's built-in DDoS protection
-
-6. **Data Validation**
-   - Input length limits
-   - Type checking
-   - Sanitization of all user-provided data
-
-### Security Headers
+## 🏗️ Architecture (Much Simpler!)
 
 ```
-Content-Security-Policy: default-src 'self'; script-src 'self'; ...
-X-Content-Type-Options: nosniff
-X-Frame-Options: DENY
-X-XSS-Protection: 1; mode=block
-```
-
-## 🏗️ Architecture
-
-```
-┌─────────────────┐
-│  GitHub Pages   │  Static hosting (HTML/CSS/JS)
-│   (Frontend)    │  Client-side rate limiting
-└────────┬────────┘  Content sanitization
-         │
-         │ HTTPS
+┌──────────────────┐
+│  GitHub Actions  │  Weekly scheduled job
+│  (Fact Generator)│  - Generates 50 facts
+└────────┬─────────┘  - Fact-checks each
+         │            - Creates descriptions
+         │            - Saves to data/facts.json
          ▼
-┌─────────────────┐
-│ Cloudflare      │  API proxy & security layer
-│    Worker       │  Server-side rate limiting
-│   (Backend)     │  API key protection
-└────────┬────────┘  Input sanitization
-         │
-         │ HTTPS + API Key
-         ▼
-┌─────────────────┐
-│  Claude API     │  AI fact generation
-│                 │  AI fact verification
-│                 │  Image description generation
-└─────────────────┘
-         │
-         │ (Optional)
-         ▼
-┌─────────────────┐
-│  Image Gen API  │  DALL-E / Stable Diffusion
-│  (Future)       │  Text-to-image generation
-└─────────────────┘
+┌──────────────────┐
+│  GitHub Pages    │  Static hosting
+│  (Frontend)      │  - Loads facts instantly
+└──────────────────┘  - No API calls
+                      - Zero cost to users
 ```
+
+**Benefits of This Approach:**
+- ✅ No Cloudflare/Vercel/AWS setup needed
+- ✅ API costs only during scheduled builds
+- ✅ Instant page loads (cached facts)
+- ✅ Global rate limiting built-in (50 facts max)
+- ✅ Works 100% on GitHub infrastructure
 
 ## 🚀 Setup Instructions
 
-### Prerequisites
+### Step 1: Add Claude API Key to GitHub Secrets
 
-- Claude API key from [Anthropic Console](https://console.anthropic.com/)
-- Cloudflare account (free tier works)
-- Node.js 16+ (for deploying Cloudflare Worker)
-- Git and GitHub account
+1. Go to your repository settings
+2. Navigate to **Secrets and variables → Actions**
+3. Click **New repository secret**
+4. Name: `CLAUDE_API_KEY`
+5. Value: Your Claude API key from https://console.anthropic.com/
 
-### Step 1: Deploy Cloudflare Worker
+### Step 2: Enable GitHub Actions
 
-See detailed instructions in [`cloudflare-worker/DEPLOYMENT.md`](./cloudflare-worker/DEPLOYMENT.md)
+The workflow is already configured! It will:
+- Run automatically every Sunday at 2 AM UTC
+- Generate 50 verified science facts
+- Update `data/facts.json`
+- Commit changes back to the repository
 
-Quick version:
-```bash
-cd cloudflare-worker
-npm install
-wrangler login
-wrangler secret put CLAUDE_API_KEY
-npm run deploy
-```
-
-### Step 2: Configure Frontend
-
-Update `script.js` with your Worker URL:
-
-```javascript
-const CONFIG = {
-    apiEndpoint: 'https://weird-science-fact-api.YOUR-SUBDOMAIN.workers.dev',
-    // ...
-};
-```
+**Manual trigger:**
+- Go to **Actions** tab
+- Select "Generate Science Facts"
+- Click "Run workflow"
+- Optionally specify number of facts (default: 50)
 
 ### Step 3: Deploy to GitHub Pages
 
-The GitHub Actions workflow automatically deploys the site when you push to `main`.
+Already configured! The main `deploy-pages.yml` workflow will automatically deploy when you push to `main`.
 
-1. Commit your changes
-2. Push to `main` branch
-3. Go to Settings → Pages → Source: GitHub Actions
-4. Access at: `https://YOUR-USERNAME.github.io/friendly-enigma/weird-science-fact/`
+### That's It!
 
-### Step 4: Test
+No other setup required. No Cloudflare, no Vercel, no external services.
 
-Visit your deployed site and click "Generate Weird Fact"
+## 💰 Cost Analysis
+
+### Predictable and Minimal
+
+**Weekly Generation (50 facts):**
+- 50 facts × 3 API calls each = 150 API calls
+- Estimated tokens: ~30,000 input + ~10,000 output
+- Cost per week: **~$0.50-1.00**
+- Cost per month: **~$2-4**
+- Cost per year: **~$24-48**
+
+**User Visits:**
+- Cost: **$0** (facts served from static cache)
+- No per-user charges
+- No surprise bills
+- Works offline after first load
+
+### Cost Control Features
+
+✅ **Limited Cache Size**: Max 50 facts prevents runaway generation
+✅ **Scheduled Generation**: Only runs weekly, not on demand
+✅ **Fact Verification**: Failed facts don't consume image generation costs
+✅ **Retry Limits**: Max 3 retries per API call
+✅ **GitHub Actions Limits**: Free tier includes 2,000 minutes/month
+
+## 🔒 Security Features
+
+### API Key Protection
+- API key stored as GitHub Secret
+- Never exposed to browser or frontend code
+- Only accessible during GitHub Actions runs
+- Environment variable access only
+
+### Prompt Injection Prevention
+- Structured prompts (no user input)
+- Separate contexts for generation and verification
+- Input sanitization in generator script
+- Length limits on all LLM outputs
+
+### Frontend Security
+- Content Security Policy headers
+- HTML escaping before display
+- No inline scripts or styles
+- CORS not needed (static files only)
+
+### Supply Chain Security
+- Minimal dependencies (@anthropic-ai/sdk only)
+- Dependabot enabled for updates
+- No CDN dependencies
+- All code in version control
+
+## 📊 How It Works
+
+### Weekly Fact Generation (GitHub Actions)
+
+```bash
+# The workflow runs: scripts/generate-facts.js
+
+For each fact (up to 50):
+  1. Generate weird science fact (Claude API)
+  2. Fact-check independently (Claude API)
+  3. If verified:
+     - Generate image description (Claude API)
+     - Add to facts array
+  4. If not verified:
+     - Skip and try next fact
+
+Save all verified facts to data/facts.json
+Commit and push to repository
+```
+
+### User Experience (Frontend)
+
+```javascript
+1. Page loads
+2. Fetch data/facts.json (instant from cache)
+3. Display random fact
+4. User clicks "Next Weird Fact"
+5. Show different random fact from cache
+6. Avoid recently shown facts (history tracking)
+7. When all facts seen, reset history
+```
+
+## 🔧 Customization
+
+### Adjust Generation Schedule
+
+Edit `.github/workflows/generate-science-facts.yml`:
+
+```yaml
+schedule:
+  # Daily at 3 AM
+  - cron: '0 3 * * *'
+
+  # Every Monday at 8 AM
+  - cron: '0 8 * * 1'
+
+  # Twice weekly (Monday and Thursday)
+  - cron: '0 8 * * 1,4'
+```
+
+### Change Fact Count
+
+Edit the workflow file or use manual trigger with custom count:
+- Actions → Generate Science Facts → Run workflow
+- Enter desired count (e.g., 100)
+
+### Modify AI Prompts
+
+Edit `scripts/generate-facts.js`:
+- `generateFact()` - Adjust fact generation style
+- `verifyFact()` - Modify fact-checking criteria
+- `generateImageDescription()` - Change description style
+
+### Customize Frontend
+
+Edit `script.js`:
+- `CONFIG.historySize` - How many facts to remember
+- `CONFIG.cacheExpiry` - How long to cache data
 
 ## 🎨 Adding Real Image Generation
 
-The current implementation includes a placeholder for image generation. To add real images:
+The current implementation includes AI-generated image descriptions. To add actual images:
 
-### Option 1: DALL-E (OpenAI)
+### Option 1: Generate During GitHub Actions
+
+Add image generation to `scripts/generate-facts.js`:
 
 ```javascript
-async function generateImage(fact) {
+async function generateImage(description) {
     const response = await fetch('https://api.openai.com/v1/images/generations', {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer ${OPENAI_API_KEY}`,
+            'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            prompt: `Scientific illustration of: ${fact}`,
+            prompt: description,
             n: 1,
             size: "1024x1024"
         })
     });
 
     const data = await response.json();
-    return { imageUrl: data.data[0].url };
+    return data.data[0].url; // Or download and commit image
 }
 ```
 
-### Option 2: Stability AI
+### Option 2: Use Stable Diffusion or Other APIs
 
-```javascript
-async function generateImage(fact) {
-    const response = await fetch('https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image', {
-        method: 'POST',
-        headers: {
-            'Authorization': `Bearer ${STABILITY_API_KEY}`,
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            text_prompts: [{ text: `Scientific illustration: ${fact}` }],
-            cfg_scale: 7,
-            steps: 30,
-            samples: 1
-        })
-    });
-
-    const data = await response.json();
-    return { imageUrl: `data:image/png;base64,${data.artifacts[0].base64}` };
-}
-```
-
-### Option 3: Replicate
-
-```javascript
-// See: https://replicate.com/stability-ai/sdxl
-const response = await fetch('https://api.replicate.com/v1/predictions', {
-    method: 'POST',
-    headers: {
-        'Authorization': `Token ${REPLICATE_API_KEY}`,
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-        version: "sdxl-model-version-id",
-        input: { prompt: fact }
-    })
-});
-```
-
-## 📊 Cost Analysis
-
-### Cloudflare Workers
-- **Free Tier**: 100,000 requests/day
-- **Paid**: $5/month for 10M requests
-- **This App**: With rate limiting, free tier is sufficient for most uses
-
-### Claude API (Sonnet 3.5)
-- **Input**: $3 / 1M tokens
-- **Output**: $15 / 1M tokens
-- **Per Generation** (3 calls):
-  - Fact generation: ~100 tokens in, ~50 tokens out = $0.0008
-  - Fact checking: ~150 tokens in, ~100 tokens out = $0.0020
-  - Image description: ~150 tokens in, ~50 tokens out = $0.0012
-  - **Total per generation: ~$0.004** (less than half a cent)
-
-### With Rate Limiting (5 req/hour/user)
-- **Max cost per user per day**: 120 requests × $0.004 = **$0.48**
-- **Realistic usage**: 5-10 requests/user/day = **$0.02-0.04**
-- **100 users**: ~$2-4 per day = **$60-120/month**
-
-### Cost Control Measures
-✅ Client-side rate limiting (5/hour)
-✅ Server-side rate limiting (IP-based)
-✅ Request validation and rejection
-✅ Cloudflare's free tier DDoS protection
-✅ No long-context conversations (single-shot prompts)
-
-## 🔧 Customization
-
-### Adjust Rate Limits
-
-In `script.js`:
-```javascript
-rateLimit: {
-    maxRequests: 5,              // Requests per window
-    timeWindow: 60 * 60 * 1000,  // Time window (ms)
-}
-```
-
-In `cloudflare-worker/worker.js`:
-```javascript
-RATE_LIMIT: {
-    MAX_REQUESTS: 5,
-    WINDOW_MS: 60 * 60 * 1000
-}
-```
-
-### Modify AI Behavior
-
-Edit prompts in `worker.js`:
-- `generateFact()` - Adjust fact generation style
-- `verifyFact()` - Modify fact-checking criteria
-- `generateImage()` - Change image description style
-
-### Styling
-
-Edit `styles.css`:
-- CSS variables in `:root` for colors
-- Responsive breakpoints in media queries
-- Animation speeds and effects
+Similar integration - generate during Actions, save URLs or download images to repository.
 
 ## 🐛 Troubleshooting
 
-### "Configuration needed" error
-- Update `CONFIG.apiEndpoint` in `script.js` with your Worker URL
+### Facts not generating
 
-### "Rate limit exceeded"
-- Wait for the time window to expire (shown in UI)
-- Or adjust rate limits in both frontend and backend
+1. Check GitHub Actions tab for workflow runs
+2. Verify `CLAUDE_API_KEY` secret is set
+3. Check workflow logs for errors
+4. Ensure you have Claude API credits
 
-### CORS errors
-- Verify `ALLOWED_ORIGINS` in `worker.js` includes your GitHub Pages URL
-- Check browser console for specific error messages
+### Old facts showing
 
-### "Claude API error"
-- Verify API key is set correctly: `wrangler secret put CLAUDE_API_KEY`
-- Check Claude API status: https://status.anthropic.com/
-- Verify account has credits: https://console.anthropic.com/
+- Clear browser localStorage
+- Or wait 24 hours for cache expiry
+- Or force refresh (Ctrl+F5)
 
-### Images not showing
-- Placeholder SVGs are shown by default
-- Implement real image generation API (see "Adding Real Image Generation")
+### Workflow failing
 
-## 📚 Technical Stack
+Common issues:
+- API key not set or expired
+- API rate limits hit
+- Node.js dependency issues
 
-- **Frontend**: Vanilla HTML/CSS/JavaScript (no frameworks)
-- **Backend**: Cloudflare Workers (serverless)
-- **AI**: Anthropic Claude 3.5 Sonnet
-- **Hosting**: GitHub Pages (static files)
-- **Deployment**: GitHub Actions
+Check workflow logs for specific error messages.
 
-## 🤝 Contributing
+## 📚 File Structure
 
-Improvements welcome! Key areas:
-- Enhanced rate limiting strategies
-- Additional security measures
-- Image generation integration
-- Accessibility improvements
-- Performance optimizations
+```
+weird-science-fact/
+├── index.html              # Frontend HTML
+├── styles.css              # Responsive CSS with animations
+├── script.js               # Frontend JavaScript
+├── data/
+│   └── facts.json          # Generated facts cache
+├── scripts/
+│   ├── generate-facts.js   # Fact generation script
+│   └── package.json        # Node.js dependencies
+└── README.md               # This file
+```
+
+## 🤝 Comparison: Before vs After
+
+### Before (Cloudflare Worker Approach)
+❌ Required Cloudflare account and setup
+❌ Separate backend deployment
+❌ Complex CORS configuration
+❌ Per-user API costs
+❌ Slow initial loads (API calls on demand)
+❌ Rate limiting complexity
+
+### After (Cached Approach)
+✅ GitHub-only infrastructure
+✅ No external services
+✅ Simple configuration
+✅ Zero per-user costs
+✅ Instant loads (cached facts)
+✅ Automatic global rate limiting
+
+## 🎯 Future Enhancements
+
+- [ ] Actual image generation integration
+- [ ] Fact categories (biology, physics, etc.)
+- [ ] Share facts on social media
+- [ ] Fact history and favorites
+- [ ] RSS feed of facts
+- [ ] Dark/light mode toggle
+- [ ] Multilingual support
+- [ ] Accessibility improvements
+
+## ⚠️ Disclaimer
+
+AI-generated facts are for entertainment and educational purposes. While fact-checked by AI, they should not be considered authoritative scientific sources. Always verify important information through peer-reviewed sources.
+
+## 📊 Workflow Schedule
+
+The fact generator runs:
+- **Automatically**: Every Sunday at 2 AM UTC
+- **Manually**: Via GitHub Actions → Run workflow
+- **On Demand**: Triggered after code changes (optional)
+
+You can adjust this schedule in the workflow file.
+
+## 💡 Tips
+
+1. **First Time Setup**: Manually trigger the workflow to generate initial facts
+2. **Cost Monitoring**: Check Claude API usage at https://console.anthropic.com/
+3. **Debugging**: Use workflow logs to see generation progress
+4. **Local Testing**: Run `node scripts/generate-facts.js` locally (with API key set)
+5. **Cache Management**: Facts update automatically, no manual intervention needed
 
 ## 📝 License
 
@@ -313,36 +319,7 @@ MIT License - feel free to use and modify
 - [CVSS Converter](../cvss-converter/) - Pure frontend security tool
 - [ArXiv Scraper](../arxiv-scraper/) - Research paper aggregation
 
-## ⚠️ Disclaimer
-
-This is an educational project demonstrating:
-- Secure API key management
-- Rate limiting implementation
-- Multi-step AI workflows
-- Progressive UX patterns
-
-AI-generated facts should not be considered authoritative scientific sources. Always verify important information through peer-reviewed sources.
-
-## 📞 Support
-
-Found a bug or have a question?
-- Check existing issues in the main repository
-- Review troubleshooting section above
-- Check Cloudflare Workers logs: `wrangler tail`
-
-## 🎯 Future Enhancements
-
-- [ ] Real image generation API integration
-- [ ] Fact categories (biology, physics, chemistry, etc.)
-- [ ] Share facts on social media
-- [ ] Fact history and favorites
-- [ ] Enhanced KV-based rate limiting
-- [ ] Analytics dashboard
-- [ ] A/B testing for different prompts
-- [ ] Multilingual support
-- [ ] Accessibility audit and improvements
-- [ ] Progressive Web App (PWA) features
-
 ---
 
-Built with ❤️ and Claude Code
+Built with ❤️ using Claude Code
+**No Cloudflare Required!** ✨

@@ -151,25 +151,21 @@ h1 {
     50% { transform: scale(1.1); }
 }
 
-/* ===== Rate Limit Info ===== */
-.rate-limit-info {
-    font-size: 0.9rem;
+/* ===== Cache Info ===== */
+.cache-info {
+    font-size: 0.85rem;
     color: var(--text-secondary);
     text-align: center;
     padding: 0.5rem 1rem;
     background: var(--bg-medium);
     border-radius: var(--border-radius);
     border: 1px solid var(--bg-light);
+    margin-top: 0.5rem;
 }
 
-.rate-limit-info.warning {
-    color: var(--warning-color);
-    border-color: var(--warning-color);
-}
-
-.rate-limit-info.error {
-    color: var(--error-color);
-    border-color: var(--error-color);
+.cache-info small {
+    display: block;
+    line-height: 1.4;
 }
 
 /* ===== Progress Container ===== */
