@@ -255,7 +255,18 @@
      * Create a placeholder SVG image with description
      */
     function createPlaceholderImage(description) {
-        const escapedDesc = escapeHtml(description);
+        // Properly escape for XML/SVG
+        const xmlEscape = (str) => {
+            return str
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&apos;');
+        };
+
+        const escapedDesc = xmlEscape(description);
+
         const svg = `<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -269,13 +280,14 @@
             </text>
             <foreignObject x="50" y="320" width="700" height="250">
                 <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial; font-size: 14px; color: #a0aec0; text-align: center; padding: 20px; line-height: 1.6;">
-                    <strong style="color: #00d4ff;">AI-Generated Description:</strong><br><br>
+                    <strong style="color: #00d4ff;">AI-Generated Description:</strong><br/><br/>
                     ${escapedDesc}
                 </div>
             </foreignObject>
         </svg>`;
 
-        return `data:image/svg+xml;base64,${btoa(svg)}`;
+        // Use URL encoding instead of base64 to avoid Unicode issues
+        return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
     }
 
     /**
