@@ -178,7 +178,7 @@ Requirements:
 Return ONLY the complete SVG code starting with <svg and ending with </svg>. No explanation or markdown.`;
 
     const response = await callClaude(prompt, {
-        max_tokens: 4000, // Increased to ensure SVGs don't get cut off
+        max_tokens: 8000, // High limit to ensure complex SVGs complete (typical SVG ~2000-3000 tokens)
         temperature: 0.8, // Higher creativity for artwork
     });
 
