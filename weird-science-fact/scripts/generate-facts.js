@@ -21,10 +21,11 @@ const path = require('path');
 const CONFIG = {
     ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
     FACT_COUNT: parseInt(process.env.FACT_COUNT || '50', 10),
-    MODEL: 'claude-3-5-sonnet-20241022',
+    MODEL: 'claude-3-5-sonnet-20240620', // Using stable June 2024 version
     OUTPUT_FILE: path.join(__dirname, '../data/facts.json'),
     MAX_RETRIES: 3,
     RETRY_DELAY: 2000,
+    MAX_CONSECUTIVE_FAILURES: 5, // Stop after 5 consecutive failures
 };
 
 // Validate configuration
@@ -250,6 +251,7 @@ async function main() {
 
     const facts = [];
     let attempts = 0;
+    let consecutiveFailures = 0;
     const maxAttempts = CONFIG.FACT_COUNT * 2; // Allow for some failures
 
     while (facts.length < CONFIG.FACT_COUNT && attempts < maxAttempts) {
@@ -260,9 +262,11 @@ async function main() {
 
             if (factEntry) {
                 facts.push(factEntry);
+                consecutiveFailures = 0; // Reset on success
                 console.log(`✅ Progress: ${facts.length}/${CONFIG.FACT_COUNT} facts generated\n`);
             } else {
-                console.log(`⚠️  Fact rejected, retrying...\n`);
+                consecutiveFailures++;
+                console.log(`⚠️  Fact rejected (${consecutiveFailures} consecutive failures), retrying...\n`);
             }
 
             // Rate limiting: small delay between facts
@@ -271,14 +275,41 @@ async function main() {
             }
 
         } catch (error) {
+            consecutiveFailures++;
             console.error(`❌ Error generating fact:`, error.message);
-            console.log(`⚠️  Continuing with next fact...\n`);
+
+            // Check if error is a model/API issue (not a transient failure)
+            if (error.message.includes('not_found_error') || error.message.includes('404')) {
+                console.error(`\n💥 FATAL: Model not found or API key doesn't have access to ${CONFIG.MODEL}`);
+                console.error(`Please check:`);
+                console.error(`  1. Your API key is valid and has credits`);
+                console.error(`  2. You have access to the model: ${CONFIG.MODEL}`);
+                console.error(`  3. Try using a different model (e.g., claude-3-haiku-20240307)\n`);
+                process.exit(1);
+            }
+
+            console.log(`⚠️  Continuing with next fact (${consecutiveFailures} consecutive failures)...\n`);
             await sleep(3000);
+        }
+
+        // Stop if too many consecutive failures
+        if (consecutiveFailures >= CONFIG.MAX_CONSECUTIVE_FAILURES) {
+            console.error(`\n💥 STOPPING: ${consecutiveFailures} consecutive failures detected`);
+            console.error(`This likely indicates a persistent API or configuration issue.`);
+            console.error(`Generated ${facts.length} facts before stopping.\n`);
+            break;
         }
     }
 
     if (facts.length < CONFIG.FACT_COUNT) {
         console.warn(`\n⚠️  Warning: Only generated ${facts.length}/${CONFIG.FACT_COUNT} facts after ${attempts} attempts`);
+    }
+
+    // Don't save empty cache
+    if (facts.length === 0) {
+        console.error('\n💥 FATAL: No facts were generated successfully');
+        console.error('The workflow will not update the cache to avoid breaking the site.\n');
+        process.exit(1);
     }
 
     // Create output data
