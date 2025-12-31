@@ -239,15 +239,30 @@
             </div>
         `;
 
-        // Generate and display placeholder image with the description
-        const placeholderImage = createPlaceholderImage(fact.image_description);
-        elements.factImage.src = placeholderImage;
+        // Display image (SVG if available, otherwise placeholder)
+        let imageUrl;
+        let statusHtml;
+
+        if (fact.image_svg) {
+            // Use Claude-generated SVG
+            imageUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(fact.image_svg)}`;
+            statusHtml = `
+                <strong>🎨 AI-Generated SVG Artwork by Claude</strong><br>
+                <em>Based on: ${escapeHtml(fact.image_description)}</em>
+            `;
+        } else {
+            // Fallback to placeholder for older facts
+            imageUrl = createPlaceholderImage(fact.image_description);
+            statusHtml = `
+                <strong>AI-Generated Image Description:</strong><br>
+                ${escapeHtml(fact.image_description)}<br>
+                <em class="note">💡 Regenerate facts to get Claude-created SVG artwork</em>
+            `;
+        }
+
+        elements.factImage.src = imageUrl;
         elements.factImage.alt = `Illustration: ${fact.text}`;
-        elements.imageStatus.innerHTML = `
-            <strong>AI-Generated Image Description:</strong><br>
-            ${escapeHtml(fact.image_description)}<br>
-            <em class="note">💡 Integrate an image generation API to show actual images (see README.md)</em>
-        `;
+        elements.imageStatus.innerHTML = statusHtml;
         elements.imageContainer.style.display = 'block';
     }
 
