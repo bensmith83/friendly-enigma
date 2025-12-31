@@ -79,10 +79,11 @@ No other setup required. No Cloudflare, no Vercel, no external services.
   - Call 2: Verify fact (~300 tokens)
   - Call 3: Image description (~300 tokens)
   - Call 4: SVG artwork (~2000 tokens for SVG code)
+- Using **Claude 3 Haiku** (fast & affordable)
 - Estimated tokens: ~45,000 input + ~15,000 output
-- Cost per week: **~$0.75-1.50**
-- Cost per month: **~$3-6**
-- Cost per year: **~$36-72**
+- Cost per week: **~$0.25-0.50** 🎉
+- Cost per month: **~$1-2** 🎉
+- Cost per year: **~$12-24** 🎉
 
 **User Visits:**
 - Cost: **$0** (facts served from static cache)
