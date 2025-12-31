@@ -10,7 +10,7 @@
  * - Rate limiting via fact count
  *
  * Usage:
- *   CLAUDE_API_KEY=your_key FACT_COUNT=50 node generate-facts.js
+ *   ANTHROPIC_API_KEY=your_key FACT_COUNT=50 node generate-facts.js
  */
 
 const Anthropic = require('@anthropic-ai/sdk');
@@ -19,7 +19,7 @@ const path = require('path');
 
 // Configuration
 const CONFIG = {
-    CLAUDE_API_KEY: process.env.CLAUDE_API_KEY,
+    ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
     FACT_COUNT: parseInt(process.env.FACT_COUNT || '50', 10),
     MODEL: 'claude-3-5-sonnet-20241022',
     OUTPUT_FILE: path.join(__dirname, '../data/facts.json'),
@@ -28,13 +28,13 @@ const CONFIG = {
 };
 
 // Validate configuration
-if (!CONFIG.CLAUDE_API_KEY) {
-    console.error('❌ Error: CLAUDE_API_KEY environment variable is required');
+if (!CONFIG.ANTHROPIC_API_KEY) {
+    console.error('❌ Error: ANTHROPIC_API_KEY environment variable is required');
     process.exit(1);
 }
 
 const anthropic = new Anthropic({
-    apiKey: CONFIG.CLAUDE_API_KEY,
+    apiKey: CONFIG.ANTHROPIC_API_KEY,
 });
 
 /**

@@ -40,11 +40,12 @@ An AI-powered web application that displays bizarre science facts that have been
 
 ### Step 1: Add Claude API Key to GitHub Secrets
 
+✅ **Already configured!** Your repository already has `ANTHROPIC_API_KEY` set, which the workflow uses automatically.
+
+If you need to update it:
 1. Go to your repository settings
 2. Navigate to **Secrets and variables → Actions**
-3. Click **New repository secret**
-4. Name: `CLAUDE_API_KEY`
-5. Value: Your Claude API key from https://console.anthropic.com/
+3. Update the existing `ANTHROPIC_API_KEY` secret
 
 ### Step 2: Enable GitHub Actions
 
@@ -225,7 +226,7 @@ Similar integration - generate during Actions, save URLs or download images to r
 ### Facts not generating
 
 1. Check GitHub Actions tab for workflow runs
-2. Verify `CLAUDE_API_KEY` secret is set
+2. Verify `ANTHROPIC_API_KEY` secret is set
 3. Check workflow logs for errors
 4. Ensure you have Claude API credits
 
@@ -306,7 +307,7 @@ You can adjust this schedule in the workflow file.
 1. **First Time Setup**: Manually trigger the workflow to generate initial facts
 2. **Cost Monitoring**: Check Claude API usage at https://console.anthropic.com/
 3. **Debugging**: Use workflow logs to see generation progress
-4. **Local Testing**: Run `node scripts/generate-facts.js` locally (with API key set)
+4. **Local Testing**: Run `ANTHROPIC_API_KEY=your_key node scripts/generate-facts.js` locally
 5. **Cache Management**: Facts update automatically, no manual intervention needed
 
 ## 📝 License
