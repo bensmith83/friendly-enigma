@@ -1,0 +1,21 @@
+{
+  "name": "weird-science-fact-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker API proxy for Weird Science Fact Generator",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "api-proxy",
+    "rate-limiting",
+    "claude-api"
+  ],
+  "license": "MIT"
+}
