@@ -20,7 +20,7 @@
     // Configuration
     const CONFIG = {
         dataUrl: 'data/facts.json',
-        cacheKey: 'weird-science-cache',
+        cacheKey: 'weird-science-cache-v2', // Bumped version to invalidate old cache
         cacheExpiry: 24 * 60 * 60 * 1000, // 24 hours
         historyKey: 'weird-science-history',
         historySize: 20, // Remember last N shown facts
