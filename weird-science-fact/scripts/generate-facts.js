@@ -178,13 +178,18 @@ Requirements:
 Return ONLY the complete SVG code starting with <svg and ending with </svg>. No explanation or markdown.`;
 
     const response = await callClaude(prompt, {
-        max_tokens: 2000,
+        max_tokens: 8000, // High limit to ensure complex SVGs complete (typical SVG ~2000-3000 tokens)
         temperature: 0.8, // Higher creativity for artwork
     });
 
     // Extract SVG code (in case Claude adds any preamble)
     let svgMatch = response.match(/<svg[\s\S]*?<\/svg>/i);
     let svg = svgMatch ? svgMatch[0] : response.trim();
+
+    // Validate SVG is complete
+    if (!svg.includes('</svg>')) {
+        throw new Error('SVG generation incomplete - missing closing tag. Try increasing max_tokens or regenerating.');
+    }
 
     // Ensure SVG has proper width/height attributes (not just viewBox)
     if (!svg.includes('width=')) {
