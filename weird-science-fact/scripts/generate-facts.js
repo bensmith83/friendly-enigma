@@ -167,14 +167,15 @@ Description: "${description}"
 Science fact: "${fact}"
 
 Requirements:
-- Create a complete, valid SVG (800x600 viewBox)
+- Create a complete, valid SVG with width="800" height="600" viewBox="0 0 800 600"
 - Use creative visual elements, gradients, and colors
 - Make it visually interesting and scientifically themed
 - Include relevant shapes, icons, or abstract representations
 - Use a color palette that fits the theme
 - No text/labels needed (the fact will be displayed separately)
+- Make sure to include xmlns="http://www.w3.org/2000/svg"
 
-Return ONLY the complete SVG code starting with <svg> and ending with </svg>. No explanation or markdown.`;
+Return ONLY the complete SVG code starting with <svg and ending with </svg>. No explanation or markdown.`;
 
     const response = await callClaude(prompt, {
         max_tokens: 2000,
@@ -182,8 +183,15 @@ Return ONLY the complete SVG code starting with <svg> and ending with </svg>. No
     });
 
     // Extract SVG code (in case Claude adds any preamble)
-    const svgMatch = response.match(/<svg[\s\S]*<\/svg>/i);
-    return svgMatch ? svgMatch[0] : response.trim();
+    let svgMatch = response.match(/<svg[\s\S]*?<\/svg>/i);
+    let svg = svgMatch ? svgMatch[0] : response.trim();
+
+    // Ensure SVG has proper width/height attributes (not just viewBox)
+    if (!svg.includes('width=')) {
+        svg = svg.replace('<svg', '<svg width="800" height="600"');
+    }
+
+    return svg;
 }
 
 /**

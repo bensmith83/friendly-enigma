@@ -18,6 +18,12 @@ on:
       - 'cvss-converter/**'
       - 'scifi-opening-generator/**'
       - 'weird-science-fact/**'
+  workflow_run:
+    workflows: ["Generate Science Facts"]
+    types:
+      - completed
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
