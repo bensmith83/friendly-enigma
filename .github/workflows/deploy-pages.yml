@@ -9,11 +9,15 @@ on:
       - 'blog/**'
       - 'arxiv-scraper/**'
       - 'cvss-converter/**'
+      - 'scifi-opening-generator/**'
+      - 'weird-science-fact/**'
   pull_request:
     paths:
       - 'blog/**'
       - 'arxiv-scraper/**'
       - 'cvss-converter/**'
+      - 'scifi-opening-generator/**'
+      - 'weird-science-fact/**'
   workflow_dispatch:
 
 permissions:
@@ -38,6 +42,8 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
           working-directory: ./blog
+        env:
+          BUNDLE_PATH: ${{ github.workspace }}/.bundle-gems
 
       - name: Setup Pages
         id: pages
@@ -48,6 +54,7 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}/blog"
         env:
           JEKYLL_ENV: production
+          BUNDLE_PATH: ${{ github.workspace }}/.bundle-gems
 
       - name: Create combined site
         run: |
@@ -62,6 +69,12 @@ jobs:
 
           # Copy cvss-converter to /cvss-converter subdirectory
           cp -r cvss-converter _site/cvss-converter
+
+          # Copy scifi-opening-generator to /scifi-opening-generator subdirectory
+          cp -r scifi-opening-generator _site/scifi-opening-generator
+
+          # Copy weird-science-fact to /weird-science-fact subdirectory
+          cp -r weird-science-fact _site/weird-science-fact
 
           # Create index.html that redirects to blog or provides navigation
           cat > _site/index.html << 'EOF'
@@ -111,17 +124,25 @@ jobs:
               <div class="container">
                   <h1>My Projects</h1>
                   <div class="projects">
-                      <a href="/blog/" class="project-link">
+                      <a href="/friendly-enigma/blog/" class="project-link">
                           <div class="project-title">📝 Blog</div>
                           <div class="project-desc">Personal blog with thoughts, quotes, and links</div>
                       </a>
-                      <a href="/arxiv-scraper/" class="project-link">
+                      <a href="/friendly-enigma/arxiv-scraper/" class="project-link">
                           <div class="project-title">📚 ArXiv Papers</div>
                           <div class="project-desc">Daily curated AI and Cybersecurity research papers</div>
                       </a>
-                      <a href="/cvss-converter/" class="project-link">
+                      <a href="/friendly-enigma/cvss-converter/" class="project-link">
                           <div class="project-title">🔐 CVSS Converter</div>
                           <div class="project-desc">Convert between CVSS v3.x and v4.0 vulnerability scores</div>
+                      </a>
+                      <a href="/friendly-enigma/scifi-opening-generator/" class="project-link">
+                          <div class="project-title">🚀 Sci-Fi Opening Generator</div>
+                          <div class="project-desc">Random compelling sci-fi story openings inspired by award-winning novels</div>
+                      </a>
+                      <a href="/friendly-enigma/weird-science-fact/" class="project-link">
+                          <div class="project-title">🧪 Weird Science Fact Generator</div>
+                          <div class="project-desc">AI-generated bizarre science facts, fact-checked and illustrated</div>
                       </a>
                   </div>
               </div>

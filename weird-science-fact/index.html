@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generate weird science facts verified by AI and visualized with AI-generated images">
+
+    <!-- Security headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://*.workers.dev; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <title>Weird Science Fact Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+    <main class="container">
+        <header>
+            <h1>🧪 Weird Science Fact Generator</h1>
+            <p class="subtitle">AI-generated bizarre science facts, fact-checked and illustrated</p>
+        </header>
+
+        <div class="controls">
+            <button id="btn-generate" class="control-btn generate-btn" aria-label="Show next weird science fact">
+                <span class="generate-icon">✨</span> Next Weird Fact
+            </button>
+            <!-- Cache info populated by JavaScript -->
+        </div>
+
+        <!-- Multi-step progress indicator -->
+        <div class="progress-container" id="progress-container" style="display: none;">
+            <div class="progress-step" id="step-1">
+                <div class="step-icon">🤔</div>
+                <div class="step-label">Generating fact...</div>
+                <div class="step-status">pending</div>
+            </div>
+            <div class="progress-step" id="step-2">
+                <div class="step-icon">🔍</div>
+                <div class="step-label">Fact-checking...</div>
+                <div class="step-status">pending</div>
+            </div>
+            <div class="progress-step" id="step-3">
+                <div class="step-icon">🎨</div>
+                <div class="step-label">Creating image...</div>
+                <div class="step-status">pending</div>
+            </div>
+        </div>
+
+        <!-- Error display -->
+        <div class="error-container" id="error-container" style="display: none;">
+            <div class="error-icon">⚠️</div>
+            <div class="error-message" id="error-message"></div>
+        </div>
+
+        <!-- Main content area -->
+        <article class="fact-container" id="fact-container">
+            <div class="welcome-message">
+                <div class="welcome-icon">🔬</div>
+                <h2>Welcome to the Weird Science Fact Generator!</h2>
+                <p>Click the button above to see a bizarre science fact that has been:</p>
+                <ol>
+                    <li><strong>Generated</strong> by Claude AI with maximum weirdness</li>
+                    <li><strong>Fact-checked</strong> by a separate Claude call</li>
+                    <li><strong>Illustrated</strong> with custom SVG artwork created by Claude</li>
+                </ol>
+                <p class="note">✨ All facts are pre-generated weekly and served instantly from cache!</p>
+            </div>
+        </article>
+
+        <!-- Image display area -->
+        <div class="image-container" id="image-container" style="display: none;">
+            <img id="fact-image" alt="AI-generated illustration of the science fact" />
+            <div class="image-status" id="image-status"></div>
+        </div>
+
+        <!-- Fact verification badge -->
+        <div class="verification-badge" id="verification-badge" style="display: none;">
+            <span class="badge-icon">✓</span>
+            <span class="badge-text">Fact-Checked & Verified</span>
+        </div>
+
+        <section class="info-panel">
+            <h2>How It Works</h2>
+            <p>
+                This generator uses a <strong>four-stage AI pipeline</strong> to create verified weird science facts:
+            </p>
+            <ol class="process-list">
+                <li>
+                    <strong>Generation:</strong> Claude creates a strange but potentially true science fact
+                </li>
+                <li>
+                    <strong>Verification:</strong> A separate Claude call fact-checks the claim without seeing the original prompt
+                </li>
+                <li>
+                    <strong>Description:</strong> Claude writes a detailed visual description of the fact
+                </li>
+                <li>
+                    <strong>Visualization:</strong> Claude generates custom SVG artwork to illustrate the fact
+                </li>
+            </ol>
+
+            <details>
+                <summary>🔒 Security & Cost Control</summary>
+                <ul class="security-list">
+                    <li><strong>Zero User Costs:</strong> All facts pre-generated during weekly GitHub Actions runs</li>
+                    <li><strong>API Key Protection:</strong> API key only used in secure GitHub Actions environment, never exposed to browsers</li>
+                    <li><strong>Global Rate Limiting:</strong> Limited cache size (50 facts) prevents unlimited API costs</li>
+                    <li><strong>Prompt Injection Prevention:</strong> Structured prompts, no user input to LLM</li>
+                    <li><strong>CSP Headers:</strong> Content Security Policy prevents XSS attacks</li>
+                    <li><strong>Input Sanitization:</strong> All content is escaped before display</li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>⚙️ Technical Details</summary>
+                <ul class="tech-list">
+                    <li><strong>Frontend:</strong> Pure HTML/CSS/JavaScript (no frameworks)</li>
+                    <li><strong>Backend:</strong> GitHub Actions for scheduled fact generation</li>
+                    <li><strong>AI:</strong> Claude API for fact generation, verification, descriptions & SVG artwork</li>
+                    <li><strong>Hosting:</strong> GitHub Pages (fully static, no server required)</li>
+                    <li><strong>Caching:</strong> Facts with SVG images cached in JSON, updated weekly</li>
+                    <li><strong>Cost:</strong> ~$2-4/month (4 Claude calls per fact, weekly generation)</li>
+                </ul>
+            </details>
+        </section>
+
+        <footer class="page-footer">
+            <p>
+                <a href="../" rel="noopener">← Back to Projects</a>
+            </p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
