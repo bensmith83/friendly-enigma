@@ -81,14 +81,22 @@ async function callClaude(prompt, options = {}) {
 /**
  * Generate a single weird science fact
  */
-async function generateFact() {
+async function generateFact(existingTopics = []) {
+    // Build diversity guidance
+    let diversityNote = '';
+    if (existingTopics.length > 0) {
+        const topicList = existingTopics.slice(-10).join('; '); // Last 10 topics
+        diversityNote = `\n\nAVOID these recently used topics: ${topicList}\nChoose a completely different scientific domain or phenomenon.`;
+    }
+
     const prompt = `Generate a single weird but TRUE science fact. The fact should be:
 - Bizarre, unexpected, or counter-intuitive
 - Scientifically accurate and verifiable
-- About any field of science (biology, physics, chemistry, astronomy, geology, etc.)
+- About any field of science (biology, physics, chemistry, astronomy, geology, paleontology, neuroscience, etc.)
 - Stated in 2-3 sentences maximum
 - Interesting and engaging
 - NOT about common knowledge (e.g., not "water boils at 100°C")
+- Cover DIVERSE topics (animals, space, human body, materials, phenomena, etc.)${diversityNote}
 
 Return ONLY the fact, nothing else. No preamble, no explanation, no meta-commentary.`;
 
@@ -200,15 +208,30 @@ Return ONLY the complete SVG code starting with <svg and ending with </svg>. No 
 }
 
 /**
+ * Extract topic keywords from existing facts for diversity
+ */
+function extractTopics(facts) {
+    return facts.map(f => {
+        // Extract key topic words (first 30 chars usually contains the main subject)
+        const preview = f.text.substring(0, 40).toLowerCase();
+        // Extract key nouns (simple heuristic)
+        const words = preview.split(' ').filter(w => w.length > 4);
+        return words[0] || 'topic';
+    });
+}
+
+/**
  * Generate a single complete fact entry
  */
-async function generateFactEntry(id) {
+async function generateFactEntry(id, existingFacts = []) {
     console.log(`\n🔬 Generating fact ${id}...`);
 
-    // Step 1: Generate fact
+    // Step 1: Generate fact with diversity awareness
     console.log('  1️⃣  Generating weird science fact...');
-    const fact = await generateFact();
+    const topics = extractTopics(existingFacts);
+    const fact = await generateFact(topics);
     console.log(`  ✅ Generated: "${fact.substring(0, 80)}..."`);
+
 
     // Small delay to avoid rate limiting
     await sleep(1000);
@@ -271,7 +294,7 @@ async function main() {
         attempts++;
 
         try {
-            const factEntry = await generateFactEntry(facts.length + 1);
+            const factEntry = await generateFactEntry(facts.length + 1, facts);
 
             if (factEntry) {
                 facts.push(factEntry);
