@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   generate:
@@ -61,3 +62,15 @@ jobs:
           git add scifi-opening-generator/data/openings.json
           git commit -m "Update sci-fi openings cache - $(date +'%Y-%m-%d')"
           git push
+
+      - name: Trigger deploy workflow
+        if: steps.check_changes.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy-pages.yml',
+              ref: 'main'
+            })
