@@ -53,7 +53,24 @@ jobs:
 
           git add weird-science-fact/data/facts.json
           git commit -m "Update science facts cache - $(date +'%Y-%m-%d')"
-          git push
+
+          # Pull and rebase to handle any concurrent changes
+          git pull --rebase origin main || git pull --rebase origin master
+
+          # Push with retry logic
+          for i in 1 2 3; do
+            if git push; then
+              echo "✅ Successfully pushed changes"
+              exit 0
+            else
+              echo "⚠️  Push failed, attempt $i/3. Retrying..."
+              git pull --rebase origin main || git pull --rebase origin master
+              sleep 2
+            fi
+          done
+
+          echo "❌ Failed to push after 3 attempts"
+          exit 1
 
       - name: Summary
         run: |
