@@ -156,6 +156,36 @@ Return ONLY the description, no preamble.`;
 }
 
 /**
+ * Generate SVG artwork based on description
+ */
+async function generateSVG(description, fact) {
+    const prompt = `Create an SVG image (800x600) that illustrates this concept:
+
+Description: "${description}"
+
+Science fact: "${fact}"
+
+Requirements:
+- Create a complete, valid SVG (800x600 viewBox)
+- Use creative visual elements, gradients, and colors
+- Make it visually interesting and scientifically themed
+- Include relevant shapes, icons, or abstract representations
+- Use a color palette that fits the theme
+- No text/labels needed (the fact will be displayed separately)
+
+Return ONLY the complete SVG code starting with <svg> and ending with </svg>. No explanation or markdown.`;
+
+    const response = await callClaude(prompt, {
+        max_tokens: 2000,
+        temperature: 0.8, // Higher creativity for artwork
+    });
+
+    // Extract SVG code (in case Claude adds any preamble)
+    const svgMatch = response.match(/<svg[\s\S]*<\/svg>/i);
+    return svgMatch ? svgMatch[0] : response.trim();
+}
+
+/**
  * Generate a single complete fact entry
  */
 async function generateFactEntry(id) {
@@ -188,6 +218,14 @@ async function generateFactEntry(id) {
     const imageDescription = await generateImageDescription(fact);
     console.log(`  ✅ Image description generated`);
 
+    // Small delay
+    await sleep(1000);
+
+    // Step 4: Generate SVG artwork
+    console.log('  4️⃣  Generating SVG artwork...');
+    const svgCode = await generateSVG(imageDescription, fact);
+    console.log(`  ✅ SVG artwork generated (${svgCode.length} characters)`);
+
     return {
         id,
         text: fact,
@@ -195,6 +233,7 @@ async function generateFactEntry(id) {
         confidence: verification.confidence,
         verification_note: verification.reason,
         image_description: imageDescription,
+        image_svg: svgCode,
         generated_at: new Date().toISOString(),
     };
 }

@@ -61,13 +61,13 @@
             <div class="welcome-message">
                 <div class="welcome-icon">🔬</div>
                 <h2>Welcome to the Weird Science Fact Generator!</h2>
-                <p>Click the button above to generate a bizarre science fact that will be:</p>
+                <p>Click the button above to see a bizarre science fact that has been:</p>
                 <ol>
-                    <li><strong>Generated</strong> by AI with maximum weirdness</li>
-                    <li><strong>Fact-checked</strong> by a separate AI judge</li>
-                    <li><strong>Illustrated</strong> with an AI-generated image</li>
+                    <li><strong>Generated</strong> by Claude AI with maximum weirdness</li>
+                    <li><strong>Fact-checked</strong> by a separate Claude call</li>
+                    <li><strong>Illustrated</strong> with custom SVG artwork created by Claude</li>
                 </ol>
-                <p class="note">⏱️ This process takes 15-30 seconds as we make multiple AI calls</p>
+                <p class="note">✨ All facts are pre-generated weekly and served instantly from cache!</p>
             </div>
         </article>
 
@@ -86,17 +86,20 @@
         <section class="info-panel">
             <h2>How It Works</h2>
             <p>
-                This generator uses a <strong>three-stage AI pipeline</strong> to create verified weird science facts:
+                This generator uses a <strong>four-stage AI pipeline</strong> to create verified weird science facts:
             </p>
             <ol class="process-list">
                 <li>
-                    <strong>Generation:</strong> AI creates a strange but potentially true science fact
+                    <strong>Generation:</strong> Claude creates a strange but potentially true science fact
                 </li>
                 <li>
-                    <strong>Verification:</strong> A separate AI fact-checker validates the claim without seeing the original prompt
+                    <strong>Verification:</strong> A separate Claude call fact-checks the claim without seeing the original prompt
                 </li>
                 <li>
-                    <strong>Visualization:</strong> An image AI creates an illustration of the verified fact
+                    <strong>Description:</strong> Claude writes a detailed visual description of the fact
+                </li>
+                <li>
+                    <strong>Visualization:</strong> Claude generates custom SVG artwork to illustrate the fact
                 </li>
             </ol>
 
@@ -117,10 +120,10 @@
                 <ul class="tech-list">
                     <li><strong>Frontend:</strong> Pure HTML/CSS/JavaScript (no frameworks)</li>
                     <li><strong>Backend:</strong> GitHub Actions for scheduled fact generation</li>
-                    <li><strong>AI:</strong> Claude API for fact generation, verification & image descriptions</li>
+                    <li><strong>AI:</strong> Claude API for fact generation, verification, descriptions & SVG artwork</li>
                     <li><strong>Hosting:</strong> GitHub Pages (fully static, no server required)</li>
-                    <li><strong>Caching:</strong> Facts cached in JSON, updated weekly automatically</li>
-                    <li><strong>Cost:</strong> Predictable and minimal (only during scheduled generation)</li>
+                    <li><strong>Caching:</strong> Facts with SVG images cached in JSON, updated weekly</li>
+                    <li><strong>Cost:</strong> ~$2-4/month (4 Claude calls per fact, weekly generation)</li>
                 </ul>
             </details>
         </section>
