@@ -79,11 +79,13 @@ No other setup required. No Cloudflare, no Vercel, no external services.
   - Call 2: Verify fact (~300 tokens)
   - Call 3: Image description (~300 tokens)
   - Call 4: SVG artwork (~2000 tokens for SVG code)
-- Using **Claude 3 Haiku** (fast & affordable)
+- Using **Claude Sonnet 4.5** (latest, high quality, fast)
 - Estimated tokens: ~45,000 input + ~15,000 output
-- Cost per week: **~$0.25-0.50** 🎉
-- Cost per month: **~$1-2** 🎉
-- Cost per year: **~$12-24** 🎉
+- Cost per week: **~$0.50-1.00** 🎉
+- Cost per month: **~$2-4** 🎉
+- Cost per year: **~$24-48** 🎉
+
+**Want even cheaper?** Switch to `claude-haiku-4-5` in the workflow for ~50% cost reduction!
 
 **User Visits:**
 - Cost: **$0** (facts served from static cache)
@@ -182,12 +184,19 @@ Edit the workflow file or use manual trigger with custom count:
 - Actions → Generate Science Facts → Run workflow
 - Enter desired count (e.g., 100)
 
-### Modify AI Prompts
+### Change Model
 
-Edit `scripts/generate-facts.js`:
-- `generateFact()` - Adjust fact generation style
-- `verifyFact()` - Modify fact-checking criteria
-- `generateImageDescription()` - Change description style
+Want to use a different Claude model? Edit `.github/workflows/generate-science-facts.yml`:
+
+```yaml
+env:
+  CLAUDE_MODEL: claude-sonnet-4-5  # Default: best quality
+  # Or use: claude-haiku-4-5      # Cheaper & faster
+```
+
+Model comparison:
+- **Sonnet 4.5**: Best quality, great for creative SVG generation (~$2-4/month)
+- **Haiku 4.5**: Faster and cheaper, still excellent quality (~$1-2/month)
 
 ### Customize Frontend
 

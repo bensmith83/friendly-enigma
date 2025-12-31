@@ -33,6 +33,7 @@ jobs:
       - name: Generate science facts
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: claude-sonnet-4-5  # Can also use: claude-haiku-4-5
           FACT_COUNT: ${{ github.event.inputs.fact_count || '50' }}
         run: |
           cd weird-science-fact/scripts
