@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate science facts
         env:
-          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FACT_COUNT: ${{ github.event.inputs.fact_count || '50' }}
         run: |
           cd weird-science-fact/scripts
