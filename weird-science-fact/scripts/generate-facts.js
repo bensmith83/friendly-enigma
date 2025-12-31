@@ -21,7 +21,7 @@ const path = require('path');
 const CONFIG = {
     ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
     FACT_COUNT: parseInt(process.env.FACT_COUNT || '50', 10),
-    MODEL: 'claude-3-haiku-20240307', // Haiku - widely available & much cheaper!
+    MODEL: process.env.CLAUDE_MODEL || 'claude-sonnet-4-5', // Latest Sonnet 4.5 - best balance
     OUTPUT_FILE: path.join(__dirname, '../data/facts.json'),
     MAX_RETRIES: 3,
     RETRY_DELAY: 2000,
