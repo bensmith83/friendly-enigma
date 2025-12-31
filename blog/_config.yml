@@ -6,6 +6,26 @@ email: your.email@example.com
 baseurl: "/blog"
 url: "https://bensmith83.github.io/friendly-enigma"
 
+# Social media and SEO settings
+twitter:
+  username: yourusername
+  card: summary_large_image
+
+# Default social media image (create this file or update the path)
+social:
+  name: Your Name
+  links:
+    - https://twitter.com/yourusername
+    - https://github.com/bensmith83
+
+# Default image for social sharing (will be used if post doesn't specify one)
+# Place a default-social.png in /blog/assets/images/
+logo: /blog/assets/images/logo.png
+
+# SEO tag settings
+tagline: Short thoughts, quotes, and links
+image: /blog/assets/images/default-social.png
+
 # Build settings
 markdown: kramdown
 kramdown:
