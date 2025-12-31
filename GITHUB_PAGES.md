@@ -4,19 +4,25 @@ This repository hosts multiple projects on GitHub Pages:
 
 - **Blog** (`/blog/`) - Personal blog with Jekyll
 - **ArXiv Scraper** (`/arxiv-scraper/`) - Daily curated AI and Cybersecurity papers
+- **CVSS Converter** (`/cvss-converter/`) - Convert between CVSS v3.x and v4.0 vulnerability scores
+- **Sci-Fi Opening Generator** (`/scifi-opening-generator/`) - Random compelling sci-fi story openings
+- **Weird Science Fact Generator** (`/weird-science-fact/`) - AI-generated bizarre science facts, fact-checked and illustrated
 
 ## How It Works
 
-The `deploy-pages.yml` workflow automatically builds and deploys both projects:
+The `deploy-pages.yml` workflow automatically builds and deploys all projects:
 
 1. **Blog**: Built with Jekyll and served at `/blog/`
 2. **ArXiv Scraper**: Static site served at `/arxiv-scraper/`
-3. **Landing Page**: Root (`/`) shows a navigation page to both projects
+3. **CVSS Converter**: Static site served at `/cvss-converter/`
+4. **Sci-Fi Opening Generator**: Static site served at `/scifi-opening-generator/`
+5. **Weird Science Fact Generator**: Static site served at `/weird-science-fact/`
+6. **Landing Page**: Root (`/`) shows a navigation page to all projects
 
 ## Deployment Triggers
 
 The site is automatically deployed when:
-- Changes are pushed to `main` branch in either `blog/` or `arxiv-scraper/` folders
+- Changes are pushed to `main` branch in any project folder
 - Manually triggered via workflow dispatch
 
 ## URLs
@@ -27,6 +33,7 @@ Once deployed:
 - ArXiv Scraper: `https://bensmith83.github.io/friendly-enigma/arxiv-scraper/`
 - CVSS Converter: `https://bensmith83.github.io/friendly-enigma/cvss-converter/`
 - Scifi Opening Generator: `https://bensmith83.github.io/friendly-enigma/scifi-opening-generator/`
+- Weird Science Fact Generator: `https://bensmith83.github.io/friendly-enigma/weird-science-fact/`
 
 ## Setup
 
