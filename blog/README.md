@@ -12,6 +12,7 @@ A simple, secure blog built with Jekyll and GitHub Pages. Inspired by Simon Will
 - 🔗 **Link posts**: Support for linking to external articles
 - 🏷️ **Tags**: Organize posts with tags
 - 📰 **RSS feed**: Automatically generated
+- 🌐 **Social media ready**: OpenGraph and Twitter Card metadata
 - ♿ **Accessible**: Semantic HTML, keyboard navigation
 
 ## Quick Start
@@ -141,6 +142,26 @@ Visit http://localhost:4000/blog/
 2. Navigate to "Pages"
 3. Source: "GitHub Actions"
 4. The workflow will automatically deploy on push to main
+
+## Social Media Previews
+
+Your blog automatically generates beautiful social media previews with Open Graph and Twitter Cards.
+
+**See [SOCIAL_MEDIA.md](SOCIAL_MEDIA.md) for full documentation** on:
+- How social previews work
+- Customizing per-post metadata
+- Creating custom images
+- Testing your previews
+
+**Quick example** - add to any post's front matter:
+
+```markdown
+---
+title: "My Post"
+description: "Custom description for social media"
+image: /blog/assets/images/my-image.png
+---
+```
 
 ## Security
 
