@@ -81,12 +81,15 @@ async function callClaude(prompt, options = {}) {
 /**
  * Generate a single weird science fact
  */
-async function generateFact(existingTopics = []) {
-    // Build diversity guidance
+async function generateFact(existingFacts = []) {
+    // Extract ALL subjects that are already used
+    const usedSubjects = extractAllSubjects(existingFacts);
+
     let diversityNote = '';
-    if (existingTopics.length > 0) {
-        const topicList = existingTopics.slice(-10).join('; '); // Last 10 topics
-        diversityNote = `\n\nAVOID these recently used topics: ${topicList}\nChoose a completely different scientific domain or phenomenon.`;
+    if (usedSubjects.length > 0) {
+        // Show ALL blocked subjects (limit to reasonable size for prompt)
+        const blocked = usedSubjects.slice(0, 50).join(', ');
+        diversityNote = `\n\nCRITICAL: These subjects are ALREADY USED - you MUST NOT use any of them:\n${blocked}\n\nYou must choose a completely different subject that is NOT in this list.`;
     }
 
     const prompt = `Generate a single weird but TRUE science fact. The fact should be:
@@ -95,14 +98,23 @@ async function generateFact(existingTopics = []) {
 - About any field of science (biology, physics, chemistry, astronomy, geology, paleontology, neuroscience, etc.)
 - Stated in 2-3 sentences maximum
 - Interesting and engaging
-- NOT about common knowledge (e.g., not "water boils at 100°C")
-- Cover DIVERSE topics (animals, space, human body, materials, phenomena, etc.)${diversityNote}
+- NOT about common knowledge
+- MUST be about a COMPLETELY UNIQUE subject not mentioned before${diversityNote}
 
-Return ONLY the fact, nothing else. No preamble, no explanation, no meta-commentary.`;
+IMPORTANT: Generate facts about diverse topics like:
+- Quantum mechanics, thermodynamics, electromagnetism
+- Deep sea creatures, insects, birds, fungi, bacteria
+- Planets, stars, black holes, cosmic phenomena
+- Human anatomy, brain, DNA, cells
+- Chemical reactions, elements, materials
+- Geological formations, earthquakes, volcanoes
+- Mathematical phenomena, paradoxes
+
+Return ONLY the fact, nothing else.`;
 
     const response = await callClaude(prompt, {
         max_tokens: 250,
-        temperature: 0.9, // Higher temperature for creativity
+        temperature: 0.9,
     });
 
     return response.trim();
@@ -186,7 +198,7 @@ Requirements:
 Return ONLY the complete SVG code starting with <svg and ending with </svg>. No explanation or markdown.`;
 
     const response = await callClaude(prompt, {
-        max_tokens: 8000, // High limit to ensure complex SVGs complete (typical SVG ~2000-3000 tokens)
+        max_tokens: 3500, // Balanced limit: allows complete SVGs (~2500 tokens) without excessive overhead
         temperature: 0.8, // Higher creativity for artwork
     });
 
@@ -212,12 +224,104 @@ Return ONLY the complete SVG code starting with <svg and ending with </svg>. No 
  */
 function extractTopics(facts) {
     return facts.map(f => {
-        // Extract key topic words (first 30 chars usually contains the main subject)
-        const preview = f.text.substring(0, 40).toLowerCase();
-        // Extract key nouns (simple heuristic)
-        const words = preview.split(' ').filter(w => w.length > 4);
-        return words[0] || 'topic';
+        // Extract first 50 characters which usually contains the main subject
+        const text = f.text.substring(0, 50).toLowerCase();
+        // Extract key words (nouns, animals, phenomena)
+        const words = text.split(/\s+/).filter(w => w.length > 4);
+        return words.slice(0, 3).join(' '); // Use first 3 significant words
     });
+}
+
+/**
+ * Extract ALL unique subjects from existing facts
+ */
+function extractAllSubjects(facts) {
+    const subjects = new Set();
+
+    for (const fact of facts) {
+        const text = fact.text.toLowerCase();
+
+        // Extract first 60 chars (usually contains the main subject)
+        const start = text.substring(0, 60);
+
+        // Common subject patterns: "X is/are/have/can", "The X", "A X"
+        const patterns = [
+            /^([a-z\s]+?)\s+(is|are|have|has|can|could|will|would)/,
+            /^the\s+([a-z\s]+?)\s+(is|are|have|has|can)/,
+            /^a\s+([a-z\s]+?)\s+(is|are|have|has|can)/,
+        ];
+
+        for (const pattern of patterns) {
+            const match = start.match(pattern);
+            if (match) {
+                const subject = match[1].trim();
+                // Only keep subjects with meaningful words (not just articles/prepositions)
+                if (subject.length > 3) {
+                    subjects.add(subject);
+                }
+            }
+        }
+
+        // Also extract key nouns (common science topics)
+        const words = text.split(/\s+/).slice(0, 10); // First 10 words
+        for (const word of words) {
+            if (word.length > 5) { // Longer words are usually nouns
+                subjects.add(word);
+            }
+        }
+    }
+
+    return Array.from(subjects);
+}
+
+/**
+ * Check if a new fact is too similar to existing facts
+ */
+function isSimilar(newFact, existingFacts) {
+    const newText = newFact.toLowerCase();
+
+    // Extract all subjects from existing facts
+    const existingSubjects = extractAllSubjects(existingFacts);
+
+    // Check if new fact contains ANY existing subject
+    for (const subject of existingSubjects) {
+        if (newText.includes(subject)) {
+            console.log(`    🚫 Duplicate subject detected: "${subject}"`);
+            return true;
+        }
+    }
+
+    // Also check for exact substring matches
+    for (const existing of existingFacts) {
+        const existingText = existing.text.toLowerCase();
+        const existingStart = existingText.substring(0, 40);
+        const newStart = newText.substring(0, 40);
+
+        if (newText.includes(existingStart) || existingText.includes(newStart)) {
+            console.log(`    🚫 Text overlap detected`);
+            return true;
+        }
+    }
+
+    return false;
+}
+
+/**
+ * Count topic frequency to detect overused subjects
+ */
+function getTopicCounts(facts) {
+    const counts = {};
+    for (const fact of facts) {
+        const text = fact.text.toLowerCase();
+        // Count occurrences of common topics
+        const topics = ['wombat', 'tardigrade', 'octopus', 'venus', 'honey', 'neutron', 'mantis shrimp'];
+        for (const topic of topics) {
+            if (text.includes(topic)) {
+                counts[topic] = (counts[topic] || 0) + 1;
+            }
+        }
+    }
+    return counts;
 }
 
 /**
@@ -226,12 +330,16 @@ function extractTopics(facts) {
 async function generateFactEntry(id, existingFacts = []) {
     console.log(`\n🔬 Generating fact ${id}...`);
 
-    // Step 1: Generate fact with diversity awareness
+    // Step 1: Generate fact with strict diversity checking
     console.log('  1️⃣  Generating weird science fact...');
-    const topics = extractTopics(existingFacts);
-    const fact = await generateFact(topics);
+    const fact = await generateFact(existingFacts);
     console.log(`  ✅ Generated: "${fact.substring(0, 80)}..."`);
 
+    // Check for similarity with existing facts (strict blocking)
+    if (isSimilar(fact, existingFacts)) {
+        console.log(`  ⚠️  REJECTED: Duplicate subject - will retry with different topic`);
+        return null;
+    }
 
     // Small delay to avoid rate limiting
     await sleep(1000);
