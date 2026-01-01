@@ -1,0 +1,14 @@
+{
+  "name": "science-fact-generator",
+  "version": "1.0.0",
+  "description": "Script to generate and verify science facts using Claude API",
+  "main": "generate-facts.js",
+  "scripts": {
+    "generate": "node generate-facts.js"
+  },
+  "keywords": ["science", "facts", "claude", "ai"],
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}

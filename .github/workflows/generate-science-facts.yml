@@ -1,0 +1,79 @@
+name: Generate Science Facts
+
+on:
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+    inputs:
+      fact_count:
+        description: 'Number of facts to generate'
+        required: false
+        default: '50'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  generate-facts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate science facts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: claude-sonnet-4-5  # Can also use: claude-haiku-4-5
+          FACT_COUNT: ${{ github.event.inputs.fact_count || '50' }}
+        run: |
+          cd weird-science-fact/scripts
+          npm install
+          node generate-facts.js
+
+      - name: Commit and push updated facts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Check if there are changes
+          if git diff --quiet weird-science-fact/data/facts.json; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git add weird-science-fact/data/facts.json
+          git commit -m "Update science facts cache - $(date +'%Y-%m-%d')"
+
+          # Pull and rebase to handle any concurrent changes
+          git pull --rebase origin main || git pull --rebase origin master
+
+          # Push with retry logic
+          for i in 1 2 3; do
+            if git push; then
+              echo "✅ Successfully pushed changes"
+              exit 0
+            else
+              echo "⚠️  Push failed, attempt $i/3. Retrying..."
+              git pull --rebase origin main || git pull --rebase origin master
+              sleep 2
+            fi
+          done
+
+          echo "❌ Failed to push after 3 attempts"
+          exit 1
+
+      - name: Summary
+        run: |
+          echo "✅ Science facts cache updated successfully"
+          echo "📊 Cache location: weird-science-fact/data/facts.json"
+          echo "🔄 Next scheduled update: Next Sunday at 2 AM UTC"
