@@ -10,6 +10,7 @@ on:
       - 'arxiv-scraper/**'
       - 'cvss-converter/**'
       - 'scifi-opening-generator/**'
+      - 'als-research-aggregator/**'
       - 'weird-science-fact/**'
   pull_request:
     paths:
@@ -17,6 +18,7 @@ on:
       - 'arxiv-scraper/**'
       - 'cvss-converter/**'
       - 'scifi-opening-generator/**'
+      - 'als-research-aggregator/**'
       - 'weird-science-fact/**'
   workflow_run:
     workflows: ["Generate Science Facts"]
@@ -79,6 +81,8 @@ jobs:
           # Copy scifi-opening-generator to /scifi-opening-generator subdirectory
           cp -r scifi-opening-generator _site/scifi-opening-generator
 
+          # Copy als-research-aggregator to /als-research-aggregator subdirectory
+          cp -r als-research-aggregator _site/als-research-aggregator
           # Copy weird-science-fact to /weird-science-fact subdirectory
           cp -r weird-science-fact _site/weird-science-fact
 
@@ -146,6 +150,9 @@ jobs:
                           <div class="project-title">🚀 Sci-Fi Opening Generator</div>
                           <div class="project-desc">Random compelling sci-fi story openings inspired by award-winning novels</div>
                       </a>
+                      <a href="/friendly-enigma/als-research-aggregator/" class="project-link">
+                          <div class="project-title">🔬 ALS Research Aggregator</div>
+                          <div class="project-desc">Weekly curated ALS research, news, and NJ local resources</div>
                       <a href="/friendly-enigma/weird-science-fact/" class="project-link">
                           <div class="project-title">🧪 Weird Science Fact Generator</div>
                           <div class="project-desc">AI-generated bizarre science facts, fact-checked and illustrated</div>
