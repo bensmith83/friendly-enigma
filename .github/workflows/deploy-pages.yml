@@ -19,6 +19,12 @@ on:
       - 'cvss-converter/**'
       - 'scifi-opening-generator/**'
       - 'als-research-aggregator/**'
+  # Auto-deploy after data-generating workflows complete
+  workflow_run:
+    workflows:
+      - "Scrape ArXiv Papers"
+      - "Generate Sci-Fi Content"
+      - "ALS Research Aggregator"
       - 'weird-science-fact/**'
   workflow_run:
     workflows: ["Generate Science Facts"]
@@ -26,6 +32,7 @@ on:
       - completed
     branches:
       - main
+      - master
   workflow_dispatch:
 
 permissions:
@@ -40,6 +47,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Skip if triggered by a failed workflow_run
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -174,7 +183,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    # Deploy on push to main/master or after successful workflow_run
+    if: |
+      (github.event_name == 'workflow_run') ||
+      (github.event_name == 'workflow_dispatch') ||
+      (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
