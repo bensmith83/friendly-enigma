@@ -113,12 +113,14 @@ def categorize_and_summarize_with_claude(
     # Prepare article summaries for Claude
     article_texts = []
     for i, article in enumerate(articles):
+        # Handle None values explicitly
+        description = article.get('description') or ''
         text = f"""
 Article {i + 1}:
-- Title: {article.get('title', 'No title')}
-- Source: {article.get('source_name', 'Unknown')}
-- URL: {article.get('url', '')}
-- Description: {article.get('description', '')[:500]}
+- Title: {article.get('title') or 'No title'}
+- Source: {article.get('source_name') or 'Unknown'}
+- URL: {article.get('url') or ''}
+- Description: {description[:500]}
 - Is NJ Local: {article.get('is_local_nj', False)}
 """
         article_texts.append(text)
@@ -196,7 +198,7 @@ Important: Every summary must be factual and based only on the article content. 
                 {
                     "article_index": i + 1,
                     "category": "research",
-                    "summary": article.get("description", "")[:200],
+                    "summary": (article.get("description") or "")[:200],
                     "importance": 3,
                     "key_entities": [],
                 }
@@ -222,7 +224,7 @@ def build_digest(
         idx = analysis.get("article_index", 1) - 1
         if 0 <= idx < len(articles):
             article = articles[idx].copy()
-            article["summary"] = analysis.get("summary", article.get("description", ""))
+            article["summary"] = analysis.get("summary") or article.get("description") or ""
             article["importance"] = analysis.get("importance", 3)
             article["key_entities"] = analysis.get("key_entities", [])
 
