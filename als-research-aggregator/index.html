@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALS Research Aggregator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>ALS Research Aggregator</h1>
+            <p class="subtitle">Weekly curated news on ALS research, treatments, and resources</p>
+            <p class="focus-area">Special focus: New Jersey &amp; New Brunswick area</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Digest selector -->
+        <div class="digest-selector">
+            <label for="digest-select">Select Digest:</label>
+            <select id="digest-select">
+                <option value="0">Loading...</option>
+            </select>
+        </div>
+
+        <!-- Loading state -->
+        <div id="loading" class="loading">
+            <div class="loading-spinner"></div>
+            <p>Loading digest...</p>
+        </div>
+
+        <!-- Error state -->
+        <div id="error" class="error-message" style="display: none;">
+            <h2>Unable to load digest</h2>
+            <p>Please try again later or check if digests have been generated.</p>
+        </div>
+
+        <!-- Digest content -->
+        <div id="digest-content" style="display: none;">
+            <!-- Weekly summary -->
+            <section class="weekly-summary">
+                <h2>This Week's Summary</h2>
+                <div id="summary-text" class="summary-text"></div>
+                <p class="digest-meta">
+                    <span id="digest-date"></span> &bull;
+                    <span id="article-count"></span> articles
+                </p>
+            </section>
+
+            <!-- Highlights -->
+            <section id="highlights-section" class="highlights">
+                <h2>Key Highlights</h2>
+                <div id="highlights-list" class="highlights-list"></div>
+            </section>
+
+            <!-- Category filters -->
+            <section class="category-section">
+                <h2>Browse by Category</h2>
+                <div class="category-tabs" id="category-tabs">
+                    <button class="category-tab active" data-category="all">All</button>
+                    <button class="category-tab" data-category="research">Research</button>
+                    <button class="category-tab" data-category="treatment">Treatment</button>
+                    <button class="category-tab" data-category="cure">Cure</button>
+                    <button class="category-tab" data-category="grants">Grants</button>
+                    <button class="category-tab" data-category="assistance">Assistance</button>
+                    <button class="category-tab" data-category="local">Local (NJ)</button>
+                </div>
+
+                <div id="articles-container" class="articles-container"></div>
+            </section>
+
+            <!-- References -->
+            <section class="references-section">
+                <h2>References</h2>
+                <p class="references-intro">All sources referenced in this digest:</p>
+                <ol id="references-list" class="references-list"></ol>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                This aggregator automatically collects and summarizes ALS-related news.
+                Always verify information with healthcare providers.
+            </p>
+            <p class="footer-links">
+                <a href="https://www.als.org/" target="_blank" rel="noopener">ALS Association</a> &bull;
+                <a href="https://www.ninds.nih.gov/health-information/disorders/amyotrophic-lateral-sclerosis-als" target="_blank" rel="noopener">NIH ALS Information</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

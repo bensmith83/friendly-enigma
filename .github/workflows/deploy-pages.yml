@@ -10,12 +10,14 @@ on:
       - 'arxiv-scraper/**'
       - 'cvss-converter/**'
       - 'scifi-opening-generator/**'
+      - 'als-research-aggregator/**'
   pull_request:
     paths:
       - 'blog/**'
       - 'arxiv-scraper/**'
       - 'cvss-converter/**'
       - 'scifi-opening-generator/**'
+      - 'als-research-aggregator/**'
   workflow_dispatch:
 
 permissions:
@@ -70,6 +72,9 @@ jobs:
 
           # Copy scifi-opening-generator to /scifi-opening-generator subdirectory
           cp -r scifi-opening-generator _site/scifi-opening-generator
+
+          # Copy als-research-aggregator to /als-research-aggregator subdirectory
+          cp -r als-research-aggregator _site/als-research-aggregator
 
           # Create index.html that redirects to blog or provides navigation
           cat > _site/index.html << 'EOF'
@@ -134,6 +139,10 @@ jobs:
                       <a href="/friendly-enigma/scifi-opening-generator/" class="project-link">
                           <div class="project-title">🚀 Sci-Fi Opening Generator</div>
                           <div class="project-desc">Random compelling sci-fi story openings inspired by award-winning novels</div>
+                      </a>
+                      <a href="/friendly-enigma/als-research-aggregator/" class="project-link">
+                          <div class="project-title">🔬 ALS Research Aggregator</div>
+                          <div class="project-desc">Weekly curated ALS research, news, and NJ local resources</div>
                       </a>
                   </div>
               </div>

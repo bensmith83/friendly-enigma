@@ -210,17 +210,30 @@ Claude will create a structured weekly digest with:
 
 ---
 
-## Questions for User
+## Decisions (User Confirmed)
 
-1. **Frequency:** Weekly (Sundays) works? Or prefer a different day?
+1. **Frequency:** Weekly on Sundays ✓
 
-2. **NewsAPI Key:** Are you okay signing up for a free NewsAPI.org account? (100 requests/day free, takes 2 minutes). Alternatively, we can rely on free sources only (PubMed + RSS), though coverage would be slightly less comprehensive.
+2. **NewsAPI Key:** User will sign up for free account at newsapi.org ✓
 
-3. **Priority sources:** Any specific sources your friend particularly trusts or wants prioritized? (e.g., ALS Association, certain hospitals, specific researchers)
+3. **Priority sources:** No prioritization - avoid algorithmic bias/blind spots ✓
 
-4. **Archive depth:** How many weeks of history should we keep visible? (I'd suggest 12 weeks / 3 months)
+4. **Archive depth:** Keep indefinitely ✓
 
-5. **Any additional categories** beyond: Research, Treatment, Cure, Grants, Assistance, Local?
+5. **Updates tracking:** Show when items from previous digests have updates (e.g., clinical trial from week 3 has new results in week 7)
+
+6. **Source attribution:** Every summary MUST include source link. References section at end of each digest.
+
+---
+
+## Updates Tracking Feature
+
+When processing new articles, compare against previous digests to identify:
+- Follow-up stories on the same topic/trial/study
+- New developments on previously reported items
+- Link back to original digest entry when showing updates
+
+Implementation: Hash article topics/entities, store in digest metadata, compare on each run.
 
 ---
 
