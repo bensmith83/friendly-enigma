@@ -94,14 +94,21 @@ async function generateFact(existingFacts = []) {
 
     const prompt = `Generate a single weird but TRUE science fact. The fact should be:
 - Bizarre, unexpected, or counter-intuitive
-- Scientifically accurate and verifiable
+- SCIENTIFICALLY ACCURATE - no exaggerations or embellishments
+- Verifiable from reliable scientific sources
 - About any field of science (biology, physics, chemistry, astronomy, geology, paleontology, neuroscience, etc.)
 - Stated in 2-3 sentences maximum
 - Interesting and engaging
 - NOT about common knowledge
 - MUST be about a COMPLETELY UNIQUE subject not mentioned before${diversityNote}
 
-IMPORTANT: Generate facts about diverse topics like:
+CRITICAL: Be precise with numbers, temperatures, and measurements. Do NOT exaggerate or use hyperbole.
+For example:
+- DON'T say "as hot as the sun" if it's only 4,700°C
+- DON'T say "the only" if there are multiple examples
+- DO state exact verified facts without embellishment
+
+Generate facts about diverse topics like:
 - Quantum mechanics, thermodynamics, electromagnetism
 - Deep sea creatures, insects, birds, fungi, bacteria
 - Planets, stars, black holes, cosmic phenomena
@@ -187,18 +194,18 @@ Description: "${description}"
 Science fact: "${fact}"
 
 Requirements:
-- Create a complete, valid SVG with width="800" height="600" viewBox="0 0 800 600"
-- Use creative visual elements, gradients, and colors
-- Make it visually interesting and scientifically themed
-- Include relevant shapes, icons, or abstract representations
-- Use a color palette that fits the theme
-- No text/labels needed (the fact will be displayed separately)
-- Make sure to include xmlns="http://www.w3.org/2000/svg"
+- Create a SIMPLE, complete SVG with width="800" height="600" viewBox="0 0 800 600"
+- Keep it clean and minimal - avoid excessive complexity
+- Use 3-5 main visual elements (not dozens of small details)
+- Use gradients and colors for visual interest
+- Make it scientifically themed but not overly detailed
+- Include xmlns="http://www.w3.org/2000/svg"
+- IMPORTANT: Keep it simple enough to complete within token limit
 
 Return ONLY the complete SVG code starting with <svg and ending with </svg>. No explanation or markdown.`;
 
     const response = await callClaude(prompt, {
-        max_tokens: 3500, // Balanced limit: allows complete SVGs (~2500 tokens) without excessive overhead
+        max_tokens: 3500, // Balanced limit for simple SVGs
         temperature: 0.8, // Higher creativity for artwork
     });
 
