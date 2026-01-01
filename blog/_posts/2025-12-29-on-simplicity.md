@@ -1,6 +1,7 @@
 ---
 title: "On Simplicity in Software"
 date: 2025-12-29 14:30:00 -0000
+description: "Why the best code isn't the cleverest - it's the code that separates concerns cleanly. Thoughts on simplicity in software design and building this blog."
 tags: [software, design, philosophy]
 ---
 
