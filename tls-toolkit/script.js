@@ -498,8 +498,15 @@ async function fetchCertificateFromDomain(domain) {
         // If no valid certs found, get the most recently issued one
         const certsToConsider = validCerts.length > 0 ? validCerts : data;
 
+        // Prioritize exact domain matches over wildcards
+        const exactMatches = certsToConsider.filter(cert =>
+            cert.common_name === domain || cert.common_name === `www.${domain}`
+        );
+
+        const certsToSort = exactMatches.length > 0 ? exactMatches : certsToConsider;
+
         // Sort by not_before (issue date) to get most recent
-        const latestCert = certsToConsider.sort((a, b) => {
+        const latestCert = certsToSort.sort((a, b) => {
             return new Date(b.not_before) - new Date(a.not_before);
         })[0];
 
