@@ -29,10 +29,14 @@
             <div id="handshake-tab" class="tab-content active">
                 <section class="info-section">
                     <h2>TLS Handshake Visualizer</h2>
-                    <p>Watch the TLS 1.3 handshake protocol unfold step-by-step</p>
+                    <p>Watch the TLS handshake protocol unfold step-by-step</p>
                 </section>
 
                 <div class="controls">
+                    <select id="tls-version" class="version-select">
+                        <option value="1.3">TLS 1.3</option>
+                        <option value="1.2">TLS 1.2</option>
+                    </select>
                     <button id="start-handshake" class="btn btn-primary">Start Handshake</button>
                     <button id="reset-handshake" class="btn btn-secondary">Reset</button>
                     <label class="speed-control">
@@ -95,8 +99,28 @@
             <div id="certificate-tab" class="tab-content">
                 <section class="info-section">
                     <h2>Certificate Inspector</h2>
-                    <p>Paste a PEM-encoded certificate to visualize its details and trust chain</p>
+                    <p>Fetch a certificate from any website or paste your own PEM-encoded certificate</p>
                 </section>
+
+                <div class="cert-domain-section">
+                    <label for="domain-input">
+                        <strong>Fetch from Domain:</strong>
+                    </label>
+                    <div class="domain-input-group">
+                        <input
+                            type="text"
+                            id="domain-input"
+                            placeholder="example.com"
+                            class="domain-input"
+                        >
+                        <button id="fetch-cert" class="btn btn-primary">Fetch Certificate</button>
+                    </div>
+                    <p class="input-hint">Enter a domain name to fetch its SSL/TLS certificate</p>
+                </div>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
 
                 <div class="cert-input-section">
                     <label for="cert-input">
@@ -144,7 +168,7 @@
 
         <footer>
             <p>Built with ❤️ for security enthusiasts</p>
-            <p><a href="/">← Back to Projects</a></p>
+            <p><a href="/friendly-enigma/">← Back to Projects</a></p>
         </footer>
     </div>
 

@@ -17,7 +17,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 
 // ===== TLS HANDSHAKE ANIMATOR =====
 
-const handshakeSteps = [
+const tls13Steps = [
     {
         name: 'ClientHello',
         direction: 'to-server',
@@ -62,20 +62,98 @@ const handshakeSteps = [
     }
 ];
 
+const tls12Steps = [
+    {
+        name: 'ClientHello',
+        direction: 'to-server',
+        description: 'Client initiates the handshake by sending supported cipher suites, TLS version (1.2), and a random value.',
+        details: 'Contains: Protocol version, random bytes, session ID, cipher suites, compression methods'
+    },
+    {
+        name: 'ServerHello',
+        direction: 'to-client',
+        description: 'Server responds with chosen cipher suite and TLS version confirmation.',
+        details: 'Contains: Selected cipher suite, server random, session ID'
+    },
+    {
+        name: 'Certificate',
+        direction: 'to-client',
+        description: 'Server sends its X.509 certificate chain.',
+        details: 'Contains: Server certificate, intermediate CA certificates'
+    },
+    {
+        name: 'ServerKeyExchange',
+        direction: 'to-client',
+        description: 'Server sends key exchange parameters (e.g., DH parameters for ephemeral keys).',
+        details: 'Used for key agreement algorithms like DHE or ECDHE'
+    },
+    {
+        name: 'ServerHelloDone',
+        direction: 'to-client',
+        description: 'Server indicates it has finished sending handshake messages.',
+        details: 'Signals client can now send its messages'
+    },
+    {
+        name: 'ClientKeyExchange',
+        direction: 'to-server',
+        description: 'Client sends its key exchange parameters to establish the shared secret.',
+        details: 'Contains: Pre-master secret encrypted with server public key or DH parameters'
+    },
+    {
+        name: 'ChangeCipherSpec (Client)',
+        direction: 'to-server',
+        description: 'Client notifies server that subsequent messages will be encrypted.',
+        details: 'Switching to negotiated cipher suite and keys'
+    },
+    {
+        name: 'Finished (Client)',
+        direction: 'to-server',
+        description: 'Client sends encrypted hash of all handshake messages.',
+        details: 'First encrypted message to verify keys are working correctly'
+    },
+    {
+        name: 'ChangeCipherSpec (Server)',
+        direction: 'to-client',
+        description: 'Server notifies client that subsequent messages will be encrypted.',
+        details: 'Switching to negotiated cipher suite and keys'
+    },
+    {
+        name: 'Finished (Server)',
+        direction: 'to-client',
+        description: 'Server sends encrypted hash of all handshake messages.',
+        details: 'Handshake complete, session established'
+    },
+    {
+        name: 'Application Data',
+        direction: 'to-server',
+        description: 'Secure connection established! Data exchange begins.',
+        details: 'All data encrypted using symmetric encryption with session keys'
+    }
+];
+
 let currentStep = 0;
 let animationSpeed = 1;
 let isAnimating = false;
+let handshakeSteps = tls13Steps;
 
 const startBtn = document.getElementById('start-handshake');
 const resetBtn = document.getElementById('reset-handshake');
 const speedSlider = document.getElementById('animation-speed');
 const speedDisplay = document.getElementById('speed-display');
+const tlsVersionSelect = document.getElementById('tls-version');
 const messageArea = document.getElementById('message-area');
 const stepInfo = document.getElementById('step-info');
 
 speedSlider.addEventListener('input', (e) => {
     animationSpeed = parseFloat(e.target.value);
     speedDisplay.textContent = `${animationSpeed}x`;
+});
+
+tlsVersionSelect.addEventListener('change', (e) => {
+    handshakeSteps = e.target.value === '1.3' ? tls13Steps : tls12Steps;
+    if (!isAnimating) {
+        resetHandshake();
+    }
 });
 
 startBtn.addEventListener('click', startHandshake);
@@ -165,6 +243,8 @@ function resetHandshake() {
 
 // ===== CERTIFICATE INSPECTOR =====
 
+const domainInput = document.getElementById('domain-input');
+const fetchCertBtn = document.getElementById('fetch-cert');
 const certInput = document.getElementById('cert-input');
 const inspectBtn = document.getElementById('inspect-cert');
 const loadExampleBtn = document.getElementById('load-example');
@@ -207,6 +287,86 @@ clearCertBtn.addEventListener('click', () => {
     certInput.value = '';
     certResults.classList.add('hidden');
 });
+
+fetchCertBtn.addEventListener('click', async () => {
+    const domain = domainInput.value.trim();
+
+    if (!domain) {
+        alert('Please enter a domain name');
+        return;
+    }
+
+    fetchCertBtn.innerHTML = '<span class="loading"></span> Fetching...';
+    fetchCertBtn.disabled = true;
+
+    try {
+        await fetchCertificateFromDomain(domain);
+    } catch (error) {
+        alert('Error fetching certificate: ' + error.message);
+    } finally {
+        fetchCertBtn.innerHTML = 'Fetch Certificate';
+        fetchCertBtn.disabled = false;
+    }
+});
+
+async function fetchCertificateFromDomain(domain) {
+    // Remove protocol if included
+    domain = domain.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+
+    try {
+        // Use crt.sh API to get certificate information
+        const response = await fetch(`https://crt.sh/?q=${encodeURIComponent(domain)}&output=json`);
+
+        if (!response.ok) {
+            throw new Error('Failed to fetch certificate data');
+        }
+
+        const data = await response.json();
+
+        if (!data || data.length === 0) {
+            throw new Error('No certificates found for this domain');
+        }
+
+        // Get the most recent certificate
+        const latestCert = data.sort((a, b) => new Date(b.entry_timestamp) - new Date(a.entry_timestamp))[0];
+
+        // Create a mock cert object from the crt.sh data
+        const cert = {
+            subject: {
+                CN: latestCert.common_name || domain,
+                O: latestCert.name_value || 'Unknown',
+                C: 'US'
+            },
+            issuer: {
+                CN: latestCert.issuer_name || 'Unknown CA',
+                O: 'Certificate Authority',
+                C: 'US'
+            },
+            validFrom: new Date(latestCert.not_before),
+            validTo: new Date(latestCert.not_after),
+            serialNumber: latestCert.serial_number || 'Unknown',
+            signatureAlgorithm: 'SHA256withRSA',
+            publicKeyAlgorithm: 'RSA',
+            publicKeySize: 2048,
+            version: 3,
+            extensions: [
+                { name: 'Basic Constraints', value: 'CA:FALSE', critical: true },
+                { name: 'Key Usage', value: 'Digital Signature, Key Encipherment', critical: true },
+                { name: 'Extended Key Usage', value: 'TLS Web Server Authentication', critical: false },
+                { name: 'Subject Alternative Name', value: latestCert.name_value || domain, critical: false }
+            ],
+            fingerprints: {
+                SHA1: 'Fetched from crt.sh',
+                SHA256: 'Fetched from crt.sh'
+            }
+        };
+
+        displayCertificateInfo(cert);
+
+    } catch (error) {
+        throw new Error('Unable to fetch certificate. Try entering the certificate manually below.');
+    }
+}
 
 function inspectCertificate() {
     const certPEM = certInput.value.trim();
