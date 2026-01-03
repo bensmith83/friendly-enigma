@@ -131,6 +131,144 @@ const tls12Steps = [
     }
 ];
 
+const tls11Steps = [
+    {
+        name: 'ClientHello',
+        direction: 'to-server',
+        description: 'Client initiates with TLS 1.1, offering cipher suites and random nonce.',
+        details: 'TLS 1.1 introduced protection against CBC attacks with explicit IVs'
+    },
+    {
+        name: 'ServerHello',
+        direction: 'to-client',
+        description: 'Server selects TLS 1.1 cipher suite (often 3DES or AES-CBC).',
+        details: 'Common cipher: TLS_RSA_WITH_AES_128_CBC_SHA'
+    },
+    {
+        name: 'Certificate',
+        direction: 'to-client',
+        description: 'Server sends X.509 certificate chain for authentication.',
+        details: 'Typically RSA certificates with SHA-1 or SHA-256 signatures'
+    },
+    {
+        name: 'ServerKeyExchange',
+        direction: 'to-client',
+        description: 'Server sends key exchange parameters (for DHE/ECDHE only).',
+        details: 'Optional: only for non-RSA key exchange algorithms'
+    },
+    {
+        name: 'ServerHelloDone',
+        direction: 'to-client',
+        description: 'Server signals completion of its handshake messages.',
+        details: 'Client can now respond with its parameters'
+    },
+    {
+        name: 'ClientKeyExchange',
+        direction: 'to-server',
+        description: 'Client sends pre-master secret encrypted with server public key.',
+        details: 'Or sends DH parameters for Diffie-Hellman key exchange'
+    },
+    {
+        name: 'ChangeCipherSpec (Client)',
+        direction: 'to-server',
+        description: 'Client switches to encrypted communication.',
+        details: 'All subsequent messages use negotiated cipher suite'
+    },
+    {
+        name: 'Finished (Client)',
+        direction: 'to-server',
+        description: 'First encrypted message containing handshake verification.',
+        details: 'Verifies both parties have same key material'
+    },
+    {
+        name: 'ChangeCipherSpec (Server)',
+        direction: 'to-client',
+        description: 'Server switches to encrypted communication.',
+        details: 'Confirms agreement on cipher suite and keys'
+    },
+    {
+        name: 'Finished (Server)',
+        direction: 'to-client',
+        description: 'Server confirms handshake completion.',
+        details: 'Session established, ready for application data'
+    },
+    {
+        name: 'Application Data',
+        direction: 'to-server',
+        description: 'Encrypted communication begins.',
+        details: 'Uses CBC mode encryption with explicit IVs (TLS 1.1 improvement)'
+    }
+];
+
+const tls10Steps = [
+    {
+        name: 'ClientHello',
+        direction: 'to-server',
+        description: 'Client initiates with TLS 1.0, the original TLS version from 1999.',
+        details: 'Based on SSL 3.0 with security improvements'
+    },
+    {
+        name: 'ServerHello',
+        direction: 'to-client',
+        description: 'Server confirms TLS 1.0 and selects cipher suite.',
+        details: 'Common ciphers: 3DES_EDE_CBC_SHA or RC4_128_SHA (now insecure)'
+    },
+    {
+        name: 'Certificate',
+        direction: 'to-client',
+        description: 'Server provides certificate with RSA or DSA public key.',
+        details: 'Often uses weak SHA-1 signatures (deprecated)'
+    },
+    {
+        name: 'ServerKeyExchange',
+        direction: 'to-client',
+        description: 'Server sends DH parameters if using ephemeral keys.',
+        details: 'Optional message for DHE/ECDHE key exchange'
+    },
+    {
+        name: 'ServerHelloDone',
+        direction: 'to-client',
+        description: 'Server completes its portion of the handshake.',
+        details: 'Awaits client key material'
+    },
+    {
+        name: 'ClientKeyExchange',
+        direction: 'to-server',
+        description: 'Client sends encrypted pre-master secret.',
+        details: 'Encrypted with server RSA public key from certificate'
+    },
+    {
+        name: 'ChangeCipherSpec (Client)',
+        direction: 'to-server',
+        description: 'Client activates agreed-upon cipher suite.',
+        details: 'Vulnerable to BEAST attack due to implicit IVs in CBC mode'
+    },
+    {
+        name: 'Finished (Client)',
+        direction: 'to-server',
+        description: 'Client verifies handshake integrity (encrypted).',
+        details: 'Contains MD5 and SHA-1 hash of handshake messages'
+    },
+    {
+        name: 'ChangeCipherSpec (Server)',
+        direction: 'to-client',
+        description: 'Server enables encryption for all further messages.',
+        details: 'Both parties now share master secret'
+    },
+    {
+        name: 'Finished (Server)',
+        direction: 'to-client',
+        description: 'Server confirms successful handshake.',
+        details: 'Handshake complete, but vulnerable to various attacks'
+    },
+    {
+        name: 'Application Data',
+        direction: 'to-server',
+        description: '⚠️ Insecure connection established (TLS 1.0 is deprecated!).',
+        details: 'Vulnerable to BEAST, POODLE, and other attacks. Should not be used.'
+    }
+];
+
 let currentStep = 0;
 let animationSpeed = 1;
 let isAnimating = false;
@@ -150,7 +288,23 @@ speedSlider.addEventListener('input', (e) => {
 });
 
 tlsVersionSelect.addEventListener('change', (e) => {
-    handshakeSteps = e.target.value === '1.3' ? tls13Steps : tls12Steps;
+    const version = e.target.value;
+    switch(version) {
+        case '1.3':
+            handshakeSteps = tls13Steps;
+            break;
+        case '1.2':
+            handshakeSteps = tls12Steps;
+            break;
+        case '1.1':
+            handshakeSteps = tls11Steps;
+            break;
+        case '1.0':
+            handshakeSteps = tls10Steps;
+            break;
+        default:
+            handshakeSteps = tls13Steps;
+    }
     if (!isAnimating) {
         resetHandshake();
     }
@@ -315,32 +469,49 @@ async function fetchCertificateFromDomain(domain) {
 
     try {
         // Use crt.sh API to get certificate information
-        const response = await fetch(`https://crt.sh/?q=${encodeURIComponent(domain)}&output=json`);
+        const response = await fetch(`https://crt.sh/?q=${encodeURIComponent(domain)}&output=json`, {
+            mode: 'cors',
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
 
         if (!response.ok) {
-            throw new Error('Failed to fetch certificate data');
+            throw new Error('Failed to fetch certificate data from crt.sh');
         }
 
         const data = await response.json();
 
         if (!data || data.length === 0) {
-            throw new Error('No certificates found for this domain');
+            throw new Error('No certificates found for this domain in certificate transparency logs');
         }
 
-        // Get the most recent certificate
-        const latestCert = data.sort((a, b) => new Date(b.entry_timestamp) - new Date(a.entry_timestamp))[0];
+        // Get the most recent non-expired certificate
+        const now = new Date();
+        const validCerts = data.filter(cert => {
+            const notAfter = new Date(cert.not_after);
+            return notAfter > now;
+        });
 
-        // Create a mock cert object from the crt.sh data
+        const latestCert = (validCerts.length > 0 ? validCerts : data)
+            .sort((a, b) => new Date(b.entry_timestamp) - new Date(a.entry_timestamp))[0];
+
+        // Parse issuer name to extract components
+        const issuerParts = latestCert.issuer_name.split(',').map(p => p.trim());
+        const issuerCN = issuerParts.find(p => p.startsWith('CN='))?.substring(3) || latestCert.issuer_name;
+        const issuerO = issuerParts.find(p => p.startsWith('O='))?.substring(2) || 'Unknown';
+
+        // Create a cert object from the crt.sh data
         const cert = {
             subject: {
                 CN: latestCert.common_name || domain,
-                O: latestCert.name_value || 'Unknown',
-                C: 'US'
+                O: latestCert.name_value?.split(',')[0] || domain,
+                C: 'Unknown'
             },
             issuer: {
-                CN: latestCert.issuer_name || 'Unknown CA',
-                O: 'Certificate Authority',
-                C: 'US'
+                CN: issuerCN,
+                O: issuerO,
+                C: 'Unknown'
             },
             validFrom: new Date(latestCert.not_before),
             validTo: new Date(latestCert.not_after),
@@ -356,15 +527,17 @@ async function fetchCertificateFromDomain(domain) {
                 { name: 'Subject Alternative Name', value: latestCert.name_value || domain, critical: false }
             ],
             fingerprints: {
-                SHA1: 'Fetched from crt.sh',
-                SHA256: 'Fetched from crt.sh'
+                SHA1: `ID: ${latestCert.id}`,
+                SHA256: 'Data from Certificate Transparency Log'
             }
         };
 
         displayCertificateInfo(cert);
 
     } catch (error) {
-        throw new Error('Unable to fetch certificate. Try entering the certificate manually below.');
+        console.error('Certificate fetch error:', error);
+        // If CORS fails, provide helpful instructions
+        throw new Error(`Unable to fetch certificate automatically. This may be due to CORS restrictions.\n\nTo inspect a certificate:\n1. Visit https://${domain} in your browser\n2. Click the padlock icon in the address bar\n3. View certificate details\n4. Copy the certificate in PEM format\n5. Paste it in the text area below`);
     }
 }
 
