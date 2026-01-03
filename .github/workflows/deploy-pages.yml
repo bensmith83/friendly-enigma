@@ -30,9 +30,7 @@ on:
       - "Scrape ArXiv Papers"
       - "Generate Sci-Fi Content"
       - "ALS Research Aggregator"
-      - 'weird-science-fact/**'
-  workflow_run:
-    workflows: ["Generate Science Facts"]
+      - "Generate Science Facts"
     types:
       - completed
     branches:
