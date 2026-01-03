@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Scanner - WiFi & Bluetooth Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📡 Network Scanner</h1>
+            <p class="subtitle">Visualize WiFi & Bluetooth Environment</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="radar">
+                <span class="tab-icon">🎯</span>
+                Radar View
+            </button>
+            <button class="tab-btn" data-tab="wifi">
+                <span class="tab-icon">📶</span>
+                WiFi Networks
+            </button>
+            <button class="tab-btn" data-tab="bluetooth">
+                <span class="tab-icon">🔷</span>
+                Bluetooth Devices
+            </button>
+        </nav>
+
+        <main>
+            <!-- Radar View Tab -->
+            <div id="radar-tab" class="tab-content active">
+                <section class="info-section">
+                    <h2>Environment Radar</h2>
+                    <p>Real-time visualization of nearby networks and devices</p>
+                </section>
+
+                <div class="controls">
+                    <button id="start-scan" class="btn btn-primary">Start Scanning</button>
+                    <button id="stop-scan" class="btn btn-secondary">Stop</button>
+                    <label class="toggle">
+                        <input type="checkbox" id="show-wifi" checked>
+                        <span>WiFi</span>
+                    </label>
+                    <label class="toggle">
+                        <input type="checkbox" id="show-bluetooth" checked>
+                        <span>Bluetooth</span>
+                    </label>
+                </div>
+
+                <div class="radar-container">
+                    <canvas id="radar-canvas"></canvas>
+                    <div class="radar-center">
+                        <div class="radar-pulse"></div>
+                        <span>YOU</span>
+                    </div>
+                    <div class="radar-legend">
+                        <div class="legend-item">
+                            <span class="legend-dot wifi"></span>
+                            <span>WiFi Network</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot bluetooth"></span>
+                            <span>Bluetooth Device</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-panel">
+                    <div class="stat-card">
+                        <div class="stat-value" id="wifi-count">0</div>
+                        <div class="stat-label">WiFi Networks</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="bluetooth-count">0</div>
+                        <div class="stat-label">Bluetooth Devices</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="signal-avg">-</div>
+                        <div class="stat-label">Avg Signal</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WiFi Networks Tab -->
+            <div id="wifi-tab" class="tab-content">
+                <section class="info-section">
+                    <h2>WiFi Networks</h2>
+                    <p>Detected WiFi access points and their security configurations</p>
+                </section>
+
+                <div class="controls">
+                    <button id="scan-wifi" class="btn btn-primary">Scan WiFi</button>
+                    <button id="export-wifi" class="btn btn-secondary">Export CSV</button>
+                    <select id="wifi-filter" class="filter-select">
+                        <option value="all">All Networks</option>
+                        <option value="secure">Secure Only</option>
+                        <option value="open">Open Networks</option>
+                        <option value="strong">Strong Signal</option>
+                    </select>
+                </div>
+
+                <div id="wifi-list" class="network-list">
+                    <div class="empty-state">
+                        <div class="empty-icon">📶</div>
+                        <p>No networks detected yet</p>
+                        <p class="empty-hint">Click "Scan WiFi" to discover nearby networks</p>
+                    </div>
+                </div>
+
+                <div class="wifi-help">
+                    <h3>Security Types Explained:</h3>
+                    <ul>
+                        <li><strong>WPA3:</strong> Latest and most secure standard</li>
+                        <li><strong>WPA2:</strong> Widely used, secure for most purposes</li>
+                        <li><strong>WPA:</strong> Older standard, less secure</li>
+                        <li><strong>WEP:</strong> Obsolete and insecure, avoid using</li>
+                        <li><strong>Open:</strong> No encryption, anyone can intercept traffic</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bluetooth Devices Tab -->
+            <div id="bluetooth-tab" class="tab-content">
+                <section class="info-section">
+                    <h2>Bluetooth Devices</h2>
+                    <p>Scan for nearby Bluetooth Low Energy (BLE) devices</p>
+                </section>
+
+                <div class="controls">
+                    <button id="scan-bluetooth" class="btn btn-primary">Scan Bluetooth</button>
+                    <button id="clear-bluetooth" class="btn btn-secondary">Clear List</button>
+                </div>
+
+                <div class="bluetooth-notice">
+                    <p><strong>Note:</strong> This uses the Web Bluetooth API, which requires user permission and HTTPS.</p>
+                    <p>The browser will show a device picker when you click "Scan Bluetooth".</p>
+                </div>
+
+                <div id="bluetooth-list" class="device-list">
+                    <div class="empty-state">
+                        <div class="empty-icon">🔷</div>
+                        <p>No devices found yet</p>
+                        <p class="empty-hint">Click "Scan Bluetooth" to discover nearby BLE devices</p>
+                    </div>
+                </div>
+
+                <div class="bluetooth-help">
+                    <h3>Common Bluetooth Device Types:</h3>
+                    <div class="device-type-grid">
+                        <div class="device-type-card">
+                            <div class="device-type-icon">🎧</div>
+                            <div class="device-type-name">Audio</div>
+                            <div class="device-type-desc">Headphones, speakers</div>
+                        </div>
+                        <div class="device-type-card">
+                            <div class="device-type-icon">⌚</div>
+                            <div class="device-type-name">Wearables</div>
+                            <div class="device-type-desc">Watches, fitness trackers</div>
+                        </div>
+                        <div class="device-type-card">
+                            <div class="device-type-icon">🖱️</div>
+                            <div class="device-type-name">Input</div>
+                            <div class="device-type-desc">Keyboards, mice</div>
+                        </div>
+                        <div class="device-type-card">
+                            <div class="device-type-icon">🏠</div>
+                            <div class="device-type-name">IoT</div>
+                            <div class="device-type-desc">Smart home devices</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Built for network security awareness and education</p>
+            <p><a href="/">← Back to Projects</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

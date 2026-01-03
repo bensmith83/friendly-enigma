@@ -7,6 +7,8 @@ This repository hosts multiple projects on GitHub Pages:
 - **CVSS Converter** (`/cvss-converter/`) - Convert between CVSS v3.x and v4.0 vulnerability scores
 - **Sci-Fi Opening Generator** (`/scifi-opening-generator/`) - Random compelling sci-fi story openings
 - **Weird Science Fact Generator** (`/weird-science-fact/`) - AI-generated bizarre science facts, fact-checked and illustrated
+- **TLS Toolkit** (`/tls-toolkit/`) - Visualize TLS handshakes and inspect X.509 certificates
+- **Network Scanner** (`/network-scanner/`) - WiFi and Bluetooth environment visualizer with radar interface
 
 ## How It Works
 
@@ -17,7 +19,9 @@ The `deploy-pages.yml` workflow automatically builds and deploys all projects:
 3. **CVSS Converter**: Static site served at `/cvss-converter/`
 4. **Sci-Fi Opening Generator**: Static site served at `/scifi-opening-generator/`
 5. **Weird Science Fact Generator**: Static site served at `/weird-science-fact/`
-6. **Landing Page**: Root (`/`) shows a navigation page to all projects
+6. **TLS Toolkit**: Static site served at `/tls-toolkit/`
+7. **Network Scanner**: Static site served at `/network-scanner/`
+8. **Landing Page**: Root (`/`) shows a navigation page to all projects
 
 ## Deployment Triggers
 
@@ -34,6 +38,8 @@ Once deployed:
 - CVSS Converter: `https://bensmith83.github.io/friendly-enigma/cvss-converter/`
 - Scifi Opening Generator: `https://bensmith83.github.io/friendly-enigma/scifi-opening-generator/`
 - Weird Science Fact Generator: `https://bensmith83.github.io/friendly-enigma/weird-science-fact/`
+- TLS Toolkit: `https://bensmith83.github.io/friendly-enigma/tls-toolkit/`
+- Network Scanner: `https://bensmith83.github.io/friendly-enigma/network-scanner/`
 
 ## Setup
 

@@ -1,0 +1,693 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #00d9ff;
+    --primary-dark: #00a8cc;
+    --success: #00ff88;
+    --warning: #ffaa00;
+    --danger: #ff4444;
+    --bg-primary: #0a0e27;
+    --bg-secondary: #151932;
+    --bg-card: #1a1f3a;
+    --text-primary: #ffffff;
+    --text-secondary: #8892b0;
+    --border: #2a3252;
+    --shadow: rgba(0, 217, 255, 0.2);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+    min-height: 100vh;
+    padding: 1rem;
+    color: var(--text-primary);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--bg-primary);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #00d9ff 0%, #0066ff 100%);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 217, 255, 0.3);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    font-size: 1rem;
+    opacity: 0.95;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    background: var(--bg-secondary);
+    border-bottom: 2px solid var(--border);
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.tab-btn:hover {
+    background: rgba(0, 217, 255, 0.1);
+    color: var(--primary);
+}
+
+.tab-btn.active {
+    color: var(--primary);
+    background: var(--bg-card);
+    border-bottom: 3px solid var(--primary);
+    box-shadow: 0 -2px 10px var(--shadow);
+}
+
+.tab-icon {
+    font-size: 1.5rem;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    padding: 2rem;
+    animation: fadeIn 0.3s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Info Section */
+.info-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.info-section h2 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.info-section p {
+    color: var(--text-secondary);
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.toggle input[type="checkbox"] {
+    width: 40px;
+    height: 20px;
+    appearance: none;
+    background: var(--border);
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.toggle input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    top: 2px;
+    left: 2px;
+    transition: var(--transition);
+}
+
+.toggle input[type="checkbox"]:checked {
+    background: var(--primary);
+}
+
+.toggle input[type="checkbox"]:checked::before {
+    left: 22px;
+}
+
+.filter-select {
+    padding: 0.75rem 1rem;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.1);
+}
+
+/* Buttons */
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: var(--bg-primary);
+    box-shadow: 0 4px 15px rgba(0, 217, 255, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 217, 255, 0.4);
+}
+
+.btn-secondary {
+    background: var(--bg-card);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+    background: var(--bg-secondary);
+    border-color: var(--primary);
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Radar Container */
+.radar-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    aspect-ratio: 1;
+}
+
+#radar-canvas {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--bg-card) 0%, var(--bg-secondary) 100%);
+    box-shadow:
+        0 0 0 2px var(--border),
+        inset 0 0 50px rgba(0, 217, 255, 0.1),
+        0 0 50px rgba(0, 217, 255, 0.2);
+}
+
+.radar-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--bg-primary);
+    box-shadow: 0 0 20px var(--primary);
+    z-index: 10;
+}
+
+.radar-pulse {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: var(--primary);
+    animation: pulse 2s infinite;
+    opacity: 0.3;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.radar-legend {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 2rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.legend-dot.wifi {
+    background: var(--primary);
+    box-shadow: 0 0 10px var(--primary);
+}
+
+.legend-dot.bluetooth {
+    background: var(--success);
+    box-shadow: 0 0 10px var(--success);
+}
+
+/* Stats Panel */
+.stats-panel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.stat-card {
+    background: var(--bg-card);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.stat-card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 4px 15px rgba(0, 217, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* Network List */
+.network-list,
+.device-list {
+    min-height: 300px;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-secondary);
+}
+
+.empty-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.empty-hint {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.network-card,
+.device-card {
+    background: var(--bg-card);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.network-card:hover,
+.device-card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 4px 15px rgba(0, 217, 255, 0.2);
+    transform: translateX(4px);
+}
+
+.network-header,
+.device-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.network-name,
+.device-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.signal-strength {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.signal-bars {
+    display: flex;
+    gap: 2px;
+    align-items: flex-end;
+}
+
+.signal-bar {
+    width: 4px;
+    background: var(--border);
+    border-radius: 2px;
+}
+
+.signal-bar.active {
+    background: var(--success);
+}
+
+.signal-bar:nth-child(1) { height: 6px; }
+.signal-bar:nth-child(2) { height: 10px; }
+.signal-bar:nth-child(3) { height: 14px; }
+.signal-bar:nth-child(4) { height: 18px; }
+
+.network-details,
+.device-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.75rem;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.detail-label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.detail-value {
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+
+.security-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.security-badge.secure {
+    background: rgba(0, 255, 136, 0.2);
+    color: var(--success);
+    border: 1px solid var(--success);
+}
+
+.security-badge.warning {
+    background: rgba(255, 170, 0, 0.2);
+    color: var(--warning);
+    border: 1px solid var(--warning);
+}
+
+.security-badge.danger {
+    background: rgba(255, 68, 68, 0.2);
+    color: var(--danger);
+    border: 1px solid var(--danger);
+}
+
+/* Help Sections */
+.wifi-help,
+.bluetooth-help {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.wifi-help h3,
+.bluetooth-help h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.wifi-help ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.wifi-help li {
+    padding: 0.5rem 0;
+    color: var(--text-secondary);
+}
+
+.wifi-help strong {
+    color: var(--text-primary);
+}
+
+/* Bluetooth Notice */
+.bluetooth-notice {
+    background: rgba(255, 170, 0, 0.1);
+    border: 1px solid var(--warning);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.bluetooth-notice p {
+    color: var(--text-secondary);
+    margin: 0.25rem 0;
+}
+
+.bluetooth-notice strong {
+    color: var(--warning);
+}
+
+/* Device Type Grid */
+.device-type-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.device-type-card {
+    background: var(--bg-card);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.device-type-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.device-type-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.device-type-name {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.device-type-desc {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    border-top: 1px solid var(--border);
+}
+
+footer a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container {
+        border-radius: 0;
+    }
+
+    header {
+        padding: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .tab-content {
+        padding: 1rem;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    .radar-legend {
+        flex-direction: column;
+        gap: 0.5rem;
+        bottom: -70px;
+    }
+
+    .stats-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .network-header,
+    .device-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .device-type-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .tab-btn {
+        font-size: 0.875rem;
+        padding: 0.75rem;
+    }
+
+    .tab-icon {
+        font-size: 1.25rem;
+    }
+
+    .device-type-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Animations */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.scanning {
+    animation: spin 2s linear infinite;
+}
+
+/* Loading */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid var(--border);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
