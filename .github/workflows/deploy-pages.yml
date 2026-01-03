@@ -12,6 +12,8 @@ on:
       - 'scifi-opening-generator/**'
       - 'als-research-aggregator/**'
       - 'weird-science-fact/**'
+      - 'tls-toolkit/**'
+      - 'network-scanner/**'
   pull_request:
     paths:
       - 'blog/**'
@@ -19,6 +21,8 @@ on:
       - 'cvss-converter/**'
       - 'scifi-opening-generator/**'
       - 'als-research-aggregator/**'
+      - 'tls-toolkit/**'
+      - 'network-scanner/**'
   # Auto-deploy after data-generating workflows complete
   workflow_run:
     workflows:
@@ -92,8 +96,15 @@ jobs:
 
           # Copy als-research-aggregator to /als-research-aggregator subdirectory
           cp -r als-research-aggregator _site/als-research-aggregator
+
           # Copy weird-science-fact to /weird-science-fact subdirectory
           cp -r weird-science-fact _site/weird-science-fact
+
+          # Copy tls-toolkit to /tls-toolkit subdirectory
+          cp -r tls-toolkit _site/tls-toolkit
+
+          # Copy network-scanner to /network-scanner subdirectory
+          cp -r network-scanner _site/network-scanner
 
           # Create index.html that redirects to blog or provides navigation
           cat > _site/index.html << 'EOF'
@@ -162,9 +173,18 @@ jobs:
                       <a href="/friendly-enigma/als-research-aggregator/" class="project-link">
                           <div class="project-title">🔬 ALS Research Aggregator</div>
                           <div class="project-desc">Weekly curated ALS research, news, and NJ local resources</div>
+                      </a>
                       <a href="/friendly-enigma/weird-science-fact/" class="project-link">
                           <div class="project-title">🧪 Weird Science Fact Generator</div>
                           <div class="project-desc">AI-generated bizarre science facts, fact-checked and illustrated</div>
+                      </a>
+                      <a href="/friendly-enigma/tls-toolkit/" class="project-link">
+                          <div class="project-title">🔒 TLS Toolkit</div>
+                          <div class="project-desc">Visualize TLS handshakes and inspect X.509 certificates</div>
+                      </a>
+                      <a href="/friendly-enigma/network-scanner/" class="project-link">
+                          <div class="project-title">📡 Network Scanner</div>
+                          <div class="project-desc">WiFi and Bluetooth environment visualizer with radar interface</div>
                       </a>
                   </div>
               </div>

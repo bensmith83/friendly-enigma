@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLS Toolkit - Handshake & Certificate Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔒 TLS Toolkit</h1>
+            <p class="subtitle">Visualize TLS Handshakes & Inspect Certificates</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="handshake">
+                <span class="tab-icon">🤝</span>
+                TLS Handshake
+            </button>
+            <button class="tab-btn" data-tab="certificate">
+                <span class="tab-icon">📜</span>
+                Certificate Inspector
+            </button>
+        </nav>
+
+        <main>
+            <!-- TLS Handshake Animator Tab -->
+            <div id="handshake-tab" class="tab-content active">
+                <section class="info-section">
+                    <h2>TLS Handshake Visualizer</h2>
+                    <p>Watch the TLS 1.3 handshake protocol unfold step-by-step</p>
+                </section>
+
+                <div class="controls">
+                    <button id="start-handshake" class="btn btn-primary">Start Handshake</button>
+                    <button id="reset-handshake" class="btn btn-secondary">Reset</button>
+                    <label class="speed-control">
+                        <span>Speed:</span>
+                        <input type="range" id="animation-speed" min="0.5" max="3" step="0.5" value="1">
+                        <span id="speed-display">1x</span>
+                    </label>
+                </div>
+
+                <div class="handshake-container">
+                    <div class="participant client">
+                        <div class="participant-icon">💻</div>
+                        <h3>Client</h3>
+                    </div>
+
+                    <div class="message-area" id="message-area">
+                        <!-- Messages will be dynamically added here -->
+                    </div>
+
+                    <div class="participant server">
+                        <div class="participant-icon">🖥️</div>
+                        <h3>Server</h3>
+                    </div>
+                </div>
+
+                <div class="step-info" id="step-info">
+                    <h3>Current Step</h3>
+                    <p>Click "Start Handshake" to begin the visualization</p>
+                </div>
+
+                <div class="protocol-details">
+                    <h3>Protocol Steps</h3>
+                    <ol class="steps-list">
+                        <li class="step" data-step="0">
+                            <strong>ClientHello</strong> - Client initiates connection, sends supported cipher suites and TLS versions
+                        </li>
+                        <li class="step" data-step="1">
+                            <strong>ServerHello</strong> - Server selects cipher suite and TLS version, sends certificate
+                        </li>
+                        <li class="step" data-step="2">
+                            <strong>Certificate</strong> - Server sends its certificate chain for authentication
+                        </li>
+                        <li class="step" data-step="3">
+                            <strong>Certificate Verify</strong> - Server proves it owns the certificate's private key
+                        </li>
+                        <li class="step" data-step="4">
+                            <strong>Finished (Server)</strong> - Server confirms all handshake messages
+                        </li>
+                        <li class="step" data-step="5">
+                            <strong>Finished (Client)</strong> - Client confirms, session keys established
+                        </li>
+                        <li class="step" data-step="6">
+                            <strong>Encrypted Data</strong> - Secure communication established!
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Certificate Inspector Tab -->
+            <div id="certificate-tab" class="tab-content">
+                <section class="info-section">
+                    <h2>Certificate Inspector</h2>
+                    <p>Paste a PEM-encoded certificate to visualize its details and trust chain</p>
+                </section>
+
+                <div class="cert-input-section">
+                    <label for="cert-input">
+                        <strong>Certificate (PEM format):</strong>
+                    </label>
+                    <textarea
+                        id="cert-input"
+                        placeholder="-----BEGIN CERTIFICATE-----&#10;MIIDXTCCAkWgAwIBAgIJAKL...&#10;-----END CERTIFICATE-----"
+                        rows="10"
+                    ></textarea>
+                    <div class="button-group">
+                        <button id="inspect-cert" class="btn btn-primary">Inspect Certificate</button>
+                        <button id="load-example" class="btn btn-secondary">Load Example</button>
+                        <button id="clear-cert" class="btn btn-secondary">Clear</button>
+                    </div>
+                </div>
+
+                <div id="cert-results" class="cert-results hidden">
+                    <div class="cert-summary" id="cert-summary">
+                        <!-- Certificate summary will be populated here -->
+                    </div>
+
+                    <div class="cert-timeline" id="cert-timeline">
+                        <!-- Certificate validity timeline will be shown here -->
+                    </div>
+
+                    <div class="cert-details" id="cert-details">
+                        <!-- Detailed certificate information will be populated here -->
+                    </div>
+
+                    <div class="cert-chain" id="cert-chain">
+                        <!-- Certificate chain visualization will be shown here -->
+                    </div>
+                </div>
+
+                <div class="cert-help">
+                    <h3>How to get a certificate:</h3>
+                    <div class="code-block">
+                        <code>openssl s_client -connect example.com:443 -showcerts &lt; /dev/null 2&gt;/dev/null | openssl x509 -outform PEM</code>
+                    </div>
+                    <p>Or paste directly from your browser's certificate viewer</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Built with ❤️ for security enthusiasts</p>
+            <p><a href="/">← Back to Projects</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
