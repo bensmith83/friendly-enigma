@@ -14,6 +14,7 @@ on:
       - 'weird-science-fact/**'
       - 'tls-toolkit/**'
       - 'network-scanner/**'
+      - '.github/workflows/deploy-pages.yml'
   pull_request:
     paths:
       - 'blog/**'
