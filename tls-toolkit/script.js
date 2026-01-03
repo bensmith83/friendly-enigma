@@ -486,15 +486,30 @@ async function fetchCertificateFromDomain(domain) {
             throw new Error('No certificates found for this domain in certificate transparency logs');
         }
 
-        // Get the most recent non-expired certificate
+        // Filter for currently valid certificates and sort by issue date
         const now = new Date();
         const validCerts = data.filter(cert => {
+            const notBefore = new Date(cert.not_before);
             const notAfter = new Date(cert.not_after);
-            return notAfter > now;
+            // Certificate must be valid now (issued before now, expires after now)
+            return notBefore <= now && notAfter > now;
         });
 
-        const latestCert = (validCerts.length > 0 ? validCerts : data)
-            .sort((a, b) => new Date(b.entry_timestamp) - new Date(a.entry_timestamp))[0];
+        // If no valid certs found, get the most recently issued one
+        const certsToConsider = validCerts.length > 0 ? validCerts : data;
+
+        // Sort by not_before (issue date) to get most recent
+        const latestCert = certsToConsider.sort((a, b) => {
+            return new Date(b.not_before) - new Date(a.not_before);
+        })[0];
+
+        // Verify we got a reasonable certificate (not too old)
+        const certAge = now - new Date(latestCert.not_before);
+        const twoYearsInMs = 2 * 365 * 24 * 60 * 60 * 1000;
+
+        if (certAge > twoYearsInMs && validCerts.length === 0) {
+            console.warn('Certificate is quite old, may not be current');
+        }
 
         // Parse issuer name to extract components
         const issuerParts = latestCert.issuer_name.split(',').map(p => p.trim());
@@ -527,11 +542,17 @@ async function fetchCertificateFromDomain(domain) {
                 { name: 'Subject Alternative Name', value: latestCert.name_value || domain, critical: false }
             ],
             fingerprints: {
-                SHA1: `ID: ${latestCert.id}`,
-                SHA256: 'Data from Certificate Transparency Log'
+                SHA1: `CT Log ID: ${latestCert.id}`,
+                SHA256: 'Certificate Transparency Data'
+            },
+            _debug: {
+                totalCerts: data.length,
+                validCerts: validCerts.length,
+                selectedDate: latestCert.not_before
             }
         };
 
+        console.log('Certificate fetch debug:', cert._debug);
         displayCertificateInfo(cert);
 
     } catch (error) {
