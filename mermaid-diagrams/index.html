@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mermaid Diagram Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+        window.mermaid = mermaid;
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Mermaid Diagram Viewer</h1>
+            <p class="subtitle">Create and visualize diagrams using Mermaid syntax</p>
+        </header>
+
+        <main>
+            <div class="editor-section">
+                <div class="toolbar">
+                    <button id="render-btn" class="btn btn-primary">Render Diagram</button>
+                    <button id="clear-btn" class="btn btn-secondary">Clear</button>
+                    <select id="example-select" class="example-selector">
+                        <option value="">Load Example...</option>
+                        <option value="flowchart">Flowchart</option>
+                        <option value="sequence">Sequence Diagram</option>
+                        <option value="class">Class Diagram</option>
+                        <option value="state">State Diagram</option>
+                        <option value="er">Entity Relationship</option>
+                        <option value="gantt">Gantt Chart</option>
+                        <option value="pie">Pie Chart</option>
+                        <option value="journey">User Journey</option>
+                        <option value="git">Git Graph</option>
+                    </select>
+                </div>
+
+                <div class="editor-container">
+                    <label for="diagram-input">Mermaid Code:</label>
+                    <textarea id="diagram-input" placeholder="Enter your Mermaid diagram code here...">graph TD
+    A[Start] --> B{Is it working?}
+    B -->|Yes| C[Great!]
+    B -->|No| D[Debug]
+    D --> B
+    C --> E[End]</textarea>
+                </div>
+            </div>
+
+            <div class="preview-section">
+                <h2>Preview</h2>
+                <div id="diagram-output" class="diagram-container">
+                    <div class="mermaid">
+graph TD
+    A[Start] --> B{Is it working?}
+    B -->|Yes| C[Great!]
+    B -->|No| D[Debug]
+    D --> B
+    C --> E[End]
+                    </div>
+                </div>
+                <div id="error-output" class="error-message" style="display: none;"></div>
+            </div>
+
+            <div class="info-section">
+                <h2>About Mermaid</h2>
+                <p>Mermaid is a JavaScript-based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.</p>
+
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Supported Diagrams</h3>
+                        <ul>
+                            <li>Flowcharts</li>
+                            <li>Sequence diagrams</li>
+                            <li>Class diagrams</li>
+                            <li>State diagrams</li>
+                            <li>ER diagrams</li>
+                            <li>Gantt charts</li>
+                            <li>Pie charts</li>
+                            <li>Git graphs</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Quick Tips</h3>
+                        <ul>
+                            <li>Start with a diagram type (e.g., <code>graph TD</code>)</li>
+                            <li>Use <code>--></code> for connections</li>
+                            <li>Use <code>[ ]</code> for boxes, <code>{ }</code> for diamonds</li>
+                            <li>Add <code>|text|</code> for edge labels</li>
+                            <li>Use <code>%%</code> for comments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Learn more: <a href="https://mermaid.js.org/" target="_blank">Mermaid Documentation</a> |
+            <a href="https://mermaid.live/" target="_blank">Mermaid Live Editor</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
