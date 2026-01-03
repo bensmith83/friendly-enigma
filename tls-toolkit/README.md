@@ -2,6 +2,8 @@
 
 A mobile-friendly web application for visualizing TLS handshakes and inspecting X.509 certificates.
 
+Live demo: https://bensmith83.github.io/friendly-enigma/tls-toolkit/
+
 ## Features
 
 ### 🤝 TLS Handshake Animator

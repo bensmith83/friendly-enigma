@@ -2,6 +2,8 @@
 
 A mobile-friendly web application for visualizing WiFi networks and Bluetooth devices in your environment with a beautiful radar interface.
 
+Live demo: https://bensmith83.github.io/friendly-enigma/network-scanner/
+
 ## Features
 
 ### 🎯 Radar View
