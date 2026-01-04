@@ -29,15 +29,27 @@
                     <button id="clear-btn" class="btn btn-secondary">Clear</button>
                     <select id="example-select" class="example-selector">
                         <option value="">Load Example...</option>
-                        <option value="flowchart">Flowchart</option>
-                        <option value="sequence">Sequence Diagram</option>
-                        <option value="class">Class Diagram</option>
-                        <option value="state">State Diagram</option>
-                        <option value="er">Entity Relationship</option>
-                        <option value="gantt">Gantt Chart</option>
-                        <option value="pie">Pie Chart</option>
-                        <option value="journey">User Journey</option>
-                        <option value="git">Git Graph</option>
+                        <optgroup label="Basic Examples">
+                            <option value="flowchart">Flowchart</option>
+                            <option value="sequence">Sequence Diagram</option>
+                            <option value="class">Class Diagram</option>
+                            <option value="state">State Diagram</option>
+                            <option value="er">Entity Relationship</option>
+                            <option value="gantt">Gantt Chart</option>
+                            <option value="pie">Pie Chart</option>
+                            <option value="journey">User Journey</option>
+                            <option value="git">Git Graph</option>
+                        </optgroup>
+                        <optgroup label="Project Diagrams">
+                            <option value="cvss-converter">CVSS Converter Workflow</option>
+                            <option value="tls-toolkit">TLS 1.3 Handshake</option>
+                            <option value="network-scanner">Network Scanner Architecture</option>
+                            <option value="arxiv-scraper">ArXiv Paper Curation</option>
+                            <option value="scifi-generator">Sci-Fi Story Generation</option>
+                            <option value="weird-science">Weird Science Fact Pipeline</option>
+                            <option value="als-aggregator">ALS Research Aggregation</option>
+                            <option value="blog-workflow">Blog Publishing Workflow</option>
+                        </optgroup>
                     </select>
                 </div>
 
@@ -94,6 +106,21 @@ graph TD
                             <li>Use <code>[ ]</code> for boxes, <code>{ }</code> for diamonds</li>
                             <li>Add <code>|text|</code> for edge labels</li>
                             <li>Use <code>%%</code> for comments</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Project Diagrams</h3>
+                        <p>Select from the dropdown above to view workflow diagrams for each project:</p>
+                        <ul>
+                            <li>CVSS Converter</li>
+                            <li>TLS Toolkit</li>
+                            <li>Network Scanner</li>
+                            <li>ArXiv Scraper</li>
+                            <li>Sci-Fi Generator</li>
+                            <li>Weird Science Fact</li>
+                            <li>ALS Aggregator</li>
+                            <li>Blog Workflow</li>
                         </ul>
                     </div>
                 </div>
