@@ -1,5 +1,491 @@
 [
   {
+    "date": "2026-01-04",
+    "week_of": "January 04, 2026",
+    "digest_number": 2,
+    "weekly_summary": "This week's ALS news highlights the importance of comprehensive care and support for individuals living with this devastating disease. The cross-sectional study from China provides valuable insights into the key predictors of fatigue in ALS patients, which can inform better management strategies and improve quality of life. Additionally, the personal stories of actor Eric Dane and his estranged wife, Rebecca Gayheart, showcase the challenges faced by ALS patients and their loved ones in securing the necessary 24-hour nursing care. Gayheart's unwavering dedication to advocating for Dane's care, even after their separation, is a testament to the strength and resilience required to support someone with ALS. These stories underscore the critical need for accessible resources, financial assistance, and a strong support network for ALS patients and their families, both locally and beyond.",
+    "highlights": [
+      {
+        "article": {
+          "title": "Multidimensional predictors of fatigue in amyotrophic lateral sclerosis: a cross-sectional study in China",
+          "description": "This study aims to identify key predictors of fatigue in patients with amyotrophic lateral sclerosis (ALS) and examine the interaction of physiological, psychological, and social factors to inform management strategies. A descriptive cross-sectional study. Be\u2026",
+          "content": "<li>Janl, J., Jackd, S. &amp; Samij, T. A C-terminal frameshift variant of TDP-43 with enhanced aggregation propensity leads to rimmed vacuole myopathy, not ALS or FTD. Acta Neuropathol.145 (6), 7938\u2026 [+5370 chars]",
+          "url": "https://www.nature.com/articles/s41598-025-33192-3",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-01T00:00:00Z",
+          "author": "Fangfang Cai, Dandan Xu, Dan Yang, Fei Huang, Xiaoyu Song, Qianping Jiang, ShiLei Wan, Yan Zhao, Jing Zhou",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "b161a22ae08b"
+        },
+        "why_important": "This cross-sectional study in China provides valuable insights into the key predictors of fatigue in ALS patients, which can inform better management strategies and improve quality of life for those living with this devastating disease."
+      },
+      {
+        "article": {
+          "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+          "description": "Gayheart initially filed for divorce in 2018 from the \u2018Grey\u2019s Anatomy\u2019 star, but later dismissed it to support him after his aggressive ALS diagnosis",
+          "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia\u2026 [+3757 chars]",
+          "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+          "source_name": "The-independent.com",
+          "source_type": "newsapi",
+          "published_at": "2025-12-31T02:44:26Z",
+          "author": "Inga Parkel",
+          "image_url": "https://static.the-independent.com/2025/12/29/18/20/Rebecca-Gayheart-and-Eric-Dane.jpeg?trim=72,0,73,0&width=1200&height=800&crop=1200:800",
+          "is_local_nj": false,
+          "article_id": "58812435b4f6"
+        },
+        "why_important": "The article highlights the personal struggles of Eric Dane, a well-known actor, as he battles ALS and requires 24-hour nursing care. It also showcases the important role his estranged wife, Rebecca Gayheart, has played in advocating for his care and fighting insurance denials, despite their separation."
+      },
+      {
+        "article": {
+          "title": "Rebecca Gayheart steps up as caregiver for estranged husband Eric Dane as ALS demands 24-hour care",
+          "description": "Former \"Grey's Anatomy\" star Eric Dane battles ALS with ex-wife Rebecca Gayheart advocating for care. She fought insurance denials for nursing support.",
+          "content": "Rebecca Gayheart and Eric Dane may no longer be together romantically, but the former couple is facing his ALS diagnosis together.\r\nAs Danes condition progressed, Gayheart found herself taking on res\u2026 [+4520 chars]",
+          "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-caregiver-estranged-husband-eric-dane-als-24-hour-care",
+          "source_name": "Fox News",
+          "source_type": "newsapi",
+          "published_at": "2025-12-30T16:44:56Z",
+          "author": null,
+          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2025/12/rebecca-gayheart-eric-dane.jpg",
+          "is_local_nj": false,
+          "article_id": "26c3144df303"
+        },
+        "why_important": "This article further emphasizes the critical role that Rebecca Gayheart has taken on as the primary caregiver for her estranged husband, Eric Dane, as his ALS diagnosis requires around-the-clock nursing support. Her dedication and advocacy for his care are inspiring."
+      }
+    ],
+    "categories": {
+      "research": [
+        {
+          "title": "Multidimensional predictors of fatigue in amyotrophic lateral sclerosis: a cross-sectional study in China",
+          "description": "This study aims to identify key predictors of fatigue in patients with amyotrophic lateral sclerosis (ALS) and examine the interaction of physiological, psychological, and social factors to inform management strategies. A descriptive cross-sectional study. Be\u2026",
+          "content": "<li>Janl, J., Jackd, S. &amp; Samij, T. A C-terminal frameshift variant of TDP-43 with enhanced aggregation propensity leads to rimmed vacuole myopathy, not ALS or FTD. Acta Neuropathol.145 (6), 7938\u2026 [+5370 chars]",
+          "url": "https://www.nature.com/articles/s41598-025-33192-3",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-01T00:00:00Z",
+          "author": "Fangfang Cai, Dandan Xu, Dan Yang, Fei Huang, Xiaoyu Song, Qianping Jiang, ShiLei Wan, Yan Zhao, Jing Zhou",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "b161a22ae08b",
+          "summary": "This cross-sectional study in China aimed to identify key predictors of fatigue in patients with amyotrophic lateral sclerosis (ALS) and examine the interaction of physiological, psychological, and social factors to inform management strategies.",
+          "importance": 5,
+          "key_entities": [
+            "amyotrophic lateral sclerosis",
+            "fatigue"
+          ],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [
+        {
+          "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+          "description": "Gayheart initially filed for divorce in 2018 from the \u2018Grey\u2019s Anatomy\u2019 star, but later dismissed it to support him after his aggressive ALS diagnosis",
+          "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia\u2026 [+3757 chars]",
+          "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+          "source_name": "The-independent.com",
+          "source_type": "newsapi",
+          "published_at": "2025-12-31T02:44:26Z",
+          "author": "Inga Parkel",
+          "image_url": "https://static.the-independent.com/2025/12/29/18/20/Rebecca-Gayheart-and-Eric-Dane.jpeg?trim=72,0,73,0&width=1200&height=800&crop=1200:800",
+          "is_local_nj": false,
+          "article_id": "58812435b4f6",
+          "summary": "Actor Eric Dane, known for his role in 'Grey's Anatomy', is now receiving around-the-clock nursing care as his condition from ALS continues to worsen. His estranged wife, Rebecca Gayheart, has been advocating for his care and fighting insurance denials for the necessary 24-hour support.",
+          "importance": 5,
+          "key_entities": [
+            "Eric Dane",
+            "Rebecca Gayheart",
+            "ALS"
+          ],
+          "related_previous": [
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142602&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142392&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?s=a2&amp;share_destination_id=MzExMjcxMjY0LTE3NjcxNDA3ODM1NTU%3D&amp;pd=0L43sGHh&amp;hl=en_US&amp;send_time=1767140783&amp;actBtn=bottomBar&amp;_f=app_share&amp;trans_data=%7B%22platform%22%3A1%2C%22cv%22%3A%2224.47.0%22%2C%22languages%22%3A%22en%22%7D",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart steps up as caregiver for estranged husband Eric Dane as ALS demands 24-hour care",
+          "description": "Former \"Grey's Anatomy\" star Eric Dane battles ALS with ex-wife Rebecca Gayheart advocating for care. She fought insurance denials for nursing support.",
+          "content": "Rebecca Gayheart and Eric Dane may no longer be together romantically, but the former couple is facing his ALS diagnosis together.\r\nAs Danes condition progressed, Gayheart found herself taking on res\u2026 [+4520 chars]",
+          "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-caregiver-estranged-husband-eric-dane-als-24-hour-care",
+          "source_name": "Fox News",
+          "source_type": "newsapi",
+          "published_at": "2025-12-30T16:44:56Z",
+          "author": null,
+          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2025/12/rebecca-gayheart-eric-dane.jpg",
+          "is_local_nj": false,
+          "article_id": "26c3144df303",
+          "summary": "Rebecca Gayheart, the estranged wife of Eric Dane, has stepped up as the primary caregiver for the 'Grey's Anatomy' star as his ALS diagnosis requires 24-hour care. Gayheart has been advocating for the necessary nursing support and fighting insurance denials.",
+          "importance": 5,
+          "key_entities": [
+            "Eric Dane",
+            "Rebecca Gayheart",
+            "ALS"
+          ],
+          "related_previous": [
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142602&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142392&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?s=a2&amp;share_destination_id=MzExMjcxMjY0LTE3NjcxNDA3ODM1NTU%3D&amp;pd=0L43sGHh&amp;hl=en_US&amp;send_time=1767140783&amp;actBtn=bottomBar&amp;_f=app_share&amp;trans_data=%7B%22platform%22%3A1%2C%22cv%22%3A%2224.47.0%22%2C%22languages%22%3A%22en%22%7D",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane now in 24/7 hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+          "description": "Gayheart initially filed for divorce in 2018 from the \u2018Grey\u2019s Anatomy\u2019 star, but later dismissed it to support him after his aggressive ALS diagnosis",
+          "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia\u2026 [+3757 chars]",
+          "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-rebecca-gayheart-greys-anatomy-b2891904.html",
+          "source_name": "The-independent.com",
+          "source_type": "newsapi",
+          "published_at": "2025-12-30T03:15:22Z",
+          "author": "Inga Parkel",
+          "image_url": "https://static.the-independent.com/2025/12/29/18/20/Rebecca-Gayheart-and-Eric-Dane.jpeg?trim=72,0,73,0&width=1200&height=800&crop=1200:800",
+          "is_local_nj": false,
+          "article_id": "cd7e4eaade79",
+          "summary": "Actor Eric Dane, known for his role in 'Grey's Anatomy', is now receiving around-the-clock nursing care as his condition from ALS continues to worsen. His estranged wife, Rebecca Gayheart, has been advocating for his care and fighting insurance denials for the necessary 24-hour support.",
+          "importance": 5,
+          "key_entities": [
+            "Eric Dane",
+            "Rebecca Gayheart",
+            "ALS"
+          ],
+          "related_previous": [
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142602&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142392&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?s=a2&amp;share_destination_id=MzExMjcxMjY0LTE3NjcxNDA3ODM1NTU%3D&amp;pd=0L43sGHh&amp;hl=en_US&amp;send_time=1767140783&amp;actBtn=bottomBar&amp;_f=app_share&amp;trans_data=%7B%22platform%22%3A1%2C%22cv%22%3A%2224.47.0%22%2C%22languages%22%3A%22en%22%7D",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane\u2019s ex had to fight for his 24/7 nursing care as ALS worsens",
+          "description": "Since the 'Grey's Anatomy' star was diagnosed with ALS, he's been able to count on Rebecca Gayheart to be a major source of love and support even though they have been separated for more than seven years.",
+          "content": "Even though actor Rebecca Gayheart said she went through a lot of tumult in her 15-year-old marriage to Greys Anatomy star Eric Dane, she said hes still family, as she describes how she has become on\u2026 [+5236 chars]",
+          "url": "https://www.bostonherald.com/2025/12/31/eric-danes-ex-fight-24-7-nursing-care-als-worsens/",
+          "source_name": "Boston Herald",
+          "source_type": "newsapi",
+          "published_at": "2025-12-31T18:17:38Z",
+          "author": "Martha Ross",
+          "image_url": "https://www.bostonherald.com/wp-content/uploads/2025/12/GayheartDane2.jpeg?w=1024&h=681",
+          "is_local_nj": false,
+          "article_id": "24df220465e5",
+          "summary": "Eric Dane, the former 'Grey's Anatomy' star, has been able to count on his estranged wife, Rebecca Gayheart, to be a major source of love and support as his ALS diagnosis has worsened. Gayheart has had to fight for Dane to receive the necessary 24/7 nursing care.",
+          "importance": 5,
+          "key_entities": [
+            "Eric Dane",
+            "Rebecca Gayheart",
+            "ALS"
+          ],
+          "related_previous": [
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142602&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142392&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?s=a2&amp;share_destination_id=MzExMjcxMjY0LTE3NjcxNDA3ODM1NTU%3D&amp;pd=0L43sGHh&amp;hl=en_US&amp;send_time=1767140783&amp;actBtn=bottomBar&amp;_f=app_share&amp;trans_data=%7B%22platform%22%3A1%2C%22cv%22%3A%2224.47.0%22%2C%22languages%22%3A%22en%22%7D",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        }
+      ],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Vorchecking 2026: Die Album-Highlights des Jahres",
+        "url": "https://laut.de/News/Vorchecking-2026-Die-Album-Highlights-des-Jahres-02-01-2026-21530",
+        "source": "Laut.de",
+        "date": "2026-01-02T18:38:38Z"
+      },
+      {
+        "title": "The role of online peer support in pregnancy: A scoping review",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339876",
+        "source": "Plos.org",
+        "date": "2026-01-02T14:00:00Z"
+      },
+      {
+        "title": "25 Stories From Doctors Who Had To Deal With An Outrageously Incorrect Self-Diagnosis From A Patient",
+        "url": "https://www.demilked.com/outrageous-patient-self-diagnosis/",
+        "source": "Demilked.com",
+        "date": "2026-01-02T13:30:14Z"
+      },
+      {
+        "title": "10 Most Heroic Anime Characters Ever, Definitively Ranked",
+        "url": "http://comicbook.com/anime/list/10-most-heroic-anime-characters-ever-definitively-ranked/",
+        "source": "ComicBook.com",
+        "date": "2026-01-02T00:30:00Z"
+      },
+      {
+        "title": "Global profiling of arginine reactivity and ligandability in the human proteome",
+        "url": "https://www.nature.com/articles/s41557-025-02012-6",
+        "source": "Nature.com",
+        "date": "2026-01-02T00:00:00Z"
+      },
+      {
+        "title": "Silicon 'postage stamp' implant instantly emails your thoughts to AI",
+        "url": "https://newatlas.com/medical-devices/silicon-implant-emails-thoughts-ai/",
+        "source": "New Atlas",
+        "date": "2026-01-01T19:00:00Z"
+      },
+      {
+        "title": "January 1, 2026",
+        "url": "https://www.mutualfundobserver.com/2026/01/january-1-2026/",
+        "source": "Mutualfundobserver.com",
+        "date": "2026-01-01T16:00:16Z"
+      },
+      {
+        "title": "The Big Box o\u2019 Delights: What Went Right in 2025",
+        "url": "https://www.mutualfundobserver.com/2026/01/the-big-box-o-delights-what-went-right-in-2025/",
+        "source": "Mutualfundobserver.com",
+        "date": "2026-01-01T15:59:30Z"
+      },
+      {
+        "title": "Marketing Calendar With Template To Plan Your Content In 2026 via @sejournal, @theshelleywalsh",
+        "url": "https://www.searchenginejournal.com/holiday-marketing/marketing-calendar-2026-with-template-to-plan-your-content/",
+        "source": "Search Engine Journal",
+        "date": "2026-01-01T13:30:09Z"
+      },
+      {
+        "title": "Multidimensional predictors of fatigue in amyotrophic lateral sclerosis: a cross-sectional study in China",
+        "url": "https://www.nature.com/articles/s41598-025-33192-3",
+        "source": "Nature.com",
+        "date": "2026-01-01T00:00:00Z"
+      },
+      {
+        "title": "ACA subsidies that lower monthly premiums for millions of Americans set to expire",
+        "url": "https://abcnews.go.com/US/aca-subsidies-lower-monthly-insurance-premiums-millions-americans/story?id=128804401",
+        "source": "ABC News",
+        "date": "2025-12-31T20:00:58Z"
+      },
+      {
+        "title": "Eric Dane\u2019s ex had to fight for his 24/7 nursing care as ALS worsens",
+        "url": "https://www.bostonherald.com/2025/12/31/eric-danes-ex-fight-24-7-nursing-care-als-worsens/",
+        "source": "Boston Herald",
+        "date": "2025-12-31T18:17:38Z"
+      },
+      {
+        "title": "Paulding, James Kirke: Des Holl\u00e4nders Heerd (german) V1. 31 Dec 2025 (Other Fiction, ePub)",
+        "url": "https://www.mobileread.com/forums/showthread.php?t=371382",
+        "source": "Mobileread.com",
+        "date": "2025-12-31T15:55:12Z"
+      },
+      {
+        "title": "15 most memorable Chicago Bears moments of 2025",
+        "url": "https://bearswire.usatoday.com/story/sports/nfl/bears/2025/12/31/bears-memorable-2025-moments-ben-johnson-improbable-wins/87947935007/",
+        "source": "USA Today",
+        "date": "2025-12-31T15:15:24Z"
+      },
+      {
+        "title": "Deep learning for deep learning performance: How much data is needed for segmentation in biomedical imaging?",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339064",
+        "source": "Plos.org",
+        "date": "2025-12-31T14:00:00Z"
+      },
+      {
+        "title": "nhe-eng\u00e1 nhe-eng\u00e1: Sentences",
+        "url": "https://self.gutenberg.org/wplbn0100751141-nhe-eng-nhe-eng--sentences-by-krien-wilfried-ludwig.aspx?",
+        "source": "Gutenberg.org",
+        "date": "2025-12-31T11:13:00Z"
+      },
+      {
+        "title": "\uc0c8\ud574 (\uba87 \uba85 \ube7c\uace0) \ubcf5 \ub9ce\uc774 \ubc1b\uc73c\uc138\uc694",
+        "url": "https://ryueyes11.tistory.com/512031",
+        "source": "Tistory.com",
+        "date": "2025-12-31T09:10:44Z"
+      },
+      {
+        "title": "The Big Box o\u2019 Delights: What Went Right in 2025",
+        "url": "https://www.mutualfundobserver.com/2025/12/the-big-box-o-delights-what-went-right-in-2025/",
+        "source": "Mutualfundobserver.com",
+        "date": "2025-12-31T04:10:30Z"
+      },
+      {
+        "title": "January 1, 2026",
+        "url": "https://www.mutualfundobserver.com/2025/12/january-1-2026/",
+        "source": "Mutualfundobserver.com",
+        "date": "2025-12-31T04:00:16Z"
+      },
+      {
+        "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+        "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+        "source": "The-independent.com",
+        "date": "2025-12-31T02:44:26Z"
+      },
+      {
+        "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+        "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142602&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+        "source": "Newsbreak.com",
+        "date": "2025-12-31T00:57:10Z"
+      },
+      {
+        "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+        "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142392&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+        "source": "Newsbreak.com",
+        "date": "2025-12-31T00:53:43Z"
+      },
+      {
+        "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+        "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?s=a2&amp;share_destination_id=MzExMjcxMjY0LTE3NjcxNDA3ODM1NTU%3D&amp;pd=0L43sGHh&amp;hl=en_US&amp;send_time=1767140783&amp;actBtn=bottomBar&amp;_f=app_share&amp;trans_data=%7B%22platform%22%3A1%2C%22cv%22%3A%2224.47.0%22%2C%22languages%22%3A%22en%22%7D",
+        "source": "Newsbreak.com",
+        "date": "2025-12-31T00:27:09Z"
+      },
+      {
+        "title": "Breakthrough Brain-Computer Interface Is Minimally Invasive",
+        "url": "https://www.psychologytoday.com/us/blog/the-future-brain/202512/breakthrough-brain-computer-interface-is-minimally-invasive",
+        "source": "Psychology Today",
+        "date": "2025-12-30T23:26:14Z"
+      },
+      {
+        "title": "Outrage your favorite Philadelphians when Morgan Street Snacks returns to the next Monday Night Foodball",
+        "url": "http://chicagoreader.com/food/monday-night-foodball/morgan-street-snacks-philly-cheesesteak-ryan-cofrancesco-kimski/",
+        "source": "Chicago Reader",
+        "date": "2025-12-30T20:49:42Z"
+      },
+      {
+        "title": "Broncos QB Bo Nix\u2019s \u2018Overdogs\u2019 slogan has raised over $25,000 to combat homelessness in Denver",
+        "url": "https://www.denverpost.com/2025/12/30/broncos-bo-nix-overdogs-denver-rescue-mission/",
+        "source": "The Denver Post",
+        "date": "2025-12-30T18:59:52Z"
+      },
+      {
+        "title": "Rebecca Gayheart steps up as caregiver for estranged husband Eric Dane as ALS demands 24-hour care",
+        "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-caregiver-estranged-husband-eric-dane-als-24-hour-care",
+        "source": "Fox News",
+        "date": "2025-12-30T16:44:56Z"
+      },
+      {
+        "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+        "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?s=a2&amp;share_destination_id=MjMyNTQwMTUwLTE3NjcxMTE0MjE2NzY%3D&amp;pd=0FjiJavM&amp;hl=en_US&amp;send_time=1767111421&amp;actBtn=bottomBar&amp;_f=app_share&amp;trans_data=%7B%22platform%22%3A1%2C%22cv%22%3A%2225.52.1%22%2C%22languages%22%3A%22en%22%7D",
+        "source": "Newsbreak.com",
+        "date": "2025-12-30T16:18:14Z"
+      },
+      {
+        "title": "Gone Too Soon: Notable Black Celebrities That Passed Away In 2025",
+        "url": "https://bossip.com/4199677/black-celebrities-who-died-in-2025/",
+        "source": "Bossip",
+        "date": "2025-12-30T15:25:00Z"
+      },
+      {
+        "title": "Tuesday: Hili dialogue",
+        "url": "https://whyevolutionistrue.com/2025/12/30/tuesday-hili-dialogue-560/",
+        "source": "Whyevolutionistrue.com",
+        "date": "2025-12-30T12:45:46Z"
+      },
+      {
+        "title": "5 celebrities who went public with alarming health diagnoses in 2025",
+        "url": "https://www.foxnews.com/health/celebrities-who-went-public-alarming-health-diagnoses-2025",
+        "source": "Fox News",
+        "date": "2025-12-30T12:00:29Z"
+      },
+      {
+        "title": "\"AVTT/PTTN\" von The Avett Brothers & Mike Patton",
+        "url": "https://laut.de/The-Avett-Brothers-Mike-Patton/Alben/AVTTPTTN-126307",
+        "source": "Laut.de",
+        "date": "2025-12-30T10:59:11Z"
+      },
+      {
+        "title": "Groundbreaking robotic surgery, Alzheimer's blood test: 7 of the biggest medical breakthroughs in 2025",
+        "url": "https://abcnews.go.com/Health/groundbreaking-robotic-surgery-alzheimers-blood-test-7-biggest/story?id=128654798",
+        "source": "ABC News",
+        "date": "2025-12-30T10:14:28Z"
+      },
+      {
+        "title": "Countdown: 1400",
+        "url": "https://www.shopblogger.de/blog/archives/29431-Countdown-1400.html",
+        "source": "Shopblogger.de",
+        "date": "2025-12-30T10:00:00Z"
+      },
+      {
+        "title": "Eric Dane now in 24/7 hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+        "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-rebecca-gayheart-greys-anatomy-b2891904.html",
+        "source": "The-independent.com",
+        "date": "2025-12-30T03:15:22Z"
+      },
+      {
+        "title": "Experiments with Ableton-MCP",
+        "url": "https://jhurliman.org/post/804323197731373056/experiments-with-ableton-mcp-dec-2025",
+        "source": "Jhurliman.org",
+        "date": "2025-12-30T02:43:50Z"
+      },
+      {
+        "title": "Design and applications of synthetic biomolecular condensates",
+        "url": "https://www.nature.com/articles/s41565-025-02053-5",
+        "source": "Nature.com",
+        "date": "2025-12-30T00:00:00Z"
+      },
+      {
+        "title": "Democrat NY Gov. Kathy Hochul Reaches Agreement with Legislature to Sign Assisted Suicide Bill",
+        "url": "https://www.breitbart.com/politics/2025/12/29/democrat-ny-gov-kathy-hochul-reaches-agreement-legislature-sign-assisted-suicide-bill/",
+        "source": "Breitbart News",
+        "date": "2025-12-29T20:54:28Z"
+      },
+      {
+        "title": "Eric Dane's Sad Final Days: 'Grey's Anatomy' Alum 'Has 24/7 Nurses' as His Devastating ALS Battle 'Keeps Getting Worse'",
+        "url": "https://radaronline.com/p/eric-dane-sad-final-days-als-battle-keeps-getting-worse/",
+        "source": "Radaronline.com",
+        "date": "2025-12-29T20:30:00Z"
+      },
+      {
+        "title": "The notable lives we lost in 2025",
+        "url": "https://www.pbs.org/newshour/nation/the-notable-lives-we-lost-in-2025",
+        "source": "PBS",
+        "date": "2025-12-29T19:46:56Z"
+      }
+    ],
+    "generated_at": "2026-01-04T08:30:28.964980"
+  },
+  {
     "date": "2026-01-01",
     "week_of": "January 01, 2026",
     "digest_number": 1,
