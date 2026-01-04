@@ -9,6 +9,7 @@ This repository hosts multiple projects on GitHub Pages:
 - **Weird Science Fact Generator** (`/weird-science-fact/`) - AI-generated bizarre science facts, fact-checked and illustrated
 - **TLS Toolkit** (`/tls-toolkit/`) - Visualize TLS handshakes and inspect X.509 certificates
 - **Network Scanner** (`/network-scanner/`) - WiFi and Bluetooth environment visualizer with radar interface
+- **Mermaid Diagrams** (`/mermaid-diagrams/`) - Create and visualize diagrams using Mermaid syntax
 
 ## How It Works
 
@@ -21,7 +22,8 @@ The `deploy-pages.yml` workflow automatically builds and deploys all projects:
 5. **Weird Science Fact Generator**: Static site served at `/weird-science-fact/`
 6. **TLS Toolkit**: Static site served at `/tls-toolkit/`
 7. **Network Scanner**: Static site served at `/network-scanner/`
-8. **Landing Page**: Root (`/`) shows a navigation page to all projects
+8. **Mermaid Diagrams**: Static site served at `/mermaid-diagrams/`
+9. **Landing Page**: Root (`/`) shows a navigation page to all projects
 
 ## Deployment Triggers
 
@@ -40,6 +42,7 @@ Once deployed:
 - Weird Science Fact Generator: `https://bensmith83.github.io/friendly-enigma/weird-science-fact/`
 - TLS Toolkit: `https://bensmith83.github.io/friendly-enigma/tls-toolkit/`
 - Network Scanner: `https://bensmith83.github.io/friendly-enigma/network-scanner/`
+- Mermaid Diagrams: `https://bensmith83.github.io/friendly-enigma/mermaid-diagrams/`
 
 ## Setup
 

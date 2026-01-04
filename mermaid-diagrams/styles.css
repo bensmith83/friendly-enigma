@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+main {
+    padding: 2rem;
+}
+
+.editor-section {
+    margin-bottom: 2rem;
+}
+
+.toolbar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: #667eea;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #5568d3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.btn-secondary {
+    background: #e0e0e0;
+    color: #333;
+}
+
+.btn-secondary:hover {
+    background: #d0d0d0;
+}
+
+.example-selector {
+    padding: 0.75rem 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: white;
+    transition: border-color 0.3s;
+}
+
+.example-selector:hover,
+.example-selector:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+.editor-container {
+    margin-bottom: 2rem;
+}
+
+.editor-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+#diagram-input {
+    width: 100%;
+    min-height: 250px;
+    padding: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    resize: vertical;
+    transition: border-color 0.3s;
+}
+
+#diagram-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.preview-section {
+    margin-bottom: 2rem;
+}
+
+.preview-section h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.diagram-container {
+    background: #f8f9fa;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 2rem;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.diagram-container .mermaid {
+    max-width: 100%;
+}
+
+.error-message {
+    background: #fee;
+    border: 2px solid #fcc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: #c33;
+}
+
+.info-section {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.info-section h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.info-section > p {
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.info-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-card h3 {
+    margin-bottom: 1rem;
+    color: #667eea;
+}
+
+.info-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.info-card ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #555;
+}
+
+.info-card ul li:last-child {
+    border-bottom: none;
+}
+
+.info-card ul li::before {
+    content: "→ ";
+    color: #667eea;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.info-card code {
+    background: #f0f0f0;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: #667eea;
+}
+
+footer {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    text-align: center;
+    color: #666;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .toolbar {
+        flex-direction: column;
+    }
+
+    .btn,
+    .example-selector {
+        width: 100%;
+    }
+}

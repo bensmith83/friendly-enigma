@@ -14,6 +14,7 @@ on:
       - 'weird-science-fact/**'
       - 'tls-toolkit/**'
       - 'network-scanner/**'
+      - 'mermaid-diagrams/**'
       - '.github/workflows/deploy-pages.yml'
   pull_request:
     paths:
@@ -24,6 +25,7 @@ on:
       - 'als-research-aggregator/**'
       - 'tls-toolkit/**'
       - 'network-scanner/**'
+      - 'mermaid-diagrams/**'
   # Auto-deploy after data-generating workflows complete
   workflow_run:
     workflows:
@@ -105,6 +107,9 @@ jobs:
           # Copy network-scanner to /network-scanner subdirectory
           cp -r network-scanner _site/network-scanner
 
+          # Copy mermaid-diagrams to /mermaid-diagrams subdirectory
+          cp -r mermaid-diagrams _site/mermaid-diagrams
+
           # Create index.html that redirects to blog or provides navigation
           cat > _site/index.html << 'EOF'
           <!DOCTYPE html>
@@ -184,6 +189,10 @@ jobs:
                       <a href="/friendly-enigma/network-scanner/" class="project-link">
                           <div class="project-title">📡 Network Scanner</div>
                           <div class="project-desc">WiFi and Bluetooth environment visualizer with radar interface</div>
+                      </a>
+                      <a href="/friendly-enigma/mermaid-diagrams/" class="project-link">
+                          <div class="project-title">📊 Mermaid Diagrams</div>
+                          <div class="project-desc">Create and visualize diagrams using Mermaid syntax</div>
                       </a>
                   </div>
               </div>
