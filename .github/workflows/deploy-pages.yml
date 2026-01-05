@@ -15,6 +15,7 @@ on:
       - 'tls-toolkit/**'
       - 'network-scanner/**'
       - 'mermaid-diagrams/**'
+      - 'browser-vulnerability-scanner/**'
       - '.github/workflows/deploy-pages.yml'
   pull_request:
     paths:
@@ -26,6 +27,7 @@ on:
       - 'tls-toolkit/**'
       - 'network-scanner/**'
       - 'mermaid-diagrams/**'
+      - 'browser-vulnerability-scanner/**'
   # Auto-deploy after data-generating workflows complete
   workflow_run:
     workflows:
@@ -110,6 +112,9 @@ jobs:
           # Copy mermaid-diagrams to /mermaid-diagrams subdirectory
           cp -r mermaid-diagrams _site/mermaid-diagrams
 
+          # Copy browser-vulnerability-scanner to /browser-vulnerability-scanner subdirectory
+          cp -r browser-vulnerability-scanner _site/browser-vulnerability-scanner
+
           # Create index.html that redirects to blog or provides navigation
           cat > _site/index.html << 'EOF'
           <!DOCTYPE html>
@@ -193,6 +198,10 @@ jobs:
                       <a href="/friendly-enigma/mermaid-diagrams/" class="project-link">
                           <div class="project-title">📊 Mermaid Diagrams</div>
                           <div class="project-desc">Create and visualize diagrams using Mermaid syntax</div>
+                      </a>
+                      <a href="/friendly-enigma/browser-vulnerability-scanner/" class="project-link">
+                          <div class="project-title">🔍 Browser Vulnerability Scanner</div>
+                          <div class="project-desc">Detect security vulnerabilities in your browser and OS based on version</div>
                       </a>
                   </div>
               </div>
