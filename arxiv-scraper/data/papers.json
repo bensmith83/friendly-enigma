@@ -1,5 +1,23 @@
 [
   {
+    "id": "2601.01737v1",
+    "title": "Local Layer-wise Differential Privacy in Federated Learning",
+    "summary": "Federated Learning (FL) enables collaborative model training without direct data sharing, yet it remains vulnerable to privacy attacks such as model inversion and membership inference. Existing differential privacy (DP) solutions for FL often inject noise uniformly across the entire model, degrading utility while providing suboptimal privacy-utility tradeoffs. To address this, we propose LaDP, a novel layer-wise adaptive noise injection mechanism for FL that optimizes privacy protection while preserving model accuracy. LaDP leverages two key insights: (1) neural network layers contribute unevenly to model utility, and (2) layer-wise privacy leakage can be quantified via KL divergence between local and global model distributions. LaDP dynamically injects noise into selected layers based on their privacy sensitivity and importance to model performance.   We provide a rigorous theoretical analysis, proving that LaDP satisfies $(\u03b5, \u03b4)$-DP guarantees and converges under bounded noise. Extensive experiments on CIFAR-10/100 datasets demonstrate that LaDP reduces noise injection by 46.14% on average compared to state-of-the-art (SOTA) methods while improving accuracy by 102.99%. Under the same privacy budget, LaDP outperforms SOTA solutions like Dynamic Privacy Allocation LDP and AdapLDP by 25.18% and 6.1% in accuracy, respectively. Additionally, LaDP robustly defends against reconstruction attacks, increasing the FID of the reconstructed private data by $>$12.84% compared to all baselines. Our work advances the practical deployment of privacy-preserving FL with minimal utility loss.",
+    "published": "2026-01-05T02:23:31Z",
+    "link": "http://arxiv.org/abs/2601.01737v1",
+    "authors": [
+      "Yunbo Li",
+      "Jiaping Gui",
+      "Fanchao Meng",
+      "Yue Wu"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Federated Learning (FL) enables collaborative model training without direct data sharing, yet it remains vulnerable to privacy attacks such as model inversion and membership inference. Existing differential privacy (DP) solutions for FL often inject noise uniformly across the entire model, degrading utility while providing suboptimal privacy-utility tradeoffs.",
+    "selected_date": "2026-01-06"
+  },
+  {
     "id": "2601.00627v1",
     "title": "Towards Understanding and Characterizing Vulnerabilities in Intelligent Connected Vehicles through Real-World Exploits",
     "summary": "Intelligent Connected Vehicles (ICVs) are a core component of modern transportation systems, and their security is crucial as it directly relates to user safety. Despite prior research, most existing studies focus only on specific sub-components of ICVs due to their inherent complexity. As a result, there is a lack of systematic understanding of ICV vulnerabilities. Moreover, much of the current literature relies on human subjective analysis, such as surveys and interviews, which tends to be high-level and unvalidated, leaving a significant gap between theoretical findings and real-world attacks. To address this issue, we conducted the first large-scale empirical study on ICV vulnerabilities. We began by analyzing existing ICV security literature and summarizing the prevailing taxonomies in terms of vulnerability locations and types. To evaluate their real-world relevance, we collected a total of 649 exploitable vulnerabilities, including 592 from eight ICV vulnerability discovery competitions, Anonymous Cup, between January 2023 and April 2024, covering 48 different vehicles. The remaining 57 vulnerabilities were submitted daily by researchers. Based on this dataset, we assessed the coverage of existing taxonomies and identified several gaps, discovering one new vulnerability location and 13 new vulnerability types. We further categorized these vulnerabilities into 6 threat types (e.g., privacy data breach) and 4 risk levels (ranging from low to critical) and analyzed participants' skills and the types of ICVs involved in the competitions. This study provides a comprehensive and data-driven analysis of ICV vulnerabilities, offering actionable insights for researchers, industry practitioners, and policymakers. To support future research, we have made our vulnerability dataset publicly available.",
