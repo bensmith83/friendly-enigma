@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.env
+.DS_Store
+logs/*.json
+!logs/README.md
+honeypots/**/metadata.json
+honeypots/**/README.md

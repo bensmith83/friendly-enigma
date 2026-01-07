@@ -1,0 +1,21 @@
+{
+  "name": "ai-honeypot-generator",
+  "version": "1.0.0",
+  "description": "AI-powered honeypot generator based on recent CVEs",
+  "main": "scripts/generate-honeypot.js",
+  "scripts": {
+    "generate": "node scripts/generate-honeypot.js",
+    "find-vulns": "node scripts/find-vulnerabilities.js"
+  },
+  "keywords": [
+    "security",
+    "honeypot",
+    "cve",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

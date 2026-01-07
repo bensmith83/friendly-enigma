@@ -1,0 +1,134 @@
+name: Generate Honeypots
+
+on:
+  # Run weekly on Mondays at 9 AM UTC
+  schedule:
+    - cron: '0 9 * * 1'
+
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      cve_id:
+        description: 'CVE ID to generate honeypot for (e.g., CVE-2026-21858)'
+        required: false
+        default: 'CVE-2026-21858'
+
+  # Run on push to main for testing
+  push:
+    branches:
+      - main
+      - claude/**
+    paths:
+      - 'ai-honeypot-generator/**'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  find-vulnerabilities:
+    runs-on: ubuntu-latest
+    outputs:
+      has-new-cves: ${{ steps.check.outputs.has-new }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        working-directory: ai-honeypot-generator
+        run: npm install
+
+      - name: Find recent vulnerabilities
+        working-directory: ai-honeypot-generator
+        run: npm run find-vulns
+
+      - name: Check for new CVEs
+        id: check
+        working-directory: ai-honeypot-generator
+        run: |
+          if [ -f logs/recent-cves.json ]; then
+            echo "has-new=true" >> $GITHUB_OUTPUT
+          else
+            echo "has-new=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload CVE list
+        uses: actions/upload-artifact@v4
+        with:
+          name: cve-list
+          path: ai-honeypot-generator/logs/recent-cves.json
+
+  generate-honeypot:
+    runs-on: ubuntu-latest
+    needs: find-vulnerabilities
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        working-directory: ai-honeypot-generator
+        run: npm install
+
+      - name: Generate honeypot
+        working-directory: ai-honeypot-generator
+        run: |
+          CVE_ID="${{ github.event.inputs.cve_id || 'CVE-2026-21858' }}"
+          echo "Generating honeypot for $CVE_ID"
+          npm run generate -- "$CVE_ID"
+
+      - name: Verify generation
+        working-directory: ai-honeypot-generator
+        run: |
+          echo "✅ Honeypot generated successfully"
+          ls -la honeypots/
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add ai-honeypot-generator/honeypots/
+          git add ai-honeypot-generator/logs/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Generate honeypot for ${{ github.event.inputs.cve_id || 'CVE-2026-21858' }}"
+            git push
+          fi
+
+  deploy-pages:
+    runs-on: ubuntu-latest
+    needs: generate-honeypot
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'ai-honeypot-generator/honeypots'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
