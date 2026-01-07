@@ -1,5 +1,29 @@
 [
   {
+    "id": "2601.03252v1",
+    "title": "InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields",
+    "summary": "Existing depth estimation methods are fundamentally limited to predicting depth on discrete image grids. Such representations restrict their scalability to arbitrary output resolutions and hinder the geometric detail recovery. This paper introduces InfiniDepth, which represents depth as neural implicit fields. Through a simple yet effective local implicit decoder, we can query depth at continuous 2D coordinates, enabling arbitrary-resolution and fine-grained depth estimation. To better assess our method's capabilities, we curate a high-quality 4K synthetic benchmark from five different games, spanning diverse scenes with rich geometric and appearance details. Extensive experiments demonstrate that InfiniDepth achieves state-of-the-art performance on both synthetic and real-world benchmarks across relative and metric depth estimation tasks, particularly excelling in fine-detail regions. It also benefits the task of novel view synthesis under large viewpoint shifts, producing high-quality results with fewer holes and artifacts.",
+    "published": "2026-01-06T18:57:06Z",
+    "link": "http://arxiv.org/abs/2601.03252v1",
+    "authors": [
+      "Hao Yu",
+      "Haotong Lin",
+      "Jiawei Wang",
+      "Jiaxin Li",
+      "Yida Wang",
+      "Xueyang Zhang",
+      "Yue Wang",
+      "Xiaowei Zhou",
+      "Ruizhen Hu",
+      "Sida Peng"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Existing depth estimation methods are fundamentally limited to predicting depth on discrete image grids. Such representations restrict their scalability to arbitrary output resolutions and hinder the geometric detail recovery.",
+    "selected_date": "2026-01-07"
+  },
+  {
     "id": "2601.01737v1",
     "title": "Local Layer-wise Differential Privacy in Federated Learning",
     "summary": "Federated Learning (FL) enables collaborative model training without direct data sharing, yet it remains vulnerable to privacy attacks such as model inversion and membership inference. Existing differential privacy (DP) solutions for FL often inject noise uniformly across the entire model, degrading utility while providing suboptimal privacy-utility tradeoffs. To address this, we propose LaDP, a novel layer-wise adaptive noise injection mechanism for FL that optimizes privacy protection while preserving model accuracy. LaDP leverages two key insights: (1) neural network layers contribute unevenly to model utility, and (2) layer-wise privacy leakage can be quantified via KL divergence between local and global model distributions. LaDP dynamically injects noise into selected layers based on their privacy sensitivity and importance to model performance.   We provide a rigorous theoretical analysis, proving that LaDP satisfies $(\u03b5, \u03b4)$-DP guarantees and converges under bounded noise. Extensive experiments on CIFAR-10/100 datasets demonstrate that LaDP reduces noise injection by 46.14% on average compared to state-of-the-art (SOTA) methods while improving accuracy by 102.99%. Under the same privacy budget, LaDP outperforms SOTA solutions like Dynamic Privacy Allocation LDP and AdapLDP by 25.18% and 6.1% in accuracy, respectively. Additionally, LaDP robustly defends against reconstruction attacks, increasing the FID of the reconstructed private data by $>$12.84% compared to all baselines. Our work advances the practical deployment of privacy-preserving FL with minimal utility loss.",
