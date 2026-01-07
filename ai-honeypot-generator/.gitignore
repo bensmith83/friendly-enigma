@@ -4,3 +4,5 @@ node_modules/
 .DS_Store
 logs/*.json
 !logs/README.md
+honeypots/**/metadata.json
+honeypots/**/README.md

