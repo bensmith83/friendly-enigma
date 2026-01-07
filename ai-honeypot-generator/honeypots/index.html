@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Honeypot Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 36px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 18px;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+
+        .warning strong {
+            color: #856404;
+        }
+
+        .honeypot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        .honeypot-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 24px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .honeypot-card:hover {
+            border-color: #ff6d5a;
+            box-shadow: 0 8px 24px rgba(255,109,90,0.2);
+            transform: translateY(-4px);
+        }
+
+        .cve-badge {
+            background: #dc3545;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .cvss-badge {
+            background: #ff6d5a;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+
+        .description {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .view-button {
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+
+        .view-button:hover {
+            background: #5568d3;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #999;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍯 AI Honeypot Generator</h1>
+        <p class="subtitle">Automated security research honeypots based on recent CVEs</p>
+
+        <div class="warning">
+            <strong>⚠️ Security Research Notice:</strong> These are honeypots for security research and threat intelligence purposes. All sites are FAKE vulnerable applications designed to attract and log malicious activity. Do not use for any malicious purposes.
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="honeypot-count">1</div>
+                <div class="stat-label">Active Honeypots</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">10.0</div>
+                <div class="stat-label">Highest CVSS Score</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">Weekly</div>
+                <div class="stat-label">Auto-Generated</div>
+            </div>
+        </div>
+
+        <h2 style="margin-bottom: 20px;">Available Honeypots</h2>
+
+        <div class="honeypot-grid">
+            <div class="honeypot-card">
+                <div>
+                    <span class="cve-badge">CVE-2026-21858</span>
+                    <span class="cvss-badge">CVSS 10.0</span>
+                </div>
+                <h3>n8n Unauthenticated RCE</h3>
+                <p class="description">Critical remote code execution vulnerability in n8n workflow automation platform. Allows unauthenticated attackers to take full control of instances.</p>
+                <a href="CVE-2026-21858/" class="view-button">View Honeypot →</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated by GitHub Actions • Updated automatically every Monday<br>
+            Last updated: <span id="last-updated"></span>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('last-updated').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>

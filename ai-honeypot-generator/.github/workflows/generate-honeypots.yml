@@ -1,0 +1,366 @@
+name: Generate Honeypots
+
+on:
+  # Run weekly on Mondays at 9 AM UTC
+  schedule:
+    - cron: '0 9 * * 1'
+
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      cve_id:
+        description: 'CVE ID to generate honeypot for (e.g., CVE-2026-21858)'
+        required: false
+        default: 'CVE-2026-21858'
+
+  # Run on push to main for testing
+  push:
+    branches:
+      - main
+      - claude/**
+    paths:
+      - 'ai-honeypot-generator/**'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  find-vulnerabilities:
+    runs-on: ubuntu-latest
+    outputs:
+      has-new-cves: ${{ steps.check.outputs.has-new }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        working-directory: ai-honeypot-generator
+        run: npm install
+
+      - name: Find recent vulnerabilities
+        working-directory: ai-honeypot-generator
+        run: npm run find-vulns
+
+      - name: Check for new CVEs
+        id: check
+        working-directory: ai-honeypot-generator
+        run: |
+          if [ -f logs/recent-cves.json ]; then
+            echo "has-new=true" >> $GITHUB_OUTPUT
+          else
+            echo "has-new=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload CVE list
+        uses: actions/upload-artifact@v4
+        with:
+          name: cve-list
+          path: ai-honeypot-generator/logs/recent-cves.json
+
+  generate-honeypot:
+    runs-on: ubuntu-latest
+    needs: find-vulnerabilities
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        working-directory: ai-honeypot-generator
+        run: npm install
+
+      - name: Generate honeypot
+        working-directory: ai-honeypot-generator
+        run: |
+          CVE_ID="${{ github.event.inputs.cve_id || 'CVE-2026-21858' }}"
+          echo "Generating honeypot for $CVE_ID"
+          npm run generate -- "$CVE_ID"
+
+      - name: Create honeypot index
+        working-directory: ai-honeypot-generator
+        run: |
+          cat > honeypots/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>AI Honeypot Generator</title>
+              <style>
+                  * {
+                      margin: 0;
+                      padding: 0;
+                      box-sizing: border-box;
+                  }
+
+                  body {
+                      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+                      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                      min-height: 100vh;
+                      padding: 40px 20px;
+                  }
+
+                  .container {
+                      max-width: 1200px;
+                      margin: 0 auto;
+                      background: white;
+                      border-radius: 16px;
+                      padding: 40px;
+                      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+                  }
+
+                  h1 {
+                      color: #333;
+                      margin-bottom: 10px;
+                      font-size: 36px;
+                  }
+
+                  .subtitle {
+                      color: #666;
+                      margin-bottom: 40px;
+                      font-size: 18px;
+                  }
+
+                  .warning {
+                      background: #fff3cd;
+                      border-left: 4px solid #ffc107;
+                      padding: 20px;
+                      margin-bottom: 30px;
+                      border-radius: 4px;
+                  }
+
+                  .warning strong {
+                      color: #856404;
+                  }
+
+                  .honeypot-grid {
+                      display: grid;
+                      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                      gap: 24px;
+                      margin-top: 30px;
+                  }
+
+                  .honeypot-card {
+                      border: 2px solid #e0e0e0;
+                      border-radius: 12px;
+                      padding: 24px;
+                      transition: all 0.3s;
+                      cursor: pointer;
+                  }
+
+                  .honeypot-card:hover {
+                      border-color: #ff6d5a;
+                      box-shadow: 0 8px 24px rgba(255,109,90,0.2);
+                      transform: translateY(-4px);
+                  }
+
+                  .cve-badge {
+                      background: #dc3545;
+                      color: white;
+                      padding: 6px 12px;
+                      border-radius: 20px;
+                      font-size: 14px;
+                      font-weight: 600;
+                      display: inline-block;
+                      margin-bottom: 12px;
+                  }
+
+                  .cvss-badge {
+                      background: #ff6d5a;
+                      color: white;
+                      padding: 4px 10px;
+                      border-radius: 12px;
+                      font-size: 12px;
+                      margin-left: 8px;
+                  }
+
+                  h3 {
+                      color: #333;
+                      margin-bottom: 12px;
+                      font-size: 20px;
+                  }
+
+                  .description {
+                      color: #666;
+                      font-size: 14px;
+                      line-height: 1.6;
+                      margin-bottom: 16px;
+                  }
+
+                  .view-button {
+                      background: #667eea;
+                      color: white;
+                      padding: 10px 20px;
+                      border: none;
+                      border-radius: 6px;
+                      font-weight: 600;
+                      text-decoration: none;
+                      display: inline-block;
+                      transition: background 0.3s;
+                  }
+
+                  .view-button:hover {
+                      background: #5568d3;
+                  }
+
+                  .stats {
+                      display: grid;
+                      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                      gap: 20px;
+                      margin-bottom: 40px;
+                  }
+
+                  .stat-card {
+                      background: #f8f9fa;
+                      padding: 20px;
+                      border-radius: 8px;
+                      text-align: center;
+                  }
+
+                  .stat-number {
+                      font-size: 32px;
+                      font-weight: 700;
+                      color: #667eea;
+                  }
+
+                  .stat-label {
+                      color: #666;
+                      font-size: 14px;
+                      margin-top: 8px;
+                  }
+
+                  .footer {
+                      text-align: center;
+                      margin-top: 40px;
+                      padding-top: 20px;
+                      border-top: 1px solid #e0e0e0;
+                      color: #999;
+                      font-size: 14px;
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="container">
+                  <h1>🍯 AI Honeypot Generator</h1>
+                  <p class="subtitle">Automated security research honeypots based on recent CVEs</p>
+
+                  <div class="warning">
+                      <strong>⚠️ Security Research Notice:</strong> These are honeypots for security research and threat intelligence purposes. All sites are FAKE vulnerable applications designed to attract and log malicious activity. Do not use for any malicious purposes.
+                  </div>
+
+                  <div class="stats">
+                      <div class="stat-card">
+                          <div class="stat-number" id="honeypot-count">0</div>
+                          <div class="stat-label">Active Honeypots</div>
+                      </div>
+                      <div class="stat-card">
+                          <div class="stat-number">10.0</div>
+                          <div class="stat-label">Highest CVSS Score</div>
+                      </div>
+                      <div class="stat-card">
+                          <div class="stat-number">Weekly</div>
+                          <div class="stat-label">Auto-Generated</div>
+                      </div>
+                  </div>
+
+                  <h2 style="margin-bottom: 20px;">Available Honeypots</h2>
+
+                  <div class="honeypot-grid" id="honeypot-grid">
+                      <!-- Honeypots will be loaded here -->
+                  </div>
+
+                  <div class="footer">
+                      Generated by GitHub Actions • Updated automatically every Monday<br>
+                      <a href="https://github.com" style="color: #667eea; text-decoration: none;">View on GitHub</a>
+                  </div>
+              </div>
+
+              <script>
+                  // Dynamically load honeypots
+                  async function loadHoneypots() {
+                      const honeypots = [
+                          {
+                              id: 'CVE-2026-21858',
+                              title: 'n8n Unauthenticated RCE',
+                              cvss: 10.0,
+                              description: 'Critical remote code execution vulnerability in n8n workflow automation platform. Allows unauthenticated attackers to take full control of instances.',
+                              product: 'n8n',
+                              date: '2026-01-06'
+                          }
+                      ];
+
+                      const grid = document.getElementById('honeypot-grid');
+                      document.getElementById('honeypot-count').textContent = honeypots.length;
+
+                      honeypots.forEach(honeypot => {
+                          const card = document.createElement('div');
+                          card.className = 'honeypot-card';
+                          card.innerHTML = `
+                              <div>
+                                  <span class="cve-badge">${honeypot.id}</span>
+                                  <span class="cvss-badge">CVSS ${honeypot.cvss}</span>
+                              </div>
+                              <h3>${honeypot.title}</h3>
+                              <p class="description">${honeypot.description}</p>
+                              <a href="${honeypot.id}/" class="view-button">View Honeypot →</a>
+                          `;
+                          grid.appendChild(card);
+                      });
+                  }
+
+                  loadHoneypots();
+              </script>
+          </body>
+          </html>
+          EOF
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add ai-honeypot-generator/honeypots/
+          git add ai-honeypot-generator/logs/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Generate honeypot for ${{ github.event.inputs.cve_id || 'CVE-2026-21858' }}"
+            git push
+          fi
+
+  deploy-pages:
+    runs-on: ubuntu-latest
+    needs: generate-honeypot
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'ai-honeypot-generator/honeypots'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
