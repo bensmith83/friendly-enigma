@@ -11,6 +11,7 @@ This repository hosts multiple projects on GitHub Pages:
 - **Network Scanner** (`/network-scanner/`) - WiFi and Bluetooth environment visualizer with radar interface
 - **Mermaid Diagrams** (`/mermaid-diagrams/`) - Create and visualize diagrams using Mermaid syntax
 - **Browser Vulnerability Scanner** (`/browser-vulnerability-scanner/`) - Detect security vulnerabilities in your browser and OS based on version
+- **AI Honeypot Generator** (`/ai-honeypot-generator/`) - Security research honeypots based on recent CVEs
 
 ## How It Works
 
@@ -25,7 +26,8 @@ The `deploy-pages.yml` workflow automatically builds and deploys all projects:
 7. **Network Scanner**: Static site served at `/network-scanner/`
 8. **Mermaid Diagrams**: Static site served at `/mermaid-diagrams/`
 9. **Browser Vulnerability Scanner**: Static site served at `/browser-vulnerability-scanner/`
-10. **Landing Page**: Root (`/`) shows a navigation page to all projects
+10. **AI Honeypot Generator**: Honeypot sites served at `/ai-honeypot-generator/`
+11. **Landing Page**: Root (`/`) shows a navigation page to all projects
 
 ## Deployment Triggers
 
@@ -46,6 +48,7 @@ Once deployed:
 - Network Scanner: `https://bensmith83.github.io/friendly-enigma/network-scanner/`
 - Mermaid Diagrams: `https://bensmith83.github.io/friendly-enigma/mermaid-diagrams/`
 - Browser Vulnerability Scanner: `https://bensmith83.github.io/friendly-enigma/browser-vulnerability-scanner/`
+- AI Honeypot Generator: `https://bensmith83.github.io/friendly-enigma/ai-honeypot-generator/`
 
 ## Setup
 
