@@ -17,6 +17,7 @@ on:
       - 'mermaid-diagrams/**'
       - 'browser-vulnerability-scanner/**'
       - 'ai-honeypot-generator/**'
+      - 'wasm-testbed/**'
       - '.github/workflows/deploy-pages.yml'
   pull_request:
     paths:
@@ -30,6 +31,7 @@ on:
       - 'mermaid-diagrams/**'
       - 'browser-vulnerability-scanner/**'
       - 'ai-honeypot-generator/**'
+      - 'wasm-testbed/**'
   # Auto-deploy after data-generating workflows complete
   workflow_run:
     workflows:
@@ -120,6 +122,9 @@ jobs:
           # Copy ai-honeypot-generator honeypots to /ai-honeypot-generator subdirectory
           mkdir -p _site/ai-honeypot-generator
           cp -r ai-honeypot-generator/honeypots/* _site/ai-honeypot-generator/
+
+          # Copy wasm-testbed to /wasm-testbed subdirectory
+          cp -r wasm-testbed _site/wasm-testbed
 
           # Create index.html that redirects to blog or provides navigation
           cat > _site/index.html << 'EOF'
@@ -212,6 +217,10 @@ jobs:
                       <a href="/friendly-enigma/ai-honeypot-generator/" class="project-link">
                           <div class="project-title">🍯 Internal Services</div>
                           <div class="project-desc">Development and automation tools portal</div>
+                      </a>
+                      <a href="/friendly-enigma/wasm-testbed/" class="project-link">
+                          <div class="project-title">🚀 WebAssembly Performance Lab</div>
+                          <div class="project-desc">Interactive testbed for exploring WebAssembly with performance benchmarks</div>
                       </a>
                   </div>
               </div>
