@@ -22,6 +22,7 @@ features = [
   "HtmlCanvasElement",
   "ImageData",
   "Window",
+  "Performance",
 ]
 
 [profile.release]
