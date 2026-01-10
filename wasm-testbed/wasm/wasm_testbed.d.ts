@@ -15,15 +15,27 @@ export class Universe {
   randomize(): void;
 }
 
+export function allocate_bytes(size: number): number;
+
 export function apply_blur(data: Uint8Array, width: number, height: number): void;
 
 export function apply_grayscale(data: Uint8Array): void;
 
 export function apply_invert(data: Uint8Array): void;
 
+export function benchmark_loop(iterations: number): number;
+
 export function fibonacci(n: number): bigint;
 
 export function generate_primes(count: number): Uint32Array;
+
+export function get_allocation_count(): number;
+
+export function get_total_allocated_bytes(): number;
+
+export function get_version_info(): string;
+
+export function get_wasm_page_size(): number;
 
 export function init(): void;
 
@@ -33,26 +45,44 @@ export function mandelbrot_set(width: number, height: number, max_iterations: nu
 
 export function matrix_multiply(size: number): Float64Array;
 
+export function probe_environment(): string;
+
 export function quicksort(arr: Int32Array): void;
 
+export function reset_allocation_stats(): void;
+
 export function sha256(data: Uint8Array): Uint8Array;
+
+export function stress_test_compute(iterations: number): number;
+
+export function test_stack_depth(depth: number): number;
 
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
   readonly __wbg_universe_free: (a: number, b: number) => void;
+  readonly allocate_bytes: (a: number) => number;
   readonly apply_blur: (a: number, b: number, c: any, d: number, e: number) => void;
   readonly apply_grayscale: (a: number, b: number, c: any) => void;
   readonly apply_invert: (a: number, b: number, c: any) => void;
+  readonly benchmark_loop: (a: number) => number;
   readonly fibonacci: (a: number) => bigint;
   readonly generate_primes: (a: number) => [number, number];
+  readonly get_allocation_count: () => number;
+  readonly get_total_allocated_bytes: () => number;
+  readonly get_version_info: () => [number, number];
+  readonly get_wasm_page_size: () => number;
   readonly init: () => void;
   readonly is_prime: (a: number) => number;
   readonly mandelbrot_set: (a: number, b: number, c: number) => [number, number];
   readonly matrix_multiply: (a: number) => [number, number];
+  readonly probe_environment: () => [number, number];
   readonly quicksort: (a: number, b: number, c: any) => void;
+  readonly reset_allocation_stats: () => void;
   readonly sha256: (a: number, b: number) => [number, number];
+  readonly stress_test_compute: (a: number) => number;
+  readonly test_stack_depth: (a: number) => number;
   readonly universe_alive_cells: (a: number) => number;
   readonly universe_cells: (a: number) => number;
   readonly universe_clear: (a: number) => void;
@@ -62,6 +92,8 @@ export interface InitOutput {
   readonly universe_set_cell: (a: number, b: number, c: number, d: number) => void;
   readonly universe_tick: (a: number) => void;
   readonly universe_width: (a: number) => number;
+  readonly __wbindgen_exn_store: (a: number) => void;
+  readonly __externref_table_alloc: () => number;
   readonly __wbindgen_externrefs: WebAssembly.Table;
   readonly __wbindgen_malloc: (a: number, b: number) => number;
   readonly __wbindgen_free: (a: number, b: number, c: number) => void;

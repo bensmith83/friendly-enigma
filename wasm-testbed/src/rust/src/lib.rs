@@ -314,3 +314,127 @@ pub fn mandelbrot_set(width: u32, height: u32, max_iterations: u32) -> Vec<u8> {
 
     result
 }
+
+// ============================================================================
+// Introspection Functions - Explore WASM environment from within
+// ============================================================================
+
+use std::alloc::{alloc, dealloc, Layout};
+
+static mut ALLOCATION_COUNT: u32 = 0;
+static mut TOTAL_ALLOCATED_BYTES: usize = 0;
+
+#[wasm_bindgen]
+pub fn get_allocation_count() -> u32 {
+    unsafe { ALLOCATION_COUNT }
+}
+
+#[wasm_bindgen]
+pub fn get_total_allocated_bytes() -> usize {
+    unsafe { TOTAL_ALLOCATED_BYTES }
+}
+
+#[wasm_bindgen]
+pub fn reset_allocation_stats() {
+    unsafe {
+        ALLOCATION_COUNT = 0;
+        TOTAL_ALLOCATED_BYTES = 0;
+    }
+}
+
+#[wasm_bindgen]
+pub fn allocate_bytes(size: usize) -> usize {
+    unsafe {
+        let layout = Layout::from_size_align(size, 8).unwrap();
+        let ptr = alloc(layout);
+
+        if !ptr.is_null() {
+            ALLOCATION_COUNT += 1;
+            TOTAL_ALLOCATED_BYTES += size;
+
+            // Clean up immediately for demo
+            dealloc(ptr, layout);
+        }
+
+        TOTAL_ALLOCATED_BYTES
+    }
+}
+
+#[wasm_bindgen]
+pub fn test_stack_depth(depth: u32) -> u32 {
+    if depth == 0 {
+        return 0;
+    }
+    1 + test_stack_depth(depth - 1)
+}
+
+#[wasm_bindgen]
+pub fn get_wasm_page_size() -> u32 {
+    65536 // 64 KB - WASM page size is fixed
+}
+
+#[wasm_bindgen]
+pub fn stress_test_compute(iterations: u32) -> f64 {
+    let mut result = 0.0;
+    for i in 0..iterations {
+        result += (i as f64).sqrt() * (i as f64).sin();
+    }
+    result
+}
+
+#[wasm_bindgen]
+pub fn get_version_info() -> String {
+    format!(
+        "wasm-testbed v{} | Rust {} | wasm-bindgen {}",
+        env!("CARGO_PKG_VERSION"),
+        env!("CARGO_PKG_RUST_VERSION", "unknown"),
+        "0.2"
+    )
+}
+
+#[wasm_bindgen]
+pub fn probe_environment() -> String {
+    let mut info = String::new();
+
+    info.push_str("WASM Environment Probe:\n");
+    info.push_str(&format!("  Page Size: {} bytes\n", get_wasm_page_size()));
+    info.push_str(&format!("  Pointer Size: {} bytes\n", std::mem::size_of::<usize>()));
+    info.push_str(&format!("  Allocations: {}\n", get_allocation_count()));
+    info.push_str(&format!("  Total Allocated: {} bytes\n", get_total_allocated_bytes()));
+
+    // Type sizes
+    info.push_str("\nType Sizes:\n");
+    info.push_str(&format!("  u8: {} bytes\n", std::mem::size_of::<u8>()));
+    info.push_str(&format!("  u32: {} bytes\n", std::mem::size_of::<u32>()));
+    info.push_str(&format!("  u64: {} bytes\n", std::mem::size_of::<u64>()));
+    info.push_str(&format!("  f32: {} bytes\n", std::mem::size_of::<f32>()));
+    info.push_str(&format!("  f64: {} bytes\n", std::mem::size_of::<f64>()));
+    info.push_str(&format!("  usize: {} bytes\n", std::mem::size_of::<usize>()));
+
+    info
+}
+
+#[wasm_bindgen]
+pub fn benchmark_loop(iterations: u32) -> f64 {
+    let start = web_sys::window()
+        .and_then(|w| w.performance())
+        .map(|p| p.now())
+        .unwrap_or(0.0);
+
+    let mut sum = 0u64;
+    for i in 0..iterations {
+        sum = sum.wrapping_add(i as u64);
+    }
+
+    let end = web_sys::window()
+        .and_then(|w| w.performance())
+        .map(|p| p.now())
+        .unwrap_or(0.0);
+
+    // Return time in milliseconds and include sum to prevent optimization
+    if sum > 0 {
+        end - start
+    } else {
+        0.0
+    }
+}

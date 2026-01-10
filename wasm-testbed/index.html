@@ -14,6 +14,7 @@
 
     <nav class="tabs">
         <button class="tab-button active" data-tab="intro">Introduction</button>
+        <button class="tab-button" data-tab="introspection">WASM Introspection</button>
         <button class="tab-button" data-tab="image-processing">Image Processing</button>
         <button class="tab-button" data-tab="game-of-life">Game of Life</button>
         <button class="tab-button" data-tab="crypto">Cryptography</button>
@@ -72,6 +73,152 @@
                     <li>Real-time performance metrics</li>
                     <li>Source code links for learning</li>
                 </ul>
+            </div>
+        </div>
+
+        <!-- WASM Introspection Tab -->
+        <div id="introspection" class="tab-content">
+            <h2>WebAssembly Environment Introspection</h2>
+            <p>Explore the WASM runtime environment from within - like running ps/pwd in a container</p>
+
+            <div class="demo-container">
+                <div class="controls">
+                    <h3>Introspection Tools</h3>
+
+                    <div class="button-group">
+                        <button id="refreshAll" class="run-btn">🔄 Refresh All Data</button>
+                        <button id="triggerGrowth" class="run-btn">📈 Grow Memory (+1 page)</button>
+                        <button id="testFeatures" class="run-btn">🧪 Test WASM Features</button>
+                    </div>
+
+                    <h4>Quick Stats</h4>
+                    <div class="metrics">
+                        <div><strong>Status:</strong> <span id="wasmStatus">Not Loaded</span></div>
+                        <div><strong>Module Loaded:</strong> <span id="moduleLoaded">No</span></div>
+                        <div><strong>Memory Pages:</strong> <span id="quickMemPages">-</span></div>
+                        <div><strong>Exports Count:</strong> <span id="quickExports">-</span></div>
+                    </div>
+                </div>
+
+                <div class="results">
+                    <h3>Environment Details</h3>
+
+                    <!-- Memory Information -->
+                    <div class="introspect-section">
+                        <h4>📦 Memory Information</h4>
+                        <div class="introspect-grid">
+                            <div class="introspect-item">
+                                <span class="label">Current Pages:</span>
+                                <span id="memPages" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Current Bytes:</span>
+                                <span id="memBytes" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Page Size:</span>
+                                <span class="value">64 KB</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Max Pages:</span>
+                                <span id="memMaxPages" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Growth Allowed:</span>
+                                <span id="canGrow" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Buffer Type:</span>
+                                <span id="bufferType" class="value">-</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module Information -->
+                    <div class="introspect-section">
+                        <h4>📚 Module Exports</h4>
+                        <div id="moduleExports" class="code-block">Loading...</div>
+                    </div>
+
+                    <!-- Runtime Capabilities -->
+                    <div class="introspect-section">
+                        <h4>⚙️ Runtime Capabilities</h4>
+                        <div class="introspect-grid">
+                            <div class="introspect-item">
+                                <span class="label">WebAssembly Support:</span>
+                                <span id="wasmSupport" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Threads Support:</span>
+                                <span id="threadsSupport" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">SIMD Support:</span>
+                                <span id="simdSupport" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Reference Types:</span>
+                                <span id="refTypesSupport" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Bulk Memory:</span>
+                                <span id="bulkMemSupport" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Streaming:</span>
+                                <span id="streamingSupport" class="value">-</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Performance Metrics -->
+                    <div class="introspect-section">
+                        <h4>📊 Performance Metrics</h4>
+                        <div class="introspect-grid">
+                            <div class="introspect-item">
+                                <span class="label">Init Time:</span>
+                                <span id="initTime" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Module Size:</span>
+                                <span id="moduleSize" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Compile Time:</span>
+                                <span id="compileTime" class="value">-</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Function Calls:</span>
+                                <span id="functionCalls" class="value">0</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Memory Growths:</span>
+                                <span id="memGrowths" class="value">0</span>
+                            </div>
+                            <div class="introspect-item">
+                                <span class="label">Browser:</span>
+                                <span id="browserInfo" class="value">-</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Environment Variables -->
+                    <div class="introspect-section">
+                        <h4>🌍 Runtime Environment</h4>
+                        <div id="envInfo" class="code-block">Loading...</div>
+                    </div>
+
+                    <!-- Stack Trace Simulator -->
+                    <div class="introspect-section">
+                        <h4>🔍 Test Functions</h4>
+                        <div class="button-group">
+                            <button id="testStack" class="run-btn">Test Recursive Call</button>
+                            <button id="testMemAlloc" class="run-btn">Test Memory Allocation</button>
+                            <button id="testPerf" class="run-btn">Performance Test</button>
+                        </div>
+                        <div id="testResults" class="code-block" style="margin-top: 1rem;">Results will appear here...</div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -286,6 +433,7 @@
         </p>
     </footer>
 
+    <script src="demos/introspection/introspection.js"></script>
     <script src="demos/image-processing/image-processing.js"></script>
     <script src="demos/game-of-life/game-of-life.js"></script>
     <script src="demos/crypto/crypto.js"></script>
