@@ -1,0 +1,15 @@
+{
+  "name": "wasm-testbed",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "wasm_testbed_bg.wasm",
+    "wasm_testbed.js",
+    "wasm_testbed.d.ts"
+  ],
+  "main": "wasm_testbed.js",
+  "types": "wasm_testbed.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
