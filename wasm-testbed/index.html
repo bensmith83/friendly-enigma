@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebAssembly Performance Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 WebAssembly Performance Lab</h1>
+        <p class="subtitle">Interactive testbed for exploring WebAssembly capabilities</p>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-button active" data-tab="intro">Introduction</button>
+        <button class="tab-button" data-tab="image-processing">Image Processing</button>
+        <button class="tab-button" data-tab="game-of-life">Game of Life</button>
+        <button class="tab-button" data-tab="crypto">Cryptography</button>
+        <button class="tab-button" data-tab="benchmarks">Benchmarks</button>
+    </nav>
+
+    <main>
+        <!-- Introduction Tab -->
+        <div id="intro" class="tab-content active">
+            <h2>Welcome to the WebAssembly Performance Lab</h2>
+            <p>This interactive testbed demonstrates the power and performance of WebAssembly (WASM) through various real-world examples.</p>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>📊 What is WebAssembly?</h3>
+                    <p>WebAssembly is a binary instruction format that runs at near-native speed in web browsers. It's designed as a portable compilation target for languages like C, C++, and Rust.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>⚡ Why Use WASM?</h3>
+                    <ul>
+                        <li>Near-native performance (10-800x faster than JS for compute-heavy tasks)</li>
+                        <li>Language flexibility (write in Rust, C, C++, etc.)</li>
+                        <li>Sandboxed execution for security</li>
+                        <li>Compact binary format</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h3>🎯 What's in This Lab?</h3>
+                    <ul>
+                        <li><strong>Image Processing:</strong> Real-time filters with performance comparisons</li>
+                        <li><strong>Game of Life:</strong> Cellular automata at 60 FPS</li>
+                        <li><strong>Cryptography:</strong> Hash functions and encryption benchmarks</li>
+                        <li><strong>Benchmarks:</strong> Mathematical computations and sorting algorithms</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h3>🛠️ Technologies Used</h3>
+                    <ul>
+                        <li>Rust compiled to WebAssembly</li>
+                        <li>JavaScript for comparison</li>
+                        <li>Web APIs (Canvas, WebGL potential)</li>
+                        <li>Real-time performance metrics</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="getting-started">
+                <h3>Getting Started</h3>
+                <p>Click on any tab above to explore different WASM demos. Each demo includes:</p>
+                <ul>
+                    <li>Interactive controls to experiment with parameters</li>
+                    <li>Side-by-side WASM vs JavaScript comparisons</li>
+                    <li>Real-time performance metrics</li>
+                    <li>Source code links for learning</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Image Processing Tab -->
+        <div id="image-processing" class="tab-content">
+            <h2>Image Processing Performance</h2>
+            <p>Compare WebAssembly vs JavaScript for real-time image filters</p>
+
+            <div class="demo-container">
+                <div class="controls">
+                    <h3>Controls</h3>
+                    <input type="file" id="imageInput" accept="image/*">
+                    <button id="useSampleImage">Use Sample Image</button>
+
+                    <div class="filter-controls">
+                        <h4>Select Filter:</h4>
+                        <label><input type="radio" name="filter" value="grayscale" checked> Grayscale</label>
+                        <label><input type="radio" name="filter" value="blur"> Blur</label>
+                        <label><input type="radio" name="filter" value="sharpen"> Sharpen</label>
+                        <label><input type="radio" name="filter" value="edge"> Edge Detection</label>
+                        <label><input type="radio" name="filter" value="invert"> Invert</label>
+                    </div>
+
+                    <button id="runJsFilter" class="run-btn js-btn">Run JavaScript</button>
+                    <button id="runWasmFilter" class="run-btn wasm-btn">Run WebAssembly</button>
+                </div>
+
+                <div class="results">
+                    <div class="result-panel">
+                        <h3>Original</h3>
+                        <canvas id="originalCanvas"></canvas>
+                    </div>
+
+                    <div class="result-panel">
+                        <h3>JavaScript Result</h3>
+                        <canvas id="jsCanvas"></canvas>
+                        <div class="metrics">
+                            <span class="metric-label">Time:</span>
+                            <span id="jsTime" class="metric-value">-</span>
+                        </div>
+                    </div>
+
+                    <div class="result-panel">
+                        <h3>WebAssembly Result</h3>
+                        <canvas id="wasmCanvas"></canvas>
+                        <div class="metrics">
+                            <span class="metric-label">Time:</span>
+                            <span id="wasmTime" class="metric-value">-</span>
+                            <span class="metric-label">Speedup:</span>
+                            <span id="speedup" class="metric-value speedup">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game of Life Tab -->
+        <div id="game-of-life" class="tab-content">
+            <h2>Conway's Game of Life</h2>
+            <p>Cellular automata simulation with millions of cells running at 60 FPS</p>
+
+            <div class="demo-container">
+                <div class="controls">
+                    <h3>Controls</h3>
+                    <label>
+                        Grid Size:
+                        <select id="gridSize">
+                            <option value="50">50x50 (2,500 cells)</option>
+                            <option value="100" selected>100x100 (10,000 cells)</option>
+                            <option value="200">200x200 (40,000 cells)</option>
+                            <option value="500">500x500 (250,000 cells)</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Pattern:
+                        <select id="pattern">
+                            <option value="random">Random</option>
+                            <option value="glider">Glider</option>
+                            <option value="pulsar">Pulsar</option>
+                            <option value="gosper">Gosper Glider Gun</option>
+                        </select>
+                    </label>
+
+                    <div class="button-group">
+                        <button id="golStart" class="run-btn">Start</button>
+                        <button id="golStop" class="run-btn" disabled>Stop</button>
+                        <button id="golReset" class="run-btn">Reset</button>
+                        <button id="golStep" class="run-btn">Step</button>
+                    </div>
+
+                    <label>
+                        <input type="checkbox" id="useWasm" checked>
+                        Use WebAssembly (uncheck for JavaScript)
+                    </label>
+
+                    <div class="metrics">
+                        <div><strong>Generation:</strong> <span id="generation">0</span></div>
+                        <div><strong>FPS:</strong> <span id="fps">0</span></div>
+                        <div><strong>Avg Update Time:</strong> <span id="avgTime">0</span> ms</div>
+                        <div><strong>Alive Cells:</strong> <span id="aliveCells">0</span></div>
+                    </div>
+                </div>
+
+                <div class="canvas-container">
+                    <canvas id="golCanvas"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cryptography Tab -->
+        <div id="crypto" class="tab-content">
+            <h2>Cryptography Benchmarks</h2>
+            <p>Test hashing and encryption performance: WASM vs JavaScript</p>
+
+            <div class="demo-container">
+                <div class="controls">
+                    <h3>Hash Functions</h3>
+                    <label>
+                        Input Text:
+                        <textarea id="cryptoInput" rows="4" placeholder="Enter text to hash...">The quick brown fox jumps over the lazy dog</textarea>
+                    </label>
+
+                    <label>
+                        Data Size:
+                        <select id="dataSize">
+                            <option value="small">Small (100 bytes)</option>
+                            <option value="medium" selected>Medium (10 KB)</option>
+                            <option value="large">Large (1 MB)</option>
+                            <option value="huge">Huge (10 MB)</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Iterations:
+                        <input type="number" id="iterations" value="1000" min="1" max="1000000">
+                    </label>
+
+                    <div class="button-group">
+                        <button id="runSha256Js" class="run-btn js-btn">SHA-256 (JS)</button>
+                        <button id="runSha256Wasm" class="run-btn wasm-btn">SHA-256 (WASM)</button>
+                    </div>
+                </div>
+
+                <div class="results">
+                    <h3>Results</h3>
+                    <div class="crypto-results">
+                        <div class="result-row">
+                            <strong>JavaScript:</strong>
+                            <span id="jsHashTime">-</span>
+                        </div>
+                        <div class="result-row">
+                            <strong>WebAssembly:</strong>
+                            <span id="wasmHashTime">-</span>
+                        </div>
+                        <div class="result-row speedup-row">
+                            <strong>Speedup:</strong>
+                            <span id="hashSpeedup" class="speedup">-</span>
+                        </div>
+                        <div class="result-row">
+                            <strong>Hash Output:</strong>
+                            <code id="hashOutput"></code>
+                        </div>
+                    </div>
+
+                    <canvas id="cryptoChart" width="600" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benchmarks Tab -->
+        <div id="benchmarks" class="tab-content">
+            <h2>Performance Benchmarks</h2>
+            <p>Compare WASM vs JavaScript across various computational tasks</p>
+
+            <div class="demo-container">
+                <div class="controls">
+                    <h3>Select Benchmark</h3>
+                    <div class="benchmark-list">
+                        <label><input type="checkbox" name="benchmark" value="fibonacci" checked> Fibonacci (recursive)</label>
+                        <label><input type="checkbox" name="benchmark" value="prime" checked> Prime Number Generation</label>
+                        <label><input type="checkbox" name="benchmark" value="matrix" checked> Matrix Multiplication</label>
+                        <label><input type="checkbox" name="benchmark" value="sort" checked> Quicksort</label>
+                        <label><input type="checkbox" name="benchmark" value="mandelbrot"> Mandelbrot Set</label>
+                    </div>
+
+                    <label>
+                        Problem Size:
+                        <select id="problemSize">
+                            <option value="small">Small</option>
+                            <option value="medium" selected>Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </label>
+
+                    <button id="runBenchmarks" class="run-btn">Run Benchmarks</button>
+                </div>
+
+                <div class="results">
+                    <h3>Results</h3>
+                    <div id="benchmarkResults"></div>
+                    <canvas id="benchmarkChart" width="800" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Part of the <a href="../">friendly-enigma</a> project collection |
+            <a href="https://github.com/bensmith83/friendly-enigma/tree/main/wasm-testbed">View Source on GitHub</a>
+        </p>
+    </footer>
+
+    <script src="demos/image-processing/image-processing.js"></script>
+    <script src="demos/game-of-life/game-of-life.js"></script>
+    <script src="demos/crypto/crypto.js"></script>
+    <script src="demos/benchmarks/benchmarks.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

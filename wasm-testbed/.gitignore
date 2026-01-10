@@ -1,0 +1,20 @@
+# Rust build artifacts
+src/rust/target/
+src/rust/Cargo.lock
+
+# WASM build output (comment this out if you want to commit compiled WASM)
+# wasm/
+
+# Node modules (if you add npm later)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
