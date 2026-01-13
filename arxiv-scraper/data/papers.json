@@ -1,5 +1,24 @@
 [
   {
+    "id": "2601.07835v1",
+    "title": "SecureCAI: Injection-Resilient LLM Assistants for Cybersecurity Operations",
+    "summary": "Large Language Models have emerged as transformative tools for Security Operations Centers, enabling automated log analysis, phishing triage, and malware explanation; however, deployment in adversarial cybersecurity environments exposes critical vulnerabilities to prompt injection attacks where malicious instructions embedded in security artifacts manipulate model behavior. This paper introduces SecureCAI, a novel defense framework extending Constitutional AI principles with security-aware guardrails, adaptive constitution evolution, and Direct Preference Optimization for unlearning unsafe response patterns, addressing the unique challenges of high-stakes security contexts where traditional safety mechanisms prove insufficient against sophisticated adversarial manipulation. Experimental evaluation demonstrates that SecureCAI reduces attack success rates by 94.7% compared to baseline models while maintaining 95.1% accuracy on benign security analysis tasks, with the framework incorporating continuous red-teaming feedback loops enabling dynamic adaptation to emerging attack strategies and achieving constitution adherence scores exceeding 0.92 under sustained adversarial pressure, thereby establishing a foundation for trustworthy integration of language model capabilities into operational cybersecurity workflows and addressing a critical gap in current approaches to AI safety within adversarial domains.",
+    "published": "2026-01-12T18:59:45Z",
+    "link": "http://arxiv.org/abs/2601.07835v1",
+    "authors": [
+      "Mohammed Himayath Ali",
+      "Mohammed Aqib Abdullah",
+      "Mohammed Mudassir Uddin",
+      "Shahnawaz Alam"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CV"
+    ],
+    "ai_summary": "Large Language Models have emerged as transformative tools for Security Operations Centers, enabling automated log analysis, phishing triage, and malware explanation; however, deployment in adversarial cybersecurity environments exposes critical vulnerabilities to prompt injection attacks where malicious instructions embedded in security artifacts manipulate model behavior. This paper introduces SecureCAI, a novel defense framework extending Constitutional AI principles with security-aware guardrails, adaptive constitution evolution, and Direct Preference Optimization for unlearning unsafe response patterns, addressing the unique challenges of high-stakes security contexts where traditional safety mechanisms prove insufficient against sophisticated adversarial manipulation.",
+    "selected_date": "2026-01-13"
+  },
+  {
     "id": "2601.05772v1",
     "title": "StriderSPD: Structure-Guided Joint Representation Learning for Binary Security Patch Detection",
     "summary": "Vulnerabilities severely threaten software systems, making the timely application of security patches crucial for mitigating attacks. However, software vendors often silently patch vulnerabilities with limited disclosure, where Security Patch Detection (SPD) comes to protect software assets. Recently, most SPD studies have targeted Open-Source Software (OSS), yet a large portion of real-world software is closed-source, where patches are distributed as binaries without accessible source code. The limited binary SPD approaches often lift binaries to abstraction levels, i.e., assembly code or pseudo-code. However, assembly code is register-based instructions conveying limited semantics, while pseudo-code lacks parser-compatible grammar to extract structure, both hindering accurate vulnerability-fix representation learning. In addition, previous studies often obtain training and testing data from the same project for evaluation, which fails to reflect closed-source conditions. To alleviate the above challenges, we propose \\textbf{\\textit{StriderSPD}}, a \\underline{Str}ucture-gu\\underline{ide}d joint \\underline{r}epresentation \\underline{SPD} framework of binary code that integrates a graph branch into a large language model (LLM), leveraging structural information to guide the LLM in identifying security patches. Our novel design of the adapters in the graph branch effectively aligns the representations between assembly code and pseudo-code at the LLM's token level. We further present a two-stage training strategy to address the optimization imbalance caused by the large parameter disparity between StriderSPD's two branches, which enables proper branch fitting. To enable more realistic evaluation, we construct a binary SPD benchmark that is disjoint from prior datasets in both projects and domains and extensively evaluate StriderSPD on this benchmark.",
