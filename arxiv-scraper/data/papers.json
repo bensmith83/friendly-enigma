@@ -1,5 +1,22 @@
 [
   {
+    "id": "2601.09363v1",
+    "title": "Efficient State Preparation for Quantum Machine Learning",
+    "summary": "One of the key considerations in the development of Quantum Machine Learning (QML) protocols is the encoding of classical data onto a quantum device. In this chapter we introduce the Matrix Product State representation of quantum systems and show how it may be used to construct circuits which encode a desired state. Putting this in the context of QML we show how this process may be modified to give a low depth approximate encoding and crucially that this encoding does not hinder classification accuracy and is indeed exhibits an increased robustness against classical adversarial attacks. This is illustrated by demonstrations of adversarially robust variational quantum classifiers for the MNIST and FMNIST dataset, as well as a small-scale experimental demonstration on a superconducting quantum device.",
+    "published": "2026-01-14T10:43:50Z",
+    "link": "http://arxiv.org/abs/2601.09363v1",
+    "authors": [
+      "Chris Nakhl",
+      "Maxwell West",
+      "Muhammad Usman"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "ai_summary": "One of the key considerations in the development of Quantum Machine Learning (QML) protocols is the encoding of classical data onto a quantum device. In this chapter we introduce the Matrix Product State representation of quantum systems and show how it may be used to construct circuits which encode a desired state.",
+    "selected_date": "2026-01-15"
+  },
+  {
     "id": "2601.07835v1",
     "title": "SecureCAI: Injection-Resilient LLM Assistants for Cybersecurity Operations",
     "summary": "Large Language Models have emerged as transformative tools for Security Operations Centers, enabling automated log analysis, phishing triage, and malware explanation; however, deployment in adversarial cybersecurity environments exposes critical vulnerabilities to prompt injection attacks where malicious instructions embedded in security artifacts manipulate model behavior. This paper introduces SecureCAI, a novel defense framework extending Constitutional AI principles with security-aware guardrails, adaptive constitution evolution, and Direct Preference Optimization for unlearning unsafe response patterns, addressing the unique challenges of high-stakes security contexts where traditional safety mechanisms prove insufficient against sophisticated adversarial manipulation. Experimental evaluation demonstrates that SecureCAI reduces attack success rates by 94.7% compared to baseline models while maintaining 95.1% accuracy on benign security analysis tasks, with the framework incorporating continuous red-teaming feedback loops enabling dynamic adaptation to emerging attack strategies and achieving constitution adherence scores exceeding 0.92 under sustained adversarial pressure, thereby establishing a foundation for trustworthy integration of language model capabilities into operational cybersecurity workflows and addressing a critical gap in current approaches to AI safety within adversarial domains.",
