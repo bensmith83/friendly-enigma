@@ -1,5 +1,25 @@
 [
   {
+    "id": "2601.10589v1",
+    "title": "Be Your Own Red Teamer: Safety Alignment via Self-Play and Reflective Experience Replay",
+    "summary": "Large Language Models (LLMs) have achieved remarkable capabilities but remain vulnerable to adversarial ``jailbreak'' attacks designed to bypass safety guardrails. Current safety alignment methods depend heavily on static external red teaming, utilizing fixed defense prompts or pre-collected adversarial datasets. This leads to a rigid defense that overfits known patterns and fails to generalize to novel, sophisticated threats. To address this critical limitation, we propose empowering the model to be its own red teamer, capable of achieving autonomous and evolving adversarial attacks. Specifically, we introduce Safety Self- Play (SSP), a system that utilizes a single LLM to act concurrently as both the Attacker (generating jailbreaks) and the Defender (refusing harmful requests) within a unified Reinforcement Learning (RL) loop, dynamically evolving attack strategies to uncover vulnerabilities while simultaneously strengthening defense mechanisms. To ensure the Defender effectively addresses critical safety issues during the self-play, we introduce an advanced Reflective Experience Replay Mechanism, which uses an experience pool accumulated throughout the process. The mechanism employs a Upper Confidence Bound (UCB) sampling strategy to focus on failure cases with low rewards, helping the model learn from past hard mistakes while balancing exploration and exploitation. Extensive experiments demonstrate that our SSP approach autonomously evolves robust defense capabilities, significantly outperforming baselines trained on static adversarial datasets and establishing a new benchmark for proactive safety alignment.",
+    "published": "2026-01-15T17:00:16Z",
+    "link": "http://arxiv.org/abs/2601.10589v1",
+    "authors": [
+      "Hao Wang",
+      "Yanting Wang",
+      "Hao Li",
+      "Rui Li",
+      "Lei Sha"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "ai_summary": "Large Language Models (LLMs) have achieved remarkable capabilities but remain vulnerable to adversarial ``jailbreak'' attacks designed to bypass safety guardrails. Current safety alignment methods depend heavily on static external red teaming, utilizing fixed defense prompts or pre-collected adversarial datasets.",
+    "selected_date": "2026-01-16"
+  },
+  {
     "id": "2601.09363v1",
     "title": "Efficient State Preparation for Quantum Machine Learning",
     "summary": "One of the key considerations in the development of Quantum Machine Learning (QML) protocols is the encoding of classical data onto a quantum device. In this chapter we introduce the Matrix Product State representation of quantum systems and show how it may be used to construct circuits which encode a desired state. Putting this in the context of QML we show how this process may be modified to give a low depth approximate encoding and crucially that this encoding does not hinder classification accuracy and is indeed exhibits an increased robustness against classical adversarial attacks. This is illustrated by demonstrations of adversarially robust variational quantum classifiers for the MNIST and FMNIST dataset, as well as a small-scale experimental demonstration on a superconducting quantum device.",
