@@ -1,5 +1,25 @@
 [
   {
+    "id": "2601.13569v1",
+    "title": "DRGW: Learning Disentangled Representations for Robust Graph Watermarking",
+    "summary": "Graph-structured data is foundational to numerous web applications, and watermarking is crucial for protecting their intellectual property and ensuring data provenance. Existing watermarking methods primarily operate on graph structures or entangled graph representations, which compromise the transparency and robustness of watermarks due to the information coupling in representing graphs and uncontrollable discretization in transforming continuous numerical representations into graph structures. This motivates us to propose DRGW, the first graph watermarking framework that addresses these issues through disentangled representation learning. Specifically, we design an adversarially trained encoder that learns an invariant structural representation against diverse perturbations and derives a statistically independent watermark carrier, ensuring both robustness and transparency of watermarks. Meanwhile, we devise a graph-aware invertible neural network to provide a lossless channel for watermark embedding and extraction, guaranteeing high detectability and transparency of watermarks. Additionally, we develop a structure-aware editor that resolves the issue of latent modifications into discrete graph edits, ensuring robustness against structural perturbations. Experiments on diverse benchmark datasets demonstrate the superior effectiveness of DRGW.",
+    "published": "2026-01-20T03:55:18Z",
+    "link": "http://arxiv.org/abs/2601.13569v1",
+    "authors": [
+      "Jiasen Li",
+      "Yanwei Liu",
+      "Zhuoyi Shang",
+      "Xiaoyan Gu",
+      "Weiping Wang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "ai_summary": "Graph-structured data is foundational to numerous web applications, and watermarking is crucial for protecting their intellectual property and ensuring data provenance. Existing watermarking methods primarily operate on graph structures or entangled graph representations, which compromise the transparency and robustness of watermarks due to the information coupling in representing graphs and uncontrollable discretization in transforming continuous numerical representations into graph structures.",
+    "selected_date": "2026-01-21"
+  },
+  {
     "id": "2601.11500v1",
     "title": "QUPID: A Partitioned Quantum Neural Network for Anomaly Detection in Smart Grid",
     "summary": "Smart grid infrastructures have revolutionized energy distribution, but their day-to-day operations require robust anomaly detection methods to counter risks associated with cyber-physical threats and system faults potentially caused by natural disasters, equipment malfunctions, and cyber attacks. Conventional machine learning (ML) models are effective in several domains, yet they struggle to represent the complexities observed in smart grid systems. Furthermore, traditional ML models are highly susceptible to adversarial manipulations, making them increasingly unreliable for real-world deployment. Quantum ML (QML) provides a unique advantage, utilizing quantum-enhanced feature representations to model the intricacies of the high-dimensional nature of smart grid systems while demonstrating greater resilience to adversarial manipulation. In this work, we propose QUPID, a partitioned quantum neural network (PQNN) that outperforms traditional state-of-the-art ML models in anomaly detection. We extend our model to R-QUPID that even maintains its performance when including differential privacy (DP) for enhanced robustness. Moreover, our partitioning framework addresses a significant scalability problem in QML by efficiently distributing computational workloads, making quantum-enhanced anomaly detection practical in large-scale smart grid environments. Our experimental results across various scenarios exemplifies the efficacy of QUPID and R-QUPID to significantly improve anomaly detection capabilities and robustness compared to traditional ML approaches.",
