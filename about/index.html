@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEN SMITH // OPERATOR PROFILE</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: #0f0;
+            font-family: 'Share Tech Mono', 'Courier New', monospace;
+            overflow-x: hidden;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        /* CRT Effect */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background:
+                repeating-linear-gradient(
+                    0deg,
+                    rgba(0, 0, 0, 0.15),
+                    rgba(0, 0, 0, 0.15) 1px,
+                    transparent 1px,
+                    transparent 2px
+                );
+            pointer-events: none;
+            z-index: 1000;
+            animation: scanlines 10s linear infinite;
+        }
+
+        @keyframes scanlines {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(10px); }
+        }
+
+        /* Grid background */
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image:
+                linear-gradient(rgba(0, 255, 0, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 0, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* HUD Border */
+        .hud-border {
+            border: 2px solid #0f0;
+            padding: 30px;
+            position: relative;
+            box-shadow:
+                inset 0 0 20px rgba(0, 255, 0, 0.1),
+                0 0 20px rgba(0, 255, 0, 0.2);
+            background: rgba(0, 20, 0, 0.3);
+        }
+
+        /* Corner decorations */
+        .hud-border::before,
+        .hud-border::after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #0f0;
+        }
+
+        .hud-border::before {
+            top: -2px;
+            left: -2px;
+            border-right: none;
+            border-bottom: none;
+        }
+
+        .hud-border::after {
+            top: -2px;
+            right: -2px;
+            border-left: none;
+            border-bottom: none;
+        }
+
+        .corner-bl,
+        .corner-br {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #0f0;
+        }
+
+        .corner-bl {
+            bottom: -2px;
+            left: -2px;
+            border-right: none;
+            border-top: none;
+        }
+
+        .corner-br {
+            bottom: -2px;
+            right: -2px;
+            border-left: none;
+            border-top: none;
+        }
+
+        /* Header */
+        header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            letter-spacing: 8px;
+            text-shadow:
+                0 0 10px #0f0,
+                0 0 20px #0f0,
+                0 0 30px #0f0;
+            animation: flicker 3s infinite alternate;
+            margin-bottom: 10px;
+        }
+
+        @keyframes flicker {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.95; }
+        }
+
+        .status-bar {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(0, 255, 0, 0.3);
+        }
+
+        .status-item {
+            display: flex;
+            gap: 10px;
+        }
+
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            letter-spacing: 4px;
+            text-shadow: 0 0 10px #0f0;
+            border-left: 4px solid #0f0;
+            padding-left: 15px;
+        }
+
+        h2::before {
+            content: ">> ";
+            color: #0f0;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        /* Links */
+        .links {
+            display: grid;
+            gap: 15px;
+        }
+
+        .link-item {
+            border: 1px solid rgba(0, 255, 0, 0.5);
+            padding: 15px 20px;
+            transition: all 0.3s;
+            position: relative;
+            background: rgba(0, 20, 0, 0.2);
+        }
+
+        .link-item:hover {
+            background: rgba(0, 255, 0, 0.1);
+            box-shadow:
+                inset 0 0 20px rgba(0, 255, 0, 0.1),
+                0 0 10px rgba(0, 255, 0, 0.4);
+            transform: translateX(5px);
+        }
+
+        .link-item::before {
+            content: "[LINK]";
+            position: absolute;
+            left: -50px;
+            opacity: 0;
+            transition: all 0.3s;
+        }
+
+        .link-item:hover::before {
+            opacity: 1;
+            left: -60px;
+        }
+
+        a {
+            color: #0f0;
+            text-decoration: none;
+            font-size: 1.1em;
+            display: block;
+        }
+
+        a:hover {
+            text-shadow: 0 0 5px #0f0;
+        }
+
+        .link-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .link-desc {
+            font-size: 0.9em;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+
+        /* Back link */
+        .back-link {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(0, 255, 0, 0.3);
+            text-align: center;
+        }
+
+        .back-link a {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid #0f0;
+            transition: all 0.3s;
+        }
+
+        .back-link a:hover {
+            background: rgba(0, 255, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+        }
+
+        /* Radar decoration */
+        .radar {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 120px;
+            height: 120px;
+            border: 2px solid rgba(0, 255, 0, 0.3);
+            border-radius: 50%;
+            z-index: 5;
+            opacity: 0.3;
+        }
+
+        .radar::before,
+        .radar::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid rgba(0, 255, 0, 0.2);
+            border-radius: 50%;
+        }
+
+        .radar::before {
+            width: 80px;
+            height: 80px;
+        }
+
+        .radar::after {
+            width: 40px;
+            height: 40px;
+        }
+
+        .radar-line {
+            position: absolute;
+            width: 2px;
+            height: 50%;
+            background: linear-gradient(to bottom, #0f0, transparent);
+            top: 50%;
+            left: 50%;
+            transform-origin: top center;
+            animation: radar-sweep 4s linear infinite;
+        }
+
+        @keyframes radar-sweep {
+            0% { transform: translateX(-50%) rotate(0deg); }
+            100% { transform: translateX(-50%) rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+                letter-spacing: 4px;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+
+            .hud-border {
+                padding: 20px;
+            }
+
+            .status-bar {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .radar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="radar">
+        <div class="radar-line"></div>
+    </div>
+
+    <div class="container">
+        <div class="hud-border">
+            <span class="corner-bl"></span>
+            <span class="corner-br"></span>
+
+            <header>
+                <h1>BEN SMITH</h1>
+                <div class="status-bar">
+                    <div class="status-item">
+                        <span>STATUS:</span>
+                        <span class="blink">ONLINE</span>
+                    </div>
+                    <div class="status-item">
+                        <span>CLASSIFICATION:</span>
+                        <span>OPERATOR</span>
+                    </div>
+                    <div class="status-item">
+                        <span>CLEARANCE:</span>
+                        <span>AUTHORIZED</span>
+                    </div>
+                </div>
+            </header>
+
+            <section id="about">
+                <h2>PROFILE</h2>
+                <p>
+                    Security researcher and tinkerer. Exploring the digital frontier,
+                    breaking things to understand how they work, and occasionally putting
+                    them back together.
+                </p>
+                <p>
+                    Interests span cybersecurity research, experimental projects, and
+                    pushing the boundaries of what's possible with code.
+                </p>
+            </section>
+
+            <section id="links">
+                <h2>NETWORK LINKS</h2>
+                <div class="links">
+                    <div class="link-item">
+                        <a href="https://github.com/bensmith83" target="_blank">
+                            <div class="link-title">&gt; GITHUB.COM/BENSMITH83</div>
+                            <div class="link-desc">Code repositories and open source projects</div>
+                        </a>
+                    </div>
+
+                    <div class="link-item">
+                        <a href="https://xorrbit.github.io/aislop/" target="_blank">
+                            <div class="link-title">&gt; AI SLOP DETECTOR</div>
+                            <div class="link-desc">Identifying AI-generated content in the wild</div>
+                        </a>
+                    </div>
+
+                    <div class="link-item">
+                        <a href="#" class="disabled" style="opacity: 0.5; pointer-events: none;">
+                            <div class="link-title">&gt; DO NOT ATTEMPT REPAIRS</div>
+                            <div class="link-desc">Personal site [COMING SOON]</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="back-link">
+                <a href="../">&lt;&lt; RETURN TO MAIN TERMINAL</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
