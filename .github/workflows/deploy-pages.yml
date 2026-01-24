@@ -18,6 +18,7 @@ on:
       - 'browser-vulnerability-scanner/**'
       - 'ai-honeypot-generator/**'
       - 'wasm-testbed/**'
+      - 'about/**'
       - '.github/workflows/deploy-pages.yml'
   pull_request:
     paths:
@@ -32,6 +33,7 @@ on:
       - 'browser-vulnerability-scanner/**'
       - 'ai-honeypot-generator/**'
       - 'wasm-testbed/**'
+      - 'about/**'
   # Auto-deploy after data-generating workflows complete
   workflow_run:
     workflows:
@@ -126,6 +128,9 @@ jobs:
           # Copy wasm-testbed to /wasm-testbed subdirectory
           cp -r wasm-testbed _site/wasm-testbed
 
+          # Copy about to /about subdirectory
+          cp -r about _site/about
+
           # Create index.html that redirects to blog or provides navigation
           cat > _site/index.html << 'EOF'
           <!DOCTYPE html>
@@ -174,6 +179,10 @@ jobs:
               <div class="container">
                   <h1>My Projects</h1>
                   <div class="projects">
+                      <a href="/friendly-enigma/about/" class="project-link">
+                          <div class="project-title">👤 About Me</div>
+                          <div class="project-desc">Operator profile and network links</div>
+                      </a>
                       <a href="/friendly-enigma/blog/" class="project-link">
                           <div class="project-title">📝 Blog</div>
                           <div class="project-desc">Personal blog with thoughts, quotes, and links</div>
