@@ -1,5 +1,27 @@
 [
   {
+    "id": "2601.16210v1",
+    "title": "PyraTok: Language-Aligned Pyramidal Tokenizer for Video Understanding and Generation",
+    "summary": "Discrete video VAEs underpin modern text-to-video generation and video understanding systems, yet existing tokenizers typically learn visual codebooks at a single scale with limited vocabularies and shallow language supervision, leading to poor cross-modal alignment and zero-shot transfer. We introduce PyraTok, a language-aligned pyramidal tokenizer that learns semantically structured discrete latents across multiple spatiotemporal resolutions. PyraTok builds on a pretrained video VAE and a novel Language aligned Pyramidal Quantization (LaPQ) module that discretizes encoder features at several depths using a shared large binary codebook, yielding compact yet expressive video token sequences. To tightly couple visual tokens with language, PyraTok jointly optimizes multi-scale text-guided quantization and a global autoregressive objective over the token hierarchy. Across ten benchmarks, PyraTok delivers state-of-the-art (SOTA) video reconstruction, consistently improves text-to-video quality, and sets new SOTA zero-shot performance on video segmentation, temporal action localization, and video understanding, scaling robustly to up to 4K/8K resolutions.",
+    "published": "2026-01-22T18:58:55Z",
+    "link": "http://arxiv.org/abs/2601.16210v1",
+    "authors": [
+      "Onkar Susladkar",
+      "Tushar Prakash",
+      "Adheesh Juvekar",
+      "Kiet A. Nguyen",
+      "Dong-Hwan Jang",
+      "Inderjit S Dhillon",
+      "Ismini Lourentzou"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "ai_summary": "Discrete video VAEs underpin modern text-to-video generation and video understanding systems, yet existing tokenizers typically learn visual codebooks at a single scale with limited vocabularies and shallow language supervision, leading to poor cross-modal alignment and zero-shot transfer. We introduce PyraTok, a language-aligned pyramidal tokenizer that learns semantically structured discrete latents across multiple spatiotemporal resolutions.",
+    "selected_date": "2026-01-24"
+  },
+  {
     "id": "2601.15474v1",
     "title": "Multi-Targeted Graph Backdoor Attack",
     "summary": "Graph neural network (GNN) have demonstrated exceptional performance in solving critical problems across diverse domains yet remain susceptible to backdoor attacks. Existing studies on backdoor attack for graph classification are limited to single target attack using subgraph replacement based mechanism where the attacker implants only one trigger into the GNN model. In this paper, we introduce the first multi-targeted backdoor attack for graph classification task, where multiple triggers simultaneously redirect predictions to different target labels. Instead of subgraph replacement, we propose subgraph injection which preserves the structure of the original graphs while poisoning the clean graphs. Extensive experiments demonstrate the efficacy of our approach, where our attack achieves high attack success rates for all target labels with minimal impact on the clean accuracy. Experimental results on five dataset demonstrate the superior performance of our attack framework compared to the conventional subgraph replacement-based attack. Our analysis on four GNN models confirms the generalization capability of our attack which is effective regardless of the GNN model architectures and training parameters settings. We further investigate the impact of the attack design parameters including injection methods, number of connections, trigger sizes, trigger edge density and poisoning ratios. Additionally, our evaluation against state-of-the-art defenses (randomized smoothing and fine-pruning) demonstrates the robustness of our proposed multi-target attacks. This work highlights the GNN vulnerability against multi-targeted backdoor attack in graph classification task. Our source codes will be available at https://github.com/SiSL-URI/Multi-Targeted-Graph-Backdoor-Attack.",
