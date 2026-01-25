@@ -1,5 +1,1122 @@
 [
   {
+    "date": "2026-01-25",
+    "week_of": "January 25, 2026",
+    "digest_number": 5,
+    "weekly_summary": "This week's ALS news features several significant research developments. A study aims to leverage multiple data sources, including the exposome, genome, epigenome, metabolome, and inflammasome, to develop novel strategies for personalized treatment and prevention of ALS. Another study found that exposure to air pollution is linked to a higher risk of developing ALS and faster disease progression, highlighting the importance of understanding environmental factors that contribute to the disease. Additionally, researchers have unraveled the structural basis of TDP-43 assemblies and aggregation, which are associated with ALS and other neurodegenerative disorders, providing valuable insights for targeted therapy development. These findings demonstrate the ongoing efforts to better understand the complex nature of ALS and explore new avenues for improving patient outcomes.",
+    "highlights": [
+      {
+        "article": {
+          "title": "New | phs004288.v1.p1 | Developing Novel Strategies for Personalized Treatment and Prevention of ALS: Leveraging the Global Exposome, Genome, Epigenome, Metabolome, and Inflammasome with Data Science in a Case/Control Cohort",
+          "description": "Developing Novel Strategies for Personalized Treatment and Prevention of ALS: Leveraging the Global Exposome, Genome, Epigenome, Metabolome, and Inflammasome with Data Science in a Case/Control Cohort (study page\r\n | release notes\r\n)",
+          "content": "Patients with amyotrophic lateral sclerosis (ALS), a rare fatal neurodegenerative disease, face a lengthy diagnostic process, and, although most survive only 2 to 4 years from diagnosis, lack informa\u2026 [+980 chars]",
+          "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs004288.v1.p1",
+          "source_name": "National Institutes of Health",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T16:26:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "8a0ee58182d2"
+        },
+        "why_important": "This study aims to develop novel strategies for personalized treatment and prevention of ALS by leveraging multiple data sources, including the exposome, genome, epigenome, metabolome, and inflammasome. This comprehensive approach to understanding the disease is highly significant and could lead to breakthroughs in ALS research and treatment."
+      },
+      {
+        "article": {
+          "title": "Air Pollution Linked to Higher ALS Risk And Faster Decline",
+          "description": "The scientist Stephen Hawking lived with amyotrophic lateral sclerosis (ALS), the most common type of motor neurone disease, for 55 years.",
+          "content": "The scientist Stephen Hawking lived with amyotrophic lateral sclerosis (ALS), the most common type of motor neurone disease, for 55 years. He was one of the longest-surviving people with the conditio\u2026 [+4556 chars]",
+          "url": "https://www.sciencealert.com/air-pollution-linked-to-higher-als-risk-and-faster-decline",
+          "source_name": "ScienceAlert",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T02:32:15Z",
+          "author": "Jing Wu, The Conversation",
+          "image_url": "https://www.sciencealert.com/images/2026/01/DualExhaustPipesOfACarThermalInfraredEffect.jpg",
+          "is_local_nj": false,
+          "article_id": "0e19ee8f110b"
+        },
+        "why_important": "The finding that exposure to air pollution is linked to a higher risk of developing ALS and faster disease progression is an important discovery that could have significant implications for understanding environmental factors that contribute to ALS. This information could help inform prevention and treatment strategies."
+      },
+      {
+        "article": {
+          "title": "From TDP-43/RNA complex formation to disease-linked TDP-43 aggregation through a structural and cellular approach",
+          "description": "Feng et al. unravel the structural basis of TDP-43 higher-order assemblies with mRNA and the structural changes leading to TDP-43 aggregation, which are associated with neurodegenerative diseases such as Amyotrophic Lateral Sclerosis.",
+          "content": "<li>Banani, S. F., Lee, H. O., Hyman, A. A. &amp; Rosen, M. K. Biomolecular condensates: organizers of cellular biochemistry. Nat. Rev. Mol. Cell Biol.18, 285298 (2017).\r\nGoogle Scholar\u00a0\r\n</li><li>Zh\u2026 [+11574 chars]",
+          "url": "https://www.nature.com/articles/s41467-026-68346-y",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T00:00:00Z",
+          "author": "Yitian Feng, Vandana Joshi, Serhii Pankivskyi, Marie-Jeanne Cl\u00e9ment, Juan Carlos Rengifo-Gonzalez, Aur\u00e9lien Thureau, David Pastr\u00e9, Ahmed Bouhss",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "e961855d85ba"
+        },
+        "why_important": "This study provides valuable insights into the structural basis of TDP-43 assemblies and aggregation, which are associated with ALS and other neurodegenerative diseases. Understanding the underlying mechanisms of these processes is crucial for developing targeted therapies."
+      }
+    ],
+    "categories": {
+      "research": [
+        {
+          "title": "New | phs004288.v1.p1 | Developing Novel Strategies for Personalized Treatment and Prevention of ALS: Leveraging the Global Exposome, Genome, Epigenome, Metabolome, and Inflammasome with Data Science in a Case/Control Cohort",
+          "description": "Developing Novel Strategies for Personalized Treatment and Prevention of ALS: Leveraging the Global Exposome, Genome, Epigenome, Metabolome, and Inflammasome with Data Science in a Case/Control Cohort (study page\r\n | release notes\r\n)",
+          "content": "Patients with amyotrophic lateral sclerosis (ALS), a rare fatal neurodegenerative disease, face a lengthy diagnostic process, and, although most survive only 2 to 4 years from diagnosis, lack informa\u2026 [+980 chars]",
+          "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs004288.v1.p1",
+          "source_name": "National Institutes of Health",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T16:26:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "8a0ee58182d2",
+          "summary": "This study aims to develop novel strategies for personalized treatment and prevention of ALS by leveraging data from the global exposome, genome, epigenome, metabolome, and inflammasome.",
+          "importance": 5,
+          "key_entities": [
+            "ALS",
+            "exposome",
+            "genome",
+            "epigenome",
+            "metabolome",
+            "inflammasome"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Air Pollution Linked to Higher ALS Risk And Faster Decline",
+          "description": "The scientist Stephen Hawking lived with amyotrophic lateral sclerosis (ALS), the most common type of motor neurone disease, for 55 years.",
+          "content": "The scientist Stephen Hawking lived with amyotrophic lateral sclerosis (ALS), the most common type of motor neurone disease, for 55 years. He was one of the longest-surviving people with the conditio\u2026 [+4556 chars]",
+          "url": "https://www.sciencealert.com/air-pollution-linked-to-higher-als-risk-and-faster-decline",
+          "source_name": "ScienceAlert",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T02:32:15Z",
+          "author": "Jing Wu, The Conversation",
+          "image_url": "https://www.sciencealert.com/images/2026/01/DualExhaustPipesOfACarThermalInfraredEffect.jpg",
+          "is_local_nj": false,
+          "article_id": "0e19ee8f110b",
+          "summary": "A study has found that exposure to air pollution is linked to a higher risk of developing ALS and faster disease progression.",
+          "importance": 5,
+          "key_entities": [
+            "air pollution",
+            "ALS"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "From TDP-43/RNA complex formation to disease-linked TDP-43 aggregation through a structural and cellular approach",
+          "description": "Feng et al. unravel the structural basis of TDP-43 higher-order assemblies with mRNA and the structural changes leading to TDP-43 aggregation, which are associated with neurodegenerative diseases such as Amyotrophic Lateral Sclerosis.",
+          "content": "<li>Banani, S. F., Lee, H. O., Hyman, A. A. &amp; Rosen, M. K. Biomolecular condensates: organizers of cellular biochemistry. Nat. Rev. Mol. Cell Biol.18, 285298 (2017).\r\nGoogle Scholar\u00a0\r\n</li><li>Zh\u2026 [+11574 chars]",
+          "url": "https://www.nature.com/articles/s41467-026-68346-y",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T00:00:00Z",
+          "author": "Yitian Feng, Vandana Joshi, Serhii Pankivskyi, Marie-Jeanne Cl\u00e9ment, Juan Carlos Rengifo-Gonzalez, Aur\u00e9lien Thureau, David Pastr\u00e9, Ahmed Bouhss",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "e961855d85ba",
+          "summary": "This study unravels the structural basis of TDP-43 higher-order assemblies with mRNA and the structural changes leading to TDP-43 aggregation, which are associated with neurodegenerative diseases like ALS.",
+          "importance": 5,
+          "key_entities": [
+            "TDP-43",
+            "mRNA",
+            "ALS"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Peptide Treatment Protects Brains After Stroke, Mouse Study Finds",
+          "description": "When someone is affected by a stroke, the standard treatment to restore blood flow to the brain can both save their life and cause additional damage \u2013 damage which a new, injectable nanomaterial promises to protect against.",
+          "content": "When someone is affected by a stroke, the standard treatment to restore blood flow to the brain can both save their life and cause additional damage damage which a new, injectable nanomaterial promis\u2026 [+3549 chars]",
+          "url": "https://www.sciencealert.com/peptide-treatment-protects-brains-after-stroke-mouse-study-finds",
+          "source_name": "ScienceAlert",
+          "source_type": "newsapi",
+          "published_at": "2026-01-23T02:47:03Z",
+          "author": "David Nield",
+          "image_url": "https://www.sciencealert.com/images/2026/01/RedBrain.jpg",
+          "is_local_nj": false,
+          "article_id": "503b292645a7",
+          "summary": "A new injectable nanomaterial has been found to protect the brain from additional damage after a stroke in a mouse study.",
+          "importance": 4,
+          "key_entities": [
+            "stroke",
+            "nanomaterial"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "$11.20 Bn Brain Computer Interface Global Market Opportunities and Strategies to 2033 | Astute Analytica",
+          "description": "Growth is fueled by breakthroughs in non-invasive EEG and fNIRS systems, hybrid BCIs, and graphene-enabled electrodes that enhance signal precision, reduce setup times, and democratize neurotechnology across healthcare, industrial safety, education, gaming, a\u2026",
+          "content": "Chicago, Jan. 22, 2026 (GLOBE NEWSWIRE) -- The global brain computer interface market was valued at 2.84 billion in 2024 and is expected to reach US$ 11.20 billion by 2033, growing at a CAGR of 16.43\u2026 [+9842 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/22/3224194/0/en/11-20-Bn-Brain-Computer-Interface-Global-Market-Opportunities-and-Strategies-to-2033-Astute-Analytica.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T18:24:00Z",
+          "author": "AstuteAnalytica India Pvt. Ltd.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/a77988df-ad1a-4619-9a4e-367c858dc70e",
+          "is_local_nj": false,
+          "article_id": "4897e483f3c8",
+          "summary": "The global brain-computer interface market is expected to grow to $11.20 billion by 2033, driven by advancements in non-invasive EEG and fNIRS systems, hybrid BCIs, and graphene-enabled electrodes.",
+          "importance": 4,
+          "key_entities": [
+            "brain-computer interface",
+            "EEG",
+            "fNIRS",
+            "hybrid BCIs",
+            "graphene"
+          ],
+          "related_previous": [
+            {
+              "title": "Heavy Metal Testing Market Projected to Reach US$ 7,130.12 Million by 2035, Supported by Regulatory Testing Requirements Says Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/15/3219904/0/en/Heavy-Metal-Testing-Market-Projected-to-Reach-US-7-130-12-Million-by-2035-Supported-by-Regulatory-Testing-Requirements-Says-Astute-Analytica.html",
+              "digest_date": "2026-01-18"
+            },
+            {
+              "title": "Central Nervous System Therapeutic Market Report 2025-2033: Key Drivers, Regional Nuances, Competitive Dynamics | Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/14/3218965/0/en/Central-Nervous-System-Therapeutic-Market-Report-2025-2033-Key-Drivers-Regional-Nuances-Competitive-Dynamics-Astute-Analytica.html",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Optineurin binding to the novel interacting partner Junction plakoglobin prevents muscle atrophy in mice",
+          "description": "Skeletal muscle atrophy is a debilitating condition that accompanies a number of diseases, but there are few known therapeutic targets to reverse it. This study identifies Optineurin as a regulator of muscle homeostasis, showing that it binds to JUP and activ\u2026",
+          "content": "Citation: Shi XC, Zhang RX, Feng JK, Chen JH, Zhang JF, Xiao JY, et al. (2026) Optineurin binding to the novel interacting partner Junction plakoglobin prevents muscle atrophy in mice. PLoS Biol 24(1\u2026 [+53087 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003581",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T14:00:00Z",
+          "author": "Xiao Chen Shi, Rui Xin Zhang, Jun Kai Feng, Jia Hao Chen, Jian Feng Zhang, Jun Ying Xiao, Xiao Peng Liu, Huan Liu, Bo Xia, Li Nong Yao, Jiang Wei Wu",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003581.g009&size=inline",
+          "is_local_nj": false,
+          "article_id": "8a0f91a11f14",
+          "summary": "This study identifies Optineurin as a regulator of muscle homeostasis, showing that it binds to Junction plakoglobin and activates pathways that prevent muscle atrophy in mice.",
+          "importance": 4,
+          "key_entities": [
+            "Optineurin",
+            "Junction plakoglobin",
+            "muscle atrophy"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Clinical Trials Market Size to Reach USD 175.02 Billion by 2035",
+          "description": "According to Nova One Advisor, the global clinical trials size is calculated at USD 99.21 billion in 2026 and is expected to reach around USD 175.02 billion by 2035, growing at a compound annual growth rate (CAGR) of 6.51% over the forecast period 2026 to 203\u2026",
+          "content": "Ottawa, Jan. 22, 2026 (GLOBE NEWSWIRE) -- The global\u00a0clinical trials market size is calculated at USD 93.15 billion in 2025, grew to USD 99.21 billion in 2026, and is projected to reach around USD 17\u2026 [+18474 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/22/3223500/0/en/Clinical-Trials-Market-Size-to-Reach-USD-175-02-Billion-by-2035.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T10:31:00Z",
+          "author": "Precedence Research",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/01eb1f79-0c67-420b-b423-376619f975cd",
+          "is_local_nj": false,
+          "article_id": "ff601699e052",
+          "summary": "The global clinical trials market is expected to reach $175.02 billion by 2035, growing at a CAGR of 6.51% from 2026 to 2035.",
+          "importance": 4,
+          "key_entities": [
+            "clinical trials market"
+          ],
+          "related_previous": [
+            {
+              "title": "Heavy Metal Testing Market Projected to Reach US$ 7,130.12 Million by 2035, Supported by Regulatory Testing Requirements Says Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/15/3219904/0/en/Heavy-Metal-Testing-Market-Projected-to-Reach-US-7-130-12-Million-by-2035-Supported-by-Regulatory-Testing-Requirements-Says-Astute-Analytica.html",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "One weird thing that\u2019s been holding drug trials back",
+          "description": "Here\u2019s something strange about how we test new drugs: Every clinical trial has to pretend that nothing like it has ever come before. Even if clinicians have tested similar drugs for years, or if decades of research point in a certain direction, each trial mus\u2026",
+          "content": "Heres something strange about how we test new drugs: Every clinical trial has to pretend that nothing like it has ever come before.\r\nEven if clinicians have tested similar drugs for years, or if deca\u2026 [+9376 chars]",
+          "url": "https://www.vox.com/future-perfect/475863/fda-clinical-trials-math-explained",
+          "source_name": "Vox",
+          "source_type": "newsapi",
+          "published_at": "2026-01-20T23:03:42Z",
+          "author": "Pratik Pawar",
+          "image_url": "https://platform.vox.com/wp-content/uploads/sites/2/2026/01/gettyimages-2210921684.jpg?quality=90&strip=all&crop=0%2C10.75214828329%2C100%2C78.49570343342&w=1200",
+          "is_local_nj": false,
+          "article_id": "069ed2e70fd9",
+          "summary": "This article discusses a strange aspect of how clinical trials are conducted, where each trial has to pretend that nothing like it has come before, even if decades of research points in a certain direction.",
+          "importance": 4,
+          "key_entities": [
+            "clinical trials"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Eledon Pharmaceuticals Presents Long-Term Phase 1b Data for Tegoprubart in Kidney Transplant Patients at the American Society of Transplant Surgeons Winter Symposium",
+          "description": "Eledon Pharmaceuticals Presents Long-Term Phase 1b Data for Tegoprubart in Kidney Transplant Patients at ASTS...",
+          "content": "Data from eight participants continue to support safety and tolerability profile of tegoprubart\r\nMean eGFR increased over the measurement period, from 67.0 mL/min/1.73 m\u00b2 at 12 months to 74.2 mL/min/\u2026 [+5554 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/23/3224604/0/en/Eledon-Pharmaceuticals-Presents-Long-Term-Phase-1b-Data-for-Tegoprubart-in-Kidney-Transplant-Patients-at-the-American-Society-of-Transplant-Surgeons-Winter-Symposium.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-23T12:00:00Z",
+          "author": "Eledon Pharmaceuticals, Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/5e2f90ec-c9a5-4fcd-99c8-2c8c838ac033",
+          "is_local_nj": false,
+          "article_id": "1adb2926e2ae",
+          "summary": "Eledon Pharmaceuticals presented long-term Phase 1b data for their drug tegoprubart in kidney transplant patients at a medical conference.",
+          "importance": 3,
+          "key_entities": [
+            "Eledon Pharmaceuticals",
+            "tegoprubart"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "The role of low-complexity repeats in RNA\u2013RNA interactions and a deep learning framework for duplex prediction",
+          "description": "Interactions between long RNA molecules play essential roles in shaping gene regulation. Here, the authors show that low-complexity repeats drive stable contacts between RNAs and present RIME, a deep learning model that improves the prediction of these intera\u2026",
+          "content": "<li>Dai, X., Zhang, S. &amp; Zaleta-Rivera, K. RNA: interactions drive functionalities. Mol. Biol. Rep.47, 14131434 (2019).\r\nGoogle Scholar\u00a0\r\n</li><li>Romero-Barrios, N., Legascue, M. F., Benhamed, M\u2026 [+21129 chars]",
+          "url": "https://www.nature.com/articles/s41467-026-68356-w",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-23T00:00:00Z",
+          "author": "Adriano Setti, Giorgio Bini, Pellegrini Flaminia, Valentino Maiorca, Gabriele Proietti, Dimitrios-Miltiadis Vrachnos, Angelo D\u2019Angelo, Alexandros Armaos, Julie Martone, Michele Monti, Giancarlo Ruocco, Emanuele Rodol\u00e0, Irene Bozzoni, Alessio Colantoni, Gian Gaetano Tartaglia",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "8fac0a48b722",
+          "summary": "This study examines the role of low-complexity repeats in RNA-RNA interactions and presents a deep learning framework for predicting RNA duplexes.",
+          "importance": 3,
+          "key_entities": [
+            "RNA-RNA interactions",
+            "deep learning"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Allostatic load in thyroid cancer is higher than that of other cancers: A secondary analysis using NHANES",
+          "description": "Background To compare the levels of allostatic load score (ALS) between thyroid cancer patients and patients with other types of cancer and explore whether ALS mediates the association between thyroid cancer and alterations in physiological function.   Method\u2026",
+          "content": "Citation: Wang W-r, Liu G-d, Ren D-x, Liu X-y (2026) Allostatic load in thyroid cancer is higher than that of other cancers: A secondary analysis using NHANES. PLoS One 21(1):\r\n e0341063.\r\nhttps://do\u2026 [+28368 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341063",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T14:00:00Z",
+          "author": "Wen-rui Wang, Guan-dong Liu, Dong-xiao Ren, Xiao-yu Liu",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0341063.g003&size=inline",
+          "is_local_nj": false,
+          "article_id": "5cc000867f17",
+          "summary": "This study compares the levels of allostatic load score (ALS) between thyroid cancer patients and patients with other types of cancer, finding that ALS is higher in thyroid cancer patients.",
+          "importance": 3,
+          "key_entities": [
+            "allostatic load score",
+            "thyroid cancer"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Hundreds of Businesses Join General Strike Against ICE",
+          "description": "A breakfast restaurant, a bike shop, and a brewery: these are some of the hundreds of businesses across Minnesota closing their doors Friday as part of a general strike to push Immigration and Customs Enforcement out of the state. \u201cThere\u2019s a time to stand up \u2026",
+          "content": "Protesters participates in the Free America Walkout at the Minnesota State Capitol in St. Paul, Minnesota, on Tuesday, Jan. 20, 2026.Jones Schneider/ZUMA\r\nGet your news from a source thats not owned \u2026 [+3457 chars]",
+          "url": "https://www.motherjones.com/politics/2026/01/ice-out-of-minnesota-minneapolis-protest-general-strike-ice-trump-bovino/",
+          "source_name": "Mother Jones",
+          "source_type": "newsapi",
+          "published_at": "2026-01-23T17:04:53Z",
+          "author": "Katie Herchenroeder",
+          "image_url": "https://www.motherjones.com/wp-content/uploads/2026/01/1232026_iceout_2000.jpg?w=1200&h=630&crop=1",
+          "is_local_nj": false,
+          "article_id": "1f27784aaabd",
+          "summary": "This article is not about ALS or related topics. It discusses a general strike against ICE in Minnesota.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Asake Finally Reacts to Seun Kuti\u2019s Warning About His Relationship With Wizkid",
+          "description": "Asake and Wizkid unveil 'Real EP Vol. 1' amid tensions following Seun Kuti's cautionary advice, highlighting the explosive dynamics in Nigerian Afrobeat.",
+          "content": "<ul><li>Asake and Wizkid have officially released their collaborative EP titled Real EP Vol. 1, featuring four tracks</li><li>The release was coming just days after Seun Kuti publicly advised Asake t\u2026 [+3238 chars]",
+          "url": "https://www.legit.ng/entertainment/celebrities/1693820-asake-responds-seun-kutis-warning-relationship-wizkid/",
+          "source_name": "Latest News in Nigeria & Breaking Naija News 24/7 | LEGIT.NG",
+          "source_type": "newsapi",
+          "published_at": "2026-01-23T16:50:06Z",
+          "author": "Olaniyi Apanpa",
+          "image_url": "https://cdn.legit.ng/images/1200x675/4054917d5ecc8843.jpeg?v=1",
+          "is_local_nj": false,
+          "article_id": "51d7c2bccc11",
+          "summary": "This article is about tensions between Nigerian musicians Asake and Wizkid and is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Food Safety Testing Market Set to Cross US$ 44 Billion by 2033 | Astute Analytica",
+          "description": "The global food safety testing market is experiencing significant growth, driven by rising foodborne illnesses, stringent regulatory frameworks (e.g., FSMA, EU regulations), and increasing consumer demand for high-quality, safe food. The global food safety te\u2026",
+          "content": "Chicago, Jan. 23, 2026 (GLOBE NEWSWIRE) -- According to recent data from Astute Analytica, the global food safety testing market was valued at US$ 21.24 billion in 2024 and is projected to hit the ma\u2026 [+10698 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/23/3224755/0/en/Food-Safety-Testing-Market-Set-to-Cross-US-44-Billion-by-2033-Astute-Analytica.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-23T13:27:00Z",
+          "author": "AstuteAnalytica India Pvt. Ltd.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/a77988df-ad1a-4619-9a4e-367c858dc70e",
+          "is_local_nj": false,
+          "article_id": "864651bdaa8a",
+          "summary": "This article discusses the global food safety testing market and is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Heavy Metal Testing Market Projected to Reach US$ 7,130.12 Million by 2035, Supported by Regulatory Testing Requirements Says Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/15/3219904/0/en/Heavy-Metal-Testing-Market-Projected-to-Reach-US-7-130-12-Million-by-2035-Supported-by-Regulatory-Testing-Requirements-Says-Astute-Analytica.html",
+              "digest_date": "2026-01-18"
+            },
+            {
+              "title": "Central Nervous System Therapeutic Market Report 2025-2033: Key Drivers, Regional Nuances, Competitive Dynamics | Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/14/3218965/0/en/Central-Nervous-System-Therapeutic-Market-Report-2025-2033-Key-Drivers-Regional-Nuances-Competitive-Dynamics-Astute-Analytica.html",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Almadex Discusses Exploration Plans for 2026",
+          "description": "VANCOUVER, British Columbia, Jan. 23, 2026 (GLOBE NEWSWIRE) \u2014 Almadex Minerals Ltd. (\u201cAlmadex\u201d or the \u201cCompany\u201d) (TSX-V: \u201cDEX\u201d) is pleased to discuss the Company\u2019s 2025 exploration program and its plans for 2026. While the Company holds important assets in Ca\u2026",
+          "content": "Rattlesnake Porphyry-Epithermal Project, Arizona\r\nThe Rattlesnake Property is a newly acquired porphyry lithocap project. Advanced argillic alteration has been mapped in volcanics along with zones of\u2026 [+4774 chars]",
+          "url": "https://financialpost.com/globe-newswire/almadex-discusses-exploration-plans-for-2026",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-01-23T12:02:38Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "c67a936c63b4",
+          "summary": "This article discusses the exploration plans of Almadex Minerals Ltd. and is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Almadex Discusses Exploration Plans for 2026",
+          "description": "VANCOUVER, British Columbia, Jan. 23, 2026 (GLOBE NEWSWIRE) -- Almadex Minerals Ltd. (\"Almadex\" or the \"Company\") (TSX-V: \u201cDEX\u201d) is pleased to discuss the Company\u2019s 2025 exploration program and its plans for 2026. While the Company holds important assets in C\u2026",
+          "content": "VANCOUVER, British Columbia, Jan. 23, 2026 (GLOBE NEWSWIRE) -- Almadex Minerals Ltd. (\"Almadex\" or the \"Company\") (TSX-V: DEX) is pleased to discuss the Companys 2025 exploration program and its plan\u2026 [+13718 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/23/3224599/0/en/Almadex-Discusses-Exploration-Plans-for-2026.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-23T12:00:00Z",
+          "author": "Almadex Minerals Ltd.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/c12df3b5-b644-4973-b9a4-9908f45b6d07",
+          "is_local_nj": false,
+          "article_id": "a3989261d1e0",
+          "summary": "This article is a duplicate of Article 4 and discusses the exploration plans of Almadex Minerals Ltd.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "OneRetail introduceert \u2018Retail as it is meant to be\u2019",
+          "description": "Digital commerce specialist OneRetail introduceert Retail as it is meant to be: een aangescherpte positionering en visie op de toekomst [\u2026]",
+          "content": "Digital commerce specialist OneRetail introduceert Retail as it is meant to be: een aangescherpte positionering en visie op de toekomst van retail. Hiermee kiest OneRetail nadrukkelijk voor een reali\u2026 [+2974 chars]",
+          "url": "https://www.emerce.nl/wire/oneretail-introduceert-retail-as-it-meant-to-be",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-01-23T06:36:21Z",
+          "author": "OneRetail",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/01/Kasper-Muileboom-OneRetail-scaled.jpg",
+          "is_local_nj": false,
+          "article_id": "d2c82889706a",
+          "summary": "This article discusses the launch of a new positioning and vision for the digital commerce company OneRetail and is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eye of Horus Slot Jurassic Jackpot kostenlos verbunden & damit Echtgeld spielen 2026",
+          "description": "Content Slot Jurassic Jackpot \u2013 Spielsaal com Mobile App \u2013 Umsetzbar Kasino SPIELE Eye of Horus, Scatters und Roh-Symbole Csu, [\u2026]",
+          "content": "Wenn Eltern um echtgeld vortragen und Deren Gewinne anders sein m\u00f6chten, sollen Diese ein zuverl\u00e4ssiges Casino je die Eintragung k\u00fcren. Computer-nutzer k\u00f6nnen Eye of Horus\u00a0Spielautomat kostenlos spie\u2026 [+7737 chars]",
+          "url": "https://www.smallbusinessbranding.com/107669/eye-of-horus-slot-jurassic-jackpot-kostenlos-verbunden-damit-echtgeld-spielen-2026/",
+          "source_name": "Smallbusinessbranding.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T19:57:14Z",
+          "author": "Sean M Kelly",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "ca20eb400286",
+          "summary": "This article discusses an online casino game called Eye of Horus Slot Jurassic Jackpot and is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "jetBlue: New York \u2013 Denver, Colorado (and vice versa). $137 (Basic Economy) / $187 (Regular Economy). Roundtrip, including all Taxes",
+          "description": "A good sale for nonstop service to/from DenverThe $187 fare is a regular economy fare which allows for normal size carry-on and personal item in addition to advance seat assignment.jetBlue als",
+          "content": "A good sale for nonstop service to/from Denver\r\nThe $187 fare is a regular economy fare which allows for normal size carry-on and personal item in addition to advance seat assignment.\r\njetBlue also h\u2026 [+3338 chars]",
+          "url": "https://www.theflightdeal.com/2026/01/22/jetblue-new-york-denver-colorado-and-vice-versa-137-basic-economy-187-regular-economy-roundtrip-including-all-taxes/",
+          "source_name": "Theflightdeal.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T18:53:58Z",
+          "author": "The Flight Deal",
+          "image_url": "https://www.theflightdeal.com/wp-content/uploads/2015/07/denver_july-640x390.jpg",
+          "is_local_nj": false,
+          "article_id": "fd8454826024",
+          "summary": "This article announces a flight deal from New York to Denver and is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "jetBlue: New York \u2013 Denver, Colorado (and vice versa). $152 (Basic Economy) / $202 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/01/16/jetblue-new-york-denver-colorado-and-vice-versa-152-basic-economy-202-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-01-18"
+            },
+            {
+              "title": "jetBlue: Fort Lauderdale \u2013 Austin, Texas (and vice versa). $49 (Basic Economy) / $109 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/01/08/jetblue-fort-lauderdale-austin-texas-and-vice-versa-49-basic-economy-109-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "American Brands are Being Erased from Shop Shelves as Boycott Apps Hit No. 1",
+          "description": "Apps developed to boycott US products rose to the top of App store as a sign of protest by Europeans against US President Trump's threats to Greenland",
+          "content": "American brands are facing a digital backlash in Denmark after a wave of boycott apps surged to the top of the country's App Store, allowing consumers to identify \u2014 and deliberately avoid \u2014 products \u2026 [+3908 chars]",
+          "url": "https://www.ibtimes.com/american-brands-are-being-erased-shop-shelves-boycott-apps-hit-no-1-3796063",
+          "source_name": "International Business Times",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T13:45:35Z",
+          "author": "Frederick Marvin Lumba",
+          "image_url": "https://d.ibtimes.com/en/full/4641487/udenusa.jpg",
+          "is_local_nj": false,
+          "article_id": "01a8e61b9049",
+          "summary": "This article discusses European boycotts of American brands in response to U.S. President Trump's threats regarding Greenland, and is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NRG Therapeutics Announces First Participants Dosed in its First-in-Human Phase 1 Clinical Trial of NRG5051 Which is Being Developed as a Disease-modifying Treatment for ALS/MND and Parkinson\u2019s",
+              "url": "https://www.globenewswire.com/news-release/2026/01/08/3215083/0/en/NRG-Therapeutics-Announces-First-Participants-Dosed-in-its-First-in-Human-Phase-1-Clinical-Trial-of-NRG5051-Which-is-Being-Developed-as-a-Disease-modifying-Treatment-for-ALS-MND-an.html",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "GoldHaven Identifies Significant Indium Enrichment with Values up to 334 ppm at Magno",
+          "description": "VANCOUVER, British Columbia, Jan. 22, 2026 (GLOBE NEWSWIRE) \u2014 GoldHaven Resources Corp. (\u201cGoldHaven\u201d or the \u201cCompany\u201c) (CSE: GOH) (OTCQB: GHVNF) (FSE: 4QS) is pleased to report further findings from its 2025 surface exploration program highlight indium (In) m\u2026",
+          "content": "Quality Assurance/ Quality Control (QAQC)\r\nThe most recent work conducted on the Property by the Company, as outlined in this news release, utilized ALS Geochemistry Labs in North Vancouver, BC. ALS \u2026 [+4814 chars]",
+          "url": "https://financialpost.com/globe-newswire/goldhaven-identifies-significant-indium-enrichment-with-values-up-to-334-ppm-at-magno",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T13:33:45Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/01/figure-2-5.jpeg",
+          "is_local_nj": false,
+          "article_id": "80eddd9c5a14",
+          "summary": "This article reports on GoldHaven Resources' findings of significant indium enrichment at their Magno property, which is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "GoldHaven Confirms Anomalous Tungsten at Kuhn and Dead Goat and Identifies New Tungsten Zone at Vines Lake with up to 6,550 ppm W, Magno Property",
+              "url": "https://financialpost.com/globe-newswire/goldhaven-confirms-anomalous-tungsten-at-kuhn-and-dead-goat-and-identifies-new-tungsten-zone-at-vines-lake-with-up-to-6550-ppm-w-magno-property",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Osisko Intersects 738 Metres Averaging 0.31% Cu at Gasp\u00e9",
+          "description": "Osisko Metals announces new drill results from the Gasp\u00e9 Copper Project, located in the Gasp\u00e9 Peninsula of Eastern Qu\u00e9bec....",
+          "content": "MONTR\u00c9AL, Jan. 22, 2026 (GLOBE NEWSWIRE) -- Osisko Metals Incorporated (the \"Company\" or \"OsiskoMetals\") (TSX: OM\r\n; OTCQX:\r\nOMZNF\r\n; FRANKFURT:\r\n0B51\r\n) is pleased to announce new drill results from\u2026 [+24098 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/22/3223532/0/en/Osisko-Intersects-738-Metres-Averaging-0-31-Cu-at-Gasp%C3%A9.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T11:00:00Z",
+          "author": "Osisko Metals Incorporated",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/c7d850cd-153a-410b-a5ef-b4789fdd9d81",
+          "is_local_nj": false,
+          "article_id": "e0f4e892c9d4",
+          "summary": "Osisko Metals announces new drill results from the Gasp\u00e9 Copper Project, which is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Osisko Intersects 748 Metres Averaging 0.27% Cu at Gasp\u00e9",
+              "url": "https://www.globenewswire.com/news-release/2026/01/15/3219331/0/en/Osisko-Intersects-748-Metres-Averaging-0-27-Cu-at-Gasp%C3%A9.html",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Liberty Gold Reports Infill and Step-out Drill Results at the Black Pine Gold Project, Idaho",
+          "description": "0.86 g/t Au over 123.4 meters, including 2.45 g/t Au over 24.4 meters in LBP1197\u00a00.67 g/t Au over 61.0 meters in LBP1213, a 175-meter step-out at Rangefront Zone",
+          "content": "0.86 g/t Au over 123.4 meters, including 2.45 g/t Au over 24.4 meters in LBP1197\u00a00.67 g/t Au over 61.0 meters in LBP1213, a 175-meter step-out at Rangefront Zone\r\nVANCOUVER, British Columbia, Jan. 22\u2026 [+18106 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/22/3223528/0/en/Liberty-Gold-Reports-Infill-and-Step-out-Drill-Results-at-the-Black-Pine-Gold-Project-Idaho.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-22T11:00:00Z",
+          "author": "Liberty Gold Corp.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/42dd2f04-04a3-4185-a297-9fda3b3aeb31",
+          "is_local_nj": false,
+          "article_id": "dc78087cf4f4",
+          "summary": "Liberty Gold reports infill and step-out drill results from the Black Pine Gold Project in Idaho, which is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Phillies All-Star One and Dones: The 1930s",
+          "description": "Sometimes all it takes is a good month to be immortalized",
+          "content": "In honor of the Philadelphia Phillies playing host to the 2026 Major League Baseball All-Star Game at Citizens Bank Park, we here at The Good Phight are launching a yearlong series that focuses on th\u2026 [+9646 chars]",
+          "url": "https://www.thegoodphight.com/features/76990/phillies-all-star-one-and-dones-the-1930s",
+          "source_name": "Thegoodphight.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T18:00:00Z",
+          "author": "Joe Edinger",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/vrSvaVjPwmeRX243MWJlJg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD0xMzQ4O2NmPXdlYnA-/https://media.zenfs.com/en/sb_nation_articles_115/a0b4a3d266bc62909353820bf45b340b",
+          "is_local_nj": false,
+          "article_id": "b129a3f8a7e4",
+          "summary": "This article discusses one-time All-Star players for the Philadelphia Phillies in the 1930s, which is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "2026 Chicago Cubs player profiles: Introduction",
+          "description": "Our annual feature of the Cubs\u2019 40-man roster #Cubs #MLB",
+          "content": "Last year:\r\nAfter averaging everything according to various projections, the Cubs season record came out to approximately 87-75 after a little consideration of our trusty napkins and some minor menta\u2026 [+2400 chars]",
+          "url": "https://www.bleedcubbieblue.com/chicago-cubs-player-profiles/205552/2026-chicago-cubs-player-profiles-introduction",
+          "source_name": "Bleed Cubbie Blue",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T17:00:00Z",
+          "author": "Duane Pesice",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/0EqR0b7Yh8QqcOqDTjxFAg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/f639e8bf6fb8885e4862960faaa1b26a",
+          "is_local_nj": false,
+          "article_id": "80e1bc470f7b",
+          "summary": "This article introduces an annual feature profiling the players on the Chicago Cubs' 40-man roster, which is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Self-driving vans to boost postal service",
+          "description": "SHAH ALAM: Pos Malaysia's autonomous vehicle is expected to enhance productivity and operational efficiency in handling postal items, mainly in internal facility operations, before being rolled out to the next phase. Read full story",
+          "content": "SHAH ALAM: Pos Malaysias autonomous vehicle is\u00a0expected to enhance productivity and operational efficiency in handling postal items, mainly in internal facility operations, before being rolled out to\u2026 [+1584 chars]",
+          "url": "https://www.thestar.com.my/news/nation/2026/01/22/self-driving-vans-to-boost-postal-service",
+          "source_name": "The Star Online",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T16:00:00Z",
+          "author": "The Star Online",
+          "image_url": "https://apicms.thestar.com.my/uploads/images/2026/01/22/3731884.JPG",
+          "is_local_nj": false,
+          "article_id": "193db2c63bef",
+          "summary": "Pos Malaysia is testing autonomous delivery vans to enhance productivity and operational efficiency in handling postal items, but this is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Network intrusion detection using a hybrid graph-based convolutional network and transformer architecture",
+          "description": "Cloud computing continues to expand rapidly due to its ability to provide internet-hosted services, including servers, databases, and storage. However, this growth increases exposure to sophisticated intrusion attacks that can evade traditional security mecha\u2026",
+          "content": "Abstract\r\nCloud computing continues to expand rapidly due to its ability to provide internet-hosted services, including servers, databases, and storage. However, this growth increases exposure to sop\u2026 [+38094 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340997",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T14:00:00Z",
+          "author": "Peter Appiahene, Samuel Opoku Berchie, Emmanuel Botchway, Michael Junior Ayitey, John Kwao Dawson, Henry Nii-Armah Mettle, Stephen Afrifa",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0340997.g006&size=inline",
+          "is_local_nj": false,
+          "article_id": "424888d4645e",
+          "summary": "This article presents a hybrid graph-based convolutional network and transformer architecture for network intrusion detection, which is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Non Lethal Self Defense Weapon System Research Report 2026: $5.55 Bn Market Opportunities, Trends, Competitive Landscape, Strategies, and Forecasts, 2020-2025, 2025-2030F, 2035F",
+          "description": "Key market opportunities in the non-lethal self-defense weapon system space include the increasing adoption by law enforcement and private security, growing consumer demand for personal safety devices, and innovations in technology for more effective and eco-\u2026",
+          "content": "Dublin, Jan. 21, 2026 (GLOBE NEWSWIRE) -- The \"Non Lethal Self Defense Weapon System Market Report 2026\" has been added to ResearchAndMarkets.com's offering.\r\nThe non-lethal self-defense weapon syste\u2026 [+4992 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/21/3222668/28124/en/Non-Lethal-Self-Defense-Weapon-System-Research-Report-2026-5-55-Bn-Market-Opportunities-Trends-Competitive-Landscape-Strategies-and-Forecasts-2020-2025-2025-2030F-2035F.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T12:20:00Z",
+          "author": "Research and Markets",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/908fb457-7f8e-4a08-9081-5565e3dfb3d7",
+          "is_local_nj": false,
+          "article_id": "f6e0f997513a",
+          "summary": "This report discusses the non-lethal self-defense weapon system market, which is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Central Nervous System Therapeutic Market Report 2025-2033: Key Drivers, Regional Nuances, Competitive Dynamics | Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/14/3218965/0/en/Central-Nervous-System-Therapeutic-Market-Report-2025-2033-Key-Drivers-Regional-Nuances-Competitive-Dynamics-Astute-Analytica.html",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "\u3010\u901f\u5831\u3011\u308c\u3044\u308f\u5c71\u672c\u592a\u90ce\u3055\u3093\u304c\u8b70\u54e1\u8f9e\u8077\u3001\u304c\u3093\u6cbb\u7642\u306e\u305f\u3081",
+          "description": "1 \u540d\u524d\uff1a\uff1a2026/01/21(\u6c34) 13:27:50.83 ID:yjVMF5yX0.net BE:422186189-PLT(12015) https://img.5ch.net/ico/folder1_03.gif \u52d5\u753b\u3042\u308a https://monobook.org/wiki/MonoBook:Sandbox \n\n \n\u5f15\u7528\u5143\uff1ahttps://hayabusa3.2ch.sc/test/read.cgi/news/1768969670",
+          "content": "2026/01/21() 13:28:24.05 ID:BL5VLcn+0.net\r\n2026/01/21() 13:34:05.10 ID:Zti7Z4FE0.net\r\n&gt;&gt;2\r\n2026/01/21() 16:44:48.58 ID:/j6SupfV0.net\r\n&gt;&gt;2\r\n2026/01/21() 18:52:09.42 ID:aT+R1Lut0.net\r\n&gt;&\u2026 [+39226 chars]",
+          "url": "https://kuromacyo.livedoor.biz/archives/2044731.html",
+          "source_name": "Livedoor.biz",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T12:00:46Z",
+          "author": "kuromacyo",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "3c6fa552f305",
+          "summary": "This article reports that Japanese politician Taro Yamamoto is resigning from his position due to cancer treatment, but this is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Nova Confirms Higher-Grade Starter Pit Potential within the 4.05 Moz Pit-Constrained Korbel Gold Deposit",
+          "description": "Anchorage Alaska, Jan. 21, 2026 (GLOBE NEWSWIRE) -- Nova Minerals Limited (\u201cNova\u201d or the \u201cCompany\u201d) (NASDAQ: NVA) (ASX: NVA) (FRA: QM3) ) is pleased to announce shallow reverse circulation drilling results within a proposed starter pit at the Korbel Main Depo\u2026",
+          "content": "Anchorage Alaska, Jan. 21, 2026 (GLOBE NEWSWIRE) -- Nova Minerals Limited (Nova or the Company) (NASDAQ: NVA) (ASX: NVA) (FRA: QM3) ) is pleased to announce shallow reverse circulation drilling resul\u2026 [+16169 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/21/3222602/0/en/Nova-Confirms-Higher-Grade-Starter-Pit-Potential-within-the-4-05-Moz-Pit-Constrained-Korbel-Gold-Deposit.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T11:30:00Z",
+          "author": "NOVA MINERALS LIMITED",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/3ca5bfae-a611-4dfd-abec-251569d55590",
+          "is_local_nj": false,
+          "article_id": "6428b7b138e8",
+          "summary": "Nova Minerals confirms higher-grade starter pit potential within the Korbel gold deposit in Alaska, which is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Food Allergen Testing Market Report 2026-2031 | Europe Leads in Food Allergen Testing Market with 34.21% Share for 2025 | Emerging Markets in Asia-Pacific Show Promising Growth at 9.86% CAGR",
+          "description": "Dublin, Jan. 21, 2026 (GLOBE NEWSWIRE) -- The \"Food Allergen Testing - Market Share Analysis, Industry Trends & Statistics, Growth Forecasts (2026-2031)\" has been added to ResearchAndMarkets.com's offering.",
+          "content": "Dublin, Jan. 21, 2026 (GLOBE NEWSWIRE) -- The \"Food Allergen Testing - Market Share Analysis, Industry Trends &amp; Statistics, Growth Forecasts (2026-2031)\" has been added to ResearchAndMarkets.com'\u2026 [+4174 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/21/3222520/28124/en/Food-Allergen-Testing-Market-Report-2026-2031-Europe-Leads-in-Food-Allergen-Testing-Market-with-34-21-Share-for-2025-Emerging-Markets-in-Asia-Pacific-Show-Promising-Growth-at-9-86-.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T10:25:00Z",
+          "author": "Research and Markets",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/908fb457-7f8e-4a08-9081-5565e3dfb3d7",
+          "is_local_nj": false,
+          "article_id": "914c1b37859c",
+          "summary": "This report provides an overview of the global food allergen testing market, which is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Clene to Present at the Emerging Growth Conference",
+              "url": "https://www.globenewswire.com/news-release/2026/01/16/3220319/0/en/Clene-to-Present-at-the-Emerging-Growth-Conference.html",
+              "digest_date": "2026-01-18"
+            },
+            {
+              "title": "Central Nervous System Therapeutic Market Report 2025-2033: Key Drivers, Regional Nuances, Competitive Dynamics | Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/14/3218965/0/en/Central-Nervous-System-Therapeutic-Market-Report-2025-2033-Key-Drivers-Regional-Nuances-Competitive-Dynamics-Astute-Analytica.html",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Amac opent flagshipstore in The CubeHouse op de Zuidas",
+          "description": "Amac opent flagshipstore in The CubeHouse op de Zuidas",
+          "content": "Nieuws -21 januari 2026 - 09:50Apple-specialist Amac opent later dit jaar een flagshipstore op de Zuidas in Amsterdam. De nieuwe winkel bevindt zich op de begane grond van het duurzame kantoorcomplex\u2026 [+2027 chars]",
+          "url": "https://www.emerce.nl/nieuws/amac-opent-flagshipstore-the-cubehouse-zuidas",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T08:50:53Z",
+          "author": "Redactie",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/01/CubeHouse-4.jpg",
+          "is_local_nj": false,
+          "article_id": "08a8ef689d84",
+          "summary": "Amac, a Dutch retailer, is opening a new flagship store in The CubeHouse on the Zuidas in the Netherlands, which is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Projects From \u2018Apolonia, Apolonia,\u2019 \u2018Mr. Nobody Against Putin\u2019 Directors Among Lineup for Financing and Co-Production Event CPH:Forum",
+          "description": "This year\u2019s edition of CPH:DOX\u2019s financing and co-production event CPH:Forum, which runs March 17-19, will showcase projects by 101 directors and producers representing 23 countries, who will take the stage to present 30 new documentary projects spanning earl\u2026",
+          "content": "This year\u2019s edition of CPH:DOX\u2019s financing and co-production event CPH:Forum, which runs March 17-19, will showcase projects by 101 directors and producers representing 23 countries, who will take th\u2026 [+10125 chars]",
+          "url": "https://variety.com/2026/film/global/cphforum-lineup-2026-1236636011/",
+          "source_name": "Variety",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T08:30:00Z",
+          "author": "Leo Barraclough",
+          "image_url": "https://variety.com/wp-content/uploads/2026/01/Letter-to-Alvin.jpg?w=1000&h=563&crop=1",
+          "is_local_nj": false,
+          "article_id": "afbab31b8152",
+          "summary": "This article announces the lineup for the financing and co-production event CPH:Forum, which is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Clair Obscur: Expedition 33 - \u00dcbertrifft den GotY-Rekord von Elden Ring",
+          "description": "Clair Obscur: Expedition hat nun den Rekord von Elden Ring in Sachen Game of the Year Awards gebrochen.",
+          "content": "Clair Obscur: Expedition hat nun den Rekord von Elden Ring in Sachen Game of the Year Awards gebrochen. Der Titel schwimmt weiter auf der Erfolgswelle!\r\nAls Elden Ring zum am h\u00e4ufigsten mit Game of t\u2026 [+1621 chars]",
+          "url": "https://www.gameswelt.de/clair-obscur-expedition-33/news/uebertrifft-den-goty-rekord-von-elden-ring-332762",
+          "source_name": "Gameswelt.de",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T07:40:00Z",
+          "author": "Tobias Simon",
+          "image_url": "https://img.gameswelt.de/public/images/202406/33312105c4b3cbb480d2ae278e9ae006.jpg",
+          "is_local_nj": false,
+          "article_id": "9261bc544034",
+          "summary": "This article reports that the game Clair Obscur: Expedition 33 has surpassed the Game of the Year record set by Elden Ring, which is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "High-Grade Iron and Copper/Gold Potential Confirmed at Minturn Prospect",
+          "description": "Reykjav\u00edk, Jan. 21, 2026 (GLOBE NEWSWIRE) \u2014 Amaroq Ltd.(\u201cAmaroq\u201d or the \u201cCompany\u201d) High-Grade Iron and Copper/Gold Potential Confirmed at Minturn Prospect ** Grades of up to 69.5% iron across 9km strike of surface magnetite **\u2013**Sampling suggests Copper Gold \u2026",
+          "content": "All samples were packaged and sent to an accredited laboratory, ALS Geochemistry, Loughrea, Ireland, for analysis. Preparation scheme PREP-31BY was used on all samples. This involves crushing to 70% \u2026 [+4743 chars]",
+          "url": "https://financialpost.com/globe-newswire/high-grade-iron-and-copper-gold-potential-confirmed-at-minturn-prospect",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T07:04:29Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "b0f3fe7bbc7c",
+          "summary": "Amaroq Ltd. has confirmed high-grade iron and copper/gold potential at their Minturn prospect, which is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "High-Grade Iron and Copper/Gold Potential Confirmed at Minturn Prospect",
+          "description": "Reykjav\u00edk, Jan.  21, 2026  (GLOBE NEWSWIRE) -- Amaroq Ltd.(\u201cAmaroq\u201d or the \u201cCompany\u201d)  High-Grade Iron and Copper/Gold Potential Confirmed at Minturn...",
+          "content": "Reykjav\u00edk, Jan. 21, 2026 (GLOBE NEWSWIRE) -- Amaroq Ltd.(Amaroq or the Company)\r\nHigh-Grade Iron and Copper/Gold Potential Confirmed at Minturn Prospect\r\n** Grades of up to 69.5% iron across 9km stri\u2026 [+15736 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/21/3222415/0/en/High-Grade-Iron-and-Copper-Gold-Potential-Confirmed-at-Minturn-Prospect.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T07:00:00Z",
+          "author": "Amaroq Ltd.",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/339067de-ff2d-48df-b28a-e34eb4ae308c",
+          "is_local_nj": false,
+          "article_id": "f9f9452fbc42",
+          "summary": "This article is a duplicate of Article 33 and discusses the high-grade iron and copper/gold potential at Amaroq's Minturn prospect.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Pos Malaysia partners with ALS to launch country\u2019s 1st autonomous logistics vehicle to enhance efficiency",
+          "description": "Pos Malaysia has partnered with Autonomous Logistic Solutions (ALS) for Malaysia\u2019s first autonomous logistics deployment of its kind. As part of the collaborative agreement, both parties will undertake a six-month proof of concept trial where [\u2026]\nThe post Pos\u2026",
+          "content": "Pos Malaysia has partnered with Autonomous Logistic Solutions (ALS) for Malaysias first autonomous logistics deployment of its kind. As part of the collaborative agreement, both parties will undertak\u2026 [+3152 chars]",
+          "url": "https://paultan.org/2026/01/21/pos-malaysia-launches-autonomous-logistics-vehicle/",
+          "source_name": "Paul Tan's Automotive News",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T06:53:29Z",
+          "author": "Gerard Lye",
+          "image_url": "https://paultan.org/image/2026/01/Pos-Malaysia-Autonomous-Vehicle-launch-1-1200x750.jpg",
+          "is_local_nj": false,
+          "article_id": "6dae9176c94b",
+          "summary": "Pos Malaysia is partnering with Autonomous Logistic Solutions to launch the country's first autonomous logistics vehicle to enhance efficiency, but this is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "BM Electric Power Cable YDYp NYM 3 x 1.5 mm\u00b2 ? Ribbon Cable for Window Feed-Through | Electrical Installation Cable | 300/500 V | Solid Copper | Made in EU",
+          "description": "Mittwoch ab 07:20 Uhr: BM Electric Power Cable YDYp NYM 3 x 1.5 mm\u00b2 ? Ribbon Cable for Window Feed-Through | Electrical Installation Cable | 300/500 V | Solid Copper | Made in EU f\u00fcr nur 12,58 Euro\r\n (regul\u00e4rer Amazon Preis: 14,80 Euro)",
+          "content": "Ich habe das BM Electric Power Cable (YDYp NYM 3\u00d71.5 mm\u00b2) als flaches Installationskabel f\u00fcr meinen Vater gekauft, da er eine zuverl\u00e4ssige L\u00f6sung f\u00fcr eine Fensterdurchf\u00fchrung brauchte. Das Kabel hat \u2026 [+992 chars]",
+          "url": "https://www.amazon.de/-/en/Electric-Power-Cable-YDYp-Flat/dp/B0FBS8QNP5",
+          "source_name": "Amazon.de",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T06:20:01Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "518df5a21e74",
+          "summary": "This article is an advertisement for an electric power cable product and is not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Azimut Advances Major Fortin Antimony-Gold Zone, Wabamisk Property, James Bay Region, Qu\u00e9bec",
+          "description": "New drilling program and metallurgical tests underway     Market study initiated for antimony products from Fortin Zone    LONGUEUIL, Qu\u00e9bec, Jan. ...",
+          "content": "New drilling program and metallurgical tests underway \r\nMarket study initiated for antimony products from Fortin Zone\r\nLONGUEUIL, Qu\u00e9bec, Jan. 21, 2026 (GLOBE NEWSWIRE) -- Azimut Exploration Inc. (Az\u2026 [+18392 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/21/3222396/0/en/Azimut-Advances-Major-Fortin-Antimony-Gold-Zone-Wabamisk-Property-James-Bay-Region-Qu%C3%A9bec.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T05:01:00Z",
+          "author": "Exploration Azimut Inc",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/7eb6779b-94a6-4f0a-8a3c-5801e50c428a",
+          "is_local_nj": false,
+          "article_id": "36dce1917b1d",
+          "summary": "Azimut is advancing their Fortin Antimony-Gold Zone on the Wabamisk property in the James Bay region of Quebec, which is not related to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [
+        {
+          "title": "AI wearable gives a voice to people rendered speechless by strokes",
+          "description": "Speech impairment, known as dysarthria, is a very common consequence of strokes, affecting nearly half of all survivors. A stroke can cause weakness in the facial muscles and vocal cords, making it difficult to speak fluently, clearly, or in full sentences. W\u2026",
+          "content": "Speech impairment, known as dysarthria, is a very common consequence of strokes, affecting nearly half of all survivors. A stroke can cause weakness in the facial muscles and vocal cords, making it d\u2026 [+3221 chars]",
+          "url": "https://newatlas.com/good-thinking/revoice-wearable-stroke-patients-speech/",
+          "source_name": "New Atlas",
+          "source_type": "newsapi",
+          "published_at": "2026-01-21T18:30:00Z",
+          "author": "Maryna Holovnova",
+          "image_url": "https://assets.newatlas.com/dims4/default/a7477b1/2147483647/strip/true/crop/1152x605+0+82/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Fcc%2Fae%2Fa82372bd49759c26e033d05ea456%2Fphoto-1.jpeg&na.image_optimisation=0",
+          "is_local_nj": false,
+          "article_id": "aa98793106c2",
+          "summary": "Researchers have developed a wearable AI device that can help restore speech for people who have lost the ability to speak clearly due to strokes.",
+          "importance": 4,
+          "key_entities": [
+            "speech impairment",
+            "dysarthria",
+            "stroke",
+            "wearable AI"
+          ],
+          "related_previous": []
+        }
+      ],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Hundreds of Businesses Join General Strike Against ICE",
+        "url": "https://www.motherjones.com/politics/2026/01/ice-out-of-minnesota-minneapolis-protest-general-strike-ice-trump-bovino/",
+        "source": "Mother Jones",
+        "date": "2026-01-23T17:04:53Z"
+      },
+      {
+        "title": "Asake Finally Reacts to Seun Kuti\u2019s Warning About His Relationship With Wizkid",
+        "url": "https://www.legit.ng/entertainment/celebrities/1693820-asake-responds-seun-kutis-warning-relationship-wizkid/",
+        "source": "Latest News in Nigeria & Breaking Naija News 24/7 | LEGIT.NG",
+        "date": "2026-01-23T16:50:06Z"
+      },
+      {
+        "title": "Food Safety Testing Market Set to Cross US$ 44 Billion by 2033 | Astute Analytica",
+        "url": "https://www.globenewswire.com/news-release/2026/01/23/3224755/0/en/Food-Safety-Testing-Market-Set-to-Cross-US-44-Billion-by-2033-Astute-Analytica.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-23T13:27:00Z"
+      },
+      {
+        "title": "Almadex Discusses Exploration Plans for 2026",
+        "url": "https://financialpost.com/globe-newswire/almadex-discusses-exploration-plans-for-2026",
+        "source": "Financial Post",
+        "date": "2026-01-23T12:02:38Z"
+      },
+      {
+        "title": "Almadex Discusses Exploration Plans for 2026",
+        "url": "https://www.globenewswire.com/news-release/2026/01/23/3224599/0/en/Almadex-Discusses-Exploration-Plans-for-2026.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-23T12:00:00Z"
+      },
+      {
+        "title": "Eledon Pharmaceuticals Presents Long-Term Phase 1b Data for Tegoprubart in Kidney Transplant Patients at the American Society of Transplant Surgeons Winter Symposium",
+        "url": "https://www.globenewswire.com/news-release/2026/01/23/3224604/0/en/Eledon-Pharmaceuticals-Presents-Long-Term-Phase-1b-Data-for-Tegoprubart-in-Kidney-Transplant-Patients-at-the-American-Society-of-Transplant-Surgeons-Winter-Symposium.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-23T12:00:00Z"
+      },
+      {
+        "title": "OneRetail introduceert \u2018Retail as it is meant to be\u2019",
+        "url": "https://www.emerce.nl/wire/oneretail-introduceert-retail-as-it-meant-to-be",
+        "source": "Emerce.nl",
+        "date": "2026-01-23T06:36:21Z"
+      },
+      {
+        "title": "Peptide Treatment Protects Brains After Stroke, Mouse Study Finds",
+        "url": "https://www.sciencealert.com/peptide-treatment-protects-brains-after-stroke-mouse-study-finds",
+        "source": "ScienceAlert",
+        "date": "2026-01-23T02:47:03Z"
+      },
+      {
+        "title": "The role of low-complexity repeats in RNA\u2013RNA interactions and a deep learning framework for duplex prediction",
+        "url": "https://www.nature.com/articles/s41467-026-68356-w",
+        "source": "Nature.com",
+        "date": "2026-01-23T00:00:00Z"
+      },
+      {
+        "title": "Eye of Horus Slot Jurassic Jackpot kostenlos verbunden & damit Echtgeld spielen 2026",
+        "url": "https://www.smallbusinessbranding.com/107669/eye-of-horus-slot-jurassic-jackpot-kostenlos-verbunden-damit-echtgeld-spielen-2026/",
+        "source": "Smallbusinessbranding.com",
+        "date": "2026-01-22T19:57:14Z"
+      },
+      {
+        "title": "jetBlue: New York \u2013 Denver, Colorado (and vice versa). $137 (Basic Economy) / $187 (Regular Economy). Roundtrip, including all Taxes",
+        "url": "https://www.theflightdeal.com/2026/01/22/jetblue-new-york-denver-colorado-and-vice-versa-137-basic-economy-187-regular-economy-roundtrip-including-all-taxes/",
+        "source": "Theflightdeal.com",
+        "date": "2026-01-22T18:53:58Z"
+      },
+      {
+        "title": "$11.20 Bn Brain Computer Interface Global Market Opportunities and Strategies to 2033 | Astute Analytica",
+        "url": "https://www.globenewswire.com/news-release/2026/01/22/3224194/0/en/11-20-Bn-Brain-Computer-Interface-Global-Market-Opportunities-and-Strategies-to-2033-Astute-Analytica.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-22T18:24:00Z"
+      },
+      {
+        "title": "Optineurin binding to the novel interacting partner Junction plakoglobin prevents muscle atrophy in mice",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003581",
+        "source": "Plos.org",
+        "date": "2026-01-22T14:00:00Z"
+      },
+      {
+        "title": "Allostatic load in thyroid cancer is higher than that of other cancers: A secondary analysis using NHANES",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341063",
+        "source": "Plos.org",
+        "date": "2026-01-22T14:00:00Z"
+      },
+      {
+        "title": "American Brands are Being Erased from Shop Shelves as Boycott Apps Hit No. 1",
+        "url": "https://www.ibtimes.com/american-brands-are-being-erased-shop-shelves-boycott-apps-hit-no-1-3796063",
+        "source": "International Business Times",
+        "date": "2026-01-22T13:45:35Z"
+      },
+      {
+        "title": "GoldHaven Identifies Significant Indium Enrichment with Values up to 334 ppm at Magno",
+        "url": "https://financialpost.com/globe-newswire/goldhaven-identifies-significant-indium-enrichment-with-values-up-to-334-ppm-at-magno",
+        "source": "Financial Post",
+        "date": "2026-01-22T13:33:45Z"
+      },
+      {
+        "title": "Osisko Intersects 738 Metres Averaging 0.31% Cu at Gasp\u00e9",
+        "url": "https://www.globenewswire.com/news-release/2026/01/22/3223532/0/en/Osisko-Intersects-738-Metres-Averaging-0-31-Cu-at-Gasp%C3%A9.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-22T11:00:00Z"
+      },
+      {
+        "title": "Liberty Gold Reports Infill and Step-out Drill Results at the Black Pine Gold Project, Idaho",
+        "url": "https://www.globenewswire.com/news-release/2026/01/22/3223528/0/en/Liberty-Gold-Reports-Infill-and-Step-out-Drill-Results-at-the-Black-Pine-Gold-Project-Idaho.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-22T11:00:00Z"
+      },
+      {
+        "title": "Clinical Trials Market Size to Reach USD 175.02 Billion by 2035",
+        "url": "https://www.globenewswire.com/news-release/2026/01/22/3223500/0/en/Clinical-Trials-Market-Size-to-Reach-USD-175-02-Billion-by-2035.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-22T10:31:00Z"
+      },
+      {
+        "title": "AI wearable gives a voice to people rendered speechless by strokes",
+        "url": "https://newatlas.com/good-thinking/revoice-wearable-stroke-patients-speech/",
+        "source": "New Atlas",
+        "date": "2026-01-21T18:30:00Z"
+      },
+      {
+        "title": "Phillies All-Star One and Dones: The 1930s",
+        "url": "https://www.thegoodphight.com/features/76990/phillies-all-star-one-and-dones-the-1930s",
+        "source": "Thegoodphight.com",
+        "date": "2026-01-21T18:00:00Z"
+      },
+      {
+        "title": "2026 Chicago Cubs player profiles: Introduction",
+        "url": "https://www.bleedcubbieblue.com/chicago-cubs-player-profiles/205552/2026-chicago-cubs-player-profiles-introduction",
+        "source": "Bleed Cubbie Blue",
+        "date": "2026-01-21T17:00:00Z"
+      },
+      {
+        "title": "New | phs004288.v1.p1 | Developing Novel Strategies for Personalized Treatment and Prevention of ALS: Leveraging the Global Exposome, Genome, Epigenome, Metabolome, and Inflammasome with Data Science in a Case/Control Cohort",
+        "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs004288.v1.p1",
+        "source": "National Institutes of Health",
+        "date": "2026-01-21T16:26:00Z"
+      },
+      {
+        "title": "Self-driving vans to boost postal service",
+        "url": "https://www.thestar.com.my/news/nation/2026/01/22/self-driving-vans-to-boost-postal-service",
+        "source": "The Star Online",
+        "date": "2026-01-21T16:00:00Z"
+      },
+      {
+        "title": "Network intrusion detection using a hybrid graph-based convolutional network and transformer architecture",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340997",
+        "source": "Plos.org",
+        "date": "2026-01-21T14:00:00Z"
+      },
+      {
+        "title": "Non Lethal Self Defense Weapon System Research Report 2026: $5.55 Bn Market Opportunities, Trends, Competitive Landscape, Strategies, and Forecasts, 2020-2025, 2025-2030F, 2035F",
+        "url": "https://www.globenewswire.com/news-release/2026/01/21/3222668/28124/en/Non-Lethal-Self-Defense-Weapon-System-Research-Report-2026-5-55-Bn-Market-Opportunities-Trends-Competitive-Landscape-Strategies-and-Forecasts-2020-2025-2025-2030F-2035F.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-21T12:20:00Z"
+      },
+      {
+        "title": "\u3010\u901f\u5831\u3011\u308c\u3044\u308f\u5c71\u672c\u592a\u90ce\u3055\u3093\u304c\u8b70\u54e1\u8f9e\u8077\u3001\u304c\u3093\u6cbb\u7642\u306e\u305f\u3081",
+        "url": "https://kuromacyo.livedoor.biz/archives/2044731.html",
+        "source": "Livedoor.biz",
+        "date": "2026-01-21T12:00:46Z"
+      },
+      {
+        "title": "Nova Confirms Higher-Grade Starter Pit Potential within the 4.05 Moz Pit-Constrained Korbel Gold Deposit",
+        "url": "https://www.globenewswire.com/news-release/2026/01/21/3222602/0/en/Nova-Confirms-Higher-Grade-Starter-Pit-Potential-within-the-4-05-Moz-Pit-Constrained-Korbel-Gold-Deposit.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-21T11:30:00Z"
+      },
+      {
+        "title": "Food Allergen Testing Market Report 2026-2031 | Europe Leads in Food Allergen Testing Market with 34.21% Share for 2025 | Emerging Markets in Asia-Pacific Show Promising Growth at 9.86% CAGR",
+        "url": "https://www.globenewswire.com/news-release/2026/01/21/3222520/28124/en/Food-Allergen-Testing-Market-Report-2026-2031-Europe-Leads-in-Food-Allergen-Testing-Market-with-34-21-Share-for-2025-Emerging-Markets-in-Asia-Pacific-Show-Promising-Growth-at-9-86-.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-21T10:25:00Z"
+      },
+      {
+        "title": "Amac opent flagshipstore in The CubeHouse op de Zuidas",
+        "url": "https://www.emerce.nl/nieuws/amac-opent-flagshipstore-the-cubehouse-zuidas",
+        "source": "Emerce.nl",
+        "date": "2026-01-21T08:50:53Z"
+      },
+      {
+        "title": "Projects From \u2018Apolonia, Apolonia,\u2019 \u2018Mr. Nobody Against Putin\u2019 Directors Among Lineup for Financing and Co-Production Event CPH:Forum",
+        "url": "https://variety.com/2026/film/global/cphforum-lineup-2026-1236636011/",
+        "source": "Variety",
+        "date": "2026-01-21T08:30:00Z"
+      },
+      {
+        "title": "Clair Obscur: Expedition 33 - \u00dcbertrifft den GotY-Rekord von Elden Ring",
+        "url": "https://www.gameswelt.de/clair-obscur-expedition-33/news/uebertrifft-den-goty-rekord-von-elden-ring-332762",
+        "source": "Gameswelt.de",
+        "date": "2026-01-21T07:40:00Z"
+      },
+      {
+        "title": "High-Grade Iron and Copper/Gold Potential Confirmed at Minturn Prospect",
+        "url": "https://financialpost.com/globe-newswire/high-grade-iron-and-copper-gold-potential-confirmed-at-minturn-prospect",
+        "source": "Financial Post",
+        "date": "2026-01-21T07:04:29Z"
+      },
+      {
+        "title": "High-Grade Iron and Copper/Gold Potential Confirmed at Minturn Prospect",
+        "url": "https://www.globenewswire.com/news-release/2026/01/21/3222415/0/en/High-Grade-Iron-and-Copper-Gold-Potential-Confirmed-at-Minturn-Prospect.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-21T07:00:00Z"
+      },
+      {
+        "title": "Pos Malaysia partners with ALS to launch country\u2019s 1st autonomous logistics vehicle to enhance efficiency",
+        "url": "https://paultan.org/2026/01/21/pos-malaysia-launches-autonomous-logistics-vehicle/",
+        "source": "Paul Tan's Automotive News",
+        "date": "2026-01-21T06:53:29Z"
+      },
+      {
+        "title": "BM Electric Power Cable YDYp NYM 3 x 1.5 mm\u00b2 ? Ribbon Cable for Window Feed-Through | Electrical Installation Cable | 300/500 V | Solid Copper | Made in EU",
+        "url": "https://www.amazon.de/-/en/Electric-Power-Cable-YDYp-Flat/dp/B0FBS8QNP5",
+        "source": "Amazon.de",
+        "date": "2026-01-21T06:20:01Z"
+      },
+      {
+        "title": "Azimut Advances Major Fortin Antimony-Gold Zone, Wabamisk Property, James Bay Region, Qu\u00e9bec",
+        "url": "https://www.globenewswire.com/news-release/2026/01/21/3222396/0/en/Azimut-Advances-Major-Fortin-Antimony-Gold-Zone-Wabamisk-Property-James-Bay-Region-Qu%C3%A9bec.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-21T05:01:00Z"
+      },
+      {
+        "title": "Air Pollution Linked to Higher ALS Risk And Faster Decline",
+        "url": "https://www.sciencealert.com/air-pollution-linked-to-higher-als-risk-and-faster-decline",
+        "source": "ScienceAlert",
+        "date": "2026-01-21T02:32:15Z"
+      },
+      {
+        "title": "From TDP-43/RNA complex formation to disease-linked TDP-43 aggregation through a structural and cellular approach",
+        "url": "https://www.nature.com/articles/s41467-026-68346-y",
+        "source": "Nature.com",
+        "date": "2026-01-21T00:00:00Z"
+      },
+      {
+        "title": "One weird thing that\u2019s been holding drug trials back",
+        "url": "https://www.vox.com/future-perfect/475863/fda-clinical-trials-math-explained",
+        "source": "Vox",
+        "date": "2026-01-20T23:03:42Z"
+      }
+    ],
+    "generated_at": "2026-01-25T08:30:35.424192"
+  },
+  {
     "date": "2026-01-18",
     "week_of": "January 18, 2026",
     "digest_number": 4,
