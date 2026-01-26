@@ -1,5 +1,25 @@
 [
   {
+    "id": "2601.16890v1",
+    "title": "LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems",
+    "summary": "Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks typically rely on injecting noise or altering semantics, yet no existing framework exploits the adversarial potential of persuasion techniques, which are widely used in disinformation campaigns to manipulate audiences. In this paper, we introduce a novel class of persuasive adversarial attacks on AFCs by employing a generative LLM to rephrase claims using persuasion techniques. Considering 15 techniques grouped into 6 categories, we study the effects of persuasion on both claim verification and evidence retrieval using a decoupled evaluation strategy. Experiments on the FEVER and FEVEROUS benchmarks show that persuasion attacks can substantially degrade both verification performance and evidence retrieval. Our analysis identifies persuasion techniques as a potent class of adversarial attacks, highlighting the need for more robust AFC systems.",
+    "published": "2026-01-23T16:57:16Z",
+    "link": "http://arxiv.org/abs/2601.16890v1",
+    "authors": [
+      "Jo\u00e3o A. Leite",
+      "Olesya Razuvayevskaya",
+      "Kalina Bontcheva",
+      "Carolina Scarton"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "ai_summary": "Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks typically rely on injecting noise or altering semantics, yet no existing framework exploits the adversarial potential of persuasion techniques, which are widely used in disinformation campaigns to manipulate audiences.",
+    "selected_date": "2026-01-26"
+  },
+  {
     "id": "2601.15838v1",
     "title": "TinySense: Effective CSI Compression for Scalable and Accurate Wi-Fi Sensing",
     "summary": "With the growing demand for device-free and privacy-preserving sensing solutions, Wi-Fi sensing has emerged as a promising approach for human pose estimation (HPE). However, existing methods often process vast amounts of channel state information (CSI) data directly, ultimately straining networking resources. This paper introduces TinySense, an efficient compression framework that enhances the scalability of Wi-Fi-based human sensing. Our approach is based on a new vector quantization-based generative adversarial network (VQGAN). Specifically, by leveraging a VQGAN-learned codebook, TinySense significantly reduces CSI data while maintaining the accuracy required for reliable HPE. To optimize compression, we employ the K-means algorithm to dynamically adjust compression bitrates to cluster a large-scale pre-trained codebook into smaller subsets. Furthermore, a Transformer model is incorporated to mitigate bitrate loss, enhancing robustness in unreliable networking conditions. We prototype TinySense on an experimental testbed using Jetson Nano and Raspberry Pi to measure latency and network resource use. Extensive results demonstrate that TinySense significantly outperforms state-of-the-art compression schemes, achieving up to 1.5x higher HPE accuracy score (PCK20) under the same compression rate. It also reduces latency and networking overhead, respectively, by up to 5x and 2.5x. The code repository is available online at here.",
@@ -574,23 +594,5 @@
       "cs.CR"
     ],
     "selected_date": "2024-12-27"
-  },
-  {
-    "id": "2312.98765",
-    "title": "Privacy-Preserving Federated Learning with Differential Privacy Guarantees",
-    "summary": "We propose a new framework for privacy-preserving federated learning that provides formal differential privacy guarantees while maintaining model utility. Our approach combines secure aggregation with adaptive noise injection, achieving better privacy-utility trade-offs than existing methods. Experiments on multiple datasets demonstrate the effectiveness of our approach in real-world scenarios.",
-    "published": "2024-12-13T09:15:00Z",
-    "link": "http://arxiv.org/abs/2312.98765",
-    "authors": [
-      "David Lee",
-      "Sarah Williams",
-      "Michael Brown",
-      "Emma Davis"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "selected_date": "2024-12-26"
   }
 ]
