@@ -1,5 +1,26 @@
 [
   {
+    "id": "2601.17935v1",
+    "title": "FedGraph-VASP: Privacy-Preserving Federated Graph Learning with Post-Quantum Security for Cross-Institutional Anti-Money Laundering",
+    "summary": "Virtual Asset Service Providers (VASPs) face a fundamental tension between regulatory compliance and user privacy when detecting cross-institutional money laundering. Current approaches require either sharing sensitive transaction data or operating in isolation, leaving critical cross-chain laundering patterns undetected. We present FedGraph-VASP, a privacy-preserving federated graph learning framework that enables collaborative anti-money laundering (AML) without exposing raw user data. Our key contribution is a Boundary Embedding Exchange protocol that shares only compressed, non-invertible graph neural network representations of boundary accounts. These exchanges are secured using post-quantum cryptography, specifically the NIST-standardized Kyber-512 key encapsulation mechanism combined with AES-256-GCM authenticated encryption. Experiments on the Elliptic Bitcoin dataset with realistic Louvain partitioning show that FedGraph-VASP achieves an F1-score of 0.508, outperforming the state-of-the-art generative baseline FedSage+ (F1 = 0.453) by 12.1 percent on binary fraud detection. We further show robustness under low-connectivity settings where generative imputation degrades performance, while approaching centralized performance (F1 = 0.620) in high-connectivity regimes. We additionally evaluate generalization on an Ethereum fraud detection dataset, where FedGraph-VASP (F1 = 0.635) is less effective under sparse cross-silo connectivity, while FedSage+ excels (F1 = 0.855), outperforming even local training (F1 = 0.785). These results highlight a topology-dependent trade-off: embedding exchange benefits connected transaction graphs, whereas generative imputation can dominate in highly modular sparse graphs. A privacy audit shows embeddings are only partially invertible (R^2 = 0.32), limiting exact feature recovery.",
+    "published": "2026-01-25T18:14:26Z",
+    "link": "http://arxiv.org/abs/2601.17935v1",
+    "authors": [
+      "Daniel Commey",
+      "Matilda Nkoom",
+      "Yousef Alsenani",
+      "Sena G. Hounsinou",
+      "Garth V. Crosby"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.SI"
+    ],
+    "ai_summary": "Virtual Asset Service Providers (VASPs) face a fundamental tension between regulatory compliance and user privacy when detecting cross-institutional money laundering. Current approaches require either sharing sensitive transaction data or operating in isolation, leaving critical cross-chain laundering patterns undetected.",
+    "selected_date": "2026-01-27"
+  },
+  {
     "id": "2601.16890v1",
     "title": "LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems",
     "summary": "Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks typically rely on injecting noise or altering semantics, yet no existing framework exploits the adversarial potential of persuasion techniques, which are widely used in disinformation campaigns to manipulate audiences. In this paper, we introduce a novel class of persuasive adversarial attacks on AFCs by employing a generative LLM to rephrase claims using persuasion techniques. Considering 15 techniques grouped into 6 categories, we study the effects of persuasion on both claim verification and evidence retrieval using a decoupled evaluation strategy. Experiments on the FEVER and FEVEROUS benchmarks show that persuasion attacks can substantially degrade both verification performance and evidence retrieval. Our analysis identifies persuasion techniques as a potent class of adversarial attacks, highlighting the need for more robust AFC systems.",
@@ -577,22 +598,5 @@
       "cs.SE"
     ],
     "selected_date": "2024-12-28"
-  },
-  {
-    "id": "2312.54321",
-    "title": "Adversarial Robustness in Vision Transformers: A Comprehensive Survey",
-    "summary": "This survey provides a comprehensive overview of adversarial robustness techniques for vision transformers. We categorize existing defense mechanisms, analyze their effectiveness, and identify key challenges and future research directions. Our analysis covers both training-time and inference-time defenses, providing insights into the trade-offs between robustness and accuracy.",
-    "published": "2024-12-14T14:20:00Z",
-    "link": "http://arxiv.org/abs/2312.54321",
-    "authors": [
-      "Robert Chen",
-      "Maria Garcia"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.LG",
-      "cs.CR"
-    ],
-    "selected_date": "2024-12-27"
   }
 ]
