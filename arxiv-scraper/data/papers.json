@@ -1,5 +1,24 @@
 [
   {
+    "id": "2601.21287v1",
+    "title": "Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption",
+    "summary": "Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) by using Homomorphic Encryption (HE) for linear computations. However, the computational overhead remains a major challenge. While prior work has improved efficiency, most approaches build on models originally designed for plaintext inference. Such models incur architectural inefficiencies when adapted to HE. We argue that substantial gains require networks tailored to HE rather than retrofitting plaintext architectures. Our design has two components: the building block and the overall architecture. First, StriaBlock targets the most expensive HE operation, rotation. It integrates ExRot-Free Convolution and a novel Cross Kernel, eliminating external rotations and requiring only 19% of the internal rotations used by plaintext models. Second, our architectural principles include (i) the Focused Constraint Principle, which limits cost-sensitive factors while preserving flexibility elsewhere, and (ii) the Channel Packing-Aware Scaling Principle, which adapts bottleneck ratios to ciphertext channel capacity that varies with depth. Together, these strategies control both local and end-to-end HE cost, enabling a balanced HE-tailored network. We evaluate the resulting StriaNet across datasets of varying scales, including ImageNet, Tiny ImageNet, and CIFAR-10. At comparable accuracy, StriaNet achieves speedups of 9.78x, 6.01x, and 9.24x on ImageNet, Tiny ImageNet, and CIFAR-10, respectively.",
+    "published": "2026-01-29T05:40:05Z",
+    "link": "http://arxiv.org/abs/2601.21287v1",
+    "authors": [
+      "Yifei Cai",
+      "Yizhou Feng",
+      "Qiao Zhang",
+      "Chunsheng Xin",
+      "Hongyi Wu"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) by using Homomorphic Encryption (HE) for linear computations. However, the computational overhead remains a major challenge.",
+    "selected_date": "2026-01-30"
+  },
+  {
     "id": "2601.20568v1",
     "title": "Reinforcement Unlearning via Group Relative Policy Optimization",
     "summary": "During pretraining, LLMs inadvertently memorize sensitive or copyrighted data, posing significant compliance challenges under legal frameworks like the GDPR and the EU AI Act. Fulfilling these mandates demands techniques that can remove information from a deployed model without retraining from scratch. Existing unlearning approaches attempt to address this need, but often leak the very data they aim to erase, sacrifice fluency and robustness, or depend on costly external reward models. We introduce PURGE (Policy Unlearning through Relative Group Erasure), a novel method grounded in the Group Relative Policy Optimization framework that formulates unlearning as a verifiable problem. PURGE uses an intrinsic reward signal that penalizes any mention of forbidden concepts, allowing safe and consistent unlearning. Our approach reduces token usage per target by up to a factor of 46 compared with SotA methods, while improving fluency by 5.48 percent and adversarial robustness by 12.02 percent over the base model. On the Real World Knowledge Unlearning (RWKU) benchmark, PURGE achieves 11 percent unlearning effectiveness while preserving 98 percent of original utility. PURGE shows that framing LLM unlearning as a verifiable task, enables more reliable, efficient, and scalable forgetting, suggesting a promising new direction for unlearning research that combines theoretical guarantees, improved safety, and practical deployment efficiency.",
@@ -570,34 +589,5 @@
     ],
     "ai_summary": "Neural ranking models have achieved remarkable progress and are now widely deployed in real-world applications such as Retrieval-Augmented Generation (RAG). However, like other neural architectures, they remain vulnerable to adversarial manipulations: subtle character-, word-, or phrase-level perturbations can poison retrieval results and artificially promote targeted candidates, undermining the integrity of search engines and downstream systems.",
     "selected_date": "2025-12-31"
-  },
-  {
-    "id": "2512.23705v1",
-    "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
-    "summary": "Transparent objects remain notoriously hard for perception systems: refraction, reflection and transmission break the assumptions behind stereo, ToF and purely discriminative monocular depth, causing holes and temporally unstable estimates. Our key observation is that modern video diffusion models already synthesize convincing transparent phenomena, suggesting they have internalized the optical rules. We build TransPhy3D, a synthetic video corpus of transparent/reflective scenes: 11k sequences rendered with Blender/Cycles. Scenes are assembled from a curated bank of category-rich static assets and shape-rich procedural assets paired with glass/plastic/metal materials. We render RGB + depth + normals with physically based ray tracing and OptiX denoising. Starting from a large video diffusion model, we learn a video-to-video translator for depth (and normals) via lightweight LoRA adapters. During training we concatenate RGB and (noisy) depth latents in the DiT backbone and co-train on TransPhy3D and existing frame-wise synthetic datasets, yielding temporally consistent predictions for arbitrary-length input videos. The resulting model, DKT, achieves zero-shot SOTA on real and synthetic video benchmarks involving transparency: ClearPose, DREDS (CatKnown/CatNovel), and TransPhy3D-Test. It improves accuracy and temporal consistency over strong image/video baselines, and a normal variant sets the best video normal estimation results on ClearPose. A compact 1.3B version runs at ~0.17 s/frame. Integrated into a grasping stack, DKT's depth boosts success rates across translucent, reflective and diffuse surfaces, outperforming prior estimators. Together, these results support a broader claim: \"Diffusion knows transparency.\" Generative video priors can be repurposed, efficiently and label-free, into robust, temporally coherent perception for challenging real-world manipulation.",
-    "published": "2025-12-29T18:59:24Z",
-    "link": "http://arxiv.org/abs/2512.23705v1",
-    "authors": [
-      "Shaocong Xu",
-      "Songlin Wei",
-      "Qizhe Wei",
-      "Zheng Geng",
-      "Hong Li",
-      "Licheng Shen",
-      "Qianpu Sun",
-      "Shu Han",
-      "Bin Ma",
-      "Bohan Li",
-      "Chongjie Ye",
-      "Yuhang Zheng",
-      "Nan Wang",
-      "Saining Zhang",
-      "Hao Zhao"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Transparent objects remain notoriously hard for perception systems: refraction, reflection and transmission break the assumptions behind stereo, ToF and purely discriminative monocular depth, causing holes and temporally unstable estimates. Our key observation is that modern video diffusion models already synthesize convincing transparent phenomena, suggesting they have internalized the optical rules.",
-    "selected_date": "2025-12-30"
   }
 ]
