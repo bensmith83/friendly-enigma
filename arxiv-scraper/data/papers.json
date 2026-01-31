@@ -1,5 +1,28 @@
 [
   {
+    "id": "2601.21531v1",
+    "title": "On the Adversarial Robustness of Large Vision-Language Models under Visual Token Compression",
+    "summary": "Visual token compression is widely used to accelerate large vision-language models (LVLMs) by pruning or merging visual tokens, yet its adversarial robustness remains unexplored. We show that existing encoder-based attacks can substantially overestimate the robustness of compressed LVLMs, due to an optimization-inference mismatch: perturbations are optimized on the full-token representation, while inference is performed through a token-compression bottleneck. To address this gap, we propose the Compression-AliGnEd attack (CAGE), which aligns perturbation optimization with compression inference without assuming access to the deployed compression mechanism or its token budget. CAGE combines (i) expected feature disruption, which concentrates distortion on tokens likely to survive across plausible budgets, and (ii) rank distortion alignment, which actively aligns token distortions with rank scores to promote the retention of highly distorted evidence. Across diverse representative plug-and-play compression mechanisms and datasets, our results show that CAGE consistently achieves lower robust accuracy than the baseline. This work highlights that robustness assessments ignoring compression can be overly optimistic, calling for compression-aware security evaluation and defenses for efficient LVLMs.",
+    "published": "2026-01-29T10:47:21Z",
+    "link": "http://arxiv.org/abs/2601.21531v1",
+    "authors": [
+      "Xinwei Zhang",
+      "Hangcheng Liu",
+      "Li Bai",
+      "Hao Wang",
+      "Qingqing Ye",
+      "Tianwei Zhang",
+      "Haibo Hu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "ai_summary": "Visual token compression is widely used to accelerate large vision-language models (LVLMs) by pruning or merging visual tokens, yet its adversarial robustness remains unexplored. We show that existing encoder-based attacks can substantially overestimate the robustness of compressed LVLMs, due to an optimization-inference mismatch: perturbations are optimized on the full-token representation, while inference is performed through a token-compression bottleneck.",
+    "selected_date": "2026-01-31"
+  },
+  {
     "id": "2601.21287v1",
     "title": "Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption",
     "summary": "Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) by using Homomorphic Encryption (HE) for linear computations. However, the computational overhead remains a major challenge. While prior work has improved efficiency, most approaches build on models originally designed for plaintext inference. Such models incur architectural inefficiencies when adapted to HE. We argue that substantial gains require networks tailored to HE rather than retrofitting plaintext architectures. Our design has two components: the building block and the overall architecture. First, StriaBlock targets the most expensive HE operation, rotation. It integrates ExRot-Free Convolution and a novel Cross Kernel, eliminating external rotations and requiring only 19% of the internal rotations used by plaintext models. Second, our architectural principles include (i) the Focused Constraint Principle, which limits cost-sensitive factors while preserving flexibility elsewhere, and (ii) the Channel Packing-Aware Scaling Principle, which adapts bottleneck ratios to ciphertext channel capacity that varies with depth. Together, these strategies control both local and end-to-end HE cost, enabling a balanced HE-tailored network. We evaluate the resulting StriaNet across datasets of varying scales, including ImageNet, Tiny ImageNet, and CIFAR-10. At comparable accuracy, StriaNet achieves speedups of 9.78x, 6.01x, and 9.24x on ImageNet, Tiny ImageNet, and CIFAR-10, respectively.",
@@ -567,27 +590,5 @@
     ],
     "ai_summary": "The rapid expansion of generative AI has normalized large-scale synthetic media creation, enabling new forms of covert communication. Recent generative steganography methods, particularly those based on diffusion models, can embed high-capacity payloads without fine-tuning or auxiliary decoders, creating significant challenges for detection and remediation.",
     "selected_date": "2026-01-01"
-  },
-  {
-    "id": "2512.23307v1",
-    "title": "RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking",
-    "summary": "Neural ranking models have achieved remarkable progress and are now widely deployed in real-world applications such as Retrieval-Augmented Generation (RAG). However, like other neural architectures, they remain vulnerable to adversarial manipulations: subtle character-, word-, or phrase-level perturbations can poison retrieval results and artificially promote targeted candidates, undermining the integrity of search engines and downstream systems. Existing defenses either rely on heuristics with poor generalization or on certified methods that assume overly strong adversarial knowledge, limiting their practical use. To address these challenges, we propose RobustMask, a novel defense that combines the context-prediction capability of pretrained language models with a randomized masking-based smoothing mechanism. Our approach strengthens neural ranking models against adversarial perturbations at the character, word, and phrase levels. Leveraging both the pairwise comparison ability of ranking models and probabilistic statistical analysis, we provide a theoretical proof of RobustMask's certified top-K robustness. Extensive experiments further demonstrate that RobustMask successfully certifies over 20% of candidate documents within the top-10 ranking positions against adversarial perturbations affecting up to 30% of their content. These results highlight the effectiveness of RobustMask in enhancing the adversarial robustness of neural ranking models, marking a significant step toward providing stronger security guarantees for real-world retrieval systems.",
-    "published": "2025-12-29T08:51:35Z",
-    "link": "http://arxiv.org/abs/2512.23307v1",
-    "authors": [
-      "Jiawei Liu",
-      "Zhuo Chen",
-      "Rui Zhu",
-      "Miaokun Chen",
-      "Yuyang Gong",
-      "Wei Lu",
-      "Xiaofeng Wang"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.IR"
-    ],
-    "ai_summary": "Neural ranking models have achieved remarkable progress and are now widely deployed in real-world applications such as Retrieval-Augmented Generation (RAG). However, like other neural architectures, they remain vulnerable to adversarial manipulations: subtle character-, word-, or phrase-level perturbations can poison retrieval results and artificially promote targeted candidates, undermining the integrity of search engines and downstream systems.",
-    "selected_date": "2025-12-31"
   }
 ]
