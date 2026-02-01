@@ -1,5 +1,25 @@
 [
   {
+    "id": "2601.21586v1",
+    "title": "ICL-EVADER: Zero-Query Black-Box Evasion Attacks on In-Context Learning and Their Defenses",
+    "summary": "In-context learning (ICL) has become a powerful, data-efficient paradigm for text classification using large language models. However, its robustness against realistic adversarial threats remains largely unexplored. We introduce ICL-Evader, a novel black-box evasion attack framework that operates under a highly practical zero-query threat model, requiring no access to model parameters, gradients, or query-based feedback during attack generation. We design three novel attacks, Fake Claim, Template, and Needle-in-a-Haystack, that exploit inherent limitations of LLMs in processing in-context prompts. Evaluated across sentiment analysis, toxicity, and illicit promotion tasks, our attacks significantly degrade classifier performance (e.g., achieving up to 95.3% attack success rate), drastically outperforming traditional NLP attacks which prove ineffective under the same constraints. To counter these vulnerabilities, we systematically investigate defense strategies and identify a joint defense recipe that effectively mitigates all attacks with minimal utility loss (<5% accuracy degradation). Finally, we translate our defensive insights into an automated tool that proactively fortifies standard ICL prompts against adversarial evasion. This work provides a comprehensive security assessment of ICL, revealing critical vulnerabilities and offering practical solutions for building more robust systems. Our source code and evaluation datasets are publicly available at: https://github.com/ChaseSecurity/ICL-Evader .",
+    "published": "2026-01-29T11:50:50Z",
+    "link": "http://arxiv.org/abs/2601.21586v1",
+    "authors": [
+      "Ningyuan He",
+      "Ronghong Huang",
+      "Qianqian Tang",
+      "Hongyu Wang",
+      "Xianghang Mi",
+      "Shanqing Guo"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "In-context learning (ICL) has become a powerful, data-efficient paradigm for text classification using large language models. However, its robustness against realistic adversarial threats remains largely unexplored.",
+    "selected_date": "2026-02-01"
+  },
+  {
     "id": "2601.21531v1",
     "title": "On the Adversarial Robustness of Large Vision-Language Models under Visual Token Compression",
     "summary": "Visual token compression is widely used to accelerate large vision-language models (LVLMs) by pruning or merging visual tokens, yet its adversarial robustness remains unexplored. We show that existing encoder-based attacks can substantially overestimate the robustness of compressed LVLMs, due to an optimization-inference mismatch: perturbations are optimized on the full-token representation, while inference is performed through a token-compression bottleneck. To address this gap, we propose the Compression-AliGnEd attack (CAGE), which aligns perturbation optimization with compression inference without assuming access to the deployed compression mechanism or its token budget. CAGE combines (i) expected feature disruption, which concentrates distortion on tokens likely to survive across plausible budgets, and (ii) rank distortion alignment, which actively aligns token distortions with rank scores to promote the retention of highly distorted evidence. Across diverse representative plug-and-play compression mechanisms and datasets, our results show that CAGE consistently achieves lower robust accuracy than the baseline. This work highlights that robustness assessments ignoring compression can be overly optimistic, calling for compression-aware security evaluation and defenses for efficient LVLMs.",
@@ -573,22 +593,5 @@
     ],
     "ai_summary": "As Large Language Models (LLMs) integrate into critical global infrastructure, the assumption that safety alignment transfers zero-shot from English to other languages remains a dangerous blind spot. This study presents a systematic audit of three state of the art models (GPT-5.1, Gemini 3 Pro, and Claude 4.5 Opus) using HausaSafety, a novel adversarial dataset grounded in West African threat scenarios (e.g., Yahoo-Yahoo fraud, Dane gun manufacturing).",
     "selected_date": "2026-01-02"
-  },
-  {
-    "id": "2512.24499v1",
-    "title": "Training-Free Color-Aware Adversarial Diffusion Sanitization for Diffusion Stegomalware Defense at Security Gateways",
-    "summary": "The rapid expansion of generative AI has normalized large-scale synthetic media creation, enabling new forms of covert communication. Recent generative steganography methods, particularly those based on diffusion models, can embed high-capacity payloads without fine-tuning or auxiliary decoders, creating significant challenges for detection and remediation. Coverless diffusion-based techniques are difficult to counter because they generate image carriers directly from secret data, enabling attackers to deliver stegomalware for command-and-control, payload staging, and data exfiltration while bypassing detectors that rely on cover-stego discrepancies. This work introduces Adversarial Diffusion Sanitization (ADS), a training-free defense for security gateways that neutralizes hidden payloads rather than detecting them. ADS employs an off-the-shelf pretrained denoiser as a differentiable proxy for diffusion-based decoders and incorporates a color-aware, quaternion-coupled update rule to reduce artifacts under strict distortion limits. Under a practical threat model and in evaluation against the state-of-the-art diffusion steganography method Pulsar, ADS drives decoder success rates to near zero with minimal perceptual impact. Results demonstrate that ADS provides a favorable security-utility trade-off compared to standard content transformations, offering an effective mitigation strategy against diffusion-driven steganography.",
-    "published": "2025-12-30T22:53:33Z",
-    "link": "http://arxiv.org/abs/2512.24499v1",
-    "authors": [
-      "Vladimir Frants",
-      "Sos Agaian"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.CV"
-    ],
-    "ai_summary": "The rapid expansion of generative AI has normalized large-scale synthetic media creation, enabling new forms of covert communication. Recent generative steganography methods, particularly those based on diffusion models, can embed high-capacity payloads without fine-tuning or auxiliary decoders, creating significant challenges for detection and remediation.",
-    "selected_date": "2026-01-01"
   }
 ]
