@@ -1,5 +1,1084 @@
 [
   {
+    "date": "2026-02-01",
+    "week_of": "February 01, 2026",
+    "digest_number": 6,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Sundance-Festival: Hauptpreis an \"Josephine",
+          "description": null,
+          "content": "Der Hauptpreis in der Sparte U.S. Dramatic Competition beim Sundance-Festival in Utah ist an das Drama Josephine von Regisseurin Beth de Ara\u00fajo gegangen. Channing Tatum und Gemma Chan spielen ein Ehe\u2026 [+1213 chars]",
+          "url": "https://orf.at/stories/3418778/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-01-31T03:40:04Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "bf4aea77085a",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Reliable repurposing of the antibody interactome inside the cell",
+          "description": "O\u2019Shea and colleagues establish that optimisation of charge and stability is sufficient to enable any single-chain variable fragment intrabody to function within the cell. The authors use AI-led inverse folding to optimise intrabody characteristics, and they \u2026",
+          "content": "<li>Kovaltsuk, A. et al. Observed antibody space: a resource for data mining next-generation sequencing of antibody repertoires. J. Immunol.201, 25022509 (2018).\r\nGoogle Scholar\u00a0\r\n</li><li>Abanades, \u2026 [+11926 chars]",
+          "url": "https://www.nature.com/articles/s41467-026-69057-0",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-31T00:00:00Z",
+          "author": "Caitlin M. O\u2019Shea, Rushba Shahzad, Kimia Aghasoleimani, Stuart Newman, Jiraporn Panmanee, Leonard C. Schalkwyk, Greg N. Brooke, Fiona E. Benson, James S. Trimmer, Daryl A. Bosco, Takao Fujisawa, Hidenori Ichijo, Neil R. Cashman, Stanislav Engel, Gareth S. A. Wright",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "5abfe9ddab66",
+          "summary": "O\u2019Shea and colleagues establish that optimisation of charge and stability is sufficient to enable any single-chain variable fragment intrabody to function within the cell. The authors use AI-led inver",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Lauryn Hill, Reba McEntire, Post Malone to lead Grammys \u2018In Memoriam\u2019 tribute",
+          "description": "This year's \u201cIn Memoriam\u201d segment will pay homage to icons like Ozzy Osbourne, Roberta Flack, D\u2019Angelo and more with a star-studded lineup headlined by Lauryn Hill, Reba McEntire and Post Malone.",
+          "content": "The countdown to the 2026 Grammy Awards continues with producers confirming more performances for musics biggest night.\r\nThis years In Memoriam segment will pay homage to icons like Ozzy Osbourne, Ro\u2026 [+1823 chars]",
+          "url": "https://www.bostonherald.com/2026/01/30/grammys-2026-in-memoriam-tribute-performers/",
+          "source_name": "Boston Herald",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T19:14:00Z",
+          "author": "Karu F. Daniels",
+          "image_url": "https://www.bostonherald.com/wp-content/uploads/2026/01/3-splitter-copy-10.jpeg?w=1024&h=585",
+          "is_local_nj": false,
+          "article_id": "cc95fc8fa906",
+          "summary": "This year's \u201cIn Memoriam\u201d segment will pay homage to icons like Ozzy Osbourne, Roberta Flack, D\u2019Angelo and more with a star-studded lineup headlined by Lauryn Hill, Reba McEntire and Post Malone.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "How I Beat Lyme Disease with The Ketogenic Diet \u2014 Science, How-To Protocols, and 10+ Years of Zero Symptoms",
+          "description": "I\u2019ve had Lyme disease twice, and I\u2019m now 100% asymptomatic. The second case in 2014 was incredibly severe, but it was resolved in 4\u20136 weeks with an unorthodox but defensible approach: strict ketosis.\nThe post How I Beat Lyme Disease with The Ketogenic Diet \u2014 \u2026",
+          "content": "I started writing this as a reply on X to Greg Yang, co-founder of xAI, who recently stepped down from xAI to address his debilitating case of Lyme disease.\r\nUltimately, I decided that a blog post co\u2026 [+23171 chars]",
+          "url": "https://tim.blog/2026/01/30/lyme-disease-ketogenic-diet/",
+          "source_name": "Tim.blog",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T17:04:09Z",
+          "author": "Tim Ferriss",
+          "image_url": "https://tim.blog/wp-content/uploads/2020/01/Tim-Ferriss-Writing-In-Journal.jpg",
+          "is_local_nj": false,
+          "article_id": "4ba888cecaf9",
+          "summary": "I\u2019ve had Lyme disease twice, and I\u2019m now 100% asymptomatic. The second case in 2014 was incredibly severe, but it was resolved in 4\u20136 weeks with an unorthodox but defensible approach: strict ketosis.\n",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Patrick Dempsey Opens Up About Eric Dane\u2019s \u2018Courageous\u2019 ALS Battle",
+          "description": "Patrick Dempsey is opening up to Parade about his former \u201cGrey\u2019s Anatomy\u201d co-star Eric Dane\u2019s battle with ALS.\n Dempsey shared, \"I spoke to him a few weeks ago. I\u2019ve been texting with him.\u201d\n Patrick went on, \"It\u2019s very hard for him, but I do try to stay in to\u2026",
+          "content": "Patrick Dempsey is opening up to Parade about his former Greys Anatomy co-star Eric Danes battle with ALS.\r\nDempsey shared, \"I spoke to him a few weeks ago. Ive been texting with him.\r\nPatrick went o\u2026 [+3171 chars]",
+          "url": "https://extratv.com/2026/01/30/patrick-dempsey-opens-up-about-eric-dane-s-courageous-als-battle/",
+          "source_name": "Extra",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T15:14:31Z",
+          "author": "Extra Staff",
+          "image_url": "https://extra-images.akamaized.net/image/d7/16by9/2026/01/30/d7c61a64374b4d62b19254957e22b9a2_xl.jpg",
+          "is_local_nj": false,
+          "article_id": "ba2b46f10fd6",
+          "summary": "Patrick Dempsey is opening up to Parade about his former \u201cGrey\u2019s Anatomy\u201d co-star Eric Dane\u2019s battle with ALS.\n Dempsey shared, \"I spoke to him a few weeks ago. I\u2019ve been texting with him.\u201d\n Patrick w",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "A gut-activated NHR-86\u2013CYP pathway mediates the neuroprotective effects of Enterococcus faecium probiotics in a nematode model of amyotrophic lateral sclerosis",
+          "description": "Probiotics can influence neuronal health, but how microbial signals are translated into neuroprotective host responses remains poorly understood. This study shows that Enterococcus faecium activates an intestinal NHR-86\u2013cytochrome P450 pathway that lowers ROS\u2026",
+          "content": "Abstract\r\nNeurodegenerative diseases are often associated with oxidative stress, and while probiotics may influence neuronal health, the underlying mechanisms remain poorly understood. Using the sod-\u2026 [+79371 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003627",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T14:00:00Z",
+          "author": "Yu Sang, Jie Ren, Alejandro Aballay",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003627.g008&size=inline",
+          "is_local_nj": false,
+          "article_id": "124411e3c57f",
+          "summary": "Probiotics can influence neuronal health, but how microbial signals are translated into neuroprotective host responses remains poorly understood. This study shows that Enterococcus faecium activates a",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Modeling amyotrophic lateral sclerosis (ALS) in vitro: from mechanistic studies to translatable drug discovery",
+              "url": "https://pubs.rsc.org/en/content/articlelanding/2026/lc/d5lc00577a",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "ProMIS Neurosciences Announces Up to $175 Million Private Placement Financing",
+          "description": "Extends cash runway into 2028 Proceeds expected to enable completion of ProMIS\u2019 landmark\u00a0 Phase 1b AD study and support execution of key clinical milestones Blinded 6-month top-line data expected mid-2026; 12-month top-line data expected toward end of 2026 CA\u2026",
+          "content": "The offer and sale of the foregoing securities are being made in a transaction not involving a public offering and have not been registered under the Securities Act of 1933, as amended (Securities Ac\u2026 [+4924 chars]",
+          "url": "https://financialpost.com/globe-newswire/promis-neurosciences-announces-up-to-175-million-private-placement-financing",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T13:04:14Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "20bd2bce0e2c",
+          "summary": "Extends cash runway into 2028 Proceeds expected to enable completion of ProMIS\u2019 landmark\u00a0 Phase 1b AD study and support execution of key clinical milestones Blinded 6-month top-line data expected mid-",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "ProMIS Neurosciences Announces Up to $175 Million Private Placement Financing",
+          "description": "Extends cash runway into 2028     Proceeds expected to enable completion of ProMIS\u2019 landmark\u00a0 Phase 1b AD study and support execution of key clinical...",
+          "content": "Extends cash runway into 2028\r\nProceeds expected to enable completion of ProMIS landmark\u00a0 Phase 1b AD study and support execution of key clinical milestones \r\nBlinded 6-month top-line data expected m\u2026 [+8576 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/30/3229488/0/en/ProMIS-Neurosciences-Announces-Up-to-175-Million-Private-Placement-Financing.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T13:00:00Z",
+          "author": "ProMIS Neurosciences Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/26bec3c9-ac4b-487b-ab90-3b62be29497d",
+          "is_local_nj": false,
+          "article_id": "c5ed390fa3a1",
+          "summary": "Extends cash runway into 2028     Proceeds expected to enable completion of ProMIS\u2019 landmark\u00a0 Phase 1b AD study and support execution of key clinical...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Alamos Gold Extends Higher-Grade Mineralization within Multiple Hanging Wall Zones Near Existing Infrastructure at Young-Davidson",
+          "description": "TORONTO, Jan. 30, 2026 (GLOBE NEWSWIRE) -- Alamos Gold Inc. (TSX:AGI; NYSE:AGI) (\u201cAlamos\u201d or the \u201cCompany\u201d) today reported new results from its underground exploration program at the Young-Davidson mine. Underground exploration drilling from both the mid and \u2026",
+          "content": "TORONTO, Jan. 30, 2026 (GLOBE NEWSWIRE) -- Alamos Gold Inc. (TSX:AGI; NYSE:AGI) (Alamos or the Company) today reported new results from its underground exploration program at the Young-Davidson mine.\u2026 [+56462 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/30/3229437/0/en/Alamos-Gold-Extends-Higher-Grade-Mineralization-within-Multiple-Hanging-Wall-Zones-Near-Existing-Infrastructure-at-Young-Davidson.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T11:55:00Z",
+          "author": "Alamos Gold Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/b6c84d4b-0c81-42e6-9d33-e92b12eacb59",
+          "is_local_nj": false,
+          "article_id": "eb53205f7a75",
+          "summary": "TORONTO, Jan. 30, 2026 (GLOBE NEWSWIRE) -- Alamos Gold Inc. (TSX:AGI; NYSE:AGI) (\u201cAlamos\u201d or the \u201cCompany\u201d) today reported new results from its underground exploration program at the Young-Davidson mi",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Nova Confirms Higher-Grade Starter Pit Potential within the 4.05 Moz Pit-Constrained Korbel Gold Deposit",
+              "url": "https://www.globenewswire.com/news-release/2026/01/21/3222602/0/en/Nova-Confirms-Higher-Grade-Starter-Pit-Potential-within-the-4-05-Moz-Pit-Constrained-Korbel-Gold-Deposit.html",
+              "digest_date": "2026-01-25"
+            }
+          ]
+        },
+        {
+          "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+          "description": "Kate Walsh has returned to Grey\u2019s Anatomy to scrub in as fan-favorite character Dr. Addison Montgomery once again. In the wake of her big return in the tenth episode of season 22, Kate sat down for an interview with Variety and opened up about her character\u2019s\u2026",
+          "content": "Kate Walsh has returned to Grey\u2019s Anatomy to scrub in as fan-favorite character Dr. Addison Montgomery once again.\r\nIn the wake of her big return in the tenth episode of season 22, Kate sat down for \u2026 [+1346 chars]",
+          "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+          "source_name": "Just Jared",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T05:55:44Z",
+          "author": "Just Jared",
+          "image_url": "https://cdn01.justjared.com/wp-content/uploads/headlines/2026/01/kate-walsh-eric-dane-social.jpg",
+          "is_local_nj": false,
+          "article_id": "aeaf92850d0b",
+          "summary": "Kate Walsh has returned to Grey\u2019s Anatomy to scrub in as fan-favorite character Dr. Addison Montgomery once again. In the wake of her big return in the tenth episode of season 22, Kate sat down for an",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Eric Dane now in 24/7 hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-rebecca-gayheart-greys-anatomy-b2891904.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142602&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+          "description": "Dane and Dempsey worked together for six seasons on \u2018Grey\u2019s Anatomy\u2019",
+          "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia\u2026 [+3888 chars]",
+          "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-health-update-greys-anatomy-b2910664.html",
+          "source_name": "The-independent.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T05:40:49Z",
+          "author": "Amber Raiken",
+          "image_url": "https://static.the-independent.com/2026/01/29/14/29/MixCollage-29-Jan-2026-09-34-AM-4480.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+          "is_local_nj": false,
+          "article_id": "c0bc4a50040a",
+          "summary": "Dane and Dempsey worked together for six seasons on \u2018Grey\u2019s Anatomy\u2019",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Eric Dane now in 24/7 hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-rebecca-gayheart-greys-anatomy-b2891904.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142602&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Kate Walsh on Returning to \u2018Grey\u2019s Anatomy,\u2019 Her \u2018Family\u2019 Bond With Caterina Scorsone and Why Fans Still Talk About Addison\u2019s \u2018Iconic\u2019 Season 1 Entrance (EXCLUSIVE)",
+          "description": "SPOILER ALERT: This interview contains spoilers from \u201cStrip That Down,\u201d the 10th episode of Season 22 of ABC\u2019s \u201cGrey\u2019s Anatomy,\u201d streaming on Hulu. Kate Walsh will always make time to return to \u201cGrey\u2019s Anatomy.\u201d From the moment Addison Montgomery first strutt\u2026",
+          "content": "SPOILER ALERT: This interview contains spoilers from \u201cStrip That Down,\u201d the 10th episode of Season 22 of ABC\u2019s \u201cGrey\u2019s Anatomy,\u201d streaming on Hulu.\r\nKate Walsh will always make time to return to \u201cGre\u2026 [+13556 chars]",
+          "url": "https://variety.com/2026/tv/news/kate-walsh-greys-anatomy-return-addison-marriage-trouble-jake-1236644697/",
+          "source_name": "Variety",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T04:00:00Z",
+          "author": "Kate Aurthur",
+          "image_url": "https://variety.com/wp-content/uploads/2026/01/KateWalsh-GreysAnatomy-MAIN.jpg?w=1000&h=563&crop=1",
+          "is_local_nj": false,
+          "article_id": "f9b88ffbea46",
+          "summary": "SPOILER ALERT: This interview contains spoilers from \u201cStrip That Down,\u201d the 10th episode of Season 22 of ABC\u2019s \u201cGrey\u2019s Anatomy,\u201d streaming on Hulu. Kate Walsh will always make time to return to \u201cGrey\u2019",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Supercharging-enhanced nDIA-MS enables global profiling of drug-induced proteome solubility shifts",
+          "description": "Protein function is governed by more than abundance alone. Here, the authors introduce a supercharging-enhanced nDIA-MS workflow to map drug-induced solubility changes across the proteome, enabling high-throughput analysis of protein state transitions.",
+          "content": "<li>Angel, T. E. et al. Mass spectrometry-based proteomics: existing capabilities and future directions. Chem. Soc. Rev.41, 39123928 (2012).\r\nGoogle Scholar\u00a0\r\n</li><li>Aebersold, R. &amp; Mann, M. Ma\u2026 [+13320 chars]",
+          "url": "https://www.nature.com/articles/s41467-026-69025-8",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T00:00:00Z",
+          "author": "Yun Xiong, Huimin Zhang, Lin Tan, Bo Wei, John N. Weinstein, Philip L. Lorenzi",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "a5e3e01fb1b9",
+          "summary": "Protein function is governed by more than abundance alone. Here, the authors introduce a supercharging-enhanced nDIA-MS workflow to map drug-induced solubility changes across the proteome, enabling hi",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "A radiolabeled dendrimer non-invasively identifies and tracks innate immune cell activation in a mouse model of experimental autoimmune encephalomyelitis",
+          "description": "Non-invasive strategies to detect and track activated myeloid cells will facilitate disease diagnosis and monitoring in patients affected by neuroinflammatory disorders. Here, the authors present 18F-FMD, a dendrimer-based PET tracer that detects and monitors\u2026",
+          "content": "<li>National Multiple Sclerosis Society. Number of people with MS | Atlas of MS. https://atlasofms.org/map/global/epidemiology/number-of-people-with-ms.\r\n</li><li>Loma, I. &amp; Heyman, R. Multiple s\u2026 [+15460 chars]",
+          "url": "https://www.nature.com/articles/s41467-025-67907-x",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-30T00:00:00Z",
+          "author": "Renesmee C. Kuo, Mackenzie L. Carlson, Samantha T. Reyes, Sydney C. Nagy, Mausam Kalita, Israt S. Alam, Noeen Malik, Isaac M. Jackson, Christopher J. Acosta, Irene N. Falk, E. Carmen Azevedo, Yanrong Zhang, Lisa Nichols, Corinne Beinat, Naze G. Avci, Madhuri Chattopadhyay, S. Sakura Minami, Jeffrey L. Cleland, Michelle L. James",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "307b43201505",
+          "summary": "Non-invasive strategies to detect and track activated myeloid cells will facilitate disease diagnosis and monitoring in patients affected by neuroinflammatory disorders. Here, the authors present 18F-",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "LINE-1 retrotransposition in a mouse TDP-43 model of neurodegeneration marks motor cortex neurons for cell-intrinsic and cell non-autonomous programmed cell death",
+              "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012007",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "MediciNova says 100 patients enrolled in SEANOBI MN-166 study on ALS",
+          "description": "See the rest of the story here.\n\nlegacy.thefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investors, professional money managers, active traders, and\u2026",
+          "content": "Earnings calls, analyst events, roadshows and more",
+          "url": "https://legacy.thefly.com/permalinks/entry.php/id4281151/MNOV-MediciNova-says--patients-enrolled-in-SEANOBI-MN-study-on-ALS",
+          "source_name": "Thefly.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T23:06:04Z",
+          "author": null,
+          "image_url": "https://legacy.thefly.com/images/meta/hotstocks.jpg",
+          "is_local_nj": false,
+          "article_id": "aeff6743a83f",
+          "summary": "See the rest of the story here.\n\nlegacy.thefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "MediciNova Announces 100 Patients Enrolled in SEANOBI Study Expanded-Access-Program (EAP) Evaluating MN\u2011166 (ibudilast) in ALS patients",
+          "description": "LA JOLLA, Calif., Jan. 29, 2026 (GLOBE NEWSWIRE) -- MediciNova, Inc., a biopharmaceutical company traded on the NASDAQ Global Market (NASDAQ:MNOV) and the Standard Market of the Tokyo Stock Exchange (Code Number: 4875), today announced that as of the end of J\u2026",
+          "content": "LA JOLLA, Calif., Jan. 29, 2026 (GLOBE NEWSWIRE) -- MediciNova, Inc., a biopharmaceutical company traded on the NASDAQ Global Market (NASDAQ:MNOV) and the Standard Market of the Tokyo Stock Exchange \u2026 [+8739 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/29/3229186/7767/en/MediciNova-Announces-100-Patients-Enrolled-in-SEANOBI-Study-Expanded-Access-Program-EAP-Evaluating-MN-166-ibudilast-in-ALS-patients.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T23:00:00Z",
+          "author": "MediciNova, Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/b206e905-1d01-44c2-bc62-c2d6a10afd0a",
+          "is_local_nj": false,
+          "article_id": "02eb6ca4d71c",
+          "summary": "LA JOLLA, Calif., Jan. 29, 2026 (GLOBE NEWSWIRE) -- MediciNova, Inc., a biopharmaceutical company traded on the NASDAQ Global Market (NASDAQ:MNOV) and the Standard Market of the Tokyo Stock Exchange (",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "11 dead in South Africa minibus and truck collision days after similar crash killed 14 children",
+          "description": "A collision involving a minibus taxi and a truck killed at least 11 people in South Africa on Thursday, a local government official and emergency services said, just over a week after a similar road crash left 14 schoolchildren dead. Thursday\u2019s crash happened\u2026",
+          "content": "A collision involving a minibus taxi and a truck killed at least 11 people in South Africa on Thursday, a local government official and emergency services said, just over a week after a similar road \u2026 [+2799 chars]",
+          "url": "https://japantoday.com/category/world/at-least-11-killed-in-a-crash-involving-a-minibus-taxi-and-a-truck-in-south-africa-officials-said.",
+          "source_name": "Japan Today",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T21:36:17Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "6eab106bcb75",
+          "summary": "A collision involving a minibus taxi and a truck killed at least 11 people in South Africa on Thursday, a local government official and emergency services said, just over a week after a similar road c",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "11 dead in South Africa minibus, truck collision \u2014just days after similar crash killed 14 children",
+          "description": "A collision involving a minibus taxi and a truck killed at least 11 people in South Africa on Thursday, a local government official and emergency services said.",
+          "content": "JOHANNESBURG A collision involving a minibus taxi and a truck killed at least 11 people in South Africa on Thursday, a local government official and emergency services said, just over a week after\u00a0a \u2026 [+3148 chars]",
+          "url": "https://nypost.com/2026/01/29/world-news/11-dead-in-south-africa-minibus-truck-collision-just-days-after-similar-crash-killed-14-children/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T18:13:49Z",
+          "author": "Associated Press",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/01/2026-rescue-personnel-inspect-site-119949906.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "f0d23257498f",
+          "summary": "A collision involving a minibus taxi and a truck killed at least 11 people in South Africa on Thursday, a local government official and emergency services said.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+          "description": "Dane and Dempsey worked together for six seasons on \u2018Grey\u2019s Anatomy\u2019",
+          "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia\u2026 [+3888 chars]",
+          "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-symptoms-b2910243.html",
+          "source_name": "The-independent.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T15:07:06Z",
+          "author": "Amber Raiken",
+          "image_url": "https://static.the-independent.com/2026/01/29/14/29/MixCollage-29-Jan-2026-09-34-AM-4480.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+          "is_local_nj": false,
+          "article_id": "46a6bcf9b8ec",
+          "summary": "Dane and Dempsey worked together for six seasons on \u2018Grey\u2019s Anatomy\u2019",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Eric Dane now in 24/7 hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-rebecca-gayheart-greys-anatomy-b2891904.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142602&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Song Contest: Livetour mit Lordi und Johnny Logan",
+          "description": null,
+          "content": "Die heuer erstmals \u00fcber die B\u00fchne gehende Eurovision Song Contest Live Tour nach dem Song Contest in Wien nimmt langsam Z\u00fcge an.\r\nSo finden sich u. a. die Song-Contest-Sieger Johnny Logan, Lordi, Kat\u2026 [+722 chars]",
+          "url": "https://orf.at/stories/3418610/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T12:50:10Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "70fa77d03cea",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "At least 11 killed in second deadly minibus-truck crash in a week",
+          "description": "At least 11 people have been killed in a crash between a truck and a minibus taxi in South Africa - the second such incident in recent days.",
+          "content": "At least 11 people have been killed in a crash between a truck and a minibus taxi in South Africa - the second such incident in recent days.\r\nIt happened near Durban, in the country's eastern KwaZulu\u2026 [+932 chars]",
+          "url": "https://news.sky.com/story/at-least-11-killed-in-second-deadly-minibus-truck-crash-in-a-week-in-south-africa-13500567",
+          "source_name": "Sky.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T11:07:00Z",
+          "author": null,
+          "image_url": "https://e3.365dm.com/26/01/1600x900/skynews-south-africa-school-children_7139712.jpg?20260129114656",
+          "is_local_nj": false,
+          "article_id": "e74e84324d90",
+          "summary": "At least 11 people have been killed in a crash between a truck and a minibus taxi in South Africa - the second such incident in recent days.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "At least 11 killed in a crash involving a minibus taxi and a truck in South Africa",
+          "description": "A crash involving a minibus taxi and a truck has killed at least 11 people in South Africa",
+          "content": "JOHANNESBURG -- A crash involving a minibus taxi and a truck killed at least 11 people in South Africa, a local government official and emergency services said Thursday.\r\nThe fatal collision came jus\u2026 [+579 chars]",
+          "url": "https://abcnews.go.com/International/wireStory/11-killed-crash-involving-minibus-taxi-truck-south-129662725",
+          "source_name": "ABC News",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T10:40:53Z",
+          "author": "The Associated Press",
+          "image_url": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+          "is_local_nj": false,
+          "article_id": "b74e975bfe97",
+          "summary": "A crash involving a minibus taxi and a truck has killed at least 11 people in South Africa",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Karan Patel on taking a break from daily shows: \u2018It\u2019s physically and mentally exhausting\u2019",
+          "description": "Actor Karan Patel has stepped away from daily television, citing a feeling of \"running on autopilot\" due to the physically and mentally exhausting nature of the schedules. He clarified that this pause is not a quit but a recalibration to reconnect with himsel\u2026",
+          "content": "<ul><li>News</li>\r\n<li>tv</li>\r\n<li>hindi</li>\r\n<li>Karan Patel on taking a break from daily shows: Its physically and mentally exhausting</li></ul>\r\nFollow Us On Social Media\r\nArvind Swamy recalls c\u2026 [+1677 chars]",
+          "url": "https://timesofindia.indiatimes.com/tv/news/hindi/karan-patel-on-taking-a-break-from-daily-shows-its-physically-and-mentally-exhausting/articleshow/127768463.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T09:16:44Z",
+          "author": "etimes.in",
+          "image_url": "https://static.toiimg.com/thumb/msid-127768457,width-1280,height-720,imgsize-23576,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "0d765392f613",
+          "summary": "Actor Karan Patel has stepped away from daily television, citing a feeling of \"running on autopilot\" due to the physically and mentally exhausting nature of the schedules. He clarified that this pause",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Indian singles explore new paths to love and commitment",
+          "description": "Indian matchmaking app Rebounce, designed for divorced, separated, and widowed singles, has surpassed 20,000 users in just over a month. Launched in September 2025, the app highlights a societal shift towards embracing remarriage and second chances after mari\u2026",
+          "content": "Follow Us On Social Media\r\nArvind Swamy recalls choosing Ayurveda over surgery when he was partially paralysed: He made me walk in 3 daysAjit Pawars unfulfilled CM dream: Rise, power, turning points \u2026 [+1527 chars]",
+          "url": "https://timesofindia.indiatimes.com/life-style/relationships/love-sex/rebounce-app-revolutionizes-indian-dating-for-the-divorced-and-widowed/articleshow/127767949.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T09:07:49Z",
+          "author": "TNN",
+          "image_url": "https://static.toiimg.com/thumb/msid-127768006,width-1280,height-720,imgsize-152647,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "836f7549dc99",
+          "summary": "Indian matchmaking app Rebounce, designed for divorced, separated, and widowed singles, has surpassed 20,000 users in just over a month. Launched in September 2025, the app highlights a societal shift",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Dev marks 20 years in the Bengali film industry",
+          "description": "Dev completes 20 years in the industry, marking a journey defined by constant evolution, both on screen and beyond. From a romantic leading man to a p.",
+          "content": "Follow Us On Social Media\r\nSBI CBO recruitment 2026: Registration begins for 2,050 posts, direct link to apply hereNext-gen Hyundai Creta spied for the first time: What to expectWill Poulter and Odes\u2026 [+1524 chars]",
+          "url": "https://timesofindia.indiatimes.com/entertainment/bengali/movies/news/dev-marks-20-years-in-the-bengali-film-industry/articleshow/127759066.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T09:01:30Z",
+          "author": "Torna Chakraborty",
+          "image_url": "https://static.toiimg.com/thumb/msid-127767710,width-1280,height-720,imgsize-63208,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "1ec5cfbba5ff",
+          "summary": "Dev completes 20 years in the industry, marking a journey defined by constant evolution, both on screen and beyond. From a romantic leading man to a p.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "West Red Lake Gold Confirms High-Grade Continuity at Rowan with First Round of Infill Drilling Results",
+          "description": "West Red Lake Gold announces results from the first 7 holes of a drill program at the Rowan project, intended to bolster the resource in specific ways....",
+          "content": "VANCOUVER, British Columbia, Jan. 29, 2026 (GLOBE NEWSWIRE) -- West Red Lake Gold Mines Ltd.(West Red Lake Gold or WRLG or the Company) (TSXV: WRLG)(OTCQB: WRLGF) is pleased to announce drill results\u2026 [+28217 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/01/29/3228243/0/en/West-Red-Lake-Gold-Confirms-High-Grade-Continuity-at-Rowan-with-First-Round-of-Infill-Drilling-Results.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T09:00:00Z",
+          "author": "West Red Lake Gold Mines Ltd.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/c69abccd-8de7-4feb-b72f-6c1c8a05a56f",
+          "is_local_nj": false,
+          "article_id": "2c2cb2035d9e",
+          "summary": "West Red Lake Gold announces results from the first 7 holes of a drill program at the Rowan project, intended to bolster the resource in specific ways....",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Liberty Gold Reports Infill and Step-out Drill Results at the Black Pine Gold Project, Idaho",
+              "url": "https://www.globenewswire.com/news-release/2026/01/22/3223528/0/en/Liberty-Gold-Reports-Infill-and-Step-out-Drill-Results-at-the-Black-Pine-Gold-Project-Idaho.html",
+              "digest_date": "2026-01-25"
+            },
+            {
+              "title": "GoldHaven Confirms Anomalous Tungsten at Kuhn and Dead Goat and Identifies New Tungsten Zone at Vines Lake with up to 6,550 ppm W, Magno Property",
+              "url": "https://financialpost.com/globe-newswire/goldhaven-confirms-anomalous-tungsten-at-kuhn-and-dead-goat-and-identifies-new-tungsten-zone-at-vines-lake-with-up-to-6550-ppm-w-magno-property",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Woman shared first sign of ALS that left her with five years to live",
+          "description": "Rusty Bennett has shared the tragic story of how his wife, Sara Bennett, was diagnosed with ALS and the signs to look out for.",
+          "content": "Social media influencer Sara Bennett passed away earlier this month, aged just 39, following a long battle with Amyotrophic Lateral Sclerosis (ALS).\r\nThe devastating condition, which gets progressive\u2026 [+4379 chars]",
+          "url": "https://www.ladbible.com/news/health/als-signs-numb-hands-lou-gehrigs-disease-sara-bennett-787204-20260128",
+          "source_name": "LADbible",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T08:59:50Z",
+          "author": "LADbible System Account",
+          "image_url": "https://images.ladbible.com/ogimage/v3/assets/bltcd74acc1d0a99f3a/bltaa79684d2b959a7b/697b2172b24a132ac690fb40/Screenshot_2026-01-29_at_08.57.32.png",
+          "is_local_nj": false,
+          "article_id": "292edb9b4f0a",
+          "summary": "Rusty Bennett has shared the tragic story of how his wife, Sara Bennett, was diagnosed with ALS and the signs to look out for.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ajit Pawar\u2019s unfulfilled CM dream: Rise, power, turning points over 4 decades in Maharashtra politics",
+          "description": "Ajit Pawar, a prominent leader from the Pawar family, navigated a complex political career marked by both respect and controversy. He consistently held significant positions, including multiple terms as Deputy Chief Minister, and was a founding member of the \u2026",
+          "content": "<ul><li>News</li>\r\n<li>City News</li>\r\n<li>pune News</li>\r\n<li>Ajit Pawars unfulfilled CM dream: Rise, power, turning points over 4 decades in Maharashtra politics</li></ul>\r\nFollow Us On Social Medi\u2026 [+3068 chars]",
+          "url": "https://timesofindia.indiatimes.com/city/pune/ajit-pawars-unfulfilled-cm-dream-rise-power-turning-points-over-4-decades-in-maharashtra-politics/articleshow/127766427.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T08:58:55Z",
+          "author": "TNN",
+          "image_url": "https://static.toiimg.com/thumb/msid-127767635,width-1280,height-720,imgsize-28752,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "1bc4bebeefcb",
+          "summary": "Ajit Pawar, a prominent leader from the Pawar family, navigated a complex political career marked by both respect and controversy. He consistently held significant positions, including multiple terms ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "MCC extends NEET PG Counselling 2025 Round 3 choice filling; seat matrix revised for fresh options",
+          "description": "MCC has extended the choice filling window for NEET PG Counselling 2025 Round 3, allowing candidates more time to revise preferences on mcc.nic.in. The seat matrix has also been updated, with fresh seats added and some withdrawn. Aspirants are advised to revi\u2026",
+          "content": "<ul><li>News</li>\r\n<li>Education News</li>\r\n<li>News</li>\r\n<li>MCC extends NEET PG Counselling 2025 Round 3 choice filling; seat matrix revised for fresh options</li></ul>\r\nFollow Us On Social Media\r\u2026 [+3180 chars]",
+          "url": "https://timesofindia.indiatimes.com/education/news/mcc-extends-neet-pg-counselling-2025-round-3-choice-filling-seat-matrix-revised-for-fresh-options/articleshow/127767381.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T08:58:35Z",
+          "author": "TOI Education",
+          "image_url": "https://static.toiimg.com/thumb/msid-127767540,width-1280,height-720,imgsize-7456,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "3ed120a90b55",
+          "summary": "MCC has extended the choice filling window for NEET PG Counselling 2025 Round 3, allowing candidates more time to revise preferences on mcc.nic.in. The seat matrix has also been updated, with fresh se",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Chartered flights, tight timelines and soft oversight: What Ajit Pawar\u2019s death reveals about VIP air travel risks",
+          "description": "Ajit Pawar's tragic death in a charter plane crash highlights critical gaps in India's aviation safety for VVIP travel. The incident exposes how urgency and political influence can strain safety margins in the non-scheduled aviation sector, particularly at sm\u2026",
+          "content": "<ul><li>News</li>\r\n<li>City News</li>\r\n<li>mumbai News</li>\r\n<li>Chartered flights, tight timelines and soft oversight: What Ajit Pawars death reveals about VIP air travel risks</li></ul>\r\nFollow Us \u2026 [+3196 chars]",
+          "url": "https://timesofindia.indiatimes.com/city/mumbai/chartered-flights-tight-timelines-and-soft-oversight-what-ajit-pawars-death-reveals-about-vip-air-travel-risks/articleshow/127765095.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T08:55:11Z",
+          "author": "Shreedhar Rathi",
+          "image_url": "https://static.toiimg.com/thumb/msid-127767388,width-1280,height-720,imgsize-2193383,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "4aaa27b6eaaa",
+          "summary": "Ajit Pawar's tragic death in a charter plane crash highlights critical gaps in India's aviation safety for VVIP travel. The incident exposes how urgency and political influence can strain safety margi",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Lowe\u2019s India: Inside the tech powerhouse driving the future of retail",
+          "description": "Lowe's India's Global Capability Center has transformed into an innovation hub, driving AI, digital transformation, and enhanced customer experiences in retail. From operational backbone to a tech powerhouse, the center's growth highlights strategic talent de\u2026",
+          "content": "<ul><li>News</li>\r\n<li>Business News</li>\r\n<li>Lowes India: Inside the tech powerhouse driving the future of retail</li></ul>\r\nFollow Us On Social Media\r\nPM Modi Heads To Israel In Third Term As Terr\u2026 [+3134 chars]",
+          "url": "https://timesofindia.indiatimes.com/business/lowes-india-inside-the-tech-powerhouse-driving-the-future-of-retail/articleshow/127765528.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T08:28:29Z",
+          "author": "SPOTLIGHT",
+          "image_url": "https://static.toiimg.com/thumb/msid-127765528,width-1280,height-720,imgsize-81586,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "0e7ad843f80e",
+          "summary": "Lowe's India's Global Capability Center has transformed into an innovation hub, driving AI, digital transformation, and enhanced customer experiences in retail. From operational backbone to a tech pow",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Somebody Tried To Sell Me A Bridge\" von Van Morrison",
+          "description": "Van Morrison - \"Somebody Tried To Sell Me A Bridge\"",
+          "content": "laut.de-Kritik\r\nEin Streifzug durch den Blues.\r\nReview von Emil Dr\u00f6ll\r\nNur etwas mehr als ein halbes Jahr hat sich Van Morrison Zeit gelassen, um auf das \u00fcberraschend starke \"Remembering Now\" nachzul\u2026 [+3616 chars]",
+          "url": "https://laut.de/Van-Morrison/Alben/Somebody-Tried-To-Sell-Me-A-Bridge-126433",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T08:06:20Z",
+          "author": "Emil Dr\u00f6ll",
+          "image_url": "https://laut.de/Van-Morrison/Alben/Somebody-Tried-To-Sell-Me-A-Bridge-126433/van-morrison-somebody-tried-to-sell-me-a-bridge-248718.jpg?699f57",
+          "is_local_nj": false,
+          "article_id": "a323d5a370e7",
+          "summary": "Van Morrison - \"Somebody Tried To Sell Me A Bridge\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Patrick Dempsey Shares Health Update on Eric Dane Amid ALS Battle",
+          "description": "Patrick Dempsey is sharing an update on how former Grey\u2019s Anatomy co-star Eric Dane is doing amid his battle with ALS. If you didn\u2019t know, Eric, 53, announced back in April 2025 that he has been diagnosed with the neurodegenerative disease that effects nerve \u2026",
+          "content": "Patrick Dempsey is sharing an update on how former Grey\u2019s Anatomy co-star Eric Dane is doing amid his battle with ALS.\r\nIf you didnt know, Eric, 53, announced back in April 2025 that he has been diag\u2026 [+1503 chars]",
+          "url": "https://www.justjared.com/2026/01/28/patrick-dempsey-shares-health-update-on-eric-dane-amid-als-battle/",
+          "source_name": "Just Jared",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T03:34:52Z",
+          "author": "Just Jared",
+          "image_url": "https://cdn01.justjared.com/wp-content/uploads/headlines/2026/01/patrick-eric-battle.jpg",
+          "is_local_nj": false,
+          "article_id": "82c0550b8e1e",
+          "summary": "Patrick Dempsey is sharing an update on how former Grey\u2019s Anatomy co-star Eric Dane is doing amid his battle with ALS. If you didn\u2019t know, Eric, 53, announced back in April 2025 that he has been diagn",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Grey's Anatomy Cast Health Scares Through the Years: Eric Dane and More",
+              "url": "https://www.usmagazine.com/celebrity-news/news/greys-anatomy-cast-health-scares-through-the-years-eric-dane-more/#article",
+              "digest_date": "2026-01-11"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Eric Dane now in 24/7 hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-rebecca-gayheart-greys-anatomy-b2891904.html",
+              "digest_date": "2026-01-04"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dempsey Shares Update on Grey's Costar Eric Dane's ALS Battle",
+          "description": "Dr. Shepherd has been paging Dr. Sloan.\nAfter all, Grey\u2019s Anatomy alum Patrick Dempsey has \u201cbeen texting\u201d with his former costar Eric Dane amid the latter\u2019s ongoing battle with ALS, which he...",
+          "content": "Dr. Shepherd has been paging Dr. Sloan.\r\nAfter all, Greys Anatomy alum Patrick Dempsey has been texting with his former costar Eric Dane amid the latters ongoing battle with ALS, which he revealed in\u2026 [+788 chars]",
+          "url": "https://www.eonline.com/news/1427883/eric-dane-als-battle-patrick-dempsey-gives-update",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T00:52:10Z",
+          "author": null,
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20260128/749225f1-7630-45da-a42d-0b32026e4491_1769647364.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "is_local_nj": false,
+          "article_id": "9bbe05576a04",
+          "summary": "Dr. Shepherd has been paging Dr. Sloan.\nAfter all, Grey\u2019s Anatomy alum Patrick Dempsey has \u201cbeen texting\u201d with his former costar Eric Dane amid the latter\u2019s ongoing battle with ALS, which he...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Eric Dane now in 24/7 hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-rebecca-gayheart-greys-anatomy-b2891904.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update - NewsBreak",
+              "url": "https://www.newsbreak.com/share/4417588893678-eric-dane-now-in-24-hour-care-amid-als-diagnosis-as-estranged-wife-rebecca-gayheart-shares-health-update?_f=app_share&amp;pd=0Hkk0WBv&amp;lang=en_US&amp;send_time=1767142602&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2225.51.1.3%22%2C%22languages%22%3A%22en%22%7D&amp;s=i2",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dempsey reveals Eric Dane\u2019s \u2018heartbreaking\u2019 ALS battle made it \u2018virtually impossible\u2019 to reunite for new show",
+          "description": "\"I think he\u2019s been incredibly courageous in the face of this horrible disease.\"",
+          "content": "Patrick Dempsey has revealed that Eric Dane\u2019s devastating battle with ALS made it hard for the former \u201cGrey\u2019s Anatomy\u201d co-stars to reunite for a new show that released over the weekend.\r\n\u201cI spoke to \u2026 [+3758 chars]",
+          "url": "https://nypost.com/2026/01/28/entertainment/patrick-dempsey-reveals-eric-danes-als-battle-made-it-impossible-to-reunite-for-new-show/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-01-29T00:43:50Z",
+          "author": "Connor Surmonte",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/01/119905246.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "01ac1d44ae19",
+          "summary": "\"I think he\u2019s been incredibly courageous in the face of this horrible disease.\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane\u2019s Ex Rebecca Gayheart Reveals 1st Sign She Noticed He Had ALS",
+              "url": "https://www.today.com/health/disease/rebecca-gayheart-eric-dane-als-update-rcna251359",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "CoMSO writes to PM, demands for central-level investigation into ISIS-K threat against Garo people",
+          "description": "The Confederation of Meghalaya Social Organisations (CoMSO) on Wednesday demanded for a central-level investigation into the alleged ISIS-K threat issued against the indigenous Garo people. In a memorandum to the Prime Minister Narendra Modi, CoMSO chairman R\u2026",
+          "content": "Syllad | The Rising MeghalayaJanuary 28, 2026\r\nThe Confederation of Meghalaya Social Organisations (CoMSO) on Wednesday demanded for a central-level investigation into the alleged ISIS-K threat issue\u2026 [+1466 chars]",
+          "url": "https://www.syllad.com/comso-writes-to-pm-demands-for-central-level-investigation-into-isis-k-threat-against-garo-people/",
+          "source_name": "Syllad.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-28T17:44:22Z",
+          "author": "Syllad | The Rising Meghalaya",
+          "image_url": "https://www.syllad.com/wp-content/uploads/2025/04/CoMSO-1.jpg",
+          "is_local_nj": false,
+          "article_id": "a60bd7d4b2b9",
+          "summary": "The Confederation of Meghalaya Social Organisations (CoMSO) on Wednesday demanded for a central-level investigation into the alleged ISIS-K threat issued against the indigenous Garo people. In a memor",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Kabel, Walther: Harald Harst (305) - Der gefleckte Tod. V1.0 [German] 28.01.2026 (Mystery and Crime, ePub)",
+          "description": "Mystery and Crime Kabel, Walther: Harald Harst (305) - Der gefleckte Tod. V1.0 [German] 28.01.2026 ePub Books",
+          "content": "Der gefleckte TodDie Geschichte begann derart allt\u00e4glich, da\u00df Harst bereits sein eisigstes Gesicht aufgesetzt hatte, als der zappelige Herr Siegfried Dunst immer wieder beteuerte, f\u00fcr ihn hinge von d\u2026 [+1785 chars]",
+          "url": "https://www.mobileread.com/forums/showthread.php?t=371800",
+          "source_name": "Mobileread.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-28T15:21:17Z",
+          "author": "Zentaurus",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "a5d021a1ffae",
+          "summary": "Mystery and Crime Kabel, Walther: Harald Harst (305) - Der gefleckte Tod. V1.0 [German] 28.01.2026 ePub Books",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Susan Powter Makes Final Uber Eats Delivery with Al Roker on TODAY: \u2018Everything Is Next\u2019",
+          "description": "Susan Powter has closed a difficult chapter of her life with one last Uber Eats delivery \u2014 and she took along Al Roker to witness the poignant moment.",
+          "content": "Susan Powter has closed a difficult chapter of her life with one last Uber Eats delivery and she took along Al Roker to witness the poignant moment. \r\nThe 90s fitness guru, known for her informercial\u2026 [+5827 chars]",
+          "url": "https://www.today.com/popculture/susan-powter-now-final-uber-eats-delivery-rcna256171",
+          "source_name": "TODAY",
+          "source_type": "newsapi",
+          "published_at": "2026-01-28T13:48:13Z",
+          "author": "Scott Stump",
+          "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2026-01/roker-susan-powter-1e8017.jpg",
+          "is_local_nj": false,
+          "article_id": "8e01427984b6",
+          "summary": "Susan Powter has closed a difficult chapter of her life with one last Uber Eats delivery \u2014 and she took along Al Roker to witness the poignant moment.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Man given Musk's brain chip in UK trial says it 'feels magical'",
+          "description": "One of the first people in the UK to use Elon Musk's brain chip says it \"feels magical\" and believes it could transform the lives of those with severe paralysis.",
+          "content": "One of the first people in the UK to use Elon Musk's brain chip says it \"feels magical\" and believes it could transform the lives of those with severe paralysis.\r\n\"It is a massive change in your life\u2026 [+5226 chars]",
+          "url": "https://news.sky.com/story/man-given-musks-neuralink-brain-chip-in-uk-trial-says-it-feels-magical-and-gives-new-hope-13500126",
+          "source_name": "Sky.com",
+          "source_type": "newsapi",
+          "published_at": "2026-01-28T12:31:00Z",
+          "author": "Tom Clarke",
+          "image_url": "https://e3.365dm.com/26/01/1600x900/skynews-neuralink-clark_7148477.jpg?20260128131025",
+          "is_local_nj": false,
+          "article_id": "2fe0baba2c92",
+          "summary": "One of the first people in the UK to use Elon Musk's brain chip says it \"feels magical\" and believes it could transform the lives of those with severe paralysis.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Atico Reports Multiple Higher-Grade Intercepts up to 10.20m of 6.26% Cu, 8.50 g/t Au and 10.0m of 6.77% Cu, 3.39 g/t Au and Continues to Extend the Ore Body at El Roble Mine in Colombia",
+          "description": "VANCOUVER, British Columbia, Jan. 28, 2026 (GLOBE NEWSWIRE) \u2014 Atico Mining Corporation (TSX.V: ATY | OTCID: ATCMF) (\u201cAtico\u201d or the \u201cCompany\u201d) is pleased to announce positive results from 21 drill holes completed in 2025 within an area of historical mining, su\u2026",
+          "content": "QA/QC\r\nAtico Mining adheres to strict Quality Assurance and Quality Control protocols. Blanks and certified reference standards are inserted in each sample batch of drill core that is sent to the lab\u2026 [+3113 chars]",
+          "url": "https://financialpost.com/globe-newswire/atico-reports-multiple-higher-grade-intercepts-up-to-10-20m-of-6-26-cu-8-50-g-t-au-and-10-0m-of-6-77-cu-3-39-g-t-au-and-continues-to-extend-the-ore-body-at-el-roble-mine-in-colombia",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-01-28T12:06:11Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/01/image-2.jpeg",
+          "is_local_nj": false,
+          "article_id": "52dab97a6b06",
+          "summary": "VANCOUVER, British Columbia, Jan. 28, 2026 (GLOBE NEWSWIRE) \u2014 Atico Mining Corporation (TSX.V: ATY | OTCID: ATCMF) (\u201cAtico\u201d or the \u201cCompany\u201d) is pleased to announce positive results from 21 drill hole",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "TERRA BALCANICA DRILLS 102 G/T AG EQ OVER 2.55 M AT CUMAVICI RIDGE AND EXTEND MINERALIZED FOOTPRINT IN BOSNIA AND HERZEGOVINA",
+              "url": "https://financialpost.com/globe-newswire/terra-balcanica-drills-102-g-t-ag-eq-over-2-55-m-at-cumavici-ridge-and-extend-mineralized-footprint-in-bosnia-and-herzegovina",
+              "digest_date": "2026-01-18"
+            },
+            {
+              "title": "TERRA BALCANICA DRILLS 102 G/T AG EQ OVER 2.55 M AT CUMAVICI RIDGE AND EXTEND MINERALIZED FOOTPRINT IN BOSNIA AND HERZEGOVINA",
+              "url": "https://www.globenewswire.com/news-release/2026/01/14/3219135/0/en/TERRA-BALCANICA-DRILLS-102-G-T-AG-EQ-OVER-2-55-M-AT-CUMAVICI-RIDGE-AND-EXTEND-MINERALIZED-FOOTPRINT-IN-BOSNIA-AND-HERZEGOVINA.html",
+              "digest_date": "2026-01-18"
+            },
+            {
+              "title": "Surface Sampling at Smart Creek Project Yields High-Grade Mineralization with up to 102 g/t Au, up to 23% Cu and up to 3810 g/t Ag",
+              "url": "https://www.globenewswire.com/news-release/2026/01/08/3215534/0/en/Surface-Sampling-at-Smart-Creek-Project-Yields-High-Grade-Mineralization-with-up-to-102-g-t-Au-up-to-23-Cu-and-up-to-3810-g-t-Ag.html",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Sundance-Festival: Hauptpreis an \"Josephine",
+        "url": "https://orf.at/stories/3418778/",
+        "source": "Orf.at",
+        "date": "2026-01-31T03:40:04Z"
+      },
+      {
+        "title": "Reliable repurposing of the antibody interactome inside the cell",
+        "url": "https://www.nature.com/articles/s41467-026-69057-0",
+        "source": "Nature.com",
+        "date": "2026-01-31T00:00:00Z"
+      },
+      {
+        "title": "Lauryn Hill, Reba McEntire, Post Malone to lead Grammys \u2018In Memoriam\u2019 tribute",
+        "url": "https://www.bostonherald.com/2026/01/30/grammys-2026-in-memoriam-tribute-performers/",
+        "source": "Boston Herald",
+        "date": "2026-01-30T19:14:00Z"
+      },
+      {
+        "title": "How I Beat Lyme Disease with The Ketogenic Diet \u2014 Science, How-To Protocols, and 10+ Years of Zero Symptoms",
+        "url": "https://tim.blog/2026/01/30/lyme-disease-ketogenic-diet/",
+        "source": "Tim.blog",
+        "date": "2026-01-30T17:04:09Z"
+      },
+      {
+        "title": "Patrick Dempsey Opens Up About Eric Dane\u2019s \u2018Courageous\u2019 ALS Battle",
+        "url": "https://extratv.com/2026/01/30/patrick-dempsey-opens-up-about-eric-dane-s-courageous-als-battle/",
+        "source": "Extra",
+        "date": "2026-01-30T15:14:31Z"
+      },
+      {
+        "title": "A gut-activated NHR-86\u2013CYP pathway mediates the neuroprotective effects of Enterococcus faecium probiotics in a nematode model of amyotrophic lateral sclerosis",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003627",
+        "source": "Plos.org",
+        "date": "2026-01-30T14:00:00Z"
+      },
+      {
+        "title": "ProMIS Neurosciences Announces Up to $175 Million Private Placement Financing",
+        "url": "https://financialpost.com/globe-newswire/promis-neurosciences-announces-up-to-175-million-private-placement-financing",
+        "source": "Financial Post",
+        "date": "2026-01-30T13:04:14Z"
+      },
+      {
+        "title": "ProMIS Neurosciences Announces Up to $175 Million Private Placement Financing",
+        "url": "https://www.globenewswire.com/news-release/2026/01/30/3229488/0/en/ProMIS-Neurosciences-Announces-Up-to-175-Million-Private-Placement-Financing.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-30T13:00:00Z"
+      },
+      {
+        "title": "Alamos Gold Extends Higher-Grade Mineralization within Multiple Hanging Wall Zones Near Existing Infrastructure at Young-Davidson",
+        "url": "https://www.globenewswire.com/news-release/2026/01/30/3229437/0/en/Alamos-Gold-Extends-Higher-Grade-Mineralization-within-Multiple-Hanging-Wall-Zones-Near-Existing-Infrastructure-at-Young-Davidson.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-30T11:55:00Z"
+      },
+      {
+        "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+        "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+        "source": "Just Jared",
+        "date": "2026-01-30T05:55:44Z"
+      },
+      {
+        "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+        "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-health-update-greys-anatomy-b2910664.html",
+        "source": "The-independent.com",
+        "date": "2026-01-30T05:40:49Z"
+      },
+      {
+        "title": "Kate Walsh on Returning to \u2018Grey\u2019s Anatomy,\u2019 Her \u2018Family\u2019 Bond With Caterina Scorsone and Why Fans Still Talk About Addison\u2019s \u2018Iconic\u2019 Season 1 Entrance (EXCLUSIVE)",
+        "url": "https://variety.com/2026/tv/news/kate-walsh-greys-anatomy-return-addison-marriage-trouble-jake-1236644697/",
+        "source": "Variety",
+        "date": "2026-01-30T04:00:00Z"
+      },
+      {
+        "title": "Supercharging-enhanced nDIA-MS enables global profiling of drug-induced proteome solubility shifts",
+        "url": "https://www.nature.com/articles/s41467-026-69025-8",
+        "source": "Nature.com",
+        "date": "2026-01-30T00:00:00Z"
+      },
+      {
+        "title": "A radiolabeled dendrimer non-invasively identifies and tracks innate immune cell activation in a mouse model of experimental autoimmune encephalomyelitis",
+        "url": "https://www.nature.com/articles/s41467-025-67907-x",
+        "source": "Nature.com",
+        "date": "2026-01-30T00:00:00Z"
+      },
+      {
+        "title": "MediciNova says 100 patients enrolled in SEANOBI MN-166 study on ALS",
+        "url": "https://legacy.thefly.com/permalinks/entry.php/id4281151/MNOV-MediciNova-says--patients-enrolled-in-SEANOBI-MN-study-on-ALS",
+        "source": "Thefly.com",
+        "date": "2026-01-29T23:06:04Z"
+      },
+      {
+        "title": "MediciNova Announces 100 Patients Enrolled in SEANOBI Study Expanded-Access-Program (EAP) Evaluating MN\u2011166 (ibudilast) in ALS patients",
+        "url": "https://www.globenewswire.com/news-release/2026/01/29/3229186/7767/en/MediciNova-Announces-100-Patients-Enrolled-in-SEANOBI-Study-Expanded-Access-Program-EAP-Evaluating-MN-166-ibudilast-in-ALS-patients.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-29T23:00:00Z"
+      },
+      {
+        "title": "11 dead in South Africa minibus and truck collision days after similar crash killed 14 children",
+        "url": "https://japantoday.com/category/world/at-least-11-killed-in-a-crash-involving-a-minibus-taxi-and-a-truck-in-south-africa-officials-said.",
+        "source": "Japan Today",
+        "date": "2026-01-29T21:36:17Z"
+      },
+      {
+        "title": "11 dead in South Africa minibus, truck collision \u2014just days after similar crash killed 14 children",
+        "url": "https://nypost.com/2026/01/29/world-news/11-dead-in-south-africa-minibus-truck-collision-just-days-after-similar-crash-killed-14-children/",
+        "source": "New York Post",
+        "date": "2026-01-29T18:13:49Z"
+      },
+      {
+        "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+        "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-symptoms-b2910243.html",
+        "source": "The-independent.com",
+        "date": "2026-01-29T15:07:06Z"
+      },
+      {
+        "title": "Song Contest: Livetour mit Lordi und Johnny Logan",
+        "url": "https://orf.at/stories/3418610/",
+        "source": "Orf.at",
+        "date": "2026-01-29T12:50:10Z"
+      },
+      {
+        "title": "At least 11 killed in second deadly minibus-truck crash in a week",
+        "url": "https://news.sky.com/story/at-least-11-killed-in-second-deadly-minibus-truck-crash-in-a-week-in-south-africa-13500567",
+        "source": "Sky.com",
+        "date": "2026-01-29T11:07:00Z"
+      },
+      {
+        "title": "At least 11 killed in a crash involving a minibus taxi and a truck in South Africa",
+        "url": "https://abcnews.go.com/International/wireStory/11-killed-crash-involving-minibus-taxi-truck-south-129662725",
+        "source": "ABC News",
+        "date": "2026-01-29T10:40:53Z"
+      },
+      {
+        "title": "Karan Patel on taking a break from daily shows: \u2018It\u2019s physically and mentally exhausting\u2019",
+        "url": "https://timesofindia.indiatimes.com/tv/news/hindi/karan-patel-on-taking-a-break-from-daily-shows-its-physically-and-mentally-exhausting/articleshow/127768463.cms",
+        "source": "The Times of India",
+        "date": "2026-01-29T09:16:44Z"
+      },
+      {
+        "title": "Indian singles explore new paths to love and commitment",
+        "url": "https://timesofindia.indiatimes.com/life-style/relationships/love-sex/rebounce-app-revolutionizes-indian-dating-for-the-divorced-and-widowed/articleshow/127767949.cms",
+        "source": "The Times of India",
+        "date": "2026-01-29T09:07:49Z"
+      },
+      {
+        "title": "Dev marks 20 years in the Bengali film industry",
+        "url": "https://timesofindia.indiatimes.com/entertainment/bengali/movies/news/dev-marks-20-years-in-the-bengali-film-industry/articleshow/127759066.cms",
+        "source": "The Times of India",
+        "date": "2026-01-29T09:01:30Z"
+      },
+      {
+        "title": "West Red Lake Gold Confirms High-Grade Continuity at Rowan with First Round of Infill Drilling Results",
+        "url": "https://www.globenewswire.com/news-release/2026/01/29/3228243/0/en/West-Red-Lake-Gold-Confirms-High-Grade-Continuity-at-Rowan-with-First-Round-of-Infill-Drilling-Results.html",
+        "source": "GlobeNewswire",
+        "date": "2026-01-29T09:00:00Z"
+      },
+      {
+        "title": "Woman shared first sign of ALS that left her with five years to live",
+        "url": "https://www.ladbible.com/news/health/als-signs-numb-hands-lou-gehrigs-disease-sara-bennett-787204-20260128",
+        "source": "LADbible",
+        "date": "2026-01-29T08:59:50Z"
+      },
+      {
+        "title": "Ajit Pawar\u2019s unfulfilled CM dream: Rise, power, turning points over 4 decades in Maharashtra politics",
+        "url": "https://timesofindia.indiatimes.com/city/pune/ajit-pawars-unfulfilled-cm-dream-rise-power-turning-points-over-4-decades-in-maharashtra-politics/articleshow/127766427.cms",
+        "source": "The Times of India",
+        "date": "2026-01-29T08:58:55Z"
+      },
+      {
+        "title": "MCC extends NEET PG Counselling 2025 Round 3 choice filling; seat matrix revised for fresh options",
+        "url": "https://timesofindia.indiatimes.com/education/news/mcc-extends-neet-pg-counselling-2025-round-3-choice-filling-seat-matrix-revised-for-fresh-options/articleshow/127767381.cms",
+        "source": "The Times of India",
+        "date": "2026-01-29T08:58:35Z"
+      },
+      {
+        "title": "Chartered flights, tight timelines and soft oversight: What Ajit Pawar\u2019s death reveals about VIP air travel risks",
+        "url": "https://timesofindia.indiatimes.com/city/mumbai/chartered-flights-tight-timelines-and-soft-oversight-what-ajit-pawars-death-reveals-about-vip-air-travel-risks/articleshow/127765095.cms",
+        "source": "The Times of India",
+        "date": "2026-01-29T08:55:11Z"
+      },
+      {
+        "title": "Lowe\u2019s India: Inside the tech powerhouse driving the future of retail",
+        "url": "https://timesofindia.indiatimes.com/business/lowes-india-inside-the-tech-powerhouse-driving-the-future-of-retail/articleshow/127765528.cms",
+        "source": "The Times of India",
+        "date": "2026-01-29T08:28:29Z"
+      },
+      {
+        "title": "\"Somebody Tried To Sell Me A Bridge\" von Van Morrison",
+        "url": "https://laut.de/Van-Morrison/Alben/Somebody-Tried-To-Sell-Me-A-Bridge-126433",
+        "source": "Laut.de",
+        "date": "2026-01-29T08:06:20Z"
+      },
+      {
+        "title": "Patrick Dempsey Shares Health Update on Eric Dane Amid ALS Battle",
+        "url": "https://www.justjared.com/2026/01/28/patrick-dempsey-shares-health-update-on-eric-dane-amid-als-battle/",
+        "source": "Just Jared",
+        "date": "2026-01-29T03:34:52Z"
+      },
+      {
+        "title": "Patrick Dempsey Shares Update on Grey's Costar Eric Dane's ALS Battle",
+        "url": "https://www.eonline.com/news/1427883/eric-dane-als-battle-patrick-dempsey-gives-update",
+        "source": "Eonline.com",
+        "date": "2026-01-29T00:52:10Z"
+      },
+      {
+        "title": "Patrick Dempsey reveals Eric Dane\u2019s \u2018heartbreaking\u2019 ALS battle made it \u2018virtually impossible\u2019 to reunite for new show",
+        "url": "https://nypost.com/2026/01/28/entertainment/patrick-dempsey-reveals-eric-danes-als-battle-made-it-impossible-to-reunite-for-new-show/",
+        "source": "New York Post",
+        "date": "2026-01-29T00:43:50Z"
+      },
+      {
+        "title": "CoMSO writes to PM, demands for central-level investigation into ISIS-K threat against Garo people",
+        "url": "https://www.syllad.com/comso-writes-to-pm-demands-for-central-level-investigation-into-isis-k-threat-against-garo-people/",
+        "source": "Syllad.com",
+        "date": "2026-01-28T17:44:22Z"
+      },
+      {
+        "title": "Kabel, Walther: Harald Harst (305) - Der gefleckte Tod. V1.0 [German] 28.01.2026 (Mystery and Crime, ePub)",
+        "url": "https://www.mobileread.com/forums/showthread.php?t=371800",
+        "source": "Mobileread.com",
+        "date": "2026-01-28T15:21:17Z"
+      },
+      {
+        "title": "Susan Powter Makes Final Uber Eats Delivery with Al Roker on TODAY: \u2018Everything Is Next\u2019",
+        "url": "https://www.today.com/popculture/susan-powter-now-final-uber-eats-delivery-rcna256171",
+        "source": "TODAY",
+        "date": "2026-01-28T13:48:13Z"
+      },
+      {
+        "title": "Man given Musk's brain chip in UK trial says it 'feels magical'",
+        "url": "https://news.sky.com/story/man-given-musks-neuralink-brain-chip-in-uk-trial-says-it-feels-magical-and-gives-new-hope-13500126",
+        "source": "Sky.com",
+        "date": "2026-01-28T12:31:00Z"
+      },
+      {
+        "title": "Atico Reports Multiple Higher-Grade Intercepts up to 10.20m of 6.26% Cu, 8.50 g/t Au and 10.0m of 6.77% Cu, 3.39 g/t Au and Continues to Extend the Ore Body at El Roble Mine in Colombia",
+        "url": "https://financialpost.com/globe-newswire/atico-reports-multiple-higher-grade-intercepts-up-to-10-20m-of-6-26-cu-8-50-g-t-au-and-10-0m-of-6-77-cu-3-39-g-t-au-and-continues-to-extend-the-ore-body-at-el-roble-mine-in-colombia",
+        "source": "Financial Post",
+        "date": "2026-01-28T12:06:11Z"
+      }
+    ],
+    "generated_at": "2026-02-01T08:35:52.382755"
+  },
+  {
     "date": "2026-01-25",
     "week_of": "January 25, 2026",
     "digest_number": 5,
