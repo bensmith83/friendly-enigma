@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="styles.css">
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        import {nameToEmoji} from 'https://esm.sh/gemoji@8?bundle';
         mermaid.initialize({
             startOnLoad: true,
             theme: 'default',
             securityLevel: 'strict'
         });
         window.mermaid = mermaid;
+        window.nameToEmoji = nameToEmoji;
     </script>
 </head>
 <body>
@@ -29,6 +31,9 @@
                     <button id="clear-btn" class="btn btn-secondary">Clear</button>
                     <select id="example-select" class="example-selector">
                         <option value="">Load Example...</option>
+                        <optgroup label="Featured">
+                            <option value="emoji-demo">Emoji Shortcodes Demo</option>
+                        </optgroup>
                         <optgroup label="Basic Examples">
                             <option value="flowchart">Flowchart</option>
                             <option value="sequence">Sequence Diagram</option>
@@ -106,6 +111,7 @@ graph TD
                             <li>Use <code>[ ]</code> for boxes, <code>{ }</code> for diamonds</li>
                             <li>Add <code>|text|</code> for edge labels</li>
                             <li>Use <code>%%</code> for comments</li>
+                            <li>Use <code>:emoji_name:</code> for Slack-style emoji</li>
                         </ul>
                     </div>
 

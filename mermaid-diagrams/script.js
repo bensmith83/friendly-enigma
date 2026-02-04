@@ -284,8 +284,29 @@ const examples = {
 
     style A fill:#667eea,stroke:#5568d3,color:#fff
     style M fill:#27ae60,stroke:#229954,color:#fff
-    style F fill:#f39c12,stroke:#e67e22,color:#fff`
+    style F fill:#f39c12,stroke:#e67e22,color:#fff`,
+
+    'emoji-demo': `graph TD
+    A[:rocket: Launch Project] --> B{:thinking: Ready?}
+    B -->|:white_check_mark: Yes| C[:tada: Ship It!]
+    B -->|:x: No| D[:wrench: Fix Issues]
+    D --> E[:mag: Code Review]
+    E --> F[:bug: Run Tests]
+    F --> B
+    C --> G[:star: Success!]
+
+    style A fill:#3498db,stroke:#2980b9,color:#fff
+    style G fill:#27ae60,stroke:#229954,color:#fff
+    style D fill:#e74c3c,stroke:#c0392b,color:#fff`
 };
+
+// Replace Slack-style :emoji: shortcodes with Unicode emoji characters
+function replaceEmojiShortcodes(text) {
+    if (!window.nameToEmoji) return text;
+    return text.replace(/:([+\-\w]+):/g, (match, name) => {
+        return window.nameToEmoji[name] || match;
+    });
+}
 
 // DOM elements
 const diagramInput = document.getElementById('diagram-input');
@@ -312,8 +333,11 @@ async function renderDiagram() {
         // Create a unique ID for this diagram
         const id = 'mermaid-' + Date.now();
 
+        // Replace :emoji: shortcodes with Unicode emoji
+        const processedCode = replaceEmojiShortcodes(code);
+
         // Render the diagram
-        const { svg } = await window.mermaid.render(id, code);
+        const { svg } = await window.mermaid.render(id, processedCode);
 
         // Display the SVG
         diagramOutput.innerHTML = svg;
