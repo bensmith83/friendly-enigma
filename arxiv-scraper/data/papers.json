@@ -1,5 +1,26 @@
 [
   {
+    "id": "2602.05612v1",
+    "title": "ADCA: Attention-Driven Multi-Party Collusion Attack in Federated Self-Supervised Learning",
+    "summary": "Federated Self-Supervised Learning (FSSL) integrates the privacy advantages of distributed training with the capability of self-supervised learning to leverage unlabeled data, showing strong potential across applications. However, recent studies have shown that FSSL is also vulnerable to backdoor attacks. Existing attacks are limited by their trigger design, which typically employs a global, uniform trigger that is easily detected, gets diluted during aggregation, and lacks robustness in heterogeneous client environments. To address these challenges, we propose the Attention-Driven multi-party Collusion Attack (ADCA). During local pre-training, malicious clients decompose the global trigger to find optimal local patterns. Subsequently, these malicious clients collude to form a malicious coalition and establish a collaborative optimization mechanism within it. In this mechanism, each submits its model updates, and an attention mechanism dynamically aggregates them to explore the best cooperative strategy. The resulting aggregated parameters serve as the initial state for the next round of training within the coalition, thereby effectively mitigating the dilution of backdoor information by benign updates. Experiments on multiple FSSL scenarios and four datasets show that ADCA significantly outperforms existing methods in Attack Success Rate (ASR) and persistence, proving its effectiveness and robustness.",
+    "published": "2026-02-05T12:49:36Z",
+    "link": "http://arxiv.org/abs/2602.05612v1",
+    "authors": [
+      "Jiayao Wang",
+      "Yiping Zhang",
+      "Jiale Zhang",
+      "Wenliang Yuan",
+      "Qilin Wu",
+      "Junwu Zhu",
+      "Dongfang Zhao"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Federated Self-Supervised Learning (FSSL) integrates the privacy advantages of distributed training with the capability of self-supervised learning to leverage unlabeled data, showing strong potential across applications. However, recent studies have shown that FSSL is also vulnerable to backdoor attacks.",
+    "selected_date": "2026-02-06"
+  },
+  {
     "id": "2602.04431v1",
     "title": "MaMa: A Game-Theoretic Approach for Designing Safe Agentic Systems",
     "summary": "LLM-based multi-agent systems have demonstrated impressive capabilities, but they also introduce significant safety risks when individual agents fail or behave adversarially. In this work, we study the automated design of agentic systems that remain safe even when a subset of agents is compromised. We formalize this challenge as a Stackelberg security game between a system designer (the Meta-Agent) and a best-responding Meta-Adversary that selects and compromises a subset of agents to minimize safety. We propose Meta-Adversary-Meta-Agent (MaMa), a novel algorithm for approximately solving this game and automatically designing safe agentic systems. Our approach uses LLM-based adversarial search, where the Meta-Agent iteratively proposes system designs and receives feedback based on the strongest attacks discovered by the Meta-Adversary. Empirical evaluations across diverse environments show that systems designed with MaMa consistently defend against worst-case attacks while maintaining performance comparable to systems optimized solely for task success. Moreover, the resulting systems generalize to stronger adversaries, as well as ones with different attack objectives or underlying LLMs, demonstrating robust safety beyond the training setting.",
@@ -572,23 +593,5 @@
     ],
     "ai_summary": "Existing depth estimation methods are fundamentally limited to predicting depth on discrete image grids. Such representations restrict their scalability to arbitrary output resolutions and hinder the geometric detail recovery.",
     "selected_date": "2026-01-07"
-  },
-  {
-    "id": "2601.01737v1",
-    "title": "Local Layer-wise Differential Privacy in Federated Learning",
-    "summary": "Federated Learning (FL) enables collaborative model training without direct data sharing, yet it remains vulnerable to privacy attacks such as model inversion and membership inference. Existing differential privacy (DP) solutions for FL often inject noise uniformly across the entire model, degrading utility while providing suboptimal privacy-utility tradeoffs. To address this, we propose LaDP, a novel layer-wise adaptive noise injection mechanism for FL that optimizes privacy protection while preserving model accuracy. LaDP leverages two key insights: (1) neural network layers contribute unevenly to model utility, and (2) layer-wise privacy leakage can be quantified via KL divergence between local and global model distributions. LaDP dynamically injects noise into selected layers based on their privacy sensitivity and importance to model performance.   We provide a rigorous theoretical analysis, proving that LaDP satisfies $(\u03b5, \u03b4)$-DP guarantees and converges under bounded noise. Extensive experiments on CIFAR-10/100 datasets demonstrate that LaDP reduces noise injection by 46.14% on average compared to state-of-the-art (SOTA) methods while improving accuracy by 102.99%. Under the same privacy budget, LaDP outperforms SOTA solutions like Dynamic Privacy Allocation LDP and AdapLDP by 25.18% and 6.1% in accuracy, respectively. Additionally, LaDP robustly defends against reconstruction attacks, increasing the FID of the reconstructed private data by $>$12.84% compared to all baselines. Our work advances the practical deployment of privacy-preserving FL with minimal utility loss.",
-    "published": "2026-01-05T02:23:31Z",
-    "link": "http://arxiv.org/abs/2601.01737v1",
-    "authors": [
-      "Yunbo Li",
-      "Jiaping Gui",
-      "Fanchao Meng",
-      "Yue Wu"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Federated Learning (FL) enables collaborative model training without direct data sharing, yet it remains vulnerable to privacy attacks such as model inversion and membership inference. Existing differential privacy (DP) solutions for FL often inject noise uniformly across the entire model, degrading utility while providing suboptimal privacy-utility tradeoffs.",
-    "selected_date": "2026-01-06"
   }
 ]
