@@ -1,5 +1,27 @@
 [
   {
+    "id": "2602.06040v1",
+    "title": "SwimBird: Eliciting Switchable Reasoning Mode in Hybrid Autoregressive MLLMs",
+    "summary": "Multimodal Large Language Models (MLLMs) have made remarkable progress in multimodal perception and reasoning by bridging vision and language. However, most existing MLLMs perform reasoning primarily with textual CoT, which limits their effectiveness on vision-intensive tasks. Recent approaches inject a fixed number of continuous hidden states as \"visual thoughts\" into the reasoning process and improve visual performance, but often at the cost of degraded text-based logical reasoning. We argue that the core limitation lies in a rigid, pre-defined reasoning pattern that cannot adaptively choose the most suitable thinking modality for different user queries. We introduce SwimBird, a reasoning-switchable MLLM that dynamically switches among three reasoning modes conditioned on the input: (1) text-only reasoning, (2) vision-only reasoning (continuous hidden states as visual thoughts), and (3) interleaved vision-text reasoning. To enable this capability, we adopt a hybrid autoregressive formulation that unifies next-token prediction for textual thoughts with next-embedding prediction for visual thoughts, and design a systematic reasoning-mode curation strategy to construct SwimBird-SFT-92K, a diverse supervised fine-tuning dataset covering all three reasoning patterns. By enabling flexible, query-adaptive mode selection, SwimBird preserves strong textual logic while substantially improving performance on vision-dense tasks. Experiments across diverse benchmarks covering textual reasoning and challenging visual understanding demonstrate that SwimBird achieves state-of-the-art results and robust gains over prior fixed-pattern multimodal reasoning methods.",
+    "published": "2026-02-05T18:59:51Z",
+    "link": "http://arxiv.org/abs/2602.06040v1",
+    "authors": [
+      "Jintao Tong",
+      "Shilin Yan",
+      "Hongwei Xue",
+      "Xiaojun Tang",
+      "Kunyu Shi",
+      "Guannan Zhang",
+      "Ruixuan Li",
+      "Yixiong Zou"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Multimodal Large Language Models (MLLMs) have made remarkable progress in multimodal perception and reasoning by bridging vision and language. However, most existing MLLMs perform reasoning primarily with textual CoT, which limits their effectiveness on vision-intensive tasks.",
+    "selected_date": "2026-02-07"
+  },
+  {
     "id": "2602.05612v1",
     "title": "ADCA: Attention-Driven Multi-Party Collusion Attack in Federated Self-Supervised Learning",
     "summary": "Federated Self-Supervised Learning (FSSL) integrates the privacy advantages of distributed training with the capability of self-supervised learning to leverage unlabeled data, showing strong potential across applications. However, recent studies have shown that FSSL is also vulnerable to backdoor attacks. Existing attacks are limited by their trigger design, which typically employs a global, uniform trigger that is easily detected, gets diluted during aggregation, and lacks robustness in heterogeneous client environments. To address these challenges, we propose the Attention-Driven multi-party Collusion Attack (ADCA). During local pre-training, malicious clients decompose the global trigger to find optimal local patterns. Subsequently, these malicious clients collude to form a malicious coalition and establish a collaborative optimization mechanism within it. In this mechanism, each submits its model updates, and an attention mechanism dynamically aggregates them to explore the best cooperative strategy. The resulting aggregated parameters serve as the initial state for the next round of training within the coalition, thereby effectively mitigating the dilution of backdoor information by benign updates. Experiments on multiple FSSL scenarios and four datasets show that ADCA significantly outperforms existing methods in Attack Success Rate (ASR) and persistence, proving its effectiveness and robustness.",
@@ -569,29 +591,5 @@
     ],
     "ai_summary": "The rapid evolution of text-to-image (T2I) models has enabled high-fidelity visual synthesis on a global scale. However, these advancements have introduced significant security risks, particularly regarding the generation of harmful content.",
     "selected_date": "2026-01-09"
-  },
-  {
-    "id": "2601.03252v1",
-    "title": "InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields",
-    "summary": "Existing depth estimation methods are fundamentally limited to predicting depth on discrete image grids. Such representations restrict their scalability to arbitrary output resolutions and hinder the geometric detail recovery. This paper introduces InfiniDepth, which represents depth as neural implicit fields. Through a simple yet effective local implicit decoder, we can query depth at continuous 2D coordinates, enabling arbitrary-resolution and fine-grained depth estimation. To better assess our method's capabilities, we curate a high-quality 4K synthetic benchmark from five different games, spanning diverse scenes with rich geometric and appearance details. Extensive experiments demonstrate that InfiniDepth achieves state-of-the-art performance on both synthetic and real-world benchmarks across relative and metric depth estimation tasks, particularly excelling in fine-detail regions. It also benefits the task of novel view synthesis under large viewpoint shifts, producing high-quality results with fewer holes and artifacts.",
-    "published": "2026-01-06T18:57:06Z",
-    "link": "http://arxiv.org/abs/2601.03252v1",
-    "authors": [
-      "Hao Yu",
-      "Haotong Lin",
-      "Jiawei Wang",
-      "Jiaxin Li",
-      "Yida Wang",
-      "Xueyang Zhang",
-      "Yue Wang",
-      "Xiaowei Zhou",
-      "Ruizhen Hu",
-      "Sida Peng"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Existing depth estimation methods are fundamentally limited to predicting depth on discrete image grids. Such representations restrict their scalability to arbitrary output resolutions and hinder the geometric detail recovery.",
-    "selected_date": "2026-01-07"
   }
 ]
