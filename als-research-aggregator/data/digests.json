@@ -1,5 +1,1045 @@
 [
   {
+    "date": "2026-02-08",
+    "week_of": "February 08, 2026",
+    "digest_number": 7,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Quote of the day by Stephen Hawking: 'The greatest enemy of knowledge is not ignorance, it is the...'",
+          "description": "Stephen Hawking, a renowned British physicist, made significant contributions to understanding the universe, black holes, and time. Despite a devastating ALS diagnosis at 21, he lived for over 50 years, communicating via a computer voice. His quote, \"The grea\u2026",
+          "content": "Stephen Hawking, a renowned British physicist, made significant contributions to understanding the universe, black holes, and time. Despite a devastating ALS diagnosis at 21, he lived for over 50 yea\u2026 [+197 chars]",
+          "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-the-greatest-enemy-of-knowledge-is-not-ignorance-it-is-the-/articleshow/128021184.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-02-07T05:22:35Z",
+          "author": "Global Desk",
+          "image_url": "https://img.etimg.com/thumb/msid-128021164,width-1200,height-630,imgsize-206956,overlay-economictimes/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "1e73e5b8ffee",
+          "summary": "Stephen Hawking, a renowned British physicist, made significant contributions to understanding the universe, black holes, and time. Despite a devastating ALS diagnosis at 21, he lived for over 50 year",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "If approved, Kentuckians with these 16 medical conditions may qualify for medical cannabis",
+          "description": "A Kentucky medical cannabis practitioner says the expansion could offer alternatives to opioids for roughly 430,000 people.",
+          "content": "LOUISVILLE, Ky. The Beshear administration is asking the Kentucky General Assembly to add 16 medical conditions to the state's medical cannabis program's list of qualifying medical conditions.\r\nIf le\u2026 [+2977 chars]",
+          "url": "https://www.whas11.com/article/news/health/kentucky-medical-cannabis-more-conditions-may-be-added/417-f145b964-7bef-4860-b8d9-12b8212ea308",
+          "source_name": "WHAS11.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T22:02:56Z",
+          "author": "Alexandra Goldberg",
+          "image_url": "https://media.whas11.com/assets/WHAS/images/c396760f-5725-45a6-a0ce-ddfcb4666420/20250710T232704/c396760f-5725-45a6-a0ce-ddfcb4666420_1140x641.jpg",
+          "is_local_nj": false,
+          "article_id": "eb3a31c07174",
+          "summary": "A Kentucky medical cannabis practitioner says the expansion could offer alternatives to opioids for roughly 430,000 people.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Back where he belongs. (12 Photos)",
+          "description": "See the full gallery on thechive.com",
+          "content": "DONATE HERE.\r\nBefore ALS, Michael was always moving.\r\nHe worked long days in the Arizona desert as an estimator for a small fencing and masonry company, driving the work truck from site to site, tape\u2026 [+218 chars]",
+          "url": "https://thechive.com/humanity/inspirational/back-where-he-belongs-12-photos/?utm_postid=5177311&utm_editor=5177311_brittany",
+          "source_name": "Thechive.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T16:50:00Z",
+          "author": "Brittany",
+          "image_url": "https://thechive.com/wp-content/uploads/2026/02/Michael-D-1.png?attachment_cache_bust=5177315",
+          "is_local_nj": false,
+          "article_id": "1381f881d6ea",
+          "summary": "See the full gallery on thechive.com",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "How AI is helping solve the labor issue in treating rare diseases | TechCrunch",
+          "description": "At Web Summit Qatar, AI-powered biotech startups describe how automation, data, and gene editing are filling labor gaps in drug discovery and rare disease treatment.",
+          "content": "Modern biotech has the tools to edit genes and design drugs, yet thousands of rare diseases remain untreated. According to executives from Insilico Medicine and GenEditBio, the missing ingredient for\u2026 [+5571 chars]",
+          "url": "https://techcrunch.com/2026/02/06/how-ai-is-helping-with-the-labor-issue-in-treating-rare-diseases/",
+          "source_name": "TechCrunch",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T14:33:31Z",
+          "author": "Rebecca Bellan",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/55077920584_2991f8c4d1_k.jpg?resize=1200,752",
+          "is_local_nj": false,
+          "article_id": "1addf1d144ff",
+          "summary": "At Web Summit Qatar, AI-powered biotech startups describe how automation, data, and gene editing are filling labor gaps in drug discovery and rare disease treatment.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Workforce, succession planning, and optimism for the future among Swiss general practitioners with additional training in complementary medicine in 2016: A nationwide cross-sectional study",
+          "description": "The shortage of general practitioners (GPs) and the aging workforce of established GPs in Switzerland are persistent. Furthermore, data on GPs with additional training in complementary medicine (CM) are lacking. This study aimed to obtain information on GPs w\u2026",
+          "content": "Abstract\r\nThe shortage of general practitioners (GPs) and the aging workforce of established GPs in Switzerland are persistent. Furthermore, data on GPs with additional training in complementary medi\u2026 [+29162 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0342226",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T14:00:00Z",
+          "author": "Erschena Reichle, Martin Frei-Erb, Sven Streit",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0342226.g007&size=inline",
+          "is_local_nj": false,
+          "article_id": "d54ab0b03fa2",
+          "summary": "The shortage of general practitioners (GPs) and the aging workforce of established GPs in Switzerland are persistent. Furthermore, data on GPs with additional training in complementary medicine (CM) a",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Research on the influence of virtual reality on muscle fatigue during rowing ergometer exercise \u2013 pilot study",
+          "description": "The growing popularity of virtual reality (VR) applications has been reflected in numerous studies, particularly those examining the effects of VR on the human body, physical activity, and sports training. Comparative research suggests that simulated environm\u2026",
+          "content": "Abstract\r\nThe growing popularity of virtual reality (VR) applications has been reflected in numerous studies, particularly those examining the effects of VR on the human body, physical activity, and \u2026 [+50972 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0342166",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T14:00:00Z",
+          "author": "Natalia Daniel, Jerzy Ma\u0142achowski, Kamil Sybilski, Dariusz Siemiaszko, Kamil Klicki",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0342166.g005&size=inline",
+          "is_local_nj": false,
+          "article_id": "cfe0ec2d4a6d",
+          "summary": "The growing popularity of virtual reality (VR) applications has been reflected in numerous studies, particularly those examining the effects of VR on the human body, physical activity, and sports trai",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Brixton Metals Defines New Exploration Targets at Thorn Through Geochemical Sampling",
+          "description": "Brixton\u2019s Shareholders Approved Ten for One Share Consolidation VANCOUVER, British Columbia, Feb. 06, 2026 (GLOBE NEWSWIRE) \u2014 Brixton Metals Corporation (TSX-V: BBB, OTCQB: BBBXF) (the \u201cCompany\u201d or \u201cBrixton\u201d) is pleased to announce the results from its region\u2026",
+          "content": "Drilling at the Camp Creek High Sulfidation Target\r\nThe final drillholes completed in 2025 at the Camp Creek high-sulfidation target include THN25-367, THN25-368, THN25-369, and THN25-370 (see Table \u2026 [+5862 chars]",
+          "url": "https://financialpost.com/globe-newswire/brixton-metals-defines-new-exploration-targets-at-thorn-through-geochemical-sampling",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T12:34:04Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/02/figure-1-9.png",
+          "is_local_nj": false,
+          "article_id": "15113a4e23f1",
+          "summary": "Brixton\u2019s Shareholders Approved Ten for One Share Consolidation VANCOUVER, British Columbia, Feb. 06, 2026 (GLOBE NEWSWIRE) \u2014 Brixton Metals Corporation (TSX-V: BBB, OTCQB: BBBXF) (the \u201cCompany\u201d or \u201cB",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Brixton Metals Defines New Exploration Targets at Thorn Through Geochemical Sampling",
+          "description": "Brixton\u2019s Shareholders Approved Ten for One Share Consolidation Brixton\u2019s Shareholders Approved Ten for One Share Consolidation",
+          "content": "VANCOUVER, British Columbia, Feb. 06, 2026 (GLOBE NEWSWIRE) -- Brixton Metals Corporation (TSX-V: BBB, OTCQB: BBBXF) (the Company or Brixton) is pleased to announce the results from its regional pros\u2026 [+20407 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/06/3233756/0/en/Brixton-Metals-Defines-New-Exploration-Targets-at-Thorn-Through-Geochemical-Sampling.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T12:30:00Z",
+          "author": "Brixton Metals Corporation",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/7044fe26-2e13-45d1-a3c6-abc949fce6d2",
+          "is_local_nj": false,
+          "article_id": "43672a98bc4c",
+          "summary": "Brixton\u2019s Shareholders Approved Ten for One Share Consolidation Brixton\u2019s Shareholders Approved Ten for One Share Consolidation",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "uniQure Announces Updated Preliminary AMT-191 Phase I/IIa Data Showing Sustained Increases in \u03b1-Gal A Enzyme Activity in Patients with Fabry Disease",
+          "description": "~ Supraphysiological expression of \u03b1-Gal A activity maintained for over a year in longest treated patient as of data cutoff date ~  ~ Stable Lyso-Gb3...",
+          "content": "~ Supraphysiological expression of -Gal A activity maintained for over a year in longest treated patient as of data cutoff date ~\r\n~ Stable Lyso-Gb3 levels maintained post-dosing, regardless of enzym\u2026 [+8683 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/06/3233740/0/en/uniQure-Announces-Updated-Preliminary-AMT-191-Phase-I-IIa-Data-Showing-Sustained-Increases-in-%CE%B1-Gal-A-Enzyme-Activity-in-Patients-with-Fabry-Disease.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T12:05:00Z",
+          "author": "uniQure Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/2ba61fe2-12e5-4a01-afe1-419652b31512",
+          "is_local_nj": false,
+          "article_id": "5b9dfe212c85",
+          "summary": "~ Supraphysiological expression of \u03b1-Gal A activity maintained for over a year in longest treated patient as of data cutoff date ~  ~ Stable Lyso-Gb3...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eledon Pharmaceuticals Presents Long-Term Phase 1b Data for Tegoprubart in Kidney Transplant Patients at the American Society of Transplant Surgeons Winter Symposium",
+              "url": "https://www.globenewswire.com/news-release/2026/01/23/3224604/0/en/Eledon-Pharmaceuticals-Presents-Long-Term-Phase-1b-Data-for-Tegoprubart-in-Kidney-Transplant-Patients-at-the-American-Society-of-Transplant-Surgeons-Winter-Symposium.html",
+              "digest_date": "2026-01-25"
+            }
+          ]
+        },
+        {
+          "title": "BreezyBox: A BusyBox-Like Shell and Virtual Terminal for ESP32",
+          "description": "Much like how BusyBox crams many standard Unix commands and a shell into a single executable, so too does BreezyBox provide a similar experience for the ESP32 platform. A demo implementation is als\u2026",
+          "content": "Much like how BusyBox crams many standard Unix commands and a shell into a single executable, so too does BreezyBox provide a similar experience for the ESP32 platform. A demo implementation is also \u2026 [+938 chars]",
+          "url": "https://hackaday.com/2026/02/06/breezybox-a-busybox-like-shell-and-virtual-terminal-for-esp32/",
+          "source_name": "Hackaday",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T12:00:01Z",
+          "author": "Maya Posch",
+          "image_url": "https://hackaday.com/wp-content/uploads/2026/01/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f776c4473615167574361492f6d617872657364656661756c742e6a7067.jpg",
+          "is_local_nj": false,
+          "article_id": "c43bbcf2f345",
+          "summary": "Much like how BusyBox crams many standard Unix commands and a shell into a single executable, so too does BreezyBox provide a similar experience for the ESP32 platform. A demo implementation is als\u2026",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The student who was admitted to a medical faculty in Sri Lanka by court order after completing ALs in Russia",
+          "description": "Previously, there was no idea whether there were alternatives to passing the G.C.E. Advanced Level examination in Sri Lanka to enter a state university in Sri Lanka. However, it is reported that a special court ruling has provided alternatives, allowing entry\u2026",
+          "content": "Previously, there was no idea whether there were alternatives to passing the G.C.E. Advanced Level examination in Sri Lanka to enter a state university in Sri Lanka. However, it is reported that a sp\u2026 [+2506 chars]",
+          "url": "https://english.gossiplankanews.com/2026/02/the-student-who-was-admitted-to-medical.html",
+          "source_name": "Gossiplankanews.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-06T04:40:18Z",
+          "author": "noreply@blogger.com (Unknown)",
+          "image_url": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_v4CBJvWw5JnbbHPKl3LPLHwUaGSRr7KLc2usExpBDOutNRxiIcpvFrU4z4SGND6JDq9zmb3v5J2j3ZmYcNMmzHLZ-_b08YgqtFsZ4VECAJDYvIhP-MSm7-UQZcukqzceqAjXdo0x9W74gddnSGsm8eSX774hn7ES0mWOQ=w1600",
+          "is_local_nj": false,
+          "article_id": "b7dd8194889f",
+          "summary": "Previously, there was no idea whether there were alternatives to passing the G.C.E. Advanced Level examination in Sri Lanka to enter a state university in Sri Lanka. However, it is reported that a spe",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Kentucky seeking to expand medical marijuana qualifying conditions",
+          "description": "More people could qualify for medical marijuana in Kentucky as the state seeks to expand the list of eligible conditions.",
+          "content": "FRANKFORT, Ky. \u2014More people could qualify for medical marijuana in Kentucky as the state seeks to expand the list of eligible conditions.\r\nGov. Andy Beshear announced Thursday that a letter sent to l\u2026 [+1677 chars]",
+          "url": "https://www.wlky.com/article/kentucky-medical-marijuana-eligibility-more-conditions/70260344",
+          "source_name": "WLKY Louisville",
+          "source_type": "newsapi",
+          "published_at": "2026-02-05T21:44:01Z",
+          "author": "Matthew Keck",
+          "image_url": "https://kubrick.htvapps.com/vidthumb/f96f24c7-2090-49a6-843f-f9b4c5bc6686/f96f24c7-2090-49a6-843f-f9b4c5bc6686_image.jpg?crop=0.780xw:0.780xh;0.0245xw,0.0725xh&resize=1200:*",
+          "is_local_nj": false,
+          "article_id": "a92988c11bce",
+          "summary": "More people could qualify for medical marijuana in Kentucky as the state seeks to expand the list of eligible conditions.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"When A Flower Doesn't Grow\" von Softcult",
+          "description": "Softcult - \"When A Flower Doesn't Grow\"",
+          "content": "laut.de-Kritik\r\nRiotgaze? Riotgaze!\r\nReview von Kerstin Kratochwill\r\nSoftcult ist ein kanadisches Alternative-Rock-Duo, bestehend aus den Zwillingsschwestern Phoenix und Mercedes Arn-Horn, das seinen\u2026 [+1999 chars]",
+          "url": "https://laut.de/Softcult/Alben/When-A-Flower-Doesnt-Grow-126450",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-02-05T15:58:03Z",
+          "author": "Kerstin Kratochwill",
+          "image_url": "https://laut.de/Softcult/Alben/When-A-Flower-Doesnt-Grow-126450/softcult-when-a-flower-doesnt-grow-248880.jpg?aa4016",
+          "is_local_nj": false,
+          "article_id": "cdd6755c6596",
+          "summary": "Softcult - \"When A Flower Doesn't Grow\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Rio Tinto bl\u00e4st Fusion mit Glencore ab",
+          "description": null,
+          "content": "Die Fusionsgespr\u00e4che zwischen den Bergbaukonzernen Rio Tinto und Glencore sind geplatzt. Rio Tinto sei zu dem Schluss gekommen, dass keine Einigung erzielt werden k\u00f6nne, die einen Mehrwert f\u00fcr seine \u2026 [+557 chars]",
+          "url": "https://orf.at/stories/3419329/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-02-05T15:49:29Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "a7510fe2c411",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Trends Everyone Once Took Seriously That Now Feel Wild",
+          "description": "There was a time when certain trends dominated conversation, dictating what we wore, said, and even how we behaved. From fashion fads to bizarre gadgets, some trends felt like they were inevitable. But looking back, some of those trends now feel completely ab\u2026",
+          "content": "There was a time when certain trends dominated conversation, dictating what we wore, said, and even how we behaved. From fashion fads to bizarre gadgets, some trends felt like they were inevitable. B\u2026 [+786 chars]",
+          "url": "http://www.denofgeek.com/msn/trends-everyone-once-took-seriously-that-now-feel-wild/",
+          "source_name": "Den of Geek US",
+          "source_type": "newsapi",
+          "published_at": "2026-02-05T11:45:00Z",
+          "author": "Leandro Beroldo",
+          "image_url": "https://www.denofgeek.com/wp-content/uploads/2026/02/13_aaf963.jpg?fit=1600%2C900",
+          "is_local_nj": false,
+          "article_id": "395e1d2de2b7",
+          "summary": "There was a time when certain trends dominated conversation, dictating what we wore, said, and even how we behaved. From fashion fads to bizarre gadgets, some trends felt like they were inevitable. Bu",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Osisko Metals Launches Deep Porphyry Exploration Project (\u2018DPEX\u2019) and Confirms 852 Metres Averaging 0.95% CuEq at Historic Porphyry Mountain Deposit",
+          "description": "MONTREAL, Feb. 05, 2026 (GLOBE NEWSWIRE) \u2014 Osisko Metals Incorporated (the \u201cCompany\u201d or \u201cOsisko\u201c) (TSX: OM; OTCQX: OMZNF; FRANKFURT: 0B51) is pleased to announce initial results from the start of the re-evaluation of the Gasp\u00e9 Copper Project\u2019s (the \u201cGCP\u201d) Por\u2026",
+          "content": "Explanatory note regarding copper-equivalent grades\r\nCopper Equivalent grades are expressed for purposes of simplicity and are calculated taking into account: 1) metal grades; 2) estimated long-term \u2026 [+3607 chars]",
+          "url": "https://financialpost.com/globe-newswire/osisko-metals-launches-deep-porphyry-exploration-project-dpex-and-confirms-852-metres-averaging-0-95-cueq-at-historic-porphyry-mountain-deposit",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-02-05T11:01:55Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/02/20260205-osisko-metals-news-release-figure-1-plan-view.jpeg",
+          "is_local_nj": false,
+          "article_id": "8428778c9c51",
+          "summary": "MONTREAL, Feb. 05, 2026 (GLOBE NEWSWIRE) \u2014 Osisko Metals Incorporated (the \u201cCompany\u201d or \u201cOsisko\u201c) (TSX: OM; OTCQX: OMZNF; FRANKFURT: 0B51) is pleased to announce initial results from the start of the ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Osisko Intersects 738 Metres Averaging 0.31% Cu at Gasp\u00e9",
+              "url": "https://www.globenewswire.com/news-release/2026/01/22/3223532/0/en/Osisko-Intersects-738-Metres-Averaging-0-31-Cu-at-Gasp%C3%A9.html",
+              "digest_date": "2026-01-25"
+            },
+            {
+              "title": "Osisko Intersects 748 Metres Averaging 0.27% Cu at Gasp\u00e9",
+              "url": "https://www.globenewswire.com/news-release/2026/01/15/3219331/0/en/Osisko-Intersects-748-Metres-Averaging-0-27-Cu-at-Gasp%C3%A9.html",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Osisko Metals Launches Deep Porphyry Exploration Project (\"DPEX\") and Confirms 852 Metres Averaging 0.95% CuEq at Historic Porphyry Mountain Deposit",
+          "description": "Osisko Metals announces initial results from the re-evaluation of the Gasp\u00e9 Copper Project\u2019s Porphyry Mountain deposit, discovered in 1994 by Noranda Inc....",
+          "content": "MONTREAL, Feb. 05, 2026 (GLOBE NEWSWIRE) -- Osisko Metals Incorporated (the \"Company\" or \"Osisko\") (TSX: OM\r\n; OTCQX:\r\nOMZNF\r\n; FRANKFURT:\r\n0B51\r\n) is pleased to announce initial results from the sta\u2026 [+13942 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/05/3232766/0/en/Osisko-Metals-Launches-Deep-Porphyry-Exploration-Project-DPEX-and-Confirms-852-Metres-Averaging-0-95-CuEq-at-Historic-Porphyry-Mountain-Deposit.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-05T11:00:00Z",
+          "author": "Osisko Metals Incorporated",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/c7d850cd-153a-410b-a5ef-b4789fdd9d81",
+          "is_local_nj": false,
+          "article_id": "45e4eb648fc6",
+          "summary": "Osisko Metals announces initial results from the re-evaluation of the Gasp\u00e9 Copper Project\u2019s Porphyry Mountain deposit, discovered in 1994 by Noranda Inc....",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Osisko Intersects 738 Metres Averaging 0.31% Cu at Gasp\u00e9",
+              "url": "https://www.globenewswire.com/news-release/2026/01/22/3223532/0/en/Osisko-Intersects-738-Metres-Averaging-0-31-Cu-at-Gasp%C3%A9.html",
+              "digest_date": "2026-01-25"
+            },
+            {
+              "title": "Osisko Intersects 748 Metres Averaging 0.27% Cu at Gasp\u00e9",
+              "url": "https://www.globenewswire.com/news-release/2026/01/15/3219331/0/en/Osisko-Intersects-748-Metres-Averaging-0-27-Cu-at-Gasp%C3%A9.html",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Neurotechnology and Cognitive Warfare",
+          "description": "[Carl Emilio Lewis and Jonathan Kwik are researchers in international law at the TMC Asser Institute] The \u2018application of neurotechnology raises [various] ethical, legal and societal issues and questions related to human dignity and human rights\u2019, as UNESCO\u2019s\u2026",
+          "content": "[Carl Emilio Lewis and Jonathan Kwik are researchers in international law at the TMC Asser Institute]\r\nThe application of neurotechnology raises [various] ethical, legal and societal issues and quest\u2026 [+13347 chars]",
+          "url": "http://opiniojuris.org/2026/02/05/neurotechnology-and-cognitive-warfare/",
+          "source_name": "Opiniojuris.org",
+          "source_type": "newsapi",
+          "published_at": "2026-02-05T09:00:02Z",
+          "author": "Carl Emilio Lewis",
+          "image_url": "https://i0.wp.com/opiniojuris.org/wp-content/uploads/technology-g44e877d9b_1920.jpg?fit=1200%2C656",
+          "is_local_nj": false,
+          "article_id": "f7fc5d5a2aa5",
+          "summary": "[Carl Emilio Lewis and Jonathan Kwik are researchers in international law at the TMC Asser Institute] The \u2018application of neurotechnology raises [various] ethical, legal and societal issues and questi",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"The Boy Who Cried Terrified .\" von Fakemink",
+          "description": "Fakemink - \"The Boy Who Cried Terrified .\"",
+          "content": "laut.de-Kritik\r\nRisse in der Glasvitrine.\r\nReview von Ben Schiwek\r\nWer sich fragt, was zur H\u00f6lle denn jetzt schon wieder ein neues Hip Hop-Subgenre namens Jerk sein soll; wer vor ein paar Wochen noch\u2026 [+4023 chars]",
+          "url": "https://laut.de/Fakemink/Alben/The-Boy-Who-Cried-Terrified-.-126448",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-02-05T08:50:21Z",
+          "author": "Ben Schiwek",
+          "image_url": "https://laut.de/Fakemink/Alben/The-Boy-Who-Cried-Terrified-.-126448/fakemink-the-boy-who-cried-terrified-248852.jpg?e4bb0f",
+          "is_local_nj": false,
+          "article_id": "3e2437c7f41e",
+          "summary": "Fakemink - \"The Boy Who Cried Terrified .\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Somatosensory evoked potentials and high-frequency oscillations after transcranial static magnetic stimulation over the primary somatosensory cortex",
+          "description": "Scientific Reports - Somatosensory evoked potentials and high-frequency oscillations after transcranial static magnetic stimulation over the primary somatosensory cortex",
+          "content": "<li>Oliviero, A. et al. Transcranial static magnetic field stimulation of the human motor cortex. J. Physiol.589, 49494958. https://doi.org/10.1113/jphysiol.2011.211953 (2011).\r\nGoogle Scholar\u00a0\r\n</li\u2026 [+10264 chars]",
+          "url": "https://www.nature.com/articles/s41598-026-38767-2",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-05T00:00:00Z",
+          "author": "Yuki Tanaka, Aoki Takahashi, Riku Ishizaka, Kodai Minami, Taisei Miyazaki, Kenta Oguma, Nodoka Shimizume, Isamu Ozaki, Tatsunori Watanabe",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "def884d3f141",
+          "summary": "Scientific Reports - Somatosensory evoked potentials and high-frequency oscillations after transcranial static magnetic stimulation over the primary somatosensory cortex",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "ProMIS Neurosciences to Participate in the Guggenheim Emerging Outlook: Biotech Summit 2026",
+          "description": "Cambridge, Massachusetts, Feb. 04, 2026 (GLOBE NEWSWIRE) \u2014 ProMIS Neurosciences, Inc. (Nasdaq: PMN), a clinical-stage biotechnology company developing next-generation therapies for Alzheimer\u2019s disease (AD) and other neurodegenerative disorders, today announce\u2026",
+          "content": "Cambridge, Massachusetts, Feb. 04, 2026 (GLOBE NEWSWIRE) ProMIS Neurosciences, Inc. (Nasdaq: PMN), a clinical-stage biotechnology company developing next-generation therapies for Alzheimers disease (\u2026 [+5309 chars]",
+          "url": "https://financialpost.com/globe-newswire/promis-neurosciences-to-participate-in-the-guggenheim-emerging-outlook-biotech-summit-2026",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T21:06:48Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "a1e8f5a17da4",
+          "summary": "Cambridge, Massachusetts, Feb. 04, 2026 (GLOBE NEWSWIRE) \u2014 ProMIS Neurosciences, Inc. (Nasdaq: PMN), a clinical-stage biotechnology company developing next-generation therapies for Alzheimer\u2019s disease",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Is there a link between viral infection and ALS?",
+          "description": "New research could advance understanding and treatment of motor neuron diseases like ALS.",
+          "content": "Researchers have made a potentially game-changing discovery about the development of devastating motor neuron diseases like amyotrophic lateral sclerosis.\r\nThe team identified a specific type of mous\u2026 [+3282 chars]",
+          "url": "https://www.futurity.org/viral-infection-als-3321482/",
+          "source_name": "Futurity: Research News",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T17:24:49Z",
+          "author": "Texas A&M University",
+          "image_url": "https://www.futurity.org/wp/wp-content/uploads/2026/02/viral-infection-als-mouse-model-1600.jpg",
+          "is_local_nj": false,
+          "article_id": "9120028e6ec5",
+          "summary": "New research could advance understanding and treatment of motor neuron diseases like ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Coach: 'No doubt' Vonn races despite ACL injury",
+          "description": "Lindsey Vonn, who ruptured her ACL in a downhill crash five days ago, is performing box jumps, working out in a pool while wearing a weighted vest and skiing at high speed as she still plans to compete at the Olympics.",
+          "content": "Feb 4, 2026, 09:51 AM ET\r\nCORTINA D'AMPEZZO, Italy -- Lindsey Vonn needed to use a crutch to get around over the weekend. Now she is performing box jumps, working out in a pool while wearing a weight\u2026 [+3990 chars]",
+          "url": "https://www.espn.com/olympics/story/_/id/47826052/coach-lindsey-vonn-no-workout-pain-confident-race",
+          "source_name": "ESPN",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T16:36:09Z",
+          "author": null,
+          "image_url": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0130%2Fr1607791_1296x729_16%2D9.jpg",
+          "is_local_nj": false,
+          "article_id": "b26212c13e5a",
+          "summary": "Lindsey Vonn, who ruptured her ACL in a downhill crash five days ago, is performing box jumps, working out in a pool while wearing a weighted vest and skiing at high speed as she still plans to compet",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ellen Pompeo Told Eric Dane \u2018Whatever You Need, However I Can Help. I Love You\u2019 After Learning of \u2018Grey\u2019s Anatomy\u2019 Co-Star\u2019s ALS Diagnosis",
+          "description": "Ellen Pompeo recently revealed in a pre-taped message at the ALS Network Champions for Cures & Care Gala (via People) that she texted Eric Dane immediately after learning her \u201cGrey\u2019s Anatomy\u201d co-star was diagnosed with ALS. Pompeo headlined the ABC medical dr\u2026",
+          "content": "Ellen Pompeo recently revealed in a pre-taped message at the ALS Network Champions for Cures &amp; Care Gala (via People) that she texted Eric Dane immediately after learning her \u201cGrey\u2019s Anatomy\u201d co-\u2026 [+1913 chars]",
+          "url": "https://variety.com/2026/tv/news/ellen-pompeo-eric-dane-als-diagnosis-greys-anatomy-1236651745/",
+          "source_name": "Variety",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T16:21:29Z",
+          "author": "Zack Sharf",
+          "image_url": "https://variety.com/wp-content/uploads/2026/02/TCDGRAN_EC206.jpg?w=1000&h=563&crop=1",
+          "is_local_nj": false,
+          "article_id": "2104905b9f27",
+          "summary": "Ellen Pompeo recently revealed in a pre-taped message at the ALS Network Champions for Cures & Care Gala (via People) that she texted Eric Dane immediately after learning her \u201cGrey\u2019s Anatomy\u201d co-star ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+              "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-health-update-greys-anatomy-b2910664.html",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+              "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-symptoms-b2910243.html",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+              "digest_date": "2026-01-04"
+            }
+          ]
+        },
+        {
+          "title": "Coach of Lindsey Vonn says 'no doubt' injured skier will race in Olympics",
+          "description": "Lindsey Vonn, the 41-year-old American ski star, is optimistic she can compete in the Olympic women's downhill on Sunday in Italy despite a ruptured ligament in her left knee.",
+          "content": "Lindsey Vonn needed to use a crutch to get around over the weekend. Now she's performing box jumps, working out in a pool while wearing a weighted vest and skiing at high speed. \r\nNo wonder the 41-ye\u2026 [+4547 chars]",
+          "url": "https://www.cbc.ca/sports/olympics/winter/alpine-skiing/lindsey-vonn-injury-update-ruptured-acl-olympics-cortina-9.7073619",
+          "source_name": "CBC News",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T15:39:37Z",
+          "author": null,
+          "image_url": "https://i.cbc.ca/ais/d629d611-0638-46eb-a5ad-4a5642192fdb,1770218591791/full/max/0/default.jpg?im=Crop%2Crect%3D%2820%2C0%2C1139%2C640%29%3BResize%3D620",
+          "is_local_nj": false,
+          "article_id": "bb5adab12fef",
+          "summary": "Lindsey Vonn, the 41-year-old American ski star, is optimistic she can compete in the Olympic women's downhill on Sunday in Italy despite a ruptured ligament in her left knee.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Lindsey Vonn doing \u2018jumps\u2019 in rehab, coach tells AP \u2018no doubt\u2019 she\u2019ll race in Olympics with torn ACL",
+          "description": "Vonn's coach Chris Knight says that he's \"pretty confident that she can still pull off this dream.\u201d",
+          "content": "By ANDREW DAMPF, Associated Press Sports Writer\r\nCORTINA DAMPEZZO, Italy (AP) Lindsey Vonn needed to use a crutch to get around over the weekend. Now shes performing box jumps, working out in a pool \u2026 [+4290 chars]",
+          "url": "https://www.bostonherald.com/2026/02/04/vonn-coach-no-doubt-olympics/",
+          "source_name": "Boston Herald",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T14:50:26Z",
+          "author": "Associated Press",
+          "image_url": "https://www.bostonherald.com/wp-content/uploads/2026/02/Milan_Cortina_Olympics_Alpine_Skiing_85571_ab5314.jpg?w=1024&h=683",
+          "is_local_nj": false,
+          "article_id": "1545cb9b174a",
+          "summary": "Vonn's coach Chris Knight says that he's \"pretty confident that she can still pull off this dream.\u201d",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Lindsey Vonn doing \u2018jumps\u2019 in rehab, coach tells AP \u2018no doubt\u2019 she\u2019ll race in Olympics with torn ACL",
+          "description": "Vonn's coach Chris Knight says that he's \"pretty confident that she can still pull off this dream.\u201d",
+          "content": "By ANDREW DAMPF, Associated Press Sports Writer\r\nCORTINA DAMPEZZO, Italy (AP) Lindsey Vonn needed to use a crutch to get around over the weekend. Now shes performing box jumps, working out in a pool \u2026 [+4290 chars]",
+          "url": "https://www.denverpost.com/2026/02/04/vonn-coach-no-doubt-olympics/",
+          "source_name": "The Denver Post",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T14:50:26Z",
+          "author": "The Associated Press",
+          "image_url": "https://www.denverpost.com/wp-content/uploads/2026/02/Milan_Cortina_Olympics_Alpine_Skiing_85571_ab5314.jpg?w=1024&h=683",
+          "is_local_nj": false,
+          "article_id": "dd33daabedd1",
+          "summary": "Vonn's coach Chris Knight says that he's \"pretty confident that she can still pull off this dream.\u201d",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Lindsey Vonn doing 'jumps' in rehab, coach tells AP 'no doubt' she'll race in Olympics with torn ACL",
+          "description": "CORTINA D'AMPEZZO, Italy (AP) \u2014 Lindsey Vonn needed to use a crutch to get around over the weekend. No wonder the 41-year-old American is so optimistic that she can compete in the Milan Cortina Winter Olympics downhill on Sunday despite a ruptured ACL in her \u2026",
+          "content": "CORTINA D'AMPEZZO, Italy (AP) Lindsey Vonn needed to use a crutch to get around over the weekend. Now shes performing box jumps, working out in a pool while wearing a weighted vest and skiing at high\u2026 [+4121 chars]",
+          "url": "https://sports.yahoo.com/articles/lindsey-vonn-doing-jumps-rehab-144221661.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T14:42:21Z",
+          "author": "ANDREW DAMPF",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/tfzwtzRc1_UjtAaPvmTLUw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/2a8310c08ba4d410f4401fc979a3b412",
+          "is_local_nj": false,
+          "article_id": "a8ad7d55b772",
+          "summary": "CORTINA D'AMPEZZO, Italy (AP) \u2014 Lindsey Vonn needed to use a crutch to get around over the weekend. No wonder the 41-year-old American is so optimistic that she can compete in the Milan Cortina Winter",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Trump tried to gut science research funding. Courts and Congress have rebuffed him.",
+          "description": "Scientists' worst fears about Trump's cuts to research funding haven't come to pass, thanks to several legal challenges and Congress\u2019 recent rejection of his proposed budget cuts.",
+          "content": "About a year ago, it seemed the sky was falling for American scientific research. \r\nThe Trump administration last February cut thousands of workers at federal science agencies, squeezed the flow of g\u2026 [+11493 chars]",
+          "url": "https://www.nbcnews.com/science/science-news/trump-science-research-funding-cuts-congress-rebuffed-rcna256793",
+          "source_name": "NBC News",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T10:00:00Z",
+          "author": "Evan Bush",
+          "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-01/260130-science-protest-aa-1100-eeab67.jpg",
+          "is_local_nj": false,
+          "article_id": "efc457c319e6",
+          "summary": "Scientists' worst fears about Trump's cuts to research funding haven't come to pass, thanks to several legal challenges and Congress\u2019 recent rejection of his proposed budget cuts.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Syensqo - Participation notification by BlackRock Inc.",
+          "description": "Press releaseCommuniqu\u00e9 de pressePersbericht Regulated  Participation notification by BlackRock Inc.\u00a0  Brussels, Belgium \u2013 February 04, 2026 - 08:30 CET ...",
+          "content": "Regulated\r\nParticipation notification by BlackRock Inc.\u00a0\r\nBrussels, Belgium February 04, 2026 - 08:30 CET\r\nAccording to Belgian transparency legislation (Law of May 2, 2007), BlackRock Inc. (12 Throg\u2026 [+10388 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/04/3231787/0/en/Syensqo-Participation-notification-by-BlackRock-Inc.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T07:30:00Z",
+          "author": "Syensqo SA",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/580c265c-48dc-4c96-b0d2-782304bfb832",
+          "is_local_nj": false,
+          "article_id": "883f67db87a0",
+          "summary": "Press releaseCommuniqu\u00e9 de pressePersbericht Regulated  Participation notification by BlackRock Inc.\u00a0  Brussels, Belgium \u2013 February 04, 2026 - 08:30 CET ...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ellen Pompeo reveals her private conversation with Eric Dane after learning his ALS diagnosis",
+          "description": "Dane has been open about his\u00a0battle with amyotrophic lateral sclerosis\u00a0(ALS), and\u00a0revealed his diagnosis\u00a0in April 2025.",
+          "content": "Ellen Pompeo revealed a private conversation she had with her former Grey\u2019s Anatomy castmate Eric Dane, reaching out shortly after learning of Dane\u2019s ALS diagnosis.\r\nThe actress, 56, opened up about \u2026 [+2543 chars]",
+          "url": "https://pagesix.com/2026/02/03/entertainment/ellen-pompeo-reveals-private-conversation-with-eric-dane-after-learning-als-diagnosis/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T04:29:41Z",
+          "author": "Wendy Geller",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/02/120360188.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "5e4a6cb6e4ee",
+          "summary": "Dane has been open about his\u00a0battle with amyotrophic lateral sclerosis\u00a0(ALS), and\u00a0revealed his diagnosis\u00a0in April 2025.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+              "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-health-update-greys-anatomy-b2910664.html",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+              "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-symptoms-b2910243.html",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+          "description": "Ellen Pompeo is helping honor Eric Dane. The 56-year-old actress showed her support for her former Grey\u2019s Anatomy co-star as the 53-year-old actor was honored ALS Network Champions for Cures & Care Gala on Saturday (January 24). Though they both did not appea\u2026",
+          "content": "Ellen Pompeo is helping honor Eric Dane.\r\nThe 56-year-old actress showed her support for her former Grey's Anatomy co-star as the 53-year-old actor was honored ALS Network Champions for Cures &amp; C\u2026 [+1185 chars]",
+          "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+          "source_name": "Just Jared",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T02:05:01Z",
+          "author": "Just Jared",
+          "image_url": "https://cdn01.justjared.com/wp-content/uploads/headlines/2026/02/ellen-on-eric-als.jpg",
+          "is_local_nj": false,
+          "article_id": "69fd17a0aefe",
+          "summary": "Ellen Pompeo is helping honor Eric Dane. The 56-year-old actress showed her support for her former Grey\u2019s Anatomy co-star as the 53-year-old actor was honored ALS Network Champions for Cures & Care Ga",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+              "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-health-update-greys-anatomy-b2910664.html",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+              "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-symptoms-b2910243.html",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "Parkinson\u2019s disease as a somato-cognitive action network disorder",
+          "description": "The substantia nigra and all Parkinson\u2019s disease deep-brain stimulation targets are selectively connected to the somato-cognitive action network rather than to effector-specific motor regions.",
+          "content": "Participants\r\nIn this study, we used 11 independent datasets comprising 863 total participants after quality control. These datasets include (1) PIPD dataset99: 166 patients with PD and 60 HC individ\u2026 [+48843 chars]",
+          "url": "https://www.nature.com/articles/s41586-025-10059-1",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T00:00:00Z",
+          "author": "Jianxun Ren, Wei Zhang, Louisa Dahmani, Evan M. Gordon, Shenshen Li, Ying Zhou, Yang Long, Jianting Huang, Yafei Zhu, Ning Guo, Changqing Jiang, Feng Zhang, Yan Bai, Wei Wei, Yaping Wu, Alan Bush, Matteo Vissani, Luhua Wei, Carina R. Oehrn, Melanie A. Morrison, Ying Zhu, Chencheng Zhang, Qingyu Hu, Yilin Yin, Weigang Cui, Xiaoxuan Fu, Ping Zhang, Weiwei Wang, Gong-Jun Ji, Ji He, Kai Wang, Dongsheng Fan, Zhaoxia Wang, Teresa Kimberley, Simon Little, Philip A. Starr, Robert Mark Richardson, Luming Li, Meiyun Wang, Danhong Wang, Nico U. F. Dosenbach, Hesheng Liu",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-025-10059-1/MediaObjects/41586_2025_10059_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "6f11f9fc6fe5",
+          "summary": "The substantia nigra and all Parkinson\u2019s disease deep-brain stimulation targets are selectively connected to the somato-cognitive action network rather than to effector-specific motor regions.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Biofluid biomarkers in Alzheimer\u2019s disease\u00a0and other neurodegenerative dementias",
+          "description": "Improved technologies facilitate the detection of molecules linked to neurodegenerative brain changes at very low concentrations in the blood, complementing the clinical evaluation of suspected neurodegenerative disease.",
+          "content": "<li>Thal, D. R., Poesen, K., Vandenberghe, R. &amp; De Meyer, S. Alzheimers disease neuropathology and its estimation with fluid and imaging biomarkers. Mol. Neurodegener.20, 33 (2025).\r\nArticle\u00a0\r\n P\u2026 [+45025 chars]",
+          "url": "https://www.nature.com/articles/s41586-025-10018-w",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-04T00:00:00Z",
+          "author": "Henrik Zetterberg, Barbara B. Bendlin",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-025-10018-w/MediaObjects/41586_2025_10018_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "e956a71ce9c9",
+          "summary": "Improved technologies facilitate the detection of molecules linked to neurodegenerative brain changes at very low concentrations in the blood, complementing the clinical evaluation of suspected neurod",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "What Ellen Pompeo Told Eric Dane After Learning of His ALS Diagnosis",
+          "description": "Ellen Pompeo\u00a0is supporting\u00a0Eric Dane\u00a0amid his battle with\u00a0amyotrophic lateral sclerosis (ALS).\nIndeed,\u00a0the\u00a0Grey\u2019s Anatomy\u00a0star\u2014who costarred\u00a0with Eric\u00a0on the medical\u00a0series for six seasons\u2014opened...",
+          "content": "Ellen Pompeo\u00a0is supporting\u00a0Eric Dane\u00a0amid his battle with\u00a0amyotrophic lateral sclerosis (ALS).\r\nIndeed,\u00a0the\u00a0Greys Anatomy\u00a0starwho costarred\u00a0with Eric\u00a0on the medical\u00a0series for six seasonsopened up ab\u2026 [+883 chars]",
+          "url": "https://www.eonline.com/news/1428140/eric-danes-als-diagnosis-ellen-pompeo-speaks-out",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-03T20:37:47Z",
+          "author": null,
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20260203/7fd2d9e3-fba4-47e2-a79a-0ad6ebea8316_1770149627.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "is_local_nj": false,
+          "article_id": "a8fb0bab1c3f",
+          "summary": "Ellen Pompeo\u00a0is supporting\u00a0Eric Dane\u00a0amid his battle with\u00a0amyotrophic lateral sclerosis (ALS).\nIndeed,\u00a0the\u00a0Grey\u2019s Anatomy\u00a0star\u2014who costarred\u00a0with Eric\u00a0on the medical\u00a0series for six seasons\u2014opened...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+              "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-health-update-greys-anatomy-b2910664.html",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+              "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-symptoms-b2910243.html",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "Bipartisan Congressional Action Advances Critical Programs for Rare Neuromuscular Disease Research and Care",
+          "description": "Washington, D.C., Feb. 03, 2026 (GLOBE NEWSWIRE) -- The Muscular Dystrophy Association (MDA) today applauded the bipartisan passage of the annual federal funding bill that sustains critical investments in biomedical research, rare disease infrastructure, and \u2026",
+          "content": "Washington, D.C., Feb. 03, 2026 (GLOBE NEWSWIRE) -- The Muscular Dystrophy Association (MDA) today applauded the bipartisan passage of the annual federal funding bill that sustains critical investmen\u2026 [+5558 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/03/3231566/0/en/Bipartisan-Congressional-Action-Advances-Critical-Programs-for-Rare-Neuromuscular-Disease-Research-and-Care.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-03T20:03:00Z",
+          "author": "Muscular Dystrophy Association",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/948a0d3d-2d68-44d0-9d32-bd22d47ddf71",
+          "is_local_nj": false,
+          "article_id": "f224347f0c01",
+          "summary": "Washington, D.C., Feb. 03, 2026 (GLOBE NEWSWIRE) -- The Muscular Dystrophy Association (MDA) today applauded the bipartisan passage of the annual federal funding bill that sustains critical investment",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "To Statin or Not to Statin? Cholesterol, CAC Scores & Heart Health",
+          "description": "Confused about statins? Explore cholesterol myths, CAC scores, heart CT scans, diet debates, and modern cardiology\u2019s approach to cardiovascular risk.",
+          "content": "I recently went to visit a cardiologistnot because something was wrong, but because I believe it is far better to be proactive than reactive. As we get older and move further away from our twenties, \u2026 [+11333 chars]",
+          "url": "https://ravoke.com/to-statin-or-not-to-statin-cac-cholesterol/",
+          "source_name": "Ravoke.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-03T19:25:34Z",
+          "author": "Charles Mattocks",
+          "image_url": "https://ravoke.com/wp-content/uploads/2026/02/astat.webp",
+          "is_local_nj": false,
+          "article_id": "96c7b31e7d93",
+          "summary": "Confused about statins? Explore cholesterol myths, CAC scores, heart CT scans, diet debates, and modern cardiology\u2019s approach to cardiovascular risk.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Internationale topstrateeg Joe Burns op 19 februari in Amsterdam",
+          "description": "The Substance Club haalt Joe Burns met \u2018From Thought to Thing\u2019 naar het CREA Theater Amsterdam, 3 fenbruari 2026 \u2014 [\u2026]",
+          "content": "The Substance Club haalt Joe Burns met From Thought to Thing naar het CREA Theater\r\nAmsterdam, 3 fenbruari 2026 Op 19 februari staat de internationaal toonaangevende strateeg Joe Burns \u00e9\u00e9n avond in A\u2026 [+1309 chars]",
+          "url": "https://www.emerce.nl/wire/internationale-topstrateeg-joe-burns-19-februari-amsterdam",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-02-03T14:55:39Z",
+          "author": "The Substance Club",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/02/TSC-2026.jpg",
+          "is_local_nj": false,
+          "article_id": "074d71ecda7a",
+          "summary": "The Substance Club haalt Joe Burns met \u2018From Thought to Thing\u2019 naar het CREA Theater Amsterdam, 3 fenbruari 2026 \u2014 [\u2026]",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Meta & University Of Utah Explore Using Neural Band For Accessibility",
+          "description": "The Utah NeuroRobotics Lab is exploring Meta's Neural Band as an accessibility tool instead of relying on chin joysticks, head switches, and sip-and-puff controls.",
+          "content": "The Utah NeuroRobotics Lab is exploring Meta's Neural Band as an accessibility tool instead of relying on chin joysticks, head switches, and sip-and-puff controls.\r\nSurface electromyography (sEMG) is\u2026 [+2792 chars]",
+          "url": "https://www.uploadvr.com/meta-university-of-utah-explore-using-neural-band-for-accessibility/",
+          "source_name": "UploadVR",
+          "source_type": "newsapi",
+          "published_at": "2026-02-03T14:46:32Z",
+          "author": "Alan Truly",
+          "image_url": "https://www.uploadvr.com/content/images/size/w1200/2026/02/Meta-Orion-AR-glasses---EMG-wristband-2.png",
+          "is_local_nj": false,
+          "article_id": "d9ca20d026b8",
+          "summary": "The Utah NeuroRobotics Lab is exploring Meta's Neural Band as an accessibility tool instead of relying on chin joysticks, head switches, and sip-and-puff controls.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Transcript: Kate Burke, Allspring Global Investments, CEO",
+          "description": "The transcript from this week\u2019s MiB: Kate Burke, Allspring Global Investments, CEO, is below. You can stream and download our full conversation, including any podcast extras, on Apple Podcasts, Spotify,\u00a0YouTube, and Bloomberg. All of our earlier podcasts on y\u2026",
+          "content": "The transcript from this weeks MiB: Kate Burke, Allspring Global Investments, CEO, is below.\r\nYou can stream and download our full conversation, including any podcast extras, on Apple Podcasts, Spoti\u2026 [+55088 chars]",
+          "url": "https://ritholtz.com/2026/02/transcript-kate-burke/",
+          "source_name": "Ritholtz.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-03T13:30:11Z",
+          "author": "Barry Ritholtz",
+          "image_url": "https://ritholtz.com/wp-content/uploads/2025/05/mib_2025.png",
+          "is_local_nj": false,
+          "article_id": "8c7248aa50eb",
+          "summary": "The transcript from this week\u2019s MiB: Kate Burke, Allspring Global Investments, CEO, is below. You can stream and download our full conversation, including any podcast extras, on Apple Podcasts, Spotif",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Quote of the day by Stephen Hawking: 'The greatest enemy of knowledge is not ignorance, it is the...'",
+        "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-the-greatest-enemy-of-knowledge-is-not-ignorance-it-is-the-/articleshow/128021184.cms",
+        "source": "The Times of India",
+        "date": "2026-02-07T05:22:35Z"
+      },
+      {
+        "title": "If approved, Kentuckians with these 16 medical conditions may qualify for medical cannabis",
+        "url": "https://www.whas11.com/article/news/health/kentucky-medical-cannabis-more-conditions-may-be-added/417-f145b964-7bef-4860-b8d9-12b8212ea308",
+        "source": "WHAS11.com",
+        "date": "2026-02-06T22:02:56Z"
+      },
+      {
+        "title": "Back where he belongs. (12 Photos)",
+        "url": "https://thechive.com/humanity/inspirational/back-where-he-belongs-12-photos/?utm_postid=5177311&utm_editor=5177311_brittany",
+        "source": "Thechive.com",
+        "date": "2026-02-06T16:50:00Z"
+      },
+      {
+        "title": "How AI is helping solve the labor issue in treating rare diseases | TechCrunch",
+        "url": "https://techcrunch.com/2026/02/06/how-ai-is-helping-with-the-labor-issue-in-treating-rare-diseases/",
+        "source": "TechCrunch",
+        "date": "2026-02-06T14:33:31Z"
+      },
+      {
+        "title": "Workforce, succession planning, and optimism for the future among Swiss general practitioners with additional training in complementary medicine in 2016: A nationwide cross-sectional study",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0342226",
+        "source": "Plos.org",
+        "date": "2026-02-06T14:00:00Z"
+      },
+      {
+        "title": "Research on the influence of virtual reality on muscle fatigue during rowing ergometer exercise \u2013 pilot study",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0342166",
+        "source": "Plos.org",
+        "date": "2026-02-06T14:00:00Z"
+      },
+      {
+        "title": "Brixton Metals Defines New Exploration Targets at Thorn Through Geochemical Sampling",
+        "url": "https://financialpost.com/globe-newswire/brixton-metals-defines-new-exploration-targets-at-thorn-through-geochemical-sampling",
+        "source": "Financial Post",
+        "date": "2026-02-06T12:34:04Z"
+      },
+      {
+        "title": "Brixton Metals Defines New Exploration Targets at Thorn Through Geochemical Sampling",
+        "url": "https://www.globenewswire.com/news-release/2026/02/06/3233756/0/en/Brixton-Metals-Defines-New-Exploration-Targets-at-Thorn-Through-Geochemical-Sampling.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-06T12:30:00Z"
+      },
+      {
+        "title": "uniQure Announces Updated Preliminary AMT-191 Phase I/IIa Data Showing Sustained Increases in \u03b1-Gal A Enzyme Activity in Patients with Fabry Disease",
+        "url": "https://www.globenewswire.com/news-release/2026/02/06/3233740/0/en/uniQure-Announces-Updated-Preliminary-AMT-191-Phase-I-IIa-Data-Showing-Sustained-Increases-in-%CE%B1-Gal-A-Enzyme-Activity-in-Patients-with-Fabry-Disease.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-06T12:05:00Z"
+      },
+      {
+        "title": "BreezyBox: A BusyBox-Like Shell and Virtual Terminal for ESP32",
+        "url": "https://hackaday.com/2026/02/06/breezybox-a-busybox-like-shell-and-virtual-terminal-for-esp32/",
+        "source": "Hackaday",
+        "date": "2026-02-06T12:00:01Z"
+      },
+      {
+        "title": "The student who was admitted to a medical faculty in Sri Lanka by court order after completing ALs in Russia",
+        "url": "https://english.gossiplankanews.com/2026/02/the-student-who-was-admitted-to-medical.html",
+        "source": "Gossiplankanews.com",
+        "date": "2026-02-06T04:40:18Z"
+      },
+      {
+        "title": "Kentucky seeking to expand medical marijuana qualifying conditions",
+        "url": "https://www.wlky.com/article/kentucky-medical-marijuana-eligibility-more-conditions/70260344",
+        "source": "WLKY Louisville",
+        "date": "2026-02-05T21:44:01Z"
+      },
+      {
+        "title": "\"When A Flower Doesn't Grow\" von Softcult",
+        "url": "https://laut.de/Softcult/Alben/When-A-Flower-Doesnt-Grow-126450",
+        "source": "Laut.de",
+        "date": "2026-02-05T15:58:03Z"
+      },
+      {
+        "title": "Rio Tinto bl\u00e4st Fusion mit Glencore ab",
+        "url": "https://orf.at/stories/3419329/",
+        "source": "Orf.at",
+        "date": "2026-02-05T15:49:29Z"
+      },
+      {
+        "title": "Trends Everyone Once Took Seriously That Now Feel Wild",
+        "url": "http://www.denofgeek.com/msn/trends-everyone-once-took-seriously-that-now-feel-wild/",
+        "source": "Den of Geek US",
+        "date": "2026-02-05T11:45:00Z"
+      },
+      {
+        "title": "Osisko Metals Launches Deep Porphyry Exploration Project (\u2018DPEX\u2019) and Confirms 852 Metres Averaging 0.95% CuEq at Historic Porphyry Mountain Deposit",
+        "url": "https://financialpost.com/globe-newswire/osisko-metals-launches-deep-porphyry-exploration-project-dpex-and-confirms-852-metres-averaging-0-95-cueq-at-historic-porphyry-mountain-deposit",
+        "source": "Financial Post",
+        "date": "2026-02-05T11:01:55Z"
+      },
+      {
+        "title": "Osisko Metals Launches Deep Porphyry Exploration Project (\"DPEX\") and Confirms 852 Metres Averaging 0.95% CuEq at Historic Porphyry Mountain Deposit",
+        "url": "https://www.globenewswire.com/news-release/2026/02/05/3232766/0/en/Osisko-Metals-Launches-Deep-Porphyry-Exploration-Project-DPEX-and-Confirms-852-Metres-Averaging-0-95-CuEq-at-Historic-Porphyry-Mountain-Deposit.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-05T11:00:00Z"
+      },
+      {
+        "title": "Neurotechnology and Cognitive Warfare",
+        "url": "http://opiniojuris.org/2026/02/05/neurotechnology-and-cognitive-warfare/",
+        "source": "Opiniojuris.org",
+        "date": "2026-02-05T09:00:02Z"
+      },
+      {
+        "title": "\"The Boy Who Cried Terrified .\" von Fakemink",
+        "url": "https://laut.de/Fakemink/Alben/The-Boy-Who-Cried-Terrified-.-126448",
+        "source": "Laut.de",
+        "date": "2026-02-05T08:50:21Z"
+      },
+      {
+        "title": "Somatosensory evoked potentials and high-frequency oscillations after transcranial static magnetic stimulation over the primary somatosensory cortex",
+        "url": "https://www.nature.com/articles/s41598-026-38767-2",
+        "source": "Nature.com",
+        "date": "2026-02-05T00:00:00Z"
+      },
+      {
+        "title": "ProMIS Neurosciences to Participate in the Guggenheim Emerging Outlook: Biotech Summit 2026",
+        "url": "https://financialpost.com/globe-newswire/promis-neurosciences-to-participate-in-the-guggenheim-emerging-outlook-biotech-summit-2026",
+        "source": "Financial Post",
+        "date": "2026-02-04T21:06:48Z"
+      },
+      {
+        "title": "Is there a link between viral infection and ALS?",
+        "url": "https://www.futurity.org/viral-infection-als-3321482/",
+        "source": "Futurity: Research News",
+        "date": "2026-02-04T17:24:49Z"
+      },
+      {
+        "title": "Coach: 'No doubt' Vonn races despite ACL injury",
+        "url": "https://www.espn.com/olympics/story/_/id/47826052/coach-lindsey-vonn-no-workout-pain-confident-race",
+        "source": "ESPN",
+        "date": "2026-02-04T16:36:09Z"
+      },
+      {
+        "title": "Ellen Pompeo Told Eric Dane \u2018Whatever You Need, However I Can Help. I Love You\u2019 After Learning of \u2018Grey\u2019s Anatomy\u2019 Co-Star\u2019s ALS Diagnosis",
+        "url": "https://variety.com/2026/tv/news/ellen-pompeo-eric-dane-als-diagnosis-greys-anatomy-1236651745/",
+        "source": "Variety",
+        "date": "2026-02-04T16:21:29Z"
+      },
+      {
+        "title": "Coach of Lindsey Vonn says 'no doubt' injured skier will race in Olympics",
+        "url": "https://www.cbc.ca/sports/olympics/winter/alpine-skiing/lindsey-vonn-injury-update-ruptured-acl-olympics-cortina-9.7073619",
+        "source": "CBC News",
+        "date": "2026-02-04T15:39:37Z"
+      },
+      {
+        "title": "Lindsey Vonn doing \u2018jumps\u2019 in rehab, coach tells AP \u2018no doubt\u2019 she\u2019ll race in Olympics with torn ACL",
+        "url": "https://www.bostonherald.com/2026/02/04/vonn-coach-no-doubt-olympics/",
+        "source": "Boston Herald",
+        "date": "2026-02-04T14:50:26Z"
+      },
+      {
+        "title": "Lindsey Vonn doing \u2018jumps\u2019 in rehab, coach tells AP \u2018no doubt\u2019 she\u2019ll race in Olympics with torn ACL",
+        "url": "https://www.denverpost.com/2026/02/04/vonn-coach-no-doubt-olympics/",
+        "source": "The Denver Post",
+        "date": "2026-02-04T14:50:26Z"
+      },
+      {
+        "title": "Lindsey Vonn doing 'jumps' in rehab, coach tells AP 'no doubt' she'll race in Olympics with torn ACL",
+        "url": "https://sports.yahoo.com/articles/lindsey-vonn-doing-jumps-rehab-144221661.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-02-04T14:42:21Z"
+      },
+      {
+        "title": "Trump tried to gut science research funding. Courts and Congress have rebuffed him.",
+        "url": "https://www.nbcnews.com/science/science-news/trump-science-research-funding-cuts-congress-rebuffed-rcna256793",
+        "source": "NBC News",
+        "date": "2026-02-04T10:00:00Z"
+      },
+      {
+        "title": "Syensqo - Participation notification by BlackRock Inc.",
+        "url": "https://www.globenewswire.com/news-release/2026/02/04/3231787/0/en/Syensqo-Participation-notification-by-BlackRock-Inc.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-04T07:30:00Z"
+      },
+      {
+        "title": "Ellen Pompeo reveals her private conversation with Eric Dane after learning his ALS diagnosis",
+        "url": "https://pagesix.com/2026/02/03/entertainment/ellen-pompeo-reveals-private-conversation-with-eric-dane-after-learning-als-diagnosis/",
+        "source": "Page Six",
+        "date": "2026-02-04T04:29:41Z"
+      },
+      {
+        "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+        "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+        "source": "Just Jared",
+        "date": "2026-02-04T02:05:01Z"
+      },
+      {
+        "title": "Parkinson\u2019s disease as a somato-cognitive action network disorder",
+        "url": "https://www.nature.com/articles/s41586-025-10059-1",
+        "source": "Nature.com",
+        "date": "2026-02-04T00:00:00Z"
+      },
+      {
+        "title": "Biofluid biomarkers in Alzheimer\u2019s disease\u00a0and other neurodegenerative dementias",
+        "url": "https://www.nature.com/articles/s41586-025-10018-w",
+        "source": "Nature.com",
+        "date": "2026-02-04T00:00:00Z"
+      },
+      {
+        "title": "What Ellen Pompeo Told Eric Dane After Learning of His ALS Diagnosis",
+        "url": "https://www.eonline.com/news/1428140/eric-danes-als-diagnosis-ellen-pompeo-speaks-out",
+        "source": "Eonline.com",
+        "date": "2026-02-03T20:37:47Z"
+      },
+      {
+        "title": "Bipartisan Congressional Action Advances Critical Programs for Rare Neuromuscular Disease Research and Care",
+        "url": "https://www.globenewswire.com/news-release/2026/02/03/3231566/0/en/Bipartisan-Congressional-Action-Advances-Critical-Programs-for-Rare-Neuromuscular-Disease-Research-and-Care.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-03T20:03:00Z"
+      },
+      {
+        "title": "To Statin or Not to Statin? Cholesterol, CAC Scores & Heart Health",
+        "url": "https://ravoke.com/to-statin-or-not-to-statin-cac-cholesterol/",
+        "source": "Ravoke.com",
+        "date": "2026-02-03T19:25:34Z"
+      },
+      {
+        "title": "Internationale topstrateeg Joe Burns op 19 februari in Amsterdam",
+        "url": "https://www.emerce.nl/wire/internationale-topstrateeg-joe-burns-19-februari-amsterdam",
+        "source": "Emerce.nl",
+        "date": "2026-02-03T14:55:39Z"
+      },
+      {
+        "title": "Meta & University Of Utah Explore Using Neural Band For Accessibility",
+        "url": "https://www.uploadvr.com/meta-university-of-utah-explore-using-neural-band-for-accessibility/",
+        "source": "UploadVR",
+        "date": "2026-02-03T14:46:32Z"
+      },
+      {
+        "title": "Transcript: Kate Burke, Allspring Global Investments, CEO",
+        "url": "https://ritholtz.com/2026/02/transcript-kate-burke/",
+        "source": "Ritholtz.com",
+        "date": "2026-02-03T13:30:11Z"
+      }
+    ],
+    "generated_at": "2026-02-08T08:36:10.329250"
+  },
+  {
     "date": "2026-02-01",
     "week_of": "February 01, 2026",
     "digest_number": 6,
