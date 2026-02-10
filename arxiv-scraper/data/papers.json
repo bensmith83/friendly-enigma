@@ -1,5 +1,26 @@
 [
   {
+    "id": "2602.08446v1",
+    "title": "RIFLE: Robust Distillation-based FL for Deep Model Deployment on Resource-Constrained IoT Networks",
+    "summary": "Federated learning (FL) is a decentralized learning paradigm widely adopted in resource-constrained Internet of Things (IoT) environments. These devices, typically relying on TinyML models, collaboratively train global models by sharing gradients with a central server while preserving data privacy. However, as data heterogeneity and task complexity increase, TinyML models often become insufficient to capture intricate patterns, especially under extreme non-IID (non-independent and identically distributed) conditions. Moreover, ensuring robustness against malicious clients and poisoned updates remains a major challenge. Accordingly, this paper introduces RIFLE - a Robust, distillation-based Federated Learning framework that replaces gradient sharing with logit-based knowledge transfer. By leveraging a knowledge distillation aggregation scheme, RIFLE enables the training of deep models such as VGG-19 and Resnet18 within constrained IoT systems. Furthermore, a Kullback-Leibler (KL) divergence-based validation mechanism quantifies the reliability of client updates without exposing raw data, achieving high trust and privacy preservation simultaneously. Experiments on three benchmark datasets (MNIST, CIFAR-10, and CIFAR-100) under heterogeneous non-IID conditions demonstrate that RIFLE reduces false-positive detections by up to 87.5%, enhances poisoning attack mitigation by 62.5%, and achieves up to 28.3% higher accuracy compared to conventional federated learning baselines within only 10 rounds. Notably, RIFLE reduces VGG19 training time from over 600 days to just 1.39 hours on typical IoT devices (0.3 GFLOPS), making deep learning practical in resource-constrained networks.",
+    "published": "2026-02-09T09:57:59Z",
+    "link": "http://arxiv.org/abs/2602.08446v1",
+    "authors": [
+      "Pouria Arefijamal",
+      "Mahdi Ahmadlou",
+      "Bardia Safaei",
+      "J\u00f6rg Henkel"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC",
+      "cs.NI"
+    ],
+    "ai_summary": "Federated learning (FL) is a decentralized learning paradigm widely adopted in resource-constrained Internet of Things (IoT) environments. These devices, typically relying on TinyML models, collaboratively train global models by sharing gradients with a central server while preserving data privacy.",
+    "selected_date": "2026-02-10"
+  },
+  {
     "id": "2602.06777v1",
     "title": "Next-generation cyberattack detection with large language models: anomaly analysis across heterogeneous logs",
     "summary": "This project explores large language models (LLMs) for anomaly detection across heterogeneous log sources. Traditional intrusion detection systems suffer from high false positive rates, semantic blindness, and data scarcity, as logs are inherently sensitive, making clean datasets rare. We address these challenges through three contributions: (1) LogAtlas-Foundation-Sessions and LogAtlas-Defense-Set, balanced and heterogeneous log datasets with explicit attack annotations and privacy preservation; (2) empirical benchmarking revealing why standard metrics such as F1 and accuracy are misleading for security applications; and (3) a two phase training framework combining log understanding (Base-AMAN, 3B parameters) with real time detection (AMAN, 0.5B parameters via knowledge distillation). Results demonstrate practical feasibility, with inference times of 0.3-0.5 seconds per session and operational costs below 50 USD per day.",
@@ -568,24 +589,5 @@
     ],
     "ai_summary": "Vulnerabilities severely threaten software systems, making the timely application of security patches crucial for mitigating attacks. However, software vendors often silently patch vulnerabilities with limited disclosure, where Security Patch Detection (SPD) comes to protect software assets.",
     "selected_date": "2026-01-12"
-  },
-  {
-    "id": "2601.05076v1",
-    "title": "Chain-of-Sanitized-Thoughts: Plugging PII Leakage in CoT of Large Reasoning Models",
-    "summary": "Large Reasoning Models (LRMs) improve performance, reliability, and interpretability by generating explicit chain-of-thought (CoT) reasoning, but this transparency introduces a serious privacy risk: intermediate reasoning often leaks personally identifiable information (PII) even when final answers are sanitized. We study how to induce privacy-first reasoning, where models reason without exposing sensitive information, using deployable interventions rather than post-hoc redaction. We introduce PII-CoT-Bench, a supervised dataset with privacy-aware CoT annotations, and a category-balanced evaluation benchmark covering realistic and adversarial leakage scenarios. Our results reveal a capability-dependent trend: state-of-the-art models benefit most from prompt-based controls, whereas weaker models require fine-tuning to achieve meaningful leakage reduction. Across models and categories, both approaches substantially reduce PII exposure with minimal degradation in utility, demonstrating that private reasoning can be achieved without sacrificing performance. Overall, we show that private CoT reasoning can be achieved with minimal utility loss, providing practical guidance for building privacy-preserving reasoning systems.",
-    "published": "2026-01-08T16:19:43Z",
-    "link": "http://arxiv.org/abs/2601.05076v1",
-    "authors": [
-      "Arghyadeep Das",
-      "Sai Sreenivas Chintha",
-      "Rishiraj Girmal",
-      "Kinjal Pandey",
-      "Sharvi Endait"
-    ],
-    "categories": [
-      "cs.AI"
-    ],
-    "ai_summary": "Large Reasoning Models (LRMs) improve performance, reliability, and interpretability by generating explicit chain-of-thought (CoT) reasoning, but this transparency introduces a serious privacy risk: intermediate reasoning often leaks personally identifiable information (PII) even when final answers are sanitized. We study how to induce privacy-first reasoning, where models reason without exposing sensitive information, using deployable interventions rather than post-hoc redaction.",
-    "selected_date": "2026-01-11"
   }
 ]
