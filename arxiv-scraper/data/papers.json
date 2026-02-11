@@ -1,5 +1,28 @@
 [
   {
+    "id": "2602.09431v1",
+    "title": "Understanding and Enhancing Encoder-based Adversarial Transferability against Large Vision-Language Models",
+    "summary": "Large vision-language models (LVLMs) have achieved impressive success across multimodal tasks, but their reliance on visual inputs exposes them to significant adversarial threats. Existing encoder-based attacks perturb the input image by optimizing solely on the vision encoder, rather than the entire LVLM, offering a computationally efficient alternative to end-to-end optimization. However, their transferability across different LVLM architectures in realistic black-box scenarios remains poorly understood. To address this gap, we present the first systematic study towards encoder-based adversarial transferability in LVLMs. Our contributions are threefold. First, through large-scale benchmarking over eight diverse LVLMs, we reveal that existing attacks exhibit severely limited transferability. Second, we perform in-depth analysis, disclosing two root causes that hinder the transferability: (1) inconsistent visual grounding across models, where different models focus their attention on distinct regions; (2) redundant semantic alignment within models, where a single object is dispersed across multiple overlapping token representations. Third, we propose Semantic-Guided Multimodal Attack (SGMA), a novel framework to enhance the transferability. Inspired by the discovered causes in our analysis, SGMA directs perturbations toward semantically critical regions and disrupts cross-modal grounding at both global and local levels. Extensive experiments across different victim models and tasks show that SGMA achieves higher transferability than existing attacks. These results expose critical security risks in LVLM deployment and underscore the urgent need for robust multimodal defenses.",
+    "published": "2026-02-10T05:51:02Z",
+    "link": "http://arxiv.org/abs/2602.09431v1",
+    "authors": [
+      "Xinwei Zhang",
+      "Li Bai",
+      "Tianwei Zhang",
+      "Youqian Zhang",
+      "Qingqing Ye",
+      "Yingnan Zhao",
+      "Ruochen Du",
+      "Haibo Hu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CV"
+    ],
+    "ai_summary": "Large vision-language models (LVLMs) have achieved impressive success across multimodal tasks, but their reliance on visual inputs exposes them to significant adversarial threats. Existing encoder-based attacks perturb the input image by optimizing solely on the vision encoder, rather than the entire LVLM, offering a computationally efficient alternative to end-to-end optimization.",
+    "selected_date": "2026-02-11"
+  },
+  {
     "id": "2602.08446v1",
     "title": "RIFLE: Robust Distillation-based FL for Deep Model Deployment on Resource-Constrained IoT Networks",
     "summary": "Federated learning (FL) is a decentralized learning paradigm widely adopted in resource-constrained Internet of Things (IoT) environments. These devices, typically relying on TinyML models, collaboratively train global models by sharing gradients with a central server while preserving data privacy. However, as data heterogeneity and task complexity increase, TinyML models often become insufficient to capture intricate patterns, especially under extreme non-IID (non-independent and identically distributed) conditions. Moreover, ensuring robustness against malicious clients and poisoned updates remains a major challenge. Accordingly, this paper introduces RIFLE - a Robust, distillation-based Federated Learning framework that replaces gradient sharing with logit-based knowledge transfer. By leveraging a knowledge distillation aggregation scheme, RIFLE enables the training of deep models such as VGG-19 and Resnet18 within constrained IoT systems. Furthermore, a Kullback-Leibler (KL) divergence-based validation mechanism quantifies the reliability of client updates without exposing raw data, achieving high trust and privacy preservation simultaneously. Experiments on three benchmark datasets (MNIST, CIFAR-10, and CIFAR-100) under heterogeneous non-IID conditions demonstrate that RIFLE reduces false-positive detections by up to 87.5%, enhances poisoning attack mitigation by 62.5%, and achieves up to 28.3% higher accuracy compared to conventional federated learning baselines within only 10 rounds. Notably, RIFLE reduces VGG19 training time from over 600 days to just 1.39 hours on typical IoT devices (0.3 GFLOPS), making deep learning practical in resource-constrained networks.",
@@ -567,27 +590,5 @@
     ],
     "ai_summary": "Large Language Models have emerged as transformative tools for Security Operations Centers, enabling automated log analysis, phishing triage, and malware explanation; however, deployment in adversarial cybersecurity environments exposes critical vulnerabilities to prompt injection attacks where malicious instructions embedded in security artifacts manipulate model behavior. This paper introduces SecureCAI, a novel defense framework extending Constitutional AI principles with security-aware guardrails, adaptive constitution evolution, and Direct Preference Optimization for unlearning unsafe response patterns, addressing the unique challenges of high-stakes security contexts where traditional safety mechanisms prove insufficient against sophisticated adversarial manipulation.",
     "selected_date": "2026-01-13"
-  },
-  {
-    "id": "2601.05772v1",
-    "title": "StriderSPD: Structure-Guided Joint Representation Learning for Binary Security Patch Detection",
-    "summary": "Vulnerabilities severely threaten software systems, making the timely application of security patches crucial for mitigating attacks. However, software vendors often silently patch vulnerabilities with limited disclosure, where Security Patch Detection (SPD) comes to protect software assets. Recently, most SPD studies have targeted Open-Source Software (OSS), yet a large portion of real-world software is closed-source, where patches are distributed as binaries without accessible source code. The limited binary SPD approaches often lift binaries to abstraction levels, i.e., assembly code or pseudo-code. However, assembly code is register-based instructions conveying limited semantics, while pseudo-code lacks parser-compatible grammar to extract structure, both hindering accurate vulnerability-fix representation learning. In addition, previous studies often obtain training and testing data from the same project for evaluation, which fails to reflect closed-source conditions. To alleviate the above challenges, we propose \\textbf{\\textit{StriderSPD}}, a \\underline{Str}ucture-gu\\underline{ide}d joint \\underline{r}epresentation \\underline{SPD} framework of binary code that integrates a graph branch into a large language model (LLM), leveraging structural information to guide the LLM in identifying security patches. Our novel design of the adapters in the graph branch effectively aligns the representations between assembly code and pseudo-code at the LLM's token level. We further present a two-stage training strategy to address the optimization imbalance caused by the large parameter disparity between StriderSPD's two branches, which enables proper branch fitting. To enable more realistic evaluation, we construct a binary SPD benchmark that is disjoint from prior datasets in both projects and domains and extensively evaluate StriderSPD on this benchmark.",
-    "published": "2026-01-09T12:55:29Z",
-    "link": "http://arxiv.org/abs/2601.05772v1",
-    "authors": [
-      "Qingyuan Li",
-      "Chenchen Yu",
-      "Chuanyi Li",
-      "Xin-Cheng Wen",
-      "Cheryl Lee",
-      "Cuiyun Gao",
-      "Bin Luo"
-    ],
-    "categories": [
-      "cs.SE",
-      "cs.CR"
-    ],
-    "ai_summary": "Vulnerabilities severely threaten software systems, making the timely application of security patches crucial for mitigating attacks. However, software vendors often silently patch vulnerabilities with limited disclosure, where Security Patch Detection (SPD) comes to protect software assets.",
-    "selected_date": "2026-01-12"
   }
 ]
