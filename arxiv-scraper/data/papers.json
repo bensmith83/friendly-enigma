@@ -1,5 +1,21 @@
 [
   {
+    "id": "2602.11020v1",
+    "title": "When Fusion Helps and When It Breaks: View-Aligned Robustness in Same-Source Financial Imaging",
+    "summary": "We study same-source multi-view learning and adversarial robustness for next-day direction prediction with financial image representations. On Shanghai Gold Exchange (SGE) spot gold data (2005-2025), we construct two window-aligned views from each rolling window: an OHLCV-rendered price/volume chart and a technical-indicator matrix. To ensure reliable evaluation, we adopt leakage-resistant time-block splits with embargo and use Matthews correlation coefficient (MCC). We find that results depend strongly on the label-noise regime: we apply an ex-post minimum-movement filter that discards samples with realized next-day absolute return below tau to define evaluation subsets with reduced near-zero label ambiguity. This induces a non-monotonic data-noise trade-off that can reveal predictive signal but eventually increases variance as sample size shrinks; the filter is used for offline benchmark construction rather than an inference-time decision rule. In the stabilized subsets, fusion is regime dependent: early fusion by channel stacking can exhibit negative transfer, whereas late fusion with dual encoders and a fusion head provides the dominant clean-performance gains; cross-view consistency regularization has secondary, backbone-dependent effects. We further evaluate test-time L-infinity perturbations using FGSM and PGD under two threat scenarios: view-constrained attacks that perturb one view and joint attacks that perturb both. We observe severe vulnerability at tiny budgets with strong view asymmetry. Late fusion consistently improves robustness under view-constrained attacks, but joint attacks remain challenging and can still cause substantial worst-case degradation.",
+    "published": "2026-02-11T16:45:23Z",
+    "link": "http://arxiv.org/abs/2602.11020v1",
+    "authors": [
+      "Rui Ma"
+    ],
+    "categories": [
+      "cs.LG",
+      "q-fin.ST"
+    ],
+    "ai_summary": "We study same-source multi-view learning and adversarial robustness for next-day direction prediction with financial image representations. On Shanghai Gold Exchange (SGE) spot gold data (2005-2025), we construct two window-aligned views from each rolling window: an OHLCV-rendered price/volume chart and a technical-indicator matrix.",
+    "selected_date": "2026-02-12"
+  },
+  {
     "id": "2602.09431v1",
     "title": "Understanding and Enhancing Encoder-based Adversarial Transferability against Large Vision-Language Models",
     "summary": "Large vision-language models (LVLMs) have achieved impressive success across multimodal tasks, but their reliance on visual inputs exposes them to significant adversarial threats. Existing encoder-based attacks perturb the input image by optimizing solely on the vision encoder, rather than the entire LVLM, offering a computationally efficient alternative to end-to-end optimization. However, their transferability across different LVLM architectures in realistic black-box scenarios remains poorly understood. To address this gap, we present the first systematic study towards encoder-based adversarial transferability in LVLMs. Our contributions are threefold. First, through large-scale benchmarking over eight diverse LVLMs, we reveal that existing attacks exhibit severely limited transferability. Second, we perform in-depth analysis, disclosing two root causes that hinder the transferability: (1) inconsistent visual grounding across models, where different models focus their attention on distinct regions; (2) redundant semantic alignment within models, where a single object is dispersed across multiple overlapping token representations. Third, we propose Semantic-Guided Multimodal Attack (SGMA), a novel framework to enhance the transferability. Inspired by the discovered causes in our analysis, SGMA directs perturbations toward semantically critical regions and disrupts cross-modal grounding at both global and local levels. Extensive experiments across different victim models and tasks show that SGMA achieves higher transferability than existing attacks. These results expose critical security risks in LVLM deployment and underscore the urgent need for robust multimodal defenses.",
@@ -571,24 +587,5 @@
     ],
     "ai_summary": "Large Language Models have emerged as transformative tools for Security Operations Centers, enabling automated log analysis, phishing triage, and malware explanation; however, deployment in adversarial cybersecurity environments exposes critical vulnerabilities to prompt injection attacks where malicious instructions embedded in security artifacts manipulate model behavior. This paper introduces SecureCAI, a novel defense framework extending Constitutional AI principles with security-aware guardrails, adaptive constitution evolution, and Direct Preference Optimization for unlearning unsafe response patterns, addressing the unique challenges of high-stakes security contexts where traditional safety mechanisms prove insufficient against sophisticated adversarial manipulation.",
     "selected_date": "2026-01-14"
-  },
-  {
-    "id": "2601.07835v1",
-    "title": "SecureCAI: Injection-Resilient LLM Assistants for Cybersecurity Operations",
-    "summary": "Large Language Models have emerged as transformative tools for Security Operations Centers, enabling automated log analysis, phishing triage, and malware explanation; however, deployment in adversarial cybersecurity environments exposes critical vulnerabilities to prompt injection attacks where malicious instructions embedded in security artifacts manipulate model behavior. This paper introduces SecureCAI, a novel defense framework extending Constitutional AI principles with security-aware guardrails, adaptive constitution evolution, and Direct Preference Optimization for unlearning unsafe response patterns, addressing the unique challenges of high-stakes security contexts where traditional safety mechanisms prove insufficient against sophisticated adversarial manipulation. Experimental evaluation demonstrates that SecureCAI reduces attack success rates by 94.7% compared to baseline models while maintaining 95.1% accuracy on benign security analysis tasks, with the framework incorporating continuous red-teaming feedback loops enabling dynamic adaptation to emerging attack strategies and achieving constitution adherence scores exceeding 0.92 under sustained adversarial pressure, thereby establishing a foundation for trustworthy integration of language model capabilities into operational cybersecurity workflows and addressing a critical gap in current approaches to AI safety within adversarial domains.",
-    "published": "2026-01-12T18:59:45Z",
-    "link": "http://arxiv.org/abs/2601.07835v1",
-    "authors": [
-      "Mohammed Himayath Ali",
-      "Mohammed Aqib Abdullah",
-      "Mohammed Mudassir Uddin",
-      "Shahnawaz Alam"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.CV"
-    ],
-    "ai_summary": "Large Language Models have emerged as transformative tools for Security Operations Centers, enabling automated log analysis, phishing triage, and malware explanation; however, deployment in adversarial cybersecurity environments exposes critical vulnerabilities to prompt injection attacks where malicious instructions embedded in security artifacts manipulate model behavior. This paper introduces SecureCAI, a novel defense framework extending Constitutional AI principles with security-aware guardrails, adaptive constitution evolution, and Direct Preference Optimization for unlearning unsafe response patterns, addressing the unique challenges of high-stakes security contexts where traditional safety mechanisms prove insufficient against sophisticated adversarial manipulation.",
-    "selected_date": "2026-01-13"
   }
 ]
