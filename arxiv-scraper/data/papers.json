@@ -1,5 +1,23 @@
 [
   {
+    "id": "2602.11933v1",
+    "title": "Cross-Modal Robustness Transfer (CMRT): Training Robust Speech Translation Models Using Adversarial Text",
+    "summary": "End-to-End Speech Translation (E2E-ST) has seen significant advancements, yet current models are primarily benchmarked on curated, \"clean\" datasets. This overlooks critical real-world challenges, such as morphological robustness to inflectional variations common in non-native or dialectal speech. In this work, we adapt a text-based adversarial attack targeting inflectional morphology to the speech domain and demonstrate that state-of-the-art E2E-ST models are highly vulnerable it. While adversarial training effectively mitigates such risks in text-based tasks, generating high-quality adversarial speech data remains computationally expensive and technically challenging. To address this, we propose Cross-Modal Robustness Transfer (CMRT), a framework that transfers adversarial robustness from the text modality to the speech modality. Our method eliminates the requirement for adversarial speech data during training. Extensive experiments across four language pairs demonstrate that CMRT improves adversarial robustness by an average of more than 3 BLEU points, establishing a new baseline for robust E2E-ST without the overhead of generating adversarial speech.",
+    "published": "2026-02-12T13:30:12Z",
+    "link": "http://arxiv.org/abs/2602.11933v1",
+    "authors": [
+      "Abderrahmane Issam",
+      "Yusuf Can Semerci",
+      "Jan Scholtes",
+      "Gerasimos Spanakis"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "ai_summary": "End-to-End Speech Translation (E2E-ST) has seen significant advancements, yet current models are primarily benchmarked on curated, \"clean\" datasets. This overlooks critical real-world challenges, such as morphological robustness to inflectional variations common in non-native or dialectal speech.",
+    "selected_date": "2026-02-14"
+  },
+  {
     "id": "2602.11764v1",
     "title": "Reliable and Private Anonymous Routing for Satellite Constellations",
     "summary": "Shared, dynamic network infrastructures, such as dual-use LEO satellite constellations, pose critical threats to metadata privacy, particularly for state actors operating in mixed-trust environments. This work proposes an enhanced anonymity architecture, evolving the Loopix mix-network, to provide robust security and reliability in these volatile topologies. We introduce three primary contributions: (1) A multi-path transport protocol utilizing $(n, k)$ erasure codes, which is demonstrated to counteract the high link volatility and intermittent connectivity that renders standard mix-networks unreliable. (2) The integration of a computationally efficient Private Information Retrieval (PIR) protocol during route discovery. (3) The introduction of adaptive, centrality-based delay strategies that efficiently mitigate the inherent topological bias of LEO networks, providing a superior anonymity-to-latency trade-off. This mechanism provably prevents metadata leakage at the user-provider directory, mitigating profiling and correlation attacks. We validate this architecture via high-fidelity, packet-level simulations of a LEO constellation. Empirical results show our multi-path transport achieves near-zero message loss, establishing a quantifiable trade-off between reliability and bandwidth overhead. Furthermore, microbenchmarks of the PIR protocol quantify its computational and latency overheads, confirming its feasibility for practical deployment. This work provides a validated blueprint for deployable high-anonymity communication systems, demonstrating the viability of securely multiplexing sensitive operations within large-scale commercial network infrastructures.",
@@ -571,22 +589,5 @@
     ],
     "ai_summary": "Large Language Models (LLMs) have achieved remarkable capabilities but remain vulnerable to adversarial ``jailbreak'' attacks designed to bypass safety guardrails. Current safety alignment methods depend heavily on static external red teaming, utilizing fixed defense prompts or pre-collected adversarial datasets.",
     "selected_date": "2026-01-16"
-  },
-  {
-    "id": "2601.09363v1",
-    "title": "Efficient State Preparation for Quantum Machine Learning",
-    "summary": "One of the key considerations in the development of Quantum Machine Learning (QML) protocols is the encoding of classical data onto a quantum device. In this chapter we introduce the Matrix Product State representation of quantum systems and show how it may be used to construct circuits which encode a desired state. Putting this in the context of QML we show how this process may be modified to give a low depth approximate encoding and crucially that this encoding does not hinder classification accuracy and is indeed exhibits an increased robustness against classical adversarial attacks. This is illustrated by demonstrations of adversarially robust variational quantum classifiers for the MNIST and FMNIST dataset, as well as a small-scale experimental demonstration on a superconducting quantum device.",
-    "published": "2026-01-14T10:43:50Z",
-    "link": "http://arxiv.org/abs/2601.09363v1",
-    "authors": [
-      "Chris Nakhl",
-      "Maxwell West",
-      "Muhammad Usman"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "ai_summary": "One of the key considerations in the development of Quantum Machine Learning (QML) protocols is the encoding of classical data onto a quantum device. In this chapter we introduce the Matrix Product State representation of quantum systems and show how it may be used to construct circuits which encode a desired state.",
-    "selected_date": "2026-01-15"
   }
 ]
