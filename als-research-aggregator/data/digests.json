@@ -1,5 +1,1033 @@
 [
   {
+    "date": "2026-02-15",
+    "week_of": "February 15, 2026",
+    "digest_number": 8,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Four killed as small plane crashes near Steamboat Springs ski resort in Colorado",
+          "description": "A small plane crashed on a mountain near Steamboat Springs, Colorado. Four people died at the scene. The Epic E1000 turboprop plane went down early Friday. The crash occurred in a remote area of Emerald Mountain. The Federal Aviation Administration and Nation\u2026",
+          "content": "Four people are dead after a small plane crashed Friday on a mountain near the Colorado ski resort community of Steamboat Springs, authorities said.An Epic E1000, a six-seat turboprop plane, crashed \u2026 [+761 chars]",
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/four-killed-as-small-plane-crashes-near-steamboat-springs-ski-resort-in-colorado/articleshow/128330844.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-02-14T02:00:11Z",
+          "author": "AP",
+          "image_url": "https://img.etimg.com/thumb/msid-128330933,width-1200,height-630,imgsize-32092,overlay-economictimes/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "7b91b3a5c53e",
+          "summary": "A small plane crashed on a mountain near Steamboat Springs, Colorado. Four people died at the scene. The Epic E1000 turboprop plane went down early Friday. The crash occurred in a remote area of Emera",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "4 dead after small plane crashes near popular Colorado ski resort",
+          "description": "Four people are dead after a small plane crashed Friday into mountainous terrain near the Colorado ski resort community of Steamboat Springs, authorities said.",
+          "content": "Four people are dead after a small plane crashed Friday into mountainous terrain near the Colorado ski resort community of Steamboat Springs, authorities said.\r\nAn Epic E1000, a six-seat turboprop pl\u2026 [+791 chars]",
+          "url": "https://nypost.com/2026/02/13/us-news/4-dead-after-small-plane-crashes-near-popular-colorado-ski-resort/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-02-14T00:32:21Z",
+          "author": "Associated Press",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/02/downtown-steamboat-springs-colorado-sunny-121221919.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "87fcf789f25a",
+          "summary": "Four people are dead after a small plane crashed Friday into mountainous terrain near the Colorado ski resort community of Steamboat Springs, authorities said.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Frenkie de Jong\u2019s harsh criticism after Barcelona\u2019s disallowed goal in Copa del Rey defeat: \u2018If it\u2019s not AI\u2026\u2019",
+          "description": "Frenkie de Jong commented on the Pau Cubars\u00ed's disallowed goal in hard Barcelona's defeat in Copa del Rey\n Barcelona has too many defensive issues to compete with the best teams in Europe. Thursday\u2019s embarrassing defeat to Atl\u00e9tico Madrid in the first leg of \u2026",
+          "content": "Barcelona has too many defensive issues to compete with the best teams in Europe. Thursdays embarrassing defeat to Atl\u00e9tico Madrid in the first leg of the Copa del Rey semifinals made that clear. How\u2026 [+1759 chars]",
+          "url": "https://worldsoccertalk.com/news/frenkie-de-jongs-harsh-criticism-after-barcelonas-disallowed-goal-in-copa-del-rey-defeat-if-its-not-ai/",
+          "source_name": "Worldsoccertalk.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T23:00:16Z",
+          "author": "Mauro Tognacca",
+          "image_url": "https://media.worldsoccertalk.com/wp-content/uploads/sites/6/2026/02/13145415/de-1200x740.webp",
+          "is_local_nj": false,
+          "article_id": "39e823c53552",
+          "summary": "Frenkie de Jong commented on the Pau Cubars\u00ed's disallowed goal in hard Barcelona's defeat in Copa del Rey\n Barcelona has too many defensive issues to compete with the best teams in Europe. Thursday\u2019s ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ross 'The Boss' Friedman of The Dictators and Manowar Reveals ALS Diagnosis",
+          "description": "Sadly, Ross 'The Boss' Friedman of The Dictators and Manowar has revealed that he has ALS. A statement read: \"The diagnosis followed several months of seemingly unrelated symptoms that included weakness in his hands and legs. A series of very minor strokes wa\u2026",
+          "content": "Sadly, Ross 'The Boss' Friedman of The Dictators and Manowar has revealed that he has ALS. A statement read: \"The diagnosis followed several months of seemingly unrelated symptoms that included weakn\u2026 [+484 chars]",
+          "url": "https://www.punknews.org/article/87586/ross-the-boss-friedman-of-the-dictators-and-manowar-reveals-als-diagnosis",
+          "source_name": "Punknews.org",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T22:00:01Z",
+          "author": "johng@nospam.punknews.org (johng)",
+          "image_url": "https://static.punknews.org/images/frontpage/fp-1770996408.jpg",
+          "is_local_nj": false,
+          "article_id": "d7d6eaac84c2",
+          "summary": "Sadly, Ross 'The Boss' Friedman of The Dictators and Manowar has revealed that he has ALS. A statement read: \"The diagnosis followed several months of seemingly unrelated symptoms that included weakne",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "4 killed in plane crash near Steamboat Springs",
+          "description": "The National Transportation Safety Board is sending investigators to look into the crash of an Epic Aircraft E1000 in the early hours of Friday morning. The plane was registered to a company based near Nashville.",
+          "content": "Investigators from the National Transportation Safety Board are on their way to Steamboat Springs following the crash of an Epic Aircraft E1000 in the early hours of Friday morning, according to a po\u2026 [+1096 chars]",
+          "url": "https://www.denverpost.com/2026/02/13/fatal-plane-crash-steamboat-springs/",
+          "source_name": "The Denver Post",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T17:59:23Z",
+          "author": "Aldo Svaldi",
+          "image_url": "https://www.denverpost.com/wp-content/uploads/2022/08/AP22230618930135.jpg?w=1024&h=683",
+          "is_local_nj": false,
+          "article_id": "edd8d98b4d9a",
+          "summary": "The National Transportation Safety Board is sending investigators to look into the crash of an Epic Aircraft E1000 in the early hours of Friday morning. The plane was registered to a company based nea",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "ALS stole this musician\u2019s voice. AI let him sing again.",
+          "description": "There are tears in the audience as Patrick Darling\u2019s song begins to play. It\u2019s a heartfelt song written for his great-grandfather, whom he never got the chance to meet. But this performance is emotional for another reason: It\u2019s Darling\u2019s first time on stage w\u2026",
+          "content": "Darlings last stage performance was over two years ago. By that point, he had already lost the ability to stand and play his instruments and was struggling to sing or speak. But recently, he was able\u2026 [+2368 chars]",
+          "url": "https://www.technologyreview.com/2026/02/13/1132913/als-stole-this-musicians-voice-ai-sing/",
+          "source_name": "MIT Technology Review",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T17:17:28Z",
+          "author": "Jessica Hamzelou",
+          "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/02/Still-2026-02-12-113850_1.2.1.jpg?resize=1200,600",
+          "is_local_nj": false,
+          "article_id": "c0ba0a19f4c7",
+          "summary": "There are tears in the audience as Patrick Darling\u2019s song begins to play. It\u2019s a heartfelt song written for his great-grandfather, whom he never got the chance to meet. But this performance is emotion",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "5 Binge-Worthy TV Shows Like The Pitt",
+          "description": "Are you enjoying the new season of The Pitt but need something to tide you over between episodes? Consider one of these equally bingeable TV shows.",
+          "content": "\"Brilliant Minds\"\u00a0follows Dr. Oliver Wolf (Zachary Quinto), who is tasked with leading a team of interns. Rather than an emergency room, however, he deals with patients battling complicated neurologi\u2026 [+1014 chars]",
+          "url": "https://www.bgr.com/2097119/binge-worthy-tv-shows-like-the-pitt/",
+          "source_name": "BGR",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T15:17:00Z",
+          "author": "staff@bgr.com (Christine Persaud)",
+          "image_url": "https://www.bgr.com/img/gallery/5-binge-worthy-tv-shows-like-the-pitt/l-intro-1770668560.jpg",
+          "is_local_nj": false,
+          "article_id": "6917c7b2db2c",
+          "summary": "Are you enjoying the new season of The Pitt but need something to tide you over between episodes? Consider one of these equally bingeable TV shows.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "California State Sens. Roger Niello and Ben Allen Introduce Bipartisan Bill to Expand the California Neurodegenerative Disease Registry to Include Frontotemporal Degeneration Diagnoses",
+          "description": "SB 1047 Would Require Statewide Reporting of FTD Diagnoses to Strengthen Research, Resources, and Support for Families SB 1047 Would Require Statewide Reporting of FTD Diagnoses to Strengthen Research, Resources, and Support for Families",
+          "content": "King of Prussia, Pa., Feb. 13, 2026 (GLOBE NEWSWIRE) -- Senators\u00a0Roger Niello (RFair Oaks) and Ben Allen (DSanta Monica)\u00a0have\u00a0jointly introduced legislation\u00a0(Senate Bill 1047)\u00a0in the California Senat\u2026 [+4827 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/13/3238151/0/en/California-State-Sens-Roger-Niello-and-Ben-Allen-Introduce-Bipartisan-Bill-to-Expand-the-California-Neurodegenerative-Disease-Registry-to-Include-Frontotemporal-Degeneration-Diagno.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T14:26:00Z",
+          "author": "Association for Frontotemporal Degeneration",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/85bf12d2-1721-4972-a45e-6fc071c28cc2",
+          "is_local_nj": false,
+          "article_id": "8f215c5c4d92",
+          "summary": "SB 1047 Would Require Statewide Reporting of FTD Diagnoses to Strengthen Research, Resources, and Support for Families SB 1047 Would Require Statewide Reporting of FTD Diagnoses to Strengthen Research",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Could targeting viruses be a new hope against neurodegenerative diseases?",
+          "description": "Current therapies for neurodegenerative diseases largely manage symptoms and only modestly slow progression. This Perspective highlights emerging evidence that vaccines and antivirals may lower dementia risk by targeting viral triggers, opening new avenues fo\u2026",
+          "content": "Citation: Danzer KM, Sparrer KMJ (2026) Could targeting viruses be a new hope against neurodegenerative diseases? PLoS Biol 24(2):\r\n e3003669.\r\nhttps://doi.org/10.1371/journal.pbio.3003669\r\nPublished\u2026 [+9838 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003669",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T14:00:00Z",
+          "author": "Karin M. Danzer, Konstantin M. J. Sparrer",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003669.g001&size=inline",
+          "is_local_nj": false,
+          "article_id": "b20acfda58f2",
+          "summary": "Current therapies for neurodegenerative diseases largely manage symptoms and only modestly slow progression. This Perspective highlights emerging evidence that vaccines and antivirals may lower dement",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Cream Of The Crap! Collected Non-Album Works - Volume 3\" von The Hellacopters",
+          "description": "The Hellacopters - \"Cream Of The Crap! Collected Non-Album Works - Volume 3\"",
+          "content": "laut.de-Kritik\r\nDie Schweden covern Mot\u00f6rhead, Ramones, Turbonegro u.v.a.\r\nReview von Kai Butterweck\r\nEs soll ja Leute geben, die mit den letzten Ver\u00f6ffentlichungen der Hellacopters haderten. Handzah\u2026 [+2098 chars]",
+          "url": "https://laut.de/The-Hellacopters/Alben/Cream-Of-The-Crap!-Collected-Non-Album-Works-Volume-3-126497",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T13:01:32Z",
+          "author": "Kai Butterweck",
+          "image_url": "https://laut.de/The-Hellacopters/Alben/Cream-Of-The-Crap!-Collected-Non-Album-Works-Volume-3-126497/the-hellacopters-cream-of-crap-collected-non-album-works-volume-3-249069.jpg?2880f4",
+          "is_local_nj": false,
+          "article_id": "318606a92652",
+          "summary": "The Hellacopters - \"Cream Of The Crap! Collected Non-Album Works - Volume 3\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Surfer Who Lost Leg in 'Crazy' Shark Attack Returns to Sport 18 Months Later with Prosthetic Limb",
+          "description": "\u201cI lost my leg but I didn\u2019t lose surfing,\" said Kai McKenzie, who had his right leg amputated above the knee following the attack in Australia in July 2024",
+          "content": "<ul><li>Australian surfer Kai McKenzie is back surfing waves 18 months after he lost his leg in a shark attack in July 2024\r\n</li><li>McKenzie returned to surfing with a prosthetic limb following an \u2026 [+3843 chars]",
+          "url": "https://people.com/surfer-lost-leg-shark-attack-returns-to-surfing-with-prosthetic-limb-11906112",
+          "source_name": "PEOPLE",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T12:53:17Z",
+          "author": "Gabrielle Rockson",
+          "image_url": "https://s.yimg.com/os/en/people_218/2ec77c7e124a56ab102f9b63adb28b4e",
+          "is_local_nj": false,
+          "article_id": "f5e49bd7d928",
+          "summary": "\u201cI lost my leg but I didn\u2019t lose surfing,\" said Kai McKenzie, who had his right leg amputated above the knee following the attack in Australia in July 2024",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "What's happening to the former Sheppard Motors on Seventh Avenue?",
+          "description": "Local business takes over former Sheppard Motors building. Here's what changes are happening.",
+          "content": "When a door closes, another one opens.\r\nOr, like the situation happening on West Seventh Avenue in Eugene, when a car dealership closes, an office space opens after months of remodeling work is compl\u2026 [+3217 chars]",
+          "url": "https://www.registerguard.com/story/news/local/2026/02/13/what-is-moving-to-former-sheppard-motors-building/88591837007/",
+          "source_name": "The Register-Guard",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T12:05:04Z",
+          "author": "Hannarose McGuinness, Eugene Register-Guard",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/ObQ4JmrEA3skcVWTg6G6Cw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzY7Y2Y9d2VicA--/https://media.zenfs.com/en/the-register-guard/a812d6bad2794c8c38ef6b0aae70d963",
+          "is_local_nj": false,
+          "article_id": "f925858e7b24",
+          "summary": "Local business takes over former Sheppard Motors building. Here's what changes are happening.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "CAR T-cell therapy may slow neurodegenerative conditions like ALS",
+          "description": "Immune cells in the brain that go rogue contribute to the death of neurons, so getting rid of them may slow the progression of neurodegenerative conditions like amyotrophic lateral sclerosis",
+          "content": "Illustration of CAR T-cell therapy (green) attacking a cancer cell (pink)\r\nNEMES LASZLO/SCIENCE PHOTO LIBRARY\r\nGenetically engineered immune cells known as CAR-T cells might be able to slow the progr\u2026 [+3682 chars]",
+          "url": "https://www.newscientist.com/article/2515099-car-t-cell-therapy-may-slow-neurodegenerative-conditions-like-als/",
+          "source_name": "New Scientist",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T12:00:36Z",
+          "author": "Michael Le Page",
+          "image_url": "https://images.newscientist.com/wp-content/uploads/2026/02/11165357/SEI_284517586.jpg",
+          "is_local_nj": false,
+          "article_id": "a9b97596fbf0",
+          "summary": "Immune cells in the brain that go rogue contribute to the death of neurons, so getting rid of them may slow the progression of neurodegenerative conditions like amyotrophic lateral sclerosis",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Euthanasia Drama \u2018Good Death\u2019 Begins Taiwan Production (EXCLUSIVE)",
+          "description": "Principal photography has commenced in Taiwan for \u201cGood Death,\u201d a tri-national co-production bringing together creative talent from Japan, Taiwan and Poland. The near-future drama, which explores the legalization of euthanasia, has additional lensing planned \u2026",
+          "content": "Principal photography has commenced in Taiwan for \u201cGood Death,\u201d a tri-national co-production bringing together creative talent from Japan, Taiwan and Poland. \r\nThe near-future drama, which explores t\u2026 [+4361 chars]",
+          "url": "https://variety.com/2026/film/markets-festivals/euthanasia-drama-good-death-taiwan-production-efm-1236659399/",
+          "source_name": "Variety",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T05:45:00Z",
+          "author": "Naman Ramachandran",
+          "image_url": "https://variety.com/wp-content/uploads/2026/02/Good-Death.jpg?w=1000&h=563&crop=1",
+          "is_local_nj": false,
+          "article_id": "973bebba460b",
+          "summary": "Principal photography has commenced in Taiwan for \u201cGood Death,\u201d a tri-national co-production bringing together creative talent from Japan, Taiwan and Poland. The near-future drama, which explores the ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Which Aussie Firms Made It to TIME Asia-Pacific's Best Companies of 2026?",
+          "description": "TIME has released its Asia-Pacific's Best Companies of 2026 list, and a number of Australian companies made the list.",
+          "content": "TIME has released its Asia-Pacific's Best Companies of 2026 list, and a number of Australian companies have made to the prestigious list of 500 companies.\r\nWhile Singapore's DBS Bank came out on top,\u2026 [+2060 chars]",
+          "url": "https://www.ibtimes.com.au/which-aussie-firms-made-it-time-asia-pacifics-best-companies-2026-1861559",
+          "source_name": "Ibtimes.com.au",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T03:25:03Z",
+          "author": "Bella Javier Liamzon",
+          "image_url": "https://d.ibtimes.com.au/en/full/1891289/perth-cbd.jpg",
+          "is_local_nj": false,
+          "article_id": "1b4e180bce03",
+          "summary": "TIME has released its Asia-Pacific's Best Companies of 2026 list, and a number of Australian companies made the list.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Getting to the root of TDP-43 foci",
+          "description": "Nature Cell Biology - Getting to the root of TDP-43 foci",
+          "content": "Amyotrophic lateral sclerosis (ALS) is often marked by toxic TDP-43 aggregates. Using yeast, HEK293A cells and induced pluripotent stem cell-derived neurons, Byrd, Marmorale et al. screened TDP-43-ex\u2026 [+1014 chars]",
+          "url": "https://www.nature.com/articles/s41556-026-01888-x",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T00:00:00Z",
+          "author": "Melina Casadio",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "7c25aa72cfed",
+          "summary": "Nature Cell Biology - Getting to the root of TDP-43 foci",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Statins, Cholesterol, and the Real Cause of Heart Disease",
+          "description": "Frequently in science, fundamental facts are altered to create a profitable industry. Recently, I showed how this occurs with blood pressure: rather than causing arterial damage, high blood pressure is a response to arterial damage that ensures damaged arteri\u2026",
+          "content": "Mercola proudly supports these charities and organizations. View All \r\nDisclaimer: The entire contents of this website are based upon the opinions of Dr. Mercola, unless otherwise noted. Individual a\u2026 [+1007 chars]",
+          "url": "https://articles.mercola.com/sites/articles/archive/2026/02/13/statin-cholesterol-heart-disease.aspx",
+          "source_name": "Mercola.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-13T00:00:00Z",
+          "author": "communities@mercola.com (Dr. Joseph Mercola)",
+          "image_url": "https://media.mercola.com/ImageServer/Public/2026/February/FB/statin-cholesterol-heart-disease-fb.jpg",
+          "is_local_nj": false,
+          "article_id": "57492bb018c4",
+          "summary": "Frequently in science, fundamental facts are altered to create a profitable industry. Recently, I showed how this occurs with blood pressure: rather than causing arterial damage, high blood pressure i",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "App Me Als Je Thuis Bent S01 1080p WEB h264-TRIPEL",
+          "description": "Note: In Dutch With English Machine Translated Subtitles (HERE).In the poignantly relevant documentary series \u201cApp Me When You\u2019re Home,\u201d women break their silence about the impact of sexual violence on the streets. Past and present sexual assault cases reveal\u2026",
+          "content": "Note: In Dutch With English Machine Translated Subtitles (HERE).\r\nIn the poignantly relevant documentary series \u201cApp Me When You\u2019re Home,\u201d women break their silence about the impact of sexual violenc\u2026 [+796 chars]",
+          "url": "https://post.rlsbb.to/app-me-als-je-thuis-bent-s01-1080p-web-h264-tripel/",
+          "source_name": "Rlsbb.to",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T23:35:46Z",
+          "author": "saamaan1@yahoo.com (Master)",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "253d2ffecce1",
+          "summary": "Note: In Dutch With English Machine Translated Subtitles (HERE).In the poignantly relevant documentary series \u201cApp Me When You\u2019re Home,\u201d women break their silence about the impact of sexual violence o",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Who's Playing in Nevermore in 2026? Metal Vets Reveal New Lineup",
+          "description": "Jeff Loomis and Van Williams have recruited new members for the metal institution.",
+          "content": "Seattle metal veterans Nevermore have revealed their new lineup\u00a0and announced their signing to Reigning Phoenix Music.\r\nLongtime lead guitarist Jeff Loomis and drummer Van Williams will be joined by \u2026 [+2837 chars]",
+          "url": "https://loudwire.com/nevermore-new-lineup-2026/",
+          "source_name": "Loudwire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T17:43:15Z",
+          "author": "Bryan Rolli",
+          "image_url": "https://townsquare.media/site/366/files/2026/02/attachment-nevermore-2026.jpg?w=1200&q=75&format=natural",
+          "is_local_nj": false,
+          "article_id": "f42720c1b0b3",
+          "summary": "Jeff Loomis and Van Williams have recruited new members for the metal institution.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Olympiagold und -bronze in Herren-Snowboardcross",
+          "description": null,
+          "content": "Alessandro H\u00e4mmerle hat sich am Donnerstag wie in Peking vor vier Jahren die Goldmedaille im Snowboardcross geholt. Bronze ging an den Nieder\u00f6sterreicher Jakob Dusek hinter dem Kanadier Eliot Grondin\u2026 [+238 chars]",
+          "url": "https://orf.at/stories/3420009/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T14:30:19Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "7b32c34204e5",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Cardiac findings in infants with in utero exposure to Zika virus \u2013 a follow up longitudinal study",
+          "description": "Author summary Zika virus (ZIKV) is best known for affecting the fetal brain and causing Congenital Zika Syndrome (CZS), but growing evidence suggests it may also impact heart development. We studied infants born to mothers with PCR-confirmed ZIKV infection d\u2026",
+          "content": "Abstract\r\nBackground\r\nZika virus (ZIKV) is primarily known for its impact on the fetal central nervous system potentially leading to Congenital Zika Syndrome (CZS). Emerging evidence suggests ZIKV ma\u2026 [+41648 chars]",
+          "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014009",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T14:00:00Z",
+          "author": "Brian N. Dang, Karen Kikuta, Trevon Fuller, Patricia Brasil, Zilton Vasconcelos, Dulce H. G. Orofino, Maria Elizabeth L. Moreira, Karin Nielsen-Saines",
+          "image_url": "https://journals.plos.org/plosntds/article/figure/image?id=10.1371/journal.pntd.0014009.g002&size=inline",
+          "is_local_nj": false,
+          "article_id": "f26611cc55e3",
+          "summary": "Author summary Zika virus (ZIKV) is best known for affecting the fetal brain and causing Congenital Zika Syndrome (CZS), but growing evidence suggests it may also impact heart development. We studied ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Hoffman, Charles Fenno: Wilde Scenen in Wald und Prairie. (german) V1. 12 Feb 2026 (Other Non-Fiction, ePub)",
+          "description": "Other Non-Fiction Hoffman, Charles Fenno: Wilde Scenen in Wald und Prairie. (german) V1. 12 Feb 2026 ePub Books",
+          "content": "Charles Fenno Hoffman (7. Februar 1806 in New York \u0097 7. Juni 1884 in Harrisburg, Pennsylvania) war ein amerikanischer Schriftsteller und Publizist. Er war zu seiner Zeit sowohl als Lyriker als auch a\u2026 [+2120 chars]",
+          "url": "https://www.mobileread.com/forums/showthread.php?t=372052",
+          "source_name": "Mobileread.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T13:44:16Z",
+          "author": "Frodok",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "268b6c8c7ebf",
+          "summary": "Other Non-Fiction Hoffman, Charles Fenno: Wilde Scenen in Wald und Prairie. (german) V1. 12 Feb 2026 ePub Books",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The Commons in Practice: Case Studies From Around the World",
+          "description": "From alpine pastures and salmon fisheries to offshore wind farms and online encyclopedias, commons take many forms. This article explores a wide range of real-world commons that span geographies, culture, and domains.",
+          "content": "l;dr:\u00a0From alpine pastures and salmon fisheries to offshore wind farms and online encyclopedias, commons take many forms. This article explores a wide range of real-world commons that span geographie\u2026 [+31513 chars]",
+          "url": "https://www.resilience.org/stories/2026-02-12/the-commons-in-practice-case-studies-from-around-the-world/",
+          "source_name": "Resilience",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T11:50:27Z",
+          "author": "Michel Rauchs",
+          "image_url": "https://www.resilience.org/wp-content/uploads/2026/02/f0a14870-2a5b-4cf8-8181-bbe22af19190_6000x4000.webp",
+          "is_local_nj": false,
+          "article_id": "1d9817dd0482",
+          "summary": "From alpine pastures and salmon fisheries to offshore wind farms and online encyclopedias, commons take many forms. This article explores a wide range of real-world commons that span geographies, cult",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Broker\u2019s Call: Ashok Leyland (Add)",
+          "description": "Ashok Leyland's Q3FY26 results show strong growth, leading to a revised target price of \u20b9225 with an 'ADD' rating.",
+          "content": "Target: 225\r\nCMP: 210.85\r\nIn Q3FY26, Ashok Leyland (AL) delivered its highest-ever volumes and revenue. Revenue rose 21.7 per cent year on year, supported by GST-led price rationalisation and a reviv\u2026 [+1322 chars]",
+          "url": "https://www.thehindubusinessline.com/markets/brokers-call-ashok-leyland-add/article70623704.ece",
+          "source_name": "BusinessLine",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T11:39:12Z",
+          "author": "Anjana C Shriram",
+          "image_url": "https://bl-i.thgim.com/public/incoming/7ge1wy/article70623701.ece/alternates/LANDSCAPE_1200/Ashok-Leyland-GAAF6FJBO.4.jpg.jpg",
+          "is_local_nj": false,
+          "article_id": "13deceed3cfb",
+          "summary": "Ashok Leyland's Q3FY26 results show strong growth, leading to a revised target price of \u20b9225 with an 'ADD' rating.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Stock Market Highlights: Sensex closes 558 points lower at 83,674, Nifty 50 slides 146 points to 25,807",
+          "description": "Sensex, Nifty, Share Prices: Sensex settled 558.72 points or 0.66% lower at 83,674.92, and Nifty 50 depreciated by 146.65 points or 0.57% to 25,807.20 amid lingering concerns over AI-driven disruption and diminishing expectations of a near-term US Federal Res\u2026",
+          "content": "<li></li>\r\nFebruary 12, 2026 16:07Q3 results: NPST revenue from operations at 57.17 crore, up ~146% YoY \r\nNetwork People Services Technologies Ltd, a digital banking and fintech infrastructure provid\u2026 [+72758 chars]",
+          "url": "https://www.thehindubusinessline.com/markets/share-market-nifty-sensex-highlights-12th-february-2026/article70619430.ece",
+          "source_name": "BusinessLine",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T11:13:42Z",
+          "author": "Team BL, KS Badri Narayanan",
+          "image_url": "https://bl-i.thgim.com/public/incoming/ir7vib/article70619442.ece/alternates/LANDSCAPE_1200/Nearby_Shape-wiG1SF7RTA6.3.jpg.jpg",
+          "is_local_nj": false,
+          "article_id": "51b23bd4fefb",
+          "summary": "Sensex, Nifty, Share Prices: Sensex settled 558.72 points or 0.66% lower at 83,674.92, and Nifty 50 depreciated by 146.65 points or 0.57% to 25,807.20 amid lingering concerns over AI-driven disruption",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Vacature digital marketing & communicatie - SYA",
+          "description": "Vacature digital marketing & communicatie - SYAsya.be",
+          "content": "Wie zijn we?\r\nSYA is een refurbisher van electronica, waaronder Apple, Samsung en andere merken. We kopen en verkopen refurbished toestellen, zowel aan consumenten als aan bedrijven. Zo zorgen we bin\u2026 [+4651 chars]",
+          "url": "https://www.sya.be/nl/vacatures/digital-marketing",
+          "source_name": "Www.sya.be",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T10:38:32Z",
+          "author": null,
+          "image_url": "https://www.sya.be/uploads/seo/SYA.png",
+          "is_local_nj": false,
+          "article_id": "bb548982b620",
+          "summary": "Vacature digital marketing & communicatie - SYAsya.be",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Fortuna Extends High Grade Gold Mineralization at Sunbird, Including 6.1\u00a0g/t Au over 18.9 meters, S\u00e9gu\u00e9la Mine, C\u00f4te d\u2019Ivoire",
+          "description": "VANCOUVER, British Columbia, Feb. 12, 2026 (GLOBE NEWSWIRE) -- Fortuna Mining Corp. (NYSE: FSM | TSX: FVI) is pleased to report results from ongoing exploration drilling at the Sunbird deposit, located at the S\u00e9gu\u00e9la Mine in C\u00f4te d\u2019Ivoire (see Figure 1). Rece\u2026",
+          "content": "VANCOUVER, British Columbia, Feb. 12, 2026 (GLOBE NEWSWIRE) -- Fortuna Mining Corp. (NYSE: FSM | TSX: FVI) is pleased to report results from ongoing exploration drilling at the Sunbird deposit, locat\u2026 [+27010 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/12/3236968/0/en/Fortuna-Extends-High-Grade-Gold-Mineralization-at-Sunbird-Including-6-1-g-t-Au-over-18-9-meters-S%C3%A9gu%C3%A9la-Mine-C%C3%B4te-d-Ivoire.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T10:00:00Z",
+          "author": "Fortuna Mining Corp.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/9f8d25cf-d061-40c8-a13d-e8074a0c6143",
+          "is_local_nj": false,
+          "article_id": "0088dd0cf966",
+          "summary": "VANCOUVER, British Columbia, Feb. 12, 2026 (GLOBE NEWSWIRE) -- Fortuna Mining Corp. (NYSE: FSM | TSX: FVI) is pleased to report results from ongoing exploration drilling at the Sunbird deposit, locate",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Alamos Gold Extends Higher-Grade Mineralization within Multiple Hanging Wall Zones Near Existing Infrastructure at Young-Davidson",
+              "url": "https://www.globenewswire.com/news-release/2026/01/30/3229437/0/en/Alamos-Gold-Extends-Higher-Grade-Mineralization-within-Multiple-Hanging-Wall-Zones-Near-Existing-Infrastructure-at-Young-Davidson.html",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Atico Reports Multiple Higher-Grade Intercepts up to 10.20m of 6.26% Cu, 8.50 g/t Au and 10.0m of 6.77% Cu, 3.39 g/t Au and Continues to Extend the Ore Body at El Roble Mine in Colombia",
+              "url": "https://financialpost.com/globe-newswire/atico-reports-multiple-higher-grade-intercepts-up-to-10-20m-of-6-26-cu-8-50-g-t-au-and-10-0m-of-6-77-cu-3-39-g-t-au-and-continues-to-extend-the-ore-body-at-el-roble-mine-in-colombia",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "North American Niobium and Critical Minerals Corp. Confirms Magnet REE and Niobium Mineralization at Blanchette, Bardy and Sabot Properties, Including 1.82% TREO and 0.14% Nb\u2082O\u2085",
+              "url": "https://financialpost.com/globe-newswire/north-american-niobium-and-critical-minerals-corp-confirms-magnet-ree-and-niobium-mineralization-at-blanchette-bardy-and-sabot-properties-including-1-82-treo-and-0-14-nb\u2082o\u2085",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Ordro M5 5K Vlogging Camera with 3-Axis Stabilizer 120\u00b0 Ultra-Wide Angle IR Night Vision 3.5-Zoll Rotatable IPS Screen, Small Vlog Camera with 64G Memory Card for Photography YouTube TikTok",
+          "description": "Donnerstag ab 09:45 Uhr: Ordro M5 5K Vlogging Camera with 3-Axis Stabilizer 120\u00b0 Ultra-Wide Angle IR Night Vision 3.5-Zoll Rotatable IPS Screen, Small Vlog Camera with 64G Memory Card for Photography YouTube TikTok f\u00fcr nur 236,14 Euro\r\n (regul\u00e4rer Amazon Prei\u2026",
+          "content": "Ich hatte bis jetzt immer diese Art von Kameras von DJI und war begeistert, allerdings sind mir die Preise f\u00fcr aktuelle Osmo Pocket 3 viel zu hoch, so das ich diese Kamera als Alternative in betracht\u2026 [+2265 chars]",
+          "url": "https://www.amazon.de/-/en/ORDRO-Stabiliser-Ultra-Wide-Rotatable-Photography/dp/B0D8BGNFYL",
+          "source_name": "Amazon.de",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T08:45:01Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "5472f236a894",
+          "summary": "Donnerstag ab 09:45 Uhr: Ordro M5 5K Vlogging Camera with 3-Axis Stabilizer 120\u00b0 Ultra-Wide Angle IR Night Vision 3.5-Zoll Rotatable IPS Screen, Small Vlog Camera with 64G Memory Card for Photography ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Stephen Hawking Was Told He\u2019d Die Young, Then Explored the Universe",
+          "description": "Diagnosed with a fatal motor neuron disease at 21, Stephen Hawking defied doctors' predictions of a two-year lifespan. He went on to earn a doctorate, revolutionize our understanding of black holes with Hawking radiation, and hold the prestigious Lucasian Pro\u2026",
+          "content": "When British physicist Stephen Hawking was diagnosed with a rare motor neuron disease in 1963 at just 21 years old, doctors told him he had about two years to live. That grim prognosis came during hi\u2026 [+5176 chars]",
+          "url": "https://economictimes.indiatimes.com/news/international/us/stephen-hawking-was-told-hed-die-youngthen-explored-the-universe/articleshow/128240515.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T05:56:15Z",
+          "author": "Global Desk",
+          "image_url": "https://img.etimg.com/thumb/msid-128240515,width-1200,height-630,imgsize-125333,overlay-economictimes/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "0acc51cf32e3",
+          "summary": "Diagnosed with a fatal motor neuron disease at 21, Stephen Hawking defied doctors' predictions of a two-year lifespan. He went on to earn a doctorate, revolutionize our understanding of black holes wi",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+          "description": "HIGHLIGHTS 11,025 m of infill drilling completed (5,043 m new results) on 10-m drill spacing in 116 drill holes from August 2025 representing ~80% of the total planned ~13 km infill program Highlight intercepts include: 596.40 g/t Au over 2.0 m from 6.1 m dow\u2026",
+          "content": "Qualified Persons\r\nThe scientific and technical information contained in this news release has been reviewed, verified and approved by Scott Smith, P. Geo., Vice President, Exploration of Osisko Deve\u2026 [+11388 chars]",
+          "url": "https://financialpost.com/globe-newswire/osisko-development-provides-infill-drilling-update-on-its-13000-meter-lowhee-program-at-cariboo-gold-project-intercepts-include-596-40-g-t-gold-over-2-0-meters-from-6-1-meters-downhole-including-2",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T00:06:28Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/02/figure-5.jpeg",
+          "is_local_nj": false,
+          "article_id": "25a7a6db1ff5",
+          "summary": "HIGHLIGHTS 11,025 m of infill drilling completed (5,043 m new results) on 10-m drill spacing in 116 drill holes from August 2025 representing ~80% of the total planned ~13 km infill program Highlight ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "West Red Lake Gold Confirms High-Grade Continuity at Rowan with First Round of Infill Drilling Results",
+              "url": "https://www.globenewswire.com/news-release/2026/01/29/3228243/0/en/West-Red-Lake-Gold-Confirms-High-Grade-Continuity-at-Rowan-with-First-Round-of-Infill-Drilling-Results.html",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Atico Reports Multiple Higher-Grade Intercepts up to 10.20m of 6.26% Cu, 8.50 g/t Au and 10.0m of 6.77% Cu, 3.39 g/t Au and Continues to Extend the Ore Body at El Roble Mine in Colombia",
+              "url": "https://financialpost.com/globe-newswire/atico-reports-multiple-higher-grade-intercepts-up-to-10-20m-of-6-26-cu-8-50-g-t-au-and-10-0m-of-6-77-cu-3-39-g-t-au-and-continues-to-extend-the-ore-body-at-el-roble-mine-in-colombia",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Liberty Gold Reports Infill and Step-out Drill Results at the Black Pine Gold Project, Idaho",
+              "url": "https://www.globenewswire.com/news-release/2026/01/22/3223528/0/en/Liberty-Gold-Reports-Infill-and-Step-out-Drill-Results-at-the-Black-Pine-Gold-Project-Idaho.html",
+              "digest_date": "2026-01-25"
+            }
+          ]
+        },
+        {
+          "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+          "description": "HIGHLIGHTS  11,025 m of infill drilling completed (5,043 m new results) on 10-m drill spacing in 116 drill holes from August 2025 representing ~80% of the...",
+          "content": "HIGHLIGHTS\r\n<ul><li>11,025 m of infill drilling completed (5,043 m new results) on 10-m drill spacing in 116 drill holes from August 2025 representing ~80% of the total planned ~13 km infill program \u2026 [+67165 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/12/3236801/0/en/Osisko-Development-Provides-Infill-Drilling-Update-on-Its-13-000-Meter-Lowhee-Program-at-Cariboo-Gold-Project-Intercepts-Include-596-40-g-t-Gold-Over-2-0-Meters-from-6-1-Meters-Dow.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T00:03:00Z",
+          "author": "Osisko Development Corp",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/01a211d6-c079-4a49-a972-11a0e55704bd",
+          "is_local_nj": false,
+          "article_id": "c50ba86da711",
+          "summary": "HIGHLIGHTS  11,025 m of infill drilling completed (5,043 m new results) on 10-m drill spacing in 116 drill holes from August 2025 representing ~80% of the...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "West Red Lake Gold Confirms High-Grade Continuity at Rowan with First Round of Infill Drilling Results",
+              "url": "https://www.globenewswire.com/news-release/2026/01/29/3228243/0/en/West-Red-Lake-Gold-Confirms-High-Grade-Continuity-at-Rowan-with-First-Round-of-Infill-Drilling-Results.html",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Atico Reports Multiple Higher-Grade Intercepts up to 10.20m of 6.26% Cu, 8.50 g/t Au and 10.0m of 6.77% Cu, 3.39 g/t Au and Continues to Extend the Ore Body at El Roble Mine in Colombia",
+              "url": "https://financialpost.com/globe-newswire/atico-reports-multiple-higher-grade-intercepts-up-to-10-20m-of-6-26-cu-8-50-g-t-au-and-10-0m-of-6-77-cu-3-39-g-t-au-and-continues-to-extend-the-ore-body-at-el-roble-mine-in-colombia",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Liberty Gold Reports Infill and Step-out Drill Results at the Black Pine Gold Project, Idaho",
+              "url": "https://www.globenewswire.com/news-release/2026/01/22/3223528/0/en/Liberty-Gold-Reports-Infill-and-Step-out-Drill-Results-at-the-Black-Pine-Gold-Project-Idaho.html",
+              "digest_date": "2026-01-25"
+            }
+          ]
+        },
+        {
+          "title": "Glucosylceramide-induced ectosomes propagate pathogenic \u03b1-synuclein in Parkinson\u2019s disease",
+          "description": "Jacquemyn et al. identify key lipid determinants controlling ectosome shedding from neurons. They find that ectosomes are a major route for the intercellular transport of misfolded \u03b1-synuclein, with relevance to Parkinson\u2019s disease pathology.",
+          "content": "<li>Jaunmuktane, Z. &amp; Brandner, S. Invited review: the role of prion-like mechanisms in neurodegenerative diseases. Neuropathol. Appl. Neurobiol.46, 522545 (2020).\r\nArticle\u00a0\r\n CAS\u00a0\r\n PubMed\u00a0\r\n Pu\u2026 [+24693 chars]",
+          "url": "https://www.nature.com/articles/s41556-026-01871-6",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-12T00:00:00Z",
+          "author": "Julie Jacquemyn, Brian Marriott, Jinlan Chang, Ehlam Iftikhar, Kennedi Chik, Nathanael Y. J. Lee, Luis F. Rubio Atonal, Ceili Green, Jeremy Wong, Claudia Acevedo-Morantes, Carol X.-Q. Chen, Michael Nicouleau, Zhipeng You, Eric Deneault, Narges Abdian, Thomas M. Durcan, Jesse Jackson, Maria S. Ioannou",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41556-026-01871-6/MediaObjects/41556_2026_1871_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "772d861fe0de",
+          "summary": "Jacquemyn et al. identify key lipid determinants controlling ectosome shedding from neurons. They find that ectosomes are a major route for the intercellular transport of misfolded \u03b1-synuclein, with r",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "We found shockingly cheap tickets to see Paul Simon live in 2026",
+          "description": "The Queens native will headline at Forest Hills Stadium on July 8.",
+          "content": "New York Post may be compensated and/or receive an affiliate commission if you click or buy through our links. Featured pricing is subject to change.\r\n\u201cCecilia\u201d might break our heart but, thankfully,\u2026 [+8384 chars]",
+          "url": "https://nypost.com/2026/02/11/ticket-sales/paul-simon-quiet-celebration-tour-2026-where-to-buy-tickets-best-prices/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-02-11T18:08:07Z",
+          "author": "Matt Levy",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/02/Paul-Simon_b2cd41.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "8809096507d8",
+          "summary": "The Queens native will headline at Forest Hills Stadium on July 8.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Testing, Inspection, and Certification (TIC) Market Poised to Reach US$ 541.12 Billion by 2035 | Electric Vehicle and Battery Testing Demand Accelerates Growth Says Astute Analytica",
+          "description": "Strategic acquisitions, regulatory shifts, and renewable energy transitions propel the Testing, Inspection, and Certification market, with leaders consolidating capabilities, digitalizing services, and capitalizing on compliance demands for sustained expansio\u2026",
+          "content": "Chicago, Feb. 11, 2026 (GLOBE NEWSWIRE) -- The global testing, Inspection, and Certification (TIC) market size was valued at USD 312.23 billion in 2025 and is projected to hit the market valuation of\u2026 [+17513 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/11/3236521/0/en/Testing-Inspection-and-Certification-TIC-Market-Poised-to-Reach-US-541-12-Billion-by-2035-Electric-Vehicle-and-Battery-Testing-Demand-Accelerates-Growth-Says-Astute-Analytica.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-11T16:30:00Z",
+          "author": "AstuteAnalytica India Pvt. Ltd.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/a77988df-ad1a-4619-9a4e-367c858dc70e",
+          "is_local_nj": false,
+          "article_id": "14de4223e363",
+          "summary": "Strategic acquisitions, regulatory shifts, and renewable energy transitions propel the Testing, Inspection, and Certification market, with leaders consolidating capabilities, digitalizing services, an",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "$11.20 Bn Brain Computer Interface Global Market Opportunities and Strategies to 2033 | Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/22/3224194/0/en/11-20-Bn-Brain-Computer-Interface-Global-Market-Opportunities-and-Strategies-to-2033-Astute-Analytica.html",
+              "digest_date": "2026-01-25"
+            },
+            {
+              "title": "Clinical Trials Market Size to Reach USD 175.02 Billion by 2035",
+              "url": "https://www.globenewswire.com/news-release/2026/01/22/3223500/0/en/Clinical-Trials-Market-Size-to-Reach-USD-175-02-Billion-by-2035.html",
+              "digest_date": "2026-01-25"
+            },
+            {
+              "title": "Food Safety Testing Market Set to Cross US$ 44 Billion by 2033 | Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/23/3224755/0/en/Food-Safety-Testing-Market-Set-to-Cross-US-44-Billion-by-2033-Astute-Analytica.html",
+              "digest_date": "2026-01-25"
+            }
+          ]
+        },
+        {
+          "title": "Molecular docking approaches in mycetoma: Toward improved patient management",
+          "description": "Mycetoma is a neglected tropical disease characterised by chronic, granulomatous inflammation of the subcutaneous tissues, often leading to disfigurement, disability, and significant socioeconomic burdens. Caused by a diverse array of bacterial and fungal pat\u2026",
+          "content": "Abstract\r\nMycetoma is a neglected tropical disease characterised by chronic, granulomatous inflammation of the subcutaneous tissues, often leading to disfigurement, disability, and significant socioe\u2026 [+51435 chars]",
+          "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0013963",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-02-11T14:00:00Z",
+          "author": "Ali Awadallah Saeed, Marwa Salah S. Osman, Ahmed Hassan Fahal",
+          "image_url": "https://journals.plos.org/plosntds/article/figure/image?id=10.1371/journal.pntd.0013963.t001&size=inline",
+          "is_local_nj": false,
+          "article_id": "a3b55d502fdf",
+          "summary": "Mycetoma is a neglected tropical disease characterised by chronic, granulomatous inflammation of the subcutaneous tissues, often leading to disfigurement, disability, and significant socioeconomic bur",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors",
+          "description": "On Feb. 9, Samsung Electronics hosted the Solve for Tomorrow Ambassador Exhibition at Smart City Lab in Milan, where it named 10 winners of global Solve for Tomorrow competition from around the world as Global Solve for Tomorrow Ambassadors. Held with the sup\u2026",
+          "content": "On Feb. 9, Samsung Electronics hosted the Solve for Tomorrow Ambassador Exhibition at Smart City Lab in Milan, where it named 10 winners of global Solve for Tomorrow competition from around the world\u2026 [+7925 chars]",
+          "url": "https://news.samsung.com/global/samsung-exhibition-celebrates-innovative-spirit-of-winning-solve-for-tomorrow-ambassadors",
+          "source_name": "Samsung.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-11T11:25:19Z",
+          "author": "Samsung Newsroom",
+          "image_url": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/02/11164417/Samsung-CSR-Samsung-Solve-For-Tomorrow-Ambassadors-Milano-Cortina-2026-SFT-Ambassadors-Exhibition_Thumb932.jpg",
+          "is_local_nj": false,
+          "article_id": "903e10cb6949",
+          "summary": "On Feb. 9, Samsung Electronics hosted the Solve for Tomorrow Ambassador Exhibition at Smart City Lab in Milan, where it named 10 winners of global Solve for Tomorrow competition from around the world ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors",
+          "description": "On Feb. 9, Samsung Electronics hosted the Solve for Tomorrow Ambassador Exhibition at Smart City Lab in Milan, where it named 10 winners of global Solve for",
+          "content": "On Feb. 9, Samsung Electronics hosted the Solve for Tomorrow Ambassador Exhibition at Smart City Lab in Milan, where it named 10 winners of global Solve for Tomorrow competition from around the world\u2026 [+7923 chars]",
+          "url": "https://news.samsung.com/in/samsung-exhibition-celebrates-innovative-spirit-of-winning-solve-for-tomorrow-ambassadors",
+          "source_name": "Samsung.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-11T11:24:48Z",
+          "author": null,
+          "image_url": "https://img.global.news.samsung.com/in/wp-content/uploads/2026/02/feature-3.jpg",
+          "is_local_nj": false,
+          "article_id": "e48ae952ca4f",
+          "summary": "On Feb. 9, Samsung Electronics hosted the Solve for Tomorrow Ambassador Exhibition at Smart City Lab in Milan, where it named 10 winners of global Solve for",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Emergency Response Safety Kit Recall: Airlife Removes Certain Broselow Pediatric Emergency Rainbow Tapes and Broselow ALS Organizers",
+          "description": "AirLife is removing Broselow Rainbow Tapes due to incorrectly printed medication dosing information.",
+          "content": "The affected products and recommendations for what to do with the devices below have not changed.\r\nThis recall involves removing certain devices from where they are used or sold. The FDA has identifi\u2026 [+6124 chars]",
+          "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/emergency-response-safety-kit-recall-airlife-removes-certain-broselow-pediatric-emergency-rainbow",
+          "source_name": "FDA.gov",
+          "source_type": "newsapi",
+          "published_at": "2026-02-11T05:00:00Z",
+          "author": "FDA",
+          "image_url": "https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png",
+          "is_local_nj": false,
+          "article_id": "acf63d7e7913",
+          "summary": "AirLife is removing Broselow Rainbow Tapes due to incorrectly printed medication dosing information.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "MANOWAR Share Statement After Founding Guitarist ROSS \"THE BOSS\" FRIEDMAN Diagnosed With ALS",
+          "description": "Metal icons express sadness and support as the legendary guitarist opens up about his diagnosis and the love he\u2019s received from fans.\nThe post MANOWAR Share Statement After Founding Guitarist ROSS \"THE BOSS\" FRIEDMAN Diagnosed With ALS appeared first on Metal\u2026",
+          "content": "Manowar have reacted to the news that their founding guitarist Ross \"The Boss\" Friedman has been diagnosed with ALS, also known as Lou Gehrig's Disease.\r\nEarlier this week, the band shared a public m\u2026 [+1837 chars]",
+          "url": "https://metalinjection.net/news/manowar-share-statement-after-founding-guitarist-ross-the-boss-friedman-diagnosed-with-als",
+          "source_name": "Metal Injection.net",
+          "source_type": "newsapi",
+          "published_at": "2026-02-10T23:24:59Z",
+          "author": "Greg Kennelty",
+          "image_url": "https://cdn-p.smehost.net/sites/7f9737f2506941499994d771a29ad47a/wp-content/uploads/2026/02/ross-the-boss-2017-new.jpg",
+          "is_local_nj": false,
+          "article_id": "e0dd68a64923",
+          "summary": "Metal icons express sadness and support as the legendary guitarist opens up about his diagnosis and the love he\u2019s received from fans.\nThe post MANOWAR Share Statement After Founding Guitarist ROSS \"TH",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "[Latest] Global Large And Small Scale Bioprocessing Market Size/Share Worth USD 277.4 Billion by 2035 at a 11.5% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Growth Rate, Value, SWOT Analysis)",
+          "description": "[220+ Pages Latest Report] According to a market research study published by Custom Market Insights, the demand analysis of Global Large And Small Scale Bioprocessing Market size & share revenue was valued at approximately USD 93.4 Billion in 2025 and is expe\u2026",
+          "content": "Austin, TX, USA, Feb. 11, 2026 (GLOBE NEWSWIRE) -- Custom Market Insights has published a new research report titled Large And Small Scale Bioprocessing Market Size, Trends and Insights By Scale (Sma\u2026 [+26643 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/02/10/3235814/0/en/Latest-Global-Large-And-Small-Scale-Bioprocessing-Market-Size-Share-Worth-USD-277-4-Billion-by-2035-at-a-11-5-CAGR-Custom-Market-Insights-Analysis-Outlook-Leaders-Report-Trends-For.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-02-10T21:30:00Z",
+          "author": "CMI MARKET RESEARCH PRIVATE LIMITED",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/74609d89-5437-4826-b7b8-31238ea2e65c",
+          "is_local_nj": false,
+          "article_id": "ca677beb5ed8",
+          "summary": "[220+ Pages Latest Report] According to a market research study published by Custom Market Insights, the demand analysis of Global Large And Small Scale Bioprocessing Market size & share revenue was v",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Clinical Trials Market Size to Reach USD 175.02 Billion by 2035",
+              "url": "https://www.globenewswire.com/news-release/2026/01/22/3223500/0/en/Clinical-Trials-Market-Size-to-Reach-USD-175-02-Billion-by-2035.html",
+              "digest_date": "2026-01-25"
+            },
+            {
+              "title": "Food Safety Testing Market Set to Cross US$ 44 Billion by 2033 | Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/01/23/3224755/0/en/Food-Safety-Testing-Market-Set-to-Cross-US-44-Billion-by-2033-Astute-Analytica.html",
+              "digest_date": "2026-01-25"
+            },
+            {
+              "title": "Food Allergen Testing Market Report 2026-2031 | Europe Leads in Food Allergen Testing Market with 34.21% Share for 2025 | Emerging Markets in Asia-Pacific Show Promising Growth at 9.86% CAGR",
+              "url": "https://www.globenewswire.com/news-release/2026/01/21/3222520/28124/en/Food-Allergen-Testing-Market-Report-2026-2031-Europe-Leads-in-Food-Allergen-Testing-Market-with-34-21-Share-for-2025-Emerging-Markets-in-Asia-Pacific-Show-Promising-Growth-at-9-86-.html",
+              "digest_date": "2026-01-25"
+            }
+          ]
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Four killed as small plane crashes near Steamboat Springs ski resort in Colorado",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/four-killed-as-small-plane-crashes-near-steamboat-springs-ski-resort-in-colorado/articleshow/128330844.cms",
+        "source": "The Times of India",
+        "date": "2026-02-14T02:00:11Z"
+      },
+      {
+        "title": "4 dead after small plane crashes near popular Colorado ski resort",
+        "url": "https://nypost.com/2026/02/13/us-news/4-dead-after-small-plane-crashes-near-popular-colorado-ski-resort/",
+        "source": "New York Post",
+        "date": "2026-02-14T00:32:21Z"
+      },
+      {
+        "title": "Frenkie de Jong\u2019s harsh criticism after Barcelona\u2019s disallowed goal in Copa del Rey defeat: \u2018If it\u2019s not AI\u2026\u2019",
+        "url": "https://worldsoccertalk.com/news/frenkie-de-jongs-harsh-criticism-after-barcelonas-disallowed-goal-in-copa-del-rey-defeat-if-its-not-ai/",
+        "source": "Worldsoccertalk.com",
+        "date": "2026-02-13T23:00:16Z"
+      },
+      {
+        "title": "Ross 'The Boss' Friedman of The Dictators and Manowar Reveals ALS Diagnosis",
+        "url": "https://www.punknews.org/article/87586/ross-the-boss-friedman-of-the-dictators-and-manowar-reveals-als-diagnosis",
+        "source": "Punknews.org",
+        "date": "2026-02-13T22:00:01Z"
+      },
+      {
+        "title": "4 killed in plane crash near Steamboat Springs",
+        "url": "https://www.denverpost.com/2026/02/13/fatal-plane-crash-steamboat-springs/",
+        "source": "The Denver Post",
+        "date": "2026-02-13T17:59:23Z"
+      },
+      {
+        "title": "ALS stole this musician\u2019s voice. AI let him sing again.",
+        "url": "https://www.technologyreview.com/2026/02/13/1132913/als-stole-this-musicians-voice-ai-sing/",
+        "source": "MIT Technology Review",
+        "date": "2026-02-13T17:17:28Z"
+      },
+      {
+        "title": "5 Binge-Worthy TV Shows Like The Pitt",
+        "url": "https://www.bgr.com/2097119/binge-worthy-tv-shows-like-the-pitt/",
+        "source": "BGR",
+        "date": "2026-02-13T15:17:00Z"
+      },
+      {
+        "title": "California State Sens. Roger Niello and Ben Allen Introduce Bipartisan Bill to Expand the California Neurodegenerative Disease Registry to Include Frontotemporal Degeneration Diagnoses",
+        "url": "https://www.globenewswire.com/news-release/2026/02/13/3238151/0/en/California-State-Sens-Roger-Niello-and-Ben-Allen-Introduce-Bipartisan-Bill-to-Expand-the-California-Neurodegenerative-Disease-Registry-to-Include-Frontotemporal-Degeneration-Diagno.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-13T14:26:00Z"
+      },
+      {
+        "title": "Could targeting viruses be a new hope against neurodegenerative diseases?",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003669",
+        "source": "Plos.org",
+        "date": "2026-02-13T14:00:00Z"
+      },
+      {
+        "title": "\"Cream Of The Crap! Collected Non-Album Works - Volume 3\" von The Hellacopters",
+        "url": "https://laut.de/The-Hellacopters/Alben/Cream-Of-The-Crap!-Collected-Non-Album-Works-Volume-3-126497",
+        "source": "Laut.de",
+        "date": "2026-02-13T13:01:32Z"
+      },
+      {
+        "title": "Surfer Who Lost Leg in 'Crazy' Shark Attack Returns to Sport 18 Months Later with Prosthetic Limb",
+        "url": "https://people.com/surfer-lost-leg-shark-attack-returns-to-surfing-with-prosthetic-limb-11906112",
+        "source": "PEOPLE",
+        "date": "2026-02-13T12:53:17Z"
+      },
+      {
+        "title": "What's happening to the former Sheppard Motors on Seventh Avenue?",
+        "url": "https://www.registerguard.com/story/news/local/2026/02/13/what-is-moving-to-former-sheppard-motors-building/88591837007/",
+        "source": "The Register-Guard",
+        "date": "2026-02-13T12:05:04Z"
+      },
+      {
+        "title": "CAR T-cell therapy may slow neurodegenerative conditions like ALS",
+        "url": "https://www.newscientist.com/article/2515099-car-t-cell-therapy-may-slow-neurodegenerative-conditions-like-als/",
+        "source": "New Scientist",
+        "date": "2026-02-13T12:00:36Z"
+      },
+      {
+        "title": "Euthanasia Drama \u2018Good Death\u2019 Begins Taiwan Production (EXCLUSIVE)",
+        "url": "https://variety.com/2026/film/markets-festivals/euthanasia-drama-good-death-taiwan-production-efm-1236659399/",
+        "source": "Variety",
+        "date": "2026-02-13T05:45:00Z"
+      },
+      {
+        "title": "Which Aussie Firms Made It to TIME Asia-Pacific's Best Companies of 2026?",
+        "url": "https://www.ibtimes.com.au/which-aussie-firms-made-it-time-asia-pacifics-best-companies-2026-1861559",
+        "source": "Ibtimes.com.au",
+        "date": "2026-02-13T03:25:03Z"
+      },
+      {
+        "title": "Getting to the root of TDP-43 foci",
+        "url": "https://www.nature.com/articles/s41556-026-01888-x",
+        "source": "Nature.com",
+        "date": "2026-02-13T00:00:00Z"
+      },
+      {
+        "title": "Statins, Cholesterol, and the Real Cause of Heart Disease",
+        "url": "https://articles.mercola.com/sites/articles/archive/2026/02/13/statin-cholesterol-heart-disease.aspx",
+        "source": "Mercola.com",
+        "date": "2026-02-13T00:00:00Z"
+      },
+      {
+        "title": "App Me Als Je Thuis Bent S01 1080p WEB h264-TRIPEL",
+        "url": "https://post.rlsbb.to/app-me-als-je-thuis-bent-s01-1080p-web-h264-tripel/",
+        "source": "Rlsbb.to",
+        "date": "2026-02-12T23:35:46Z"
+      },
+      {
+        "title": "Who's Playing in Nevermore in 2026? Metal Vets Reveal New Lineup",
+        "url": "https://loudwire.com/nevermore-new-lineup-2026/",
+        "source": "Loudwire",
+        "date": "2026-02-12T17:43:15Z"
+      },
+      {
+        "title": "Olympiagold und -bronze in Herren-Snowboardcross",
+        "url": "https://orf.at/stories/3420009/",
+        "source": "Orf.at",
+        "date": "2026-02-12T14:30:19Z"
+      },
+      {
+        "title": "Cardiac findings in infants with in utero exposure to Zika virus \u2013 a follow up longitudinal study",
+        "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014009",
+        "source": "Plos.org",
+        "date": "2026-02-12T14:00:00Z"
+      },
+      {
+        "title": "Hoffman, Charles Fenno: Wilde Scenen in Wald und Prairie. (german) V1. 12 Feb 2026 (Other Non-Fiction, ePub)",
+        "url": "https://www.mobileread.com/forums/showthread.php?t=372052",
+        "source": "Mobileread.com",
+        "date": "2026-02-12T13:44:16Z"
+      },
+      {
+        "title": "The Commons in Practice: Case Studies From Around the World",
+        "url": "https://www.resilience.org/stories/2026-02-12/the-commons-in-practice-case-studies-from-around-the-world/",
+        "source": "Resilience",
+        "date": "2026-02-12T11:50:27Z"
+      },
+      {
+        "title": "Broker\u2019s Call: Ashok Leyland (Add)",
+        "url": "https://www.thehindubusinessline.com/markets/brokers-call-ashok-leyland-add/article70623704.ece",
+        "source": "BusinessLine",
+        "date": "2026-02-12T11:39:12Z"
+      },
+      {
+        "title": "Stock Market Highlights: Sensex closes 558 points lower at 83,674, Nifty 50 slides 146 points to 25,807",
+        "url": "https://www.thehindubusinessline.com/markets/share-market-nifty-sensex-highlights-12th-february-2026/article70619430.ece",
+        "source": "BusinessLine",
+        "date": "2026-02-12T11:13:42Z"
+      },
+      {
+        "title": "Vacature digital marketing & communicatie - SYA",
+        "url": "https://www.sya.be/nl/vacatures/digital-marketing",
+        "source": "Www.sya.be",
+        "date": "2026-02-12T10:38:32Z"
+      },
+      {
+        "title": "Fortuna Extends High Grade Gold Mineralization at Sunbird, Including 6.1\u00a0g/t Au over 18.9 meters, S\u00e9gu\u00e9la Mine, C\u00f4te d\u2019Ivoire",
+        "url": "https://www.globenewswire.com/news-release/2026/02/12/3236968/0/en/Fortuna-Extends-High-Grade-Gold-Mineralization-at-Sunbird-Including-6-1-g-t-Au-over-18-9-meters-S%C3%A9gu%C3%A9la-Mine-C%C3%B4te-d-Ivoire.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-12T10:00:00Z"
+      },
+      {
+        "title": "Ordro M5 5K Vlogging Camera with 3-Axis Stabilizer 120\u00b0 Ultra-Wide Angle IR Night Vision 3.5-Zoll Rotatable IPS Screen, Small Vlog Camera with 64G Memory Card for Photography YouTube TikTok",
+        "url": "https://www.amazon.de/-/en/ORDRO-Stabiliser-Ultra-Wide-Rotatable-Photography/dp/B0D8BGNFYL",
+        "source": "Amazon.de",
+        "date": "2026-02-12T08:45:01Z"
+      },
+      {
+        "title": "Stephen Hawking Was Told He\u2019d Die Young, Then Explored the Universe",
+        "url": "https://economictimes.indiatimes.com/news/international/us/stephen-hawking-was-told-hed-die-youngthen-explored-the-universe/articleshow/128240515.cms",
+        "source": "The Times of India",
+        "date": "2026-02-12T05:56:15Z"
+      },
+      {
+        "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+        "url": "https://financialpost.com/globe-newswire/osisko-development-provides-infill-drilling-update-on-its-13000-meter-lowhee-program-at-cariboo-gold-project-intercepts-include-596-40-g-t-gold-over-2-0-meters-from-6-1-meters-downhole-including-2",
+        "source": "Financial Post",
+        "date": "2026-02-12T00:06:28Z"
+      },
+      {
+        "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+        "url": "https://www.globenewswire.com/news-release/2026/02/12/3236801/0/en/Osisko-Development-Provides-Infill-Drilling-Update-on-Its-13-000-Meter-Lowhee-Program-at-Cariboo-Gold-Project-Intercepts-Include-596-40-g-t-Gold-Over-2-0-Meters-from-6-1-Meters-Dow.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-12T00:03:00Z"
+      },
+      {
+        "title": "Glucosylceramide-induced ectosomes propagate pathogenic \u03b1-synuclein in Parkinson\u2019s disease",
+        "url": "https://www.nature.com/articles/s41556-026-01871-6",
+        "source": "Nature.com",
+        "date": "2026-02-12T00:00:00Z"
+      },
+      {
+        "title": "We found shockingly cheap tickets to see Paul Simon live in 2026",
+        "url": "https://nypost.com/2026/02/11/ticket-sales/paul-simon-quiet-celebration-tour-2026-where-to-buy-tickets-best-prices/",
+        "source": "New York Post",
+        "date": "2026-02-11T18:08:07Z"
+      },
+      {
+        "title": "Testing, Inspection, and Certification (TIC) Market Poised to Reach US$ 541.12 Billion by 2035 | Electric Vehicle and Battery Testing Demand Accelerates Growth Says Astute Analytica",
+        "url": "https://www.globenewswire.com/news-release/2026/02/11/3236521/0/en/Testing-Inspection-and-Certification-TIC-Market-Poised-to-Reach-US-541-12-Billion-by-2035-Electric-Vehicle-and-Battery-Testing-Demand-Accelerates-Growth-Says-Astute-Analytica.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-11T16:30:00Z"
+      },
+      {
+        "title": "Molecular docking approaches in mycetoma: Toward improved patient management",
+        "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0013963",
+        "source": "Plos.org",
+        "date": "2026-02-11T14:00:00Z"
+      },
+      {
+        "title": "Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors",
+        "url": "https://news.samsung.com/global/samsung-exhibition-celebrates-innovative-spirit-of-winning-solve-for-tomorrow-ambassadors",
+        "source": "Samsung.com",
+        "date": "2026-02-11T11:25:19Z"
+      },
+      {
+        "title": "Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors",
+        "url": "https://news.samsung.com/in/samsung-exhibition-celebrates-innovative-spirit-of-winning-solve-for-tomorrow-ambassadors",
+        "source": "Samsung.com",
+        "date": "2026-02-11T11:24:48Z"
+      },
+      {
+        "title": "Emergency Response Safety Kit Recall: Airlife Removes Certain Broselow Pediatric Emergency Rainbow Tapes and Broselow ALS Organizers",
+        "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/emergency-response-safety-kit-recall-airlife-removes-certain-broselow-pediatric-emergency-rainbow",
+        "source": "FDA.gov",
+        "date": "2026-02-11T05:00:00Z"
+      },
+      {
+        "title": "MANOWAR Share Statement After Founding Guitarist ROSS \"THE BOSS\" FRIEDMAN Diagnosed With ALS",
+        "url": "https://metalinjection.net/news/manowar-share-statement-after-founding-guitarist-ross-the-boss-friedman-diagnosed-with-als",
+        "source": "Metal Injection.net",
+        "date": "2026-02-10T23:24:59Z"
+      },
+      {
+        "title": "[Latest] Global Large And Small Scale Bioprocessing Market Size/Share Worth USD 277.4 Billion by 2035 at a 11.5% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Growth Rate, Value, SWOT Analysis)",
+        "url": "https://www.globenewswire.com/news-release/2026/02/10/3235814/0/en/Latest-Global-Large-And-Small-Scale-Bioprocessing-Market-Size-Share-Worth-USD-277-4-Billion-by-2035-at-a-11-5-CAGR-Custom-Market-Insights-Analysis-Outlook-Leaders-Report-Trends-For.html",
+        "source": "GlobeNewswire",
+        "date": "2026-02-10T21:30:00Z"
+      }
+    ],
+    "generated_at": "2026-02-15T08:36:10.346686"
+  },
+  {
     "date": "2026-02-08",
     "week_of": "February 08, 2026",
     "digest_number": 7,
