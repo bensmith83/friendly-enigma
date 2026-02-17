@@ -1,5 +1,23 @@
 [
   {
+    "id": "2602.14055v1",
+    "title": "The Inevitability of Side-Channel Leakage in Encrypted Traffic",
+    "summary": "The widespread adoption of TLS 1.3 and QUIC has rendered payload content invisible, shifting traffic analysis toward side-channel features. However, rigorous justification for why side-channel leakage is inevitable in encrypted communications has been lacking. This paper establishes a strict foundation from information theory by constructing a formal model \\(\u03a3=(\u0393,\u03a9)\\), where \\(\u0393=(A,\u03a0,\u03a6,N)\\) describes the causal chain of application generation, protocol encapsulation, encryption transformation, and network transmission, while \\(\u03a9\\) characterizes observation capabilities. Based on composite channel structure, data processing inequality, and Lipschitz statistics propagation, we propose and prove the Side-Channel Existence Theorem: for distinguishable semantic pairs, under conditions including mapping non-degeneracy (\\(\\mathbb{E}[d(z_P,z_N)\\mid X]\\le C\\)), protocol-layer distinguishability (expectation difference \\(\\ge\\bar\u0394\\)), Lipschitz continuity, observation non-degeneracy (\\(\u03c1>0\\)), and propagation condition (\\(C<\\bar\u0394/2L_\\varphi\\)), the mutual information \\(I(X;Y)\\) is strictly positive with explicit lower bound. The corollary shows that in efficiency-prioritized systems, leakage is inevitable when at least one application pair is distinguishable. Three factors determine the boundary: non-degeneracy constant \\(C\\) constrained by efficiency, distinguishability \\(\\bar\u0394\\) from application diversity, and \\(\u03c1\\) from analyst capabilities. This establishes the first rigorous information-theoretic foundation for encrypted traffic side channels, providing verifiable predictions for attack feasibility, quantifiable benchmarks for defenses, and mathematical basis for efficiency-privacy tradeoffs.",
+    "published": "2026-02-15T08:55:19Z",
+    "link": "http://arxiv.org/abs/2602.14055v1",
+    "authors": [
+      "Guangjie Liu",
+      "Guang Chen",
+      "Weiwei Liu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.IT"
+    ],
+    "ai_summary": "The widespread adoption of TLS 1.3 and QUIC has rendered payload content invisible, shifting traffic analysis toward side-channel features. However, rigorous justification for why side-channel leakage is inevitable in encrypted communications has been lacking.",
+    "selected_date": "2026-02-17"
+  },
+  {
     "id": "2602.12704v1",
     "title": "QTabGAN: A Hybrid Quantum-Classical GAN for Tabular Data Synthesis",
     "summary": "Synthesizing realistic tabular data is challenging due to heterogeneous feature types and high dimensionality. We introduce QTabGAN, a hybrid quantum-classical generative adversarial framework for tabular data synthesis. QTabGAN is especially designed for settings where real data are scarce or restricted by privacy constraints. The model exploits the expressive power of quantum circuits to learn complex data distributions, which are then mapped to tabular features using classical neural networks. We evaluate QTabGAN on multiple classification and regression datasets and benchmark it against leading state-of-the-art generative models. Experiments show that QTabGAN achieves up to 54.07% improvement across various classification datasets and evaluation metrics, thus establishing a scalable quantum approach to tabular data synthesis and highlighting its potential for quantum-assisted generative modelling.",
@@ -567,24 +585,5 @@
     ],
     "ai_summary": "In the modern Systems-on-Chip (SoC), the Advanced eXtensible Interface (AXI) protocol exhibits security vulnerabilities, enabling partial or complete denial-of-service (DoS) through protocol-violation attacks. The recent countermeasures lack a dedicated real-time protocol semantic analysis and evade protocol compliance checks.",
     "selected_date": "2026-01-19"
-  },
-  {
-    "id": "2601.10004v1",
-    "title": "SoK: Privacy-aware LLM in Healthcare: Threat Model, Privacy Techniques, Challenges and Recommendations",
-    "summary": "Large Language Models (LLMs) are increasingly adopted in healthcare to support clinical decision-making, summarize electronic health records (EHRs), and enhance patient care. However, this integration introduces significant privacy and security challenges, driven by the sensitivity of clinical data and the high-stakes nature of medical workflows. These risks become even more pronounced across heterogeneous deployment environments, ranging from small on-premise hospital systems to regional health networks, each with unique resource limitations and regulatory demands. This Systematization of Knowledge (SoK) examines the evolving threat landscape across the three core LLM phases: Data preprocessing, Fine-tuning, and Inference within realistic healthcare settings. We present a detailed threat model that characterizes adversaries, capabilities, and attack surfaces at each phase, and we systematize how existing privacy-preserving techniques (PPTs) attempt to mitigate these vulnerabilities. While existing defenses show promise, our analysis identifies persistent limitations in securing sensitive clinical data across diverse operational tiers. We conclude with phase-aware recommendations and future research directions aimed at strengthening privacy guarantees for LLMs in regulated environments. This work provides a foundation for understanding the intersection of LLMs, threats, and privacy in healthcare, offering a roadmap toward more robust and clinically trustworthy AI systems.",
-    "published": "2026-01-15T02:28:57Z",
-    "link": "http://arxiv.org/abs/2601.10004v1",
-    "authors": [
-      "Mohoshin Ara Tahera",
-      "Karamveer Singh Sidhu",
-      "Shuvalaxmi Dass",
-      "Sajal Saha"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "ai_summary": "Large Language Models (LLMs) are increasingly adopted in healthcare to support clinical decision-making, summarize electronic health records (EHRs), and enhance patient care. However, this integration introduces significant privacy and security challenges, driven by the sensitivity of clinical data and the high-stakes nature of medical workflows.",
-    "selected_date": "2026-01-18"
   }
 ]
