@@ -1,5 +1,21 @@
 [
   {
+    "id": "2602.15493v1",
+    "title": "LEADER: Lightweight End-to-End Attention-Gated Dual Autoencoder for Robust Minutiae Extraction",
+    "summary": "Minutiae extraction, a fundamental stage in fingerprint recognition, is increasingly shifting toward deep learning. However, truly end-to-end methods that eliminate separate preprocessing and postprocessing steps remain scarce. This paper introduces LEADER (Lightweight End-to-end Attention-gated Dual autoencodER), a neural network that maps raw fingerprint images to minutiae descriptors, including location, direction, and type. The proposed architecture integrates non-maximum suppression and angular decoding to enable complete end-to-end inference using only 0.9M parameters. It employs a novel \"Castle-Moat-Rampart\" ground-truth encoding and a dual-autoencoder structure, interconnected through an attention-gating mechanism. Experimental evaluations demonstrate state-of-the-art accuracy on plain fingerprints and robust cross-domain generalization to latent impressions. Specifically, LEADER attains a 34% higher F1-score on the NIST SD27 dataset compared to specialized latent minutiae extractors. Sample-level analysis on this challenging benchmark reveals an average rank of 2.07 among all compared methods, with LEADER securing the first-place position in 47% of the samples-more than doubling the frequency of the second-best extractor. The internal representations learned by the model align with established fingerprint domain features, such as segmentation masks, orientation fields, frequency maps, and skeletons. Inference requires 15ms on GPU and 322ms on CPU, outperforming leading commercial software in computational efficiency. The source code and pre-trained weights are publicly released to facilitate reproducibility.",
+    "published": "2026-02-17T11:02:28Z",
+    "link": "http://arxiv.org/abs/2602.15493v1",
+    "authors": [
+      "Raffaele Cappelli",
+      "Matteo Ferrara"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Minutiae extraction, a fundamental stage in fingerprint recognition, is increasingly shifting toward deep learning. However, truly end-to-end methods that eliminate separate preprocessing and postprocessing steps remain scarce.",
+    "selected_date": "2026-02-18"
+  },
+  {
     "id": "2602.14055v1",
     "title": "The Inevitability of Side-Channel Leakage in Encrypted Traffic",
     "summary": "The widespread adoption of TLS 1.3 and QUIC has rendered payload content invisible, shifting traffic analysis toward side-channel features. However, rigorous justification for why side-channel leakage is inevitable in encrypted communications has been lacking. This paper establishes a strict foundation from information theory by constructing a formal model \\(\u03a3=(\u0393,\u03a9)\\), where \\(\u0393=(A,\u03a0,\u03a6,N)\\) describes the causal chain of application generation, protocol encapsulation, encryption transformation, and network transmission, while \\(\u03a9\\) characterizes observation capabilities. Based on composite channel structure, data processing inequality, and Lipschitz statistics propagation, we propose and prove the Side-Channel Existence Theorem: for distinguishable semantic pairs, under conditions including mapping non-degeneracy (\\(\\mathbb{E}[d(z_P,z_N)\\mid X]\\le C\\)), protocol-layer distinguishability (expectation difference \\(\\ge\\bar\u0394\\)), Lipschitz continuity, observation non-degeneracy (\\(\u03c1>0\\)), and propagation condition (\\(C<\\bar\u0394/2L_\\varphi\\)), the mutual information \\(I(X;Y)\\) is strictly positive with explicit lower bound. The corollary shows that in efficiency-prioritized systems, leakage is inevitable when at least one application pair is distinguishable. Three factors determine the boundary: non-degeneracy constant \\(C\\) constrained by efficiency, distinguishability \\(\\bar\u0394\\) from application diversity, and \\(\u03c1\\) from analyst capabilities. This establishes the first rigorous information-theoretic foundation for encrypted traffic side channels, providing verifiable predictions for attack feasibility, quantifiable benchmarks for defenses, and mathematical basis for efficiency-privacy tradeoffs.",
@@ -562,28 +578,5 @@
     ],
     "ai_summary": "Smart grid infrastructures have revolutionized energy distribution, but their day-to-day operations require robust anomaly detection methods to counter risks associated with cyber-physical threats and system faults potentially caused by natural disasters, equipment malfunctions, and cyber attacks. Conventional machine learning (ML) models are effective in several domains, yet they struggle to represent the complexities observed in smart grid systems.",
     "selected_date": "2026-01-20"
-  },
-  {
-    "id": "2601.11447v1",
-    "title": "IMS: Intelligent Hardware Monitoring System for Secure SoCs",
-    "summary": "In the modern Systems-on-Chip (SoC), the Advanced eXtensible Interface (AXI) protocol exhibits security vulnerabilities, enabling partial or complete denial-of-service (DoS) through protocol-violation attacks. The recent countermeasures lack a dedicated real-time protocol semantic analysis and evade protocol compliance checks. This paper tackles this AXI vulnerability issue and presents an intelligent hardware monitoring system (IMS) for real-time detection of AXI protocol violations. IMS is a hardware module leveraging neural networks to achieve high detection accuracy. For model training, we perform DoS attacks through header-field manipulation and systematic malicious operations, while recording AXI transactions to build a training dataset. We then deploy a quantization-optimized neural network, achieving 98.7% detection accuracy with <=3% latency overhead, and throughput of >2.5 million inferences/s. We subsequently integrate this IMS into a RISC-V SoC as a memory-mapped IP core to monitor its AXI bus. For demonstration and initial assessment for later ASIC integration, we implemented this IMS on an AMD Zynq UltraScale+ MPSoC ZCU104 board, showing an overall small hardware footprint (9.04% look-up-tables (LUTs), 0.23% DSP slices, and 0.70% flip-flops) and negligible impact on the overall design's achievable frequency. This demonstrates the feasibility of lightweight, security monitoring for resource-constrained edge environments.",
-    "published": "2026-01-16T17:10:17Z",
-    "link": "http://arxiv.org/abs/2601.11447v1",
-    "authors": [
-      "Wadid Foudhaili",
-      "Aykut Rencber",
-      "Anouar Nechi",
-      "Rainer Buchty",
-      "Mladen Berekovic",
-      "Andres Gomez",
-      "Saleh Mulhem"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AR",
-      "cs.LG"
-    ],
-    "ai_summary": "In the modern Systems-on-Chip (SoC), the Advanced eXtensible Interface (AXI) protocol exhibits security vulnerabilities, enabling partial or complete denial-of-service (DoS) through protocol-violation attacks. The recent countermeasures lack a dedicated real-time protocol semantic analysis and evade protocol compliance checks.",
-    "selected_date": "2026-01-19"
   }
 ]
