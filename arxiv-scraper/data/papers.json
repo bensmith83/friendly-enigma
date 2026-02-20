@@ -1,5 +1,27 @@
 [
   {
+    "id": "2602.16800v1",
+    "title": "Large-scale online deanonymization with LLMs",
+    "summary": "We show that large language models can be used to perform at-scale deanonymization. With full Internet access, our agent can re-identify Hacker News users and Anthropic Interviewer participants at high precision, given pseudonymous online profiles and conversations alone, matching what would take hours for a dedicated human investigator. We then design attacks for the closed-world setting. Given two databases of pseudonymous individuals, each containing unstructured text written by or about that individual, we implement a scalable attack pipeline that uses LLMs to: (1) extract identity-relevant features, (2) search for candidate matches via semantic embeddings, and (3) reason over top candidates to verify matches and reduce false positives. Compared to prior deanonymization work (e.g., on the Netflix prize) that required structured data or manual feature engineering, our approach works directly on raw user content across arbitrary platforms. We construct three datasets with known ground-truth data to evaluate our attacks. The first links Hacker News to LinkedIn profiles, using cross-platform references that appear in the profiles. Our second dataset matches users across Reddit movie discussion communities; and the third splits a single user's Reddit history in time to create two pseudonymous profiles to be matched. In each setting, LLM-based methods substantially outperform classical baselines, achieving up to 68% recall at 90% precision compared to near 0% for the best non-LLM method. Our results show that the practical obscurity protecting pseudonymous users online no longer holds and that threat models for online privacy need to be reconsidered.",
+    "published": "2026-02-18T19:02:50Z",
+    "link": "http://arxiv.org/abs/2602.16800v1",
+    "authors": [
+      "Simon Lermen",
+      "Daniel Paleka",
+      "Joshua Swanson",
+      "Michael Aerni",
+      "Nicholas Carlini",
+      "Florian Tram\u00e8r"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "ai_summary": "We show that large language models can be used to perform at-scale deanonymization. With full Internet access, our agent can re-identify Hacker News users and Anthropic Interviewer participants at high precision, given pseudonymous online profiles and conversations alone, matching what would take hours for a dedicated human investigator.",
+    "selected_date": "2026-02-20"
+  },
+  {
     "id": "2602.16109v1",
     "title": "Federated Graph AGI for Cross-Border Insider Threat Intelligence in Government Financial Schemes",
     "summary": "Cross-border insider threats pose a critical challenge to government financial schemes, particularly when dealing with distributed, privacy-sensitive data across multiple jurisdictions. Existing approaches face fundamental limitations: they cannot effectively share intelligence across borders due to privacy constraints, lack reasoning capabilities to understand complex multi-step attack patterns, and fail to capture intricate graph-structured relationships in financial networks. We introduce FedGraph-AGI, a novel federated learning framework integrating Artificial General Intelligence (AGI) reasoning with graph neural networks for privacy-preserving cross-border insider threat detection. Our approach combines: (1) federated graph neural networks preserving data sovereignty; (2) Mixture-of-Experts (MoE) aggregation for heterogeneous jurisdictions; and (3) AGI-powered reasoning via Large Action Models (LAM) performing causal inference over graph data. Through experiments on a 50,000-transaction dataset across 10 jurisdictions, FedGraph-AGI achieves 92.3% accuracy, significantly outperforming federated baselines (86.1%) and centralized approaches (84.7%). Our ablation studies reveal AGI reasoning contributes 6.8% improvement, while MoE adds 4.4%. The system maintains epsilon = 1.0 differential privacy while achieving near-optimal performance and scales efficiently to 50+ clients. This represents the first integration of AGI reasoning with federated graph learning for insider threat detection, opening new directions for privacy-preserving cross-border intelligence sharing.",
@@ -558,25 +580,5 @@
     ],
     "ai_summary": "Misinformation and fake news have become a pressing societal challenge, driving the need for reliable automated detection methods. Prior research has highlighted sentiment as an important signal in fake news detection, either by analyzing which sentiments are associated with fake news or by using sentiment and emotion features for classification.",
     "selected_date": "2026-01-22"
-  },
-  {
-    "id": "2601.13569v1",
-    "title": "DRGW: Learning Disentangled Representations for Robust Graph Watermarking",
-    "summary": "Graph-structured data is foundational to numerous web applications, and watermarking is crucial for protecting their intellectual property and ensuring data provenance. Existing watermarking methods primarily operate on graph structures or entangled graph representations, which compromise the transparency and robustness of watermarks due to the information coupling in representing graphs and uncontrollable discretization in transforming continuous numerical representations into graph structures. This motivates us to propose DRGW, the first graph watermarking framework that addresses these issues through disentangled representation learning. Specifically, we design an adversarially trained encoder that learns an invariant structural representation against diverse perturbations and derives a statistically independent watermark carrier, ensuring both robustness and transparency of watermarks. Meanwhile, we devise a graph-aware invertible neural network to provide a lossless channel for watermark embedding and extraction, guaranteeing high detectability and transparency of watermarks. Additionally, we develop a structure-aware editor that resolves the issue of latent modifications into discrete graph edits, ensuring robustness against structural perturbations. Experiments on diverse benchmark datasets demonstrate the superior effectiveness of DRGW.",
-    "published": "2026-01-20T03:55:18Z",
-    "link": "http://arxiv.org/abs/2601.13569v1",
-    "authors": [
-      "Jiasen Li",
-      "Yanwei Liu",
-      "Zhuoyi Shang",
-      "Xiaoyan Gu",
-      "Weiping Wang"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR"
-    ],
-    "ai_summary": "Graph-structured data is foundational to numerous web applications, and watermarking is crucial for protecting their intellectual property and ensuring data provenance. Existing watermarking methods primarily operate on graph structures or entangled graph representations, which compromise the transparency and robustness of watermarks due to the information coupling in representing graphs and uncontrollable discretization in transforming continuous numerical representations into graph structures.",
-    "selected_date": "2026-01-21"
   }
 ]
