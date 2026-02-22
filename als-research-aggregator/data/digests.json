@@ -1,5 +1,1406 @@
 [
   {
+    "date": "2026-02-22",
+    "week_of": "February 22, 2026",
+    "digest_number": 9,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "A new mechanism regulating microglial NLRP3 inflammasome: FMR1 mediates NLRP3 mRNA stability",
+          "description": "Background The NLRP3 inflammasome drives chronic inflammation and contributes to the pathogenesis of multiple sclerosis (MS). This study aimed to elucidate a novel post-transcriptional regulatory mechanism controlling NLRP3 expression in microglia under lipop\u2026",
+          "content": "Citation: Deng Q, Bai Q, Yang Y, Tang W, Liu F, Zhang S, et al. (2026) A new mechanism regulating microglial NLRP3 inflammasome: FMR1 mediates NLRP3 mRNA stability. PLoS One 21(2):\r\n e0341867.\r\nhttps\u2026 [+42069 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341867",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T14:00:00Z",
+          "author": "Qian Deng, Qianqian Bai, Yang Yang, Wenchao Tang, Fangfei Liu, Shumin Zhang, Hao Wang, Zhehua Xing, Chi Zhang, Yanhui Yang, Qizhi Fu, Hua Fan",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0341867.g007&size=inline",
+          "is_local_nj": true,
+          "article_id": "6416f521861f",
+          "summary": "Background The NLRP3 inflammasome drives chronic inflammation and contributes to the pathogenesis of multiple sclerosis (MS). This study aimed to elucidate a novel post-transcriptional regulatory mech",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "How One Doctor Changed New York\u2019s Right-to-Die Law",
+          "description": "Jeremy Boal helped convince Governor Kathy Hochul to pass New York\u2019s Medical Aid in Dying Act. He may be one of the first people to use it.",
+          "content": "Every day, Jeremy Boal practices dying. Sitting in his leather recliner or out on his back porch, he enters a meditative state and visualizes letting go of his identities: father, husband, doctor, ac\u2026 [+8377 chars]",
+          "url": "http://nymag.com/intelligencer/article/medical-aid-in-dying-new-york-hochul-jeremy-boal.html",
+          "source_name": "New York Magazine",
+          "source_type": "newsapi",
+          "published_at": "2026-02-19T10:00:52Z",
+          "author": "John Hendrickson",
+          "image_url": "https://pyxis.nymag.com/v1/imgs/4e2/d8f/886ce7661e2893c25da74554573cccea99-NYMAGJEREMYBOAL.1x.rsocial.w1200.jpg",
+          "is_local_nj": true,
+          "article_id": "3bec2dcfbf44",
+          "summary": "Jeremy Boal helped convince Governor Kathy Hochul to pass New York\u2019s Medical Aid in Dying Act. He may be one of the first people to use it.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Hundreds plunge at Manasquan Beach to raise funds for people with ALS - News12 | New Jersey",
+          "description": "Hundreds plunge at Manasquan Beach to raise funds for people with ALS&nbsp;&nbsp;News12 | New Jersey",
+          "content": "",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOblY4YlU5a2NTemdVUTl5cGdZRkFad3ZDYmh3NjZpcERnSXd0cU5XcDVrRHR2QmtJeklNVGtrR0dPTUtIT181Ym16UHFtZV9WSE55ZnhPaERBQ0lTcHBXZTFvUlRTSG9xaDdreG9veU8xMnJhMi1xYXRrS2w3N1VEX3c4eXlvR1IyTWhZSnRCSnl4aU5QazVXLUhmRlBqMEU?oc=5",
+          "source_name": "Google News (\"New Jersey\" ALS...)",
+          "source_type": "rss",
+          "published_at": "2026-02-21T22:31:23",
+          "author": "",
+          "image_url": "",
+          "is_local_nj": true,
+          "category_hint": null,
+          "article_id": "a3cb79e78dc0",
+          "summary": "Hundreds plunge at Manasquan Beach to raise funds for people with ALS&nbsp;&nbsp;News12 | New Jersey",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane, 'Grey's Anatomy' star and ALS awareness advocate, dies at 53 - News12 | New Jersey",
+          "description": "Eric Dane, 'Grey's Anatomy' star and ALS awareness advocate, dies at 53&nbsp;&nbsp;News12 | New Jersey",
+          "content": "",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLS1sWVJjYlhkaTFGX2F2QXhaeHJJV2NEWVFOdi1KNHcyVlgweENXU1FnazdUOHZTc202NFJuTFBFUy1heUNIWWF4Mjh5WWVGN0VBcGNRdWFISGN4YWd3WHhfZThYTG5LVkRxY0tnY0pjQlJudmZKOWppS1dvSG5pbWxuSjNianNzcjJkc3VUci1FSmd0QkpIRllCNA?oc=5",
+          "source_name": "Google News (\"New Jersey\" ALS...)",
+          "source_type": "rss",
+          "published_at": "2026-02-20T03:00:17",
+          "author": "",
+          "image_url": "",
+          "is_local_nj": true,
+          "category_hint": null,
+          "article_id": "85a0c16ee70c",
+          "summary": "Eric Dane, 'Grey's Anatomy' star and ALS awareness advocate, dies at 53&nbsp;&nbsp;News12 | New Jersey",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Eric Dane's Sad Final Days: 'Grey's Anatomy' Alum 'Has 24/7 Nurses' as His Devastating ALS Battle 'Keeps Getting Worse'",
+              "url": "https://radaronline.com/p/eric-dane-sad-final-days-als-battle-keeps-getting-worse/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Why is Eric Dane's final interview airing? #entertainment",
+          "description": "A final conversation becomes public after the actor\u2019s death Netflix has released a recorded interview with the late Eric Dane, giving audiences a direct, unfiltered look at the actor\u2019s thoughts in his final months. Dane, best known for his turns on Grey\u2019s Ana\u2026",
+          "content": "Netflix has released a recorded interview with the late Eric Dane, giving audiences a direct, unfiltered look at the actors thoughts in his final months. Dane, best known for his turns on Greys Anato\u2026 [+1595 chars]",
+          "url": "https://alltoc.com/entertainment/why-is-eric-dane-s-final-interview-airing",
+          "source_name": "Alltoc.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T06:07:52Z",
+          "author": "AllToc",
+          "image_url": "https://alltoc.com/cdn/1045/og.png",
+          "is_local_nj": false,
+          "article_id": "0ac10b24b91c",
+          "summary": "A final conversation becomes public after the actor\u2019s death Netflix has released a recorded interview with the late Eric Dane, giving audiences a direct, unfiltered look at the actor\u2019s thoughts in his",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane's Sad Final Days: 'Grey's Anatomy' Alum 'Has 24/7 Nurses' as His Devastating ALS Battle 'Keeps Getting Worse'",
+              "url": "https://radaronline.com/p/eric-dane-sad-final-days-als-battle-keeps-getting-worse/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "WATCH: Trump condemns SCOTUS justices, announces new global tariffs after major ruling",
+          "description": "President Trump on Friday outlined a new plan to impose his global tariffs after the Supreme Court struck down most of the levies as illegal \u2014 a decision he lambasted as \"deeply disappointing.\"",
+          "content": "<ul><li>Trump blasts Supreme Court's decision to strike down most of his tariffs\r\n</li><li>Masked man on Nancy Guthrie's doorstep may have had accomplice, sheriff's office says\r\n</li><li>Looking back\u2026 [+4534 chars]",
+          "url": "https://abcnews.com/video/130358826/",
+          "source_name": "Abcnews.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T06:07:27Z",
+          "author": "ABC News",
+          "image_url": "https://i.abcnewsfe.com/a/44e4049f-833d-494e-a82b-fc31d604000d/260220_abc_soc_trump_tariffs_hpMain_9x16.jpg?w=992",
+          "is_local_nj": false,
+          "article_id": "40d3cf03e59f",
+          "summary": "President Trump on Friday outlined a new plan to impose his global tariffs after the Supreme Court struck down most of the levies as illegal \u2014 a decision he lambasted as \"deeply disappointing.\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u2018Euphoria\u2019 Creator Sam Levinson Donates $27,000 to Eric Dane\u2019s GoFundMe",
+          "description": "Sam Levinson and his wife, Ashley Lent Levinson, are among the donors supporting Eric Dane\u2019s family by contributing to a GoFundMe set up after the actor\u2019s death. The Euphoria creator, 41, and his wife appear to have donated $27,000 to the campaign, according \u2026",
+          "content": "Sam Levinson and his wife, Ashley Lent Levinson, are among the donors supporting Eric Dane\u2019s family by contributing to a GoFundMe set up after the actor\u2019s death.\r\nThe Euphoria creator, 41, and his wi\u2026 [+3345 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/euphoria-creator-sam-levinson-donates-27000-to-eric-danes-gofundme/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T06:03:15Z",
+          "author": "Erin Doyle",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/02/GettyImages-1392676795Euphoria-Creator-Sam-Levinson-Donates-to-Eric-Danes-GoFundMe.jpg?crop=490px%2C80px%2C1730px%2C908px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "e7f97b64367e",
+          "summary": "Sam Levinson and his wife, Ashley Lent Levinson, are among the donors supporting Eric Dane\u2019s family by contributing to a GoFundMe set up after the actor\u2019s death. The Euphoria creator, 41, and his wife",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Al Horford hints at reason for leaving Celtics",
+          "description": "Al Horford reflected on his departure from the Celtics and his future with the Warriors before facing his former team.",
+          "content": "SAN FRANCISCO Al Horford took his warmup shots with his son Ean and then sat in the locker room, open to reporters and took several questions. Its a routine he did regularly while in Boston, and now \u2026 [+4232 chars]",
+          "url": "https://www.celticsblog.com/boston-celtics-news/132738/al-horford-hints-at-reason-for-leaving-celtics",
+          "source_name": "Celtics Blog",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T05:43:00Z",
+          "author": "Bobby Manning",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/8GNWk_ZbWZahdieen7qvuQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/a0718ed519f55be9837b94115533830d",
+          "is_local_nj": false,
+          "article_id": "fbffab7e89a4",
+          "summary": "Al Horford reflected on his departure from the Celtics and his future with the Warriors before facing his former team.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "God of War: Sons of Sparta - Mehr Teaser als G\u00f6tter-Epos",
+          "description": null,
+          "content": "Ganz ohne Vorank\u00fcndigung hat Sony das neueste Kapitel der God of War\"-Saga per Shadow Drop ver\u00f6ffentlicht. Sons of Sparta\" ist ab sofort f\u00fcr die PlayStation 5 und den PC verf\u00fcgbar und schl\u00e4gt v\u00f6llig \u2026 [+3800 chars]",
+          "url": "https://oe3.orf.at/stories/3052432/",
+          "source_name": "Oe3.orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T05:00:00Z",
+          "author": null,
+          "image_url": "https://tubestatic.orf.at/static/images/site/tube/2026028/gamecheck_bild_19.6040183.jpeg",
+          "is_local_nj": false,
+          "article_id": "5eb140bccba6",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Actor Eric Dane's\u00a0unwavering advocacy for ALS was the\u00a0most powerful role of his career",
+          "description": "Actor Eric Dane's\u00a0unwavering advocacy for ALS was the\u00a0most powerful role of his career, and his work will continue to change lives even after his passing.",
+          "content": "LOS ANGELES -- Actor Eric Dane, best known for his roles on \"Grey's Anatomy\" and \"Euphoria,\" lost his battle with ALS 10 months after publicly sharing his diagnosis.\r\nDane, however, continued to work\u2026 [+1957 chars]",
+          "url": "https://6abc.com/post/actor-eric-dane-unwavering-advocacy-als-career-tributes/18627286/",
+          "source_name": "WPVI-TV",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T04:15:29Z",
+          "author": "George Pennacchio",
+          "image_url": "https://cdn.abcotvs.com/dip/images/18627284_022026-kabc-5pm-eric-dane-vid.jpg?w=1600",
+          "is_local_nj": false,
+          "article_id": "12f417b2eba0",
+          "summary": "Actor Eric Dane's\u00a0unwavering advocacy for ALS was the\u00a0most powerful role of his career, and his work will continue to change lives even after his passing.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Jamie-Lynn Sigler Was \u201cThrilled\u201d For Eric Dane\u2019s \u2018Brilliant Minds\u2019 Role Amid ALS Diagnosis: \u201cThat\u2019s A Gift\u201d",
+              "url": "http://deadline.com/2026/01/jamie-lynn-sigler-thrilled-eric-dane-brilliant-minds-als-1236683276/",
+              "digest_date": "2026-01-18"
+            },
+            {
+              "title": "Eric Dane's Sad Final Days: 'Grey's Anatomy' Alum 'Has 24/7 Nurses' as His Devastating ALS Battle 'Keeps Getting Worse'",
+              "url": "https://radaronline.com/p/eric-dane-sad-final-days-als-battle-keeps-getting-worse/",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Rebecca Gayheart Reveals Her Heartbreaking Reaction to Eric Dane's ALS Diagnosis, Some of His Early Symptoms",
+              "url": "https://www.justjared.com/2025/12/29/rebecca-gayheart-reveals-her-heartbreaking-reaction-to-eric-danes-als-diagnosis-some-of-his-early-symptoms/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "\u2018Grey\u2019s Anatomy\u2019 Star Kate Walsh Breaks Silence on Eric Dane\u2019s Death",
+          "description": "Grey\u2019s Anatomy star Kate Walsh is paying tribute to her former onscreen love interest, Eric Dane, in the wake of his death. Posting via her Instagram on Friday, February 20, Walsh honored her costar after he died on Thursday at age 53 following a battle with \u2026",
+          "content": "Grey\u2019s Anatomy star Kate Walsh is paying tribute to her former onscreen love interest, Eric Dane, in the wake of his death.\r\nPosting via her Instagram on Friday, February 20, Walsh honored her costar\u2026 [+2887 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/greys-anatomy-star-kate-walsh-breaks-silence-on-eric-danes-death/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T04:04:14Z",
+          "author": "Erin Doyle",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/02/GettyImages-93739537-Greys-Anatomy-Kate-Walsh-Pays-Tribute-to-Eric-Dane-After-His-Death.jpg?crop=32px%2C82px%2C2660px%2C1397px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "9f7a9992e963",
+          "summary": "Grey\u2019s Anatomy star Kate Walsh is paying tribute to her former onscreen love interest, Eric Dane, in the wake of his death. Posting via her Instagram on Friday, February 20, Walsh honored her costar a",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Told Eric Dane \u2018Whatever You Need, However I Can Help. I Love You\u2019 After Learning of \u2018Grey\u2019s Anatomy\u2019 Co-Star\u2019s ALS Diagnosis",
+              "url": "https://variety.com/2026/tv/news/ellen-pompeo-eric-dane-als-diagnosis-greys-anatomy-1236651745/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Kate Walsh on Returning to \u2018Grey\u2019s Anatomy,\u2019 Her \u2018Family\u2019 Bond With Caterina Scorsone and Why Fans Still Talk About Addison\u2019s \u2018Iconic\u2019 Season 1 Entrance (EXCLUSIVE)",
+              "url": "https://variety.com/2026/tv/news/kate-walsh-greys-anatomy-return-addison-marriage-trouble-jake-1236644697/",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane's Friends Start GoFundMe for 2 Daughters After Actor's Death",
+          "description": "Eric Dane\u2019s friends are rallying around his family following his heartbreaking death, after a \"hard-fought\" battle with ALS ... launching a GoFundMe page in the wake of the actor\u2019s passing. The fundraiser, created on Friday, includes the same\u2026",
+          "content": "Eric Danes friends are rallying around his family following his heartbreaking death, after a \"hard-fought\" battle with ALS ... launching a GoFundMe page in the wake of the actors passing.\r\nThe fundra\u2026 [+1482 chars]",
+          "url": "https://www.tmz.com/2026/02/20/eric-dane-friends-start-gofundme-after-actors-death/",
+          "source_name": "TMZ",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T03:58:15Z",
+          "author": "TMZ Staff",
+          "image_url": "https://imagez.tmz.com/image/9c/16by9/2026/02/20/9c37369735284902b8e3e5839d911fe4_xl.png",
+          "is_local_nj": false,
+          "article_id": "6c8a4fc8fea9",
+          "summary": "Eric Dane\u2019s friends are rallying around his family following his heartbreaking death, after a \"hard-fought\" battle with ALS ... launching a GoFundMe page in the wake of the actor\u2019s passing. The fundra",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane\u2019s Friends Launch GoFundMe to Support Actor\u2019s Daughters After His Death",
+          "description": "Eric Dane\u2019s friends have started a GoFundMe for the late actor's daughters following his death on Feb. 19 at age 53 following a fight against ALS.",
+          "content": "Eric Dane\u2019s friends have started a GoFundMe for the late actor\u2019s daughters following his death on Feb. 19 at age 53 following a fight against amyotrophic lateral sclerosis\u00a0(ALS).\r\nThe page has curren\u2026 [+1733 chars]",
+          "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-gofundme-support-daughters-1235520592/",
+          "source_name": "Rolling Stone",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T03:53:42Z",
+          "author": "Charisma Madarang",
+          "image_url": "https://www.rollingstone.com/wp-content/uploads/2026/02/eric-dane-gofundme-daughters.jpg?w=1600&h=900&crop=1",
+          "is_local_nj": false,
+          "article_id": "ee01618c92ed",
+          "summary": "Eric Dane\u2019s friends have started a GoFundMe for the late actor's daughters following his death on Feb. 19 at age 53 following a fight against ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo reveals her private conversation with Eric Dane after learning his ALS diagnosis",
+              "url": "https://pagesix.com/2026/02/03/entertainment/ellen-pompeo-reveals-private-conversation-with-eric-dane-after-learning-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "What Ellen Pompeo Told Eric Dane After Learning of His ALS Diagnosis",
+              "url": "https://www.eonline.com/news/1428140/eric-danes-als-diagnosis-ellen-pompeo-speaks-out",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Kate Walsh Pays Tribute to Late 'Grey's Anatomy' Co-Star Eric Dane, Shares What She Loved About Him",
+          "description": "Kate Walsh is the latest star to pay tribute to Eric Dane. The 58-year-old actress and the late actor co-starred together on Grey\u2019s Anatomy, and he also appeared on her spinoff Private Practice. Across the two shows, they shared many scenes together, and foll\u2026",
+          "content": "Kate Walsh is the latest star to pay tribute to Eric Dane. \r\nThe 58-year-old actress and the late actor co-starred together on Grey\u2019s Anatomy, and he also appeared on her spinoff Private Practice. \r\n\u2026 [+1595 chars]",
+          "url": "https://www.justjared.com/2026/02/20/kate-walsh-pays-tribute-to-late-greys-anatomy-co-star-eric-dane-shares-what-she-loved-about-him/",
+          "source_name": "Just Jared",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T03:12:53Z",
+          "author": "Just Jared",
+          "image_url": "https://cdn01.justjared.com/wp-content/uploads/headlines/2026/02/kate-eric.jpg",
+          "is_local_nj": false,
+          "article_id": "a6f15290d41a",
+          "summary": "Kate Walsh is the latest star to pay tribute to Eric Dane. The 58-year-old actress and the late actor co-starred together on Grey\u2019s Anatomy, and he also appeared on her spinoff Private Practice. Acros",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Patrick Dempsey gives heartbreaking update about former co-star Eric Dane amid ALS diagnosis",
+              "url": "https://www.the-independent.com/life-style/eric-dane-patrick-dempsey-als-health-update-greys-anatomy-b2910664.html",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "Actor Eric Dane's\u00a0unwavering advocacy for ALS was the\u00a0most powerful role of his career",
+          "description": "Actor Eric Dane's\u00a0unwavering advocacy for ALS was the\u00a0most powerful role of his career, and his work will continue to change lives even after his passing.",
+          "content": "LOS ANGELES -- Actor Eric Dane, best known for his roles on \"Grey's Anatomy\" and \"Euphoria,\" lost his battle with ALS 10 months after publicly sharing his diagnosis.\r\nDane, however, continued to work\u2026 [+1957 chars]",
+          "url": "https://abc7chicago.com/post/actor-eric-dane-unwavering-advocacy-als-career-tributes/18627286/",
+          "source_name": "WLS-TV",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T03:12:00Z",
+          "author": "George Pennacchio",
+          "image_url": "https://cdn.abcotvs.com/dip/images/18627284_022026-kabc-5pm-eric-dane-vid.jpg?w=1600",
+          "is_local_nj": false,
+          "article_id": "977672f9aa28",
+          "summary": "Actor Eric Dane's\u00a0unwavering advocacy for ALS was the\u00a0most powerful role of his career, and his work will continue to change lives even after his passing.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Jamie-Lynn Sigler Was \u201cThrilled\u201d For Eric Dane\u2019s \u2018Brilliant Minds\u2019 Role Amid ALS Diagnosis: \u201cThat\u2019s A Gift\u201d",
+              "url": "http://deadline.com/2026/01/jamie-lynn-sigler-thrilled-eric-dane-brilliant-minds-als-1236683276/",
+              "digest_date": "2026-01-18"
+            },
+            {
+              "title": "Eric Dane's Sad Final Days: 'Grey's Anatomy' Alum 'Has 24/7 Nurses' as His Devastating ALS Battle 'Keeps Getting Worse'",
+              "url": "https://radaronline.com/p/eric-dane-sad-final-days-als-battle-keeps-getting-worse/",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Rebecca Gayheart Reveals Her Heartbreaking Reaction to Eric Dane's ALS Diagnosis, Some of His Early Symptoms",
+              "url": "https://www.justjared.com/2025/12/29/rebecca-gayheart-reveals-her-heartbreaking-reaction-to-eric-danes-als-diagnosis-some-of-his-early-symptoms/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane\u2019s Friends Launch GoFundMe To Support His Daughters Following His Death From ALS",
+          "description": "Following Eric Dane\u2019s death on Thursday, his friends and fans are stepping up to show their support to his family as they grieve. Friends of Dane and wife Rebecca Gayheart\u2019s family have launched a GoFundMe page to raise funds to help support their two teen da\u2026",
+          "content": "Following Eric Dane\u2018s death on Thursday, his friends and fans are stepping up to show their support to his family as they grieve. \r\nFriends of Dane and wife Rebecca Gayheart\u2019s family have launched a \u2026 [+1628 chars]",
+          "url": "http://deadline.com/2026/02/eric-dane-friends-launch-gofundme-support-family-1236731624/",
+          "source_name": "Deadline",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T03:11:45Z",
+          "author": "Glenn Garner",
+          "image_url": "https://deadline.com/wp-content/uploads/2026/02/GettyImages-2155401245_d9d7a3.jpg?w=1024",
+          "is_local_nj": false,
+          "article_id": "a42099b4940f",
+          "summary": "Following Eric Dane\u2019s death on Thursday, his friends and fans are stepping up to show their support to his family as they grieve. Friends of Dane and wife Rebecca Gayheart\u2019s family have launched a GoF",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Eric Dane\u2019s ex had to fight for his 24/7 nursing care as ALS worsens",
+              "url": "https://www.bostonherald.com/2025/12/31/eric-danes-ex-fight-24-7-nursing-care-als-worsens/",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Rebecca Gayheart on Eric Dane\u2019s First ALS Symptoms & the Moment He Told Her His Diagnosis",
+              "url": "https://extratv.com/2025/12/29/rebecca-gayheart-on-eric-dane-s-first-als-symptoms-and-the-moment-he-told-her-his-diagnosis/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "What happened to Eric Dane? #entertainment",
+          "description": "Eric Dane\u2019s death, final interview, and support for his family Eric Dane died at 53 after a battle with amyotrophic lateral sclerosis (ALS). The actor, best known for roles on Grey\u2019s Anatomy and Euphoria, had been public about his diagnosis in recent months. \u2026",
+          "content": "Eric Dane died at 53 after a battle with amyotrophic lateral sclerosis (ALS). The actor, best known for roles on Greys Anatomy and Euphoria, had been public about his diagnosis in recent months. His \u2026 [+1702 chars]",
+          "url": "https://alltoc.com/entertainment/what-happened-to-eric-dane",
+          "source_name": "Alltoc.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T03:08:02Z",
+          "author": "AllToc",
+          "image_url": "https://alltoc.com/cdn/1045/og.png",
+          "is_local_nj": false,
+          "article_id": "6a0ce3d9306d",
+          "summary": "Eric Dane\u2019s death, final interview, and support for his family Eric Dane died at 53 after a battle with amyotrophic lateral sclerosis (ALS). The actor, best known for roles on Grey\u2019s Anatomy and Eupho",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "How will the $250K GoFundMe help Eric Dane's daughters? #tabloid",
+          "description": "What friends say they'll do and why it matters Friends of the late actor have launched a $250,000 GoFundMe to support his two teenage daughters after his death from amyotrophic lateral sclerosis (ALS). The fundraiser is explicitly framed as help for his child\u2026",
+          "content": "Friends of the late actor have launched a $250,000 GoFundMe to support his two teenage daughters after his death from amyotrophic lateral sclerosis (ALS). The fundraiser is explicitly framed as help \u2026 [+1647 chars]",
+          "url": "https://alltoc.com/tabloid/how-will-the-250k-gofundme-help-eric-dane-s-daughters",
+          "source_name": "Alltoc.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T03:04:37Z",
+          "author": "AllToc",
+          "image_url": "https://alltoc.com/cdn/1045/og.png",
+          "is_local_nj": false,
+          "article_id": "9bf8707cd12f",
+          "summary": "What friends say they'll do and why it matters Friends of the late actor have launched a $250,000 GoFundMe to support his two teenage daughters after his death from amyotrophic lateral sclerosis (ALS)",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane\u2019s Friends Launch GoFundMe to Support His Children",
+          "description": "The Grey's Anatomy star died Thursday following a battle with ALS.\nEric Dane\u2019s Friends Launch GoFundMe to Support His Children\nScoop Harrison",
+          "content": "Friends of actor Eric Dane have launched a GoFundMe to raise funds on behalf of his two daughters in light of his passing earlier this week.\r\n\u201cAny contribution, no matter the size, will help provide \u2026 [+385 chars]",
+          "url": "https://consequence.net/2026/02/eric-dane-gofundme/",
+          "source_name": "Consequence.net",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T02:56:53Z",
+          "author": "Scoop Harrison",
+          "image_url": "https://consequence.net/wp-content/uploads/2026/02/Eric-Dane-1.jpeg",
+          "is_local_nj": false,
+          "article_id": "cffda30a3399",
+          "summary": "The Grey's Anatomy star died Thursday following a battle with ALS.\nEric Dane\u2019s Friends Launch GoFundMe to Support His Children\nScoop Harrison",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Eric Dane\u2019s ex had to fight for his 24/7 nursing care as ALS worsens",
+              "url": "https://www.bostonherald.com/2025/12/31/eric-danes-ex-fight-24-7-nursing-care-als-worsens/",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Rebecca Gayheart on Eric Dane\u2019s First ALS Symptoms & the Moment He Told Her His Diagnosis",
+              "url": "https://extratv.com/2025/12/29/rebecca-gayheart-on-eric-dane-s-first-als-symptoms-and-the-moment-he-told-her-his-diagnosis/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "What were Eric Dane\u2019s final four pieces of advice to his daughters? Grey\u2019s Anatomy actor\u2019s heartbreaking recording goes viral",
+          "description": "Actor Eric Dane, famous for Grey's Anatomy and Euphoria, has died at 53. He bravely fought ALS, a condition he revealed last year. Before his passing, the actor shared a touching video message for his daughters, Billie and Georgia. In it, he imparted life les\u2026",
+          "content": "Eric Dane, best known for his roles in Grey's Anatomy and Euphoria, passed away at the age of 53, less than a year after publicly revealing that he had been diagnosed with amyotrophic lateral scleros\u2026 [+2957 chars]",
+          "url": "https://economictimes.indiatimes.com/magazines/panache/what-were-eric-danes-final-four-pieces-of-advice-to-his-daughters-greys-anatomy-actors-heartbreaking-recording-goes-viral/articleshow/128630511.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T02:44:41Z",
+          "author": "ET Online",
+          "image_url": "https://img.etimg.com/thumb/msid-128631258,width-1200,height-630,imgsize-20098,overlay-etpanache/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "7ad837622ce5",
+          "summary": "Actor Eric Dane, famous for Grey's Anatomy and Euphoria, has died at 53. He bravely fought ALS, a condition he revealed last year. Before his passing, the actor shared a touching video message for his",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "What Ellen Pompeo Told Eric Dane After Learning of His ALS Diagnosis",
+              "url": "https://www.eonline.com/news/1428140/eric-danes-als-diagnosis-ellen-pompeo-speaks-out",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Eric Dane\u2019s ex had to fight for his 24/7 nursing care as ALS worsens",
+              "url": "https://www.bostonherald.com/2025/12/31/eric-danes-ex-fight-24-7-nursing-care-als-worsens/",
+              "digest_date": "2026-01-04"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane's Friends Launch GoFundMe to Support His Daughters",
+          "description": "The 'Grey's Anatomy' and 'Euphoria' star died on Thursday at the age of 53 after he revealed in April that he was diagnosed with ALS.",
+          "content": "Eric Dane\u2018s friends are asking for financial support for the actor\u2019s family after he lost his battle to amyotrophic lateral sclerosis (ALS) and died on Thursday at the age of 53. The news comes just \u2026 [+1587 chars]",
+          "url": "http://www.hollywoodreporter.com/news/general-news/eric-dane-dead-gofundme-support-daughters-1236511324/",
+          "source_name": "Hollywood Reporter",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T02:40:35Z",
+          "author": "Lexi Carson",
+          "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2025/04/Eric-Dane-getty-H-2025.png?w=1296&h=730&crop=1",
+          "is_local_nj": false,
+          "article_id": "d911f15246b8",
+          "summary": "The 'Grey's Anatomy' and 'Euphoria' star died on Thursday at the age of 53 after he revealed in April that he was diagnosed with ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Eric Dane's Sad Final Days: 'Grey's Anatomy' Alum 'Has 24/7 Nurses' as His Devastating ALS Battle 'Keeps Getting Worse'",
+              "url": "https://radaronline.com/p/eric-dane-sad-final-days-als-battle-keeps-getting-worse/",
+              "digest_date": "2026-01-01"
+            },
+            {
+              "title": "Rebecca Gayheart Reveals Her Heartbreaking Reaction to Eric Dane's ALS Diagnosis, Some of His Early Symptoms",
+              "url": "https://www.justjared.com/2025/12/29/rebecca-gayheart-reveals-her-heartbreaking-reaction-to-eric-danes-als-diagnosis-some-of-his-early-symptoms/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Brain injury protein in the blood could help estimate biological age in animals",
+          "description": "The protein \"neurofilament light chain\" (NfL) \u2013 studied in humans in the context of neurodegenerative diseases and aging \u2013 is also detectable in the blood of numerous animals, and NfL levels increase with age in mice, cats, dogs, and horses.",
+          "content": "The protein \"neurofilament light chain\" (NfL) \u2013 studied in humans in the context of neurodegenerative diseases and aging \u2013 is also detectable in the blood of numerous animals, and NfL levels increase\u2026 [+2885 chars]",
+          "url": "https://www.news-medical.net/news/20260220/Brain-injury-protein-in-the-blood-could-help-estimate-biological-age-in-animals.aspx",
+          "source_name": "News-Medical.Net",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T02:40:00Z",
+          "author": null,
+          "image_url": "https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg",
+          "is_local_nj": false,
+          "article_id": "741bf7d4d1ff",
+          "summary": "The protein \"neurofilament light chain\" (NfL) \u2013 studied in humans in the context of neurodegenerative diseases and aging \u2013 is also detectable in the blood of numerous animals, and NfL levels increase ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane\u2019s friends set up $250K GoFundMe after actor\u2019s death",
+          "description": "The \"Euphoria\" actor died on Thursday after a battle with ALS.",
+          "content": "Friends of Eric Dane have set up a $250,000 fundraiser for his two daughters following his death. \r\nA GoFundMe account states that the \u201cGrey\u2019s Anatomy\u201d star died Thursday at the age of 53, \u201cleaving b\u2026 [+2902 chars]",
+          "url": "https://pagesix.com/2026/02/20/celebrity-news/eric-danes-friends-set-up-250k-gofundme-after-actors-death/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T02:34:11Z",
+          "author": "Audrey Rock",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/02/121868496.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "0509361c7438",
+          "summary": "The \"Euphoria\" actor died on Thursday after a battle with ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Patrick Dempsey Opens Up About Eric Dane\u2019s \u2018Courageous\u2019 ALS Battle",
+              "url": "https://extratv.com/2026/01/30/patrick-dempsey-opens-up-about-eric-dane-s-courageous-als-battle/",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "Netflix releases a posthumous interview with Eric Dane after his death from ALS - Associated Press News",
+          "description": "Netflix releases a posthumous interview with Eric Dane after his death from ALSAssociated Press News Eric Dane\u2019s Final Interview Before Death Streams on Netflix as Late Actor Shares Last Words to His Daughters: \u2018I Stumbled, but I Tried Fight Until Your Last B\u2026",
+          "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way.",
+          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=180835832",
+          "source_name": "Slashdot.org",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T02:32:43Z",
+          "author": "feedfeeder",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "43e7671939ad",
+          "summary": "Netflix releases a posthumous interview with Eric Dane after his death from ALSAssociated Press News Eric Dane\u2019s Final Interview Before Death Streams on Netflix as Late Actor Shares Last Words to His ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Told Eric Dane \u2018Whatever You Need, However I Can Help. I Love You\u2019 After Learning of \u2018Grey\u2019s Anatomy\u2019 Co-Star\u2019s ALS Diagnosis",
+              "url": "https://variety.com/2026/tv/news/ellen-pompeo-eric-dane-als-diagnosis-greys-anatomy-1236651745/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Ellen Pompeo reveals her private conversation with Eric Dane after learning his ALS diagnosis",
+              "url": "https://pagesix.com/2026/02/03/entertainment/ellen-pompeo-reveals-private-conversation-with-eric-dane-after-learning-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane\u2019s Honest Quotes About His Sobriety Journey Before His Death",
+          "description": "Eric Dane was candid about his sobriety journey before his death from ALS at age 53. Dane previously revealed he struggled with substance abuse while he was starring on Grey\u2019s Anatomy. The actor played Dr. Mark Sloan, also known as McSteamy, for eight seasons\u2026",
+          "content": "Eric Dane was candid about his sobriety journey before his death from ALS at age 53.\r\nDane previously revealed he struggled with substance abuse while he was starring on Grey\u2019s Anatomy. The actor pla\u2026 [+4086 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/eric-danes-honest-quotes-about-his-sobriety-journey-before-his-death/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T02:12:33Z",
+          "author": "Kaitlin Simpson",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/02/GettyImages-2220841200.jpg?crop=0px%2C55px%2C1333px%2C699px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "ae55ae7d0ccd",
+          "summary": "Eric Dane was candid about his sobriety journey before his death from ALS at age 53. Dane previously revealed he struggled with substance abuse while he was starring on Grey\u2019s Anatomy. The actor playe",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Patrick Dempsey Opens Up About Eric Dane\u2019s \u2018Courageous\u2019 ALS Battle",
+              "url": "https://extratv.com/2026/01/30/patrick-dempsey-opens-up-about-eric-dane-s-courageous-als-battle/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Eric Dane\u2019s ex had to fight for his 24/7 nursing care as ALS worsens",
+              "url": "https://www.bostonherald.com/2025/12/31/eric-danes-ex-fight-24-7-nursing-care-als-worsens/",
+              "digest_date": "2026-01-04"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane\u2019s Friends Launch $250K GoFundMe in Support of His 2 Daughters",
+          "description": "Eric Dane\u2019s friends have launched a GoFundMe campaign in support of his family after the actor died at age 53 following a battle with ALS. The campaign, which has a target of $250,000, aims to raise money for the Grey\u2019s Anatomy star\u2019s daughters Billie, 15, an\u2026",
+          "content": "Eric Dane\u2019s friends have launched a GoFundMe campaign in support of his family after the actor died at age 53 following a battle with ALS.\r\nThe campaign, which has a target of $250,000, aims to raise\u2026 [+1344 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/eric-danes-friends-launch-gofundme-to-support-his-daughters-after-his-death/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T01:42:25Z",
+          "author": "Erin Doyle",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/02/GettyImages-2155401224Eric-Danes-Friends-Launch-GoFundMe-to-Support-His-Daughters-After-His-Death.jpg?crop=0px%2C80px%2C1486px%2C781px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "28ff87f277be",
+          "summary": "Eric Dane\u2019s friends have launched a GoFundMe campaign in support of his family after the actor died at age 53 following a battle with ALS. The campaign, which has a target of $250,000, aims to raise m",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Eric Dane\u2019s ex had to fight for his 24/7 nursing care as ALS worsens",
+              "url": "https://www.bostonherald.com/2025/12/31/eric-danes-ex-fight-24-7-nursing-care-als-worsens/",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Rebecca Gayheart on Eric Dane\u2019s First ALS Symptoms & the Moment He Told Her His Diagnosis",
+              "url": "https://extratv.com/2025/12/29/rebecca-gayheart-on-eric-dane-s-first-als-symptoms-and-the-moment-he-told-her-his-diagnosis/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane\u2019s Friends Set Up a GoFundMe to Help Support His Daughters",
+          "description": "Eric Dane\u2018s friends have set up a GoFundMe to help support his daughters. The Grey\u2019s Anatomy actor passed away on Thursday (February 19), 10 months after public revealing his amyotrophic lateral sclerosis (ALS) diagnosis. He has two kids, Billie Beatrice Dane\u2026",
+          "content": "Eric Dane\u2018s friends have set up a GoFundMe to help support his daughters.\r\nThe Grey\u2019s Anatomy actor passed away on Thursday (February 19), 10 months after public revealing his amyotrophic lateral scl\u2026 [+1564 chars]",
+          "url": "https://www.justjared.com/2026/02/20/eric-danes-friends-set-up-a-gofundme-to-help-support-his-daughters/",
+          "source_name": "Just Jared",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T01:21:14Z",
+          "author": "Just Jared",
+          "image_url": "https://cdn01.justjared.com/wp-content/uploads/headlines/2026/02/eric-dane-gofundme-social.jpg",
+          "is_local_nj": false,
+          "article_id": "8d2bc99c1da3",
+          "summary": "Eric Dane\u2018s friends have set up a GoFundMe to help support his daughters. The Grey\u2019s Anatomy actor passed away on Thursday (February 19), 10 months after public revealing his amyotrophic lateral scler",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Patrick Dempsey Opens Up About Eric Dane\u2019s \u2018Courageous\u2019 ALS Battle",
+              "url": "https://extratv.com/2026/01/30/patrick-dempsey-opens-up-about-eric-dane-s-courageous-als-battle/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Eric Dane\u2019s ex had to fight for his 24/7 nursing care as ALS worsens",
+              "url": "https://www.bostonherald.com/2025/12/31/eric-danes-ex-fight-24-7-nursing-care-als-worsens/",
+              "digest_date": "2026-01-04"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane and Ex-GF Priya Jain Reconnected \u2018As Friends\u2019 Before His Death",
+          "description": "Eric Dane and ex-girlfriend Priya Jain were on good terms prior to the actor\u2019s death, Us Weekly can confirm. \u201cIn the months leading up to Eric\u2019s passing Priya and Eric reconnected their relationship as friends,\u201d a source exclusively tells Us, noting that \u201cit \u2026",
+          "content": "Eric Dane and ex-girlfriend Priya Jain were on good terms prior to the actor\u2019s death, Us Weekly can confirm.\r\n\u201cIn the months leading up to Eric\u2019s passing Priya and Eric reconnected their relationship\u2026 [+3309 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/eric-dane-and-ex-priya-jain-reconnected-as-friends-before-his-death/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T01:17:40Z",
+          "author": "Johnni Macke",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/02/Eric-Dane-and-Ex-Girlfriend-Priya-Jain-Reconnected-as-Friends-Before-His-Death-at-Age-53-So-Much-Love.jpg?crop=0px%2C0px%2C2000px%2C1051px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "6030e5a9770e",
+          "summary": "Eric Dane and ex-girlfriend Priya Jain were on good terms prior to the actor\u2019s death, Us Weekly can confirm. \u201cIn the months leading up to Eric\u2019s passing Priya and Eric reconnected their relationship a",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo reveals her private conversation with Eric Dane after learning his ALS diagnosis",
+              "url": "https://pagesix.com/2026/02/03/entertainment/ellen-pompeo-reveals-private-conversation-with-eric-dane-after-learning-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "What Ellen Pompeo Told Eric Dane After Learning of His ALS Diagnosis",
+              "url": "https://www.eonline.com/news/1428140/eric-danes-als-diagnosis-ellen-pompeo-speaks-out",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "WATCH: Reese's heir accuses Hershey of cutting corners",
+          "description": "Brad Reese explains why he believes ingredient changes undermine his grandfather's original creation.",
+          "content": "<ul><li>Whats next for tariffs after the Supreme Court ruling?\r\n</li><li>Trump outlines new plan for tariffs Supreme Court decision\r\n</li><li>Legal implications of SCOTUS ruling on Trump tariffs\r\n</l\u2026 [+4295 chars]",
+          "url": "https://abcnews.com/video/130352588/",
+          "source_name": "Abcnews.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T00:29:01Z",
+          "author": "ABC News",
+          "image_url": "https://i.abcnewsfe.com/a/56ace30d-2e53-49a6-a686-821fb6b9f703/260220_abcnl_6p_candy_brad_reese2_hpMain_16x9.jpg?w=992",
+          "is_local_nj": false,
+          "article_id": "2249d3036237",
+          "summary": "Brad Reese explains why he believes ingredient changes undermine his grandfather's original creation.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "What did Eric Dane say to his daughters? #tabloid",
+          "description": "A recorded goodbye meant to guide and comfort In the months before he died, the actor made a private, long form recording intended for his two teenage daughters. The taped message, released after his death, is part of a posthumous interview project and the cl\u2026",
+          "content": "In the months before he died, the actor made a private, long-form recording intended for his two teenage daughters. The taped message, released after his death, is part of a posthumous interview proj\u2026 [+1552 chars]",
+          "url": "https://alltoc.com/tabloid/what-did-eric-dane-say-to-his-daughters",
+          "source_name": "Alltoc.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-21T00:04:32Z",
+          "author": "AllToc",
+          "image_url": "https://alltoc.com/cdn/1045/og.png",
+          "is_local_nj": false,
+          "article_id": "d6edb6b0fd9e",
+          "summary": "A recorded goodbye meant to guide and comfort In the months before he died, the actor made a private, long form recording intended for his two teenage daughters. The taped message, released after his ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo reveals her private conversation with Eric Dane after learning his ALS diagnosis",
+              "url": "https://pagesix.com/2026/02/03/entertainment/ellen-pompeo-reveals-private-conversation-with-eric-dane-after-learning-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "What Ellen Pompeo Told Eric Dane After Learning of His ALS Diagnosis",
+              "url": "https://www.eonline.com/news/1428140/eric-danes-als-diagnosis-ellen-pompeo-speaks-out",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane's Heartbreaking Last Words to Daughters Revealed After Death",
+          "description": "Eric Dane imparted some wisdom to his daughters in his final days.\nBefore his death at the age of 53 following his battle with ALS, the Grey\u2019s Anatomy alum recorded a message for his and Rebecca...",
+          "content": "Eric Dane imparted some wisdom to his daughters in his final days.\r\nBefore his death at the age of 53 following his battle with ALS, the Greys Anatomyalum recorded a message for his and Rebecca Gayhe\u2026 [+756 chars]",
+          "url": "https://www.eonline.com/news/1428801/eric-danes-last-words-to-his-rebecca-gayhearts-kids-billie-georgia",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T23:54:21Z",
+          "author": "Bentley Maddox",
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20260220/626178a6-16cd-4584-af19-a8a84f5005ac_1771631003.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "is_local_nj": false,
+          "article_id": "07426161cf95",
+          "summary": "Eric Dane imparted some wisdom to his daughters in his final days.\nBefore his death at the age of 53 following his battle with ALS, the Grey\u2019s Anatomy alum recorded a message for his and Rebecca...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart Reveals Her Heartbreaking Reaction to Eric Dane's ALS Diagnosis, Some of His Early Symptoms",
+              "url": "https://www.justjared.com/2025/12/29/rebecca-gayheart-reveals-her-heartbreaking-reaction-to-eric-danes-als-diagnosis-some-of-his-early-symptoms/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "\u2018Euphoria\u2019 stars Sydney Sweeney, Barbie Ferreira pay tribute to co-star Eric Dane after his death",
+          "description": "Stars from the hit HBO series are sharing loving tributes to their late co-star, who portrayed Jacob Elordi's onscreen father.",
+          "content": "The cast of \u201cEuphoria\u201d is remembering their late co-star, Eric Dane, following his heartbreaking death on Thursday.\r\nSeveral stars from the show took to social media to share loving tributes to the b\u2026 [+4616 chars]",
+          "url": "https://pagesix.com/2026/02/20/entertainment/euphoria-cast-reacts-to-eric-danes-death/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T23:48:07Z",
+          "author": "Desiree Murphy",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/02/121862157.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "8e0efa814c65",
+          "summary": "Stars from the hit HBO series are sharing loving tributes to their late co-star, who portrayed Jacob Elordi's onscreen father.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Told Eric Dane \u2018Whatever You Need, However I Can Help. I Love You\u2019 After Learning of \u2018Grey\u2019s Anatomy\u2019 Co-Star\u2019s ALS Diagnosis",
+              "url": "https://variety.com/2026/tv/news/ellen-pompeo-eric-dane-als-diagnosis-greys-anatomy-1236651745/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Ellen Pompeo reveals her private conversation with Eric Dane after learning his ALS diagnosis",
+              "url": "https://pagesix.com/2026/02/03/entertainment/ellen-pompeo-reveals-private-conversation-with-eric-dane-after-learning-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane's final interview captured in Netflix's 'Famous Last Words'",
+          "description": "Eric Dane's final interview captured in Netflix's 'Famous Last Words'wape.com",
+          "content": "Netflix has shared a brand-new interview with the late Eric Dane.\r\nThe streaming platform has released Dane's final interview before his death, which is part of the posthumous interview series Famous\u2026 [+959 chars]",
+          "url": "https://www.wape.com/entertainment/eric-danes-final-interview-captured-netflixs-famous-last-words/SJHSRBCJGA2CBJH5BJRPQBUQ44/",
+          "source_name": "Wape.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T23:30:32Z",
+          "author": "Mary Pat Thompson",
+          "image_url": "https://cmg-cmg-rd-20055-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2FG2X46TOOHI2JHMWZTVREBKEQMY.png?auth=9813a74fe711e38dfdc0a4bf638618cc314169d758ff4974bd60eaf52fa12771&width=1200&height=630&smart=true",
+          "is_local_nj": false,
+          "article_id": "8c77cbe33015",
+          "summary": "Eric Dane's final interview captured in Netflix's 'Famous Last Words'wape.com",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane's Sad Final Days: 'Grey's Anatomy' Alum 'Has 24/7 Nurses' as His Devastating ALS Battle 'Keeps Getting Worse'",
+              "url": "https://radaronline.com/p/eric-dane-sad-final-days-als-battle-keeps-getting-worse/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "Show HN: RecoverPay \u2013 AI-Powered Debt Recovery Automation for German SMBs",
+          "description": "German SMBs lose 50B EUR annually to unpaid invoices. We built AI-powered dunning automation recovering 73% within 14 days. Smart scoring, auto reminders, legal orders. DSGVO-compliant.\n\nComments URL: https://news.ycombinator.com/item?id=47094938\nPoints: 1\n# \u2026",
+          "content": "Wie funktioniert RecoverPay?\r\nRecoverPay verbindet sich mit Ihrem Stripe- oder Paddle-Konto und erkennt fehlgeschlagene Zahlungen automatisch. Unser KI-System startet dann eine optimierte Recovery-Se\u2026 [+2688 chars]",
+          "url": "https://recoverpay.de",
+          "source_name": "Recoverpay.de",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T22:34:27Z",
+          "author": "Contenagent",
+          "image_url": "https://recoverpay.de/og-image.png",
+          "is_local_nj": false,
+          "article_id": "d0e80e086724",
+          "summary": "German SMBs lose 50B EUR annually to unpaid invoices. We built AI-powered dunning automation recovering 73% within 14 days. Smart scoring, auto reminders, legal orders. DSGVO-compliant.\n\nComments URL:",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Show HN: Ghostty Ambient \u2013 Terminal theme switcher that learns your preferences",
+              "url": "https://github.com/gezibash/ghostty-ambient",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane shared special message to daughters in final interview",
+          "description": "The interview was released one day after his death from ALS at age 53.",
+          "content": "He told his daughters: First, live now. Right now. In the present. Its hard, but I learned to do that. For years, I have been wandering around mentally and lost in my head for long chunks of time, wa\u2026 [+2508 chars]",
+          "url": "https://www.nzherald.co.nz/entertainment/eric-dane-shared-special-message-to-daughters-in-final-interview/DFFVF7KAL5D6DIG56KEWWURIC4/",
+          "source_name": "New Zealand Herald",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T22:32:24Z",
+          "author": "Bang Showbiz",
+          "image_url": "https://www.nzherald.co.nz/resizer/v2/EQSDJPPZMRCPXMA2DLP3VRJYJA.jpg?auth=0a980864d8e32f1a63b3d2313d8a412d3854f3e07d84c93e6f3ff9da01825132&width=1200&height=675&quality=70&focal=1119%2C723&smart=false",
+          "is_local_nj": false,
+          "article_id": "d7ac200351a7",
+          "summary": "The interview was released one day after his death from ALS at age 53.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "How Eric Dane Forged Unforgettable \u2018Euphoria,\u2019 \u2018Grey\u2019s Anatomy\u2019 Characters",
+          "description": "The actor, who died Thursday, created unforgettable characters on \u2018Grey\u2019s Anatomy\u2019 and \u2018Euphoria.\u2019",
+          "content": "When Eric Dane makes his first appearance on Grey\u2019s Anatomy, the deck is stacked against him. \r\nYes, within five minutes of him showing up on screen, his character, Dr. Mark Sloan, already been dubbe\u2026 [+3783 chars]",
+          "url": "http://www.hollywoodreporter.com/tv/tv-features/eric-dane-euphoria-greys-anatomy-characters-appreciation-1236510840/",
+          "source_name": "Hollywood Reporter",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T22:21:55Z",
+          "author": "Rick Porter",
+          "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/02/TCDGRAN_EC206-H-2026.jpg?w=1296&h=730&crop=1",
+          "is_local_nj": false,
+          "article_id": "799e9c3a3f28",
+          "summary": "The actor, who died Thursday, created unforgettable characters on \u2018Grey\u2019s Anatomy\u2019 and \u2018Euphoria.\u2019",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Told Eric Dane \u2018Whatever You Need, However I Can Help. I Love You\u2019 After Learning of \u2018Grey\u2019s Anatomy\u2019 Co-Star\u2019s ALS Diagnosis",
+              "url": "https://variety.com/2026/tv/news/ellen-pompeo-eric-dane-als-diagnosis-greys-anatomy-1236651745/",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane's Gut-Wrenching Final Words to His Daughters Before He Succumbed to ALS Revealed In Emotional Video \u2014 'Good Night, I Love You'",
+          "description": "The final words Eric Dane shared with his young daughters before his death have been revealed.",
+          "content": "Eric Dane's heartbreaking last words to his daughters before his tragic death have been revealed, RadarOnline.comcan report.\r\nOn Friday, February 20, Netflix released an episode of Famous Last Words \u2026 [+3519 chars]",
+          "url": "https://radaronline.com/p/eric-dane-final-words-daughters-revealed-death/",
+          "source_name": "Radaronline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T22:20:00Z",
+          "author": "Matt Richards",
+          "image_url": "https://media.radaronline.com/brand-img/DxfukLc9p/1200x628/eric-dane-death-final-words-daughters-revealed-1771617986369.jpg",
+          "is_local_nj": false,
+          "article_id": "e5e5dd00d3e6",
+          "summary": "The final words Eric Dane shared with his young daughters before his death have been revealed.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Told Eric Dane \u2018Whatever You Need, However I Can Help. I Love You\u2019 After Learning of \u2018Grey\u2019s Anatomy\u2019 Co-Star\u2019s ALS Diagnosis",
+              "url": "https://variety.com/2026/tv/news/ellen-pompeo-eric-dane-als-diagnosis-greys-anatomy-1236651745/",
+              "digest_date": "2026-02-08"
+            },
+            {
+              "title": "Kate Walsh Shares Emotional Message of Support for Eric Dane & His Family Amid His ALS Battle",
+              "url": "https://www.justjared.com/2026/01/30/kate-walsh-shares-emotional-message-of-support-for-eric-dane-and-his-family-amid-greys-anatomy-return/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Eric Dane's Sad Final Days: 'Grey's Anatomy' Alum 'Has 24/7 Nurses' as His Devastating ALS Battle 'Keeps Getting Worse'",
+              "url": "https://radaronline.com/p/eric-dane-sad-final-days-als-battle-keeps-getting-worse/",
+              "digest_date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "title": "'Grey\u2019s Anatomy' Cast, Crew Pay Tribute to Eric Dane",
+          "description": "Shonda Rhimes, Kevin McKidd, James Pickens Jr. and more behind the ABC medical drama are honoring the late actor who portrayed plastic surgeon Mark Sloan, aka \"McSteamy.\"",
+          "content": "The cast and crew of Grey\u2019s Anatomy are paying homage to Eric Dane. \r\nDane died Thursday afternoon after a battle with ALS. He was 53. \r\nThe actor appeared in 10 seasons of the ABC medical drama, whe\u2026 [+2961 chars]",
+          "url": "http://www.hollywoodreporter.com/tv/tv-news/eric-dane-greys-anatomy-tributes-1236510954/",
+          "source_name": "Hollywood Reporter",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T22:05:58Z",
+          "author": "Mckinley Franklin",
+          "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/02/TCDGRAN_EC307-H-2026.jpg?w=1296&h=730&crop=1",
+          "is_local_nj": false,
+          "article_id": "d493c06b5f73",
+          "summary": "Shonda Rhimes, Kevin McKidd, James Pickens Jr. and more behind the ABC medical drama are honoring the late actor who portrayed plastic surgeon Mark Sloan, aka \"McSteamy.\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Recalls What She Said to 'Grey's Anatomy' Co-Star Eric Dane After Learning About His ALS Diagnosis",
+              "url": "https://www.justjared.com/2026/02/03/ellen-pompeo-recalls-what-she-said-to-greys-anatomy-co-star-eric-dane-after-learning-about-his-als-diagnosis/",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane Was Perfectly Cast In A Divisive Marvel Movie (And Deserved More Screentime)",
+          "description": "Eric Dane ventured into the world of Marvel superhero movies at one point, but the late actor was sadly wasted in his role (despite being perfectly cast).",
+          "content": "We may receive a commission on purchases made from links.\r\nEric Dane recently passed away after being diagnosed with ALS. He was just 53, which is far too young (not to state the obvious). Still, the\u2026 [+1409 chars]",
+          "url": "https://www.slashfilm.com/2106197/eric-dane-perfectly-cast-marvel-movie-x-men-the-last-stand-multiple-man/",
+          "source_name": "/FILM",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T22:00:00Z",
+          "author": "staff@slashfilm.com (Ryan Scott)",
+          "image_url": "https://www.slashfilm.com/img/gallery/eric-dane-was-perfectly-cast-in-a-divisive-marvel-movie-and-deserved-more-screentime/l-intro-1771614492.jpg",
+          "is_local_nj": false,
+          "article_id": "c8e3020e5866",
+          "summary": "Eric Dane ventured into the world of Marvel superhero movies at one point, but the late actor was sadly wasted in his role (despite being perfectly cast).",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Grey's Anatomy Cast Health Scares Through the Years: Eric Dane and More",
+              "url": "https://www.usmagazine.com/celebrity-news/news/greys-anatomy-cast-health-scares-through-the-years-eric-dane-more/#article",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane\u2019s Heartbreaking Final Words to Daughters Revealed",
+          "description": "Reading Time: 3 minutesEric Dane's final words to his daughters have been revealed.\nEric Dane\u2019s Heartbreaking Final Words to Daughters Revealed was originally published on The Hollywood Gossip.",
+          "content": "Reading Time: 3minutesAs we previously reported, Eric Dane has passed away after a battle with ALS.\r\nThe Greys Anatomy star was just 53 years old.\r\nObviously, Danes passing is a tragedy for his loved\u2026 [+3106 chars]",
+          "url": "http://www.thehollywoodgossip.com/2026/02/eric-danes-heartbreaking-final-words-to-daughters-revealed/",
+          "source_name": "The Hollywood Gossip",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T21:56:58Z",
+          "author": "Tyler Johnson",
+          "image_url": "https://cdn.thehollywoodgossip.com/uploads/2026/02/GettyImages-2154754995-scaled.jpg",
+          "is_local_nj": false,
+          "article_id": "6c8ff6191f3b",
+          "summary": "Reading Time: 3 minutesEric Dane's final words to his daughters have been revealed.\nEric Dane\u2019s Heartbreaking Final Words to Daughters Revealed was originally published on The Hollywood Gossip.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Euphoria: Eric Dane Reportedly Finished Season 3 Scenes Before Death",
+          "description": "As the entertainment world continues to mourn the loss of Eric Dane, who passed on February 19th, some questions remain on the status of his character as Cal Jacobs on the HBO hit series Euphoria in its third season, given his battle with amyotrophic lateral \u2026",
+          "content": "Posted in: HBO, TV | Tagged: Eric Dane, euphoria\r\nA representative for Eric Dane confirmed that the late actor completed filming his scenes for HBO's Euphoria Season 3 before his death.\r\nAs the enter\u2026 [+2263 chars]",
+          "url": "https://bleedingcool.com/tv/euphoria-eric-dane-reportedly-finished-season-3-scenes-before-death/",
+          "source_name": "Bleeding Cool News",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T21:35:06Z",
+          "author": "Tom Chang",
+          "image_url": "https://bleedingcool.com/wp-content/uploads/2026/02/eric-dane-2000x1125.jpg",
+          "is_local_nj": false,
+          "article_id": "e1badf2719e9",
+          "summary": "As the entertainment world continues to mourn the loss of Eric Dane, who passed on February 19th, some questions remain on the status of his character as Cal Jacobs on the HBO hit series Euphoria in i",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "RIP Eric Dane: Actor From \u2018Grey\u2019s Anatomy\u2019 and \u2018Euphoria\u2019 Dies at 53",
+          "description": "RIP Eric Dane: Actor From \u2018Grey\u2019s Anatomy\u2019 and \u2018Euphoria\u2019 Dies at 53\nActor Eric Dane, best known for his roles as Dr. Mark Sloan on Grey\u2019s Anatomy and Cal Jacobs, dad to Jacob Elordi\u2019s character Nate, on Euphoria, has passed away at 53. The actor was diagnose\u2026",
+          "content": "Actor Eric Dane, best known for his roles as Dr. Mark Sloan on Grey\u2019s Anatomy and Cal Jacobs, dad to Jacob Elordi\u2019s character Nate, on Euphoria, has passed away at 53. The actor was diagnosed with am\u2026 [+4721 chars]",
+          "url": "https://mymodernmet.com/rip-eric-dane/",
+          "source_name": "My Modern Met",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T21:15:06Z",
+          "author": "Regina Sienra",
+          "image_url": "https://mymodernmet.com/wp/wp-content/uploads/2026/02/eric-dane-rip-fb.jpg",
+          "is_local_nj": false,
+          "article_id": "42efb7e7e873",
+          "summary": "RIP Eric Dane: Actor From \u2018Grey\u2019s Anatomy\u2019 and \u2018Euphoria\u2019 Dies at 53\nActor Eric Dane, best known for his roles as Dr. Mark Sloan on Grey\u2019s Anatomy and Cal Jacobs, dad to Jacob Elordi\u2019s character Nate,",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ellen Pompeo Told Eric Dane \u2018Whatever You Need, However I Can Help. I Love You\u2019 After Learning of \u2018Grey\u2019s Anatomy\u2019 Co-Star\u2019s ALS Diagnosis",
+              "url": "https://variety.com/2026/tv/news/ellen-pompeo-eric-dane-als-diagnosis-greys-anatomy-1236651745/",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Who Is Eric Dane\u2019s Wife? All About Rebecca Gayheart & Their Marriage",
+          "description": "Eric Dane and Rebecca Gayheart remained married through his ALS battle until his death in 2026. Here\u2019s what to know about his wife.",
+          "content": "Image Credit: FilmMagic\r\nRebecca Gayheart has spent years in Hollywood as an actress and former model, but in recent years, public attention has largely focused on her enduring bond with husband Eric\u2026 [+2831 chars]",
+          "url": "https://hollywoodlife.com/feature/who-is-eric-dane-wife-rebecca-gayheart-5503979/",
+          "source_name": "Hollywood Life",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T21:08:41Z",
+          "author": "Vivian",
+          "image_url": "https://hollywoodlife.com/wp-content/uploads/2026/02/GettyImages-692277730-e1771618584723.jpg?fit=2263%2C1279",
+          "is_local_nj": false,
+          "article_id": "f0b7d568fbd8",
+          "summary": "Eric Dane and Rebecca Gayheart remained married through his ALS battle until his death in 2026. Here\u2019s what to know about his wife.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Patrick Dempsey Opens Up About Eric Dane\u2019s \u2018Courageous\u2019 ALS Battle",
+              "url": "https://extratv.com/2026/01/30/patrick-dempsey-opens-up-about-eric-dane-s-courageous-als-battle/",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Eric Dane now in 24-hour care amid ALS diagnosis as estranged wife Rebecca Gayheart shares health update",
+              "url": "https://www.the-independent.com/life-style/eric-dane-als-health-update-greys-anatomy-rebecca-gayheart-b2892490.html",
+              "digest_date": "2026-01-04"
+            },
+            {
+              "title": "Rebecca Gayheart steps up as caregiver for estranged husband Eric Dane as ALS demands 24-hour care",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-caregiver-estranged-husband-eric-dane-als-24-hour-care",
+              "digest_date": "2026-01-04"
+            }
+          ]
+        },
+        {
+          "title": "What caused Eric Dane's death? #tabloid",
+          "description": "Eric Dane died after a yearlong fight with ALS Eric Dane, the actor best known for roles on Grey\u2019s Anatomy and Euphoria, died on Feb. 19 at age 53 after a public battle with amyotrophic lateral sclerosis (ALS). He first revealed the diagnosis in 2025 and spen\u2026",
+          "content": "Eric Dane, the actor best known for roles on Greys Anatomy and Euphoria, died on Feb. 19 at age 53 after a public battle with amyotrophic lateral sclerosis (ALS). He first revealed the diagnosis in 2\u2026 [+1783 chars]",
+          "url": "https://alltoc.com/tabloid/what-caused-eric-dane-s-death",
+          "source_name": "Alltoc.com",
+          "source_type": "newsapi",
+          "published_at": "2026-02-20T21:04:36Z",
+          "author": "AllToc",
+          "image_url": "https://alltoc.com/cdn/1045/og.png",
+          "is_local_nj": false,
+          "article_id": "9a1fd9858193",
+          "summary": "Eric Dane died after a yearlong fight with ALS Eric Dane, the actor best known for roles on Grey\u2019s Anatomy and Euphoria, died on Feb. 19 at age 53 after a public battle with amyotrophic lateral sclero",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 44,
+    "references": [
+      {
+        "title": "A new mechanism regulating microglial NLRP3 inflammasome: FMR1 mediates NLRP3 mRNA stability",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341867",
+        "source": "Plos.org",
+        "date": "2026-02-20T14:00:00Z"
+      },
+      {
+        "title": "How One Doctor Changed New York\u2019s Right-to-Die Law",
+        "url": "http://nymag.com/intelligencer/article/medical-aid-in-dying-new-york-hochul-jeremy-boal.html",
+        "source": "New York Magazine",
+        "date": "2026-02-19T10:00:52Z"
+      },
+      {
+        "title": "Hundreds plunge at Manasquan Beach to raise funds for people with ALS - News12 | New Jersey",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOblY4YlU5a2NTemdVUTl5cGdZRkFad3ZDYmh3NjZpcERnSXd0cU5XcDVrRHR2QmtJeklNVGtrR0dPTUtIT181Ym16UHFtZV9WSE55ZnhPaERBQ0lTcHBXZTFvUlRTSG9xaDdreG9veU8xMnJhMi1xYXRrS2w3N1VEX3c4eXlvR1IyTWhZSnRCSnl4aU5QazVXLUhmRlBqMEU?oc=5",
+        "source": "Google News (\"New Jersey\" ALS...)",
+        "date": "2026-02-21T22:31:23"
+      },
+      {
+        "title": "Eric Dane, 'Grey's Anatomy' star and ALS awareness advocate, dies at 53 - News12 | New Jersey",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLS1sWVJjYlhkaTFGX2F2QXhaeHJJV2NEWVFOdi1KNHcyVlgweENXU1FnazdUOHZTc202NFJuTFBFUy1heUNIWWF4Mjh5WWVGN0VBcGNRdWFISGN4YWd3WHhfZThYTG5LVkRxY0tnY0pjQlJudmZKOWppS1dvSG5pbWxuSjNianNzcjJkc3VUci1FSmd0QkpIRllCNA?oc=5",
+        "source": "Google News (\"New Jersey\" ALS...)",
+        "date": "2026-02-20T03:00:17"
+      },
+      {
+        "title": "Why is Eric Dane's final interview airing? #entertainment",
+        "url": "https://alltoc.com/entertainment/why-is-eric-dane-s-final-interview-airing",
+        "source": "Alltoc.com",
+        "date": "2026-02-21T06:07:52Z"
+      },
+      {
+        "title": "WATCH: Trump condemns SCOTUS justices, announces new global tariffs after major ruling",
+        "url": "https://abcnews.com/video/130358826/",
+        "source": "Abcnews.com",
+        "date": "2026-02-21T06:07:27Z"
+      },
+      {
+        "title": "\u2018Euphoria\u2019 Creator Sam Levinson Donates $27,000 to Eric Dane\u2019s GoFundMe",
+        "url": "https://www.usmagazine.com/celebrity-news/news/euphoria-creator-sam-levinson-donates-27000-to-eric-danes-gofundme/",
+        "source": "Us Weekly",
+        "date": "2026-02-21T06:03:15Z"
+      },
+      {
+        "title": "Al Horford hints at reason for leaving Celtics",
+        "url": "https://www.celticsblog.com/boston-celtics-news/132738/al-horford-hints-at-reason-for-leaving-celtics",
+        "source": "Celtics Blog",
+        "date": "2026-02-21T05:43:00Z"
+      },
+      {
+        "title": "God of War: Sons of Sparta - Mehr Teaser als G\u00f6tter-Epos",
+        "url": "https://oe3.orf.at/stories/3052432/",
+        "source": "Oe3.orf.at",
+        "date": "2026-02-21T05:00:00Z"
+      },
+      {
+        "title": "Actor Eric Dane's\u00a0unwavering advocacy for ALS was the\u00a0most powerful role of his career",
+        "url": "https://6abc.com/post/actor-eric-dane-unwavering-advocacy-als-career-tributes/18627286/",
+        "source": "WPVI-TV",
+        "date": "2026-02-21T04:15:29Z"
+      },
+      {
+        "title": "\u2018Grey\u2019s Anatomy\u2019 Star Kate Walsh Breaks Silence on Eric Dane\u2019s Death",
+        "url": "https://www.usmagazine.com/celebrity-news/news/greys-anatomy-star-kate-walsh-breaks-silence-on-eric-danes-death/",
+        "source": "Us Weekly",
+        "date": "2026-02-21T04:04:14Z"
+      },
+      {
+        "title": "Eric Dane's Friends Start GoFundMe for 2 Daughters After Actor's Death",
+        "url": "https://www.tmz.com/2026/02/20/eric-dane-friends-start-gofundme-after-actors-death/",
+        "source": "TMZ",
+        "date": "2026-02-21T03:58:15Z"
+      },
+      {
+        "title": "Eric Dane\u2019s Friends Launch GoFundMe to Support Actor\u2019s Daughters After His Death",
+        "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-gofundme-support-daughters-1235520592/",
+        "source": "Rolling Stone",
+        "date": "2026-02-21T03:53:42Z"
+      },
+      {
+        "title": "Kate Walsh Pays Tribute to Late 'Grey's Anatomy' Co-Star Eric Dane, Shares What She Loved About Him",
+        "url": "https://www.justjared.com/2026/02/20/kate-walsh-pays-tribute-to-late-greys-anatomy-co-star-eric-dane-shares-what-she-loved-about-him/",
+        "source": "Just Jared",
+        "date": "2026-02-21T03:12:53Z"
+      },
+      {
+        "title": "Actor Eric Dane's\u00a0unwavering advocacy for ALS was the\u00a0most powerful role of his career",
+        "url": "https://abc7chicago.com/post/actor-eric-dane-unwavering-advocacy-als-career-tributes/18627286/",
+        "source": "WLS-TV",
+        "date": "2026-02-21T03:12:00Z"
+      },
+      {
+        "title": "Eric Dane\u2019s Friends Launch GoFundMe To Support His Daughters Following His Death From ALS",
+        "url": "http://deadline.com/2026/02/eric-dane-friends-launch-gofundme-support-family-1236731624/",
+        "source": "Deadline",
+        "date": "2026-02-21T03:11:45Z"
+      },
+      {
+        "title": "What happened to Eric Dane? #entertainment",
+        "url": "https://alltoc.com/entertainment/what-happened-to-eric-dane",
+        "source": "Alltoc.com",
+        "date": "2026-02-21T03:08:02Z"
+      },
+      {
+        "title": "How will the $250K GoFundMe help Eric Dane's daughters? #tabloid",
+        "url": "https://alltoc.com/tabloid/how-will-the-250k-gofundme-help-eric-dane-s-daughters",
+        "source": "Alltoc.com",
+        "date": "2026-02-21T03:04:37Z"
+      },
+      {
+        "title": "Eric Dane\u2019s Friends Launch GoFundMe to Support His Children",
+        "url": "https://consequence.net/2026/02/eric-dane-gofundme/",
+        "source": "Consequence.net",
+        "date": "2026-02-21T02:56:53Z"
+      },
+      {
+        "title": "What were Eric Dane\u2019s final four pieces of advice to his daughters? Grey\u2019s Anatomy actor\u2019s heartbreaking recording goes viral",
+        "url": "https://economictimes.indiatimes.com/magazines/panache/what-were-eric-danes-final-four-pieces-of-advice-to-his-daughters-greys-anatomy-actors-heartbreaking-recording-goes-viral/articleshow/128630511.cms",
+        "source": "The Times of India",
+        "date": "2026-02-21T02:44:41Z"
+      },
+      {
+        "title": "Eric Dane's Friends Launch GoFundMe to Support His Daughters",
+        "url": "http://www.hollywoodreporter.com/news/general-news/eric-dane-dead-gofundme-support-daughters-1236511324/",
+        "source": "Hollywood Reporter",
+        "date": "2026-02-21T02:40:35Z"
+      },
+      {
+        "title": "Brain injury protein in the blood could help estimate biological age in animals",
+        "url": "https://www.news-medical.net/news/20260220/Brain-injury-protein-in-the-blood-could-help-estimate-biological-age-in-animals.aspx",
+        "source": "News-Medical.Net",
+        "date": "2026-02-21T02:40:00Z"
+      },
+      {
+        "title": "Eric Dane\u2019s friends set up $250K GoFundMe after actor\u2019s death",
+        "url": "https://pagesix.com/2026/02/20/celebrity-news/eric-danes-friends-set-up-250k-gofundme-after-actors-death/",
+        "source": "Page Six",
+        "date": "2026-02-21T02:34:11Z"
+      },
+      {
+        "title": "Netflix releases a posthumous interview with Eric Dane after his death from ALS - Associated Press News",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=180835832",
+        "source": "Slashdot.org",
+        "date": "2026-02-21T02:32:43Z"
+      },
+      {
+        "title": "Eric Dane\u2019s Honest Quotes About His Sobriety Journey Before His Death",
+        "url": "https://www.usmagazine.com/celebrity-news/news/eric-danes-honest-quotes-about-his-sobriety-journey-before-his-death/",
+        "source": "Us Weekly",
+        "date": "2026-02-21T02:12:33Z"
+      },
+      {
+        "title": "Eric Dane\u2019s Friends Launch $250K GoFundMe in Support of His 2 Daughters",
+        "url": "https://www.usmagazine.com/celebrity-news/news/eric-danes-friends-launch-gofundme-to-support-his-daughters-after-his-death/",
+        "source": "Us Weekly",
+        "date": "2026-02-21T01:42:25Z"
+      },
+      {
+        "title": "Eric Dane\u2019s Friends Set Up a GoFundMe to Help Support His Daughters",
+        "url": "https://www.justjared.com/2026/02/20/eric-danes-friends-set-up-a-gofundme-to-help-support-his-daughters/",
+        "source": "Just Jared",
+        "date": "2026-02-21T01:21:14Z"
+      },
+      {
+        "title": "Eric Dane and Ex-GF Priya Jain Reconnected \u2018As Friends\u2019 Before His Death",
+        "url": "https://www.usmagazine.com/celebrity-news/news/eric-dane-and-ex-priya-jain-reconnected-as-friends-before-his-death/",
+        "source": "Us Weekly",
+        "date": "2026-02-21T01:17:40Z"
+      },
+      {
+        "title": "WATCH: Reese's heir accuses Hershey of cutting corners",
+        "url": "https://abcnews.com/video/130352588/",
+        "source": "Abcnews.com",
+        "date": "2026-02-21T00:29:01Z"
+      },
+      {
+        "title": "What did Eric Dane say to his daughters? #tabloid",
+        "url": "https://alltoc.com/tabloid/what-did-eric-dane-say-to-his-daughters",
+        "source": "Alltoc.com",
+        "date": "2026-02-21T00:04:32Z"
+      },
+      {
+        "title": "Eric Dane's Heartbreaking Last Words to Daughters Revealed After Death",
+        "url": "https://www.eonline.com/news/1428801/eric-danes-last-words-to-his-rebecca-gayhearts-kids-billie-georgia",
+        "source": "Eonline.com",
+        "date": "2026-02-20T23:54:21Z"
+      },
+      {
+        "title": "\u2018Euphoria\u2019 stars Sydney Sweeney, Barbie Ferreira pay tribute to co-star Eric Dane after his death",
+        "url": "https://pagesix.com/2026/02/20/entertainment/euphoria-cast-reacts-to-eric-danes-death/",
+        "source": "Page Six",
+        "date": "2026-02-20T23:48:07Z"
+      },
+      {
+        "title": "Eric Dane's final interview captured in Netflix's 'Famous Last Words'",
+        "url": "https://www.wape.com/entertainment/eric-danes-final-interview-captured-netflixs-famous-last-words/SJHSRBCJGA2CBJH5BJRPQBUQ44/",
+        "source": "Wape.com",
+        "date": "2026-02-20T23:30:32Z"
+      },
+      {
+        "title": "Show HN: RecoverPay \u2013 AI-Powered Debt Recovery Automation for German SMBs",
+        "url": "https://recoverpay.de",
+        "source": "Recoverpay.de",
+        "date": "2026-02-20T22:34:27Z"
+      },
+      {
+        "title": "Eric Dane shared special message to daughters in final interview",
+        "url": "https://www.nzherald.co.nz/entertainment/eric-dane-shared-special-message-to-daughters-in-final-interview/DFFVF7KAL5D6DIG56KEWWURIC4/",
+        "source": "New Zealand Herald",
+        "date": "2026-02-20T22:32:24Z"
+      },
+      {
+        "title": "How Eric Dane Forged Unforgettable \u2018Euphoria,\u2019 \u2018Grey\u2019s Anatomy\u2019 Characters",
+        "url": "http://www.hollywoodreporter.com/tv/tv-features/eric-dane-euphoria-greys-anatomy-characters-appreciation-1236510840/",
+        "source": "Hollywood Reporter",
+        "date": "2026-02-20T22:21:55Z"
+      },
+      {
+        "title": "Eric Dane's Gut-Wrenching Final Words to His Daughters Before He Succumbed to ALS Revealed In Emotional Video \u2014 'Good Night, I Love You'",
+        "url": "https://radaronline.com/p/eric-dane-final-words-daughters-revealed-death/",
+        "source": "Radaronline.com",
+        "date": "2026-02-20T22:20:00Z"
+      },
+      {
+        "title": "'Grey\u2019s Anatomy' Cast, Crew Pay Tribute to Eric Dane",
+        "url": "http://www.hollywoodreporter.com/tv/tv-news/eric-dane-greys-anatomy-tributes-1236510954/",
+        "source": "Hollywood Reporter",
+        "date": "2026-02-20T22:05:58Z"
+      },
+      {
+        "title": "Eric Dane Was Perfectly Cast In A Divisive Marvel Movie (And Deserved More Screentime)",
+        "url": "https://www.slashfilm.com/2106197/eric-dane-perfectly-cast-marvel-movie-x-men-the-last-stand-multiple-man/",
+        "source": "/FILM",
+        "date": "2026-02-20T22:00:00Z"
+      },
+      {
+        "title": "Eric Dane\u2019s Heartbreaking Final Words to Daughters Revealed",
+        "url": "http://www.thehollywoodgossip.com/2026/02/eric-danes-heartbreaking-final-words-to-daughters-revealed/",
+        "source": "The Hollywood Gossip",
+        "date": "2026-02-20T21:56:58Z"
+      },
+      {
+        "title": "Euphoria: Eric Dane Reportedly Finished Season 3 Scenes Before Death",
+        "url": "https://bleedingcool.com/tv/euphoria-eric-dane-reportedly-finished-season-3-scenes-before-death/",
+        "source": "Bleeding Cool News",
+        "date": "2026-02-20T21:35:06Z"
+      },
+      {
+        "title": "RIP Eric Dane: Actor From \u2018Grey\u2019s Anatomy\u2019 and \u2018Euphoria\u2019 Dies at 53",
+        "url": "https://mymodernmet.com/rip-eric-dane/",
+        "source": "My Modern Met",
+        "date": "2026-02-20T21:15:06Z"
+      },
+      {
+        "title": "Who Is Eric Dane\u2019s Wife? All About Rebecca Gayheart & Their Marriage",
+        "url": "https://hollywoodlife.com/feature/who-is-eric-dane-wife-rebecca-gayheart-5503979/",
+        "source": "Hollywood Life",
+        "date": "2026-02-20T21:08:41Z"
+      },
+      {
+        "title": "What caused Eric Dane's death? #tabloid",
+        "url": "https://alltoc.com/tabloid/what-caused-eric-dane-s-death",
+        "source": "Alltoc.com",
+        "date": "2026-02-20T21:04:36Z"
+      }
+    ],
+    "generated_at": "2026-02-22T08:36:08.326197"
+  },
+  {
     "date": "2026-02-15",
     "week_of": "February 15, 2026",
     "digest_number": 8,
