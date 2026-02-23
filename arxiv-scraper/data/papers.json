@@ -1,5 +1,29 @@
 [
   {
+    "id": "2602.18047v1",
+    "title": "CityGuard: Graph-Aware Private Descriptors for Bias-Resilient Identity Search Across Urban Cameras",
+    "summary": "City-scale person re-identification across distributed cameras must handle severe appearance changes from viewpoint, occlusion, and domain shift while complying with data protection rules that prevent sharing raw imagery. We introduce CityGuard, a topology-aware transformer for privacy-preserving identity retrieval in decentralized surveillance. The framework integrates three components. A dispersion-adaptive metric learner adjusts instance-level margins according to feature spread, increasing intra-class compactness. Spatially conditioned attention injects coarse geometry, such as GPS or deployment floor plans, into graph-based self-attention to enable projectively consistent cross-view alignment using only coarse geometric priors without requiring survey-grade calibration. Differentially private embedding maps are coupled with compact approximate indexes to support secure and cost-efficient deployment. Together these designs produce descriptors robust to viewpoint variation, occlusion, and domain shifts, and they enable a tunable balance between privacy and utility under rigorous differential-privacy accounting. Experiments on Market-1501 and additional public benchmarks, complemented by database-scale retrieval studies, show consistent gains in retrieval precision and query throughput over strong baselines, confirming the practicality of the framework for privacy-critical urban identity matching.",
+    "published": "2026-02-20T08:00:17Z",
+    "link": "http://arxiv.org/abs/2602.18047v1",
+    "authors": [
+      "Rong Fu",
+      "Wenxin Zhang",
+      "Yibo Meng",
+      "Jia Yee Tan",
+      "Jiaxuan Lu",
+      "Rui Lu",
+      "Jiekai Wu",
+      "Zhaolu Kang",
+      "Simon Fong"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "ai_summary": "City-scale person re-identification across distributed cameras must handle severe appearance changes from viewpoint, occlusion, and domain shift while complying with data protection rules that prevent sharing raw imagery. We introduce CityGuard, a topology-aware transformer for privacy-preserving identity retrieval in decentralized surveillance.",
+    "selected_date": "2026-02-23"
+  },
+  {
     "id": "2602.16800v1",
     "title": "Large-scale online deanonymization with LLMs",
     "summary": "We show that large language models can be used to perform at-scale deanonymization. With full Internet access, our agent can re-identify Hacker News users and Anthropic Interviewer participants at high precision, given pseudonymous online profiles and conversations alone, matching what would take hours for a dedicated human investigator. We then design attacks for the closed-world setting. Given two databases of pseudonymous individuals, each containing unstructured text written by or about that individual, we implement a scalable attack pipeline that uses LLMs to: (1) extract identity-relevant features, (2) search for candidate matches via semantic embeddings, and (3) reason over top candidates to verify matches and reduce false positives. Compared to prior deanonymization work (e.g., on the Netflix prize) that required structured data or manual feature engineering, our approach works directly on raw user content across arbitrary platforms. We construct three datasets with known ground-truth data to evaluate our attacks. The first links Hacker News to LinkedIn profiles, using cross-platform references that appear in the profiles. Our second dataset matches users across Reddit movie discussion communities; and the third splits a single user's Reddit history in time to create two pseudonymous profiles to be matched. In each setting, LLM-based methods substantially outperform classical baselines, achieving up to 68% recall at 90% precision compared to near 0% for the best non-LLM method. Our results show that the practical obscurity protecting pseudonymous users online no longer holds and that threat models for online privacy need to be reconsidered.",
@@ -566,24 +590,5 @@
     ],
     "ai_summary": "Discrete video VAEs underpin modern text-to-video generation and video understanding systems, yet existing tokenizers typically learn visual codebooks at a single scale with limited vocabularies and shallow language supervision, leading to poor cross-modal alignment and zero-shot transfer. We introduce PyraTok, a language-aligned pyramidal tokenizer that learns semantically structured discrete latents across multiple spatiotemporal resolutions.",
     "selected_date": "2026-01-24"
-  },
-  {
-    "id": "2601.15474v1",
-    "title": "Multi-Targeted Graph Backdoor Attack",
-    "summary": "Graph neural network (GNN) have demonstrated exceptional performance in solving critical problems across diverse domains yet remain susceptible to backdoor attacks. Existing studies on backdoor attack for graph classification are limited to single target attack using subgraph replacement based mechanism where the attacker implants only one trigger into the GNN model. In this paper, we introduce the first multi-targeted backdoor attack for graph classification task, where multiple triggers simultaneously redirect predictions to different target labels. Instead of subgraph replacement, we propose subgraph injection which preserves the structure of the original graphs while poisoning the clean graphs. Extensive experiments demonstrate the efficacy of our approach, where our attack achieves high attack success rates for all target labels with minimal impact on the clean accuracy. Experimental results on five dataset demonstrate the superior performance of our attack framework compared to the conventional subgraph replacement-based attack. Our analysis on four GNN models confirms the generalization capability of our attack which is effective regardless of the GNN model architectures and training parameters settings. We further investigate the impact of the attack design parameters including injection methods, number of connections, trigger sizes, trigger edge density and poisoning ratios. Additionally, our evaluation against state-of-the-art defenses (randomized smoothing and fine-pruning) demonstrates the robustness of our proposed multi-target attacks. This work highlights the GNN vulnerability against multi-targeted backdoor attack in graph classification task. Our source codes will be available at https://github.com/SiSL-URI/Multi-Targeted-Graph-Backdoor-Attack.",
-    "published": "2026-01-21T21:23:51Z",
-    "link": "http://arxiv.org/abs/2601.15474v1",
-    "authors": [
-      "Md Nabi Newaz Khan",
-      "Abdullah Arafat Miah",
-      "Yu Bi"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.CR"
-    ],
-    "ai_summary": "Graph neural network (GNN) have demonstrated exceptional performance in solving critical problems across diverse domains yet remain susceptible to backdoor attacks. Existing studies on backdoor attack for graph classification are limited to single target attack using subgraph replacement based mechanism where the attacker implants only one trigger into the GNN model.",
-    "selected_date": "2026-01-23"
   }
 ]
