@@ -1,5 +1,27 @@
 [
   {
+    "id": "2602.22134v1",
+    "title": "Secure Semantic Communications via AI Defenses: Fundamentals, Solutions, and Future Directions",
+    "summary": "Semantic communication (SemCom) redefines wireless communication from reproducing symbols to transmitting task-relevant semantics. However, this AI-native architecture also introduces new vulnerabilities, as semantic failures may arise from adversarial perturbations to models, corrupted training data, desynchronized priors, or misaligned inference even when lower-layer transmission reliability and cryptographic protection remain intact. This survey provides a defense-centered and system-oriented synthesis of security in SemCom via AI defense. We analyze AI-centric threat models by consolidating existing studies and organizing attack surfaces across model-level, channel-realizable, knowledge-based, and networked inference vectors. Building on this foundation, we present a structured taxonomy of defense strategies organized by where semantic integrity can be compromised in SemCom systems despite correct symbol delivery, spanning semantic encoding, wireless transmission, knowledge integrity, and coordination among multiple agents. These categories correspond to distinct security failure modes, including representation fragility, channel-realizable manipulation, semantic prior poisoning or desynchronization, and adversarial propagation through distributed inference. We also examine security utility operating envelopes that capture tradeoffs among semantic fidelity, robustness, latency, and energy under realistic constraints, survey evaluation frameworks and representative applications, and identify open challenges in cross-layer composition and deployment-time certification. Overall, this survey offers a unified system-level perspective that enables readers to understand major threat and defense mechanisms in AI-native SemCom systems and to leverage emerging security techniques in the design and deployment of robust SemCom architectures for next-generation intelligent networks.",
+    "published": "2026-02-25T17:28:07Z",
+    "link": "http://arxiv.org/abs/2602.22134v1",
+    "authors": [
+      "Lan Zhang",
+      "Chengsi Liang",
+      "Zeming Zhuang",
+      "Yao Sun",
+      "Fang Fang",
+      "Xiaoyong Yuan",
+      "Dusit Niyato"
+    ],
+    "categories": [
+      "cs.CR",
+      "eess.SY"
+    ],
+    "ai_summary": "Semantic communication (SemCom) redefines wireless communication from reproducing symbols to transmitting task-relevant semantics. However, this AI-native architecture also introduces new vulnerabilities, as semantic failures may arise from adversarial perturbations to models, corrupted training data, desynchronized priors, or misaligned inference even when lower-layer transmission reliability and cryptographic protection remain intact.",
+    "selected_date": "2026-02-26"
+  },
+  {
     "id": "2602.20680v1",
     "title": "Vanishing Watermarks: Diffusion-Based Image Editing Undermines Robust Invisible Watermarking",
     "summary": "Robust invisible watermarking schemes aim to embed hidden information into images such that the watermark survives common manipulations. However, powerful diffusion-based image generation and editing techniques now pose a new threat to these watermarks. In this paper, we present a comprehensive theoretical and empirical analysis demonstrating that diffusion models can effectively erase robust watermarks even when those watermarks were designed to withstand conventional distortions. We show that a diffusion-driven image regeneration process, which leverages generative models to recreate an image, can remove embedded watermarks while preserving the image's perceptual content. Furthermore, we introduce a guided diffusion-based attack that explicitly targets the embedded watermark signal during generation, significantly degrading watermark detectability. Theoretically, we prove that as an image undergoes sufficient diffusion transformations, the mutual information between the watermarked image and the hidden payload approaches zero, leading to inevitable decoding failure. Experimentally, we evaluate multiple state-of-the-art watermarking methods (including deep learning-based schemes like StegaStamp, TrustMark, and VINE) and demonstrate that diffusion edits yield near-zero watermark recovery rates after attack, while maintaining high visual fidelity of the regenerated images. Our findings reveal a fundamental vulnerability in current robust watermarking techniques against generative model-based edits, underscoring the need for new strategies to ensure watermark resilience in the era of powerful diffusion models.",
@@ -568,24 +590,5 @@
     ],
     "ai_summary": "Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks typically rely on injecting noise or altering semantics, yet no existing framework exploits the adversarial potential of persuasion techniques, which are widely used in disinformation campaigns to manipulate audiences.",
     "selected_date": "2026-01-26"
-  },
-  {
-    "id": "2601.15838v1",
-    "title": "TinySense: Effective CSI Compression for Scalable and Accurate Wi-Fi Sensing",
-    "summary": "With the growing demand for device-free and privacy-preserving sensing solutions, Wi-Fi sensing has emerged as a promising approach for human pose estimation (HPE). However, existing methods often process vast amounts of channel state information (CSI) data directly, ultimately straining networking resources. This paper introduces TinySense, an efficient compression framework that enhances the scalability of Wi-Fi-based human sensing. Our approach is based on a new vector quantization-based generative adversarial network (VQGAN). Specifically, by leveraging a VQGAN-learned codebook, TinySense significantly reduces CSI data while maintaining the accuracy required for reliable HPE. To optimize compression, we employ the K-means algorithm to dynamically adjust compression bitrates to cluster a large-scale pre-trained codebook into smaller subsets. Furthermore, a Transformer model is incorporated to mitigate bitrate loss, enhancing robustness in unreliable networking conditions. We prototype TinySense on an experimental testbed using Jetson Nano and Raspberry Pi to measure latency and network resource use. Extensive results demonstrate that TinySense significantly outperforms state-of-the-art compression schemes, achieving up to 1.5x higher HPE accuracy score (PCK20) under the same compression rate. It also reduces latency and networking overhead, respectively, by up to 5x and 2.5x. The code repository is available online at here.",
-    "published": "2026-01-22T10:44:40Z",
-    "link": "http://arxiv.org/abs/2601.15838v1",
-    "authors": [
-      "Toan Gian",
-      "Dung T. Tran",
-      "Viet Quoc Pham",
-      "Francesco Restuccia",
-      "Van-Dinh Nguyen"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "With the growing demand for device-free and privacy-preserving sensing solutions, Wi-Fi sensing has emerged as a promising approach for human pose estimation (HPE). However, existing methods often process vast amounts of channel state information (CSI) data directly, ultimately straining networking resources.",
-    "selected_date": "2026-01-25"
   }
 ]
