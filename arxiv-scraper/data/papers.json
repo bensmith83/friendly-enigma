@@ -1,5 +1,25 @@
 [
   {
+    "id": "2602.23353v1",
+    "title": "SOTAlign: Semi-Supervised Alignment of Unimodal Vision and Language Models via Optimal Transport",
+    "summary": "The Platonic Representation Hypothesis posits that neural networks trained on different modalities converge toward a shared statistical model of the world. Recent work exploits this convergence by aligning frozen pretrained vision and language models with lightweight alignment layers, but typically relies on contrastive losses and millions of paired samples. In this work, we ask whether meaningful alignment can be achieved with substantially less supervision. We introduce a semi-supervised setting in which pretrained unimodal encoders are aligned using a small number of image-text pairs together with large amounts of unpaired data. To address this challenge, we propose SOTAlign, a two-stage framework that first recovers a coarse shared geometry from limited paired data using a linear teacher, then refines the alignment on unpaired samples via an optimal-transport-based divergence that transfers relational structure without overconstraining the target space. Unlike existing semi-supervised methods, SOTAlign effectively leverages unpaired images and text, learning robust joint embeddings across datasets and encoder pairs, and significantly outperforming supervised and semi-supervised baselines.",
+    "published": "2026-02-26T18:55:06Z",
+    "link": "http://arxiv.org/abs/2602.23353v1",
+    "authors": [
+      "Simon Roschmann",
+      "Paul Krzakala",
+      "Sonia Mazelet",
+      "Quentin Bouniot",
+      "Zeynep Akata"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "ai_summary": "The Platonic Representation Hypothesis posits that neural networks trained on different modalities converge toward a shared statistical model of the world. Recent work exploits this convergence by aligning frozen pretrained vision and language models with lightweight alignment layers, but typically relies on contrastive losses and millions of paired samples.",
+    "selected_date": "2026-02-27"
+  },
+  {
     "id": "2602.22134v1",
     "title": "Secure Semantic Communications via AI Defenses: Fundamentals, Solutions, and Future Directions",
     "summary": "Semantic communication (SemCom) redefines wireless communication from reproducing symbols to transmitting task-relevant semantics. However, this AI-native architecture also introduces new vulnerabilities, as semantic failures may arise from adversarial perturbations to models, corrupted training data, desynchronized priors, or misaligned inference even when lower-layer transmission reliability and cryptographic protection remain intact. This survey provides a defense-centered and system-oriented synthesis of security in SemCom via AI defense. We analyze AI-centric threat models by consolidating existing studies and organizing attack surfaces across model-level, channel-realizable, knowledge-based, and networked inference vectors. Building on this foundation, we present a structured taxonomy of defense strategies organized by where semantic integrity can be compromised in SemCom systems despite correct symbol delivery, spanning semantic encoding, wireless transmission, knowledge integrity, and coordination among multiple agents. These categories correspond to distinct security failure modes, including representation fragility, channel-realizable manipulation, semantic prior poisoning or desynchronization, and adversarial propagation through distributed inference. We also examine security utility operating envelopes that capture tradeoffs among semantic fidelity, robustness, latency, and energy under realistic constraints, survey evaluation frameworks and representative applications, and identify open challenges in cross-layer composition and deployment-time certification. Overall, this survey offers a unified system-level perspective that enables readers to understand major threat and defense mechanisms in AI-native SemCom systems and to leverage emerging security techniques in the design and deployment of robust SemCom architectures for next-generation intelligent networks.",
@@ -570,25 +590,5 @@
     ],
     "ai_summary": "Virtual Asset Service Providers (VASPs) face a fundamental tension between regulatory compliance and user privacy when detecting cross-institutional money laundering. Current approaches require either sharing sensitive transaction data or operating in isolation, leaving critical cross-chain laundering patterns undetected.",
     "selected_date": "2026-01-27"
-  },
-  {
-    "id": "2601.16890v1",
-    "title": "LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems",
-    "summary": "Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks typically rely on injecting noise or altering semantics, yet no existing framework exploits the adversarial potential of persuasion techniques, which are widely used in disinformation campaigns to manipulate audiences. In this paper, we introduce a novel class of persuasive adversarial attacks on AFCs by employing a generative LLM to rephrase claims using persuasion techniques. Considering 15 techniques grouped into 6 categories, we study the effects of persuasion on both claim verification and evidence retrieval using a decoupled evaluation strategy. Experiments on the FEVER and FEVEROUS benchmarks show that persuasion attacks can substantially degrade both verification performance and evidence retrieval. Our analysis identifies persuasion techniques as a potent class of adversarial attacks, highlighting the need for more robust AFC systems.",
-    "published": "2026-01-23T16:57:16Z",
-    "link": "http://arxiv.org/abs/2601.16890v1",
-    "authors": [
-      "Jo\u00e3o A. Leite",
-      "Olesya Razuvayevskaya",
-      "Kalina Bontcheva",
-      "Carolina Scarton"
-    ],
-    "categories": [
-      "cs.CL",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "ai_summary": "Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks typically rely on injecting noise or altering semantics, yet no existing framework exploits the adversarial potential of persuasion techniques, which are widely used in disinformation campaigns to manipulate audiences.",
-    "selected_date": "2026-01-26"
   }
 ]
