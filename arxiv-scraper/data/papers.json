@@ -1,5 +1,21 @@
 [
   {
+    "id": "2602.22488v1",
+    "title": "Explainability-Aware Evaluation of Transfer Learning Models for IoT DDoS Detection Under Resource Constraints",
+    "summary": "Distributed denial-of-service (DDoS) attacks threaten the availability of Internet of Things (IoT) infrastructures, particularly under resource-constrained deployment conditions. Although transfer learning models have shown promising detection accuracy, their reliability, computational feasibility, and interpretability in operational environments remain insufficiently explored. This study presents an explainability-aware empirical evaluation of seven pre-trained convolutional neural network architectures for multi-class IoT DDoS detection using the CICDDoS2019 dataset and an image-based traffic representation. The analysis integrates performance metrics, reliability-oriented statistics (MCC, Youden Index, confidence intervals), latency and training cost assessment, and interpretability evaluation using Grad-CAM and SHAP. Results indicate that DenseNet and MobileNet-based architectures achieve strong detection performance while demonstrating superior reliability and compact, class-consistent attribution patterns. DenseNet169 offers the strongest reliability and interpretability alignment, whereas MobileNetV3 provides an effective latency-accuracy trade-off for fog-level deployment. The findings emphasize the importance of combining performance, reliability, and explainability criteria when selecting deep learning models for IoT DDoS detection.",
+    "published": "2026-02-25T23:56:11Z",
+    "link": "http://arxiv.org/abs/2602.22488v1",
+    "authors": [
+      "Nelly Elsayed"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Distributed denial-of-service (DDoS) attacks threaten the availability of Internet of Things (IoT) infrastructures, particularly under resource-constrained deployment conditions. Although transfer learning models have shown promising detection accuracy, their reliability, computational feasibility, and interpretability in operational environments remain insufficiently explored.",
+    "selected_date": "2026-02-28"
+  },
+  {
     "id": "2602.23353v1",
     "title": "SOTAlign: Semi-Supervised Alignment of Unimodal Vision and Language Models via Optimal Transport",
     "summary": "The Platonic Representation Hypothesis posits that neural networks trained on different modalities converge toward a shared statistical model of the world. Recent work exploits this convergence by aligning frozen pretrained vision and language models with lightweight alignment layers, but typically relies on contrastive losses and millions of paired samples. In this work, we ask whether meaningful alignment can be achieved with substantially less supervision. We introduce a semi-supervised setting in which pretrained unimodal encoders are aligned using a small number of image-text pairs together with large amounts of unpaired data. To address this challenge, we propose SOTAlign, a two-stage framework that first recovers a coarse shared geometry from limited paired data using a linear teacher, then refines the alignment on unpaired samples via an optimal-transport-based divergence that transfers relational structure without overconstraining the target space. Unlike existing semi-supervised methods, SOTAlign effectively leverages unpaired images and text, learning robust joint embeddings across datasets and encoder pairs, and significantly outperforming supervised and semi-supervised baselines.",
@@ -569,26 +585,5 @@
     ],
     "ai_summary": "Deep Neural Networks remain inherently vulnerable to backdoor attacks. Traditional test-time defenses largely operate under the paradigm of internal diagnosis methods like model repairing or input robustness, yet these approaches are often fragile under advanced attacks as they remain entangled with the victim model's corrupted parameters.",
     "selected_date": "2026-01-28"
-  },
-  {
-    "id": "2601.17935v1",
-    "title": "FedGraph-VASP: Privacy-Preserving Federated Graph Learning with Post-Quantum Security for Cross-Institutional Anti-Money Laundering",
-    "summary": "Virtual Asset Service Providers (VASPs) face a fundamental tension between regulatory compliance and user privacy when detecting cross-institutional money laundering. Current approaches require either sharing sensitive transaction data or operating in isolation, leaving critical cross-chain laundering patterns undetected. We present FedGraph-VASP, a privacy-preserving federated graph learning framework that enables collaborative anti-money laundering (AML) without exposing raw user data. Our key contribution is a Boundary Embedding Exchange protocol that shares only compressed, non-invertible graph neural network representations of boundary accounts. These exchanges are secured using post-quantum cryptography, specifically the NIST-standardized Kyber-512 key encapsulation mechanism combined with AES-256-GCM authenticated encryption. Experiments on the Elliptic Bitcoin dataset with realistic Louvain partitioning show that FedGraph-VASP achieves an F1-score of 0.508, outperforming the state-of-the-art generative baseline FedSage+ (F1 = 0.453) by 12.1 percent on binary fraud detection. We further show robustness under low-connectivity settings where generative imputation degrades performance, while approaching centralized performance (F1 = 0.620) in high-connectivity regimes. We additionally evaluate generalization on an Ethereum fraud detection dataset, where FedGraph-VASP (F1 = 0.635) is less effective under sparse cross-silo connectivity, while FedSage+ excels (F1 = 0.855), outperforming even local training (F1 = 0.785). These results highlight a topology-dependent trade-off: embedding exchange benefits connected transaction graphs, whereas generative imputation can dominate in highly modular sparse graphs. A privacy audit shows embeddings are only partially invertible (R^2 = 0.32), limiting exact feature recovery.",
-    "published": "2026-01-25T18:14:26Z",
-    "link": "http://arxiv.org/abs/2601.17935v1",
-    "authors": [
-      "Daniel Commey",
-      "Matilda Nkoom",
-      "Yousef Alsenani",
-      "Sena G. Hounsinou",
-      "Garth V. Crosby"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR",
-      "cs.SI"
-    ],
-    "ai_summary": "Virtual Asset Service Providers (VASPs) face a fundamental tension between regulatory compliance and user privacy when detecting cross-institutional money laundering. Current approaches require either sharing sensitive transaction data or operating in isolation, leaving critical cross-chain laundering patterns undetected.",
-    "selected_date": "2026-01-27"
   }
 ]
