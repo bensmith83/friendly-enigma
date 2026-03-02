@@ -1,5 +1,26 @@
 [
   {
+    "id": "2602.24009v1",
+    "title": "Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking",
+    "summary": "Jailbreak techniques for large language models (LLMs) evolve faster than benchmarks, making robustness estimates stale and difficult to compare across papers due to drift in datasets, harnesses, and judging protocols. We introduce JAILBREAK FOUNDRY (JBF), a system that addresses this gap via a multi-agent workflow to translate jailbreak papers into executable modules for immediate evaluation within a unified harness. JBF features three core components: (i) JBF-LIB for shared contracts and reusable utilities; (ii) JBF-FORGE for the multi-agent paper-to-module translation; and (iii) JBF-EVAL for standardizing evaluations. Across 30 reproduced attacks, JBF achieves high fidelity with a mean (reproduced-reported) attack success rate (ASR) deviation of +0.26 percentage points. By leveraging shared infrastructure, JBF reduces attack-specific implementation code by nearly half relative to original repositories and achieves an 82.5% mean reused-code ratio. This system enables a standardized AdvBench evaluation of all 30 attacks across 10 victim models using a consistent GPT-4o judge. By automating both attack integration and standardized evaluation, JBF offers a scalable solution for creating living benchmarks that keep pace with the rapidly shifting security landscape.",
+    "published": "2026-02-27T13:32:53Z",
+    "link": "http://arxiv.org/abs/2602.24009v1",
+    "authors": [
+      "Zhicheng Fang",
+      "Jingjie Zheng",
+      "Chenxu Fu",
+      "Wei Xu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "ai_summary": "Jailbreak techniques for large language models (LLMs) evolve faster than benchmarks, making robustness estimates stale and difficult to compare across papers due to drift in datasets, harnesses, and judging protocols. We introduce JAILBREAK FOUNDRY (JBF), a system that addresses this gap via a multi-agent workflow to translate jailbreak papers into executable modules for immediate evaluation within a unified harness.",
+    "selected_date": "2026-03-02"
+  },
+  {
     "id": "2602.22488v1",
     "title": "Explainability-Aware Evaluation of Transfer Learning Models for IoT DDoS Detection Under Resource Constraints",
     "summary": "Distributed denial-of-service (DDoS) attacks threaten the availability of Internet of Things (IoT) infrastructures, particularly under resource-constrained deployment conditions. Although transfer learning models have shown promising detection accuracy, their reliability, computational feasibility, and interpretability in operational environments remain insufficiently explored. This study presents an explainability-aware empirical evaluation of seven pre-trained convolutional neural network architectures for multi-class IoT DDoS detection using the CICDDoS2019 dataset and an image-based traffic representation. The analysis integrates performance metrics, reliability-oriented statistics (MCC, Youden Index, confidence intervals), latency and training cost assessment, and interpretability evaluation using Grad-CAM and SHAP. Results indicate that DenseNet and MobileNet-based architectures achieve strong detection performance while demonstrating superior reliability and compact, class-consistent attribution patterns. DenseNet169 offers the strongest reliability and interpretability alignment, whereas MobileNetV3 provides an effective latency-accuracy trade-off for fog-level deployment. The findings emphasize the importance of combining performance, reliability, and explainability criteria when selecting deep learning models for IoT DDoS detection.",
@@ -565,25 +586,5 @@
     ],
     "ai_summary": "During pretraining, LLMs inadvertently memorize sensitive or copyrighted data, posing significant compliance challenges under legal frameworks like the GDPR and the EU AI Act. Fulfilling these mandates demands techniques that can remove information from a deployed model without retraining from scratch.",
     "selected_date": "2026-01-29"
-  },
-  {
-    "id": "2601.19448v1",
-    "title": "From Internal Diagnosis to External Auditing: A VLM-Driven Paradigm for Online Test-Time Backdoor Defense",
-    "summary": "Deep Neural Networks remain inherently vulnerable to backdoor attacks. Traditional test-time defenses largely operate under the paradigm of internal diagnosis methods like model repairing or input robustness, yet these approaches are often fragile under advanced attacks as they remain entangled with the victim model's corrupted parameters. We propose a paradigm shift from Internal Diagnosis to External Semantic Auditing, arguing that effective defense requires decoupling safety from the victim model via an independent, semantically grounded auditor. To this end, we present a framework harnessing Universal Vision-Language Models (VLMs) as evolving semantic gatekeepers. We introduce PRISM (Prototype Refinement & Inspection via Statistical Monitoring), which overcomes the domain gap of general VLMs through two key mechanisms: a Hybrid VLM Teacher that dynamically refines visual prototypes online, and an Adaptive Router powered by statistical margin monitoring to calibrate gating thresholds in real-time. Extensive evaluation across 17 datasets and 11 attack types demonstrates that PRISM achieves state-of-the-art performance, suppressing Attack Success Rate to <1% on CIFAR-10 while improving clean accuracy, establishing a new standard for model-agnostic, externalized security.",
-    "published": "2026-01-27T10:34:06Z",
-    "link": "http://arxiv.org/abs/2601.19448v1",
-    "authors": [
-      "Binyan Xu",
-      "Fan Yang",
-      "Xilin Dai",
-      "Di Tang",
-      "Kehuan Zhang"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR"
-    ],
-    "ai_summary": "Deep Neural Networks remain inherently vulnerable to backdoor attacks. Traditional test-time defenses largely operate under the paradigm of internal diagnosis methods like model repairing or input robustness, yet these approaches are often fragile under advanced attacks as they remain entangled with the victim model's corrupted parameters.",
-    "selected_date": "2026-01-28"
   }
 ]
