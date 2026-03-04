@@ -1,5 +1,28 @@
 [
   {
+    "id": "2603.03269v1",
+    "title": "LoGeR: Long-Context Geometric Reconstruction with Hybrid Memory",
+    "summary": "Feedforward geometric foundation models achieve strong short-window reconstruction, yet scaling them to minutes-long videos is bottlenecked by quadratic attention complexity or limited effective memory in recurrent designs. We present LoGeR (Long-context Geometric Reconstruction), a novel architecture that scales dense 3D reconstruction to extremely long sequences without post-optimization. LoGeR processes video streams in chunks, leveraging strong bidirectional priors for high-fidelity intra-chunk reasoning. To manage the critical challenge of coherence across chunk boundaries, we propose a learning-based hybrid memory module. This dual-component system combines a parametric Test-Time Training (TTT) memory to anchor the global coordinate frame and prevent scale drift, alongside a non-parametric Sliding Window Attention (SWA) mechanism to preserve uncompressed context for high-precision adjacent alignment. Remarkably, this memory architecture enables LoGeR to be trained on sequences of 128 frames, and generalize up to thousands of frames during inference. Evaluated across standard benchmarks and a newly repurposed VBR dataset with sequences of up to 19k frames, LoGeR substantially outperforms prior state-of-the-art feedforward methods--reducing ATE on KITTI by over 74%--and achieves robust, globally consistent reconstruction over unprecedented horizons.",
+    "published": "2026-03-03T18:55:37Z",
+    "link": "http://arxiv.org/abs/2603.03269v1",
+    "authors": [
+      "Junyi Zhang",
+      "Charles Herrmann",
+      "Junhwa Hur",
+      "Chen Sun",
+      "Ming-Hsuan Yang",
+      "Forrester Cole",
+      "Trevor Darrell",
+      "Deqing Sun"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "ai_summary": "Feedforward geometric foundation models achieve strong short-window reconstruction, yet scaling them to minutes-long videos is bottlenecked by quadratic attention complexity or limited effective memory in recurrent designs. We present LoGeR (Long-context Geometric Reconstruction), a novel architecture that scales dense 3D reconstruction to extremely long sequences without post-optimization.",
+    "selected_date": "2026-03-04"
+  },
+  {
     "id": "2603.01876v1",
     "title": "Systematic Survey on Privacy-Preserving Architectures for IoT and Vehicular Data Sharing: Techniques, Challenges, and Future Directions",
     "summary": "The proliferation of IoT and V2X systems generates unprecedented sensitive data at the network edge, demanding privacy-preserving architectures that enable secure sharing without exposing raw information. Contemporary solutions face a fundamental privacy-efficiency-trust trilemma: achieving strong privacy guarantees, computational efficiency for resource-constrained devices, and decentralized trust simultaneously remains intractable with single-paradigm approaches. This survey systematically analyzes 75 technical papers (2007--2025) through a novel three-dimensional taxonomy classifying architectures into Decentralized Computation, Cryptography-based, and Distributed Ledger approaches. Temporal analysis reveals dramatic acceleration during 2024--2025, with 48% of all papers published in this period -- Decentralized Computation dominates at 44% of contributions and 59% of 2025 publications. Comprehensive Security Threat Mapping and Technology Maturity Assessment demonstrate that mature solutions occupy narrow design regions excelling in one or two dimensions while compromising others, conclusively validating the trilemma hypothesis. We identify emerging hybrid architectures combining complementary paradigms as the essential path forward. Critical challenges including security guarantee composition across layers, multi-layer coordination overhead minimization, and post-quantum security integration must be addressed for practical deployment in next-generation intelligent transportation systems and IoT ecosystems.",
@@ -570,24 +593,5 @@
     ],
     "ai_summary": "Visual token compression is widely used to accelerate large vision-language models (LVLMs) by pruning or merging visual tokens, yet its adversarial robustness remains unexplored. We show that existing encoder-based attacks can substantially overestimate the robustness of compressed LVLMs, due to an optimization-inference mismatch: perturbations are optimized on the full-token representation, while inference is performed through a token-compression bottleneck.",
     "selected_date": "2026-01-31"
-  },
-  {
-    "id": "2601.21287v1",
-    "title": "Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption",
-    "summary": "Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) by using Homomorphic Encryption (HE) for linear computations. However, the computational overhead remains a major challenge. While prior work has improved efficiency, most approaches build on models originally designed for plaintext inference. Such models incur architectural inefficiencies when adapted to HE. We argue that substantial gains require networks tailored to HE rather than retrofitting plaintext architectures. Our design has two components: the building block and the overall architecture. First, StriaBlock targets the most expensive HE operation, rotation. It integrates ExRot-Free Convolution and a novel Cross Kernel, eliminating external rotations and requiring only 19% of the internal rotations used by plaintext models. Second, our architectural principles include (i) the Focused Constraint Principle, which limits cost-sensitive factors while preserving flexibility elsewhere, and (ii) the Channel Packing-Aware Scaling Principle, which adapts bottleneck ratios to ciphertext channel capacity that varies with depth. Together, these strategies control both local and end-to-end HE cost, enabling a balanced HE-tailored network. We evaluate the resulting StriaNet across datasets of varying scales, including ImageNet, Tiny ImageNet, and CIFAR-10. At comparable accuracy, StriaNet achieves speedups of 9.78x, 6.01x, and 9.24x on ImageNet, Tiny ImageNet, and CIFAR-10, respectively.",
-    "published": "2026-01-29T05:40:05Z",
-    "link": "http://arxiv.org/abs/2601.21287v1",
-    "authors": [
-      "Yifei Cai",
-      "Yizhou Feng",
-      "Qiao Zhang",
-      "Chunsheng Xin",
-      "Hongyi Wu"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) by using Homomorphic Encryption (HE) for linear computations. However, the computational overhead remains a major challenge.",
-    "selected_date": "2026-01-30"
   }
 ]
