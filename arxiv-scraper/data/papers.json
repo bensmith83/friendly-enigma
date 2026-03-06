@@ -1,5 +1,22 @@
 [
   {
+    "id": "2603.05462v1",
+    "title": "NCTB-QA: A Large-Scale Bangla Educational Question Answering Dataset and Benchmarking Performance",
+    "summary": "Reading comprehension systems for low-resource languages face significant challenges in handling unanswerable questions. These systems tend to produce unreliable responses when correct answers are absent from context. To solve this problem, we introduce NCTB-QA, a large-scale Bangla question answering dataset comprising 87,805 question-answer pairs extracted from 50 textbooks published by Bangladesh's National Curriculum and Textbook Board. Unlike existing Bangla datasets, NCTB-QA maintains a balanced distribution of answerable (57.25%) and unanswerable (42.75%) questions. NCTB-QA also includes adversarially designed instances containing plausible distractors. We benchmark three transformer-based models (BERT, RoBERTa, ELECTRA) and demonstrate substantial improvements through fine-tuning. BERT achieves 313% relative improvement in F1 score (0.150 to 0.620). Semantic answer quality measured by BERTScore also increases significantly across all models. Our results establish NCTB-QA as a challenging benchmark for Bangla educational question answering. This study demonstrates that domain-specific fine-tuning is critical for robust performance in low-resource settings.",
+    "published": "2026-03-05T18:35:03Z",
+    "link": "http://arxiv.org/abs/2603.05462v1",
+    "authors": [
+      "Abrar Eyasir",
+      "Tahsin Ahmed",
+      "Muhammad Ibrahim"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "ai_summary": "Reading comprehension systems for low-resource languages face significant challenges in handling unanswerable questions. These systems tend to produce unreliable responses when correct answers are absent from context.",
+    "selected_date": "2026-03-06"
+  },
+  {
     "id": "2603.04364v1",
     "title": "Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks",
     "summary": "Multimodal web agents that process both screenshots and accessibility trees are increasingly deployed to interact with web interfaces, yet their dual-stream architecture opens an underexplored attack surface: an adversary who injects content into the webpage DOM simultaneously corrupts both observation channels with a consistent deceptive narrative. Our vulnerability analysis on MiniWob++ reveals that attacks including a visual component far outperform text-only injections, exposing critical gaps in text-centric VLM safety training. Motivated by this finding, we propose Dual-Modality Multi-Stage Adversarial Safety Training (DMAST), a framework that formalizes the agent-attacker interaction as a two-player zero-sum Markov game and co-trains both players through a three-stage pipeline: (1) imitation learning from a strong teacher model, (2) oracle-guided supervised fine-tuning that uses a novel zero-acknowledgment strategy to instill task-focused reasoning under adversarial noise, and (3) adversarial reinforcement learning via Group Relative Policy Optimization (GRPO) self-play. On out-of-distribution tasks, DMAST substantially mitigates adversarial risks while simultaneously doubling task completion efficiency. Our approach significantly outperforms established training-based and prompt-based defenses, demonstrating genuine co-evolutionary progress and robust generalization to complex, unseen environments.",
@@ -570,25 +587,5 @@
     ],
     "ai_summary": "Smart contracts are the backbone of the decentralized web, yet ensuring their functional correctness and security remains a critical challenge. While Large Language Models (LLMs) have shown promise in code generation, they often struggle with the rigorous requirements of smart contracts, frequently producing code that is buggy or vulnerable.",
     "selected_date": "2026-02-02"
-  },
-  {
-    "id": "2601.21586v1",
-    "title": "ICL-EVADER: Zero-Query Black-Box Evasion Attacks on In-Context Learning and Their Defenses",
-    "summary": "In-context learning (ICL) has become a powerful, data-efficient paradigm for text classification using large language models. However, its robustness against realistic adversarial threats remains largely unexplored. We introduce ICL-Evader, a novel black-box evasion attack framework that operates under a highly practical zero-query threat model, requiring no access to model parameters, gradients, or query-based feedback during attack generation. We design three novel attacks, Fake Claim, Template, and Needle-in-a-Haystack, that exploit inherent limitations of LLMs in processing in-context prompts. Evaluated across sentiment analysis, toxicity, and illicit promotion tasks, our attacks significantly degrade classifier performance (e.g., achieving up to 95.3% attack success rate), drastically outperforming traditional NLP attacks which prove ineffective under the same constraints. To counter these vulnerabilities, we systematically investigate defense strategies and identify a joint defense recipe that effectively mitigates all attacks with minimal utility loss (<5% accuracy degradation). Finally, we translate our defensive insights into an automated tool that proactively fortifies standard ICL prompts against adversarial evasion. This work provides a comprehensive security assessment of ICL, revealing critical vulnerabilities and offering practical solutions for building more robust systems. Our source code and evaluation datasets are publicly available at: https://github.com/ChaseSecurity/ICL-Evader .",
-    "published": "2026-01-29T11:50:50Z",
-    "link": "http://arxiv.org/abs/2601.21586v1",
-    "authors": [
-      "Ningyuan He",
-      "Ronghong Huang",
-      "Qianqian Tang",
-      "Hongyu Wang",
-      "Xianghang Mi",
-      "Shanqing Guo"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "In-context learning (ICL) has become a powerful, data-efficient paradigm for text classification using large language models. However, its robustness against realistic adversarial threats remains largely unexplored.",
-    "selected_date": "2026-02-01"
   }
 ]
