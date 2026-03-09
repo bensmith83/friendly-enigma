@@ -1,5 +1,22 @@
 [
   {
+    "id": "2603.05915v1",
+    "title": "ThermoCAPTCHA: Privacy-Preserving Human Verification with Farm-Resistant Traceable Tokens",
+    "summary": "CAPTCHAs remain a critical defense against automated abuse, yet modern systems suffer from well-known limitations in usability, accessibility, and resistance to increasingly capable bots and low-cost CAPTCHA farms. Behavioral and puzzle-based mechanisms often impose cognitive burdens, collect extensive interaction data, or permit outsourcing to human solvers. In this paper, we present ThermoCAPTCHA, a novel privacy-preserving human verification system that uses real-time thermal imaging to detect live human presence without requiring users to solve challenges. A lightweight YOLOv4-tiny model identifies human heat signatures from a single thermal capture, while cryptographically bound traceable tokens prevent forwarding attacks by CAPTCHA farm workers. Our prototype achieves 96.70% detection accuracy with a 73.60 ms verification latency on a low-powered server. Comprehensive security evaluation, including MITM manipulation, spoofing attempts, adversarial perturbations, and misuse scenarios, shows that ThermoCAPTCHA withstands threats that commonly defeat behavioral CAPTCHAs. A user study with 50 participants, including visually challenged users, demonstrates improved accuracy, faster completion times, and higher perceived usability compared to reCAPTCHA v2.",
+    "published": "2026-03-06T05:07:53Z",
+    "link": "http://arxiv.org/abs/2603.05915v1",
+    "authors": [
+      "Shovon Paul",
+      "Md Imran Hossen",
+      "Xiali Hei"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "CAPTCHAs remain a critical defense against automated abuse, yet modern systems suffer from well-known limitations in usability, accessibility, and resistance to increasingly capable bots and low-cost CAPTCHA farms. Behavioral and puzzle-based mechanisms often impose cognitive burdens, collect extensive interaction data, or permit outsourcing to human solvers.",
+    "selected_date": "2026-03-09"
+  },
+  {
     "id": "2603.04742v1",
     "title": "Efficient Privacy-Preserving Sparse Matrix-Vector Multiplication Using Homomorphic Encryption",
     "summary": "Sparse matrix-vector multiplication (SpMV) is a fundamental operation in scientific computing, data analysis, and machine learning. When the data being processed are sensitive, preserving privacy becomes critical, and homomorphic encryption (HE) has emerged as a leading approach for addressing this challenge. Although HE enables privacy-preserving computation, its application to SpMV has remained largely unaddressed. To the best of our knowledge, this paper presents the first framework that efficiently integrates HE with SpMV, addressing the dual challenges of computational efficiency and data privacy. In particular, we introduce a novel compressed matrix format, named Compressed Sparse Sorted Column (CSSC), which is specifically designed to optimize encrypted sparse matrix computations. By preserving sparsity and enabling efficient ciphertext packing, CSSC significantly reduces storage and computational overhead. Our experimental results on real-world datasets demonstrate that the proposed method achieves significant gains in both processing time and memory usage. This study advances privacy-preserving SpMV and lays the groundwork for secure applications in federated learning, encrypted databases, scientific computing, and beyond.",
@@ -564,24 +581,5 @@
     ],
     "ai_summary": "LLM-based multi-agent systems have demonstrated impressive capabilities, but they also introduce significant safety risks when individual agents fail or behave adversarially. In this work, we study the automated design of agentic systems that remain safe even when a subset of agents is compromised.",
     "selected_date": "2026-02-05"
-  },
-  {
-    "id": "2602.03117v1",
-    "title": "AgentDyn: A Dynamic Open-Ended Benchmark for Evaluating Prompt Injection Attacks of Real-World Agent Security System",
-    "summary": "AI agents that autonomously interact with external tools and environments show great promise across real-world applications. However, the external data which agent consumes also leads to the risk of indirect prompt injection attacks, where malicious instructions embedded in third-party content hijack agent behavior. Guided by benchmarks, such as AgentDojo, there has been significant amount of progress in developing defense against the said attacks. As the technology continues to mature, and that agents are increasingly being relied upon for more complex tasks, there is increasing pressing need to also evolve the benchmark to reflect threat landscape faced by emerging agentic systems. In this work, we reveal three fundamental flaws in current benchmarks and push the frontier along these dimensions: (i) lack of dynamic open-ended tasks, (ii) lack of helpful instructions, and (iii) simplistic user tasks. To bridge this gap, we introduce AgentDyn, a manually designed benchmark featuring 60 challenging open-ended tasks and 560 injection test cases across Shopping, GitHub, and Daily Life. Unlike prior static benchmarks, AgentDyn requires dynamic planning and incorporates helpful third-party instructions. Our evaluation of ten state-of-the-art defenses suggests that almost all existing defenses are either not secure enough or suffer from significant over-defense, revealing that existing defenses are still far from real-world deployment. Our benchmark is available at https://github.com/leolee99/AgentDyn.",
-    "published": "2026-02-03T05:20:42Z",
-    "link": "http://arxiv.org/abs/2602.03117v1",
-    "authors": [
-      "Hao Li",
-      "Ruoyao Wen",
-      "Shanghao Shi",
-      "Ning Zhang",
-      "Chaowei Xiao"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "AI agents that autonomously interact with external tools and environments show great promise across real-world applications. However, the external data which agent consumes also leads to the risk of indirect prompt injection attacks, where malicious instructions embedded in third-party content hijack agent behavior.",
-    "selected_date": "2026-02-04"
   }
 ]
