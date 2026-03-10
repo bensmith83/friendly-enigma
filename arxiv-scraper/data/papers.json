@@ -1,5 +1,26 @@
 [
   {
+    "id": "2603.08316v1",
+    "title": "SlowBA: An efficiency backdoor attack towards VLM-based GUI agents",
+    "summary": "Modern vision-language-model (VLM) based graphical user interface (GUI) agents are expected not only to execute actions accurately but also to respond to user instructions with low latency. While existing research on GUI-agent security mainly focuses on manipulating action correctness, the security risks related to response efficiency remain largely unexplored. In this paper, we introduce SlowBA, a novel backdoor attack that targets the responsiveness of VLM-based GUI agents. The key idea is to manipulate response latency by inducing excessively long reasoning chains under specific trigger patterns. To achieve this, we propose a two-stage reward-level backdoor injection (RBI) strategy that first aligns the long-response format and then learns trigger-aware activation through reinforcement learning. In addition, we design realistic pop-up windows as triggers that naturally appear in GUI environments, improving the stealthiness of the attack. Extensive experiments across multiple datasets and baselines demonstrate that SlowBA can significantly increase response length and latency while largely preserving task accuracy. The attack remains effective even with a small poisoning ratio and under several defense settings. These findings reveal a previously overlooked security vulnerability in GUI agents and highlight the need for defenses that consider both action correctness and response efficiency. Code can be found in https://github.com/tu-tuing/SlowBA.",
+    "published": "2026-03-09T12:38:28Z",
+    "link": "http://arxiv.org/abs/2603.08316v1",
+    "authors": [
+      "Junxian Li",
+      "Tu Lan",
+      "Haozhen Tan",
+      "Yan Meng",
+      "Haojin Zhu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "ai_summary": "Modern vision-language-model (VLM) based graphical user interface (GUI) agents are expected not only to execute actions accurately but also to respond to user instructions with low latency. While existing research on GUI-agent security mainly focuses on manipulating action correctness, the security risks related to response efficiency remain largely unexplored.",
+    "selected_date": "2026-03-10"
+  },
+  {
     "id": "2603.05915v1",
     "title": "ThermoCAPTCHA: Privacy-Preserving Human Verification with Farm-Resistant Traceable Tokens",
     "summary": "CAPTCHAs remain a critical defense against automated abuse, yet modern systems suffer from well-known limitations in usability, accessibility, and resistance to increasingly capable bots and low-cost CAPTCHA farms. Behavioral and puzzle-based mechanisms often impose cognitive burdens, collect extensive interaction data, or permit outsourcing to human solvers. In this paper, we present ThermoCAPTCHA, a novel privacy-preserving human verification system that uses real-time thermal imaging to detect live human presence without requiring users to solve challenges. A lightweight YOLOv4-tiny model identifies human heat signatures from a single thermal capture, while cryptographically bound traceable tokens prevent forwarding attacks by CAPTCHA farm workers. Our prototype achieves 96.70% detection accuracy with a 73.60 ms verification latency on a low-powered server. Comprehensive security evaluation, including MITM manipulation, spoofing attempts, adversarial perturbations, and misuse scenarios, shows that ThermoCAPTCHA withstands threats that commonly defeat behavioral CAPTCHAs. A user study with 50 participants, including visually challenged users, demonstrates improved accuracy, faster completion times, and higher perceived usability compared to reCAPTCHA v2.",
@@ -563,23 +584,5 @@
     ],
     "ai_summary": "Federated Self-Supervised Learning (FSSL) integrates the privacy advantages of distributed training with the capability of self-supervised learning to leverage unlabeled data, showing strong potential across applications. However, recent studies have shown that FSSL is also vulnerable to backdoor attacks.",
     "selected_date": "2026-02-06"
-  },
-  {
-    "id": "2602.04431v1",
-    "title": "MaMa: A Game-Theoretic Approach for Designing Safe Agentic Systems",
-    "summary": "LLM-based multi-agent systems have demonstrated impressive capabilities, but they also introduce significant safety risks when individual agents fail or behave adversarially. In this work, we study the automated design of agentic systems that remain safe even when a subset of agents is compromised. We formalize this challenge as a Stackelberg security game between a system designer (the Meta-Agent) and a best-responding Meta-Adversary that selects and compromises a subset of agents to minimize safety. We propose Meta-Adversary-Meta-Agent (MaMa), a novel algorithm for approximately solving this game and automatically designing safe agentic systems. Our approach uses LLM-based adversarial search, where the Meta-Agent iteratively proposes system designs and receives feedback based on the strongest attacks discovered by the Meta-Adversary. Empirical evaluations across diverse environments show that systems designed with MaMa consistently defend against worst-case attacks while maintaining performance comparable to systems optimized solely for task success. Moreover, the resulting systems generalize to stronger adversaries, as well as ones with different attack objectives or underlying LLMs, demonstrating robust safety beyond the training setting.",
-    "published": "2026-02-04T11:07:49Z",
-    "link": "http://arxiv.org/abs/2602.04431v1",
-    "authors": [
-      "Jonathan N\u00f6ther",
-      "Adish Singla",
-      "Goran Radanovic"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.GT"
-    ],
-    "ai_summary": "LLM-based multi-agent systems have demonstrated impressive capabilities, but they also introduce significant safety risks when individual agents fail or behave adversarially. In this work, we study the automated design of agentic systems that remain safe even when a subset of agents is compromised.",
-    "selected_date": "2026-02-05"
   }
 ]
