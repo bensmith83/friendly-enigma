@@ -1,5 +1,23 @@
 [
   {
+    "id": "2603.09529v1",
+    "title": "RESBev: Making BEV Perception More Robust",
+    "summary": "Bird's-eye-view (BEV) perception has emerged as a cornerstone of autonomous driving systems, providing a structured, ego-centric representation critical for downstream planning and control. However, real-world deployment faces challenges from sensor degradation and adversarial attacks, which can cause severe perceptual anomalies and ultimately compromise the safety of autonomous driving systems. To address this, we propose a resilient and plug-and-play BEV perception method, RESBev, which can be easily applied to existing BEV perception methods to enhance their robustness to diverse disturbances. Specifically, we reframe perception robustness as a latent semantic prediction problem. A latent world model is constructed to extract spatiotemporal correlations across sequential BEV observations, thereby learning the underlying BEV state transitions to predict clean BEV features for reconstructing corrupted observations. The proposed framework operates at the semantic feature level of the Lift-Splat-Shoot pipeline, enabling recovery that generalizes across both natural disturbances and adversarial attacks without modifying the underlying backbone. Extensive experiments on the nuScenes dataset demonstrate that, with few-shot fine-tuning, RESBev significantly improves the robustness of existing BEV perception models against various external disturbances and adversarial attacks.",
+    "published": "2026-03-10T11:36:52Z",
+    "link": "http://arxiv.org/abs/2603.09529v1",
+    "authors": [
+      "Lifeng Zhuo",
+      "Kefan Jin",
+      "Zhe Liu",
+      "Hesheng Wang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Bird's-eye-view (BEV) perception has emerged as a cornerstone of autonomous driving systems, providing a structured, ego-centric representation critical for downstream planning and control. However, real-world deployment faces challenges from sensor degradation and adversarial attacks, which can cause severe perceptual anomalies and ultimately compromise the safety of autonomous driving systems.",
+    "selected_date": "2026-03-11"
+  },
+  {
     "id": "2603.08316v1",
     "title": "SlowBA: An efficiency backdoor attack towards VLM-based GUI agents",
     "summary": "Modern vision-language-model (VLM) based graphical user interface (GUI) agents are expected not only to execute actions accurately but also to respond to user instructions with low latency. While existing research on GUI-agent security mainly focuses on manipulating action correctness, the security risks related to response efficiency remain largely unexplored. In this paper, we introduce SlowBA, a novel backdoor attack that targets the responsiveness of VLM-based GUI agents. The key idea is to manipulate response latency by inducing excessively long reasoning chains under specific trigger patterns. To achieve this, we propose a two-stage reward-level backdoor injection (RBI) strategy that first aligns the long-response format and then learns trigger-aware activation through reinforcement learning. In addition, we design realistic pop-up windows as triggers that naturally appear in GUI environments, improving the stealthiness of the attack. Extensive experiments across multiple datasets and baselines demonstrate that SlowBA can significantly increase response length and latency while largely preserving task accuracy. The attack remains effective even with a small poisoning ratio and under several defense settings. These findings reveal a previously overlooked security vulnerability in GUI agents and highlight the need for defenses that consider both action correctness and response efficiency. Code can be found in https://github.com/tu-tuing/SlowBA.",
@@ -563,26 +581,5 @@
     ],
     "ai_summary": "Multimodal Large Language Models (MLLMs) have made remarkable progress in multimodal perception and reasoning by bridging vision and language. However, most existing MLLMs perform reasoning primarily with textual CoT, which limits their effectiveness on vision-intensive tasks.",
     "selected_date": "2026-02-07"
-  },
-  {
-    "id": "2602.05612v1",
-    "title": "ADCA: Attention-Driven Multi-Party Collusion Attack in Federated Self-Supervised Learning",
-    "summary": "Federated Self-Supervised Learning (FSSL) integrates the privacy advantages of distributed training with the capability of self-supervised learning to leverage unlabeled data, showing strong potential across applications. However, recent studies have shown that FSSL is also vulnerable to backdoor attacks. Existing attacks are limited by their trigger design, which typically employs a global, uniform trigger that is easily detected, gets diluted during aggregation, and lacks robustness in heterogeneous client environments. To address these challenges, we propose the Attention-Driven multi-party Collusion Attack (ADCA). During local pre-training, malicious clients decompose the global trigger to find optimal local patterns. Subsequently, these malicious clients collude to form a malicious coalition and establish a collaborative optimization mechanism within it. In this mechanism, each submits its model updates, and an attention mechanism dynamically aggregates them to explore the best cooperative strategy. The resulting aggregated parameters serve as the initial state for the next round of training within the coalition, thereby effectively mitigating the dilution of backdoor information by benign updates. Experiments on multiple FSSL scenarios and four datasets show that ADCA significantly outperforms existing methods in Attack Success Rate (ASR) and persistence, proving its effectiveness and robustness.",
-    "published": "2026-02-05T12:49:36Z",
-    "link": "http://arxiv.org/abs/2602.05612v1",
-    "authors": [
-      "Jiayao Wang",
-      "Yiping Zhang",
-      "Jiale Zhang",
-      "Wenliang Yuan",
-      "Qilin Wu",
-      "Junwu Zhu",
-      "Dongfang Zhao"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Federated Self-Supervised Learning (FSSL) integrates the privacy advantages of distributed training with the capability of self-supervised learning to leverage unlabeled data, showing strong potential across applications. However, recent studies have shown that FSSL is also vulnerable to backdoor attacks.",
-    "selected_date": "2026-02-06"
   }
 ]
