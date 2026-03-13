@@ -1,5 +1,27 @@
 [
   {
+    "id": "2603.11862v1",
+    "title": "You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents",
+    "summary": "High-privilege LLM agents that autonomously process external documentation are increasingly trusted to automate tasks by reading and executing project instructions, yet they are granted terminal access, filesystem control, and outbound network connectivity with minimal security oversight. We identify and systematically measure a fundamental vulnerability in this trust model, which we term the \\emph{Trusted Executor Dilemma}: agents execute documentation-embedded instructions, including adversarial ones, at high rates because they cannot distinguish malicious directives from legitimate setup guidance. This vulnerability is a structural consequence of the instruction-following design paradigm, not an implementation bug. To structure our measurement, we formalize a three-dimensional taxonomy covering linguistic disguise, structural obfuscation, and semantic abstraction, and construct \\textbf{ReadSecBench}, a benchmark of 500 real-world README files enabling reproducible evaluation. Experiments on the commercially deployed computer-use agent show end-to-end exfiltration success rates up to 85\\%, consistent across five programming languages and three injection positions. Cross-model evaluation on four LLM families in a simulation environment confirms that semantic compliance with injected instructions is consistent across model families. A 15-participant user study yields a 0\\% detection rate across all participants, and evaluation of 12 rule-based and 6 LLM-based defenses shows neither category achieves reliable detection without unacceptable false-positive rates. Together, these results quantify a persistent \\emph{Semantic-Safety Gap} between agents' functional compliance and their security awareness, establishing that documentation-embedded instruction injection is a persistent and currently unmitigated threat to high-privilege LLM agent deployments.",
+    "published": "2026-03-12T12:35:46Z",
+    "link": "http://arxiv.org/abs/2603.11862v1",
+    "authors": [
+      "Ching-Yu Kao",
+      "Xinfeng Li",
+      "Shenyu Dai",
+      "Tianze Qiu",
+      "Pengcheng Zhou",
+      "Eric Hanchen Jiang",
+      "Philip Sperl"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "High-privilege LLM agents that autonomously process external documentation are increasingly trusted to automate tasks by reading and executing project instructions, yet they are granted terminal access, filesystem control, and outbound network connectivity with minimal security oversight. We identify and systematically measure a fundamental vulnerability in this trust model, which we term the \\emph{Trusted Executor Dilemma}: agents execute documentation-embedded instructions, including adversarial ones, at high rates because they cannot distinguish malicious directives from legitimate setup guidance.",
+    "selected_date": "2026-03-13"
+  },
+  {
     "id": "2603.10323v1",
     "title": "The Orthogonal Vulnerabilities of Generative AI Watermarks: A Comparative Empirical Benchmark of Spatial and Latent Provenance",
     "summary": "As open-weights generative AI rapidly proliferates, the ability to synthesize hyper-realistic media has introduced profound challenges to digital trust. Automated disinformation and AI-generated imagery have made robust digital provenance a critical cybersecurity imperative. Currently, state-of-the-art invisible watermarks operate within one of two primary mathematical manifolds: the spatial domain (post-generation pixel embedding) or the latent domain (pre-generation frequency embedding). While existing literature frequently evaluates these models against isolated, classical distortions, there is a critical lack of rigorous, comparative benchmarking against modern generative AI editing tools. In this study, we empirically evaluate two leading representative paradigms, RivaGAN (Spatial) and Tree-Ring (Latent), utilizing an automated Attack Simulation Engine across 30 intensity intervals of geometric and generative perturbations. We formalize an \"Adversarial Evasion Region\" (AER) framework to measure cryptographic degradation against semantic visual retention (OpenCLIP > 70.0). Our statistical analysis ($n=100$ per interval, $MOE = \\pm 3.92\\%$) reveals that these domains possess mutually exclusive, mathematically orthogonal vulnerabilities. Spatial watermarks experience severe cryptographic degradation under algorithmic pixel-rewriting (exhibiting a 67.47% AER evasion rate under Img2Img translation), whereas latent watermarks exhibit profound fragility against geometric misalignment (yielding a 43.20% AER evasion rate under static cropping). By proving that single-domain watermarking is fundamentally insufficient against modern adversarial toolsets, this research exposes a systemic vulnerability in current digital provenance standards and establishes the foundational exigence for future multi-domain cryptographic architectures.",
@@ -558,23 +580,5 @@
     ],
     "ai_summary": "This project explores large language models (LLMs) for anomaly detection across heterogeneous log sources. Traditional intrusion detection systems suffer from high false positive rates, semantic blindness, and data scarcity, as logs are inherently sensitive, making clean datasets rare.",
     "selected_date": "2026-02-09"
-  },
-  {
-    "id": "2602.05833v1",
-    "title": "Synthesizing Realistic Test Data without Breaking Privacy",
-    "summary": "There is a need for synthetic training and test datasets that replicate statistical distributions of original datasets without compromising their confidentiality. A lot of research has been done in leveraging Generative Adversarial Networks (GANs) for synthetic data generation. However, the resulting models are either not accurate enough or are still vulnerable to membership inference attacks (MIA) or dataset reconstruction attacks since the original data has been leveraged in the training process. In this paper, we explore the feasibility of producing a synthetic test dataset with the same statistical properties as the original one, with only indirectly leveraging the original data in the generation process. The approach is inspired by GANs, with a generation step and a discrimination step. However, in our approach, we use a test generator (a fuzzer) to produce test data from an input specification, preserving constraints set by the original data; a discriminator model determines how close we are to the original data. By evolving samples and determining \"good samples\" with the discriminator, we can generate privacy-preserving data that follows the same statistical distributions are the original dataset, leading to a similar utility as the original data. We evaluated our approach on four datasets that have been used to evaluate the state-of-the-art techniques. Our experiments highlight the potential of our approach towards generating synthetic datasets that have high utility while preserving privacy.",
-    "published": "2026-02-05T16:22:01Z",
-    "link": "http://arxiv.org/abs/2602.05833v1",
-    "authors": [
-      "Laura Plein",
-      "Alexi Turcotte",
-      "Arina Hallemans",
-      "Andreas Zeller"
-    ],
-    "categories": [
-      "cs.LG"
-    ],
-    "ai_summary": "There is a need for synthetic training and test datasets that replicate statistical distributions of original datasets without compromising their confidentiality. A lot of research has been done in leveraging Generative Adversarial Networks (GANs) for synthetic data generation.",
-    "selected_date": "2026-02-08"
   }
 ]
