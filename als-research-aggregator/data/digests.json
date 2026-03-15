@@ -1,5 +1,1211 @@
 [
   {
+    "date": "2026-03-15",
+    "week_of": "March 15, 2026",
+    "digest_number": 12,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Jersey votes for assisted dying. Is the UK next?",
+          "description": "Island\u2019s level-headed debate contrasts with fractious UK. Campaigners for change feel relief but opponents fear a \u2018slippery slope\u2019",
+          "content": "Eight years ago, Jersey resident Lorna Pirozzolo felt a weird itch on her breast. When she scratched it she noticed a small lump. Pirozzolo was diagnosed with breast cancer. By 2019, it had reached s\u2026 [+8126 chars]",
+          "url": "https://www.irishtimes.com/world/uk/2026/03/14/jersey-votes-for-assisted-dying-is-the-uk-next/",
+          "source_name": "The Irish Times",
+          "source_type": "newsapi",
+          "published_at": "2026-03-14T08:00:00Z",
+          "author": "Mark Paul",
+          "image_url": "https://www.irishtimes.com/resizer/v2/Y7V2WVMJSVD2VJZUBKME6WIMRM.jpg?smart=true&auth=a76f75677118418588dc92e84ac5cdd1869a342f659024f414e0aa64c309037a&width=1200&height=630",
+          "is_local_nj": false,
+          "article_id": "8e69d4bb7024",
+          "summary": "Island\u2019s level-headed debate contrasts with fractious UK. Campaigners for change feel relief but opponents fear a \u2018slippery slope\u2019",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "USA greifen Irans \u00d6l-Exportinsel Kharg an",
+          "description": null,
+          "content": "US-Streitkr\u00e4fte haben nach Angaben von Pr\u00e4sident Donald Trump die milit\u00e4rischen Anlagen auf der f\u00fcr Irans \u00d6lindustrie wichtigen Insel Kharg zerst\u00f6rt. Auf eine Vernichtung der \u00d6l-Infrastruktur habe er\u2026 [+1616 chars]",
+          "url": "https://orf.at/stories/3423778/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-03-14T02:58:36Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "eebc9275a94a",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Radar Reveals Everything Eric Dane Said About His ALS Battle Before His Tragic Death at 53 \u2014 'I Was Heartbroken'",
+          "description": "Eric Dane died on February 19, about 10 months after announcing his ALS diagnosis.",
+          "content": "Two months after going public with his ALS battle, Dane appeared in a sit-down interview with Good Morning America aired on June 16, 2025.\r\nIn the interview, he confirmed he began experiencing \"some \u2026 [+1238 chars]",
+          "url": "https://okmagazine.com/p/eric-dane-als-battle-everything-he-said-about-his-health-condition/",
+          "source_name": "OK!",
+          "source_type": "newsapi",
+          "published_at": "2026-03-14T00:30:00Z",
+          "author": "Angilene Gacute",
+          "image_url": "https://media.radaronline.com/brand-img/2EeDBJLj5/1200x628/eric-dane-als-battle-everything-he-said-about-his-health-condition-1773360701514.jpg",
+          "is_local_nj": false,
+          "article_id": "30430497045a",
+          "summary": "Eric Dane died on February 19, about 10 months after announcing his ALS diagnosis.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane memoir My Book of Days to be published after his death",
+              "url": "https://www.nzherald.co.nz/entertainment/eric-dane-memoir-my-book-of-days-to-be-published-after-his-death/TYXK3BMYYJAZBII2JYVEGV7EOE/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Eric Dane\u2019s Memoir, Completed Shortly Before His Death, Due This Fall",
+              "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-my-book-of-days-memoir-1235525716/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Grey\u2019s Anatomy Pays Tribute to Eric Dane in Wake of Tragic Death",
+              "url": "http://www.thehollywoodgossip.com/2026/02/greys-anatomy-pays-tribute-to-eric-dane-in-wake-of-tragic-death/",
+              "digest_date": "2026-03-01"
+            }
+          ]
+        },
+        {
+          "title": "Booting up issues",
+          "description": "Booting up issues - posted in Windows Crashes and Blue Screen of Death (BSOD) Help and Support: Ive been noticing issues with my custom built PC from my friend recently. My pc is around 3-4 years old. It got stuck on preparing automatic repair one day. Then I\u2026",
+          "content": "I've been noticing issues with my custom built PC from my friend recently. My pc is around 3-4 years old. It got stuck on preparing automatic repair one day. Then I pressed the power button to restar\u2026 [+1635 chars]",
+          "url": "https://www.bleepingcomputer.com/forums/t/814896/booting-up-issues/",
+          "source_name": "BleepingComputer",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T21:24:12Z",
+          "author": "",
+          "image_url": "https://www.bleepingcomputer.com/forums/public/style_images/master/meta_image.png",
+          "is_local_nj": false,
+          "article_id": "bbe1385170e8",
+          "summary": "Booting up issues - posted in Windows Crashes and Blue Screen of Death (BSOD) Help and Support: Ive been noticing issues with my custom built PC from my friend recently. My pc is around 3-4 years old.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Scientists discover genetics behind leaky brain blood vessels in Rett syndrome",
+          "description": "MIT neuroscientists discovered that either of two genetic mutations that cause Rett syndrome undermine the structural integrity of developing brain blood vessels. By showing the problem derives from overexpression of a microRNA, the study points to a potentia\u2026",
+          "content": "MIT researchers have discovered that two common genetic mutations that cause Rett syndrome each set off a molecular chain of events that compromises the structural integrity of developing brain blood\u2026 [+6156 chars]",
+          "url": "https://news.mit.edu/2026/scientists-discover-genetics-leaky-brain-blood-vessels-rett-syndrome-0313",
+          "source_name": "Mit.edu",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T19:15:00Z",
+          "author": "David Orenstein | The Picower Institute for Learning and Memory",
+          "image_url": "https://news.mit.edu/sites/default/files/images/202602/Tatsuya-2A-RTT-00.jpg",
+          "is_local_nj": false,
+          "article_id": "e8a5663d4fa0",
+          "summary": "MIT neuroscientists discovered that either of two genetic mutations that cause Rett syndrome undermine the structural integrity of developing brain blood vessels. By showing the problem derives from o",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Bioethics in Latin America",
+          "description": "[New Entry by Gustavo Ortiz Mill\u00e1n, Florencia Luna, and Eduardo Rivera L\u00f3pez on March 13, 2026.]\n \"Latin American bioethics\" is an ambiguous label. It can refer to bioethics as practiced in Latin American countries or by Latin American bioethicists (even if t\u2026",
+          "content": "\u201cLatin American bioethics\u201d is an ambiguous label. It can\r\nrefer to bioethics as practiced in Latin American countries or by\r\nLatin American bioethicists (even if they do not reside in the\r\nregion), t\u2026 [+85366 chars]",
+          "url": "https://plato.stanford.edu/entries/bioethics-latin-america/",
+          "source_name": "Stanford.edu",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T17:39:55Z",
+          "author": "Gustavo Ortiz Mill\u00e1n, Florencia Luna, and Eduardo Rivera L\u00f3pez",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "cb824f263494",
+          "summary": "[New Entry by Gustavo Ortiz Mill\u00e1n, Florencia Luna, and Eduardo Rivera L\u00f3pez on March 13, 2026.]\n \"Latin American bioethics\" is an ambiguous label. It can refer to bioethics as practiced in Latin Amer",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Kabel, Walther: Harald Harst (312) - Der gr\u00fcne Vampir. V1.0 [German] 13.03.2026 (Mystery and Crime, ePub)",
+          "description": "Mystery and Crime Kabel, Walther: Harald Harst (312) - Der gr\u00fcne Vampir. V1.0 [German] 13.03.2026 ePub Books",
+          "content": "Der gr\u00fcne VampirDer Ausl\u00e4nder, der Berlin besucht, sieht sich auch die Tauentzienstra\u00dfe an, die als Zugang zum Kurf\u00fcrstendamm und zum Zoologischen Garten ebenso ber\u00fchmt ist wie als Avenue der elegant\u2026 [+2195 chars]",
+          "url": "https://www.mobileread.com/forums/showthread.php?t=372506",
+          "source_name": "Mobileread.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T16:22:32Z",
+          "author": "Zentaurus",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "4a0f6758f569",
+          "summary": "Mystery and Crime Kabel, Walther: Harald Harst (312) - Der gr\u00fcne Vampir. V1.0 [German] 13.03.2026 ePub Books",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kabel, Walther: Harald Harst (305) - Der gefleckte Tod. V1.0 [German] 28.01.2026 (Mystery and Crime, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=371800",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "Kabel, Walther: Harald Harst (311) - Todesbr\u00fccke v Siwarak. V1.0 [German] 13.03.2026 (Mystery and Crime, ePub)",
+          "description": "Mystery and Crime Kabel, Walther: Harald Harst (311) - Todesbr\u00fccke v Siwarak. V1.0 [German] 13.03.2026 ePub Books",
+          "content": "Die Todesbr\u00fccke von SiwarakHarst las an jenem sch\u00f6nen Maimorgen nach dem Fr\u00fchst\u00fcck gerade in dem ber\u00fcchtigten Roman des \u00e4u\u00dferst gesch\u00e4ftst\u00fcchtigen holl\u00e4ndischen Schw\u00e4tzers Maurice van Reijermans die \u2026 [+2367 chars]",
+          "url": "https://www.mobileread.com/forums/showthread.php?t=372505",
+          "source_name": "Mobileread.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T16:20:03Z",
+          "author": "Zentaurus",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "20ee209ecc39",
+          "summary": "Mystery and Crime Kabel, Walther: Harald Harst (311) - Todesbr\u00fccke v Siwarak. V1.0 [German] 13.03.2026 ePub Books",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kabel, Walther: Harald Harst (305) - Der gefleckte Tod. V1.0 [German] 28.01.2026 (Mystery and Crime, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=371800",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "German phrase of the day: Der wunde Punkt",
+          "description": "Some topics are best handled with care. This handy German phrase lets you acknowledge sensitive subjects, signal discomfort and steer conversations away from places better left untouched.",
+          "content": "Some topics are best handled with care. This handy German phrase lets you acknowledge sensitive subjects, signal discomfort and steer conversations away from places better left untouched.\r\n Eagleeyed\u2026 [+2310 chars]",
+          "url": "https://www.thelocal.de/20260313/german-phrase-of-the-day-der-wunde-punkt",
+          "source_name": "The Local Germany",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T16:02:08Z",
+          "author": "Tom Pugh",
+          "image_url": "https://assets.thelocal.com/cdn-cgi/rs:fit:1200/quality:75/plain/https://apiwp.thelocal.com/wp-content/uploads/2026/03/watermarks-logo-word-of-the-day-blank-picture30.jpg@webp",
+          "is_local_nj": false,
+          "article_id": "31fe1ead9dff",
+          "summary": "Some topics are best handled with care. This handy German phrase lets you acknowledge sensitive subjects, signal discomfort and steer conversations away from places better left untouched.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The Weekly Injection: New Releasers From LAMB OF GOD, WITCHCRAFT & More Out This Week 3/13",
+          "description": "Plus releases from Steve Blanco, Nili Brosh, Fabienne Erni, and Monstrosity\nThe post The Weekly Injection: New Releasers From LAMB OF GOD, WITCHCRAFT & More Out This Week 3/13 appeared first on Metal Injection.",
+          "content": "This\u00a0week's\u00a0new heavy\u00a0metal\u00a0releases include\u00a0haunted blues riffs, evil piano madness, lots of shredding, and more! To the metals\u2026\r\nGenre: Avant-garde piano composition Origin: Nashville, TennesseeLab\u2026 [+5608 chars]",
+          "url": "https://metalinjection.net/upcoming-releases/heavy-new-releases/the-weekly-injeciton-new-releasers-from-lamb-of-god-witchcraft-more-out-this-week-3-13",
+          "source_name": "Metal Injection.net",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T13:19:27Z",
+          "author": "Daniel Cordova",
+          "image_url": "https://cdn-p.smehost.net/sites/7f9737f2506941499994d771a29ad47a/wp-content/uploads/2026/01/the-weekly-injection-photo.jpg",
+          "is_local_nj": false,
+          "article_id": "7cd659139f13",
+          "summary": "Plus releases from Steve Blanco, Nili Brosh, Fabienne Erni, and Monstrosity\nThe post The Weekly Injection: New Releasers From LAMB OF GOD, WITCHCRAFT & More Out This Week 3/13 appeared first on Metal ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Frontierland\u2019s Last Stand: New Construction Walls and \u201cTwin Closures\u201d Signal the End of the Old West",
+          "description": "For over fifty years, Frontierland has been the soulful, dusty heart of Magic Kingdom\u2014a place where the scent of smoked turkey legs and the rhythmic splashing of the Liberty Belle created a sanctuary of Americana. But as of March 2026, the \u201cpioneer spirit\u201d is\u2026",
+          "content": "For over fifty years, Frontierland has been the soulful, dusty heart of Magic Kingdoma place where the scent of smoked turkey legs and the rhythmic splashing of the Liberty Belle created a sanctuary \u2026 [+5377 chars]",
+          "url": "https://insidethemagic.net/2026/03/more-walls-in-frontierland-confirm-closures-as-piston-peak-takes-shape-at-magic-kingdom-rl1/",
+          "source_name": "Inside the Magic",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T11:05:39Z",
+          "author": "Rick Lye",
+          "image_url": "https://insidethemagic.net/wp-content/uploads/2025/03/Copy-of-Untitled-Design-2-1.jpg",
+          "is_local_nj": false,
+          "article_id": "94afca7bcd96",
+          "summary": "For over fifty years, Frontierland has been the soulful, dusty heart of Magic Kingdom\u2014a place where the scent of smoked turkey legs and the rhythmic splashing of the Liberty Belle created a sanctuary ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "AC Immune Reports Full Year 2025 Financial Results and Provides a Corporate Update",
+          "description": "AC Immune Reports Full Year 2025 Financial Results and Provides a Corporate Update  Phase 2 interim results suggest treatment with active immunotherapy...",
+          "content": "AC Immune Reports Full Year 2025 Financial Results and Provides a Corporate Update\r\n<ul><li>Phase 2 interim results suggest treatment with active immunotherapy ACI-7104 may slow the progression of Pa\u2026 [+21173 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/13/3255371/0/en/AC-Immune-Reports-Full-Year-2025-Financial-Results-and-Provides-a-Corporate-Update.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T11:00:00Z",
+          "author": "AC Immune SA",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/0065cdfd-b9fc-4994-8aca-731c1d031b51",
+          "is_local_nj": false,
+          "article_id": "2e70d62cb50a",
+          "summary": "AC Immune Reports Full Year 2025 Financial Results and Provides a Corporate Update  Phase 2 interim results suggest treatment with active immunotherapy...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "ORYZON Reports Financial Results and Corporate Update for Quarter Ended December 31st, 2025",
+              "url": "https://www.globenewswire.com/news-release/2026/02/27/3246699/0/en/ORYZON-Reports-Financial-Results-and-Corporate-Update-for-Quarter-Ended-December-31st-2025.html",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "Mineros S.A. Reports Significant 2025 Drill Results in Nicaragua; Confirms High-Grade Discovery at a New Target and Potential Expansion of the District",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/mineros-s-a-reports-significant-2025-drill-results-in-nicaragua-confirms-high-grade-discovery-at-a-new-target-and-potential-expansion-of-the-district",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "Altius Provides 4th Quarter 2025 Project Generation Update",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-provides-4th-quarter-2025-project-generation-update",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "\u201cThe Wild Party\u201d Returns",
+          "description": "Also: FKA twigs, \u201cMother Russia,\u201d Caravaggio, and more.",
+          "content": "A shakedown opens Lauren Yees Mother Russia, directed by Teddy Bergman. Evgeny (Adam Chanler-Berat), deputized by his fixer father, arrives at a St. Petersburg shop to extract money from its propriet\u2026 [+4080 chars]",
+          "url": "https://www.newyorker.com/culture/goings-on/the-wild-party-returns",
+          "source_name": "The New Yorker",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T10:00:00Z",
+          "author": "Dan Stahl, Brian Seibert, Sheldon Pearce, Rhoda Feng, Hilton Als, Jane Bua, Rachel Syme",
+          "image_url": "https://media.newyorker.com/photos/69b05615ef648627993a8e6c/16:9/w_1280,c_limit/Nyt-Wild-Party-3.png",
+          "is_local_nj": false,
+          "article_id": "6edaa67a372f",
+          "summary": "Also: FKA twigs, \u201cMother Russia,\u201d Caravaggio, and more.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sydney Sweeney krijgt hoofdrol in verfilming van \u2018The Custom of the Country\u2019",
+          "description": "In het kort Sydney Sweeney speelt de hoofdrol in een verfilming van Edith Whartons roman The Custom of the Country, met een sterrencast. Naast Sweeney spelen ook Louis Garrel, Matthew Goode, Rose Leslie, Martha Plimpton, Irene Jacob, Hugh Dancy, Ian Hart, Jam\u2026",
+          "content": "In het kort\r\n<ul><li>Sydney Sweeney speelt Undine Spragg, een vastberaden jonge vrouw die zich in het begin van de 20e eeuw een weg baant door de elite van New York City.</li><li>Josie Rourke regisse\u2026 [+1902 chars]",
+          "url": "https://newsmonkey.be/sydney-sweeney-krijgt-hoofdrol-in-verfilming-van-the-custom-of-the-country/",
+          "source_name": "Newsmonkey.be",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T09:31:00Z",
+          "author": "Redactie",
+          "image_url": "https://media.newsmonkey.be/2026/01/Sydney-Sweeney-2025.jpg",
+          "is_local_nj": false,
+          "article_id": "52087a36117b",
+          "summary": "In het kort Sydney Sweeney speelt de hoofdrol in een verfilming van Edith Whartons roman The Custom of the Country, met een sterrencast. Naast Sweeney spelen ook Louis Garrel, Matthew Goode, Rose Lesl",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Mehrfach verschoben - Nasa will Anfang April endlich zum Mond",
+          "description": "Nasa peilt Start der Mondexpedition \u201eArtemis 2\u201c zum 1. April an; Rollout ab 19. M\u00e4rz in Cape Canaveral.",
+          "content": "TTS-Player \u00fcberspringenArtikel weiterlesenCape Canaveral Monatelang musste die Nasa einen Starttermin nach dem anderen absagen. Technische Probleme plagten die bemannte Mondmission Artemis 2. Doch je\u2026 [+1159 chars]",
+          "url": "https://www.bild.de/leben-wissen/wissenschaft/artemis-2-kurz-vor-start-nasa-nennt-neues-datum-fuer-bemannten-flug-zum-mond-69b3cddc17184da7cffd8300",
+          "source_name": "Bild",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T09:06:11Z",
+          "author": "BILD",
+          "image_url": "https://images.bild.de/69b3cddc17184da7cffd8300/99452cf0e2145522515acda984203426,683faf76?w=1280",
+          "is_local_nj": false,
+          "article_id": "12cf7d6055f0",
+          "summary": "Nasa peilt Start der Mondexpedition \u201eArtemis 2\u201c zum 1. April an; Rollout ab 19. M\u00e4rz in Cape Canaveral.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "eGenix.com: PyDDF Python Spring Sprint 2026",
+          "description": "The Python Meeting D&uuml;sseldorf team is organizing a Python sprint on March 21/22 in D\u00fcsseldorf, Germany.",
+          "content": "The following text is in German, since we're announcing a Python sprint in D\u00fcsseldorf, Germany.\r\nAnk\u00fcndigung\r\nPython Meeting Spring Sprint 2026 inD\u00fcsseldorf\r\nSamstag, 21.03.2026, 10:00-18:00 UhrSonnt\u2026 [+1560 chars]",
+          "url": "https://www.egenix.com/company/news/PyDDF-Spring-Sprint-2026",
+          "source_name": "Egenix.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T09:00:00Z",
+          "author": null,
+          "image_url": "https://www.egenix.com/images/Python-Meeting-Logo.png",
+          "is_local_nj": false,
+          "article_id": "7c866243226f",
+          "summary": "The Python Meeting D&uuml;sseldorf team is organizing a Python sprint on March 21/22 in D\u00fcsseldorf, Germany.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u3010\u65b0\u66f2\u30ea\u30ea\u30fc\u30b9\u3011EYE VDJ MASA\uff08\u6b66\u85e4\u5c06\u80e4\uff09\u3001\u8996\u7dda\u5165\u529b\u3067\u4f5c\u66f2\u3057\u305f\u65b0\u66f2\u300eSPACE DANCE\u300f\u3092\u672c\u65e5\u914d\u4fe1\u958b\u59cb",
+          "description": "[\u4e00\u822c\u793e\u56e3\u6cd5\u4ebaWITH ALS]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/45877/18/45877-18-3af3e1877aba2c74c2ced0f6f52eb207-3900x3900.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...",
+          "content": "WITH ALS2026620EXALSMOVE FES. 2026EYE VDJ MASASPACE DANCE311\r\n10andropSOMELINEZFLY DANCERSAIMI SEKIGUCHIMDANCERS NTTKMDALS TALK SHOW\r\nSPACE DANCEALS\r\n10MOVE FES. 2026THANKS \u00d7 RESPECT. 1010\r\n620MOVE F\u2026 [+1005 chars]",
+          "url": "https://prtimes.jp/main/html/rd/p/000000018.000045877.html",
+          "source_name": "Prtimes.jp",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T04:40:25Z",
+          "author": null,
+          "image_url": "https://prcdn.freetls.fastly.net/release_image/45877/18/45877-18-3af3e1877aba2c74c2ced0f6f52eb207-3900x3900.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+          "is_local_nj": false,
+          "article_id": "afc8dd8afd18",
+          "summary": "[\u4e00\u822c\u793e\u56e3\u6cd5\u4ebaWITH ALS]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/45877/18/45877-18-3af3e1877aba2c74c2ced0f6f52eb207-3900x3900.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Shared genetic and neuroimmune architecture links type 1 diabetes with neurocognitive traits",
+          "description": "Links between type 1 diabetes and neurocognitive traits remain unclear. Here, the authors integrate genetic and single\u2011cell epigenomic data to show brain\u2011cell, especially microglial, involvement and identify shared genetic mechanisms connecting diabetes with \u2026",
+          "content": "<li>Gregory, G.A. et al. Global incidence, prevalence, and mortality of type 1 diabetes in 2021 with projection to 2040: a modelling study. Lancet Diabetes Endocrinol. https://doi.org/10.1016/s2213-8\u2026 [+14541 chars]",
+          "url": "https://www.nature.com/articles/s41467-026-70694-8",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T00:00:00Z",
+          "author": "Priscilla Saarah, Zehra A. Syeda, Ziang Xu, Yikai Dong, Habei Jiang, Michelle Shanguyhia, Sourav Roy, Biqing Zhu, Le Zhang, Andrew T. Dewan, Samira Asgari, David A. Alagpulinsa",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "5f590d46d204",
+          "summary": "Links between type 1 diabetes and neurocognitive traits remain unclear. Here, the authors integrate genetic and single\u2011cell epigenomic data to show brain\u2011cell, especially microglial, involvement and i",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "An SP110\u2013SP100 axis is a critical regulator of promyelocytic leukaemia body dynamics and mitotic fidelity",
+          "description": "Aird et al. report that promyelocytic leukaemia (PML)-localized speckled protein 110 (SP110) controls SP100 oligomerization, which then regulates the mitotic dissolution of nuclear PML bodies.",
+          "content": "<li>Paludan, S. R., Pradeu, T., Masters, S. L. &amp; Mogensen, T. H. Constitutive immune mechanisms: mediators of host defence and immune regulation. Nat. Rev. Immunol.21, 137150 (2021).\r\nArticle\u00a0\r\n \u2026 [+16923 chars]",
+          "url": "https://www.nature.com/articles/s41556-026-01916-w",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-13T00:00:00Z",
+          "author": "Eric J. Aird, Julius Rabl, Tabea Knuesel, Kevin Groen, Samah W. Awwad, Boris Korablev, Lynn Scherpe, Waleed Al-Herz, Robin Hupfer, Mike Recher, Stephen P. Jackson, Benjamin G. Hale, Jacob E. Corn",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41556-026-01916-w/MediaObjects/41556_2026_1916_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "794e39bc4354",
+          "summary": "Aird et al. report that promyelocytic leukaemia (PML)-localized speckled protein 110 (SP110) controls SP100 oligomerization, which then regulates the mitotic dissolution of nuclear PML bodies.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sydney Sweeney vs. Zendaya Feud Rumors Heat Up Amid \u2018Euphoria\u2019 Press Tour",
+          "description": "Reading Time: 3 minutesWe have a new development in the alleged Sydney Sweeney-Zendaya feud.\nSydney Sweeney vs. Zendaya Feud Rumors Heat Up Amid \u2018Euphoria\u2019 Press Tour was originally published on The Hollywood Gossip.",
+          "content": "Reading Time: 3minutesIs there any truth to the rumor that Sydney Sweeney and Zendaya are feuding?\r\nWhat initially seemed like a wild internet rumor is looking more and more plausible amid the media \u2026 [+3064 chars]",
+          "url": "http://www.thehollywoodgossip.com/2026/03/sydney-sweeney-vs-zendaya-feud-rumors-heat-up-amid-euphoria-press-tour/",
+          "source_name": "The Hollywood Gossip",
+          "source_type": "newsapi",
+          "published_at": "2026-03-12T21:30:30Z",
+          "author": "Tyler Johnson",
+          "image_url": "https://cdn.thehollywoodgossip.com/uploads/2026/03/GettyImages-1148078925-scaled.jpg",
+          "is_local_nj": false,
+          "article_id": "1ac955e2bd0b",
+          "summary": "Reading Time: 3 minutesWe have a new development in the alleged Sydney Sweeney-Zendaya feud.\nSydney Sweeney vs. Zendaya Feud Rumors Heat Up Amid \u2018Euphoria\u2019 Press Tour was originally published on The H",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane's Widow Rebecca Gayheart Recalls Heartbreaking Final Conversation With ALS-Stricken Star Who Secretly Linked Up with AI Firm to Restore Voice",
+          "description": "Eric Dane's wife Rebecca Gayheart has recalled her heartbreaking last days with the 'Grey's Anatomy' star before his death in February.",
+          "content": "She toldVariety that Dane, in his last weeks, was involved with a project by the AI company ElevenLabs that was designed to restore his voice.\r\nGayheart said he pursued the experimental technology no\u2026 [+548 chars]",
+          "url": "https://radaronline.com/p/eric-dane-widow-rebecca-gayheart-recalls-final-conversation-with-star-ai/",
+          "source_name": "Radaronline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-12T20:24:10Z",
+          "author": "Mike Boyce",
+          "image_url": "https://media.radaronline.com/brand-img/vOeU1oVDm/1200x628/2-1773340657496.jpg",
+          "is_local_nj": false,
+          "article_id": "782abb801cbb",
+          "summary": "Eric Dane's wife Rebecca Gayheart has recalled her heartbreaking last days with the 'Grey's Anatomy' star before his death in February.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Grey's Anatomy Star Eric Dane's Cause Of Death Revealed",
+              "url": "https://www.tvline.com/2115759/greys-anatomy-star-eric-dane-cause-of-death/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Celebrates Daughter\u2019s Birthday Days After Eric Dane's Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-marks-billies-b-day-after-eric-dane-death/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Recalls 'Emotional' Moment with Eric Dane Before His Death",
+          "description": "Weeks after Eric Dane died from ALS, his wife Rebecca Gayheart is opening up about his final days.\n In an interview with Variety, Rebecca revealed that Eric was able to communicate with his close friends and family with the help of AI firm ElevenLabs, which r\u2026",
+          "content": "Weeks after Eric Dane died from ALS, his wife Rebecca Gayheart is opening up about his final days.\n In an interview with Variety, Rebecca revealed that Eric was able to communicate with his close fri\u2026 [+1878 chars]",
+          "url": "https://extratv.com/2026/03/12/rebecca-gayheart-recalls-emotional-moment-with-eric-dane-before-his-death/",
+          "source_name": "Extra",
+          "source_type": "newsapi",
+          "published_at": "2026-03-12T19:09:01Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "81c241b67381",
+          "summary": "Weeks after Eric Dane died from ALS, his wife Rebecca Gayheart is opening up about his final days.\n In an interview with Variety, Rebecca revealed that Eric was able to communicate with his close frie",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane memoir My Book of Days to be published after his death",
+              "url": "https://www.nzherald.co.nz/entertainment/eric-dane-memoir-my-book-of-days-to-be-published-after-his-death/TYXK3BMYYJAZBII2JYVEGV7EOE/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Eric Dane\u2019s Memoir, Completed Shortly Before His Death, Due This Fall",
+              "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-my-book-of-days-memoir-1235525716/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Hard Images, Hard Truths: A Lesson in Visual Responsibility",
+          "description": "Angela Reichers discusses how the photographs in \"Without Sanctuary\" show how images can both document truth and reinforce violence, reminding designers that visual media carries ethical responsibility\u2014especially in a time when manipulation, propaganda, and A\u2026",
+          "content": "Editors\u2019 Note: Images are never neutralthey carry cultural, political, and historical power that can shape how people understand reality. The following discussion of \u201cWithout Sanctuary: Lynching Phot\u2026 [+9153 chars]",
+          "url": "https://www.printmag.com/culturally-related-design/hard-images-hard-truths-a-lesson-in-visual-responsibility/",
+          "source_name": "Printmag.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-12T14:38:15Z",
+          "author": "Angela Riechers",
+          "image_url": "https://www.printmag.com/wp-content/uploads/2026/03/Without_Sanctuary-251112-0406-2-2-1.png",
+          "is_local_nj": false,
+          "article_id": "008a7d8e4bbf",
+          "summary": "Angela Reichers discusses how the photographs in \"Without Sanctuary\" show how images can both document truth and reinforce violence, reminding designers that visual media carries ethical responsibilit",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Translocation of bacteria from the gut to the brain in mice",
+          "description": "Recent studies link gut dysbiosis to neurological disease, but the underlying mechanisms remain unclear. This study shows that a high-fat diet increases gut permeability and enables bacterial translocation from the gut to the brain via the vagus nerve in mice.",
+          "content": "Citation: Thapa M, Kumari A, Chin C-Y, Choby JE, Akbari E, Bogati B, et al. (2026) Translocation of bacteria from the gut to the brain in mice. PLoS Biol 24(3):\r\n e3003652.\r\nhttps://doi.org/10.1371/j\u2026 [+91966 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003652",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-12T14:00:00Z",
+          "author": "Manoj Thapa, Anuradha Kumari, Chui-Yoke Chin, Jacob E. Choby, Elahe Akbari, Bikash Bogati, Fengzhi Jin, Elise Furr, Daniel M. Chopyk, Nitya Koduri, Andrew Pahnke, Theodore L. Burns, Elizabeth J. Elrod, Eileen M. Burd, David S. Weiss, Arash Grakoui",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003652.g004&size=inline",
+          "is_local_nj": false,
+          "article_id": "ed61cf05a1c2",
+          "summary": "Recent studies link gut dysbiosis to neurological disease, but the underlying mechanisms remain unclear. This study shows that a high-fat diet increases gut permeability and enables bacterial transloc",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Quantify unmet medical need across the disease landscape \u2013 A large language model-based methodology",
+          "description": "Elliott W Sharp and colleagues develop Large Language Model-Based Methodology to quantify unmet needs among human diseases considering factors related to patient suffering, standard of care, and accessibility of care.",
+          "content": "Citation: Sharp EW, Fragola N, Blewitt C, Goddeeris M, Lancashire L, Hempstead C, et al. (2026) Quantify unmet medical need across the disease landscape A large language model-based methodology. PLoS\u2026 [+38150 chars]",
+          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004798",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-12T14:00:00Z",
+          "author": "Elliott W. Sharp, Nicholas Fragola, Charlotte Blewitt, Matthew Goddeeris, Lee Lancashire, Charlie Hempstead, David C. Fajgenbaum",
+          "image_url": "https://journals.plos.org/plosmedicine/article/figure/image?id=10.1371/journal.pmed.1004798.g003&size=inline",
+          "is_local_nj": false,
+          "article_id": "dbb02e9b7ece",
+          "summary": "Elliott W Sharp and colleagues develop Large Language Model-Based Methodology to quantify unmet needs among human diseases considering factors related to patient suffering, standard of care, and acces",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "EXCLUSIVE: Eric Dane's Noble Battle \u2014 How Tragic Actor Spent Final Days Dedicated to Family, Friends and Raising ALS Awareness",
+          "description": "Tragic Eric Dane's noble battle showed how he spent his days raising ALS awareness before his death.",
+          "content": "The Euphoria dad was a real-life father to Billie, 15, and Georgia, 14, whose mom is actress Rebecca Gayheart, 54. \r\nThe doting parents, who wed in 2004, separated in 2017, and the following year, th\u2026 [+322 chars]",
+          "url": "https://radaronline.com/p/eric-dane-dead-noble-battle-als-awareness-family-friends/",
+          "source_name": "Radaronline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-12T10:00:00Z",
+          "author": "Aaron Johnson",
+          "image_url": "https://media.radaronline.com/brand-img/_P7crQBe4/1200x628/eric-dane-noble-battle-als-awareness-family-friends-1773124820619.jpg",
+          "is_local_nj": false,
+          "article_id": "9dfe61c54199",
+          "summary": "Tragic Eric Dane's noble battle showed how he spent his days raising ALS awareness before his death.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart Celebrates Daughter\u2019s Birthday Days After Eric Dane's Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-marks-billies-b-day-after-eric-dane-death/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Why is Eric Dane's final interview airing? #entertainment",
+              "url": "https://alltoc.com/entertainment/why-is-eric-dane-s-final-interview-airing",
+              "digest_date": "2026-02-22"
+            },
+            {
+              "title": "Actor Eric Dane's\u00a0unwavering advocacy for ALS was the\u00a0most powerful role of his career",
+              "url": "https://6abc.com/post/actor-eric-dane-unwavering-advocacy-als-career-tributes/18627286/",
+              "digest_date": "2026-02-22"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voices - NPR",
+          "description": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voicesNPR Rebecca Gayheart on Eric Dane and the AI Voice Restoration Projectvariety.com Rebecca Gayheart Reveals 'Powerful Moment' with Eric Dane Shortly Before His DeathPeople.com\u2026",
+          "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way.",
+          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=180957210",
+          "source_name": "Slashdot.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-12T06:12:56Z",
+          "author": "feedfeeder",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "34bbae58cc38",
+          "summary": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voicesNPR Rebecca Gayheart on Eric Dane and the AI Voice Restoration Projectvariety.com Rebecca Gayheart Reveals 'Powerfu",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Celebrates Daughter\u2019s Birthday Days After Eric Dane's Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-marks-billies-b-day-after-eric-dane-death/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Celebrates Daughter's Birthday After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/03/rebecca-gayheart-celebrates-daughter-billie-birthday-eric-dane-death/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Says Family Is in \u2018Shock\u2019 Over Husband Eric Dane Death",
+          "description": "Rebecca Gayheart has revealed that her family is in a \u201cstate of shock\u201d following her husband Eric Dane\u2019s death at age 53 following a battle with ALS. \u201cI just want to thank everybody for being so kind to us during the last couple of years,\u201d Gayheart, 54, told \u2026",
+          "content": "Rebecca Gayheart has revealed that her family is in a \u201cstate of shock\u201d following her husband Eric Dane\u2019s death at age 53 following a battle with ALS.\r\n\u201cI just want to thank everybody for being so kin\u2026 [+3248 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-says-familys-in-shock-over-eric-dane-death/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-03-12T05:51:11Z",
+          "author": "Justin Harp",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/03/GettyImages-462195660-Rebecca-Gayheart-Says-Familys-in-Shock-Over-Eric-Dane-Death-e1773294361357.jpg?crop=0px%2C0px%2C1783px%2C936px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "3bcf9698b943",
+          "summary": "Rebecca Gayheart has revealed that her family is in a \u201cstate of shock\u201d following her husband Eric Dane\u2019s death at age 53 following a battle with ALS. \u201cI just want to thank everybody for being so kind ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane memoir My Book of Days to be published after his death",
+              "url": "https://www.nzherald.co.nz/entertainment/eric-dane-memoir-my-book-of-days-to-be-published-after-his-death/TYXK3BMYYJAZBII2JYVEGV7EOE/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Eric Dane\u2019s widow, Rebecca Gayheart, celebrates daughter\u2019s 16th birthday just days after actor\u2019s death",
+              "url": "https://pagesix.com/2026/03/03/parents/eric-danes-widow-rebecca-gayheart-celebrates-daughters-16th-birthday/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart details \u2018powerful moment\u2019 that made Eric Dane \u2018visibly emotional\u2019 shortly before his death",
+          "description": "Dane died at age 53 on Feb. 19 following a battle with amyotrophic lateral sclerosis (ALS).",
+          "content": "Rebecca Gayheart shared the \u201cpowerful moment\u201d she experienced with her late husband, Eric Dane, that left him \u201cvisibly emotional\u201d shortly before his tragic death last month. \r\nIn the weeks leading up\u2026 [+4264 chars]",
+          "url": "https://pagesix.com/2026/03/11/celebrity-news/rebecca-gayheart-details-powerful-moment-that-made-eric-dane-emotional-before-death/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T22:21:21Z",
+          "author": "BreAnna Bell",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/03/123334437.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "039fc3d21269",
+          "summary": "Dane died at age 53 on Feb. 19 following a battle with amyotrophic lateral sclerosis (ALS).",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane memoir My Book of Days to be published after his death",
+              "url": "https://www.nzherald.co.nz/entertainment/eric-dane-memoir-my-book-of-days-to-be-published-after-his-death/TYXK3BMYYJAZBII2JYVEGV7EOE/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Eric Dane\u2019s Memoir, Completed Shortly Before His Death, Due This Fall",
+              "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-my-book-of-days-memoir-1235525716/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane 'Really Dreaded' This ALS Symptom, Rebecca Gayheart Says. Now, It's Shaping His Legacy",
+          "description": "Rebecca Gayheart, wife of the late Eric Dane, speaks about his final months and how a new AI technology may help people like him who've had voice changes.",
+          "content": "Rebecca Gayheart, wife of the late \"Grey's Anatomy\" actor Eric Dane, remembers when her husband started to lose his voice permanently.\r\nFor Dane, who died last month at age 53 due to ALS, his voice l\u2026 [+3956 chars]",
+          "url": "https://www.today.com/health/news/rebecca-gayheart-talks-eric-dane-death-legacy-exclusive-rcna262932",
+          "source_name": "TODAY",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T21:58:09Z",
+          "author": "Sarah Jacoby",
+          "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2026-03/rebecca-gayheart-eric-dane-death-legacy-mh-031126-676084.jpg",
+          "is_local_nj": false,
+          "article_id": "d03a10810ffd",
+          "summary": "Rebecca Gayheart, wife of the late Eric Dane, speaks about his final months and how a new AI technology may help people like him who've had voice changes.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane memoir My Book of Days to be published after his death",
+              "url": "https://www.nzherald.co.nz/entertainment/eric-dane-memoir-my-book-of-days-to-be-published-after-his-death/TYXK3BMYYJAZBII2JYVEGV7EOE/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Eric Dane\u2019s Memoir, Completed Shortly Before His Death, Due This Fall",
+              "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-my-book-of-days-memoir-1235525716/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Inside Katherine Heigl\u2019s Life After Leaving \u2018Grey\u2019s Anatomy\u2019",
+          "description": "Katherine Heigl took a step back from Hollywood in the years after leaving Grey\u2019s Anatomy. \u201cIn my 20s, I was sort of at the height of my career, and I was getting to do all the roles I had always wanted to be able to do,\u201d Heigl exclusively told Us Weekly in M\u2026",
+          "content": "Katherine Heigl took a step back from Hollywood in the years after leaving Grey\u2019s Anatomy.\r\n\u201cIn my 20s, I was sort of at the height of my career, and I was getting to do all the roles I had always wa\u2026 [+6358 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/inside-katherine-heigls-life-after-leaving-greys-anatomy/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T21:53:40Z",
+          "author": "Miranda Siwak",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/03/Katherine-Heigl-GettyImages-1935955302.jpg?crop=0px%2C90px%2C1333px%2C700px&resize=1200%2C630&quality=40&strip=all",
+          "is_local_nj": false,
+          "article_id": "85d2055df9a9",
+          "summary": "Katherine Heigl took a step back from Hollywood in the years after leaving Grey\u2019s Anatomy. \u201cIn my 20s, I was sort of at the height of my career, and I was getting to do all the roles I had always want",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "How \u2018Grey\u2019s Anatomy\u2019 paid tribute to Eric Dane 1 week after \u2018McSteamy\u2019 actor\u2019s death",
+              "url": "https://pagesix.com/2026/02/27/entertainment/how-greys-anatomy-paid-tribute-to-eric-dane-1-week-after-mcsteamy-actors-death/",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "\u2018Grey\u2019s Anatomy\u2019 Airs McSteamy Tribute After Eric Dane\u2019s Death; Emotional Video Montage Is Set to \u2018Chasing Cars\u2019",
+              "url": "https://variety.com/2026/tv/news/greys-anatomy-eric-dane-tribute-mcsteamy-moments-1236674026/",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "Ellen Pompeo Told Eric Dane \u2018Whatever You Need, However I Can Help. I Love You\u2019 After Learning of \u2018Grey\u2019s Anatomy\u2019 Co-Star\u2019s ALS Diagnosis",
+              "url": "https://variety.com/2026/tv/news/ellen-pompeo-eric-dane-als-diagnosis-greys-anatomy-1236651745/",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voices",
+          "description": "The wife of 'Grey's Anatomy' actor Eric Dane says caring for him gave her an \"extra dose\" of compassion for others.",
+          "content": "The actor Eric Dane, who played Dr. Mark Sloan on the medical drama Grey's Anatomy, died last month. Dane was 53, and announced he had been diagnosed with ALS last April.\r\nThe disease affects nerves \u2026 [+876 chars]",
+          "url": "https://www.npr.org/2026/03/11/nx-s1-5742420/rebecca-gayheart-dane-eric-dane",
+          "source_name": "NPR",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T21:30:00Z",
+          "author": "Juana Summers",
+          "image_url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1518x854+0+140/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F99%2F24%2Fc8186fc849d3903a5e9e690debfd%2Fgettyimages-692062488.jpg",
+          "is_local_nj": false,
+          "article_id": "a9c10b18e8ae",
+          "summary": "The wife of 'Grey's Anatomy' actor Eric Dane says caring for him gave her an \"extra dose\" of compassion for others.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Celebrates Daughter\u2019s Birthday Days After Eric Dane's Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-marks-billies-b-day-after-eric-dane-death/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Celebrates Daughter's Birthday After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/03/rebecca-gayheart-celebrates-daughter-billie-birthday-eric-dane-death/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Early Indiana Punk And New Wave (The Crazy Als Years 1976 - 1983) (2CD) (2014) FLAC",
+          "description": "Tracklist: 2014 - Early Indiana Punk And New Wave: The Crazy Al''s Year(s) 1976-1983 CD1 01. The Jetsons - Genetically Stupid (2:22)02. Dow Jones And The Industrials - Can''t Stand The Midwest (1:29)03. Your Grocer''s Freezer - We''re All Gonna Die (1:28)04. \u2026",
+          "content": "Tracklist:\r\n 2014 - Early Indiana Punk And New Wave: The Crazy Al''s Year(s) 1976-1983 CD1 \r\n 01. The Jetsons - Genetically Stupid (2:22)02. Dow Jones And The Industrials - Can''t Stand The Midwest (\u2026 [+2138 chars]",
+          "url": "https://post.rlsbb.to/early-indiana-punk-and-new-wave-the-crazy-als-years-1976-1983-2cd-2014-flac/",
+          "source_name": "Rlsbb.to",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T20:30:09Z",
+          "author": "Kingman",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "6a8ef4f5551b",
+          "summary": "Tracklist: 2014 - Early Indiana Punk And New Wave: The Crazy Al''s Year(s) 1976-1983 CD1 01. The Jetsons - Genetically Stupid (2:22)02. Dow Jones And The Industrials - Can''t Stand The Midwest (1:29)0",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voices",
+          "description": "NPR's Juana Summers speaks with Rebecca Garheart-Dane about taking care of her late husband Eric Dane through ALS.",
+          "content": "NPR's Juana Summers speaks with Rebecca Garheart-Dane about taking care of her late husband Eric Dane through ALS.",
+          "url": "https://www.npr.org/2026/03/11/nx-s1-5742420/rebecca-gayheart-dane-on-caring-for-her-late-husband-eric-dane-and-synthetic-voices",
+          "source_name": "NPR",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T19:57:45Z",
+          "author": "Juana Summers",
+          "image_url": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "is_local_nj": false,
+          "article_id": "6e6e13ceea09",
+          "summary": "NPR's Juana Summers speaks with Rebecca Garheart-Dane about taking care of her late husband Eric Dane through ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Celebrates Daughter\u2019s Birthday Days After Eric Dane's Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-marks-billies-b-day-after-eric-dane-death/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Celebrates Daughter's Birthday After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/03/rebecca-gayheart-celebrates-daughter-billie-birthday-eric-dane-death/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "logic2ableton added to PyPI",
+          "description": "Convert Logic Pro .logicx projects to Ableton Live .als files",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/logic2ableton/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T17:59:03Z",
+          "author": "j.tyler.eveland@gmail.com",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "7f7f822a5f15",
+          "summary": "Convert Logic Pro .logicx projects to Ableton Live .als files",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "als-computing-icons 0.1.55",
+          "description": "SVG icon strings for ALS Computing \u2014 mirrors @als-computing/icons on npm",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/als-computing-icons/0.1.55/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T16:47:13Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "a036bacc3c75",
+          "summary": "SVG icon strings for ALS Computing \u2014 mirrors @als-computing/icons on npm",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Syensqo - Participation notification by BlackRock Inc.",
+          "description": "Press releaseCommuniqu\u00e9 de pressePersbericht Regulated   Participation notifications by BlackRock Inc.  Brussels, Belgium - March 11, 2026 \u2013 17:45 CET ...",
+          "content": "Regulated \r\nParticipation notifications by BlackRock Inc.\r\nBrussels, Belgium - March 11, 2026 17:45 CET\r\nAccording to Belgian transparency legislation (Law of May 2, 2007), BlackRock Inc. (12 Throgmo\u2026 [+11383 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/11/3254046/0/en/Syensqo-Participation-notification-by-BlackRock-Inc.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T16:45:00Z",
+          "author": "Syensqo SA",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/580c265c-48dc-4c96-b0d2-782304bfb832",
+          "is_local_nj": false,
+          "article_id": "1821e7ccb2c3",
+          "summary": "Press releaseCommuniqu\u00e9 de pressePersbericht Regulated   Participation notifications by BlackRock Inc.  Brussels, Belgium - March 11, 2026 \u2013 17:45 CET ...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Syensqo - Participation notification by BlackRock Inc.",
+              "url": "https://www.globenewswire.com/news-release/2026/02/04/3231787/0/en/Syensqo-Participation-notification-by-BlackRock-Inc.html",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Details Family's Shock After Eric Dane's Death",
+          "description": "Eric Dane\u2019s loved ones are still grappling with his death.\u00a0\nOne month after the Grey\u2019s Anatomy alum died following his battle with amyotrophic lateral sclerosis (ALS), his ex Rebecca Gayheart...",
+          "content": "Eric Danes loved ones are still grappling with his death.\u00a0\r\nOne month after the Greys Anatomy alum died following his battle with amyotrophic lateral sclerosis (ALS), his ex Rebecca Gayheartadmitted \u2026 [+720 chars]",
+          "url": "https://www.eonline.com/news/1429570/eric-dane-death-rebecca-gayheart-on-family-grief",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T15:54:00Z",
+          "author": "Olivia Evans",
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20250410/5bbdc126-d2a0-43da-9f2e-2bec362e4b69_1744309788.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "is_local_nj": false,
+          "article_id": "eff3b9a6c136",
+          "summary": "Eric Dane\u2019s loved ones are still grappling with his death.\u00a0\nOne month after the Grey\u2019s Anatomy alum died following his battle with amyotrophic lateral sclerosis (ALS), his ex Rebecca Gayheart...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane memoir My Book of Days to be published after his death",
+              "url": "https://www.nzherald.co.nz/entertainment/eric-dane-memoir-my-book-of-days-to-be-published-after-his-death/TYXK3BMYYJAZBII2JYVEGV7EOE/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Grey's Anatomy Star Eric Dane's Cause Of Death Revealed",
+              "url": "https://www.tvline.com/2115759/greys-anatomy-star-eric-dane-cause-of-death/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Speaks Out After Eric Dane's Death, Reveals Emotional AI Voice Project",
+          "description": "Eric Dane\u2018s wife Rebecca Gayheart is speaking out. The 54-year-old actress spoke out for the first time since the Euphoria star\u2019s passing to discuss a charity project Dane cared about deeply prior to his death due to ALS. Keep reading to find out more\u2026 Dane p\u2026",
+          "content": "Eric Dane\u2018s wife Rebecca Gayheart is speaking out.\r\nThe 54-year-old actress spoke out for the first time since the Euphoria star\u2019s passing to discuss a charity project Dane cared about deeply prior t\u2026 [+2424 chars]",
+          "url": "https://www.justjared.com/2026/03/11/rebecca-gayheart-speaks-out-after-eric-danes-death-reveals-emotional-ai-voice-project/",
+          "source_name": "Just Jared",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T14:24:32Z",
+          "author": "Just Jared",
+          "image_url": "https://cdn01.justjared.com/wp-content/uploads/headlines/2026/03/eric-dane-voice-social.jpg",
+          "is_local_nj": false,
+          "article_id": "b83142fd3d37",
+          "summary": "Eric Dane\u2018s wife Rebecca Gayheart is speaking out. The 54-year-old actress spoke out for the first time since the Euphoria star\u2019s passing to discuss a charity project Dane cared about deeply prior to ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart Takes Daughter to Dinner Two Weeks After Eric Dane's Death",
+              "url": "https://www.tmz.com/2026/03/04/rebecca-gayheart-and-georgia-step-out-for-dinner/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Eric Dane\u2019s widow, Rebecca Gayheart, celebrates daughter\u2019s 16th birthday just days after actor\u2019s death",
+              "url": "https://pagesix.com/2026/03/03/parents/eric-danes-widow-rebecca-gayheart-celebrates-daughters-16th-birthday/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Rebecca Gayheart Celebrates Daughter\u2019s Birthday Days After Eric Dane's Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-marks-billies-b-day-after-eric-dane-death/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane Heard His Voice Through AI Restoration Before His Death",
+          "description": "Eric Dane took part in an AI voice restoration project weeks before his death. Dane\u2019s widow, Rebecca Gayheart, championed the project, saying her late husband \u201cjust had this way of speaking,\u201d in an interview with Variety published on Wednesday, March 11. The \u2026",
+          "content": "Eric Dane took part in an AI voice restoration project weeks before his death.\r\nDane\u2019s widow, Rebecca Gayheart, championed the project, saying her late husband \u201cjust had this way of speaking,\u201d in an \u2026 [+2420 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/eric-dane-heard-his-voice-through-ai-tech-before-death/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-03-11T14:17:16Z",
+          "author": "Shelby Stivale",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/03/GettyImages-1153763935-Eric-Dane-Voice-Restoration.jpg?crop=119px%2C84px%2C1114px%2C586px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "b9db1fff72d2",
+          "summary": "Eric Dane took part in an AI voice restoration project weeks before his death. Dane\u2019s widow, Rebecca Gayheart, championed the project, saying her late husband \u201cjust had this way of speaking,\u201d in an in",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane memoir My Book of Days to be published after his death",
+              "url": "https://www.nzherald.co.nz/entertainment/eric-dane-memoir-my-book-of-days-to-be-published-after-his-death/TYXK3BMYYJAZBII2JYVEGV7EOE/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Eric Dane\u2019s Memoir, Completed Shortly Before His Death, Due This Fall",
+              "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-my-book-of-days-memoir-1235525716/",
+              "digest_date": "2026-03-08"
+            },
+            {
+              "title": "Grey\u2019s Anatomy Pays Tribute to Eric Dane in Wake of Tragic Death",
+              "url": "http://www.thehollywoodgossip.com/2026/02/greys-anatomy-pays-tribute-to-eric-dane-in-wake-of-tragic-death/",
+              "digest_date": "2026-03-01"
+            }
+          ]
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Jersey votes for assisted dying. Is the UK next?",
+        "url": "https://www.irishtimes.com/world/uk/2026/03/14/jersey-votes-for-assisted-dying-is-the-uk-next/",
+        "source": "The Irish Times",
+        "date": "2026-03-14T08:00:00Z"
+      },
+      {
+        "title": "USA greifen Irans \u00d6l-Exportinsel Kharg an",
+        "url": "https://orf.at/stories/3423778/",
+        "source": "Orf.at",
+        "date": "2026-03-14T02:58:36Z"
+      },
+      {
+        "title": "Radar Reveals Everything Eric Dane Said About His ALS Battle Before His Tragic Death at 53 \u2014 'I Was Heartbroken'",
+        "url": "https://okmagazine.com/p/eric-dane-als-battle-everything-he-said-about-his-health-condition/",
+        "source": "OK!",
+        "date": "2026-03-14T00:30:00Z"
+      },
+      {
+        "title": "Booting up issues",
+        "url": "https://www.bleepingcomputer.com/forums/t/814896/booting-up-issues/",
+        "source": "BleepingComputer",
+        "date": "2026-03-13T21:24:12Z"
+      },
+      {
+        "title": "Scientists discover genetics behind leaky brain blood vessels in Rett syndrome",
+        "url": "https://news.mit.edu/2026/scientists-discover-genetics-leaky-brain-blood-vessels-rett-syndrome-0313",
+        "source": "Mit.edu",
+        "date": "2026-03-13T19:15:00Z"
+      },
+      {
+        "title": "Bioethics in Latin America",
+        "url": "https://plato.stanford.edu/entries/bioethics-latin-america/",
+        "source": "Stanford.edu",
+        "date": "2026-03-13T17:39:55Z"
+      },
+      {
+        "title": "Kabel, Walther: Harald Harst (312) - Der gr\u00fcne Vampir. V1.0 [German] 13.03.2026 (Mystery and Crime, ePub)",
+        "url": "https://www.mobileread.com/forums/showthread.php?t=372506",
+        "source": "Mobileread.com",
+        "date": "2026-03-13T16:22:32Z"
+      },
+      {
+        "title": "Kabel, Walther: Harald Harst (311) - Todesbr\u00fccke v Siwarak. V1.0 [German] 13.03.2026 (Mystery and Crime, ePub)",
+        "url": "https://www.mobileread.com/forums/showthread.php?t=372505",
+        "source": "Mobileread.com",
+        "date": "2026-03-13T16:20:03Z"
+      },
+      {
+        "title": "German phrase of the day: Der wunde Punkt",
+        "url": "https://www.thelocal.de/20260313/german-phrase-of-the-day-der-wunde-punkt",
+        "source": "The Local Germany",
+        "date": "2026-03-13T16:02:08Z"
+      },
+      {
+        "title": "The Weekly Injection: New Releasers From LAMB OF GOD, WITCHCRAFT & More Out This Week 3/13",
+        "url": "https://metalinjection.net/upcoming-releases/heavy-new-releases/the-weekly-injeciton-new-releasers-from-lamb-of-god-witchcraft-more-out-this-week-3-13",
+        "source": "Metal Injection.net",
+        "date": "2026-03-13T13:19:27Z"
+      },
+      {
+        "title": "Frontierland\u2019s Last Stand: New Construction Walls and \u201cTwin Closures\u201d Signal the End of the Old West",
+        "url": "https://insidethemagic.net/2026/03/more-walls-in-frontierland-confirm-closures-as-piston-peak-takes-shape-at-magic-kingdom-rl1/",
+        "source": "Inside the Magic",
+        "date": "2026-03-13T11:05:39Z"
+      },
+      {
+        "title": "AC Immune Reports Full Year 2025 Financial Results and Provides a Corporate Update",
+        "url": "https://www.globenewswire.com/news-release/2026/03/13/3255371/0/en/AC-Immune-Reports-Full-Year-2025-Financial-Results-and-Provides-a-Corporate-Update.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-13T11:00:00Z"
+      },
+      {
+        "title": "\u201cThe Wild Party\u201d Returns",
+        "url": "https://www.newyorker.com/culture/goings-on/the-wild-party-returns",
+        "source": "The New Yorker",
+        "date": "2026-03-13T10:00:00Z"
+      },
+      {
+        "title": "Sydney Sweeney krijgt hoofdrol in verfilming van \u2018The Custom of the Country\u2019",
+        "url": "https://newsmonkey.be/sydney-sweeney-krijgt-hoofdrol-in-verfilming-van-the-custom-of-the-country/",
+        "source": "Newsmonkey.be",
+        "date": "2026-03-13T09:31:00Z"
+      },
+      {
+        "title": "Mehrfach verschoben - Nasa will Anfang April endlich zum Mond",
+        "url": "https://www.bild.de/leben-wissen/wissenschaft/artemis-2-kurz-vor-start-nasa-nennt-neues-datum-fuer-bemannten-flug-zum-mond-69b3cddc17184da7cffd8300",
+        "source": "Bild",
+        "date": "2026-03-13T09:06:11Z"
+      },
+      {
+        "title": "eGenix.com: PyDDF Python Spring Sprint 2026",
+        "url": "https://www.egenix.com/company/news/PyDDF-Spring-Sprint-2026",
+        "source": "Egenix.com",
+        "date": "2026-03-13T09:00:00Z"
+      },
+      {
+        "title": "\u3010\u65b0\u66f2\u30ea\u30ea\u30fc\u30b9\u3011EYE VDJ MASA\uff08\u6b66\u85e4\u5c06\u80e4\uff09\u3001\u8996\u7dda\u5165\u529b\u3067\u4f5c\u66f2\u3057\u305f\u65b0\u66f2\u300eSPACE DANCE\u300f\u3092\u672c\u65e5\u914d\u4fe1\u958b\u59cb",
+        "url": "https://prtimes.jp/main/html/rd/p/000000018.000045877.html",
+        "source": "Prtimes.jp",
+        "date": "2026-03-13T04:40:25Z"
+      },
+      {
+        "title": "Shared genetic and neuroimmune architecture links type 1 diabetes with neurocognitive traits",
+        "url": "https://www.nature.com/articles/s41467-026-70694-8",
+        "source": "Nature.com",
+        "date": "2026-03-13T00:00:00Z"
+      },
+      {
+        "title": "An SP110\u2013SP100 axis is a critical regulator of promyelocytic leukaemia body dynamics and mitotic fidelity",
+        "url": "https://www.nature.com/articles/s41556-026-01916-w",
+        "source": "Nature.com",
+        "date": "2026-03-13T00:00:00Z"
+      },
+      {
+        "title": "Sydney Sweeney vs. Zendaya Feud Rumors Heat Up Amid \u2018Euphoria\u2019 Press Tour",
+        "url": "http://www.thehollywoodgossip.com/2026/03/sydney-sweeney-vs-zendaya-feud-rumors-heat-up-amid-euphoria-press-tour/",
+        "source": "The Hollywood Gossip",
+        "date": "2026-03-12T21:30:30Z"
+      },
+      {
+        "title": "Eric Dane's Widow Rebecca Gayheart Recalls Heartbreaking Final Conversation With ALS-Stricken Star Who Secretly Linked Up with AI Firm to Restore Voice",
+        "url": "https://radaronline.com/p/eric-dane-widow-rebecca-gayheart-recalls-final-conversation-with-star-ai/",
+        "source": "Radaronline.com",
+        "date": "2026-03-12T20:24:10Z"
+      },
+      {
+        "title": "Rebecca Gayheart Recalls 'Emotional' Moment with Eric Dane Before His Death",
+        "url": "https://extratv.com/2026/03/12/rebecca-gayheart-recalls-emotional-moment-with-eric-dane-before-his-death/",
+        "source": "Extra",
+        "date": "2026-03-12T19:09:01Z"
+      },
+      {
+        "title": "Hard Images, Hard Truths: A Lesson in Visual Responsibility",
+        "url": "https://www.printmag.com/culturally-related-design/hard-images-hard-truths-a-lesson-in-visual-responsibility/",
+        "source": "Printmag.com",
+        "date": "2026-03-12T14:38:15Z"
+      },
+      {
+        "title": "Translocation of bacteria from the gut to the brain in mice",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003652",
+        "source": "Plos.org",
+        "date": "2026-03-12T14:00:00Z"
+      },
+      {
+        "title": "Quantify unmet medical need across the disease landscape \u2013 A large language model-based methodology",
+        "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004798",
+        "source": "Plos.org",
+        "date": "2026-03-12T14:00:00Z"
+      },
+      {
+        "title": "EXCLUSIVE: Eric Dane's Noble Battle \u2014 How Tragic Actor Spent Final Days Dedicated to Family, Friends and Raising ALS Awareness",
+        "url": "https://radaronline.com/p/eric-dane-dead-noble-battle-als-awareness-family-friends/",
+        "source": "Radaronline.com",
+        "date": "2026-03-12T10:00:00Z"
+      },
+      {
+        "title": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voices - NPR",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=180957210",
+        "source": "Slashdot.org",
+        "date": "2026-03-12T06:12:56Z"
+      },
+      {
+        "title": "Rebecca Gayheart Says Family Is in \u2018Shock\u2019 Over Husband Eric Dane Death",
+        "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-says-familys-in-shock-over-eric-dane-death/",
+        "source": "Us Weekly",
+        "date": "2026-03-12T05:51:11Z"
+      },
+      {
+        "title": "Rebecca Gayheart details \u2018powerful moment\u2019 that made Eric Dane \u2018visibly emotional\u2019 shortly before his death",
+        "url": "https://pagesix.com/2026/03/11/celebrity-news/rebecca-gayheart-details-powerful-moment-that-made-eric-dane-emotional-before-death/",
+        "source": "Page Six",
+        "date": "2026-03-11T22:21:21Z"
+      },
+      {
+        "title": "Eric Dane 'Really Dreaded' This ALS Symptom, Rebecca Gayheart Says. Now, It's Shaping His Legacy",
+        "url": "https://www.today.com/health/news/rebecca-gayheart-talks-eric-dane-death-legacy-exclusive-rcna262932",
+        "source": "TODAY",
+        "date": "2026-03-11T21:58:09Z"
+      },
+      {
+        "title": "Inside Katherine Heigl\u2019s Life After Leaving \u2018Grey\u2019s Anatomy\u2019",
+        "url": "https://www.usmagazine.com/celebrity-news/news/inside-katherine-heigls-life-after-leaving-greys-anatomy/",
+        "source": "Us Weekly",
+        "date": "2026-03-11T21:53:40Z"
+      },
+      {
+        "title": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voices",
+        "url": "https://www.npr.org/2026/03/11/nx-s1-5742420/rebecca-gayheart-dane-eric-dane",
+        "source": "NPR",
+        "date": "2026-03-11T21:30:00Z"
+      },
+      {
+        "title": "Early Indiana Punk And New Wave (The Crazy Als Years 1976 - 1983) (2CD) (2014) FLAC",
+        "url": "https://post.rlsbb.to/early-indiana-punk-and-new-wave-the-crazy-als-years-1976-1983-2cd-2014-flac/",
+        "source": "Rlsbb.to",
+        "date": "2026-03-11T20:30:09Z"
+      },
+      {
+        "title": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voices",
+        "url": "https://www.npr.org/2026/03/11/nx-s1-5742420/rebecca-gayheart-dane-on-caring-for-her-late-husband-eric-dane-and-synthetic-voices",
+        "source": "NPR",
+        "date": "2026-03-11T19:57:45Z"
+      },
+      {
+        "title": "logic2ableton added to PyPI",
+        "url": "https://pypi.org/project/logic2ableton/",
+        "source": "Pypi.org",
+        "date": "2026-03-11T17:59:03Z"
+      },
+      {
+        "title": "als-computing-icons 0.1.55",
+        "url": "https://pypi.org/project/als-computing-icons/0.1.55/",
+        "source": "Pypi.org",
+        "date": "2026-03-11T16:47:13Z"
+      },
+      {
+        "title": "Syensqo - Participation notification by BlackRock Inc.",
+        "url": "https://www.globenewswire.com/news-release/2026/03/11/3254046/0/en/Syensqo-Participation-notification-by-BlackRock-Inc.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-11T16:45:00Z"
+      },
+      {
+        "title": "Rebecca Gayheart Details Family's Shock After Eric Dane's Death",
+        "url": "https://www.eonline.com/news/1429570/eric-dane-death-rebecca-gayheart-on-family-grief",
+        "source": "Eonline.com",
+        "date": "2026-03-11T15:54:00Z"
+      },
+      {
+        "title": "Rebecca Gayheart Speaks Out After Eric Dane's Death, Reveals Emotional AI Voice Project",
+        "url": "https://www.justjared.com/2026/03/11/rebecca-gayheart-speaks-out-after-eric-danes-death-reveals-emotional-ai-voice-project/",
+        "source": "Just Jared",
+        "date": "2026-03-11T14:24:32Z"
+      },
+      {
+        "title": "Eric Dane Heard His Voice Through AI Restoration Before His Death",
+        "url": "https://www.usmagazine.com/celebrity-news/news/eric-dane-heard-his-voice-through-ai-tech-before-death/",
+        "source": "Us Weekly",
+        "date": "2026-03-11T14:17:16Z"
+      }
+    ],
+    "generated_at": "2026-03-15T08:39:47.776996"
+  },
+  {
     "date": "2026-03-08",
     "week_of": "March 08, 2026",
     "digest_number": 11,
