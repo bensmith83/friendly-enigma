@@ -47,10 +47,48 @@ export async function askClaudeJSON(client, prompt, options = {}) {
 function parseJSONResponse(text) {
   let cleaned = text.trim();
 
-  // Strip markdown code fences if present (handles both complete and truncated blocks)
-  const fenceStart = cleaned.indexOf("```");
-  if (fenceStart !== -1) {
-    cleaned = cleaned.substring(fenceStart).replace(/^```(?:json)?\s*\n?/, "").replace(/\n?```\s*$/, "");
+  // Extract content from markdown code fences if present
+  const fenceMatch = cleaned.match(/```(?:json)?\s*\n?([\s\S]*?)\n?```/);
+  if (fenceMatch) {
+    cleaned = fenceMatch[1].trim();
+  }
+
+  // Extract the first JSON object or array from the text
+  const jsonStart = cleaned.search(/[{[]/);
+  if (jsonStart > 0) {
+    cleaned = cleaned.substring(jsonStart);
+  }
+
+  // Find the matching closing bracket for the outermost JSON structure
+  if (cleaned.startsWith("{") || cleaned.startsWith("[")) {
+    const close = cleaned.startsWith("{") ? "}" : "]";
+    let depth = 0;
+    let inString = false;
+    let escape = false;
+    for (let i = 0; i < cleaned.length; i++) {
+      const ch = cleaned[i];
+      if (escape) {
+        escape = false;
+        continue;
+      }
+      if (ch === "\\") {
+        escape = true;
+        continue;
+      }
+      if (ch === '"') {
+        inString = !inString;
+        continue;
+      }
+      if (inString) continue;
+      if (ch === cleaned[0]) depth++;
+      if (ch === close) {
+        depth--;
+        if (depth === 0) {
+          cleaned = cleaned.substring(0, i + 1);
+          break;
+        }
+      }
+    }
   }
 
   try {
