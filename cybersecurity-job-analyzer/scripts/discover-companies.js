@@ -3,6 +3,7 @@ import { readJSON, writeJSON, getDataPath } from "./lib/data-store.js";
 import { fetchPage, resolveCareerUrl } from "./lib/scraper.js";
 
 const COMPANIES_FILE = getDataPath("companies.json");
+const DISCOVER_MODEL = process.env.DISCOVER_MODEL || "claude-haiku-4-5-20251001";
 
 export function buildDiscoveryPrompt(existingNames) {
   const exclusion =
@@ -41,7 +42,7 @@ Respond with ONLY valid JSON in this format:
 
 export async function generateCompanyList(client, existingNames) {
   const prompt = buildDiscoveryPrompt(existingNames);
-  const result = await askClaudeJSON(client, prompt, { maxTokens: 8192 });
+  const result = await askClaudeJSON(client, prompt, { model: DISCOVER_MODEL, maxTokens: 16384 });
   return result.companies || [];
 }
 
