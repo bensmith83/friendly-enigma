@@ -85,7 +85,7 @@ No other setup required. No Cloudflare, no Vercel, no external services.
 - Cost per month: **~$2-4** 🎉
 - Cost per year: **~$24-48** 🎉
 
-**Want even cheaper?** Switch to `claude-haiku-4-5` in the workflow for ~50% cost reduction!
+**Want even cheaper?** Switch to `claude-haiku-4-5-20251001` in the workflow for ~50% cost reduction!
 
 **User Visits:**
 - Cost: **$0** (facts served from static cache)
@@ -190,12 +190,12 @@ Want to use a different Claude model? Edit `.github/workflows/generate-science-f
 
 ```yaml
 env:
-  CLAUDE_MODEL: claude-sonnet-4-5  # Default: best quality
-  # Or use: claude-haiku-4-5      # Cheaper & faster
+  CLAUDE_MODEL: claude-sonnet-4-6  # Default: best quality
+  # Or use: claude-haiku-4-5-20251001  # Cheaper & faster
 ```
 
 Model comparison:
-- **Sonnet 4.5**: Best quality, great for creative SVG generation (~$2-4/month)
+- **Sonnet 4.6**: Best quality, great for creative SVG generation (~$2-4/month)
 - **Haiku 4.5**: Faster and cheaper, still excellent quality (~$1-2/month)
 
 ### Customize Frontend

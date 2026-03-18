@@ -213,7 +213,7 @@ def get_claude_response(prompt: str, api_key: str) -> str:
     }
 
     payload = {
-        "model": "claude-3-haiku-20240307",  # Using Haiku for cost efficiency
+        "model": "claude-haiku-4-5-20251001",  # Using Haiku 4.5 for cost efficiency
         "max_tokens": 600,
         "messages": [{"role": "user", "content": prompt}],
     }
