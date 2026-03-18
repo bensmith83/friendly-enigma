@@ -126,6 +126,60 @@ body {
 .stat-change.negative { color: var(--red); }
 .stat-change.neutral { color: var(--text-muted); }
 
+/* Technology Word Cloud */
+.tech-cloud {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-cloud-words {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem 0.8rem;
+  padding: 1rem 0;
+}
+
+.tech-word {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: transform 0.15s, opacity 0.15s;
+  cursor: default;
+  position: relative;
+}
+
+.tech-word:hover {
+  transform: scale(1.15);
+  opacity: 1 !important;
+}
+
+.tech-word .tech-tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  margin-bottom: 4px;
+  z-index: 10;
+}
+
+.tech-word:hover .tech-tooltip {
+  display: block;
+}
+
 /* Company Cards */
 .company-grid {
   display: grid;

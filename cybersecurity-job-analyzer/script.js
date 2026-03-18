@@ -91,6 +91,7 @@ function render() {
   document.getElementById("emptyState").style.display = "none";
   renderLastUpdated();
   renderStats();
+  renderTechCloud();
   renderAlerts();
   renderCategoryFilters();
   renderCompanyGrid();
@@ -139,6 +140,61 @@ function renderStats() {
     <div class="stat-card">
       <div class="stat-label">Active Alerts</div>
       <div class="stat-value" style="color:${alertCount > 0 ? "var(--red)" : "var(--green)"}">${alertCount}</div>
+    </div>
+  `;
+}
+
+function renderTechCloud() {
+  const section = document.getElementById("techCloudSection");
+  const companies = state.analysis.companies;
+
+  // Aggregate technology mentions across all companies
+  const techCounts = new Map();
+  for (const company of companies) {
+    const techs = company.strategy?.technologyTrends || [];
+    for (const tech of techs) {
+      const key = tech.toLowerCase().trim();
+      if (!key) {
+        continue;
+      }
+      const existing = techCounts.get(key) || { name: tech, count: 0, companies: [] };
+      existing.count++;
+      existing.companies.push(company.company);
+      techCounts.set(key, existing);
+    }
+  }
+
+  if (techCounts.size === 0) {
+    section.innerHTML = "";
+    return;
+  }
+
+  const techs = Array.from(techCounts.values()).sort((a, b) => b.count - a.count);
+  const maxCount = techs[0].count;
+  const minCount = techs[techs.length - 1].count;
+
+  // Color palette for the cloud
+  const colors = [
+    "var(--accent)", "var(--green)", "var(--purple)",
+    "var(--orange)", "#f778ba", "#79c0ff", "#d2a8ff",
+    "#7ee787", "#ffa657", "#ff7b72",
+  ];
+
+  const words = techs.map((tech, i) => {
+    // Scale font size between 0.7rem and 2.2rem based on frequency
+    const ratio = maxCount === minCount ? 0.5 : (tech.count - minCount) / (maxCount - minCount);
+    const fontSize = 0.7 + ratio * 1.5;
+    const opacity = 0.5 + ratio * 0.5;
+    const color = colors[i % colors.length];
+    const companiesList = [...new Set(tech.companies)].join(", ");
+
+    return `<span class="tech-word" style="font-size:${fontSize}rem;color:${color};opacity:${opacity};font-weight:${ratio > 0.5 ? 600 : 400}">${escapeHtml(tech.name)}<span class="tech-tooltip">${tech.count} ${tech.count === 1 ? "company" : "companies"}: ${escapeHtml(companiesList)}</span></span>`;
+  });
+
+  section.innerHTML = `
+    <div class="tech-cloud">
+      <h2 class="section-header" style="border:none;margin-bottom:0">Technology Landscape</h2>
+      <div class="tech-cloud-words">${words.join("")}</div>
     </div>
   `;
 }
