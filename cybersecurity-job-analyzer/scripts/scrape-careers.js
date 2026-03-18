@@ -4,6 +4,7 @@ import { fetchPage } from "./lib/scraper.js";
 
 const COMPANIES_FILE = getDataPath("companies.json");
 const JOBS_FILE = getDataPath("jobs.json");
+const SCRAPE_MODEL = process.env.SCRAPE_MODEL || "claude-haiku-4-5-20251001";
 
 export function buildJobExtractionPrompt(html, companyName) {
   // Truncate HTML to avoid token limits
@@ -77,7 +78,7 @@ export async function scrapeCompanyCareers(company) {
 
 export async function parseJobListings(client, html, companyName) {
   const prompt = buildJobExtractionPrompt(html, companyName);
-  const result = await askClaudeJSON(client, prompt, { maxTokens: 8192 });
+  const result = await askClaudeJSON(client, prompt, { model: SCRAPE_MODEL, maxTokens: 8192 });
   return result.jobs || [];
 }
 
@@ -115,7 +116,7 @@ export async function scrapeJobDetail(client, jobUrl, jobTitle, companyName) {
   }
 
   const prompt = buildJobDetailPrompt(result.html, jobTitle, companyName);
-  return await askClaudeJSON(client, prompt, { maxTokens: 4096 });
+  return await askClaudeJSON(client, prompt, { model: SCRAPE_MODEL, maxTokens: 4096 });
 }
 
 export async function enrichJobsWithDescriptions(client, jobs, companyName, options = {}) {
