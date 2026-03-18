@@ -5,26 +5,38 @@ import { fetchPage, resolveCareerUrl } from "./lib/scraper.js";
 const COMPANIES_FILE = getDataPath("companies.json");
 const DISCOVER_MODEL = process.env.DISCOVER_MODEL || "claude-haiku-4-5-20251001";
 
-export function buildDiscoveryPrompt(existingNames) {
+const CATEGORIES = [
+  "Endpoint Security",
+  "Cloud Security",
+  "Identity & Access Management",
+  "Network Security",
+  "SIEM/SOAR",
+  "Threat Intelligence",
+  "Application Security",
+  "Data Security",
+  "IoT/OT Security",
+  "GRC/Compliance",
+];
+
+export function buildCategoryPrompt(category, existingNames) {
   const exclusion =
     existingNames.length > 0
       ? `\n\nDo NOT include these companies that are already tracked: ${existingNames.join(", ")}`
       : "";
 
-  return `You are a cybersecurity industry analyst. Generate a comprehensive list of cybersecurity companies including both established players and emerging startups.
+  return `You are a cybersecurity industry analyst. List 5-8 companies in the "${category}" category, including both established players and emerging startups.
 
 For each company, provide:
 - name: Company name
 - website: Company homepage URL
-- category: Primary security category (e.g., Endpoint Security, Cloud Security, Identity, Network Security, SIEM/SOAR, Threat Intelligence, Application Security, Data Security, IoT Security, GRC/Compliance)
+- category: "${category}"
 - description: One sentence about what they do
 - founded: Year founded (approximate if unsure)
 - isStartup: true if founded after 2018 or has under 500 employees
 - careerPageHint: If you know the careers page URL, provide it
+${exclusion}
 
-Include at least 50 companies across all major cybersecurity categories. Include both public companies and well-funded startups.${exclusion}
-
-Respond with ONLY valid JSON in this format:
+Respond with ONLY valid JSON:
 {
   "companies": [
     {
@@ -41,9 +53,18 @@ Respond with ONLY valid JSON in this format:
 }
 
 export async function generateCompanyList(client, existingNames) {
-  const prompt = buildDiscoveryPrompt(existingNames);
-  const result = await askClaudeJSON(client, prompt, { model: DISCOVER_MODEL, maxTokens: 16384 });
-  return result.companies || [];
+  const allCompanies = [];
+
+  for (const category of CATEGORIES) {
+    console.log(`  Discovering ${category} companies...`);
+    const prompt = buildCategoryPrompt(category, existingNames);
+    const result = await askClaudeJSON(client, prompt, { model: DISCOVER_MODEL, maxTokens: 4096 });
+    const companies = result.companies || [];
+    allCompanies.push(...companies);
+    console.log(`    Found ${companies.length} companies`);
+  }
+
+  return allCompanies;
 }
 
 export async function validateCareerUrls(company) {

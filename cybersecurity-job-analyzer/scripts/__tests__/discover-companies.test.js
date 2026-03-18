@@ -20,7 +20,7 @@ const {
   generateCompanyList,
   validateCareerUrls,
   mergeCompanyLists,
-  buildDiscoveryPrompt,
+  buildCategoryPrompt,
 } = await import("../discover-companies.js");
 
 describe("discover-companies", () => {
@@ -28,61 +28,46 @@ describe("discover-companies", () => {
     jest.clearAllMocks();
   });
 
-  describe("buildDiscoveryPrompt", () => {
-    it("returns a prompt string requesting cybersecurity companies", () => {
-      const prompt = buildDiscoveryPrompt([]);
-      expect(prompt).toContain("cybersecurity");
+  describe("buildCategoryPrompt", () => {
+    it("returns a prompt for a specific category", () => {
+      const prompt = buildCategoryPrompt("Endpoint Security", []);
+      expect(prompt).toContain("Endpoint Security");
       expect(prompt).toContain("JSON");
     });
 
     it("includes existing companies to avoid duplicates", () => {
-      const prompt = buildDiscoveryPrompt(["CrowdStrike", "Palo Alto Networks"]);
+      const prompt = buildCategoryPrompt("Cloud Security", ["CrowdStrike", "Palo Alto Networks"]);
       expect(prompt).toContain("CrowdStrike");
       expect(prompt).toContain("Palo Alto Networks");
     });
   });
 
   describe("generateCompanyList", () => {
-    it("returns a list of company objects from Claude", async () => {
-      const mockCompanies = [
-        {
-          name: "CrowdStrike",
-          website: "https://crowdstrike.com",
-          category: "Endpoint Security",
-          description: "Cloud-native endpoint protection",
-          founded: 2011,
-          isStartup: false,
-        },
-        {
-          name: "Wiz",
-          website: "https://wiz.io",
-          category: "Cloud Security",
-          description: "Cloud security posture management",
-          founded: 2020,
-          isStartup: true,
-        },
-      ];
-
-      mockAskClaudeJSON.mockResolvedValueOnce({ companies: mockCompanies });
+    it("queries each category and aggregates results", async () => {
+      // Mock returns for all 10 categories
+      for (let i = 0; i < 10; i++) {
+        mockAskClaudeJSON.mockResolvedValueOnce({
+          companies: [{ name: `Company${i}`, website: `https://co${i}.com`, category: "Test" }],
+        });
+      }
 
       const result = await generateCompanyList({ messages: {} }, []);
-      expect(result).toHaveLength(2);
-      expect(result[0].name).toBe("CrowdStrike");
-      expect(result[1].isStartup).toBe(true);
+      expect(result).toHaveLength(10);
+      expect(mockAskClaudeJSON).toHaveBeenCalledTimes(10);
     });
 
     it("each company has required fields", async () => {
-      const mockCompanies = [
-        {
-          name: "SentinelOne",
-          website: "https://sentinelone.com",
-          category: "Endpoint Security",
-          description: "AI-powered security platform",
-          founded: 2013,
-          isStartup: false,
-        },
-      ];
-      mockAskClaudeJSON.mockResolvedValueOnce({ companies: mockCompanies });
+      const mockCompany = {
+        name: "SentinelOne",
+        website: "https://sentinelone.com",
+        category: "Endpoint Security",
+        description: "AI-powered security platform",
+        founded: 2013,
+        isStartup: false,
+      };
+      for (let i = 0; i < 10; i++) {
+        mockAskClaudeJSON.mockResolvedValueOnce({ companies: i === 0 ? [mockCompany] : [] });
+      }
 
       const result = await generateCompanyList({ messages: {} }, []);
       const company = result[0];
