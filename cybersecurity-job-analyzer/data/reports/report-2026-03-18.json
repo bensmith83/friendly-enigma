@@ -1,7 +1,7 @@
 {
   "date": "2026-03-18",
   "generatedAt": "2026-03-18T22:55:13.855Z",
-  "summary": "## Cybersecurity Industry Hiring Analysis — Executive Summary\n**Week of March 18, 2026**\n\nThis week's analysis spotlights Frontegg as a company executing a notably ambitious strategic pivot at the intersection of identity security and the emerging AI agent economy. Despite a modest hiring footprint of just two open positions and a moderate health score of 6/10, the signal density behind those roles is unusually high. Frontegg appears to be in the early stages of launching a net-new product called **Agen** — described internally as a \"Stripe for AI agent integration\" — which would position the company as foundational infrastructure for authentication, authorization, and auditing between AI agents and enterprise APIs. Critically, Frontegg is framing this as a trust and compliance problem rather than a simple connectivity challenge, aligning them more closely with established identity security vendors like Okta and Auth0 than with conventional API gateway players. This framing, combined with their investment in an MCP (Model Context Protocol) Gateway and an Agent Registry and Policy Engine, suggests Frontegg is making a high-conviction bet that AI agents will become first-class principals in enterprise environments — entities that require managed identities and granular permissions just as human users do today.\n\nWhat makes Frontegg's strategy particularly noteworthy from a competitive intelligence perspective is the layered nature of their platform ambitions. Beyond the core Agen product, the company is simultaneously building a Consumer Marketplace — effectively an app store for AI agent connectors — which signals an ecosystem and distribution play designed to generate network effects and create a defensible moat over time. Paired with a multi-region infrastructure rollout spanning at least five global regions (US, EU, AU, CA, UK), Frontegg is clearly targeting enterprise B2B customers with strict data residency and compliance requirements, which materially raises the barrier to displacement once adopted. The company also appears to be running a deliberate dual-track investment strategy: sustaining and scaling their existing IAM platform while building the next-generation agent security layer on top of it — a capital-efficient approach that leverages existing customer trust and infrastructure rather than requiring a clean-slate rebuild.\n\nFor cybersecurity industry observers and talent strategists, Frontegg represents a leading indicator of where identity security investment is heading in 2026. The convergence of AI agent proliferation, enterprise compliance mandates, and protocol standardization around MCP is creating a new product category — **AI agent identity and access management** — and Frontegg is positioning to own that category's foundational infrastructure layer. Organizations evaluating their own AI security posture should take note: the talent and tooling ecosystem forming around AI agent authentication is accelerating, and companies that move early to define standards in this space will likely exercise outsized influence over how enterprise AI governance is architected over the next several years.",
+  "summary": "## Cybersecurity Industry Hiring Analysis — Executive Summary\n**Week of March 18, 2026**\n\nThis week's initial scan covers 56 cybersecurity companies across eight categories including Endpoint Security, Network Security, SIEM/SOAR, Identity & Access Management, Cloud Security, Application Security, Data Security, IoT/OT Security, and GRC/Compliance. Of these, only Frontegg (Identity & Access Management) currently shows visible open positions, with 2 roles posted. The vast majority of tracked companies — including major players like CrowdStrike, Palo Alto Networks, Okta, Cloudflare, and Splunk — show no publicly listed openings on their career pages at this time, which may reflect the use of internal recruiting channels, third-party job boards, or seasonal hiring cycles rather than actual freezes.\n\nAmong the limited hiring signals available, Frontegg's two open positions reveal an interesting strategic direction: the company appears to be building AI agent infrastructure (an \"MCP Gateway\" and agent identity management layer) alongside its core IAM platform. This aligns with a broader industry trend toward securing AI agent-to-API communication. However, with only 2 positions from a single company, the dataset is too thin to draw broad conclusions about industry-wide hiring trends this week.\n\nAs the analyzer continues to run weekly, the dataset will grow to reveal meaningful patterns across all tracked companies — including hiring velocity, technology adoption trends, and competitive positioning shifts across the cybersecurity landscape. Salary data is not yet available, as none of the current listings include compensation information.",
   "companies": [
     {
       "company": "Frontegg",
@@ -11,113 +11,48 @@
       "strategy": {
         "signals": [
           {
-            "signal": "Frontegg is launching a net-new product called 'Agen' — an AI agent infrastructure layer positioned as 'Stripe for AI agent integration', targeting the emerging AI agent economy with authentication, authorization, and audit capabilities between AI agents and enterprise APIs",
+            "signal": "Building AI agent infrastructure product ('Agen') for authentication and authorization between AI agents and enterprise APIs",
             "confidence": "high",
             "evidence": [
               "We're now building Agen — the infrastructure layer that makes applications 'AI agent-ready'",
-              "Think of it as Stripe for AI agent integration: we sit between AI agents (Claude, ChatGPT, Gemini) and enterprise APIs",
-              "We're building the trust layer for the AI agent economy",
-              "Agen is our next-generation product"
+              "Think of it as Stripe for AI agent integration"
             ]
           },
           {
-            "signal": "Frontegg is building an MCP (Model Context Protocol) Gateway — a secure proxy layer that positions them at the critical control point between AI agents and enterprise systems, indicating a bet that MCP becomes the dominant protocol for AI-to-API communication",
+            "signal": "Developing MCP Gateway as secure proxy between AI agents and enterprise systems",
             "confidence": "high",
             "evidence": [
               "MCP Gateway: A secure proxy between AI agents and enterprise APIs",
-              "Build and maintain Playwright test suites for our MCP Gateway",
-              "Develop contract tests for our MCP protocol implementations",
-              "Build performance/load testing infrastructure for concurrent AI agent connections"
+              "Build and maintain Playwright test suites for our MCP Gateway"
             ]
           },
           {
-            "signal": "Frontegg is building an Agent Registry and Policy Engine, signaling they are extending their existing identity and access management DNA into the AI agent domain — treating AI agents as first-class principals that need managed identities and granular permissions",
-            "confidence": "high",
-            "evidence": [
-              "Agent Registry: Track and manage which AI agents access your systems",
-              "Policy Engine: Define what agents can and cannot do",
-              "Write integration tests for OAuth flows, policy enforcement, and API proxying",
-              "Optimize and scale authentication and authorization systems with OAuth, JWT, SAML, WebAuthn"
-            ]
-          },
-          {
-            "signal": "Frontegg is building a Consumer Marketplace — an app store for AI agent connectors — suggesting a platform/ecosystem play where third-party integrations can be discovered and distributed, creating network effects and a defensible distribution moat",
-            "confidence": "high",
-            "evidence": [
-              "Consumer Marketplace: An 'app store' for AI agent connectors",
-              "Create automated E2E tests for our React-based admin portal and marketplace",
-              "Build automated smoke tests for multi-region deployments (US, EU, AU, CA, UK)"
-            ]
-          },
-          {
-            "signal": "Frontegg is investing heavily in global multi-region infrastructure, deploying across at least 5 regions (US, EU, AU, CA, UK), indicating enterprise-grade compliance and data residency requirements are a core go-to-market requirement for their B2B SaaS customers",
-            "confidence": "high",
-            "evidence": [
-              "Build automated smoke tests for multi-region deployments (US, EU, AU, CA, UK)",
-              "Set up test environments that mirror production (AWS, MongoDB, MySQL)"
-            ]
-          },
-          {
-            "signal": "Frontegg is integrating AI tooling directly into developer workflows and security engineering processes — not just building AI products but also using AI internally to accelerate engineering productivity",
-            "confidence": "medium",
-            "evidence": [
-              "Work with cutting-edge AI to enhance development and security workflows",
-              "A problem solver who loves working with AI and using it to boost productivity",
-              "Deeply passionate about writing clean, efficient, and scalable code leveraging AI tools",
-              "Leverage AI in development to enhance your productivity and innovation"
-            ]
-          },
-          {
-            "signal": "The core identity platform team remains a strategic priority in parallel with the new Agen product — Frontegg is running a dual-track investment: maintaining and scaling their existing IAM business while building the next-generation AI agent product on top of it",
+            "signal": "Maintaining dual-track investment in core IAM platform alongside new AI agent product",
             "confidence": "medium",
             "evidence": [
               "Take full ownership of end-to-end development of key features in identity and access management",
-              "Optimize and scale authentication and authorization systems with OAuth, JWT, SAML, WebAuthn",
-              "Small but strong team of 4 developers and a team lead, focused on identity and access management infrastructure"
-            ]
-          },
-          {
-            "signal": "Frontegg is treating AI agent security as a trust and compliance problem — not just a connectivity problem — which differentiates them from simple API gateway vendors and positions them closer to identity security vendors like Okta or Auth0",
-            "confidence": "high",
-            "evidence": [
-              "providing secure, controlled access with proper authentication, authorization, and audit trails",
-              "Write integration tests for OAuth flows, policy enforcement, and API proxying",
-              "We're building the trust layer for the AI agent economy",
-              "Hands-on with authentication, security, and identity management"
+              "Small but strong team of 4 developers and a team lead"
             ]
           }
         ],
         "newProductAreas": [
-          "Agen — AI agent infrastructure platform: a dedicated next-generation product line separate from the core user management platform, targeting the AI agent economy",
-          "MCP Gateway: A secure reverse proxy implementing the Model Context Protocol, sitting between AI agents (Claude, ChatGPT, Gemini) and enterprise APIs",
-          "Agent Registry: An identity and lifecycle management system for AI agents, extending traditional IAM concepts to non-human principals",
-          "Policy Engine: A fine-grained authorization layer defining what AI agents can and cannot do within enterprise systems — analogous to OPA or Cedar but agent-specific",
-          "Consumer Marketplace: An app store / connector ecosystem for AI agent integrations, enabling third-party distribution and platform network effects",
-          "AI agent performance and load testing infrastructure: internal tooling to handle concurrent AI agent connection stress scenarios at scale",
-          "Multi-region AI agent infrastructure: globally distributed deployment of Agen across US, EU, AU, CA, and UK to meet enterprise data residency requirements"
+          "Agen — AI agent infrastructure platform targeting the AI agent economy",
+          "MCP Gateway for AI agent-to-API communication",
+          "Agent Registry and Policy Engine for AI agent identity management"
         ],
         "technologyTrends": [
-          "TypeScript as the dominant language across both frontend and backend, signaling a unified language strategy across the stack",
-          "NestJS (Node.js) as the primary backend framework for building scalable identity and agent infrastructure services",
-          "Playwright as the chosen E2E and browser automation testing framework, replacing older tools like Selenium or Cypress",
-          "MCP (Model Context Protocol) as an emerging standard for AI agent-to-API communication — Frontegg is making an early protocol bet",
-          "OAuth and OIDC extended to AI agent authentication flows — applying existing identity standards to non-human agent principals",
-          "GitHub Actions as the CI/CD backbone for deployment pipelines and test automation",
-          "AWS as the primary cloud provider (Lambda, API Gateway, CloudWatch) with multi-region deployment capability",
-          "MongoDB and MySQL as dual-database strategy — likely MongoDB for flexible agent/policy data and MySQL for relational transactional data",
-          "Kafka and Redis for high-throughput, low-latency messaging and caching in the identity infrastructure layer",
-          "Docker and containerized testing environments for consistent, reproducible CI/CD test execution",
-          "Load testing tooling (k6, Artillery, Locust) specifically for concurrent AI agent connection scenarios — a novel testing requirement",
-          "Snowflake appearing as a data/analytics platform, suggesting analytics or audit trail use cases",
-          "WebAuthn alongside OAuth/JWT/SAML, indicating investment in modern passwordless and hardware-bound authentication standards",
-          "React for admin portal and marketplace frontend, maintaining a consistent frontend framework choice",
-          "AI tools integrated into the developer workflow itself — treating AI as a productivity multiplier for engineering teams"
+          "TypeScript",
+          "NestJS",
+          "Playwright",
+          "MCP (Model Context Protocol)",
+          "OAuth/OIDC",
+          "AWS",
+          "MongoDB",
+          "React"
         ],
         "teamExpansion": [
-          "Agen team (new, greenfield): The most strategically significant expansion — this is a brand-new team building Frontegg's next-generation product from scratch, signaling a major company-level bet on the AI agent infrastructure market. The hiring of an Automation Engineer as one of the first roles suggests they are prioritizing quality and shipping velocity from day one.",
-          "Core IAM/Backend team: The existing identity platform team of 4 developers + team lead is adding a senior backend developer, suggesting the core product is scaling in complexity and customer load, and needs senior technical leadership to maintain architectural quality while the company simultaneously invests in Agen.",
-          "Quality Engineering: Hiring an Automation Engineer dedicated to the Agen product signals that Frontegg is investing in test infrastructure as a first-class concern early in the product lifecycle — unusual for an early-stage product and indicative of enterprise reliability requirements.",
-          "Overall signal: With only 2 open roles visible, Frontegg appears to be a relatively lean organization making highly targeted senior hires rather than bulk hiring — suggesting capital efficiency, a strong existing team, and deliberate scaling focused on product quality over headcount growth."
+          "New Agen team hiring Automation Engineer",
+          "Core IAM team adding Senior Backend Developer"
         ]
       },
       "financial": {
@@ -138,6 +73,1374 @@
           "Low open position count may signal hiring freeze recently lifted or budget constraints easing cautiously",
           "Small sample size means a single hire or cancellation next week could dramatically shift indicators"
         ]
+      }
+    },
+    {
+      "company": "CrowdStrike",
+      "category": "Threat Intelligence",
+      "website": "https://www.crowdstrike.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Microsoft Defender for Endpoint",
+      "category": "Endpoint Security",
+      "website": "https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "SentinelOne",
+      "category": "Endpoint Security",
+      "website": "https://www.sentinelone.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Rapid7 InsightIDR",
+      "category": "SIEM/SOAR",
+      "website": "https://www.rapid7.com/products/insightidr",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Yext",
+      "category": "Endpoint Security",
+      "website": "https://www.elastic.co/security",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Huntress",
+      "category": "Endpoint Security",
+      "website": "https://www.huntress.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "WithSecure",
+      "category": "Endpoint Security",
+      "website": "https://www.withsecure.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Arctic Wolf",
+      "category": "Endpoint Security",
+      "website": "https://arcticwolf.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Palo Alto Networks",
+      "category": "Network Security",
+      "website": "https://www.paloaltonetworks.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Wiz",
+      "category": "Network Security",
+      "website": "https://www.wiz.io",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Lacework",
+      "category": "Cloud Security",
+      "website": "https://www.lacework.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Snyk",
+      "category": "Application Security",
+      "website": "https://snyk.io",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Aqua Security",
+      "category": "Application Security",
+      "website": "https://www.aquasec.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Ermetic (now Wiz subsidiary)",
+      "category": "Cloud Security",
+      "website": "https://www.ermetic.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Orca Security",
+      "category": "Cloud Security",
+      "website": "https://www.orca.security",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Okta",
+      "category": "Identity & Access Management",
+      "website": "https://www.okta.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Ping Identity",
+      "category": "Identity & Access Management",
+      "website": "https://www.pingidentity.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Microsoft Entra ID (formerly Azure AD)",
+      "category": "Identity & Access Management",
+      "website": "https://www.microsoft.com/en-us/security/business/microsoft-entra",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "JumpCloud",
+      "category": "Identity & Access Management",
+      "website": "https://jumpcloud.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Auth0",
+      "category": "Identity & Access Management",
+      "website": "https://auth0.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Descope",
+      "category": "Identity & Access Management",
+      "website": "https://www.descope.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Stytch",
+      "category": "Identity & Access Management",
+      "website": "https://stytch.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Cisco Systems",
+      "category": "Network Security",
+      "website": "https://www.cisco.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Fortinet",
+      "category": "Network Security",
+      "website": "https://www.fortinet.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Zscaler",
+      "category": "Network Security",
+      "website": "https://www.zscaler.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Cloudflare",
+      "category": "Network Security",
+      "website": "https://www.cloudflare.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Abnormal Security",
+      "category": "Network Security",
+      "website": "https://www.abnormalsecurity.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Netscout Systems",
+      "category": "Network Security",
+      "website": "https://www.netscout.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Splunk",
+      "category": "SIEM/SOAR",
+      "website": "https://www.splunk.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Palo Alto Networks (Cortex)",
+      "category": "SIEM/SOAR",
+      "website": "https://www.paloaltonetworks.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "IBM Security QRadar",
+      "category": "SIEM/SOAR",
+      "website": "https://www.ibm.com/security/qradar",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Elasticsearch Security",
+      "category": "SIEM/SOAR",
+      "website": "https://www.elastic.co/security",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Chronicle Security Operations",
+      "category": "SIEM/SOAR",
+      "website": "https://chronicle.security",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Exabeam",
+      "category": "SIEM/SOAR",
+      "website": "https://www.exabeam.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "D3 Security",
+      "category": "SIEM/SOAR",
+      "website": "https://www.d3security.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Mandiant",
+      "category": "Threat Intelligence",
+      "website": "https://www.mandiant.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Recorded Future",
+      "category": "Threat Intelligence",
+      "website": "https://www.recordedfuture.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "ThreatStream",
+      "category": "Threat Intelligence",
+      "website": "https://www.anomali.com/threatstream",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Flashpoint",
+      "category": "Threat Intelligence",
+      "website": "https://www.flashpoint.io",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Censys",
+      "category": "Threat Intelligence",
+      "website": "https://censys.io",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Axur",
+      "category": "Threat Intelligence",
+      "website": "https://www.axur.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Cyberint",
+      "category": "Threat Intelligence",
+      "website": "https://www.cyberint.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Checkmarx",
+      "category": "Application Security",
+      "website": "https://checkmarx.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Veracode",
+      "category": "Application Security",
+      "website": "https://www.veracode.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Fortify (Micro Focus)",
+      "category": "Application Security",
+      "website": "https://www.fortify.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "GitLab (Application Security)",
+      "category": "Application Security",
+      "website": "https://gitlab.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Semgrep",
+      "category": "Application Security",
+      "website": "https://semgrep.dev",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Contrast Security",
+      "category": "Application Security",
+      "website": "https://www.contrastsecurity.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Varonis",
+      "category": "Data Security",
+      "website": "https://www.varonis.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Collibra",
+      "category": "Data Security",
+      "website": "https://www.collibra.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Imperva",
+      "category": "Data Security",
+      "website": "https://www.imperva.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Talend",
+      "category": "Data Security",
+      "website": "https://www.talend.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "BigID",
+      "category": "Data Security",
+      "website": "https://www.bigid.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Securiti.ai",
+      "category": "Data Security",
+      "website": "https://www.securiti.ai",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Cybereason",
+      "category": "Data Security",
+      "website": "https://www.cybereason.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Fortanix",
+      "category": "Data Security",
+      "website": "https://www.fortanix.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Fortive (Industrial Cybersecurity Division)",
+      "category": "IoT/OT Security",
+      "website": "https://www.fortive.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Claroty",
+      "category": "IoT/OT Security",
+      "website": "https://www.claroty.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Fortiphyd Logic",
+      "category": "IoT/OT Security",
+      "website": "https://www.fortiphyd.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Nozomi Networks",
+      "category": "IoT/OT Security",
+      "website": "https://www.nozominetworks.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Dragos",
+      "category": "IoT/OT Security",
+      "website": "https://www.dragos.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Tenable (OT Security)",
+      "category": "IoT/OT Security",
+      "website": "https://www.tenable.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Kaspersky ICS/SCADA Security",
+      "category": "IoT/OT Security",
+      "website": "https://www.kaspersky.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Waterfall Security Solutions",
+      "category": "IoT/OT Security",
+      "website": "https://www.waterfallsecurity.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Workiva",
+      "category": "GRC/Compliance",
+      "website": "https://www.workiva.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "AuditBoard",
+      "category": "GRC/Compliance",
+      "website": "https://www.auditboard.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Domo",
+      "category": "GRC/Compliance",
+      "website": "https://www.domo.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Vanta",
+      "category": "GRC/Compliance",
+      "website": "https://www.vanta.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Secureframe",
+      "category": "GRC/Compliance",
+      "website": "https://www.secureframe.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "OneTrust",
+      "category": "GRC/Compliance",
+      "website": "https://www.onetrust.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "MetricStream",
+      "category": "GRC/Compliance",
+      "website": "https://www.metricstream.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
+      }
+    },
+    {
+      "company": "Drata",
+      "category": "GRC/Compliance",
+      "website": "https://www.drata.com",
+      "jobCount": 0,
+      "strategy": {
+        "signals": [],
+        "newProductAreas": [],
+        "technologyTrends": [],
+        "teamExpansion": []
+      },
+      "financial": {
+        "healthScore": null,
+        "trend": "unknown",
+        "riskLevel": "unknown",
+        "signals": [],
+        "alerts": []
       }
     }
   ],
