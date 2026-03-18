@@ -117,6 +117,34 @@ describe("claude-client", () => {
       expect(result).toEqual({ count: 5 });
     });
 
+    it("extracts JSON when followed by trailing text", async () => {
+      mockCreate.mockResolvedValueOnce({
+        content: [
+          {
+            type: "text",
+            text: '{"jobs": []}\n\nThe HTML provided is a landing page, not a job listings page.',
+          },
+        ],
+      });
+
+      const result = await askClaudeJSON(createClient("key"), "extract");
+      expect(result).toEqual({ jobs: [] });
+    });
+
+    it("extracts JSON from code fence with trailing text", async () => {
+      mockCreate.mockResolvedValueOnce({
+        content: [
+          {
+            type: "text",
+            text: '```json\n{"jobs": []}\n```\n\nThe page does not contain job listings.',
+          },
+        ],
+      });
+
+      const result = await askClaudeJSON(createClient("key"), "extract");
+      expect(result).toEqual({ jobs: [] });
+    });
+
     it("throws on invalid JSON response", async () => {
       mockCreate.mockResolvedValueOnce({
         content: [{ type: "text", text: "not json at all" }],
