@@ -48,7 +48,7 @@ describe("claude-client", () => {
       await askClaude(createClient("key"), "test");
       expect(mockCreate).toHaveBeenCalledWith(
         expect.objectContaining({
-          model: "claude-sonnet-4-5-20250514",
+          model: "claude-3-5-sonnet-20241022",
           max_tokens: 4096,
         })
       );
