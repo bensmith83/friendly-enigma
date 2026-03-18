@@ -19,6 +19,9 @@ jest.unstable_mockModule("../lib/claude-client.js", () => ({
 const {
   scrapeCompanyCareers,
   parseJobListings,
+  scrapeJobDetail,
+  buildJobDetailPrompt,
+  enrichJobsWithDescriptions,
   detectJobChanges,
   buildJobExtractionPrompt,
 } = await import("../scrape-careers.js");
@@ -112,6 +115,145 @@ describe("scrape-careers", () => {
         "EmptyCo"
       );
       expect(result).toEqual([]);
+    });
+  });
+
+  describe("buildJobDetailPrompt", () => {
+    it("requests full job description extraction from detail page HTML", () => {
+      const prompt = buildJobDetailPrompt(
+        "<html><h1>Senior Security Engineer</h1><p>Build next-gen SIEM...</p></html>",
+        "Senior Security Engineer",
+        "CrowdStrike"
+      );
+      expect(prompt).toContain("CrowdStrike");
+      expect(prompt).toContain("Senior Security Engineer");
+      expect(prompt).toContain("full description");
+    });
+  });
+
+  describe("scrapeJobDetail", () => {
+    it("fetches an individual job page and extracts full description via Claude", async () => {
+      mockFetchPage.mockResolvedValueOnce({
+        html: "<html><div class='description'>Build cloud-native SIEM platform using Rust and eBPF for kernel-level telemetry. You will architect real-time detection pipelines processing 10TB/day.</div></html>",
+        finalUrl: "https://example.com/jobs/123",
+        status: 200,
+      });
+      mockAskClaudeJSON.mockResolvedValueOnce({
+        fullDescription: "Build cloud-native SIEM platform using Rust and eBPF for kernel-level telemetry. Architect real-time detection pipelines processing 10TB/day.",
+        responsibilities: [
+          "Architect real-time detection pipelines",
+          "Build kernel-level telemetry with eBPF",
+        ],
+        requirements: [
+          "5+ years Rust experience",
+          "Experience with eBPF or kernel programming",
+        ],
+        technologies: ["Rust", "eBPF", "Kafka", "Kubernetes"],
+        teamContext: "Core Detection Engineering team",
+      });
+
+      const result = await scrapeJobDetail(
+        { messages: {} },
+        "https://example.com/jobs/123",
+        "Security Engineer",
+        "CrowdStrike"
+      );
+
+      expect(result.fullDescription).toContain("SIEM");
+      expect(result.responsibilities).toHaveLength(2);
+      expect(result.requirements).toHaveLength(2);
+      expect(result.technologies).toContain("Rust");
+      expect(result.technologies).toContain("eBPF");
+      expect(result.teamContext).toContain("Detection Engineering");
+    });
+
+    it("returns null when job detail page cannot be fetched", async () => {
+      mockFetchPage.mockResolvedValueOnce(null);
+
+      const result = await scrapeJobDetail(
+        { messages: {} },
+        "https://example.com/jobs/404",
+        "Engineer",
+        "TestCo"
+      );
+      expect(result).toBeNull();
+    });
+  });
+
+  describe("enrichJobsWithDescriptions", () => {
+    it("adds full descriptions to jobs that have URLs", async () => {
+      mockFetchPage.mockResolvedValue({
+        html: "<html><div>Job details here</div></html>",
+        finalUrl: "https://example.com/jobs/1",
+        status: 200,
+      });
+      mockAskClaudeJSON.mockResolvedValue({
+        fullDescription: "Detailed description of the role.",
+        responsibilities: ["Build things"],
+        requirements: ["Know things"],
+        technologies: ["Python"],
+        teamContext: "Engineering",
+      });
+
+      const jobs = [
+        { title: "Engineer", url: "https://example.com/jobs/1" },
+        { title: "Analyst", url: "https://example.com/jobs/2" },
+      ];
+
+      const enriched = await enrichJobsWithDescriptions(
+        { messages: {} },
+        jobs,
+        "TestCo",
+        { maxJobs: 5 }
+      );
+
+      expect(enriched[0].fullDescription).toContain("Detailed description");
+      expect(enriched[0].technologies).toContain("Python");
+      expect(enriched).toHaveLength(2);
+    });
+
+    it("skips jobs without URLs", async () => {
+      const jobs = [
+        { title: "Engineer", url: null },
+        { title: "Analyst" },
+      ];
+
+      const enriched = await enrichJobsWithDescriptions(
+        { messages: {} },
+        jobs,
+        "TestCo",
+        { maxJobs: 5 }
+      );
+
+      expect(enriched[0].fullDescription).toBeUndefined();
+      expect(enriched[1].fullDescription).toBeUndefined();
+      expect(mockFetchPage).not.toHaveBeenCalled();
+    });
+
+    it("respects maxJobs limit to control API costs", async () => {
+      mockFetchPage.mockResolvedValue({
+        html: "<html>detail</html>",
+        finalUrl: "https://example.com/jobs/1",
+        status: 200,
+      });
+      mockAskClaudeJSON.mockResolvedValue({
+        fullDescription: "desc",
+        responsibilities: [],
+        requirements: [],
+        technologies: [],
+        teamContext: null,
+      });
+
+      const jobs = Array.from({ length: 10 }, (_, i) => ({
+        title: `Job ${i}`,
+        url: `https://example.com/jobs/${i}`,
+      }));
+
+      await enrichJobsWithDescriptions({ messages: {} }, jobs, "TestCo", {
+        maxJobs: 3,
+      });
+
+      expect(mockFetchPage).toHaveBeenCalledTimes(3);
     });
   });
 

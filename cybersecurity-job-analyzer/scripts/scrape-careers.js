@@ -81,6 +81,75 @@ export async function parseJobListings(client, html, companyName) {
   return result.jobs || [];
 }
 
+export function buildJobDetailPrompt(html, jobTitle, companyName) {
+  const truncated = html.length > 30000 ? html.substring(0, 30000) + "\n[TRUNCATED]" : html;
+
+  return `Extract the full description from this individual job posting page for "${jobTitle}" at ${companyName}.
+
+Capture EVERYTHING that reveals what this role does and what the company is building:
+- fullDescription: The complete job description text (preserve full detail, do NOT summarize)
+- responsibilities: Array of key responsibilities
+- requirements: Array of required qualifications, skills, and experience
+- technologies: Array of ALL specific technologies, tools, platforms, languages, frameworks mentioned
+- teamContext: What team/group/division this role sits in, and any context about the team's mission
+
+The full description is the most important field - include all details about what this person will build, what problems they'll solve, what products they'll work on.
+
+Respond with ONLY valid JSON:
+{
+  "fullDescription": "string - complete job description, preserve all detail",
+  "responsibilities": ["string"],
+  "requirements": ["string"],
+  "technologies": ["string"],
+  "teamContext": "string or null"
+}
+
+HTML content:
+${truncated}`;
+}
+
+export async function scrapeJobDetail(client, jobUrl, jobTitle, companyName) {
+  const result = await fetchPage(jobUrl);
+  if (!result) {
+    return null;
+  }
+
+  const prompt = buildJobDetailPrompt(result.html, jobTitle, companyName);
+  return await askClaudeJSON(client, prompt, { maxTokens: 4096 });
+}
+
+export async function enrichJobsWithDescriptions(client, jobs, companyName, options = {}) {
+  const { maxJobs = 50 } = options;
+
+  const jobsWithUrls = jobs.filter((j) => j.url);
+  const jobsToEnrich = jobsWithUrls.slice(0, maxJobs);
+
+  const enrichedMap = new Map();
+
+  for (const job of jobsToEnrich) {
+    console.log(`    Fetching detail: ${job.title}...`);
+    const detail = await scrapeJobDetail(client, job.url, job.title, companyName);
+    if (detail) {
+      enrichedMap.set(job.url, detail);
+    }
+  }
+
+  return jobs.map((job) => {
+    const detail = enrichedMap.get(job.url);
+    if (detail) {
+      return {
+        ...job,
+        fullDescription: detail.fullDescription,
+        responsibilities: detail.responsibilities,
+        requirements: detail.requirements,
+        technologies: detail.technologies || job.keywords || [],
+        teamContext: detail.teamContext,
+      };
+    }
+    return job;
+  });
+}
+
 export function detectJobChanges(previous, current) {
   const prevUrls = new Set(previous.map((j) => j.url));
   const currUrls = new Set(current.map((j) => j.url));
@@ -133,10 +202,17 @@ export async function run() {
     const jobs = await parseJobListings(client, scrapeResult.html, company.name);
     console.log(`  Found ${jobs.length} jobs`);
 
-    const prevCompanyJobs = previousJobs[company.name] || [];
-    const changes = detectJobChanges(prevCompanyJobs, jobs);
+    console.log("  Enriching jobs with full descriptions...");
+    const enrichedJobs = await enrichJobsWithDescriptions(client, jobs, company.name, {
+      maxJobs: 30,
+    });
+    const enrichedCount = enrichedJobs.filter((j) => j.fullDescription).length;
+    console.log(`  Enriched ${enrichedCount}/${enrichedJobs.length} jobs with full descriptions`);
 
-    allJobs[company.name] = jobs;
+    const prevCompanyJobs = previousJobs[company.name] || [];
+    const changes = detectJobChanges(prevCompanyJobs, enrichedJobs);
+
+    allJobs[company.name] = enrichedJobs;
     allChanges[company.name] = changes;
 
     if (changes.added.length > 0) {

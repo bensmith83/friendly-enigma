@@ -31,6 +31,34 @@ describe("analyze-jobs", () => {
       expect(prompt).toContain("CrowdStrike");
       expect(prompt).toContain("AI Security Engineer");
     });
+
+    it("includes full job descriptions when available", () => {
+      const jobs = [{
+        title: "Detection Engineer",
+        department: "Threat Research",
+        fullDescription: "Build next-generation eBPF-based kernel sensors for real-time threat detection across cloud workloads.",
+        responsibilities: ["Design kernel-level telemetry pipelines"],
+        requirements: ["5+ years C/Rust", "Linux kernel internals"],
+        technologies: ["Rust", "eBPF", "Kafka"],
+        teamContext: "Core Detection Engineering",
+      }];
+      const prompt = buildStrategyPrompt("CrowdStrike", jobs, { added: jobs, removed: [] });
+      expect(prompt).toContain("eBPF-based kernel sensors");
+      expect(prompt).toContain("Rust");
+      expect(prompt).toContain("Core Detection Engineering");
+      expect(prompt).toContain("Design kernel-level telemetry pipelines");
+      expect(prompt).toContain("full job descriptions");
+    });
+
+    it("includes full descriptions in newly added jobs", () => {
+      const newJob = {
+        title: "ML Platform Engineer",
+        fullDescription: "Build ML inference platform for real-time malware classification using transformer models.",
+      };
+      const prompt = buildStrategyPrompt("SentinelOne", [newJob], { added: [newJob], removed: [] });
+      expect(prompt).toContain("NEW: ML Platform Engineer");
+      expect(prompt).toContain("ML inference platform");
+    });
   });
 
   describe("buildFinancialHealthPrompt", () => {

@@ -7,25 +7,52 @@ const ANALYSIS_FILE = getDataPath("analysis.json");
 const COMPANIES_FILE = getDataPath("companies.json");
 
 export function buildStrategyPrompt(companyName, jobs, changes) {
+  // Build rich job summaries using full descriptions when available
   const jobSummary = jobs
-    .map((j) => `- ${j.title} (${j.department || "Unknown dept"}) [${j.keywords?.join(", ") || "no keywords"}]`)
-    .join("\n");
+    .map((j) => {
+      const parts = [`- ${j.title} (${j.department || "Unknown dept"})`];
+      if (j.teamContext) {
+        parts.push(`  Team: ${j.teamContext}`);
+      }
+      if (j.fullDescription) {
+        // Include full description - this is the key intelligence
+        parts.push(`  Description: ${j.fullDescription}`);
+      }
+      if (j.responsibilities && j.responsibilities.length > 0) {
+        parts.push(`  Responsibilities: ${j.responsibilities.join("; ")}`);
+      }
+      if (j.requirements && j.requirements.length > 0) {
+        parts.push(`  Requirements: ${j.requirements.join("; ")}`);
+      }
+      const techs = j.technologies || j.keywords || [];
+      if (techs.length > 0) {
+        parts.push(`  Technologies: ${techs.join(", ")}`);
+      }
+      return parts.join("\n");
+    })
+    .join("\n\n");
 
   const newJobs = (changes.added || [])
-    .map((j) => `- NEW: ${j.title}`)
+    .map((j) => {
+      const desc = j.fullDescription ? ` — ${j.fullDescription.substring(0, 500)}` : "";
+      return `- NEW: ${j.title}${desc}`;
+    })
     .join("\n");
 
   return `Analyze the job listings for ${companyName} to identify strategic signals about their product direction and technology investments.
+
+Pay close attention to the full job descriptions — they reveal what products are being built, what problems the company is solving, what technologies they are adopting, and what teams are expanding. The descriptions are the most valuable signal.
 
 Current open positions (${jobs.length} total):
 ${jobSummary}
 
 ${newJobs ? `Newly posted positions:\n${newJobs}` : "No new positions this week."}
 
-Based on these job listings, provide:
-1. Strategic signals - what new products/capabilities are they building?
-2. New product areas they appear to be investing in
-3. Technology trends visible in their hiring (languages, frameworks, platforms)
+Based on these job listings and especially their full descriptions, provide:
+1. Strategic signals - what specific new products/capabilities are they building? What problems are they solving?
+2. New product areas they appear to be investing in (be specific — cite evidence from descriptions)
+3. Technology trends visible in their hiring (languages, frameworks, platforms, cloud providers, specific tools)
+4. Team expansion patterns - which teams are growing fastest and what does that signal?
 
 Respond with ONLY valid JSON:
 {
@@ -33,11 +60,12 @@ Respond with ONLY valid JSON:
     {
       "signal": "description of strategic signal",
       "confidence": "high|medium|low",
-      "evidence": ["specific job titles or patterns that support this"]
+      "evidence": ["specific quotes or details from job descriptions that support this"]
     }
   ],
   "newProductAreas": ["string"],
-  "technologyTrends": ["string"]
+  "technologyTrends": ["string"],
+  "teamExpansion": ["string - which teams are growing and what it suggests"]
 }`;
 }
 
