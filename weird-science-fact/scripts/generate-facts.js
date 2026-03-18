@@ -21,7 +21,7 @@ const path = require('path');
 const CONFIG = {
     ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
     FACT_COUNT: parseInt(process.env.FACT_COUNT || '50', 10),
-    MODEL: process.env.CLAUDE_MODEL || 'claude-sonnet-4-5', // Latest Sonnet 4.5 - best balance
+    MODEL: process.env.CLAUDE_MODEL || 'claude-sonnet-4-6', // Latest Sonnet 4.6 - best balance
     OUTPUT_FILE: path.join(__dirname, '../data/facts.json'),
     MAX_RETRIES: 3,
     RETRY_DELAY: 2000,
@@ -435,7 +435,7 @@ async function main() {
                 console.error(`Please check:`);
                 console.error(`  1. Your API key is valid and has credits`);
                 console.error(`  2. You have access to the model: ${CONFIG.MODEL}`);
-                console.error(`  3. Try using a different model (e.g., claude-3-haiku-20240307)\n`);
+                console.error(`  3. Try using a different model (e.g., claude-haiku-4-5-20251001)\n`);
                 process.exit(1);
             }
 

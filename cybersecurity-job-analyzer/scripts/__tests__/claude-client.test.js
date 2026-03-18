@@ -48,7 +48,7 @@ describe("claude-client", () => {
       await askClaude(createClient("key"), "test");
       expect(mockCreate).toHaveBeenCalledWith(
         expect.objectContaining({
-          model: "claude-3-5-sonnet-20241022",
+          model: "claude-sonnet-4-6",
           max_tokens: 4096,
         })
       );
@@ -60,12 +60,12 @@ describe("claude-client", () => {
       });
 
       await askClaude(createClient("key"), "test", {
-        model: "claude-haiku-4-5-20241022",
+        model: "claude-haiku-4-5-20251001",
         maxTokens: 1000,
       });
       expect(mockCreate).toHaveBeenCalledWith(
         expect.objectContaining({
-          model: "claude-haiku-4-5-20241022",
+          model: "claude-haiku-4-5-20251001",
           max_tokens: 1000,
         })
       );

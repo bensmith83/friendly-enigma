@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 
-const DEFAULT_MODEL = process.env.CLAUDE_MODEL || "claude-3-5-sonnet-20241022";
+const DEFAULT_MODEL = process.env.CLAUDE_MODEL || "claude-sonnet-4-6";
 const DEFAULT_MAX_TOKENS = 4096;
 
 export function createClient(apiKey) {
