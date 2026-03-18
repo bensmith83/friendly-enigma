@@ -158,10 +158,17 @@ export async function generateSalaryReport(client, allJobs) {
 }
 
 export async function generateWeeklyReport(client, companyAnalyses, salaryReport, date) {
+  const companiesWithJobs = companyAnalyses.filter((c) => c.jobCount > 0);
+  const companiesWithoutJobs = companyAnalyses.filter((c) => c.jobCount === 0);
+
   const summaryPrompt = `Write a 2-3 paragraph executive summary of this week's cybersecurity industry hiring analysis for ${date}.
 
-Key data:
-${companyAnalyses
+Total companies tracked: ${companyAnalyses.length}
+Companies with open positions: ${companiesWithJobs.length}
+Companies with no visible openings: ${companiesWithoutJobs.length}
+
+Companies with open positions:
+${companiesWithJobs
   .map(
     (c) =>
       `- ${c.company}: ${c.jobCount} open positions, health score ${c.financial?.healthScore || "N/A"}/10, trend: ${c.financial?.trend || "unknown"}`
@@ -171,11 +178,13 @@ ${companyAnalyses
 Notable strategy signals:
 ${companyAnalyses
   .flatMap((c) =>
-    (c.strategy?.signals || []).map((s) => `- ${c.company}: ${s.signal} (${s.confidence} confidence)`)
+    (c.strategy?.signals || []).slice(0, 2).map((s) => `- ${c.company}: ${s.signal} (${s.confidence} confidence)`)
   )
   .join("\n")}
 
 Salary overview: Median salary ${salaryReport.overallMedian ? `$${salaryReport.overallMedian.toLocaleString()}` : "data unavailable"}
+
+IMPORTANT: Write a balanced summary covering industry-wide trends. Do NOT focus disproportionately on any single company. Mention specific companies briefly as examples, but the summary should reflect the overall landscape across all ${companyAnalyses.length} tracked companies. Include observations about companies with no visible openings as well.
 
 Write a professional, insightful summary highlighting the most important trends, alerts, and signals. Do NOT use JSON formatting.`;
 
@@ -215,6 +224,15 @@ export async function run() {
     };
 
     if (companyJobs.length === 0) {
+      // Include companies with no jobs so the dashboard shows all tracked companies
+      companyAnalyses.push({
+        company: company.name,
+        category: company.category,
+        website: company.website,
+        jobCount: 0,
+        strategy: { signals: [], newProductAreas: [], technologyTrends: [], teamExpansion: [] },
+        financial: { healthScore: null, trend: "unknown", riskLevel: "unknown", signals: [], alerts: [] },
+      });
       continue;
     }
 

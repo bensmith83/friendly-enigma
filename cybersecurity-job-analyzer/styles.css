@@ -232,6 +232,7 @@ body {
 .health-medium { background: rgba(210, 153, 34, 0.15); color: var(--orange); }
 .health-high { background: rgba(248, 81, 73, 0.15); color: var(--red); }
 .health-critical { background: rgba(248, 81, 73, 0.3); color: var(--red); }
+.health-unknown { background: rgba(139, 148, 158, 0.15); color: var(--text-muted); }
 
 .company-meta {
   font-size: 0.85rem;

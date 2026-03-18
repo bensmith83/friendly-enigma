@@ -88,6 +88,25 @@ function render() {
     return;
   }
 
+  // Merge companies.json data into analysis so all tracked companies appear
+  if (state.companies && Array.isArray(state.companies)) {
+    const analysisMap = new Map(
+      state.analysis.companies.map((c) => [c.company, c])
+    );
+    for (const comp of state.companies) {
+      if (!analysisMap.has(comp.name)) {
+        state.analysis.companies.push({
+          company: comp.name,
+          category: comp.category,
+          website: comp.website,
+          jobCount: 0,
+          strategy: { signals: [], newProductAreas: [], technologyTrends: [], teamExpansion: [] },
+          financial: { healthScore: null, trend: "unknown", riskLevel: "unknown", signals: [], alerts: [] },
+        });
+      }
+    }
+  }
+
   document.getElementById("emptyState").style.display = "none";
   renderLastUpdated();
   renderStats();
@@ -109,9 +128,10 @@ function renderLastUpdated() {
 function renderStats() {
   const companies = state.analysis.companies;
   const totalJobs = companies.reduce((sum, c) => sum + (c.jobCount || 0), 0);
-  const avgHealth =
-    companies.reduce((sum, c) => sum + (c.financial?.healthScore || 0), 0) /
-    companies.length;
+  const companiesWithHealth = companies.filter((c) => c.financial?.healthScore != null);
+  const avgHealth = companiesWithHealth.length > 0
+    ? companiesWithHealth.reduce((sum, c) => sum + c.financial.healthScore, 0) / companiesWithHealth.length
+    : 0;
   const alertCount = companies.reduce(
     (sum, c) => sum + (c.financial?.alerts?.length || 0),
     0
@@ -259,10 +279,13 @@ function renderCompanyGrid() {
     companies = companies.filter((c) => c.category === state.activeFilter);
   }
 
-  // Sort by health score descending
-  companies.sort(
-    (a, b) => (b.financial?.healthScore || 0) - (a.financial?.healthScore || 0)
-  );
+  // Sort: companies with jobs first, then by health score descending
+  companies.sort((a, b) => {
+    const aHasJobs = (a.jobCount || 0) > 0 ? 1 : 0;
+    const bHasJobs = (b.jobCount || 0) > 0 ? 1 : 0;
+    if (aHasJobs !== bHasJobs) return bHasJobs - aHasJobs;
+    return (b.financial?.healthScore || 0) - (a.financial?.healthScore || 0);
+  });
 
   const grid = document.getElementById("companyGrid");
   grid.innerHTML = companies.map((c) => renderCompanyCard(c)).join("");
@@ -288,7 +311,7 @@ function renderCompanyCard(company) {
       <div class="company-meta">${escapeHtml(company.category || "Cybersecurity")}</div>
       <div class="company-stats">
         <div><span class="company-stat-value">${company.jobCount || 0}</span> jobs</div>
-        <div>Health: <span class="company-stat-value">${health.healthScore || "?"}</span>/10</div>
+        <div>Health: <span class="company-stat-value">${health.healthScore != null ? health.healthScore : "—"}</span>${health.healthScore != null ? "/10" : ""}</div>
         <div>Trend: ${trendArrow} ${escapeHtml(health.trend || "unknown")}</div>
       </div>
       ${
@@ -389,8 +412,8 @@ function renderReports() {
 // --- Helpers ---
 
 function getRiskClass(level) {
-  const map = { low: "health-low", medium: "health-medium", high: "health-high", critical: "health-critical" };
-  return map[level] || "health-medium";
+  const map = { low: "health-low", medium: "health-medium", high: "health-high", critical: "health-critical", unknown: "health-unknown" };
+  return map[level] || "health-unknown";
 }
 
 function getTrendArrow(trend) {
