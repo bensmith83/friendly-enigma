@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+    background: #0a0e17;
+    color: #e0e6ed;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #1e293b;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #38bdf8;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #94a3b8;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.meta {
+    color: #64748b;
+    font-size: 0.85rem;
+    margin-top: 0.75rem;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #1e293b;
+    padding-bottom: 0;
+}
+
+.tab {
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.2s;
+}
+
+.tab:hover {
+    color: #e0e6ed;
+}
+
+.tab.active {
+    color: #38bdf8;
+    border-bottom-color: #38bdf8;
+}
+
+/* Tab content */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.loading {
+    text-align: center;
+    padding: 3rem;
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+/* Stats grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.stat-card {
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #38bdf8;
+    line-height: 1.2;
+}
+
+.stat-value.positive { color: #34d399; }
+.stat-value.negative { color: #f87171; }
+.stat-value.neutral { color: #fbbf24; }
+
+.stat-label {
+    font-size: 0.8rem;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0.25rem;
+}
+
+/* Cards */
+.card {
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card h3 {
+    color: #e0e6ed;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #1e293b;
+}
+
+.card p {
+    color: #94a3b8;
+    line-height: 1.7;
+}
+
+/* Technology tags */
+.tech-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #1e293b;
+}
+
+.tech-item:last-child { border-bottom: none; }
+
+.tech-name {
+    font-weight: 600;
+    color: #e0e6ed;
+}
+
+.tech-context {
+    color: #94a3b8;
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+.demand-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.demand-high { background: #064e3b; color: #34d399; }
+.demand-medium { background: #422006; color: #fbbf24; }
+.demand-low { background: #1e293b; color: #94a3b8; }
+
+/* Trend items */
+.trend-item {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #1e293b;
+}
+
+.trend-item:last-child { border-bottom: none; }
+
+.trend-title {
+    font-weight: 600;
+    color: #e0e6ed;
+    margin-bottom: 0.25rem;
+}
+
+.trend-evidence {
+    color: #94a3b8;
+    font-size: 0.85rem;
+}
+
+.significance-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 8px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.sig-high { background: #7c2d12; color: #fb923c; }
+.sig-medium { background: #422006; color: #fbbf24; }
+.sig-low { background: #1e293b; color: #94a3b8; }
+
+/* Sector breakdown */
+.sector-item {
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    gap: 1rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #1e293b;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.sector-item:last-child { border-bottom: none; }
+
+.sector-name { color: #e0e6ed; font-weight: 500; }
+.sector-stat { color: #94a3b8; text-align: right; }
+
+.momentum-up { color: #34d399; }
+.momentum-down { color: #f87171; }
+.momentum-flat { color: #fbbf24; }
+
+/* Controls */
+.controls {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.search-input, .filter-select {
+    padding: 0.6rem 1rem;
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 6px;
+    color: #e0e6ed;
+    font-size: 0.9rem;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 200px;
+}
+
+.search-input:focus, .filter-select:focus {
+    outline: none;
+    border-color: #38bdf8;
+}
+
+.filter-select {
+    min-width: 160px;
+}
+
+/* Company cards */
+.company-card {
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s;
+}
+
+.company-card:hover {
+    border-color: #38bdf8;
+}
+
+.company-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.company-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #e0e6ed;
+}
+
+.company-category {
+    font-size: 0.75rem;
+    color: #64748b;
+    margin-top: 0.25rem;
+}
+
+.company-jobs {
+    text-align: right;
+}
+
+.job-count {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #38bdf8;
+}
+
+.job-change {
+    font-size: 0.85rem;
+    margin-top: 0.15rem;
+}
+
+.change-positive { color: #34d399; }
+.change-negative { color: #f87171; }
+.change-neutral { color: #64748b; }
+
+.health-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.health-strong { background: #064e3b; color: #34d399; }
+.health-healthy { background: #0c4a6e; color: #38bdf8; }
+.health-cautious { background: #422006; color: #fbbf24; }
+.health-concerning { background: #7c2d12; color: #fb923c; }
+.health-unknown { background: #1e293b; color: #64748b; }
+
+.company-section {
+    margin-top: 0.75rem;
+}
+
+.company-section h4 {
+    font-size: 0.8rem;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.4rem;
+}
+
+.company-section p {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.3rem;
+}
+
+.tech-tag {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    background: #1e293b;
+    color: #38bdf8;
+    border-radius: 4px;
+}
+
+.notable-roles {
+    list-style: none;
+    margin-top: 0.3rem;
+}
+
+.notable-roles li {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    padding: 0.15rem 0;
+}
+
+.notable-roles li::before {
+    content: "→ ";
+    color: #38bdf8;
+}
+
+/* Salary report */
+.salary-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.salary-table th, .salary-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #1e293b;
+}
+
+.salary-table th {
+    color: #64748b;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.salary-table td {
+    color: #e0e6ed;
+    font-size: 0.9rem;
+}
+
+.salary-range {
+    color: #34d399;
+    font-weight: 600;
+}
+
+.no-data-message {
+    text-align: center;
+    padding: 3rem;
+    color: #64748b;
+}
+
+.no-data-message p {
+    margin-bottom: 0.5rem;
+}
+
+/* Notable list */
+.notable-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #1e293b;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.notable-item:last-child { border-bottom: none; }
+.notable-item::before { content: "! "; color: #fbbf24; font-weight: 700; }
+
+/* History selector */
+.report-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding: 0.75rem 1rem;
+    background: #111827;
+    border-radius: 8px;
+    border: 1px solid #1e293b;
+}
+
+.report-selector label {
+    color: #64748b;
+    font-size: 0.85rem;
+}
+
+.report-selector select {
+    padding: 0.4rem 0.75rem;
+    background: #0a0e17;
+    border: 1px solid #1e293b;
+    border-radius: 4px;
+    color: #e0e6ed;
+    font-size: 0.85rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #1e293b;
+    color: #475569;
+    font-size: 0.8rem;
+}
+
+footer p { margin-bottom: 0.25rem; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container { padding: 1rem; }
+    h1 { font-size: 1.5rem; }
+    .tabs { overflow-x: auto; }
+    .tab { padding: 0.6rem 1rem; font-size: 0.85rem; white-space: nowrap; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .controls { flex-direction: column; }
+    .search-input, .filter-select { width: 100%; }
+    .company-header { flex-direction: column; gap: 0.5rem; }
+    .company-jobs { text-align: left; }
+    .sector-item { grid-template-columns: 1fr; gap: 0.25rem; }
+    .sector-stat { text-align: left; }
+}

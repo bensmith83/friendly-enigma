@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <title>Cybersecurity Job Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cybersecurity Job Tracker</h1>
+            <p class="subtitle">Weekly intelligence on hiring trends, product strategy, and compensation across the cybersecurity industry</p>
+            <div id="last-updated" class="meta"></div>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab active" data-tab="market">Market Overview</button>
+            <button class="tab" data-tab="companies">Company Intel</button>
+            <button class="tab" data-tab="salary">Salary Report</button>
+        </nav>
+
+        <main>
+            <!-- Market Overview Tab -->
+            <section id="tab-market" class="tab-content active">
+                <div id="market-loading" class="loading">Loading market data...</div>
+                <div id="market-content" class="hidden">
+                    <div class="stats-grid" id="market-stats"></div>
+                    <div class="card" id="market-summary"></div>
+                    <div class="card" id="market-technologies">
+                        <h3>Top Technologies & Skills in Demand</h3>
+                        <div id="tech-list"></div>
+                    </div>
+                    <div class="card" id="market-trends">
+                        <h3>Emerging Trends</h3>
+                        <div id="trends-list"></div>
+                    </div>
+                    <div class="card" id="market-sectors">
+                        <h3>Sector Breakdown</h3>
+                        <div id="sectors-list"></div>
+                    </div>
+                    <div class="card" id="market-notable">
+                        <h3>Notable Movements</h3>
+                        <div id="notable-list"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Company Intel Tab -->
+            <section id="tab-companies" class="tab-content">
+                <div class="controls">
+                    <input type="text" id="company-search" placeholder="Search companies..." class="search-input">
+                    <select id="company-filter" class="filter-select">
+                        <option value="all">All Categories</option>
+                    </select>
+                    <select id="health-filter" class="filter-select">
+                        <option value="all">All Health Signals</option>
+                        <option value="strong">Strong</option>
+                        <option value="healthy">Healthy</option>
+                        <option value="cautious">Cautious</option>
+                        <option value="concerning">Concerning</option>
+                    </select>
+                    <select id="sort-by" class="filter-select">
+                        <option value="jobs-desc">Most Jobs</option>
+                        <option value="jobs-asc">Fewest Jobs</option>
+                        <option value="change-desc">Biggest Growth</option>
+                        <option value="change-asc">Biggest Decline</option>
+                        <option value="alpha">Alphabetical</option>
+                    </select>
+                </div>
+                <div id="companies-loading" class="loading">Loading company data...</div>
+                <div id="companies-list"></div>
+            </section>
+
+            <!-- Salary Report Tab -->
+            <section id="tab-salary" class="tab-content">
+                <div id="salary-loading" class="loading">Loading salary data...</div>
+                <div id="salary-content" class="hidden">
+                    <div id="salary-overview" class="card"></div>
+                    <div id="salary-by-role" class="card">
+                        <h3>Compensation by Role Type</h3>
+                        <div id="role-salary-list"></div>
+                    </div>
+                    <div id="salary-by-level" class="card">
+                        <h3>Compensation by Level</h3>
+                        <div id="level-salary-list"></div>
+                    </div>
+                    <div id="salary-top" class="card">
+                        <h3>Highest Paying Roles</h3>
+                        <div id="top-salary-list"></div>
+                    </div>
+                    <div id="salary-insights" class="card">
+                        <h3>Key Insights</h3>
+                        <div id="insights-list"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Data sourced directly from company careers pages. Updated weekly.</p>
+            <p>Analysis powered by Claude. Strategy inferences are speculative and should not be taken as fact.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

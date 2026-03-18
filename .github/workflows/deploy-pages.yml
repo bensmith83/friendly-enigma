@@ -19,6 +19,7 @@ on:
       - 'ai-honeypot-generator/**'
       - 'wasm-testbed/**'
       - 'about/**'
+      - 'cybersecurity-job-tracker/**'
       - '.github/workflows/deploy-pages.yml'
   pull_request:
     paths:
@@ -34,6 +35,7 @@ on:
       - 'ai-honeypot-generator/**'
       - 'wasm-testbed/**'
       - 'about/**'
+      - 'cybersecurity-job-tracker/**'
   # Auto-deploy after data-generating workflows complete
   workflow_run:
     workflows:
@@ -41,6 +43,7 @@ on:
       - "Generate Sci-Fi Content"
       - "ALS Research Aggregator"
       - "Generate Science Facts"
+      - "Cybersecurity Job Tracker"
     types:
       - completed
     branches:
@@ -130,6 +133,9 @@ jobs:
 
           # Copy about to /about subdirectory
           cp -r about _site/about
+
+          # Copy cybersecurity-job-tracker to /cybersecurity-job-tracker subdirectory
+          cp -r cybersecurity-job-tracker _site/cybersecurity-job-tracker
 
           # Create index.html that redirects to blog or provides navigation
           cat > _site/index.html << 'EOF'
@@ -226,6 +232,10 @@ jobs:
                       <a href="/friendly-enigma/ai-honeypot-generator/" class="project-link">
                           <div class="project-title">🍯 Internal Services</div>
                           <div class="project-desc">Development and automation tools portal</div>
+                      </a>
+                      <a href="/friendly-enigma/cybersecurity-job-tracker/" class="project-link">
+                          <div class="project-title">Cybersecurity Job Tracker</div>
+                          <div class="project-desc">Weekly intelligence on hiring trends, product strategy, and compensation across the cybersecurity industry</div>
                       </a>
                       <a href="/friendly-enigma/wasm-testbed/" class="project-link">
                           <div class="project-title">🚀 WebAssembly Performance Lab</div>
