@@ -45,15 +45,17 @@ export async function askClaudeJSON(client, prompt, options = {}) {
 }
 
 function parseJSONResponse(text) {
-  // Try direct parse first
+  let cleaned = text.trim();
+
+  // Strip markdown code fences if present (handles both complete and truncated blocks)
+  const fenceStart = cleaned.indexOf("```");
+  if (fenceStart !== -1) {
+    cleaned = cleaned.substring(fenceStart).replace(/^```(?:json)?\s*\n?/, "").replace(/\n?```\s*$/, "");
+  }
+
   try {
-    return JSON.parse(text);
+    return JSON.parse(cleaned);
   } catch {
-    // Try extracting from markdown code block
-    const codeBlockMatch = text.match(/```(?:json)?\s*\n?([\s\S]*?)\n?```/);
-    if (codeBlockMatch) {
-      return JSON.parse(codeBlockMatch[1].trim());
-    }
-    throw new Error(`Failed to parse JSON from response: ${text.substring(0, 200)}`);
+    throw new Error(`Failed to parse JSON from response: ${cleaned.substring(0, 200)}`);
   }
 }
