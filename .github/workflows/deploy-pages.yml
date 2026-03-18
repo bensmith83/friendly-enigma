@@ -18,6 +18,7 @@ on:
       - 'browser-vulnerability-scanner/**'
       - 'ai-honeypot-generator/**'
       - 'wasm-testbed/**'
+      - 'cybersecurity-job-analyzer/**'
       - 'about/**'
       - '.github/workflows/deploy-pages.yml'
   pull_request:
@@ -33,6 +34,7 @@ on:
       - 'browser-vulnerability-scanner/**'
       - 'ai-honeypot-generator/**'
       - 'wasm-testbed/**'
+      - 'cybersecurity-job-analyzer/**'
       - 'about/**'
   # Auto-deploy after data-generating workflows complete
   workflow_run:
@@ -41,6 +43,7 @@ on:
       - "Generate Sci-Fi Content"
       - "ALS Research Aggregator"
       - "Generate Science Facts"
+      - "Cybersecurity Job Analyzer"
     types:
       - completed
     branches:
@@ -127,6 +130,11 @@ jobs:
 
           # Copy wasm-testbed to /wasm-testbed subdirectory
           cp -r wasm-testbed _site/wasm-testbed
+
+          # Copy cybersecurity-job-analyzer to /cybersecurity-job-analyzer subdirectory
+          mkdir -p _site/cybersecurity-job-analyzer
+          cp -r cybersecurity-job-analyzer/index.html cybersecurity-job-analyzer/styles.css cybersecurity-job-analyzer/script.js _site/cybersecurity-job-analyzer/
+          cp -r cybersecurity-job-analyzer/data _site/cybersecurity-job-analyzer/data 2>/dev/null || mkdir -p _site/cybersecurity-job-analyzer/data
 
           # Copy about to /about subdirectory
           cp -r about _site/about
@@ -226,6 +234,10 @@ jobs:
                       <a href="/friendly-enigma/ai-honeypot-generator/" class="project-link">
                           <div class="project-title">🍯 Internal Services</div>
                           <div class="project-desc">Development and automation tools portal</div>
+                      </a>
+                      <a href="/friendly-enigma/cybersecurity-job-analyzer/" class="project-link">
+                          <div class="project-title">🛡️ Cybersecurity Job Analyzer</div>
+                          <div class="project-desc">Weekly analysis of cybersecurity hiring trends, strategy signals, and salary data</div>
                       </a>
                       <a href="/friendly-enigma/wasm-testbed/" class="project-link">
                           <div class="project-title">🚀 WebAssembly Performance Lab</div>

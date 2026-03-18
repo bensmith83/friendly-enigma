@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybersecurity Job Analyzer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Cybersecurity Job Analyzer</h1>
+    <div class="header-meta">
+      <span id="lastUpdated">Loading...</span>
+    </div>
+  </div>
+
+  <div class="nav-tabs">
+    <button class="nav-tab active" data-view="dashboard">Dashboard</button>
+    <button class="nav-tab" data-view="salary">Salary Report</button>
+    <button class="nav-tab" data-view="reports">Weekly Reports</button>
+  </div>
+
+  <div class="container">
+    <!-- Dashboard View -->
+    <div id="dashboard" class="view active">
+      <div class="stats-row" id="statsRow"></div>
+      <div id="techCloudSection"></div>
+      <div id="alertsSection" class="alerts-section"></div>
+      <div class="filters" id="categoryFilters"></div>
+      <h2 class="section-header">Company Analysis</h2>
+      <div class="company-grid" id="companyGrid"></div>
+    </div>
+
+    <!-- Salary View -->
+    <div id="salary" class="view">
+      <div class="stats-row" id="salaryStats"></div>
+      <h2 class="section-header">Salary by Role Category</h2>
+      <div class="salary-grid" id="salaryGrid"></div>
+      <h2 class="section-header">Top Paying Positions</h2>
+      <div id="topPaying"></div>
+    </div>
+
+    <!-- Reports View -->
+    <div id="reports" class="view">
+      <div class="report-list" id="reportList"></div>
+    </div>
+
+    <!-- Loading State -->
+    <div id="loadingState" class="loading" style="display: none;">
+      <div class="loading-spinner"></div>
+      <p>Loading analysis data...</p>
+    </div>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="empty-state" style="display: none;">
+      <p>No analysis data yet</p>
+      <p class="hint">The analyzer runs weekly via GitHub Actions. Data will appear after the first run.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

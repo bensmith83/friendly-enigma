@@ -1,0 +1,26 @@
+{
+  "name": "cybersecurity-job-analyzer",
+  "version": "1.0.0",
+  "description": "Tracks cybersecurity company hiring trends, strategy signals, and salary data",
+  "type": "module",
+  "scripts": {
+    "discover": "node discover-companies.js",
+    "scrape": "node scrape-careers.js",
+    "analyze": "node analyze-jobs.js",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest --coverage",
+    "test:watch": "NODE_OPTIONS='--experimental-vm-modules' jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0"
+  }
+}
