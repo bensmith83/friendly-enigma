@@ -9,7 +9,8 @@
     "careerPageHint": "https://www.crowdstrike.com/careers",
     "careerUrl": "https://www.crowdstrike.com/en-us/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/crowdstrike"
   },
   {
     "name": "Microsoft Security",
@@ -33,7 +34,8 @@
     "careerPageHint": "https://www.sentinelone.com/careers",
     "careerUrl": "https://www.sentinelone.com/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/sentinelone"
   },
   {
     "name": "Rapid7",
@@ -69,7 +71,8 @@
     "careerPageHint": "https://www.huntress.com/careers",
     "careerUrl": "https://www.huntress.com/company/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/huntress"
   },
   {
     "name": "WithSecure",
@@ -93,7 +96,8 @@
     "careerPageHint": "https://arcticwolf.com/careers",
     "careerUrl": "https://arcticwolf.com/company/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/arcticwolf"
   },
   {
     "name": "Palo Alto Networks",
@@ -105,7 +109,8 @@
     "careerPageHint": "https://www.paloaltonetworks.com/careers",
     "careerUrl": "https://jobs.paloaltonetworks.com/en",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://jobs.smartrecruiters.com/PaloAltoNetworks"
   },
   {
     "name": "Wiz",
@@ -117,7 +122,8 @@
     "careerPageHint": "https://www.wiz.io/careers",
     "careerUrl": "https://www.wiz.io/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/wizinc"
   },
   {
     "name": "Lacework",
@@ -141,7 +147,8 @@
     "careerPageHint": "https://snyk.io/careers",
     "careerUrl": "https://snyk.io/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/snyk"
   },
   {
     "name": "Aqua Security",
@@ -153,7 +160,8 @@
     "careerPageHint": "https://www.aquasec.com/careers",
     "careerUrl": "https://www.aquasec.com/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/aquasecurity"
   },
   {
     "name": "Tenable",
@@ -165,7 +173,8 @@
     "careerPageHint": "https://www.tenable.com/careers",
     "careerUrl": "https://www.tenable.com/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/tenableinc"
   },
   {
     "name": "Orca Security",
@@ -177,7 +186,8 @@
     "careerPageHint": "https://www.orca.security/careers",
     "careerUrl": "https://orca.security/about/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/orcasecurity"
   },
   {
     "name": "Okta",
@@ -189,7 +199,8 @@
     "careerPageHint": "https://www.okta.com/company/careers/",
     "careerUrl": "https://www.okta.com/company/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/okta"
   },
   {
     "name": "Ping Identity",
@@ -213,7 +224,8 @@
     "careerPageHint": "https://jumpcloud.com/careers",
     "careerUrl": "https://jumpcloud.com/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/jumpcloud"
   },
   {
     "name": "Auth0 (Okta)",
@@ -297,7 +309,8 @@
     "careerPageHint": "https://www.zscaler.com/careers",
     "careerUrl": "https://www.zscaler.com/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/zscaler"
   },
   {
     "name": "Cloudflare",
@@ -309,7 +322,8 @@
     "careerPageHint": "https://www.cloudflare.com/careers",
     "careerUrl": "https://www.cloudflare.com/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/cloudflare"
   },
   {
     "name": "Abnormal Security",
@@ -321,7 +335,8 @@
     "careerPageHint": "https://www.abnormalsecurity.com/careers",
     "careerUrl": "https://abnormal.ai/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/abnormalsecurity"
   },
   {
     "name": "Netscout Systems",
@@ -381,7 +396,8 @@
     "careerPageHint": "https://www.exabeam.com/company/careers",
     "careerUrl": "https://www.exabeam.com/company/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/exabeam"
   },
   {
     "name": "D3 Security",
@@ -405,7 +421,8 @@
     "careerPageHint": "https://www.recordedfuture.com/careers",
     "careerUrl": "https://www.recordedfuture.com/work-with-us",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/recordedfuture"
   },
   {
     "name": "Anomali",
@@ -429,7 +446,8 @@
     "careerPageHint": "https://www.flashpoint.io/careers",
     "careerUrl": "https://flashpoint.io/about-us/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/flashpoint"
   },
   {
     "name": "Censys",
@@ -441,7 +459,8 @@
     "careerPageHint": "https://censys.io/careers",
     "careerUrl": "https://censys.com/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://jobs.ashbyhq.com/censys"
   },
   {
     "name": "Axur",
@@ -477,7 +496,8 @@
     "careerPageHint": "https://checkmarx.com/careers",
     "careerUrl": "https://checkmarx.com/company/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/checkmarx"
   },
   {
     "name": "Veracode",
@@ -489,7 +509,8 @@
     "careerPageHint": "https://www.veracode.com/careers",
     "careerUrl": "https://www.veracode.com/about/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/veracode"
   },
   {
     "name": "GitLab",
@@ -501,7 +522,8 @@
     "careerPageHint": "https://about.gitlab.com/jobs",
     "careerUrl": "https://about.gitlab.com/jobs/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/gitlab"
   },
   {
     "name": "Semgrep",
@@ -513,7 +535,8 @@
     "careerPageHint": "https://semgrep.dev/careers",
     "careerUrl": "https://semgrep.dev/about/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/semgrep"
   },
   {
     "name": "Contrast Security",
@@ -525,7 +548,8 @@
     "careerPageHint": "https://www.contrastsecurity.com/careers",
     "careerUrl": "https://www.contrastsecurity.com/contrast-careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/contrastsecurity"
   },
   {
     "name": "Varonis",
@@ -537,7 +561,8 @@
     "careerPageHint": "https://www.varonis.com/company/careers",
     "careerUrl": "https://www.varonis.com/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/varonis"
   },
   {
     "name": "Imperva",
@@ -549,7 +574,8 @@
     "careerPageHint": "https://www.imperva.com/careers",
     "careerUrl": "https://www.imperva.com/company/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/imperva"
   },
   {
     "name": "BigID",
@@ -561,7 +587,8 @@
     "careerPageHint": "https://www.bigid.com/careers",
     "careerUrl": "https://bigid.com/company/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/bigid"
   },
   {
     "name": "Securiti.ai",
@@ -573,7 +600,8 @@
     "careerPageHint": "https://www.securiti.ai/careers",
     "careerUrl": "https://securiti.ai/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/securitiai"
   },
   {
     "name": "Cybereason",
@@ -585,7 +613,8 @@
     "careerPageHint": "https://www.cybereason.com/careers",
     "careerUrl": "https://www.cybereason.com/company/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/cybereason"
   },
   {
     "name": "Fortanix",
@@ -597,7 +626,8 @@
     "careerPageHint": "https://www.fortanix.com/careers",
     "careerUrl": "https://www.fortanix.com/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/fortanix"
   },
   {
     "name": "Fortive",
@@ -621,7 +651,8 @@
     "careerPageHint": "https://www.claroty.com/careers",
     "careerUrl": "https://www.claroty.com/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/claroty"
   },
   {
     "name": "Fortiphyd Logic",
@@ -645,7 +676,8 @@
     "careerPageHint": "https://www.nozominetworks.com/careers",
     "careerUrl": "https://www.nozominetworks.com/company/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/nozominetworks"
   },
   {
     "name": "Dragos",
@@ -657,7 +689,8 @@
     "careerPageHint": "https://www.dragos.com/careers",
     "careerUrl": "https://www.dragos.com/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/dragos"
   },
   {
     "name": "Kaspersky",
@@ -717,7 +750,8 @@
     "careerPageHint": "https://www.vanta.com/careers",
     "careerUrl": "https://www.vanta.com/company/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/vanta"
   },
   {
     "name": "Secureframe",
@@ -729,7 +763,8 @@
     "careerPageHint": "https://www.secureframe.com/careers",
     "careerUrl": "https://secureframe.com/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/secureframe"
   },
   {
     "name": "OneTrust",
@@ -741,7 +776,8 @@
     "careerPageHint": "https://www.onetrust.com/careers",
     "careerUrl": "https://www.onetrust.com/careers/",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://boards.greenhouse.io/onetrust"
   },
   {
     "name": "MetricStream",
@@ -765,6 +801,7 @@
     "careerPageHint": "https://www.drata.com/careers",
     "careerUrl": "https://drata.com/about/careers",
     "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
+    "lastUpdated": "2026-03-18T22:50:42.787Z",
+    "atsUrl": "https://jobs.ashbyhq.com/drata"
   }
 ]

@@ -1,6 +1,6 @@
 import { createClient, askClaudeJSON } from "./lib/claude-client.js";
 import { readJSON, writeJSON, getDataPath } from "./lib/data-store.js";
-import { fetchPage } from "./lib/scraper.js";
+import { fetchPage, discoverAtsJobs } from "./lib/scraper.js";
 
 const COMPANIES_FILE = getDataPath("companies.json");
 const JOBS_FILE = getDataPath("jobs.json");
@@ -49,11 +49,26 @@ ${truncated}`;
 }
 
 export async function scrapeCompanyCareers(company) {
+  // Step 1: Try ATS API discovery (Greenhouse, Lever, Ashby) using company name
+  // This is the most reliable method - bypasses JS-rendered career pages entirely
+  const atsResult = await discoverAtsJobs(company.name, company.atsUrl);
+  if (atsResult) {
+    console.log(`  Found via ${atsResult.source} (slug: ${atsResult.slug || "direct"})`);
+    return {
+      company: company.name,
+      success: true,
+      html: atsResult.html,
+      finalUrl: atsResult.finalUrl,
+      source: atsResult.source,
+    };
+  }
+
+  // Step 2: Fall back to HTML scraping of career page
   if (!company.careerUrl || !company.careerUrlVerified) {
     return {
       company: company.name,
       success: false,
-      reason: "Skipped: no verified career URL",
+      reason: "Skipped: no verified career URL and ATS API discovery found no results",
       jobs: [],
     };
   }
@@ -63,7 +78,7 @@ export async function scrapeCompanyCareers(company) {
     return {
       company: company.name,
       success: false,
-      reason: "Failed to fetch career page",
+      reason: "Failed to fetch career page (ATS API discovery also found no results)",
       jobs: [],
     };
   }

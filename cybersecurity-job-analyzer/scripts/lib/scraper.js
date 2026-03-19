@@ -64,6 +64,90 @@ const ATS_API_PATTERNS = [
   },
 ];
 
+// Generate candidate ATS slugs from a company name.
+// Most ATS platforms use the company name (lowercase, no spaces) as the board slug.
+function generateAtsSlugs(companyName) {
+  const base = companyName
+    .toLowerCase()
+    .replace(/\s*\(.*?\)\s*/g, "")     // Remove parenthetical like "(Okta)"
+    .replace(/[^a-z0-9\s-]/g, "")       // Remove special chars
+    .trim();
+
+  const slugs = new Set();
+  // "Palo Alto Networks" -> "paloaltonetworks", "palo-alto-networks"
+  slugs.add(base.replace(/[\s-]+/g, ""));
+  slugs.add(base.replace(/\s+/g, "-"));
+  // First word only: "CrowdStrike" -> "crowdstrike"
+  const firstWord = base.split(/\s+/)[0];
+  if (firstWord.length > 3) slugs.add(firstWord);
+  // Without common suffixes: "Nozomi Networks" -> "nozomi"
+  const withoutSuffix = base.replace(/\s+(security|networks?|systems?|labs?|inc|io|ai)\s*$/i, "").replace(/\s+/g, "");
+  if (withoutSuffix.length > 3) slugs.add(withoutSuffix);
+
+  return [...slugs];
+}
+
+// Try to discover a company's job listings via ATS JSON APIs.
+// Probes Greenhouse, Lever, and Ashby using slugs derived from the company name.
+export async function discoverAtsJobs(companyName, atsUrl) {
+  // If an explicit ATS URL is provided, try it first
+  if (atsUrl) {
+    const result = await tryAtsApi(atsUrl);
+    if (result) return result;
+  }
+
+  const slugs = generateAtsSlugs(companyName);
+  const apis = [
+    { name: "greenhouse", toUrl: (s) => `https://boards-api.greenhouse.io/v1/boards/${s}/jobs`,
+      transform: (data) => JSON.stringify({ jobs: (data.jobs || []).map(j => ({
+        title: j.title, department: j.departments?.[0]?.name, location: j.location?.name,
+        url: j.absolute_url, id: j.id,
+      })) }),
+      validate: (data) => Array.isArray(data.jobs),
+    },
+    { name: "lever", toUrl: (s) => `https://api.lever.co/v0/postings/${s}`,
+      transform: (data) => JSON.stringify({ jobs: (Array.isArray(data) ? data : []).map(j => ({
+        title: j.text, department: j.categories?.department, location: j.categories?.location,
+        url: j.hostedUrl, id: j.id,
+      })) }),
+      validate: (data) => Array.isArray(data),
+    },
+    { name: "ashby", toUrl: (s) => `https://api.ashbyhq.com/posting-api/job-board/${s}`,
+      transform: (data) => JSON.stringify({ jobs: (data.jobs || []).map(j => ({
+        title: j.title, department: j.departmentName, location: j.locationName,
+        url: j.jobUrl, id: j.id,
+      })) }),
+      validate: (data) => data.jobs !== undefined,
+    },
+  ];
+
+  for (const slug of slugs) {
+    for (const api of apis) {
+      try {
+        const url = api.toUrl(slug);
+        const response = await fetch(url, {
+          headers: { Accept: "application/json" },
+          signal: AbortSignal.timeout(8000),
+        });
+        if (!response.ok) continue;
+
+        const data = await response.json();
+        if (!api.validate(data)) continue;
+
+        const html = api.transform(data);
+        // Check the result actually has jobs
+        const parsed = JSON.parse(html);
+        if (parsed.jobs && parsed.jobs.length > 0) {
+          return { html, finalUrl: url, status: response.status, source: `${api.name}-api`, slug };
+        }
+      } catch {
+        continue;
+      }
+    }
+  }
+  return null;
+}
+
 export async function tryAtsApi(url) {
   for (const pattern of ATS_API_PATTERNS) {
     const match = url.match(pattern.match);

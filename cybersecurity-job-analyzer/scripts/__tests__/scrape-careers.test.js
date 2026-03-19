@@ -2,12 +2,14 @@ import { jest } from "@jest/globals";
 
 const mockFetchPage = jest.fn();
 const mockExtractJobLinks = jest.fn();
+const mockDiscoverAtsJobs = jest.fn();
 const mockAskClaudeJSON = jest.fn();
 
 jest.unstable_mockModule("../lib/scraper.js", () => ({
   fetchPage: mockFetchPage,
   extractJobLinks: mockExtractJobLinks,
   resolveCareerUrl: jest.fn(),
+  discoverAtsJobs: mockDiscoverAtsJobs,
 }));
 
 jest.unstable_mockModule("../lib/claude-client.js", () => ({
@@ -29,6 +31,8 @@ const {
 describe("scrape-careers", () => {
   beforeEach(() => {
     jest.clearAllMocks();
+    // By default, ATS discovery returns null (no ATS board found)
+    mockDiscoverAtsJobs.mockResolvedValue(null);
   });
 
   describe("buildJobExtractionPrompt", () => {
