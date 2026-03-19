@@ -95,9 +95,9 @@
       }
     },
     {
-      "company": "Microsoft Defender for Endpoint",
+      "company": "Microsoft Security",
       "category": "Endpoint Security",
-      "website": "https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint",
+      "website": "https://www.microsoft.com/en-us/security",
       "jobCount": 0,
       "strategy": {
         "signals": [],
@@ -133,9 +133,9 @@
       }
     },
     {
-      "company": "Rapid7 InsightIDR",
+      "company": "Rapid7",
       "category": "SIEM/SOAR",
-      "website": "https://www.rapid7.com/products/insightidr",
+      "website": "https://www.rapid7.com",
       "jobCount": 0,
       "strategy": {
         "signals": [],
@@ -152,7 +152,7 @@
       }
     },
     {
-      "company": "Yext",
+      "company": "Elastic Security",
       "category": "Endpoint Security",
       "website": "https://www.elastic.co/security",
       "jobCount": 0,
@@ -248,7 +248,7 @@
     },
     {
       "company": "Wiz",
-      "category": "Network Security",
+      "category": "Cloud Security",
       "website": "https://www.wiz.io",
       "jobCount": 0,
       "strategy": {
@@ -323,9 +323,9 @@
       }
     },
     {
-      "company": "Ermetic (now Wiz subsidiary)",
+      "company": "Tenable",
       "category": "Cloud Security",
-      "website": "https://www.ermetic.com",
+      "website": "https://www.tenable.com",
       "jobCount": 0,
       "strategy": {
         "signals": [],
@@ -399,47 +399,9 @@
       }
     },
     {
-      "company": "Microsoft Entra ID (formerly Azure AD)",
-      "category": "Identity & Access Management",
-      "website": "https://www.microsoft.com/en-us/security/business/microsoft-entra",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
       "company": "JumpCloud",
       "category": "Identity & Access Management",
       "website": "https://jumpcloud.com",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
-      "company": "Auth0",
-      "category": "Identity & Access Management",
-      "website": "https://auth0.com",
       "jobCount": 0,
       "strategy": {
         "signals": [],
@@ -627,9 +589,9 @@
       }
     },
     {
-      "company": "Palo Alto Networks (Cortex)",
+      "company": "IBM Security",
       "category": "SIEM/SOAR",
-      "website": "https://www.paloaltonetworks.com",
+      "website": "https://www.ibm.com/security",
       "jobCount": 0,
       "strategy": {
         "signals": [],
@@ -646,47 +608,9 @@
       }
     },
     {
-      "company": "IBM Security QRadar",
+      "company": "Google Cloud Security",
       "category": "SIEM/SOAR",
-      "website": "https://www.ibm.com/security/qradar",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
-      "company": "Elasticsearch Security",
-      "category": "SIEM/SOAR",
-      "website": "https://www.elastic.co/security",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
-      "company": "Chronicle Security Operations",
-      "category": "SIEM/SOAR",
-      "website": "https://chronicle.security",
+      "website": "https://cloud.google.com/security",
       "jobCount": 0,
       "strategy": {
         "signals": [],
@@ -741,25 +665,6 @@
       }
     },
     {
-      "company": "Mandiant",
-      "category": "Threat Intelligence",
-      "website": "https://www.mandiant.com",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
       "company": "Recorded Future",
       "category": "Threat Intelligence",
       "website": "https://www.recordedfuture.com",
@@ -779,9 +684,9 @@
       }
     },
     {
-      "company": "ThreatStream",
+      "company": "Anomali",
       "category": "Threat Intelligence",
-      "website": "https://www.anomali.com/threatstream",
+      "website": "https://www.anomali.com",
       "jobCount": 0,
       "strategy": {
         "signals": [],
@@ -912,26 +817,7 @@
       }
     },
     {
-      "company": "Fortify (Micro Focus)",
-      "category": "Application Security",
-      "website": "https://www.fortify.com",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
-      "company": "GitLab (Application Security)",
+      "company": "GitLab",
       "category": "Application Security",
       "website": "https://gitlab.com",
       "jobCount": 0,
@@ -1007,47 +893,9 @@
       }
     },
     {
-      "company": "Collibra",
-      "category": "Data Security",
-      "website": "https://www.collibra.com",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
       "company": "Imperva",
       "category": "Data Security",
       "website": "https://www.imperva.com",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
-      "company": "Talend",
-      "category": "Data Security",
-      "website": "https://www.talend.com",
       "jobCount": 0,
       "strategy": {
         "signals": [],
@@ -1103,7 +951,7 @@
     },
     {
       "company": "Cybereason",
-      "category": "Data Security",
+      "category": "Endpoint Security",
       "website": "https://www.cybereason.com",
       "jobCount": 0,
       "strategy": {
@@ -1140,7 +988,7 @@
       }
     },
     {
-      "company": "Fortive (Industrial Cybersecurity Division)",
+      "company": "Fortive",
       "category": "IoT/OT Security",
       "website": "https://www.fortive.com",
       "jobCount": 0,
@@ -1235,26 +1083,7 @@
       }
     },
     {
-      "company": "Tenable (OT Security)",
-      "category": "IoT/OT Security",
-      "website": "https://www.tenable.com",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
-      "company": "Kaspersky ICS/SCADA Security",
+      "company": "Kaspersky",
       "category": "IoT/OT Security",
       "website": "https://www.kaspersky.com",
       "jobCount": 0,
@@ -1314,25 +1143,6 @@
       "company": "AuditBoard",
       "category": "GRC/Compliance",
       "website": "https://www.auditboard.com",
-      "jobCount": 0,
-      "strategy": {
-        "signals": [],
-        "newProductAreas": [],
-        "technologyTrends": [],
-        "teamExpansion": []
-      },
-      "financial": {
-        "healthScore": null,
-        "trend": "unknown",
-        "riskLevel": "unknown",
-        "signals": [],
-        "alerts": []
-      }
-    },
-    {
-      "company": "Domo",
-      "category": "GRC/Compliance",
-      "website": "https://www.domo.com",
       "jobCount": 0,
       "strategy": {
         "signals": [],

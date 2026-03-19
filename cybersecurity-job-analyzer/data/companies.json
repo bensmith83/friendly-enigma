@@ -12,13 +12,13 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Microsoft Defender for Endpoint",
-    "website": "https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint",
+    "name": "Microsoft Security",
+    "website": "https://www.microsoft.com/en-us/security",
     "category": "Endpoint Security",
-    "description": "Microsoft's integrated endpoint protection platform offering threat detection, investigation, and response capabilities.",
-    "founded": 2017,
+    "description": "Microsoft's comprehensive security platform spanning endpoint protection (Defender), identity (Entra), cloud security, and SIEM (Sentinel).",
+    "founded": 1975,
     "isStartup": false,
-    "careerPageHint": null,
+    "careerPageHint": "https://careers.microsoft.com",
     "careerUrl": null,
     "careerUrlVerified": false,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
@@ -36,10 +36,10 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Rapid7 InsightIDR",
-    "website": "https://www.rapid7.com/products/insightidr",
+    "name": "Rapid7",
+    "website": "https://www.rapid7.com",
     "category": "SIEM/SOAR",
-    "description": "Cloud-native SIEM and managed detection and response platform combining security monitoring with threat investigation.",
+    "description": "Provides vulnerability management, SIEM (InsightIDR), SOAR, and managed detection and response across enterprise environments.",
     "founded": 2000,
     "isStartup": false,
     "careerPageHint": "https://www.rapid7.com/careers",
@@ -48,11 +48,11 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Yext",
+    "name": "Elastic Security",
     "website": "https://www.elastic.co/security",
     "category": "Endpoint Security",
-    "description": "Elastic Security provides endpoint protection, detection, and response integrated with security analytics and threat intelligence.",
-    "founded": 2011,
+    "description": "Elastic Security provides endpoint protection, SIEM, and threat hunting integrated with the Elastic Stack for security analytics.",
+    "founded": 2012,
     "isStartup": false,
     "careerPageHint": "https://www.elastic.co/careers",
     "careerUrl": "https://www.elastic.co/careers",
@@ -110,7 +110,7 @@
   {
     "name": "Wiz",
     "website": "https://www.wiz.io",
-    "category": "Network Security",
+    "category": "Cloud Security",
     "description": "Cloud security platform providing visibility and threat detection across cloud infrastructure and networks.",
     "founded": 2020,
     "isStartup": true,
@@ -123,12 +123,12 @@
     "name": "Lacework",
     "website": "https://www.lacework.com",
     "category": "Cloud Security",
-    "description": "Provides cloud security platform with automated threat detection and compliance monitoring for AWS, Azure, and GCP.",
+    "description": "Provides cloud security platform with automated threat detection and compliance monitoring for AWS, Azure, and GCP. Acquired by Fortinet in 2024.",
     "founded": 2015,
     "isStartup": false,
-    "careerPageHint": "https://www.lacework.com/careers",
-    "careerUrl": "https://www.fortinet.com/products/forticnapp",
-    "careerUrlVerified": true,
+    "careerPageHint": "https://www.fortinet.com/corporate/careers",
+    "careerUrl": null,
+    "careerUrlVerified": false,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
@@ -156,14 +156,14 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Ermetic (now Wiz subsidiary)",
-    "website": "https://www.ermetic.com",
+    "name": "Tenable",
+    "website": "https://www.tenable.com",
     "category": "Cloud Security",
-    "description": "Cloud-native security platform focused on detecting and responding to misconfigurations and compliance violations.",
-    "founded": 2017,
-    "isStartup": true,
-    "careerPageHint": null,
-    "careerUrl": "https://www.tenable.com/careers?source=careers",
+    "description": "Exposure management platform providing vulnerability assessment, cloud security (via Ermetic acquisition), and risk analytics across IT, OT, and cloud.",
+    "founded": 2002,
+    "isStartup": false,
+    "careerPageHint": "https://www.tenable.com/careers",
+    "careerUrl": "https://www.tenable.com/careers",
     "careerUrlVerified": true,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
@@ -204,18 +204,6 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Microsoft Entra ID (formerly Azure AD)",
-    "website": "https://www.microsoft.com/en-us/security/business/microsoft-entra",
-    "category": "Identity & Access Management",
-    "description": "Microsoft's cloud-based identity and access management service integrated with Office 365 and enterprise applications.",
-    "founded": 2009,
-    "isStartup": false,
-    "careerPageHint": null,
-    "careerUrl": null,
-    "careerUrlVerified": false,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
-  },
-  {
     "name": "JumpCloud",
     "website": "https://jumpcloud.com",
     "category": "Identity & Access Management",
@@ -228,13 +216,13 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Auth0",
+    "name": "Auth0 (Okta)",
     "website": "https://auth0.com",
     "category": "Identity & Access Management",
-    "description": "Developer-focused identity platform offering authentication, authorization, and user management for applications and APIs.",
+    "description": "Developer-focused identity platform offering authentication, authorization, and user management. Acquired by Okta in 2021.",
     "founded": 2013,
     "isStartup": false,
-    "careerPageHint": "https://auth0.com/careers",
+    "careerPageHint": "https://www.okta.com/company/careers/",
     "careerUrl": "https://www.okta.com/company/careers/",
     "careerUrlVerified": true,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
@@ -271,8 +259,8 @@
     "founded": 2021,
     "isStartup": true,
     "careerPageHint": "https://stytch.com/careers",
-    "careerUrl": "https://jobs.twilio.com/careers",
-    "careerUrlVerified": true,
+    "careerUrl": null,
+    "careerUrlVerified": false,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
@@ -360,23 +348,11 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Palo Alto Networks (Cortex)",
-    "website": "https://www.paloaltonetworks.com",
+    "name": "IBM Security",
+    "website": "https://www.ibm.com/security",
     "category": "SIEM/SOAR",
-    "description": "Integrated security operations platform combining SIEM, SOAR, and threat intelligence capabilities for modern security teams.",
-    "founded": 2005,
-    "isStartup": false,
-    "careerPageHint": "https://www.paloaltonetworks.com/company/careers",
-    "careerUrl": "https://jobs.paloaltonetworks.com/en",
-    "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
-  },
-  {
-    "name": "IBM Security QRadar",
-    "website": "https://www.ibm.com/security/qradar",
-    "category": "SIEM/SOAR",
-    "description": "Enterprise SIEM solution with AI-powered threat detection and automated response capabilities.",
-    "founded": 2011,
+    "description": "Enterprise security portfolio including QRadar SIEM, threat intelligence, and managed security services.",
+    "founded": 1911,
     "isStartup": false,
     "careerPageHint": "https://www.ibm.com/careers",
     "careerUrl": "https://www.ibm.com/careers",
@@ -384,26 +360,14 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Elasticsearch Security",
-    "website": "https://www.elastic.co/security",
+    "name": "Google Cloud Security",
+    "website": "https://cloud.google.com/security",
     "category": "SIEM/SOAR",
-    "description": "Open-source and commercial security analytics platform for SIEM and threat hunting workflows.",
-    "founded": 2011,
+    "description": "Google Cloud's security operations suite including Chronicle SIEM, Mandiant threat intelligence, and VirusTotal.",
+    "founded": 1998,
     "isStartup": false,
-    "careerPageHint": "https://www.elastic.co/careers",
-    "careerUrl": "https://www.elastic.co/careers",
-    "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
-  },
-  {
-    "name": "Chronicle Security Operations",
-    "website": "https://chronicle.security",
-    "category": "SIEM/SOAR",
-    "description": "Google Cloud's cloud-native SIEM platform with advanced analytics and security insights.",
-    "founded": 2018,
-    "isStartup": true,
-    "careerPageHint": "https://chronicle.security/careers",
-    "careerUrl": "https://www.google.com/about/careers/applications/cloud/",
+    "careerPageHint": "https://www.google.com/about/careers/applications/",
+    "careerUrl": "https://www.google.com/about/careers/applications/",
     "careerUrlVerified": true,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
@@ -427,20 +391,8 @@
     "founded": 2014,
     "isStartup": false,
     "careerPageHint": "https://www.d3security.com/careers",
-    "careerUrl": "https://d3security.com/",
-    "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
-  },
-  {
-    "name": "Mandiant",
-    "website": "https://www.mandiant.com",
-    "category": "Threat Intelligence",
-    "description": "Provides threat intelligence, incident response, and managed defense services to help organizations detect and respond to cyber threats.",
-    "founded": 2004,
-    "isStartup": false,
-    "careerPageHint": "https://www.mandiant.com/careers",
-    "careerUrl": "https://www.google.com/about/careers/applications/",
-    "careerUrlVerified": true,
+    "careerUrl": null,
+    "careerUrlVerified": false,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
@@ -456,10 +408,10 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "ThreatStream",
-    "website": "https://www.anomali.com/threatstream",
+    "name": "Anomali",
+    "website": "https://www.anomali.com",
     "category": "Threat Intelligence",
-    "description": "Provides automated threat intelligence and intelligence operations platform to detect and respond to threats in real time.",
+    "description": "Provides automated threat intelligence platform (ThreatStream) and security analytics to detect and respond to threats in real time.",
     "founded": 2013,
     "isStartup": false,
     "careerPageHint": "https://www.anomali.com/careers",
@@ -540,22 +492,10 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Fortify (Micro Focus)",
-    "website": "https://www.fortify.com",
-    "category": "Application Security",
-    "description": "Fortify delivers static application security testing (SAST), dynamic testing, and interactive application security testing (IAST) for enterprise organizations.",
-    "founded": 2003,
-    "isStartup": false,
-    "careerPageHint": "https://www.microfocus.com/careers",
-    "careerUrl": null,
-    "careerUrlVerified": false,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
-  },
-  {
-    "name": "GitLab (Application Security)",
+    "name": "GitLab",
     "website": "https://gitlab.com",
     "category": "Application Security",
-    "description": "GitLab provides integrated application security scanning and testing capabilities within its DevSecOps platform, including SAST, DAST, and dependency scanning.",
+    "description": "DevSecOps platform with integrated application security scanning including SAST, DAST, dependency scanning, and container scanning.",
     "founded": 2011,
     "isStartup": false,
     "careerPageHint": "https://about.gitlab.com/jobs",
@@ -600,18 +540,6 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Collibra",
-    "website": "https://www.collibra.com",
-    "category": "Data Security",
-    "description": "Collibra offers data governance and intelligence solutions to manage, protect, and leverage data across organizations.",
-    "founded": 2008,
-    "isStartup": false,
-    "careerPageHint": "https://www.collibra.com/careers",
-    "careerUrl": "https://www.collibra.com/company/careers",
-    "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
-  },
-  {
     "name": "Imperva",
     "website": "https://www.imperva.com",
     "category": "Data Security",
@@ -620,18 +548,6 @@
     "isStartup": false,
     "careerPageHint": "https://www.imperva.com/careers",
     "careerUrl": "https://www.imperva.com/company/careers/",
-    "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
-  },
-  {
-    "name": "Talend",
-    "website": "https://www.talend.com",
-    "category": "Data Security",
-    "description": "Talend delivers cloud data integration and data governance solutions with built-in security and compliance capabilities.",
-    "founded": 2006,
-    "isStartup": false,
-    "careerPageHint": "https://www.talend.com/careers",
-    "careerUrl": "https://www.talend.com/about-us/careers/",
     "careerUrlVerified": true,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
@@ -662,7 +578,7 @@
   {
     "name": "Cybereason",
     "website": "https://www.cybereason.com",
-    "category": "Data Security",
+    "category": "Endpoint Security",
     "description": "Cybereason provides endpoint detection and response (EDR) and data security solutions to prevent and detect advanced threats.",
     "founded": 2012,
     "isStartup": true,
@@ -684,10 +600,10 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Fortive (Industrial Cybersecurity Division)",
+    "name": "Fortive",
     "website": "https://www.fortive.com",
     "category": "IoT/OT Security",
-    "description": "Fortive provides industrial cybersecurity solutions protecting critical infrastructure and operational technology environments through advanced threat detection and response.",
+    "description": "Industrial technology company with cybersecurity division protecting critical infrastructure and operational technology environments.",
     "founded": 2015,
     "isStartup": false,
     "careerPageHint": "https://www.fortive.com/careers",
@@ -744,22 +660,10 @@
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
-    "name": "Tenable (OT Security)",
-    "website": "https://www.tenable.com",
-    "category": "IoT/OT Security",
-    "description": "Tenable offers vulnerability and risk management solutions for operational technology and IoT environments across critical infrastructure sectors.",
-    "founded": 2002,
-    "isStartup": false,
-    "careerPageHint": "https://www.tenable.com/careers",
-    "careerUrl": "https://www.tenable.com/careers",
-    "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
-  },
-  {
-    "name": "Kaspersky ICS/SCADA Security",
+    "name": "Kaspersky",
     "website": "https://www.kaspersky.com",
     "category": "IoT/OT Security",
-    "description": "Kaspersky delivers comprehensive industrial control systems and SCADA security solutions protecting critical infrastructure from targeted attacks.",
+    "description": "Global cybersecurity company providing endpoint protection, threat intelligence, and industrial control system security.",
     "founded": 1997,
     "isStartup": false,
     "careerPageHint": "https://www.kaspersky.com/careers",
@@ -799,20 +703,8 @@
     "founded": 2011,
     "isStartup": false,
     "careerPageHint": "https://www.auditboard.com/careers",
-    "careerUrl": "https://optro.ai/careers",
-    "careerUrlVerified": true,
-    "lastUpdated": "2026-03-18T22:50:42.787Z"
-  },
-  {
-    "name": "Domo",
-    "website": "https://www.domo.com",
-    "category": "GRC/Compliance",
-    "description": "Business intelligence and data platform with integrated GRC and compliance monitoring capabilities.",
-    "founded": 2010,
-    "isStartup": false,
-    "careerPageHint": "https://www.domo.com/careers",
-    "careerUrl": "https://www.domo.com/company/careers",
-    "careerUrlVerified": true,
+    "careerUrl": null,
+    "careerUrlVerified": false,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
@@ -859,8 +751,8 @@
     "founded": 2001,
     "isStartup": false,
     "careerPageHint": "https://www.metricstream.com/careers",
-    "careerUrl": "https://www.metricstream.com/",
-    "careerUrlVerified": true,
+    "careerUrl": null,
+    "careerUrlVerified": false,
     "lastUpdated": "2026-03-18T22:50:42.787Z"
   },
   {
