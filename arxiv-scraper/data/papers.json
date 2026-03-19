@@ -1,5 +1,30 @@
 [
   {
+    "id": "2603.17266v1",
+    "title": "Revisiting Vulnerability Patch Identification on Data in the Wild",
+    "summary": "Attacks can exploit zero-day or one-day vulnerabilities that are not publicly disclosed. To detect these vulnerabilities, security researchers monitor development activities in open-source repositories to identify unreported security patches. The sheer volume of commits makes this task infeasible to accomplish manually. Consequently, security patch detectors commonly trained and evaluated on security patches linked from vulnerability reports in the National Vulnerability Database (NVD). In this study, we assess the effectiveness of these detectors when applied in-the-wild. Our results show that models trained on NVD-derived data show substantially decreased performance, with decreases in F1-score of up to 90\\% when tested on in-the-wild security patches, rendering them impractical for real-world use. An analysis comparing security patches identified in-the-wild and commits linked from NVD reveals that they can be easily distinguished from each other. Security patches associated with NVD have different distribution of commit messages, vulnerability types, and composition of changes. These differences suggest that NVD may be unsuitable as the \\textit{sole} source of data for training models to detect security patches. We find that constructing a dataset that combines security patches from NVD data with a small subset of manually identified security patches can improve model robustness.",
+    "published": "2026-03-18T01:45:39Z",
+    "link": "http://arxiv.org/abs/2603.17266v1",
+    "authors": [
+      "Ivana Clairine Irsan",
+      "Ratnadira Widyasari",
+      "Ting Zhang",
+      "Huihui Huang",
+      "Ferdian Thung",
+      "Yikun Li",
+      "Lwin Khin Shar",
+      "Eng Lieh Ouh",
+      "Hong Jin Kang",
+      "David Lo"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.CR"
+    ],
+    "ai_summary": "Attacks can exploit zero-day or one-day vulnerabilities that are not publicly disclosed. To detect these vulnerabilities, security researchers monitor development activities in open-source repositories to identify unreported security patches.",
+    "selected_date": "2026-03-19"
+  },
+  {
     "id": "2603.16576v1",
     "title": "REFORGE: Multi-modal Attacks Reveal Vulnerable Concept Unlearning in Image Generation Models",
     "summary": "Recent progress in image generation models (IGMs) enables high-fidelity content creation but also amplifies risks, including the reproduction of copyrighted content and the generation of offensive content. Image Generation Model Unlearning (IGMU) mitigates these risks by removing harmful concepts without full retraining. Despite growing attention, the robustness under adversarial inputs, particularly image-side threats in black-box settings, remains underexplored. To bridge this gap, we present REFORGE, a black-box red-teaming framework that evaluates IGMU robustness via adversarial image prompts. REFORGE initializes stroke-based images and optimizes perturbations with a cross-attention-guided masking strategy that allocates noise to concept-relevant regions, balancing attack efficacy and visual fidelity. Extensive experiments across representative unlearning tasks and defenses demonstrate that REFORGE significantly improves attack success rate while achieving stronger semantic alignment and higher efficiency than involved baselines. These results expose persistent vulnerabilities in current IGMU methods and highlight the need for robustness-aware unlearning against multi-modal adversarial attacks. Our code is at: https://github.com/Imfatnoily/REFORGE.",
@@ -575,25 +600,5 @@
     ],
     "ai_summary": "End-to-End Speech Translation (E2E-ST) has seen significant advancements, yet current models are primarily benchmarked on curated, \"clean\" datasets. This overlooks critical real-world challenges, such as morphological robustness to inflectional variations common in non-native or dialectal speech.",
     "selected_date": "2026-02-14"
-  },
-  {
-    "id": "2602.11764v1",
-    "title": "Reliable and Private Anonymous Routing for Satellite Constellations",
-    "summary": "Shared, dynamic network infrastructures, such as dual-use LEO satellite constellations, pose critical threats to metadata privacy, particularly for state actors operating in mixed-trust environments. This work proposes an enhanced anonymity architecture, evolving the Loopix mix-network, to provide robust security and reliability in these volatile topologies. We introduce three primary contributions: (1) A multi-path transport protocol utilizing $(n, k)$ erasure codes, which is demonstrated to counteract the high link volatility and intermittent connectivity that renders standard mix-networks unreliable. (2) The integration of a computationally efficient Private Information Retrieval (PIR) protocol during route discovery. (3) The introduction of adaptive, centrality-based delay strategies that efficiently mitigate the inherent topological bias of LEO networks, providing a superior anonymity-to-latency trade-off. This mechanism provably prevents metadata leakage at the user-provider directory, mitigating profiling and correlation attacks. We validate this architecture via high-fidelity, packet-level simulations of a LEO constellation. Empirical results show our multi-path transport achieves near-zero message loss, establishing a quantifiable trade-off between reliability and bandwidth overhead. Furthermore, microbenchmarks of the PIR protocol quantify its computational and latency overheads, confirming its feasibility for practical deployment. This work provides a validated blueprint for deployable high-anonymity communication systems, demonstrating the viability of securely multiplexing sensitive operations within large-scale commercial network infrastructures.",
-    "published": "2026-02-12T09:43:55Z",
-    "link": "http://arxiv.org/abs/2602.11764v1",
-    "authors": [
-      "Nilesh Vyas",
-      "Fabien Geyer",
-      "Svetoslav Duhovnikov"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.ET",
-      "cs.IR",
-      "cs.NI"
-    ],
-    "ai_summary": "Shared, dynamic network infrastructures, such as dual-use LEO satellite constellations, pose critical threats to metadata privacy, particularly for state actors operating in mixed-trust environments. This work proposes an enhanced anonymity architecture, evolving the Loopix mix-network, to provide robust security and reliability in these volatile topologies.",
-    "selected_date": "2026-02-13"
   }
 ]
