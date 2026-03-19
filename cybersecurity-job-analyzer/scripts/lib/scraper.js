@@ -290,6 +290,7 @@ export function extractJobLinks(html, baseUrl) {
 }
 
 export function resolveCareerUrl(companyUrl) {
+  if (!companyUrl) return [];
   const base = companyUrl.replace(/\/+$/, "");
   return [
     `${base}/careers`,
