@@ -94,6 +94,55 @@ function parseJSONResponse(text) {
   try {
     return JSON.parse(cleaned);
   } catch {
+    // Try to salvage truncated JSON by closing open structures
+    const salvaged = salvageTruncatedJSON(cleaned);
+    if (salvaged) return salvaged;
     throw new Error(`Failed to parse JSON from response: ${cleaned.substring(0, 200)}`);
   }
+}
+
+// Attempt to fix truncated JSON (e.g., from max_tokens cutoff) by closing open structures
+function salvageTruncatedJSON(text) {
+  // Find the last complete object in a jobs array
+  // Pattern: {"jobs": [ {...}, {...}, <truncated>
+  const jobsMatch = text.match(/^\s*\{\s*"jobs"\s*:\s*\[/);
+  if (!jobsMatch) return null;
+
+  // Find the last complete object by looking for },{ or }] boundaries
+  let lastComplete = -1;
+  let depth = 0;
+  let inString = false;
+  let escape = false;
+  let arrayStart = -1;
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (escape) { escape = false; continue; }
+    if (ch === '\\') { escape = true; continue; }
+    if (ch === '"') { inString = !inString; continue; }
+    if (inString) continue;
+
+    if (ch === '[' && arrayStart === -1) {
+      arrayStart = i;
+      depth = 0;
+    } else if (arrayStart !== -1) {
+      if (ch === '{') depth++;
+      if (ch === '}') {
+        depth--;
+        if (depth === 0) lastComplete = i;
+      }
+    }
+  }
+
+  if (lastComplete > arrayStart) {
+    const fixed = text.substring(0, lastComplete + 1) + ']}';
+    try {
+      const result = JSON.parse(fixed);
+      console.log(`  Warning: salvaged truncated JSON (recovered ${result.jobs?.length || 0} complete jobs)`);
+      return result;
+    } catch {
+      return null;
+    }
+  }
+  return null;
 }

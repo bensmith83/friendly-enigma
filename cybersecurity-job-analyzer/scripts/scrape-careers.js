@@ -204,39 +204,74 @@ export async function run() {
   const allJobs = {};
   const allChanges = {};
 
+  let failures = 0;
   for (const company of companies) {
-    console.log(`\nScraping ${company.name}...`);
-    const scrapeResult = await scrapeCompanyCareers(company);
+    try {
+      console.log(`\nScraping ${company.name}...`);
+      const scrapeResult = await scrapeCompanyCareers(company);
 
-    if (!scrapeResult.success) {
-      console.log(`  ${scrapeResult.reason}`);
+      if (!scrapeResult.success) {
+        console.log(`  ${scrapeResult.reason}`);
+        allJobs[company.name] = previousJobs[company.name] || [];
+        continue;
+      }
+
+      // If source is an ATS API, the data is already structured JSON - skip Claude extraction
+      let jobs;
+      if (scrapeResult.source && scrapeResult.source.endsWith("-api")) {
+        try {
+          const parsed = JSON.parse(scrapeResult.html);
+          jobs = (parsed.jobs || []).map((j) => ({
+            title: j.title || null,
+            department: j.department || null,
+            location: j.location || null,
+            type: null,
+            salaryMin: null,
+            salaryMax: null,
+            url: j.url || null,
+            description: null,
+            keywords: [],
+          }));
+          console.log(`  Parsed ${jobs.length} jobs from ${scrapeResult.source} (no Claude needed)`);
+        } catch {
+          console.log("  ATS JSON parse failed, falling back to Claude extraction...");
+          jobs = await parseJobListings(client, scrapeResult.html, company.name);
+          console.log(`  Found ${jobs.length} jobs`);
+        }
+      } else {
+        console.log("  Extracting job listings with Claude...");
+        jobs = await parseJobListings(client, scrapeResult.html, company.name);
+        console.log(`  Found ${jobs.length} jobs`);
+      }
+
+      console.log("  Enriching jobs with full descriptions...");
+      const enrichedJobs = await enrichJobsWithDescriptions(client, jobs, company.name, {
+        maxJobs: 30,
+      });
+      const enrichedCount = enrichedJobs.filter((j) => j.fullDescription).length;
+      console.log(`  Enriched ${enrichedCount}/${enrichedJobs.length} jobs with full descriptions`);
+
+      const prevCompanyJobs = previousJobs[company.name] || [];
+      const changes = detectJobChanges(prevCompanyJobs, enrichedJobs);
+
+      allJobs[company.name] = enrichedJobs;
+      allChanges[company.name] = changes;
+
+      if (changes.added.length > 0) {
+        console.log(`  New jobs: ${changes.added.length}`);
+      }
+      if (changes.removed.length > 0) {
+        console.log(`  Removed jobs: ${changes.removed.length}`);
+      }
+    } catch (error) {
+      failures++;
+      console.error(`  Error scraping ${company.name}: ${error.message}`);
       allJobs[company.name] = previousJobs[company.name] || [];
-      continue;
     }
+  }
 
-    console.log("  Extracting job listings with Claude...");
-    const jobs = await parseJobListings(client, scrapeResult.html, company.name);
-    console.log(`  Found ${jobs.length} jobs`);
-
-    console.log("  Enriching jobs with full descriptions...");
-    const enrichedJobs = await enrichJobsWithDescriptions(client, jobs, company.name, {
-      maxJobs: 30,
-    });
-    const enrichedCount = enrichedJobs.filter((j) => j.fullDescription).length;
-    console.log(`  Enriched ${enrichedCount}/${enrichedJobs.length} jobs with full descriptions`);
-
-    const prevCompanyJobs = previousJobs[company.name] || [];
-    const changes = detectJobChanges(prevCompanyJobs, enrichedJobs);
-
-    allJobs[company.name] = enrichedJobs;
-    allChanges[company.name] = changes;
-
-    if (changes.added.length > 0) {
-      console.log(`  New jobs: ${changes.added.length}`);
-    }
-    if (changes.removed.length > 0) {
-      console.log(`  Removed jobs: ${changes.removed.length}`);
-    }
+  if (failures > 0) {
+    console.log(`\nWarning: ${failures} companies failed to scrape`);
   }
 
   const timestamp = new Date().toISOString();
