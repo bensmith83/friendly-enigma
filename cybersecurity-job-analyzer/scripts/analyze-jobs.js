@@ -164,27 +164,29 @@ export async function generateWeeklyReport(client, companyAnalyses, salaryReport
   const summaryPrompt = `Write a 2-3 paragraph executive summary of this week's cybersecurity industry hiring analysis for ${date}.
 
 Total companies tracked: ${companyAnalyses.length}
-Companies with open positions: ${companiesWithJobs.length}
-Companies with no visible openings: ${companiesWithoutJobs.length}
+Companies where we successfully scraped job listings: ${companiesWithJobs.length}
+Companies where the scraper could not retrieve listings: ${companiesWithoutJobs.length}
 
-Companies with open positions:
+NOTE: Most companies showing 0 jobs are NOT necessarily on a hiring freeze. Our scraper cannot process JavaScript-rendered career pages (which most companies use). The 0-job count reflects scraping limitations, not actual hiring activity. Do NOT claim these companies have "no openings" — instead note that their career pages could not be processed by our automated scraper.
+
+Companies with scraped job data:
 ${companiesWithJobs
   .map(
     (c) =>
       `- ${c.company}: ${c.jobCount} open positions, health score ${c.financial?.healthScore || "N/A"}/10, trend: ${c.financial?.trend || "unknown"}`
   )
-  .join("\n")}
+  .join("\n") || "No companies returned job data this week."}
 
 Notable strategy signals:
 ${companyAnalyses
   .flatMap((c) =>
     (c.strategy?.signals || []).slice(0, 2).map((s) => `- ${c.company}: ${s.signal} (${s.confidence} confidence)`)
   )
-  .join("\n")}
+  .join("\n") || "No strategy signals available."}
 
-Salary overview: Median salary ${salaryReport.overallMedian ? `$${salaryReport.overallMedian.toLocaleString()}` : "data unavailable"}
+Salary overview: Median salary ${salaryReport.overallMedian ? `$${salaryReport.overallMedian.toLocaleString()}` : "data unavailable — most job listings did not include salary ranges"}
 
-IMPORTANT: Write a balanced summary covering industry-wide trends. Do NOT focus disproportionately on any single company. Mention specific companies briefly as examples, but the summary should reflect the overall landscape across all ${companyAnalyses.length} tracked companies. Include observations about companies with no visible openings as well.
+IMPORTANT: Write a balanced summary. Be transparent about the scraping limitations — do NOT claim companies have "no openings" or are on "hiring freezes" just because the scraper returned 0 results. Clearly state that data coverage is limited due to JavaScript-rendered career pages. Focus the insights on companies where data WAS successfully collected.
 
 Write a professional, insightful summary highlighting the most important trends, alerts, and signals. Do NOT use JSON formatting.`;
 

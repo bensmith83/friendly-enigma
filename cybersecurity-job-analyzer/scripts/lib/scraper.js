@@ -1,9 +1,10 @@
 import * as cheerio from "cheerio";
 
+// Use a realistic browser User-Agent to avoid bot-blocking by career pages
 const USER_AGENT =
-  "Mozilla/5.0 (compatible; CyberSecJobAnalyzer/1.0; +https://github.com/bensmith83/friendly-enigma)";
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
 
-const FETCH_TIMEOUT = 15000;
+const FETCH_TIMEOUT = 20000;
 
 const JOB_URL_PATTERNS = [
   /\/careers?\//i,
@@ -52,6 +53,15 @@ const ATS_API_PATTERNS = [
       url: j.jobUrl, id: j.id,
     })) }),
   },
+  {
+    // SmartRecruiters API
+    match: /jobs\.smartrecruiters\.com\/(\w[\w-]*)/i,
+    toApi: (m) => `https://api.smartrecruiters.com/v1/companies/${m[1]}/postings`,
+    transform: (data) => JSON.stringify({ jobs: (data.content || []).map(j => ({
+      title: j.name, department: j.department?.label, location: j.location?.city,
+      url: `https://jobs.smartrecruiters.com/${j.company?.identifier}/${j.id}`, id: j.id,
+    })) }),
+  },
 ];
 
 export async function tryAtsApi(url) {
@@ -86,7 +96,10 @@ export async function fetchPage(url) {
     const response = await fetch(url, {
       headers: {
         "User-Agent": USER_AGENT,
-        Accept: "text/html,application/xhtml+xml",
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Cache-Control": "no-cache",
       },
       redirect: "follow",
       signal: AbortSignal.timeout(FETCH_TIMEOUT),
@@ -100,12 +113,18 @@ export async function fetchPage(url) {
 
     // Check if the page looks like a JS-rendered shell with no real content
     const textContent = html.replace(/<[^>]*>/g, "").trim();
-    if (textContent.length < 200 && /<script/i.test(html)) {
-      // Likely a JS-rendered SPA - try to find embedded ATS links in the HTML
+    if (textContent.length < 500 && /<script/i.test(html)) {
+      // Try to find embedded ATS links in the HTML
       const atsUrls = extractAtsUrls(html, url);
       for (const atsUrl of atsUrls) {
         const atsResult = await tryAtsApi(atsUrl);
         if (atsResult) return atsResult;
+      }
+
+      // Try to extract embedded JSON data (many SPAs embed initial state)
+      const embeddedData = extractEmbeddedJobData(html);
+      if (embeddedData) {
+        return { html: embeddedData, finalUrl: response.url, status: response.status, source: "embedded-json" };
       }
     }
 
@@ -122,12 +141,40 @@ function extractAtsUrls(html, baseUrl) {
     /https?:\/\/jobs\.lever\.co\/[\w-]+/gi,
     /https?:\/\/jobs\.ashbyhq\.com\/[\w-]+/gi,
     /https?:\/\/[\w-]+\.greenhouse\.io/gi,
+    /https?:\/\/jobs\.smartrecruiters\.com\/[\w-]+/gi,
   ];
   for (const pattern of patterns) {
     const matches = html.match(pattern) || [];
     urls.push(...matches);
   }
   return urls;
+}
+
+function extractEmbeddedJobData(html) {
+  // Many SPAs embed initial data as JSON in script tags (e.g., __NEXT_DATA__, window.__DATA__)
+  const jsonPatterns = [
+    /__NEXT_DATA__[^>]*>([\s\S]*?)<\/script/i,
+    /window\.__INITIAL_STATE__\s*=\s*({[\s\S]*?});?\s*<\/script/i,
+    /window\.__DATA__\s*=\s*({[\s\S]*?});?\s*<\/script/i,
+    /application\/ld\+json[^>]*>([\s\S]*?)<\/script/i,
+  ];
+
+  for (const pattern of jsonPatterns) {
+    const match = html.match(pattern);
+    if (match && match[1]) {
+      try {
+        const data = JSON.parse(match[1]);
+        // Check if the JSON contains job-related data
+        const str = JSON.stringify(data);
+        if (str.includes('"title"') && (str.includes('"location"') || str.includes('"department"'))) {
+          return str;
+        }
+      } catch {
+        continue;
+      }
+    }
+  }
+  return null;
 }
 
 export function extractJobLinks(html, baseUrl) {

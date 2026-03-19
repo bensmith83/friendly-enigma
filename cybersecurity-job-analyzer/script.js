@@ -88,22 +88,40 @@ function render() {
     return;
   }
 
-  // Merge companies.json data into analysis so all tracked companies appear
+  // Build a lookup of company metadata from companies.json
+  const companyMeta = new Map();
   if (state.companies && Array.isArray(state.companies)) {
-    const analysisMap = new Map(
-      state.analysis.companies.map((c) => [c.company, c])
-    );
     for (const comp of state.companies) {
-      if (!analysisMap.has(comp.name)) {
-        state.analysis.companies.push({
-          company: comp.name,
-          category: comp.category,
-          website: comp.website,
-          jobCount: 0,
-          strategy: { signals: [], newProductAreas: [], technologyTrends: [], teamExpansion: [] },
-          financial: { healthScore: null, trend: "unknown", riskLevel: "unknown", signals: [], alerts: [] },
-        });
-      }
+      companyMeta.set(comp.name, comp);
+    }
+  }
+
+  // Enrich analysis entries with metadata from companies.json
+  const analysisMap = new Map();
+  for (const c of state.analysis.companies) {
+    const meta = companyMeta.get(c.company);
+    if (meta) {
+      c.description = meta.description;
+      c.careerUrlVerified = meta.careerUrlVerified;
+      c.careerUrl = meta.careerUrl;
+    }
+    analysisMap.set(c.company, c);
+  }
+
+  // Add companies from companies.json that aren't in analysis
+  for (const comp of companyMeta.values()) {
+    if (!analysisMap.has(comp.name)) {
+      state.analysis.companies.push({
+        company: comp.name,
+        category: comp.category,
+        website: comp.website,
+        description: comp.description,
+        careerUrlVerified: comp.careerUrlVerified,
+        careerUrl: comp.careerUrl,
+        jobCount: 0,
+        strategy: { signals: [], newProductAreas: [], technologyTrends: [], teamExpansion: [] },
+        financial: { healthScore: null, trend: "unknown", riskLevel: "unknown", signals: [], alerts: [] },
+      });
     }
   }
 
@@ -222,8 +240,18 @@ function renderTechCloud() {
 function renderAlerts() {
   const alerts = [];
   for (const company of state.analysis.companies) {
-    for (const alert of company.financial?.alerts || []) {
-      alerts.push({ company: company.company, alert });
+    const companyAlerts = company.financial?.alerts || [];
+    const companySignals = company.financial?.signals || [];
+    for (const alert of companyAlerts) {
+      alerts.push({
+        company: company.company,
+        category: company.category,
+        alert,
+        jobCount: company.jobCount || 0,
+        healthScore: company.financial?.healthScore,
+        trend: company.financial?.trend || "unknown",
+        signals: companySignals,
+      });
     }
   }
 
@@ -234,12 +262,27 @@ function renderAlerts() {
   }
 
   section.innerHTML = `
-    <h2 class="section-header" style="color:var(--red)">Alerts</h2>
+    <h2 class="section-header" style="color:var(--red)">Alerts (${alerts.length})</h2>
     ${alerts
       .map(
-        (a) => `
-      <div class="alert-item">
-        <span class="alert-company">${escapeHtml(a.company)}</span>: ${escapeHtml(a.alert)}
+        (a, i) => `
+      <div class="alert-item alert-expandable" onclick="this.classList.toggle('expanded')">
+        <div class="alert-summary">
+          <span class="alert-company">${escapeHtml(a.company)}</span>: ${escapeHtml(a.alert)}
+          <span class="alert-toggle">&#9660;</span>
+        </div>
+        <div class="alert-details">
+          <div class="alert-context">
+            <strong>Why this alert:</strong> ${escapeHtml(a.company)} (${escapeHtml(a.category)}) has ${a.jobCount} open positions.
+            Health score: ${a.healthScore != null ? a.healthScore + "/10" : "N/A"}.
+            Trend: ${escapeHtml(a.trend)}.
+          </div>
+          ${a.signals.length > 0 ? `
+          <div class="alert-context">
+            <strong>Supporting signals:</strong>
+            <ul>${a.signals.map(s => `<li>${escapeHtml(s)}</li>`).join("")}</ul>
+          </div>` : ""}
+        </div>
       </div>
     `
       )
@@ -291,6 +334,14 @@ function renderCompanyGrid() {
   grid.innerHTML = companies.map((c) => renderCompanyCard(c)).join("");
 }
 
+function getScrapingStatus(company) {
+  if ((company.jobCount || 0) > 0) return null;
+  if (!company.careerUrlVerified || !company.careerUrl) {
+    return "No career page URL found — scraper cannot reach this company's job listings";
+  }
+  return "Career page is JS-rendered or blocked — scraper returned no listings";
+}
+
 function renderCompanyCard(company) {
   const health = company.financial || {};
   const strategy = company.strategy || {};
@@ -299,9 +350,11 @@ function renderCompanyCard(company) {
 
   const signals = (strategy.signals || []).slice(0, 3);
   const techTrends = (strategy.technologyTrends || []).slice(0, 5);
+  const hasData = (company.jobCount || 0) > 0;
+  const scrapingStatus = getScrapingStatus(company);
 
   return `
-    <div class="company-card">
+    <div class="company-card${hasData ? "" : " no-data"}">
       <div class="company-header">
         <div class="company-name">
           <a href="${escapeHtml(company.website || "#")}" target="_blank" rel="noopener">${escapeHtml(company.company)}</a>
@@ -309,11 +362,19 @@ function renderCompanyCard(company) {
         <span class="health-badge ${riskClass}">${escapeHtml(health.riskLevel || "unknown")} risk</span>
       </div>
       <div class="company-meta">${escapeHtml(company.category || "Cybersecurity")}</div>
+      ${company.description ? `<div class="company-description">${escapeHtml(company.description)}</div>` : ""}
       <div class="company-stats">
         <div><span class="company-stat-value">${company.jobCount || 0}</span> jobs</div>
         <div>Health: <span class="company-stat-value">${health.healthScore != null ? health.healthScore : "—"}</span>${health.healthScore != null ? "/10" : ""}</div>
         <div>Trend: ${trendArrow} ${escapeHtml(health.trend || "unknown")}</div>
       </div>
+      ${
+        scrapingStatus
+          ? `<div class="scraping-status" title="${escapeHtml(scrapingStatus)}">
+              <span class="status-icon">&#9888;</span> ${escapeHtml(scrapingStatus)}
+            </div>`
+          : ""
+      }
       ${
         signals.length > 0
           ? `<div class="signals-list">
@@ -338,10 +399,13 @@ function renderCompanyCard(company) {
 function renderSalary() {
   const salary = state.analysis.salaryReport;
   if (!salary || salary.note) {
+    const companiesScraped = state.analysis.companies.filter(c => (c.jobCount || 0) > 0).length;
+    const totalCompanies = state.analysis.companies.length;
     document.getElementById("salaryStats").innerHTML = "";
     document.getElementById("salaryGrid").innerHTML = `
       <div class="empty-state">
         <p>${escapeHtml(salary?.note || "No salary data available yet")}</p>
+        <p class="hint">Currently ${companiesScraped} of ${totalCompanies} companies returned job listings. Most career pages use JavaScript rendering that the scraper cannot process yet. Salary data will appear once more companies' listings are successfully scraped and include compensation details.</p>
       </div>
     `;
     document.getElementById("topPaying").innerHTML = "";

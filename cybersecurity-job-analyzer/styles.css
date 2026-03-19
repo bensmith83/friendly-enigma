@@ -133,6 +133,7 @@ body {
   border-radius: 8px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  overflow: hidden;
 }
 
 .tech-cloud-words {
@@ -141,7 +142,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.4rem 0.8rem;
-  padding: 1rem 0;
+  padding: 1rem 0.5rem;
+  overflow: hidden;
 }
 
 .tech-word {
@@ -152,6 +154,9 @@ body {
   transition: transform 0.15s, opacity 0.15s;
   cursor: default;
   position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .tech-word:hover {
@@ -174,6 +179,10 @@ body {
   white-space: nowrap;
   margin-bottom: 4px;
   z-index: 10;
+  max-width: 300px;
+  white-space: normal;
+  word-wrap: break-word;
+  pointer-events: none;
 }
 
 .tech-word:hover .tech-tooltip {
@@ -274,6 +283,33 @@ body {
 .confidence-medium { color: var(--orange); }
 .confidence-low { color: var(--text-muted); }
 
+/* Company description */
+.company-description {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Scraping status */
+.scraping-status {
+  font-size: 0.8rem;
+  color: var(--orange);
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  background: rgba(210, 153, 34, 0.1);
+  border-radius: 4px;
+  line-height: 1.4;
+}
+
+.scraping-status .status-icon {
+  margin-right: 0.3rem;
+}
+
+.company-card.no-data {
+  opacity: 0.85;
+}
+
 /* Alerts */
 .alerts-section {
   margin-bottom: 1.5rem;
@@ -286,6 +322,60 @@ body {
   padding: 0.75rem 1rem;
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
+}
+
+.alert-expandable {
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.alert-expandable:hover {
+  border-color: rgba(248, 81, 73, 0.6);
+}
+
+.alert-summary {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.alert-toggle {
+  margin-left: auto;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.alert-expandable.expanded .alert-toggle {
+  transform: rotate(180deg);
+}
+
+.alert-details {
+  display: none;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(248, 81, 73, 0.2);
+}
+
+.alert-expandable.expanded .alert-details {
+  display: block;
+}
+
+.alert-context {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.alert-context ul {
+  margin: 0.25rem 0 0 1.25rem;
+  padding: 0;
+}
+
+.alert-context li {
+  margin-bottom: 0.2rem;
 }
 
 .alert-company {
