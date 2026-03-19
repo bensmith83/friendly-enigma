@@ -67,6 +67,36 @@ export async function generateCompanyList(client, existingNames) {
   return allCompanies;
 }
 
+function extractDomain(url) {
+  try {
+    const hostname = new URL(url).hostname.replace(/^www\./, "");
+    // Extract the base domain (e.g., "paloaltonetworks.com" from "jobs.paloaltonetworks.com")
+    const parts = hostname.split(".");
+    return parts.length > 2 ? parts.slice(-2).join(".") : hostname;
+  } catch {
+    return null;
+  }
+}
+
+function isRelatedDomain(companyUrl, careerUrl) {
+  const companyDomain = extractDomain(companyUrl);
+  const careerDomain = extractDomain(careerUrl);
+  if (!companyDomain || !careerDomain) return false;
+
+  // Allow same domain or subdomains
+  if (companyDomain === careerDomain) return true;
+
+  // Allow known ATS platforms that host career pages for many companies
+  const atsPlatforms = [
+    "greenhouse.io", "lever.co", "workday.com", "smartrecruiters.com",
+    "ashbyhq.com", "breezy.hr", "bamboohr.com", "icims.com",
+    "myworkdayjobs.com", "jobvite.com", "ultipro.com",
+  ];
+  if (atsPlatforms.includes(careerDomain)) return true;
+
+  return false;
+}
+
 export async function validateCareerUrls(company) {
   const candidates = company.careerUrls || resolveCareerUrl(company.website);
 
@@ -77,6 +107,11 @@ export async function validateCareerUrls(company) {
   for (const url of candidates) {
     const result = await fetchPage(url);
     if (result) {
+      // Verify the final URL belongs to the same company or a known ATS platform
+      if (!isRelatedDomain(company.website, result.finalUrl)) {
+        console.log(`    Rejected ${result.finalUrl} - domain mismatch with ${company.website}`);
+        continue;
+      }
       return {
         ...company,
         careerUrl: result.finalUrl,
@@ -141,8 +176,16 @@ export async function run() {
   console.log("Validating career page URLs...");
   const validated = [];
   for (const company of merged) {
-    if (!company.careerUrlVerified) {
-      console.log(`  Checking ${company.name}...`);
+    // Re-validate if not verified, or if career URL domain doesn't match company domain
+    const needsValidation = !company.careerUrlVerified ||
+      (company.careerUrl && !isRelatedDomain(company.website, company.careerUrl));
+
+    if (needsValidation) {
+      if (company.careerUrlVerified) {
+        console.log(`  Re-checking ${company.name} (domain mismatch detected)...`);
+      } else {
+        console.log(`  Checking ${company.name}...`);
+      }
       const result = await validateCareerUrls(company);
       validated.push(result);
       if (result.careerUrlVerified) {
