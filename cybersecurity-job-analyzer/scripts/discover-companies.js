@@ -98,6 +98,9 @@ function isRelatedDomain(companyUrl, careerUrl) {
 }
 
 export async function validateCareerUrls(company) {
+  if (!company.website) {
+    return { ...company, careerUrl: null, careerUrlVerified: false };
+  }
   const candidates = company.careerUrls || resolveCareerUrl(company.website);
 
   if (company.careerPageHint) {
@@ -178,7 +181,7 @@ export async function run() {
   for (const company of merged) {
     // Re-validate if not verified, or if career URL domain doesn't match company domain
     const needsValidation = !company.careerUrlVerified ||
-      (company.careerUrl && !isRelatedDomain(company.website, company.careerUrl));
+      (company.careerUrl && company.website && !isRelatedDomain(company.website, company.careerUrl));
 
     if (needsValidation) {
       if (company.careerUrlVerified) {
