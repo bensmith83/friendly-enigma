@@ -1,7 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 
 const DEFAULT_MODEL = process.env.CLAUDE_MODEL || "claude-sonnet-4-6";
-const DEFAULT_MAX_TOKENS = 4096;
+const DEFAULT_MAX_TOKENS = 16384;
 
 export function createClient(apiKey) {
   return new Anthropic({ apiKey });
@@ -103,12 +103,14 @@ function parseJSONResponse(text) {
 
 // Attempt to fix truncated JSON (e.g., from max_tokens cutoff) by closing open structures
 function salvageTruncatedJSON(text) {
-  // Find the last complete object in a jobs array
-  // Pattern: {"jobs": [ {...}, {...}, <truncated>
-  const jobsMatch = text.match(/^\s*\{\s*"jobs"\s*:\s*\[/);
-  if (!jobsMatch) return null;
+  // Match any top-level object that starts with an array value
+  // Patterns: {"jobs": [...], {"signals": [...], etc.
+  const keyMatch = text.match(/^\s*\{\s*"(\w+)"\s*:\s*\[/);
+  if (!keyMatch) return null;
 
-  // Find the last complete object by looking for },{ or }] boundaries
+  const firstKey = keyMatch[1];
+
+  // Find the last complete object in the first array
   let lastComplete = -1;
   let depth = 0;
   let inString = false;
@@ -138,7 +140,8 @@ function salvageTruncatedJSON(text) {
     const fixed = text.substring(0, lastComplete + 1) + ']}';
     try {
       const result = JSON.parse(fixed);
-      console.log(`  Warning: salvaged truncated JSON (recovered ${result.jobs?.length || 0} complete jobs)`);
+      const recoveredCount = result[firstKey]?.length || 0;
+      console.log(`  Warning: salvaged truncated JSON (recovered ${recoveredCount} complete ${firstKey} entries)`);
       return result;
     } catch {
       return null;
