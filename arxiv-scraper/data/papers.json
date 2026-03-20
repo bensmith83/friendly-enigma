@@ -1,5 +1,26 @@
 [
   {
+    "id": "2603.18789v1",
+    "title": "Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary",
+    "summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages. This boundary remains largely underexplored, as previous works mainly focus on testing JS and Wasm as two isolated entities rather than investigating the security implications of their cross-language interactions.   This paper proposes Weaver, an effective greybox fuzzing framework specifically tailored to uncover vulnerabilities at the JS-Wasm boundary. To comply with the language constraints, Weaver uses a type-aware generation strategy, meticulously maintaining the dual-type representation for every generated variables. This allows fuzzer to validly utilize variables across the language boundary. Besides, Weaver leverages the UCB-1 algorithm to intelligently schedule mutators and generators to maximize the discovery of new code paths.   We have implemented and evaluated Weaver on three JS engines. The results indicate that Weaver achieves superior code coverage compared to state-of-the-art fuzzers. Moreover, Weaver has uncovered two new bugs in the latest versions of these engines, one of which is considered high severity and set to highest priority, demonstrating the practicality of Weaver.",
+    "published": "2026-03-19T11:40:09Z",
+    "link": "http://arxiv.org/abs/2603.18789v1",
+    "authors": [
+      "Lingming Zhang",
+      "Binbin Zhao",
+      "Puzhuo Liu",
+      "Qinge Xie",
+      "Peng Di",
+      "Jianhai Chen",
+      "Shouling Ji"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages.",
+    "selected_date": "2026-03-20"
+  },
+  {
     "id": "2603.17266v1",
     "title": "Revisiting Vulnerability Patch Identification on Data in the Wild",
     "summary": "Attacks can exploit zero-day or one-day vulnerabilities that are not publicly disclosed. To detect these vulnerabilities, security researchers monitor development activities in open-source repositories to identify unreported security patches. The sheer volume of commits makes this task infeasible to accomplish manually. Consequently, security patch detectors commonly trained and evaluated on security patches linked from vulnerability reports in the National Vulnerability Database (NVD). In this study, we assess the effectiveness of these detectors when applied in-the-wild. Our results show that models trained on NVD-derived data show substantially decreased performance, with decreases in F1-score of up to 90\\% when tested on in-the-wild security patches, rendering them impractical for real-world use. An analysis comparing security patches identified in-the-wild and commits linked from NVD reveals that they can be easily distinguished from each other. Security patches associated with NVD have different distribution of commit messages, vulnerability types, and composition of changes. These differences suggest that NVD may be unsuitable as the \\textit{sole} source of data for training models to detect security patches. We find that constructing a dataset that combines security patches from NVD data with a small subset of manually identified security patches can improve model robustness.",
@@ -582,23 +603,5 @@
     ],
     "ai_summary": "In a malicious tool attack, an attacker uploads a malicious tool to a distribution platform; once a user installs the tool and the LLM agent selects it during task execution, the tool can compromise the user's security and privacy. Prior work primarily focuses on manipulating tool names and descriptions to increase the likelihood of installation by users and selection by LLM agents.",
     "selected_date": "2026-02-15"
-  },
-  {
-    "id": "2602.11933v1",
-    "title": "Cross-Modal Robustness Transfer (CMRT): Training Robust Speech Translation Models Using Adversarial Text",
-    "summary": "End-to-End Speech Translation (E2E-ST) has seen significant advancements, yet current models are primarily benchmarked on curated, \"clean\" datasets. This overlooks critical real-world challenges, such as morphological robustness to inflectional variations common in non-native or dialectal speech. In this work, we adapt a text-based adversarial attack targeting inflectional morphology to the speech domain and demonstrate that state-of-the-art E2E-ST models are highly vulnerable it. While adversarial training effectively mitigates such risks in text-based tasks, generating high-quality adversarial speech data remains computationally expensive and technically challenging. To address this, we propose Cross-Modal Robustness Transfer (CMRT), a framework that transfers adversarial robustness from the text modality to the speech modality. Our method eliminates the requirement for adversarial speech data during training. Extensive experiments across four language pairs demonstrate that CMRT improves adversarial robustness by an average of more than 3 BLEU points, establishing a new baseline for robust E2E-ST without the overhead of generating adversarial speech.",
-    "published": "2026-02-12T13:30:12Z",
-    "link": "http://arxiv.org/abs/2602.11933v1",
-    "authors": [
-      "Abderrahmane Issam",
-      "Yusuf Can Semerci",
-      "Jan Scholtes",
-      "Gerasimos Spanakis"
-    ],
-    "categories": [
-      "cs.CL"
-    ],
-    "ai_summary": "End-to-End Speech Translation (E2E-ST) has seen significant advancements, yet current models are primarily benchmarked on curated, \"clean\" datasets. This overlooks critical real-world challenges, such as morphological robustness to inflectional variations common in non-native or dialectal speech.",
-    "selected_date": "2026-02-14"
   }
 ]
