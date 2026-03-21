@@ -90,7 +90,8 @@ function isRelatedDomain(companyUrl, careerUrl) {
   const atsPlatforms = [
     "greenhouse.io", "lever.co", "workday.com", "smartrecruiters.com",
     "ashbyhq.com", "breezy.hr", "bamboohr.com", "icims.com",
-    "myworkdayjobs.com", "jobvite.com", "ultipro.com",
+    "myworkdayjobs.com", "jobvite.com", "ultipro.com", "recruitee.com",
+    "applytojob.com", "paylocity.com",
   ];
   if (atsPlatforms.includes(careerDomain)) return true;
 
