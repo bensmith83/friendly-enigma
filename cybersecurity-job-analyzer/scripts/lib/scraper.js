@@ -77,7 +77,7 @@ const ATS_API_PATTERNS = [
 
 // Generate candidate ATS slugs from a company name.
 // Most ATS platforms use the company name (lowercase, no spaces) as the board slug.
-function generateAtsSlugs(companyName) {
+export function generateAtsSlugs(companyName) {
   const base = companyName
     .toLowerCase()
     .replace(/\s*\(.*?\)\s*/g, "")     // Remove parenthetical like "(Okta)"
