@@ -66,7 +66,7 @@
 | 39 | Elastic Security | `elastic` | Greenhouse | 200 | 218 | OK — slug `elastic` works |
 | 40 | Microsoft Security | — | Custom (Adobe AEM) | — | 10,000+ | No public JSON API — see Section 3 |
 | 41 | Fortinet | — | Oracle HCM Cloud | 200 | 3+ | Partially working API — see Section 3 |
-| 42 | Splunk | — | (Cisco acquisition) | — | — | Merged into Cisco careers — see Section 3 |
+| 42 | Splunk | `splunk` (search filter) | Cisco Phenom widget | 200 | 925 (all Cisco) | Use `searchText: "splunk"` filter — see Section 3 |
 | 43 | Datadog | `datadog` | Greenhouse | 200 | 457 | OK — slug `datadog` works |
 | 44 | Rubrik | `rubrik` | Greenhouse | 200 | 205 | OK — slug `rubrik` works |
 | 45 | Cato Networks | `catonetworks` | Greenhouse | 200 | 162 | OK — slug `catonetworks` works |
@@ -93,6 +93,7 @@
 | Contrast Security | **Ashby** | `GET https://api.ashbyhq.com/posting-api/job-board/contrast-security` | 5 | No |
 | Censys | **Greenhouse** | `GET https://boards-api.greenhouse.io/v1/boards/censys/jobs` | 9 | No |
 | Trellix | **Workday** | `POST https://trellix.wd1.myworkdayjobs.com/wday/cxs/trellix/EnterpriseCareers/jobs` | 90 | No |
+| Splunk/Cisco | **Phenom widget** | `POST https://careers.cisco.com/widgets` (body: `{"searchText":"splunk",...}`) | 925+ | No |
 | Exabeam | **Jobvite** | `https://jobs.jobvite.com/exabeam/` (HTML scraping required) | ~10 | N/A (no public API) |
 | Palo Alto Networks | **TalentBrew/Radancy** | `https://jobs.paloaltonetworks.com/en/search-jobs/results?ReturnType=json` | 1,035+ | No (but returns HTML-in-JSON) |
 
@@ -103,10 +104,9 @@
 | Varonis | **Jobvite** | `https://jobs.jobvite.com/varonis-internal/jobs` | HTML scraping (API requires key from Jobvite) |
 | Imperva/Thales | **Phenom** | `https://careers.thalesgroup.com/` | HTML scraping (API requires OAuth from Phenom) |
 | Securiti.ai | **Freshteam** | `https://securiti.freshteam.com/jobs` | HTML scraping (API requires auth) |
-| Rapid7 | **Custom Rails** | `https://careers.rapid7.com/jobs/search` | HTML scraping (JS-rendered, needs headless browser) |
+| Rapid7 | **Pinpoint + Greenhouse** | `https://careers.rapid7.com/jobs/search` | HTML scraping (server-rendered Turbo/Stimulus; Greenhouse board not public) |
 | Microsoft | **Custom (Adobe AEM)** | `https://careers.microsoft.com/v2/global/en/search` | HTML scraping or custom API discovery needed |
 | Fortinet | **Oracle HCM Cloud** | `https://edel.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs;siteNumber=CX_1001,limit=25,sortBy=POSTING_DATES_DESC` | API works but returns limited results (3 found) |
-| Splunk | **Cisco (Workday)** | Merged into Cisco careers | Would need Cisco's Workday tenant |
 
 ---
 
@@ -162,8 +162,8 @@ Token and UID are embedded in the careers page source (WordPress Comeet plugin).
 | Category | Count |
 |----------|:-----:|
 | **Working with public JSON API** | 33 |
-| **HTML scraping required** | 7 (Varonis, Imperva, Securiti.ai, Rapid7, Microsoft, Exabeam, Fortinet) |
-| **Merged/acquired — use parent** | 1 (Splunk → Cisco) |
+| **HTML scraping required** | 6 (Varonis, Imperva, Securiti.ai, Rapid7, Microsoft, Exabeam) |
+| **Partial API (limited results)** | 1 (Fortinet — Oracle HCM returns only 3 jobs) |
 
 ## Complete Recommended atsUrl Updates
 
