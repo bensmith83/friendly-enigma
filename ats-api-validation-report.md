@@ -13,7 +13,7 @@
 | 3 | Huntress | `huntress` | 200 | 24 | Yes | OK |
 | 4 | Arctic Wolf | `arcticwolf` | 404 | 0 | Yes | Wrong platform — see Section 3 |
 | 5 | Wiz | `wizinc` | 200 | 191 | Yes | OK |
-| 6 | Snyk | `snyk` | 404 | 0 | Yes | Wrong platform — see Section 3 |
+| 6 | Snyk | `snyk` | 404 | 0 | Yes | Uses Workday (wd103); Next.js proxy API at `snyk.io/api/next/jobs` — 100 jobs |
 | 7 | Aqua Security | `aquasecurity` | 404 | 0 | Yes | Wrong platform — see Section 3 |
 | 8 | Tenable | `tenableinc` | 200 | 65 | Yes | OK |
 | 9 | Orca Security | `orcasecurity` | 200 | 17 | Yes | OK |
@@ -84,7 +84,7 @@
 | CrowdStrike | **Workday** | `POST https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs` | 677 | No |
 | SentinelOne | **Greenhouse** | `GET https://boards-api.greenhouse.io/v1/boards/sentinellabs/jobs` | 174 | No |
 | Arctic Wolf | **Workday** | `POST https://arcticwolf.wd1.myworkdayjobs.com/wday/cxs/arcticwolf/External/jobs` | 91 | No |
-| Snyk | **Workday** | Workday tenant identified but exact site name TBD (page references both Workday and Greenhouse) | — | No |
+| Snyk | **Workday** (via Next.js proxy) | `GET https://snyk.io/api/next/jobs` | 100 | No |
 | Aqua Security | **Comeet** | `GET https://www.comeet.co/careers-api/2.0/company/91.001/positions?token=191644966966644E194B3191644644` | 13 | No (token in page) |
 | Checkmarx | **Comeet** | `GET https://www.comeet.co/careers-api/2.0/company/C0.008/positions?token=C8320190002581902584B0708` | 35 | No (token in page) |
 | Claroty | **Comeet** | `GET https://www.comeet.co/careers-api/2.0/company/F2.004/positions?token=2F4EC42F42F45E814AC1A945E814AC5E8` | 38 | No (token in page) |
