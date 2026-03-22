@@ -62,11 +62,22 @@ const ATS_API_PATTERNS = [
       url: `https://jobs.smartrecruiters.com/${j.company?.identifier}/${j.id}`, id: j.id,
     })) }),
   },
+  {
+    // Workday jobs API
+    match: /([\w-]+)\.wd(\d+)\.myworkdayjobs\.com\/([\w-]+)/i,
+    toApi: (m) => `https://${m[1]}.wd${m[2]}.myworkdayjobs.com/wday/cxs/${m[1]}/${m[3]}/jobs`,
+    transform: (data) => JSON.stringify({ jobs: (data.jobPostings || []).map(j => ({
+      title: j.title, department: null, location: j.locationsText,
+      url: j.externalPath ? `https://${j.externalPath}` : null, id: j.bulletFields?.[0],
+    })) }),
+    method: "POST",
+    body: JSON.stringify({ limit: 20, offset: 0, appliedFacets: {} }),
+  },
 ];
 
 // Generate candidate ATS slugs from a company name.
 // Most ATS platforms use the company name (lowercase, no spaces) as the board slug.
-function generateAtsSlugs(companyName) {
+export function generateAtsSlugs(companyName) {
   const base = companyName
     .toLowerCase()
     .replace(/\s*\(.*?\)\s*/g, "")     // Remove parenthetical like "(Okta)"
@@ -74,15 +85,27 @@ function generateAtsSlugs(companyName) {
     .trim();
 
   const slugs = new Set();
+  const nospaces = base.replace(/[\s-]+/g, "");
+  const hyphenated = base.replace(/\s+/g, "-");
+
   // "Palo Alto Networks" -> "paloaltonetworks", "palo-alto-networks"
-  slugs.add(base.replace(/[\s-]+/g, ""));
-  slugs.add(base.replace(/\s+/g, "-"));
+  slugs.add(nospaces);
+  slugs.add(hyphenated);
   // First word only: "CrowdStrike" -> "crowdstrike"
   const firstWord = base.split(/\s+/)[0];
-  if (firstWord.length > 3) slugs.add(firstWord);
+  if (firstWord.length > 2) slugs.add(firstWord);
   // Without common suffixes: "Nozomi Networks" -> "nozomi"
-  const withoutSuffix = base.replace(/\s+(security|networks?|systems?|labs?|inc|io|ai)\s*$/i, "").replace(/\s+/g, "");
-  if (withoutSuffix.length > 3) slugs.add(withoutSuffix);
+  const withoutSuffix = base.replace(/\s+(security|networks?|systems?|labs?|inc|io|ai|cyber|tech|technologies|software|solutions|platform|cloud|digital|group)\s*$/i, "").replace(/\s+/g, "");
+  if (withoutSuffix.length > 2 && withoutSuffix !== nospaces) slugs.add(withoutSuffix);
+  // With common suffixes: "Wiz" -> "wizinc", "wizio"
+  if (nospaces.length <= 10) {
+    slugs.add(nospaces + "inc");
+    slugs.add(nospaces + "io");
+    slugs.add(nospaces + "hq");
+  }
+  // Hyphenated without suffix: "Arctic Wolf" -> "arctic-wolf" (already covered), "arcticwolf" (covered)
+  const withoutSuffixHyphenated = base.replace(/\s+(security|networks?|systems?|labs?|inc|io|ai|cyber|tech)\s*$/i, "").replace(/\s+/g, "-");
+  if (withoutSuffixHyphenated !== hyphenated) slugs.add(withoutSuffixHyphenated);
 
   return [...slugs];
 }
@@ -119,16 +142,37 @@ export async function discoverAtsJobs(companyName, atsUrl) {
       })) }),
       validate: (data) => data.jobs !== undefined,
     },
+    { name: "smartrecruiters", toUrl: (s) => `https://api.smartrecruiters.com/v1/companies/${s}/postings`,
+      transform: (data) => JSON.stringify({ jobs: (data.content || []).map(j => ({
+        title: j.name, department: j.department?.label, location: j.location?.city,
+        url: `https://jobs.smartrecruiters.com/${j.company?.identifier || s}/${j.id}`, id: j.id,
+      })) }),
+      validate: (data) => Array.isArray(data.content),
+    },
+    { name: "workday", toUrl: (s) => `https://${s}.wd5.myworkdayjobs.com/wday/cxs/${s}/External/jobs`,
+      transform: (data) => JSON.stringify({ jobs: (data.jobPostings || []).map(j => ({
+        title: j.title, department: null, location: j.locationsText,
+        url: j.externalPath ? `https://workday.wd5.myworkdayjobs.com${j.externalPath}` : null, id: j.bulletFields?.[0],
+      })) }),
+      validate: (data) => Array.isArray(data.jobPostings),
+      method: "POST",
+      body: JSON.stringify({ limit: 20, offset: 0, appliedFacets: {} }),
+    },
   ];
 
   for (const slug of slugs) {
     for (const api of apis) {
       try {
         const url = api.toUrl(slug);
-        const response = await fetch(url, {
-          headers: { Accept: "application/json" },
+        const fetchOpts = {
+          headers: { Accept: "application/json", "Content-Type": "application/json" },
           signal: AbortSignal.timeout(8000),
-        });
+        };
+        if (api.method === "POST") {
+          fetchOpts.method = "POST";
+          fetchOpts.body = api.body;
+        }
+        const response = await fetch(url, fetchOpts);
         if (!response.ok) continue;
 
         const data = await response.json();
@@ -155,10 +199,15 @@ export async function tryAtsApi(url) {
 
     try {
       const apiUrl = pattern.toApi(match);
-      const response = await fetch(apiUrl, {
-        headers: { "User-Agent": USER_AGENT, Accept: "application/json" },
+      const fetchOpts = {
+        headers: { "User-Agent": USER_AGENT, Accept: "application/json", "Content-Type": "application/json" },
         signal: AbortSignal.timeout(FETCH_TIMEOUT),
-      });
+      };
+      if (pattern.method === "POST") {
+        fetchOpts.method = "POST";
+        fetchOpts.body = pattern.body;
+      }
+      const response = await fetch(apiUrl, fetchOpts);
       if (!response.ok) continue;
 
       const data = await response.json();
@@ -195,16 +244,17 @@ export async function fetchPage(url) {
 
     const html = await response.text();
 
+    // Always try to find embedded ATS links in the HTML — many career pages
+    // (including those with substantial text) embed links to Greenhouse/Lever/etc.
+    const atsUrls = extractAtsUrls(html, url);
+    for (const atsUrl of atsUrls) {
+      const atsResult = await tryAtsApi(atsUrl);
+      if (atsResult) return atsResult;
+    }
+
     // Check if the page looks like a JS-rendered shell with no real content
     const textContent = html.replace(/<[^>]*>/g, "").trim();
     if (textContent.length < 500 && /<script/i.test(html)) {
-      // Try to find embedded ATS links in the HTML
-      const atsUrls = extractAtsUrls(html, url);
-      for (const atsUrl of atsUrls) {
-        const atsResult = await tryAtsApi(atsUrl);
-        if (atsResult) return atsResult;
-      }
-
       // Try to extract embedded JSON data (many SPAs embed initial state)
       const embeddedData = extractEmbeddedJobData(html);
       if (embeddedData) {
@@ -226,6 +276,7 @@ function extractAtsUrls(html, baseUrl) {
     /https?:\/\/jobs\.ashbyhq\.com\/[\w-]+/gi,
     /https?:\/\/[\w-]+\.greenhouse\.io/gi,
     /https?:\/\/jobs\.smartrecruiters\.com\/[\w-]+/gi,
+    /https?:\/\/[\w-]+\.wd\d+\.myworkdayjobs\.com\/[\w-]+/gi,
   ];
   for (const pattern of patterns) {
     const matches = html.match(pattern) || [];

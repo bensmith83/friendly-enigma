@@ -203,6 +203,7 @@ export async function run() {
 
   const allJobs = {};
   const allChanges = {};
+  const atsDiscoveries = new Map(); // Track newly discovered ATS URLs
 
   let failures = 0;
   for (const company of companies) {
@@ -214,6 +215,11 @@ export async function run() {
         console.log(`  ${scrapeResult.reason}`);
         allJobs[company.name] = previousJobs[company.name] || [];
         continue;
+      }
+
+      // Persist discovered ATS URL for future runs
+      if (scrapeResult.source && scrapeResult.finalUrl && !company.atsUrl) {
+        atsDiscoveries.set(company.name, scrapeResult.finalUrl);
       }
 
       // If source is an ATS API, the data is already structured JSON - skip Claude extraction
@@ -277,6 +283,19 @@ export async function run() {
   const timestamp = new Date().toISOString();
   writeJSON(JOBS_FILE, allJobs);
   writeJSON(getDataPath("changes.json"), { timestamp, changes: allChanges });
+
+  // Persist newly discovered ATS URLs back to companies.json for future runs
+  if (atsDiscoveries.size > 0) {
+    const updatedCompanies = companies.map((c) => {
+      const discoveredUrl = atsDiscoveries.get(c.name);
+      if (discoveredUrl) {
+        return { ...c, atsUrl: discoveredUrl, lastUpdated: timestamp };
+      }
+      return c;
+    });
+    writeJSON(COMPANIES_FILE, updatedCompanies);
+    console.log(`\nSaved ${atsDiscoveries.size} newly discovered ATS URLs to companies.json`);
+  }
 
   const totalJobs = Object.values(allJobs).reduce((sum, jobs) => sum + jobs.length, 0);
   console.log(`\nTotal jobs across all companies: ${totalJobs}`);
