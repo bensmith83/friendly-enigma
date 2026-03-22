@@ -1,5 +1,26 @@
 [
   {
+    "id": "2603.18789v1",
+    "title": "Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary",
+    "summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages. This boundary remains largely underexplored, as previous works mainly focus on testing JS and Wasm as two isolated entities rather than investigating the security implications of their cross-language interactions.   This paper proposes Weaver, an effective greybox fuzzing framework specifically tailored to uncover vulnerabilities at the JS-Wasm boundary. To comply with the language constraints, Weaver uses a type-aware generation strategy, meticulously maintaining the dual-type representation for every generated variables. This allows fuzzer to validly utilize variables across the language boundary. Besides, Weaver leverages the UCB-1 algorithm to intelligently schedule mutators and generators to maximize the discovery of new code paths.   We have implemented and evaluated Weaver on three JS engines. The results indicate that Weaver achieves superior code coverage compared to state-of-the-art fuzzers. Moreover, Weaver has uncovered two new bugs in the latest versions of these engines, one of which is considered high severity and set to highest priority, demonstrating the practicality of Weaver.",
+    "published": "2026-03-19T11:40:09Z",
+    "link": "http://arxiv.org/abs/2603.18789v1",
+    "authors": [
+      "Lingming Zhang",
+      "Binbin Zhao",
+      "Puzhuo Liu",
+      "Qinge Xie",
+      "Peng Di",
+      "Jianhai Chen",
+      "Shouling Ji"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages.",
+    "selected_date": "2026-03-22"
+  },
+  {
     "id": "2603.18680v1",
     "title": "Revisiting Label Inference Attacks in Vertical Federated Learning: Why They Are Vulnerable and How to Defend",
     "summary": "Vertical federated learning (VFL) allows an active party with a top model, and multiple passive parties with bottom models to collaborate. In this scenario, passive parties possessing only features may attempt to infer active party's private labels, making label inference attacks (LIAs) a significant threat. Previous LIA studies have claimed that well-trained bottom models can effectively represent labels. However, we demonstrate that this view is misleading and exposes the vulnerability of existing LIAs. By leveraging mutual information, we present the first observation of the \"model compensation\" phenomenon in VFL. We theoretically prove that, in VFL, the mutual information between layer outputs and labels increases with layer depth, indicating that bottom models primarily extract feature information while the top model handles label mapping. Building on this insight, we introduce task reassignment to show that the success of existing LIAs actually stems from the distribution alignment between features and labels. When this alignment is disrupted, the performance of LIAs declines sharply or even fails entirely. Furthermore, the implications of this insight for defenses are also investigated. We propose a zero-overhead defense technique based on layer adjustment. Extensive experiments across five datasets and five representative model architectures indicate that shifting cut layers forward to increase the proportion of top model layers in the entire model not only improves resistance to LIAs but also enhances other defenses.",
@@ -586,23 +607,5 @@
     ],
     "ai_summary": "The widespread adoption of TLS 1.3 and QUIC has rendered payload content invisible, shifting traffic analysis toward side-channel features. However, rigorous justification for why side-channel leakage is inevitable in encrypted communications has been lacking.",
     "selected_date": "2026-02-17"
-  },
-  {
-    "id": "2602.12704v1",
-    "title": "QTabGAN: A Hybrid Quantum-Classical GAN for Tabular Data Synthesis",
-    "summary": "Synthesizing realistic tabular data is challenging due to heterogeneous feature types and high dimensionality. We introduce QTabGAN, a hybrid quantum-classical generative adversarial framework for tabular data synthesis. QTabGAN is especially designed for settings where real data are scarce or restricted by privacy constraints. The model exploits the expressive power of quantum circuits to learn complex data distributions, which are then mapped to tabular features using classical neural networks. We evaluate QTabGAN on multiple classification and regression datasets and benchmark it against leading state-of-the-art generative models. Experiments show that QTabGAN achieves up to 54.07% improvement across various classification datasets and evaluation metrics, thus establishing a scalable quantum approach to tabular data synthesis and highlighting its potential for quantum-assisted generative modelling.",
-    "published": "2026-02-13T08:17:28Z",
-    "link": "http://arxiv.org/abs/2602.12704v1",
-    "authors": [
-      "Subhangi Kumari",
-      "Rakesh Achutha",
-      "Vignesh Sivaraman"
-    ],
-    "categories": [
-      "cs.LG",
-      "quant-ph"
-    ],
-    "ai_summary": "Synthesizing realistic tabular data is challenging due to heterogeneous feature types and high dimensionality. We introduce QTabGAN, a hybrid quantum-classical generative adversarial framework for tabular data synthesis.",
-    "selected_date": "2026-02-16"
   }
 ]
