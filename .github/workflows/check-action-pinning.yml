@@ -1,0 +1,62 @@
+name: Check Action SHA Pinning
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+  push:
+    paths:
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
+
+jobs:
+  check-pinning:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Check all actions are pinned to SHAs
+        run: |
+          echo "Checking that all third-party actions are pinned to commit SHAs..."
+          echo ""
+
+          FAILED=0
+
+          # Find all 'uses:' references in workflow files, excluding local actions (./) and reusable workflows
+          while IFS= read -r line; do
+            file=$(echo "$line" | cut -d: -f1)
+            lineno=$(echo "$line" | cut -d: -f2)
+            content=$(echo "$line" | cut -d: -f3-)
+
+            # Extract the action reference (everything after 'uses:')
+            action_ref=$(echo "$content" | sed 's/.*uses:[[:space:]]*//' | sed 's/[[:space:]]*#.*//' | tr -d "'\"")
+
+            # Skip local actions (start with ./)
+            if echo "$action_ref" | grep -q '^\./'; then
+              continue
+            fi
+
+            # Skip Docker references
+            if echo "$action_ref" | grep -q '^docker://'; then
+              continue
+            fi
+
+            # Check if the ref after @ is a 40-character hex SHA
+            ref_part=$(echo "$action_ref" | sed 's/.*@//')
+            if ! echo "$ref_part" | grep -qE '^[a-f0-9]{40}$'; then
+              echo "::error file=${file},line=${lineno}::Action not pinned to SHA: ${action_ref}"
+              FAILED=1
+            fi
+          done < <(grep -rn 'uses:' .github/workflows/ | grep -v '^\s*#')
+
+          echo ""
+          if [ "$FAILED" -eq 1 ]; then
+            echo "FAILED: Some actions are not pinned to full commit SHAs."
+            echo "Pin actions like: uses: owner/repo@<40-char-sha> # vX.Y.Z"
+            exit 1
+          else
+            echo "PASSED: All actions are pinned to commit SHAs."
+          fi
