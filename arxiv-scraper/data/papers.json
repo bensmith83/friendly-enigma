@@ -1,5 +1,30 @@
 [
   {
+    "id": "2603.21654v1",
+    "title": "Towards Secure Retrieval-Augmented Generation: A Comprehensive Review of Threats, Defenses and Benchmarks",
+    "summary": "Retrieval-Augmented Generation (RAG) significantly mitigates the hallucinations and domain knowledge deficiency in large language models by incorporating external knowledge bases. However, the multi-module architecture of RAG introduces complex system-level security vulnerabilities. Guided by the RAG workflow, this paper analyzes the underlying vulnerability mechanisms and systematically categorizes core threat vectors such as data poisoning, adversarial attacks, and membership inference attacks. Based on this threat assessment, we construct a taxonomy of RAG defense technologies from a dual perspective encompassing both input and output stages. The input-side analysis reviews data protection mechanisms including dynamic access control, homomorphic encryption retrieval, and adversarial pre-filtering. The output-side examination summarizes advanced leakage prevention techniques such as federated learning isolation, differential privacy perturbation, and lightweight data sanitization. To establish a unified benchmark for future experimental design, we consolidate authoritative test datasets, security standards, and evaluation frameworks. To the best of our knowledge, this paper presents the first end-to-end survey dedicated to the security of RAG systems. Distinct from existing literature that isolates specific vulnerabilities, we systematically map the entire pipeline-providing a unified analysis of threat models, defense mechanisms, and evaluation benchmarks. By enabling deep insights into potential risks, this work seeks to foster the development of highly robust and trustworthy next-generation RAG systems.",
+    "published": "2026-03-23T07:32:59Z",
+    "link": "http://arxiv.org/abs/2603.21654v1",
+    "authors": [
+      "Yanming Mu",
+      "Hao Hu",
+      "Feiyang Li",
+      "Qiao Yuan",
+      "Jiang Wu",
+      "Zichuan Liu",
+      "Pengcheng Liu",
+      "Mei Wang",
+      "Hongwei Zhou",
+      "Yuling Liu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Retrieval-Augmented Generation (RAG) significantly mitigates the hallucinations and domain knowledge deficiency in large language models by incorporating external knowledge bases. However, the multi-module architecture of RAG introduces complex system-level security vulnerabilities.",
+    "selected_date": "2026-03-24"
+  },
+  {
     "id": "2603.19658v1",
     "title": "ProHunter: A Comprehensive APT Hunting System Based on Whole-System Provenance",
     "summary": "Advanced Persistent Threats (APTs) remain difficult to detect due to their stealthy nature and long-term persistence. To tackle this challenge, provenance-based threat hunting has gained traction as a proactive defense mechanism. This technique models audit logs as a whole-system provenance graph and searches for subgraphs that match APT patterns recorded in Cyber Threat Intelligence (CTI) reports. However, several limitations persist: 1) significant memory and time overhead due to the extremely large provenance graphs; 2) imprecise segmentation of APT activities from provenance graphs due to their intricate entanglement with benign operations; and 3) poor alignment of attack representations between CTI-derived query graphs and provenance graphs due to their substantial semantic gaps.   To address these limitations, this paper presents ProHunter, an efficient and accurate provenance-based APT hunting system with a platform-independent design. To minimize system overhead, ProHunter creates a compact data structure that efficiently stores long-term provenance graphs using semantic abstraction and bit-level hierarchical encoding strategies. To segment APT behaviors, a heuristic-driven threat graph sampling algorithm is designed, which can extract precise attack patterns from provenance graphs. Furthermore, to bridge the semantic gaps between CTI-derived graphs and provenance graphs, ProHunter proposes adaptive graph representation and feature enhancement methods, enabling the extraction of consistent attack semantics at both localized and globalized levels.Extensive evaluations on real-world APT campaigns from DARPA TC E3, E5 and OpTC datasets demonstrate that ProHunter outperforms state-of-the-art threat hunting systems in terms of efficiency and accuracy. Our code is available at https://github.com/xueboQiu/ProHunter.",
@@ -592,21 +617,5 @@
     ],
     "ai_summary": "Cross-border insider threats pose a critical challenge to government financial schemes, particularly when dealing with distributed, privacy-sensitive data across multiple jurisdictions. Existing approaches face fundamental limitations: they cannot effectively share intelligence across borders due to privacy constraints, lack reasoning capabilities to understand complex multi-step attack patterns, and fail to capture intricate graph-structured relationships in financial networks.",
     "selected_date": "2026-02-19"
-  },
-  {
-    "id": "2602.15493v1",
-    "title": "LEADER: Lightweight End-to-End Attention-Gated Dual Autoencoder for Robust Minutiae Extraction",
-    "summary": "Minutiae extraction, a fundamental stage in fingerprint recognition, is increasingly shifting toward deep learning. However, truly end-to-end methods that eliminate separate preprocessing and postprocessing steps remain scarce. This paper introduces LEADER (Lightweight End-to-end Attention-gated Dual autoencodER), a neural network that maps raw fingerprint images to minutiae descriptors, including location, direction, and type. The proposed architecture integrates non-maximum suppression and angular decoding to enable complete end-to-end inference using only 0.9M parameters. It employs a novel \"Castle-Moat-Rampart\" ground-truth encoding and a dual-autoencoder structure, interconnected through an attention-gating mechanism. Experimental evaluations demonstrate state-of-the-art accuracy on plain fingerprints and robust cross-domain generalization to latent impressions. Specifically, LEADER attains a 34% higher F1-score on the NIST SD27 dataset compared to specialized latent minutiae extractors. Sample-level analysis on this challenging benchmark reveals an average rank of 2.07 among all compared methods, with LEADER securing the first-place position in 47% of the samples-more than doubling the frequency of the second-best extractor. The internal representations learned by the model align with established fingerprint domain features, such as segmentation masks, orientation fields, frequency maps, and skeletons. Inference requires 15ms on GPU and 322ms on CPU, outperforming leading commercial software in computational efficiency. The source code and pre-trained weights are publicly released to facilitate reproducibility.",
-    "published": "2026-02-17T11:02:28Z",
-    "link": "http://arxiv.org/abs/2602.15493v1",
-    "authors": [
-      "Raffaele Cappelli",
-      "Matteo Ferrara"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Minutiae extraction, a fundamental stage in fingerprint recognition, is increasingly shifting toward deep learning. However, truly end-to-end methods that eliminate separate preprocessing and postprocessing steps remain scarce.",
-    "selected_date": "2026-02-18"
   }
 ]
