@@ -1,5 +1,23 @@
 [
   {
+    "id": "2603.24213v1",
+    "title": "Uncovering Memorization in Timeseries Imputation models: LBRM Membership Inference and its link to attribute Leakage",
+    "summary": "Deep learning models for time series imputation are now essential in fields such as healthcare, the Internet of Things (IoT), and finance. However, their deployment raises critical privacy concerns. Beyond the well-known issue of unintended memorization, which has been extensively studied in generative models, we demonstrate that time series models are vulnerable to inference attacks in a black-box setting. In this work, we introduce a two-stage attack framework comprising: (1) a novel membership inference attack based on a reference model that improves detection accuracy, even for models robust to overfitting-based attacks, and (2) the first attribute inference attack that predicts sensitive characteristics of the training data for timeseries imputation model. We evaluate these attacks on attention-based and autoencoder architectures in two scenarios: models that are trained from scratch, and fine-tuned models where the adversary has access to the initial weights. Our experimental results demonstrate that the proposed membership attack retrieves a significant portion of the training data with a tpr@top25% score significantly higher than a naive attack baseline. We show that our membership attack also provides a good insight of whether attribute inference will work (with a precision of 90% instead of 78% in the genral case).",
+    "published": "2026-03-25T11:43:25Z",
+    "link": "http://arxiv.org/abs/2603.24213v1",
+    "authors": [
+      "Faiz Taleb",
+      "Ivan Gazeau",
+      "Maryline Laurent"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "ai_summary": "Deep learning models for time series imputation are now essential in fields such as healthcare, the Internet of Things (IoT), and finance. However, their deployment raises critical privacy concerns.",
+    "selected_date": "2026-03-26"
+  },
+  {
     "id": "2603.23496v1",
     "title": "Estimating Flow Velocity and Vehicle Angle-of-Attack from Non-invasive Piezoelectric Structural Measurements Using Deep Learning",
     "summary": "Accurate estimation of aerodynamic state variables such as freestream velocity and angle of attack (AoA) is important for aerodynamic load prediction, flight control, and model validation. This work presents a non-intrusive method for estimating vehicle velocity and AoA from structural vibration measurements rather than direct flow instrumentation such as pitot tubes. A dense array of piezoelectric sensors mounted on the interior skin of an aeroshell capture vibrations induced by turbulent boundary layer pressure fluctuations, and a convolutional neural network (CNN) is trained to invert these structural responses to recover velocity and AoA.   Proof-of-concept is demonstrated through controlled experiments in Sandia's hypersonic wind tunnel spanning zero and nonzero AoA configurations, Mach~5 and Mach~8 conditions, and both constant and continuously varying tunnel operations. The CNN is trained and evaluated using data from 16 wind tunnel runs, with a temporally centered held-out interval within each run used to form training, validation, and test datasets and assess intra-run temporal generalization. Raw CNN predictions exhibit increased variance during continuously varying conditions; a short-window moving-median post-processing step suppresses this variance and improves robustness. After post-processing, the method achieves a mean velocity error relative to the low-pass filtered reference velocity below 2.27~m/s (0.21\\%) and a mean AoA error of $0.44^{\\circ} (8.25\\%)$ on held-out test data from the same experimental campaign, demonstrating feasibility of vibration-based velocity and AoA estimation in a controlled laboratory environment.",
@@ -595,27 +613,5 @@
     ],
     "ai_summary": "We show that large language models can be used to perform at-scale deanonymization. With full Internet access, our agent can re-identify Hacker News users and Anthropic Interviewer participants at high precision, given pseudonymous online profiles and conversations alone, matching what would take hours for a dedicated human investigator.",
     "selected_date": "2026-02-22"
-  },
-  {
-    "id": "2602.16800v1",
-    "title": "Large-scale online deanonymization with LLMs",
-    "summary": "We show that large language models can be used to perform at-scale deanonymization. With full Internet access, our agent can re-identify Hacker News users and Anthropic Interviewer participants at high precision, given pseudonymous online profiles and conversations alone, matching what would take hours for a dedicated human investigator. We then design attacks for the closed-world setting. Given two databases of pseudonymous individuals, each containing unstructured text written by or about that individual, we implement a scalable attack pipeline that uses LLMs to: (1) extract identity-relevant features, (2) search for candidate matches via semantic embeddings, and (3) reason over top candidates to verify matches and reduce false positives. Compared to prior deanonymization work (e.g., on the Netflix prize) that required structured data or manual feature engineering, our approach works directly on raw user content across arbitrary platforms. We construct three datasets with known ground-truth data to evaluate our attacks. The first links Hacker News to LinkedIn profiles, using cross-platform references that appear in the profiles. Our second dataset matches users across Reddit movie discussion communities; and the third splits a single user's Reddit history in time to create two pseudonymous profiles to be matched. In each setting, LLM-based methods substantially outperform classical baselines, achieving up to 68% recall at 90% precision compared to near 0% for the best non-LLM method. Our results show that the practical obscurity protecting pseudonymous users online no longer holds and that threat models for online privacy need to be reconsidered.",
-    "published": "2026-02-18T19:02:50Z",
-    "link": "http://arxiv.org/abs/2602.16800v1",
-    "authors": [
-      "Simon Lermen",
-      "Daniel Paleka",
-      "Joshua Swanson",
-      "Michael Aerni",
-      "Nicholas Carlini",
-      "Florian Tram\u00e8r"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "ai_summary": "We show that large language models can be used to perform at-scale deanonymization. With full Internet access, our agent can re-identify Hacker News users and Anthropic Interviewer participants at high precision, given pseudonymous online profiles and conversations alone, matching what would take hours for a dedicated human investigator.",
-    "selected_date": "2026-02-20"
   }
 ]
