@@ -1,5 +1,21 @@
 [
   {
+    "id": "2603.25304v1",
+    "title": "Physical Backdoor Attack Against Deep Learning-Based Modulation Classification",
+    "summary": "Deep Learning (DL) has become a key technology that assists radio frequency (RF) signal classification applications, such as modulation classification. However, the DL models are vulnerable to adversarial machine learning threats, such as data manipulation attacks. We study a physical backdoor (Trojan) attack that targets a DL-based modulation classifier. In contrast to digital backdoor attacks, where digital triggers are injected into the training dataset, we use power amplifier (PA) non-linear distortions to create physical triggers before the dataset is formed. During training, the adversary manipulates amplitudes of RF signals and changes their labels to a target modulation scheme, training a backdoored model. At inference, the adversary aims to keep the backdoor attack inactive such that the backdoored model maintains high accuracy on test signals. However, if they apply the same manipulation used during training on these test signals, the backdoor is activated, and the model misclassifies these signals. We demonstrate that our proposed attack achieves high attack success rates with few manipulated RD signals for different noise levels. Furthermore, we test the resilience of the proposed attack to multiple defense techniques, and the results show that these techniques fail to mitigate the attack.",
+    "published": "2026-03-26T10:49:07Z",
+    "link": "http://arxiv.org/abs/2603.25304v1",
+    "authors": [
+      "Younes Salmi",
+      "Hanna Bogucka"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Deep Learning (DL) has become a key technology that assists radio frequency (RF) signal classification applications, such as modulation classification. However, the DL models are vulnerable to adversarial machine learning threats, such as data manipulation attacks.",
+    "selected_date": "2026-03-27"
+  },
+  {
     "id": "2603.24213v1",
     "title": "Uncovering Memorization in Timeseries Imputation models: LBRM Membership Inference and its link to attribute Leakage",
     "summary": "Deep learning models for time series imputation are now essential in fields such as healthcare, the Internet of Things (IoT), and finance. However, their deployment raises critical privacy concerns. Beyond the well-known issue of unintended memorization, which has been extensively studied in generative models, we demonstrate that time series models are vulnerable to inference attacks in a black-box setting. In this work, we introduce a two-stage attack framework comprising: (1) a novel membership inference attack based on a reference model that improves detection accuracy, even for models robust to overfitting-based attacks, and (2) the first attribute inference attack that predicts sensitive characteristics of the training data for timeseries imputation model. We evaluate these attacks on attention-based and autoencoder architectures in two scenarios: models that are trained from scratch, and fine-tuned models where the adversary has access to the initial weights. Our experimental results demonstrate that the proposed membership attack retrieves a significant portion of the training data with a tpr@top25% score significantly higher than a naive attack baseline. We show that our membership attack also provides a good insight of whether attribute inference will work (with a precision of 90% instead of 78% in the genral case).",
@@ -591,27 +607,5 @@
     ],
     "ai_summary": "City-scale person re-identification across distributed cameras must handle severe appearance changes from viewpoint, occlusion, and domain shift while complying with data protection rules that prevent sharing raw imagery. We introduce CityGuard, a topology-aware transformer for privacy-preserving identity retrieval in decentralized surveillance.",
     "selected_date": "2026-02-23"
-  },
-  {
-    "id": "2602.16800v1",
-    "title": "Large-scale online deanonymization with LLMs",
-    "summary": "We show that large language models can be used to perform at-scale deanonymization. With full Internet access, our agent can re-identify Hacker News users and Anthropic Interviewer participants at high precision, given pseudonymous online profiles and conversations alone, matching what would take hours for a dedicated human investigator. We then design attacks for the closed-world setting. Given two databases of pseudonymous individuals, each containing unstructured text written by or about that individual, we implement a scalable attack pipeline that uses LLMs to: (1) extract identity-relevant features, (2) search for candidate matches via semantic embeddings, and (3) reason over top candidates to verify matches and reduce false positives. Compared to prior deanonymization work (e.g., on the Netflix prize) that required structured data or manual feature engineering, our approach works directly on raw user content across arbitrary platforms. We construct three datasets with known ground-truth data to evaluate our attacks. The first links Hacker News to LinkedIn profiles, using cross-platform references that appear in the profiles. Our second dataset matches users across Reddit movie discussion communities; and the third splits a single user's Reddit history in time to create two pseudonymous profiles to be matched. In each setting, LLM-based methods substantially outperform classical baselines, achieving up to 68% recall at 90% precision compared to near 0% for the best non-LLM method. Our results show that the practical obscurity protecting pseudonymous users online no longer holds and that threat models for online privacy need to be reconsidered.",
-    "published": "2026-02-18T19:02:50Z",
-    "link": "http://arxiv.org/abs/2602.16800v1",
-    "authors": [
-      "Simon Lermen",
-      "Daniel Paleka",
-      "Joshua Swanson",
-      "Michael Aerni",
-      "Nicholas Carlini",
-      "Florian Tram\u00e8r"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "ai_summary": "We show that large language models can be used to perform at-scale deanonymization. With full Internet access, our agent can re-identify Hacker News users and Anthropic Interviewer participants at high precision, given pseudonymous online profiles and conversations alone, matching what would take hours for a dedicated human investigator.",
-    "selected_date": "2026-02-22"
   }
 ]
