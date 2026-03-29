@@ -1,5 +1,1148 @@
 [
   {
+    "date": "2026-03-29",
+    "week_of": "March 29, 2026",
+    "digest_number": 14,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "larsdoku-zs added to PyPI",
+          "description": "WSRF Sudoku solver library \u2014 bitwise engine, GF(2) linear algebra, zone intelligence, SIRO predictions. Pure logic, zero guessing.",
+          "content": "Pure logic Sudoku solver. Zero guessing. Every step proven. 100% on the forum hardest puzzles.\r\nWeb App: larsdoku.netlify.app click Expert mode tab to open the Top-N Solver\r\nTechnique writeups:wsrf-s\u2026 [+18726 chars]",
+          "url": "https://pypi.org/project/larsdoku-zs/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-28T02:50:40Z",
+          "author": null,
+          "image_url": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+          "is_local_nj": false,
+          "article_id": "8b60c2595129",
+          "summary": "WSRF Sudoku solver library \u2014 bitwise engine, GF(2) linear algebra, zone intelligence, SIRO predictions. Pure logic, zero guessing.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ross \u201cThe Boss\u201d Friedman, Legendary Dictators and Manowar Guitarist, Dead at 72",
+          "description": "Ross \u201cThe Boss\u201d Friedman, legendary guitarist of both The Dictators and Manowar, has died at age 72 after a battle with ALS, also known as Lou Gehrig\u2019s Disease.",
+          "content": "Ross \u201cThe Boss\u201d Friedman, legendary guitarist of both The Dictators and Manowar, has died at age 72 after a battle with ALS, also known as Lou Gehrig\u2019s Disease.\r\nFriedman\u2019s death was announced by the\u2026 [+2604 chars]",
+          "url": "https://consequence.net/2026/03/ross-the-boss-friedman-dictators-manowar-guitarist-dead/",
+          "source_name": "Consequence.net",
+          "source_type": "newsapi",
+          "published_at": "2026-03-28T00:30:43Z",
+          "author": "Spencer Kaufman",
+          "image_url": "https://consequence.net/wp-content/uploads/2026/03/Ross-The-Boss-Friedman.jpg",
+          "is_local_nj": false,
+          "article_id": "89365da900df",
+          "summary": "Ross \u201cThe Boss\u201d Friedman, legendary guitarist of both The Dictators and Manowar, has died at age 72 after a battle with ALS, also known as Lou Gehrig\u2019s Disease.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ross 'The Boss' Friedman of The Dictators and Manowar Reveals ALS Diagnosis",
+              "url": "https://www.punknews.org/article/87586/ross-the-boss-friedman-of-the-dictators-and-manowar-reveals-als-diagnosis",
+              "digest_date": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "title": "Ross The Boss Passes Away Aged 72 After Battling ALS",
+          "description": "Ross Friedman, better known to fans of metal and punk rock as Ross The Boss, has sadly died at the age of seventy two. The guitarist announced last month that he had been diagnosed with amyotrophic lateral sclerosis (ALS) and unfortunately succumbed to his il\u2026",
+          "content": "Headline News\r\nposted\r\nMar27,2026 at \r\n5:34 PM\r\nby Diamond Oz.\r\n\u00a0(0 Comments)\r\nRoss Friedman, better known to fans of metal and punk rock as Ross The Boss, has sadly died at the age of seventy two. T\u2026 [+1970 chars]",
+          "url": "http://www.metalunderground.com/news/details.cfm?newsid=161106",
+          "source_name": "Metalunderground.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-27T21:34:23Z",
+          "author": "Ollie Hynes (aka Diamond Oz)",
+          "image_url": "https://www.metalunderground.com/assets/icons/horns-512.png",
+          "is_local_nj": false,
+          "article_id": "bde9a4356182",
+          "summary": "Ross Friedman, better known to fans of metal and punk rock as Ross The Boss, has sadly died at the age of seventy two. The guitarist announced last month that he had been diagnosed with amyotrophic la",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "5 Celebs Currently Living with ALS & 12 Who Passed Away After Battling the Disease",
+              "url": "https://www.justjared.com/2026/03/20/5-celebs-currently-living-with-als-12-who-passed-away-after-battling-the-disease/",
+              "digest_date": "2026-03-22"
+            }
+          ]
+        },
+        {
+          "title": "Ex-MANOWAR Guitarist ROSS THE BOSS Dead At 72",
+          "description": "Ross Friedman \u2013 known to fans as Ross \"The Boss\" \u2013 has died at the age of 72.\nThe post Ex-MANOWAR Guitarist ROSS THE BOSS Dead At 72 appeared first on Metal Injection.",
+          "content": "Ross Friedman known to fans as Ross \"The Boss\" has died at the age of 72, a little over a month after revealing he had been diagnosed with Amyotrophic Lateral Sclerosis (ALS), also known as Lou Gehri\u2026 [+2231 chars]",
+          "url": "https://metalinjection.net/this-is-just-a-tribute/ex-manowar-guitarist-ross-the-boss-dead-at-72",
+          "source_name": "Metal Injection.net",
+          "source_type": "newsapi",
+          "published_at": "2026-03-27T21:05:06Z",
+          "author": "Greg Kennelty",
+          "image_url": "https://cdn-p.smehost.net/sites/7f9737f2506941499994d771a29ad47a/wp-content/uploads/2026/02/ross-the-boss-2017-new.jpg",
+          "is_local_nj": false,
+          "article_id": "70e49aa987ca",
+          "summary": "Ross Friedman \u2013 known to fans as Ross \"The Boss\" \u2013 has died at the age of 72.\nThe post Ex-MANOWAR Guitarist ROSS THE BOSS Dead At 72 appeared first on Metal Injection.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ex-Manowar Guitarist Ross 'The Boss' Friedman Dies at 72",
+          "description": "The legendary guitarist was diagnosed with ALS just last month. Continue reading\u2026",
+          "content": "Ross \"The Boss\" Friedman, former guitarist for Manowar and The Dictators, has died at the age of 72.\r\nThe news was confirmed in a statement shared by the Metal Hall of Fame on Friday (March 27) after\u2026 [+3469 chars]",
+          "url": "https://loudwire.com/manowar-dictators-ross-the-boss-friedman-dies-72/",
+          "source_name": "Loudwire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-27T20:44:22Z",
+          "author": "Chad Childers",
+          "image_url": "https://townsquare.media/site/366/files/2026/03/attachment-ross-the-boss-2016.jpg?w=1200&q=75&format=natural",
+          "is_local_nj": false,
+          "article_id": "43dc69ec3ec4",
+          "summary": "The legendary guitarist was diagnosed with ALS just last month. Continue reading\u2026",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ross 'The Boss' Friedman of The Dictators and Manowar Reveals ALS Diagnosis",
+              "url": "https://www.punknews.org/article/87586/ross-the-boss-friedman-of-the-dictators-and-manowar-reveals-als-diagnosis",
+              "digest_date": "2026-02-15"
+            },
+            {
+              "title": "MANOWAR Share Statement After Founding Guitarist ROSS \"THE BOSS\" FRIEDMAN Diagnosed With ALS",
+              "url": "https://metalinjection.net/news/manowar-share-statement-after-founding-guitarist-ross-the-boss-friedman-diagnosed-with-als",
+              "digest_date": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "title": "Is 2026 year of left-handed pitcher? Detroit Tigers\u2019 Tarik Skubal, peers making early case",
+          "description": "Will southpaws continue to dominate MLB batters, like last season?",
+          "content": "Is 2026 year of left-handed pitcher? Detroit Tigers Tarik Skubal, peers making early case originally appeared on The Sporting News. Add The Sporting News as a Preferred Source by clicking here.\r\nDetr\u2026 [+1493 chars]",
+          "url": "https://www.sportingnews.com/us/mlb/detroit-tigers/news/2026-year-left-handed-pitcher-tarik-skubal-peers-make-case/4ccc1374f87d1916aa961195",
+          "source_name": "Sporting News",
+          "source_type": "newsapi",
+          "published_at": "2026-03-27T20:22:12Z",
+          "author": "Jeff Hawkins",
+          "image_url": "https://s.yimg.com/os/en/the_sporting_news_articles_584/c802931c48550f1ae2524287c5081dac",
+          "is_local_nj": false,
+          "article_id": "287b3ebb6c48",
+          "summary": "Will southpaws continue to dominate MLB batters, like last season?",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Android 17's New Beta Brings Major UI Changes, Split-Screen Controls And More",
+          "description": "Android 17 has reached the Platform Stability and third beta phase.\u00a0Per Google, Platform Stability means that since \"the API surface is locked; you can perform final compatibility testing and push your Android 17-targeted apps to the Play Store.\"\n\nThis is an \u2026",
+          "content": "Android 17 has reached the Platform Stability and third beta phase.\u00a0Per Google, Platform Stability means that since \"the API surface is locked; you can perform final compatibility testing and push yo\u2026 [+1527 chars]",
+          "url": "https://hothardware.com/news/android-17s-new-beta-brings-major-ui-changes-split-screen-controls-and-more",
+          "source_name": "Hot Hardware",
+          "source_type": "newsapi",
+          "published_at": "2026-03-27T20:06:00Z",
+          "author": "Chris Harper",
+          "image_url": "https://hothardware.com/contentimages/NewsItem/70197/content/16x9_2133x1200_highres-android17.jpg",
+          "is_local_nj": false,
+          "article_id": "cd8e9399f217",
+          "summary": "Android 17 has reached the Platform Stability and third beta phase.\u00a0Per Google, Platform Stability means that since \"the API surface is locked; you can perform final compatibility testing and push you",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"No Country For Old Grim\" von Grim104",
+          "description": "Grim104 - \"No Country For Old Grim\"",
+          "content": "laut.de-Kritik\r\nEs gibt kein Entrinnen.\r\nReview von Dani Fromm\r\nHuch? Tr\u00e4umerisch hei\u00dft \"No Country For Old Grim\" willkommen, melodi\u00f6s fast, der Vibe gemahnt an 10ccs vielfach gelayertes \"I'm Not In \u2026 [+7025 chars]",
+          "url": "https://laut.de/Grim104/Alben/No-Country-For-Old-Grim-126714",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-03-27T18:16:38Z",
+          "author": "Dani Fromm",
+          "image_url": "https://laut.de/Grim104/Alben/No-Country-For-Old-Grim-126714/grim104-no-country-for-old-grim-249964.jpg?1a725d",
+          "is_local_nj": false,
+          "article_id": "43aa973b6128",
+          "summary": "Grim104 - \"No Country For Old Grim\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Host\u2013Candida auris interactions in the skin",
+          "description": "Candida auris is an emerging, multidrug-resistant fungal pathogen that causes healthcare-associated outbreaks and life-threatening systemic infections. Unlike other Candida species, C. auris exhibits a distinct capacity for persistent skin colonization. In th\u2026",
+          "content": "Abstract\r\nCandida auris is an emerging, multidrug-resistant fungal pathogen that causes healthcare-associated outbreaks and life-threatening systemic infections. Unlike other Candida species, C. auri\u2026 [+76847 chars]",
+          "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014075",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-27T14:00:00Z",
+          "author": "Shankar Thangamani, Abishek Balakumar, Abhishek Datta, Garrett Bryak, Michail S. Lionakis",
+          "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.1014075.g004&size=inline",
+          "is_local_nj": false,
+          "article_id": "29b2add3eacc",
+          "summary": "Candida auris is an emerging, multidrug-resistant fungal pathogen that causes healthcare-associated outbreaks and life-threatening systemic infections. Unlike other Candida species, C. auris exhibits ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Scammer who claimed more than 30K in benefits claiming she couldn\u2019t leave home was caught surfing in Mexico",
+          "description": "A woman who received thousands of dollars in government benefits claiming her anxiety was so crippling she could not even leave the house was caught surfing and ziplining in Mexico, authorities said.",
+          "content": "A UK woman who claimed more than $30,000 in government benefits while claiming her anxiety was so crippling she couldn\u2019t even leave the house was caught surfing and ziplining on vacation in Mexico.\r\n\u2026 [+1690 chars]",
+          "url": "https://nypost.com/2026/03/27/world-news/scammer-who-claimed-more-than-30k-in-benefits-claiming-she-couldnt-leave-home-was-caught-surfing-in-mexico/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-03-27T11:11:47Z",
+          "author": "Patrick Reilly",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/03/uk-benefit-cheat-mexico-vacation-comp.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "b813ba838083",
+          "summary": "A woman who received thousands of dollars in government benefits claiming her anxiety was so crippling she could not even leave the house was caught surfing and ziplining in Mexico, authorities said.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Rob Hunt column: Weekend reminder that all great things do eventually end",
+          "description": "It was a tough Saturday for local basketball fans as dreams of a twin-title repeat like 2016 ended in losses by Lapel and Liberty Christian in their semi-state matchups, the Bulldogs in Muncie and the Lions in Washington. It was an incredible tournament run f\u2026",
+          "content": "It was a tough Saturday for local basketball fans as dreams of a twin-title repeat like 2016 ended in losses by Lapel and Liberty Christian in their semi-state matchups, the Bulldogs in Muncie and th\u2026 [+2888 chars]",
+          "url": "https://www.heraldbulletin.com/opinion/columns/rob-hunt-column-weekend-reminder-that-all-great-things-do-eventually-end/article_545f73aa-ec83-45c6-a0e9-2d2cfe54bdfc.html",
+          "source_name": "The Herald Bulletin",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T22:22:00Z",
+          "author": "Rob Hunt , The Herald Bulletin, Anderson, Ind.",
+          "image_url": "https://s.yimg.com/cv/apiv2/sports/share/PD_010626-Social_Share_GENRIC_YAHOO_SPORTS-1200x630.jpg",
+          "is_local_nj": false,
+          "article_id": "5d71c7836a0d",
+          "summary": "It was a tough Saturday for local basketball fans as dreams of a twin-title repeat like 2016 ended in losses by Lapel and Liberty Christian in their semi-state matchups, the Bulldogs in Muncie and the",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "A24 Doc \u2018Marc by Sofia\u2019 Gives a Peek Behind the Runway Curtain",
+          "description": "WrapStyle: Bloomingdale\u2019s shows California love and L.A. is hit with Sephoria fan frenzy\nThe post A24 Doc \u2018Marc by Sofia\u2019 Gives a Peek Behind the Runway Curtain appeared first on TheWrap.",
+          "content": "\u201cMarc by Sofia,\u201d\u00a0the documentary film opening this week from director Sofia Coppola about her friend Marc Jacobs, is a \u201990s fashion story, too. Bloomingdale\u2019s brings top customers to L.A. for some\u00a0\u201cC\u2026 [+13925 chars]",
+          "url": "https://www.thewrap.com/culture-lifestyle/fashion/wrapstyle-marc-by-sofia-a24-doc-premiere/",
+          "source_name": "TheWrap",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T21:31:52Z",
+          "author": "Booth Moore",
+          "image_url": "https://www.thewrap.com/wp-content/uploads/2026/03/Sofia-Coppola-and-Marc-Jacobs.jpeg",
+          "is_local_nj": false,
+          "article_id": "9bc82d95c41c",
+          "summary": "WrapStyle: Bloomingdale\u2019s shows California love and L.A. is hit with Sephoria fan frenzy\nThe post A24 Doc \u2018Marc by Sofia\u2019 Gives a Peek Behind the Runway Curtain appeared first on TheWrap.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "LeonaBio Reports Full Year 2025 Financial Results and Provides Business Update",
+          "description": "Acquired License to Phase 3 Lasofoxifene Development Program of Novel Selective Estrogen Receptor Modulator (SERM), a Potential Multi-Billion Dollar Opportunity as Treatment Option for Breast Cancer Patients with ESR1-Mutations",
+          "content": "Acquired License to Phase 3 Lasofoxifene Development Program of Novel Selective Estrogen Receptor Modulator (SERM), a Potential Multi-Billion Dollar Opportunity as Treatment Option for Breast Cancer \u2026 [+19819 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/26/3263468/0/en/LeonaBio-Reports-Full-Year-2025-Financial-Results-and-Provides-Business-Update.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T21:10:00Z",
+          "author": "LeonaBio, Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/84ac024a-139b-463f-a43f-ed787a66c0fd",
+          "is_local_nj": false,
+          "article_id": "394c47d86bab",
+          "summary": "Acquired License to Phase 3 Lasofoxifene Development Program of Novel Selective Estrogen Receptor Modulator (SERM), a Potential Multi-Billion Dollar Opportunity as Treatment Option for Breast Cancer P",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eledon Pharmaceuticals Reports Fourth Quarter and Full Year 2025 Operating and Financial Results",
+              "url": "https://www.globenewswire.com/news-release/2026/03/19/3259477/0/en/Eledon-Pharmaceuticals-Reports-Fourth-Quarter-and-Full-Year-2025-Operating-and-Financial-Results.html",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "AC Immune Reports Full Year 2025 Financial Results and Provides a Corporate Update",
+              "url": "https://www.globenewswire.com/news-release/2026/03/13/3255371/0/en/AC-Immune-Reports-Full-Year-2025-Financial-Results-and-Provides-a-Corporate-Update.html",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "ORYZON Reports Financial Results and Corporate Update for Quarter Ended December 31st, 2025",
+              "url": "https://www.globenewswire.com/news-release/2026/02/27/3246699/0/en/ORYZON-Reports-Financial-Results-and-Corporate-Update-for-Quarter-Ended-December-31st-2025.html",
+              "digest_date": "2026-03-01"
+            }
+          ]
+        },
+        {
+          "title": "American: San Francisco \u2013 Jacksonville, Florida (and vice versa). $240 (Basic Economy) / $347 (Regular Economy). Roundtrip, including all Taxes",
+          "description": "A good sale to / from Jacksonville. Pricing can vary slightly depending on routingThe $347 fare is the regular fare which allows advance seat assignments and a normal size carry-onAmerican als",
+          "content": "A good sale to / from Jacksonville. Pricing can vary slightly depending on routing\r\nThe $347 fare is the regular fare which allows advance seat assignments and a normal size carry-on\r\nAmerican also h\u2026 [+4501 chars]",
+          "url": "https://www.theflightdeal.com/2026/03/26/american-san-francisco-jacksonville-florida-and-vice-versa-240-basic-economy-347-regular-economy-roundtrip-including-all-taxes/",
+          "source_name": "Theflightdeal.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T18:53:39Z",
+          "author": "The Flight Deal",
+          "image_url": "https://www.theflightdeal.com/wp-content/uploads/2014/12/jacksonville_december.jpg",
+          "is_local_nj": false,
+          "article_id": "eb44a3b8da39",
+          "summary": "A good sale to / from Jacksonville. Pricing can vary slightly depending on routingThe $347 fare is the regular fare which allows advance seat assignments and a normal size carry-onAmerican als",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "jetBlue: New York \u2013 Denver, Colorado (and vice versa). $137 (Basic Economy) / $187 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/01/22/jetblue-new-york-denver-colorado-and-vice-versa-137-basic-economy-187-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-01-25"
+            },
+            {
+              "title": "jetBlue: New York \u2013 Denver, Colorado (and vice versa). $152 (Basic Economy) / $202 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/01/16/jetblue-new-york-denver-colorado-and-vice-versa-152-basic-economy-202-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-01-18"
+            },
+            {
+              "title": "jetBlue: Fort Lauderdale \u2013 Austin, Texas (and vice versa). $49 (Basic Economy) / $109 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/01/08/jetblue-fort-lauderdale-austin-texas-and-vice-versa-49-basic-economy-109-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "Frog Sqwad launches in June for Xbox Series, PC",
+          "description": "Slapstick physics-based cooperative extraction puzzle platformer Frog Sqwad will launch for Xbox Series and PC via Steam and Microsoft Store in June, developer Panic Stations announced. It will als\u2026",
+          "content": "About\r\nStorm The Sewers for the glory of the Swamp King! Swing, jump, catapult your friends, and eat eat EAT until you grow into a humongous Megafrog. A cooperative extraction puzzle platformer for u\u2026 [+2242 chars]",
+          "url": "https://www.gematsu.com/2026/03/frog-sqwad-launches-in-june-for-xbox-series-pc",
+          "source_name": "Gematsu",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T17:20:50Z",
+          "author": "Sal Romano",
+          "image_url": "https://www.gematsu.com/wp-content/uploads/2026/03/Frog-Sqwad-Date_03-26-26.jpg",
+          "is_local_nj": false,
+          "article_id": "25a38fcdee22",
+          "summary": "Slapstick physics-based cooperative extraction puzzle platformer Frog Sqwad will launch for Xbox Series and PC via Steam and Microsoft Store in June, developer Panic Stations announced. It will als\u2026",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Syensqo successfully completes its LTI Share Buyback Program",
+          "description": "Press releaseCommuniqu\u00e9 de pressePersbericht Regulated  Syensqo successfully completes its LTI Share Buyback Program  Brussels, Belgium \u2013 March 26, 2026...",
+          "content": "Regulated\r\nSyensqo successfully completes its LTI Share Buyback Program\r\nBrussels, Belgium March 26, 2026 18:00 CET\u00a0\r\nSyensqo is pleased to announce the successful completion of its 2026 LTI Share Bu\u2026 [+14711 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/26/3263310/0/en/Syensqo-successfully-completes-its-LTI-Share-Buyback-Program.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T17:00:00Z",
+          "author": "Syensqo SA",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/580c265c-48dc-4c96-b0d2-782304bfb832",
+          "is_local_nj": false,
+          "article_id": "2e6e86cd1987",
+          "summary": "Press releaseCommuniqu\u00e9 de pressePersbericht Regulated  Syensqo successfully completes its LTI Share Buyback Program  Brussels, Belgium \u2013 March 26, 2026...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "On \u201cThe Comeback,\u201d AI gets the last laugh",
+          "description": "As Lisa Kudrow\u2019s Valerie Cherish takes the pulse of AI\u2019s Hollywood takeover, so does a new film hitting theaters.",
+          "content": "Over three seasons set in three different decades, The Comeback has been guided by the constant, evergreen punchline of Lisa Kudrows Valerie Cherish not quite getting whats happening to her career. T\u2026 [+9425 chars]",
+          "url": "https://www.salon.com/2026/03/26/on-the-comeback-ai-gets-the-last-laugh/",
+          "source_name": "Salon",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T16:00:42Z",
+          "author": "Melanie McFarland",
+          "image_url": "https://www.salon.com/app/uploads/2026/03/lisa-kudrow_3.jpg",
+          "is_local_nj": false,
+          "article_id": "36a2215f511a",
+          "summary": "As Lisa Kudrow\u2019s Valerie Cherish takes the pulse of AI\u2019s Hollywood takeover, so does a new film hitting theaters.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Lindsey Vonn Reveals Graphic New Details About Her Crash at the Olympics: \u2018I Was in Such Extreme Pain\u2019",
+          "description": "The skier, 41, spoke out about the heartbreaking crash in a new cover interview with 'Vanity Fair'",
+          "content": "<ul><li>Lindsey Vonn is speaking out about her accident at the 2026 Milan Cortina Winter Olympics\r\n</li><li>Less than two months after crashing out of the games, Vonn, 41, has recalled being in \"extr\u2026 [+5201 chars]",
+          "url": "https://people.com/lindsey-vonn-reveals-new-details-about-olympics-crash-11934539",
+          "source_name": "PEOPLE",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T14:07:44Z",
+          "author": "Becca Longmire, Anna Lazarus Caplan",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/rdjKHeR.UvwB0w_j_Oh9Yw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDE7Y2Y9d2VicA--/https://media.zenfs.com/en/people_218/a75a91746ef6dc332f56921d23c479dd",
+          "is_local_nj": false,
+          "article_id": "c000f6021d78",
+          "summary": "The skier, 41, spoke out about the heartbreaking crash in a new cover interview with 'Vanity Fair'",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Radar Reveals Everything Eric Dane Said About His ALS Battle Before His Tragic Death at 53 \u2014 'I Was Heartbroken'",
+              "url": "https://okmagazine.com/p/eric-dane-als-battle-everything-he-said-about-his-health-condition/",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "New Details Revealed About \u2018Grey\u2019s Anatomy\u2019 Star Eric Dane\u2019s Posthumous Book",
+              "url": "https://www.usmagazine.com/celebrity-news/news/new-details-revealed-about-eric-danes-posthumous-memoir/",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Mustang Confirms and Expands Large IP Geophysical Anomaly at the Pilot Cu-Au Project, Provides Update on General Exploration Activities in Nevada, USA",
+          "description": "VANCOUVER, British Columbia, March 26, 2026 (GLOBE NEWSWIRE) \u2014 Mustang Minerals Limited (\u201cMustang\u201d or the \u201cCompany\u201d) (TSX-V: MMX; OTCQB: MMXLF) is pleased to announce that following TSXV approval of its option to acquire a 60% interest in three copper and gol\u2026",
+          "content": "Additional information on each property is provided below.\r\nPilot Porphyry Copper-Gold Prospect, Nevada\r\nThe Pilot project covers an area of hydrothermal alteration developed in folded sedimentary ro\u2026 [+4630 chars]",
+          "url": "https://financialpost.com/globe-newswire/mustang-confirms-and-expands-large-ip-geophysical-anomaly-at-the-pilot-cu-au-project-provides-update-on-general-exploration-activities-in-nevada-usa",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T11:32:55Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/03/pilot-property-plan-map.jpeg",
+          "is_local_nj": false,
+          "article_id": "2eac345e41c0",
+          "summary": "VANCOUVER, British Columbia, March 26, 2026 (GLOBE NEWSWIRE) \u2014 Mustang Minerals Limited (\u201cMustang\u201d or the \u201cCompany\u201d) (TSX-V: MMX; OTCQB: MMXLF) is pleased to announce that following TSXV approval of i",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+              "url": "https://financialpost.com/globe-newswire/osisko-development-provides-infill-drilling-update-on-its-13000-meter-lowhee-program-at-cariboo-gold-project-intercepts-include-596-40-g-t-gold-over-2-0-meters-from-6-1-meters-downhole-including-2",
+              "digest_date": "2026-02-15"
+            },
+            {
+              "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+              "url": "https://www.globenewswire.com/news-release/2026/02/12/3236801/0/en/Osisko-Development-Provides-Infill-Drilling-Update-on-Its-13-000-Meter-Lowhee-Program-at-Cariboo-Gold-Project-Intercepts-Include-596-40-g-t-Gold-Over-2-0-Meters-from-6-1-Meters-Dow.html",
+              "digest_date": "2026-02-15"
+            },
+            {
+              "title": "Osisko Metals Launches Deep Porphyry Exploration Project (\u2018DPEX\u2019) and Confirms 852 Metres Averaging 0.95% CuEq at Historic Porphyry Mountain Deposit",
+              "url": "https://financialpost.com/globe-newswire/osisko-metals-launches-deep-porphyry-exploration-project-dpex-and-confirms-852-metres-averaging-0-95-cueq-at-historic-porphyry-mountain-deposit",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+          "description": "VANCOUVER, British Columbia, March 26, 2026 (GLOBE NEWSWIRE) \u2014 Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (\u201cZacatecas Silver\u201d or the \u201cCompany\u201d)\u00a0is pleased to announce that it has received assay results for 124 rock-chip grab samples taken fr\u2026",
+          "content": "Assumptions used in USD for the silver equivalent calculation were metal prices of $24/oz silver, $1,800/oz gold, $1.81/lb zinc, $ 0.90/lb lead. Metallurgical recoveries have been estimated to be 85%\u2026 [+4468 chars]",
+          "url": "https://financialpost.com/globe-newswire/zacatecas-silver-announces-results-from-rock-chip-sampling-program-at-el-cristo",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T10:34:53Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/03/figure-1-map-of-rock-chip-samples-at-el-cristo.png",
+          "is_local_nj": false,
+          "article_id": "1899bef42613",
+          "summary": "VANCOUVER, British Columbia, March 26, 2026 (GLOBE NEWSWIRE) \u2014 Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (\u201cZacatecas Silver\u201d or the \u201cCompany\u201d)\u00a0is pleased to announce that it has rec",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+              "url": "https://financialpost.com/globe-newswire/osisko-development-provides-infill-drilling-update-on-its-13000-meter-lowhee-program-at-cariboo-gold-project-intercepts-include-596-40-g-t-gold-over-2-0-meters-from-6-1-meters-downhole-including-2",
+              "digest_date": "2026-02-15"
+            },
+            {
+              "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+              "url": "https://www.globenewswire.com/news-release/2026/02/12/3236801/0/en/Osisko-Development-Provides-Infill-Drilling-Update-on-Its-13-000-Meter-Lowhee-Program-at-Cariboo-Gold-Project-Intercepts-Include-596-40-g-t-Gold-Over-2-0-Meters-from-6-1-Meters-Dow.html",
+              "digest_date": "2026-02-15"
+            },
+            {
+              "title": "Emerita Intersects 2.1m Grading 1.6% Copper, 0.85 g/t Gold, 32.11 g/t Silver and 1.4m Grading 5.8% Copper, 4.89 g/t Gold and 51.0 g/t Silver at El Cura",
+              "url": "https://www.globenewswire.com/news-release/2026/01/07/3214385/0/en/Emerita-Intersects-2-1m-Grading-1-6-Copper-0-85-g-t-Gold-32-11-g-t-Silver-and-1-4m-Grading-5-8-Copper-4-89-g-t-Gold-and-51-0-g-t-Silver-at-El-Cura.html",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+          "description": "VANCOUVER, British Columbia, March 26, 2026 (GLOBE NEWSWIRE) -- Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (\u201cZacatecas Silver\u201d or the \u201cCompany\u201d)\u00a0is pleased to announce that it has received assay results for 124 rock-chip grab samples taken f\u2026",
+          "content": "VANCOUVER, British Columbia, March 26, 2026 (GLOBE NEWSWIRE) -- Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (Zacatecas Silver or the Company)\u00a0is pleased to announce that it has recei\u2026 [+15749 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/26/3262818/0/en/Zacatecas-Silver-Announces-Results-from-Rock-Chip-Sampling-Program-at-El-Cristo.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T10:30:00Z",
+          "author": "Zacatecas Silver Corp.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/23aed895-5e02-4f1f-8dc4-bb5f6b135e56",
+          "is_local_nj": false,
+          "article_id": "ff7254ae4840",
+          "summary": "VANCOUVER, British Columbia, March 26, 2026 (GLOBE NEWSWIRE) -- Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (\u201cZacatecas Silver\u201d or the \u201cCompany\u201d)\u00a0is pleased to announce that it has re",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+              "url": "https://financialpost.com/globe-newswire/osisko-development-provides-infill-drilling-update-on-its-13000-meter-lowhee-program-at-cariboo-gold-project-intercepts-include-596-40-g-t-gold-over-2-0-meters-from-6-1-meters-downhole-including-2",
+              "digest_date": "2026-02-15"
+            },
+            {
+              "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+              "url": "https://www.globenewswire.com/news-release/2026/02/12/3236801/0/en/Osisko-Development-Provides-Infill-Drilling-Update-on-Its-13-000-Meter-Lowhee-Program-at-Cariboo-Gold-Project-Intercepts-Include-596-40-g-t-Gold-Over-2-0-Meters-from-6-1-Meters-Dow.html",
+              "digest_date": "2026-02-15"
+            },
+            {
+              "title": "Emerita Intersects 2.1m Grading 1.6% Copper, 0.85 g/t Gold, 32.11 g/t Silver and 1.4m Grading 5.8% Copper, 4.89 g/t Gold and 51.0 g/t Silver at El Cura",
+              "url": "https://www.globenewswire.com/news-release/2026/01/07/3214385/0/en/Emerita-Intersects-2-1m-Grading-1-6-Copper-0-85-g-t-Gold-32-11-g-t-Silver-and-1-4m-Grading-5-8-Copper-4-89-g-t-Gold-and-51-0-g-t-Silver-at-El-Cura.html",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "Kevin McKidd and Kim Raver to leave Grey's Anatomy",
+          "description": "Grey's Anatomy stars Kevin McKidd and Kim Raver have announced they will leave the hit medical drama after nearly two decades.",
+          "content": "Grey's Anatomy stars Kevin McKidd and Kim Raver have announced they will leave the hit medical drama after nearly two decades.\r\nScottish actor McKidd, 52, said it was one of the \"great privileges\" of\u2026 [+2629 chars]",
+          "url": "https://www.rte.ie/entertainment/2026/0326/1565297-kevin-mckidd-and-kim-raver-to-leave-greys-anatomy/",
+          "source_name": "RTE",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T09:13:38Z",
+          "author": "RT\u00c9 Entertainment",
+          "image_url": "https://www.rte.ie/images/00241e60-1600.jpg",
+          "is_local_nj": false,
+          "article_id": "bfdec000d896",
+          "summary": "Grey's Anatomy stars Kevin McKidd and Kim Raver have announced they will leave the hit medical drama after nearly two decades.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "South Side Sox staff predictions for 2026!",
+          "description": "It\u2019s undoubtedly a better year for the White Sox \u2014 but how much better?",
+          "content": "Per site tradition, we make our picks and lay them bare for all to see. And this year, 10 of us took on the challenge. Here are our section-by-section picks, which well revisit and tabulate in Octobe\u2026 [+2235 chars]",
+          "url": "https://www.southsidesox.com/chicago-white-sox-commentary-and-analysis/122320/south-side-sox-staff-predictions-for-2026",
+          "source_name": "Southsidesox.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T07:02:43Z",
+          "author": "Year of the Hamster",
+          "image_url": "https://s.yimg.com/os/en/sb_nation_articles_115/9df262a197dbbba21b9ceee9a7b22bbc",
+          "is_local_nj": false,
+          "article_id": "e4d9220f2b67",
+          "summary": "It\u2019s undoubtedly a better year for the White Sox \u2014 but how much better?",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u2018Run-it-back\u2019 Yankees make strong opening statement with Max Fried leading the way",
+          "description": "The Yankees, after all, did not run back the White Sox or Rockies. They ran back a team that was playing its best as last regular season ended and tied for the AL\u2019s top record.",
+          "content": "Oh yeah, the Yankees ran back the kind of team that could still have its ace on the injured list and just have its other ace put up 6 \u00b9/ shutout innings on Opening Day.\r\nThats right, they ran back th\u2026 [+679 chars]",
+          "url": "https://nypost.com/2026/03/25/sports/yankees-make-strong-opening-statement-with-max-fried-leading-the-way/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T03:31:26Z",
+          "author": "Joel Sherman",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/03/newspress-collage-jm95j0ad1-1774495377931.jpg?quality=75&strip=all&1774481033&w=1200",
+          "is_local_nj": false,
+          "article_id": "8fa0a90be1c0",
+          "summary": "The Yankees, after all, did not run back the White Sox or Rockies. They ran back a team that was playing its best as last regular season ended and tied for the AL\u2019s top record.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Role of dysregulated calcium homeostasis in astrocytes in neurodegenerative disorders",
+          "description": "Astrocytic Ca2+ signalling is a fundamental and highly spatiotemporally nuanced mechanism for maintaining brain homeostasis. In this Review, Bacskai and colleagues discuss how astrocytic Ca2+ homeostasis is altered in ageing and neurodegenerative diseases and\u2026",
+          "content": "<li>Pchitskaya, E., Popugaeva, E. &amp; Bezprozvanny, I. Calcium signaling and molecular mechanisms underlying neurodegenerative diseases. Cell Calcium70, 8794 (2018).\r\nArticle\u00a0\r\n CAS\u00a0\r\n PubMed\u00a0\r\nGoo\u2026 [+56049 chars]",
+          "url": "https://www.nature.com/articles/s41583-026-01032-6",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-26T00:00:00Z",
+          "author": "Maria V. Sanchez-Mico, Maria Calvo-Rodriguez, Brian J. Bacskai",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41583-026-01032-6/MediaObjects/41583_2026_1032_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "e5bb1467372f",
+          "summary": "Astrocytic Ca2+ signalling is a fundamental and highly spatiotemporally nuanced mechanism for maintaining brain homeostasis. In this Review, Bacskai and colleagues discuss how astrocytic Ca2+ homeosta",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "How Trump is complicating TSA funding",
+          "description": "This story appeared in\u00a0The Logoff, a daily newsletter that helps you stay informed about the Trump administration without letting political news take over your life.\u00a0Subscribe here. Welcome to The Logoff: The DHS shutdown is causing chaos at airports, but Don\u2026",
+          "content": "Donald Trump speaks to reporters before boarding Air Force One at Palm Beach International Airport in West Palm Beach, Florida, on March 23, 2026. | Saul Loeb/AFP via Getty Images\r\n\n\nThis story appea\u2026 [+2548 chars]",
+          "url": "https://www.vox.com/the-logoff-newsletter-trump/483898/how-trump-is-complicating-tsa-funding",
+          "source_name": "Vox",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T21:35:11Z",
+          "author": "Cameron Peters",
+          "image_url": "https://platform.vox.com/wp-content/uploads/sites/2/2026/03/gettyimages-2267561800.jpg?quality=90&strip=all&crop=0%2C10.7354656212%2C100%2C78.529068757599&w=1200",
+          "is_local_nj": false,
+          "article_id": "47d58654df61",
+          "summary": "This story appeared in\u00a0The Logoff, a daily newsletter that helps you stay informed about the Trump administration without letting political news take over your life.\u00a0Subscribe here. Welcome to The Log",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+          "description": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) \u2014 B2Gold Corp. (TSX: BTO, NYSE AMERICAN: BTG, NSX: B2G) (\u201cB2Gold\u201d or the \u201cCompany\u201d) is pleased to announce positive exploration drilling results from the 2025 Back River Gold District exploration pr\u2026",
+          "content": "QualityAssurance/QualityControlonSampleCollectionandAssaying\r\nThe primary laboratory utilized for the Back River Gold District drilling program in 2025 is ALS laboratory in North Vancouver, Canada. C\u2026 [+4782 chars]",
+          "url": "https://financialpost.com/globe-newswire/b2gold-announces-positive-results-from-its-2025-exploration-program-at-the-back-river-gold-district-drill-results-confirm-significant-resource-potential-district-wide",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T21:16:52Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/03/figure-1-24.jpeg",
+          "is_local_nj": false,
+          "article_id": "71f440a7e0ab",
+          "summary": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) \u2014 B2Gold Corp. (TSX: BTO, NYSE AMERICAN: BTG, NSX: B2G) (\u201cB2Gold\u201d or the \u201cCompany\u201d) is pleased to announce positive exploration drilling re",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Cambria Gold Mines Announces Commencement of Infill Drilling at the Premier Gold Project and Marketing Services Update - Capital 10X",
+              "url": "https://capital10x.com/cambria-gold-mines-announces-commencement-of-infill-drilling-at-the-premier-gold-project-and-marketing-services-update/",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "Mineros S.A. Reports Significant 2025 Drill Results in Nicaragua; Confirms High-Grade Discovery at a New Target and Potential Expansion of the District",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/mineros-s-a-reports-significant-2025-drill-results-in-nicaragua-confirms-high-grade-discovery-at-a-new-target-and-potential-expansion-of-the-district",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+              "url": "https://financialpost.com/globe-newswire/osisko-development-provides-infill-drilling-update-on-its-13000-meter-lowhee-program-at-cariboo-gold-project-intercepts-include-596-40-g-t-gold-over-2-0-meters-from-6-1-meters-downhole-including-2",
+              "digest_date": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+          "description": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) -- B2Gold Corp. (TSX: BTO, NYSE AMERICAN: BTG, NSX: B2G) (\u201cB2Gold\u201d or the \u201cCompany\u201d) is pleased to announce positive exploration drilling results from the 2025 Back River Gold District exploration p\u2026",
+          "content": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) -- B2Gold Corp. (TSX: BTO, NYSE AMERICAN: BTG, NSX: B2G) (B2Gold or the Company) is pleased to announce positive exploration drilling resu\u2026 [+30004 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/25/3262636/0/en/B2Gold-Announces-Positive-Results-from-its-2025-Exploration-Program-at-the-Back-River-Gold-District-Drill-Results-Confirm-Significant-Resource-Potential-District-Wide.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T21:15:00Z",
+          "author": "B2Gold Corp.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/7d50e3bf-5879-484e-bbc7-783bf6b75816",
+          "is_local_nj": false,
+          "article_id": "23978907da43",
+          "summary": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) -- B2Gold Corp. (TSX: BTO, NYSE AMERICAN: BTG, NSX: B2G) (\u201cB2Gold\u201d or the \u201cCompany\u201d) is pleased to announce positive exploration drilling r",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Cambria Gold Mines Announces Commencement of Infill Drilling at the Premier Gold Project and Marketing Services Update - Capital 10X",
+              "url": "https://capital10x.com/cambria-gold-mines-announces-commencement-of-infill-drilling-at-the-premier-gold-project-and-marketing-services-update/",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "Mineros S.A. Reports Significant 2025 Drill Results in Nicaragua; Confirms High-Grade Discovery at a New Target and Potential Expansion of the District",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/mineros-s-a-reports-significant-2025-drill-results-in-nicaragua-confirms-high-grade-discovery-at-a-new-target-and-potential-expansion-of-the-district",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "Osisko Development Provides Infill Drilling Update on Its 13,000-Meter Lowhee Program at Cariboo Gold Project; Intercepts Include 596.40 g/t Gold Over 2.0 Meters from 6.1 Meters Downhole, Including 2,293.56 g/t Gold Over 0.5 Meters from 6.6 Meters Downhole",
+              "url": "https://financialpost.com/globe-newswire/osisko-development-provides-infill-drilling-update-on-its-13000-meter-lowhee-program-at-cariboo-gold-project-intercepts-include-596-40-g-t-gold-over-2-0-meters-from-6-1-meters-downhole-including-2",
+              "digest_date": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "title": "CervoMed\u00a0(CRVO)\u2019s Q4 Results Feature Advancements in Its Neflamapimod Program for Dementia Lewy Bodies (DLB)",
+          "description": "CervoMed Inc. (NASDAQ:CRVO) earns a place on our top 10 stocks under $5 that could triple. On March 17, 2026, CervoMed Inc. (NASDAQ:CRVO) announced results...",
+          "content": "CervoMed Inc. (NASDAQ:CRVO) earns a place on our top 10 stocks under $5 that could triple.\r\nCervoMed (CRVO)s Q4 Results Feature Advancements in Its Neflamapimod Program for Dementia Lewy Bodies (DLB)\u2026 [+1971 chars]",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/cervomed-crvo-q4-results-feature-192818604.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T19:28:18Z",
+          "author": "Faheem Tahir",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/jsQ2IS9SAFjb7st2wjya1Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/6a3eb9e1b9760b4bed78b16d1253664c",
+          "is_local_nj": false,
+          "article_id": "4f16e7b7c057",
+          "summary": "CervoMed Inc. (NASDAQ:CRVO) earns a place on our top 10 stocks under $5 that could triple. On March 17, 2026, CervoMed Inc. (NASDAQ:CRVO) announced results...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "WATCH: Bernie Sanders can\u2019t name a single benefit of Dem travel-crushing DHS shutdown when pressed",
+          "description": "'They try to make the point that ICE is out of control. ICE is out of control and it needs fundamental reforms'",
+          "content": "U.S. Sen. Bernie Sanders, I-Vt.\r\nIndependent Vermont Sen. Bernie Sanders could not name a single benefit from the Democrats partial shutdown of the Department of Homeland Security (DHS) during a Tues\u2026 [+2654 chars]",
+          "url": "https://www.wnd.com/2026/03/watch-bernie-sanders-cant-name-single-benefit-dem/",
+          "source_name": "Wnd.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T18:19:33Z",
+          "author": "Daily Caller News Foundation",
+          "image_url": "https://www.wnd.com/wp-content/uploads/2026/03/bernie-sanders-20260325-jpg.jpg",
+          "is_local_nj": false,
+          "article_id": "7ad02b089b4e",
+          "summary": "'They try to make the point that ICE is out of control. ICE is out of control and it needs fundamental reforms'",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "2026 Fantasy Baseball All-FOMO Team: Here are the players Scott Pianowski wishes he drafted this season",
+          "description": "Scott Pianowski shared his \"My Guys\" but here are players he regrets not having a share of for the 2026 fantasy baseball season.",
+          "content": "Like every season, Im in a bunch of leagues. Mostly redraft leagues, one keeper league. Private leagues. Industry leagues. Draft leagues, salary cap leagues, a draft-and-hold league, the list goes on\u2026 [+4491 chars]",
+          "url": "https://sports.yahoo.com/fantasy/article/2026-fantasy-baseball-all-fomo-team-here-are-the-players-scott-pianowski-wishes-he-drafted-this-season-161856353.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T16:18:56Z",
+          "author": "Scott Pianowski",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/Nbc4VDF9J3kN97SB6ing_Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://d29szjachogqwa.cloudfront.net/images/2026-03/5ca361ce-8869-4a83-931f-b2e8051c2714",
+          "is_local_nj": false,
+          "article_id": "469b5aed691b",
+          "summary": "Scott Pianowski shared his \"My Guys\" but here are players he regrets not having a share of for the 2026 fantasy baseball season.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Bernie Sanders Can\u2019t Name A Single Benefit Of Dems Travel-Crushing DHS Shutdown When Pressed",
+          "description": "Independent Vermont Sen. Bernie Sanders could not name a single benefit from the Democrats' partial shutdown of the DHS during a Tuesday interview.",
+          "content": "Independent Vermont Sen. Bernie Sanders could not name a single benefit from the Democrats\u2019 partial shutdown of the Department of Homeland Security (DHS) during a Tuesday interview.\r\nThe Democrats ha\u2026 [+2650 chars]",
+          "url": "https://dailycaller.com/2026/03/25/bernie-sanders-cnn-dhs-partial-shutdown/",
+          "source_name": "The Daily Caller",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T15:17:21Z",
+          "author": "Nicole Silverio",
+          "image_url": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https://cdn01.dailycaller.com/wp-content/uploads/2026/03/Collins-and-Sanders-CNN-Screenshot-1.jpg",
+          "is_local_nj": false,
+          "article_id": "5ddde70ffe81",
+          "summary": "Independent Vermont Sen. Bernie Sanders could not name a single benefit from the Democrats' partial shutdown of the DHS during a Tuesday interview.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "TDP-43 is coming to the cottage: A new tool to study neurodegenerative diseases",
+          "description": "A common hallmark of many neurodegenerative diseases is the mislocalization and aggregation of proteins in the brain, but modeling these key pathological events has been challenging. This Primer explores a recent study in PLOS Biology that develops a new cell\u2026",
+          "content": "Citation: Rayner SL, Gitler AD (2026) TDP-43 is coming to the cottage: A new tool to study neurodegenerative diseases. PLoS Biol 24(3):\r\n e3003697.\r\nhttps://doi.org/10.1371/journal.pbio.3003697\r\nPubl\u2026 [+8515 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003697",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T14:00:00Z",
+          "author": "Stephanie L. Rayner, Aaron D. Gitler",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003697.g001&size=inline",
+          "is_local_nj": false,
+          "article_id": "aaa6a4579d18",
+          "summary": "A common hallmark of many neurodegenerative diseases is the mislocalization and aggregation of proteins in the brain, but modeling these key pathological events has been challenging. This Primer explo",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Dewpoint Therapeutics Announces TDP-43 Condensate Modulator Development Candidate for Treatment of ALS and Related Neurodegenerative Diseases",
+              "url": "https://www.globenewswire.com/news-release/2026/01/08/3215515/0/en/Dewpoint-Therapeutics-Announces-TDP-43-Condensate-Modulator-Development-Candidate-for-Treatment-of-ALS-and-Related-Neurodegenerative-Diseases.html",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "ORYZON Strengthens Vafidemstat Patent Portfolio With U.S. Notice of Allowance",
+          "description": "MADRID, and CAMBRIDGE, Mass., March 25, 2026 (GLOBE NEWSWIRE) -- Oryzon Genomics, S.A. (ISIN Code: ES0167733015, ORY), a clinical-stage biopharmaceutical company and global leader in epigenetics, today announced that the United States Patent and Trademark Off\u2026",
+          "content": "<ul><li>Covers the use of vafidemstat for treating non-aggressive symptoms of Borderline Personality Disorder (BPD)</li></ul>MADRID, and CAMBRIDGE, Mass., March 25, 2026 (GLOBE NEWSWIRE) -- Oryzon Ge\u2026 [+9019 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/25/3262123/0/en/ORYZON-Strengthens-Vafidemstat-Patent-Portfolio-With-U-S-Notice-of-Allowance.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T12:00:00Z",
+          "author": "Oryzon Genomics, S.A.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/56e13ce4-e7d9-45ee-85e9-26feec9b7c6f",
+          "is_local_nj": false,
+          "article_id": "d4c41f9d0412",
+          "summary": "MADRID, and CAMBRIDGE, Mass., March 25, 2026 (GLOBE NEWSWIRE) -- Oryzon Genomics, S.A. (ISIN Code: ES0167733015, ORY), a clinical-stage biopharmaceutical company and global leader in epigenetics, toda",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Brixton Metals Drills 82,334 g/t Silver (2,647 Ounces Per Tonne Silver) Over 0.5m within 11.35m of 4,560 g/t Silver at its Langis Project",
+          "description": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) \u2014 Brixton Metals Corporation (TSX-V: BBB, OTCQX: BBBXF) (the \u201cCompany\u201d or \u201cBrixton\u201d) is pleased to announce the third batch of results from its ongoing exploration at the wholly owned Langis Silver \u2026",
+          "content": "Quality Assurance &amp; Quality Control\r\nQuality assurance and quality control protocols for drill core sampling were developed by Brixton. Core samples were mostly taken at 1.5m intervals. High-grad\u2026 [+4733 chars]",
+          "url": "https://financialpost.com/globe-newswire/brixton-metals-drills-82334-g-t-silver-2647-ounces-per-tonne-silver-over-0-5m-within-11-35m-of-4560-g-t-silver-at-its-langis-project",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T11:32:41Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/03/figure-1-20.png",
+          "is_local_nj": false,
+          "article_id": "710c46553d6f",
+          "summary": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) \u2014 Brixton Metals Corporation (TSX-V: BBB, OTCQX: BBBXF) (the \u201cCompany\u201d or \u201cBrixton\u201d) is pleased to announce the third batch of results from",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NevGold Intercepts 11.42 g/t AuEq Over 7.7 Meters (2.64% Antimony And 1.17 g/t Au) Within 4.91 g/t AuEq Over 27.4 Meters (1.09% Antimony And 0.67 g/t Au); Initial Antimony-Gold Mineral Resource Estimate On Schedule For Q2-2026 With Focus On Near-Term Antimony Production",
+              "url": "https://financialpost.com/globe-newswire/nevgold-intercepts-11-42-g-t-aueq-over-7-7-meters-2-64-antimony-and-1-17-g-t-au-within-4-91-g-t-aueq-over-27-4-meters-1-09-antimony-and-0-67-g-t-au-initial-antimony-gold-mineral-resource-estimate",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "NevGold Intercepts 11.42 g/t AuEq Over 7.7 Meters (2.64% Antimony And 1.17 g/t Au) Within 4.91 g/t AuEq Over 27.4 Meters (1.09% Antimony And 0.67 g/t Au); Initial Antimony-Gold Mineral Resource Estimate On Schedule For Q2-2026 With Focus On Near-Term Antimony Production",
+              "url": "https://www.globenewswire.com/news-release/2026/03/19/3258903/0/en/NevGold-Intercepts-11-42-g-t-AuEq-Over-7-7-Meters-2-64-Antimony-And-1-17-g-t-Au-Within-4-91-g-t-AuEq-Over-27-4-Meters-1-09-Antimony-And-0-67-g-t-Au-Initial-Antimony-Gold-Mineral-Re.html",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "Brixton Metals Reports Record Silver Intercepts of 18.2m of 3,638 g/t Ag Including 6.8m of 9,421 g/t Ag at its Langis Project in Ontario",
+              "url": "https://www.globenewswire.com/news-release/2026/03/18/3258062/0/en/Brixton-Metals-Reports-Record-Silver-Intercepts-of-18-2m-of-3-638-g-t-Ag-Including-6-8m-of-9-421-g-t-Ag-at-its-Langis-Project-in-Ontario.html",
+              "digest_date": "2026-03-22"
+            }
+          ]
+        },
+        {
+          "title": "Brixton Metals Drills 82,334 g/t Silver (2,647 Ounces Per Tonne Silver) Over 0.5m within 11.35m of 4,560 g/t Silver at its Langis Project",
+          "description": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) -- Brixton Metals Corporation (TSX-V: BBB, OTCQX: BBBXF) (the \u201cCompany\u201d or \u201cBrixton\u201d) is pleased to announce the third batch of results from its ongoing exploration at the wholly owned Langis Silver\u2026",
+          "content": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) -- Brixton Metals Corporation (TSX-V: BBB, OTCQX: BBBXF) (the Company or Brixton) is pleased to announce the third batch of results from i\u2026 [+14205 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/25/3262092/0/en/Brixton-Metals-Drills-82-334-g-t-Silver-2-647-Ounces-Per-Tonne-Silver-Over-0-5m-within-11-35m-of-4-560-g-t-Silver-at-its-Langis-Project.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T11:30:00Z",
+          "author": "Brixton Metals Corporation",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/305b947d-f5c1-47df-ad30-7ce339f0c172",
+          "is_local_nj": false,
+          "article_id": "2383187d57ee",
+          "summary": "VANCOUVER, British Columbia, March 25, 2026 (GLOBE NEWSWIRE) -- Brixton Metals Corporation (TSX-V: BBB, OTCQX: BBBXF) (the \u201cCompany\u201d or \u201cBrixton\u201d) is pleased to announce the third batch of results fro",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NevGold Intercepts 11.42 g/t AuEq Over 7.7 Meters (2.64% Antimony And 1.17 g/t Au) Within 4.91 g/t AuEq Over 27.4 Meters (1.09% Antimony And 0.67 g/t Au); Initial Antimony-Gold Mineral Resource Estimate On Schedule For Q2-2026 With Focus On Near-Term Antimony Production",
+              "url": "https://financialpost.com/globe-newswire/nevgold-intercepts-11-42-g-t-aueq-over-7-7-meters-2-64-antimony-and-1-17-g-t-au-within-4-91-g-t-aueq-over-27-4-meters-1-09-antimony-and-0-67-g-t-au-initial-antimony-gold-mineral-resource-estimate",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "NevGold Intercepts 11.42 g/t AuEq Over 7.7 Meters (2.64% Antimony And 1.17 g/t Au) Within 4.91 g/t AuEq Over 27.4 Meters (1.09% Antimony And 0.67 g/t Au); Initial Antimony-Gold Mineral Resource Estimate On Schedule For Q2-2026 With Focus On Near-Term Antimony Production",
+              "url": "https://www.globenewswire.com/news-release/2026/03/19/3258903/0/en/NevGold-Intercepts-11-42-g-t-AuEq-Over-7-7-Meters-2-64-Antimony-And-1-17-g-t-Au-Within-4-91-g-t-AuEq-Over-27-4-Meters-1-09-Antimony-And-0-67-g-t-Au-Initial-Antimony-Gold-Mineral-Re.html",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "Brixton Metals Reports Record Silver Intercepts of 18.2m of 3,638 g/t Ag Including 6.8m of 9,421 g/t Ag at its Langis Project in Ontario",
+              "url": "https://www.globenewswire.com/news-release/2026/03/18/3258062/0/en/Brixton-Metals-Reports-Record-Silver-Intercepts-of-18-2m-of-3-638-g-t-Ag-Including-6-8m-of-9-421-g-t-Ag-at-its-Langis-Project-in-Ontario.html",
+              "digest_date": "2026-03-22"
+            }
+          ]
+        },
+        {
+          "title": "Maximize Performance, Efficiency, and Usability for Enterprise Storage",
+          "description": "The latest Whitepaper,/whitepapers,,whitepapers, breaking news, comment, reviews and features from the experts at TechRadar",
+          "content": "Dieser Bericht vergleicht zwei Datenspeichersysteme f\u00fcr Unternehmen und stellt fest, dass der Dell PowerStore 500T insgesamt besser abschneidet als der IBM FlashSystem 5300. PowerStore arbeitet schne\u2026 [+374 chars]",
+          "url": "https://www.techradar.com/computing/storage-backup/maximize-performance-efficiency-and-usability-for-enterprise-storage",
+          "source_name": "TechRadar",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T11:15:46Z",
+          "author": "TechRadar Pro",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/QWif6naZNSizZLvmVWPYk9-378-80.png",
+          "is_local_nj": false,
+          "article_id": "34b1a368852d",
+          "summary": "The latest Whitepaper,/whitepapers,,whitepapers, breaking news, comment, reviews and features from the experts at TechRadar",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Nuke the Whales",
+          "description": "Nuke the Whales",
+          "content": "Einen sch\u00f6nen Sermon husten Sie da in Ihren \u00bbRespekt leben!\u00ab betitelten Leitartikel der Ausgabe 6/26 ihrer Glitzerzeitschrift: \u00bbWarum f\u00e4llt es uns nur so schwer, die Welt mit den Augen eines Mitmensc\u2026 [+1244 chars]",
+          "url": "https://www.titanic-magazin.de/postkarten/karte/nuke-the-whales-42238/",
+          "source_name": "Titanic-magazin.de",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T11:05:55Z",
+          "author": "Titanic",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "f7d5f6b3bd1c",
+          "summary": "Nuke the Whales",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Koryx Copper Announces Updated Mineral Resource Estimate for the Haib Copper Project, Southern Namibia",
+          "description": "2,090,000 MTS OF CONTAINED Cu (Indicated Resource) and 1,385,000 MTS OF CONTAINED Cu (Inferred Resource)  2,338,000 MTS OF CONTAINED CuEq (Indicated...",
+          "content": "2,090,000 MTS OF CONTAINED Cu (Indicated Resource) and 1,385,000 MTS OF CONTAINED Cu (Inferred Resource)\r\n2,338,000 MTS OF CONTAINED CuEq (Indicated Resource)and 1,583,000 MTS OF CONTAINED CuEq (Infe\u2026 [+25543 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/25/3262058/0/en/Koryx-Copper-Announces-Updated-Mineral-Resource-Estimate-for-the-Haib-Copper-Project-Southern-Namibia.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T11:00:00Z",
+          "author": "Koryx Copper Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/d41b6424-cb2b-4a00-8aee-6551b58e7a46",
+          "is_local_nj": false,
+          "article_id": "c82c4ec088d1",
+          "summary": "2,090,000 MTS OF CONTAINED Cu (Indicated Resource) and 1,385,000 MTS OF CONTAINED Cu (Inferred Resource)  2,338,000 MTS OF CONTAINED CuEq (Indicated...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NevGold Intercepts 11.42 g/t AuEq Over 7.7 Meters (2.64% Antimony And 1.17 g/t Au) Within 4.91 g/t AuEq Over 27.4 Meters (1.09% Antimony And 0.67 g/t Au); Initial Antimony-Gold Mineral Resource Estimate On Schedule For Q2-2026 With Focus On Near-Term Antimony Production",
+              "url": "https://financialpost.com/globe-newswire/nevgold-intercepts-11-42-g-t-aueq-over-7-7-meters-2-64-antimony-and-1-17-g-t-au-within-4-91-g-t-aueq-over-27-4-meters-1-09-antimony-and-0-67-g-t-au-initial-antimony-gold-mineral-resource-estimate",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "NevGold Intercepts 11.42 g/t AuEq Over 7.7 Meters (2.64% Antimony And 1.17 g/t Au) Within 4.91 g/t AuEq Over 27.4 Meters (1.09% Antimony And 0.67 g/t Au); Initial Antimony-Gold Mineral Resource Estimate On Schedule For Q2-2026 With Focus On Near-Term Antimony Production",
+              "url": "https://www.globenewswire.com/news-release/2026/03/19/3258903/0/en/NevGold-Intercepts-11-42-g-t-AuEq-Over-7-7-Meters-2-64-Antimony-And-1-17-g-t-Au-Within-4-91-g-t-AuEq-Over-27-4-Meters-1-09-Antimony-And-0-67-g-t-Au-Initial-Antimony-Gold-Mineral-Re.html",
+              "digest_date": "2026-03-22"
+            }
+          ]
+        },
+        {
+          "title": "LANCOM behoudt koppositie voor netwerkbeheer en \u2013monitoring voor zesde jaar op rij",
+          "description": "techconsult Professional User Rating IT-Operations 2026 Aken, 25 maart 2026 \u2013 LANCOM Systems, de Duitse netwerkinfrastructuur en -securityspecialist, behaalt wederom [\u2026]",
+          "content": "techconsult Professional User Rating IT-Operations 2026\r\nAken, 25 maart 2026 \u2013 LANCOM Systems, de Duitse netwerkinfrastructuur en -securityspecialist, behaalt wederom de toppositie in de Professional\u2026 [+5984 chars]",
+          "url": "https://www.emerce.nl/wire/lancom-behoudt-koppositie-netwerkbeheer-monitoring-zesde-jaar-rij",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-03-25T10:29:33Z",
+          "author": "LANCOM Systems",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/03/PUR_ITO_2026_Diamant_Network_Management__Monitoring_EN.png",
+          "is_local_nj": false,
+          "article_id": "a7c82ceaae31",
+          "summary": "techconsult Professional User Rating IT-Operations 2026 Aken, 25 maart 2026 \u2013 LANCOM Systems, de Duitse netwerkinfrastructuur en -securityspecialist, behaalt wederom [\u2026]",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "larsdoku-zs added to PyPI",
+        "url": "https://pypi.org/project/larsdoku-zs/",
+        "source": "Pypi.org",
+        "date": "2026-03-28T02:50:40Z"
+      },
+      {
+        "title": "Ross \u201cThe Boss\u201d Friedman, Legendary Dictators and Manowar Guitarist, Dead at 72",
+        "url": "https://consequence.net/2026/03/ross-the-boss-friedman-dictators-manowar-guitarist-dead/",
+        "source": "Consequence.net",
+        "date": "2026-03-28T00:30:43Z"
+      },
+      {
+        "title": "Ross The Boss Passes Away Aged 72 After Battling ALS",
+        "url": "http://www.metalunderground.com/news/details.cfm?newsid=161106",
+        "source": "Metalunderground.com",
+        "date": "2026-03-27T21:34:23Z"
+      },
+      {
+        "title": "Ex-MANOWAR Guitarist ROSS THE BOSS Dead At 72",
+        "url": "https://metalinjection.net/this-is-just-a-tribute/ex-manowar-guitarist-ross-the-boss-dead-at-72",
+        "source": "Metal Injection.net",
+        "date": "2026-03-27T21:05:06Z"
+      },
+      {
+        "title": "Ex-Manowar Guitarist Ross 'The Boss' Friedman Dies at 72",
+        "url": "https://loudwire.com/manowar-dictators-ross-the-boss-friedman-dies-72/",
+        "source": "Loudwire",
+        "date": "2026-03-27T20:44:22Z"
+      },
+      {
+        "title": "Is 2026 year of left-handed pitcher? Detroit Tigers\u2019 Tarik Skubal, peers making early case",
+        "url": "https://www.sportingnews.com/us/mlb/detroit-tigers/news/2026-year-left-handed-pitcher-tarik-skubal-peers-make-case/4ccc1374f87d1916aa961195",
+        "source": "Sporting News",
+        "date": "2026-03-27T20:22:12Z"
+      },
+      {
+        "title": "Android 17's New Beta Brings Major UI Changes, Split-Screen Controls And More",
+        "url": "https://hothardware.com/news/android-17s-new-beta-brings-major-ui-changes-split-screen-controls-and-more",
+        "source": "Hot Hardware",
+        "date": "2026-03-27T20:06:00Z"
+      },
+      {
+        "title": "\"No Country For Old Grim\" von Grim104",
+        "url": "https://laut.de/Grim104/Alben/No-Country-For-Old-Grim-126714",
+        "source": "Laut.de",
+        "date": "2026-03-27T18:16:38Z"
+      },
+      {
+        "title": "Host\u2013Candida auris interactions in the skin",
+        "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014075",
+        "source": "Plos.org",
+        "date": "2026-03-27T14:00:00Z"
+      },
+      {
+        "title": "Scammer who claimed more than 30K in benefits claiming she couldn\u2019t leave home was caught surfing in Mexico",
+        "url": "https://nypost.com/2026/03/27/world-news/scammer-who-claimed-more-than-30k-in-benefits-claiming-she-couldnt-leave-home-was-caught-surfing-in-mexico/",
+        "source": "New York Post",
+        "date": "2026-03-27T11:11:47Z"
+      },
+      {
+        "title": "Rob Hunt column: Weekend reminder that all great things do eventually end",
+        "url": "https://www.heraldbulletin.com/opinion/columns/rob-hunt-column-weekend-reminder-that-all-great-things-do-eventually-end/article_545f73aa-ec83-45c6-a0e9-2d2cfe54bdfc.html",
+        "source": "The Herald Bulletin",
+        "date": "2026-03-26T22:22:00Z"
+      },
+      {
+        "title": "A24 Doc \u2018Marc by Sofia\u2019 Gives a Peek Behind the Runway Curtain",
+        "url": "https://www.thewrap.com/culture-lifestyle/fashion/wrapstyle-marc-by-sofia-a24-doc-premiere/",
+        "source": "TheWrap",
+        "date": "2026-03-26T21:31:52Z"
+      },
+      {
+        "title": "LeonaBio Reports Full Year 2025 Financial Results and Provides Business Update",
+        "url": "https://www.globenewswire.com/news-release/2026/03/26/3263468/0/en/LeonaBio-Reports-Full-Year-2025-Financial-Results-and-Provides-Business-Update.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-26T21:10:00Z"
+      },
+      {
+        "title": "American: San Francisco \u2013 Jacksonville, Florida (and vice versa). $240 (Basic Economy) / $347 (Regular Economy). Roundtrip, including all Taxes",
+        "url": "https://www.theflightdeal.com/2026/03/26/american-san-francisco-jacksonville-florida-and-vice-versa-240-basic-economy-347-regular-economy-roundtrip-including-all-taxes/",
+        "source": "Theflightdeal.com",
+        "date": "2026-03-26T18:53:39Z"
+      },
+      {
+        "title": "Frog Sqwad launches in June for Xbox Series, PC",
+        "url": "https://www.gematsu.com/2026/03/frog-sqwad-launches-in-june-for-xbox-series-pc",
+        "source": "Gematsu",
+        "date": "2026-03-26T17:20:50Z"
+      },
+      {
+        "title": "Syensqo successfully completes its LTI Share Buyback Program",
+        "url": "https://www.globenewswire.com/news-release/2026/03/26/3263310/0/en/Syensqo-successfully-completes-its-LTI-Share-Buyback-Program.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-26T17:00:00Z"
+      },
+      {
+        "title": "On \u201cThe Comeback,\u201d AI gets the last laugh",
+        "url": "https://www.salon.com/2026/03/26/on-the-comeback-ai-gets-the-last-laugh/",
+        "source": "Salon",
+        "date": "2026-03-26T16:00:42Z"
+      },
+      {
+        "title": "Lindsey Vonn Reveals Graphic New Details About Her Crash at the Olympics: \u2018I Was in Such Extreme Pain\u2019",
+        "url": "https://people.com/lindsey-vonn-reveals-new-details-about-olympics-crash-11934539",
+        "source": "PEOPLE",
+        "date": "2026-03-26T14:07:44Z"
+      },
+      {
+        "title": "Mustang Confirms and Expands Large IP Geophysical Anomaly at the Pilot Cu-Au Project, Provides Update on General Exploration Activities in Nevada, USA",
+        "url": "https://financialpost.com/globe-newswire/mustang-confirms-and-expands-large-ip-geophysical-anomaly-at-the-pilot-cu-au-project-provides-update-on-general-exploration-activities-in-nevada-usa",
+        "source": "Financial Post",
+        "date": "2026-03-26T11:32:55Z"
+      },
+      {
+        "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+        "url": "https://financialpost.com/globe-newswire/zacatecas-silver-announces-results-from-rock-chip-sampling-program-at-el-cristo",
+        "source": "Financial Post",
+        "date": "2026-03-26T10:34:53Z"
+      },
+      {
+        "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+        "url": "https://www.globenewswire.com/news-release/2026/03/26/3262818/0/en/Zacatecas-Silver-Announces-Results-from-Rock-Chip-Sampling-Program-at-El-Cristo.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-26T10:30:00Z"
+      },
+      {
+        "title": "Kevin McKidd and Kim Raver to leave Grey's Anatomy",
+        "url": "https://www.rte.ie/entertainment/2026/0326/1565297-kevin-mckidd-and-kim-raver-to-leave-greys-anatomy/",
+        "source": "RTE",
+        "date": "2026-03-26T09:13:38Z"
+      },
+      {
+        "title": "South Side Sox staff predictions for 2026!",
+        "url": "https://www.southsidesox.com/chicago-white-sox-commentary-and-analysis/122320/south-side-sox-staff-predictions-for-2026",
+        "source": "Southsidesox.com",
+        "date": "2026-03-26T07:02:43Z"
+      },
+      {
+        "title": "\u2018Run-it-back\u2019 Yankees make strong opening statement with Max Fried leading the way",
+        "url": "https://nypost.com/2026/03/25/sports/yankees-make-strong-opening-statement-with-max-fried-leading-the-way/",
+        "source": "New York Post",
+        "date": "2026-03-26T03:31:26Z"
+      },
+      {
+        "title": "Role of dysregulated calcium homeostasis in astrocytes in neurodegenerative disorders",
+        "url": "https://www.nature.com/articles/s41583-026-01032-6",
+        "source": "Nature.com",
+        "date": "2026-03-26T00:00:00Z"
+      },
+      {
+        "title": "How Trump is complicating TSA funding",
+        "url": "https://www.vox.com/the-logoff-newsletter-trump/483898/how-trump-is-complicating-tsa-funding",
+        "source": "Vox",
+        "date": "2026-03-25T21:35:11Z"
+      },
+      {
+        "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+        "url": "https://financialpost.com/globe-newswire/b2gold-announces-positive-results-from-its-2025-exploration-program-at-the-back-river-gold-district-drill-results-confirm-significant-resource-potential-district-wide",
+        "source": "Financial Post",
+        "date": "2026-03-25T21:16:52Z"
+      },
+      {
+        "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+        "url": "https://www.globenewswire.com/news-release/2026/03/25/3262636/0/en/B2Gold-Announces-Positive-Results-from-its-2025-Exploration-Program-at-the-Back-River-Gold-District-Drill-Results-Confirm-Significant-Resource-Potential-District-Wide.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-25T21:15:00Z"
+      },
+      {
+        "title": "CervoMed\u00a0(CRVO)\u2019s Q4 Results Feature Advancements in Its Neflamapimod Program for Dementia Lewy Bodies (DLB)",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/cervomed-crvo-q4-results-feature-192818604.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-03-25T19:28:18Z"
+      },
+      {
+        "title": "WATCH: Bernie Sanders can\u2019t name a single benefit of Dem travel-crushing DHS shutdown when pressed",
+        "url": "https://www.wnd.com/2026/03/watch-bernie-sanders-cant-name-single-benefit-dem/",
+        "source": "Wnd.com",
+        "date": "2026-03-25T18:19:33Z"
+      },
+      {
+        "title": "2026 Fantasy Baseball All-FOMO Team: Here are the players Scott Pianowski wishes he drafted this season",
+        "url": "https://sports.yahoo.com/fantasy/article/2026-fantasy-baseball-all-fomo-team-here-are-the-players-scott-pianowski-wishes-he-drafted-this-season-161856353.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-03-25T16:18:56Z"
+      },
+      {
+        "title": "Bernie Sanders Can\u2019t Name A Single Benefit Of Dems Travel-Crushing DHS Shutdown When Pressed",
+        "url": "https://dailycaller.com/2026/03/25/bernie-sanders-cnn-dhs-partial-shutdown/",
+        "source": "The Daily Caller",
+        "date": "2026-03-25T15:17:21Z"
+      },
+      {
+        "title": "TDP-43 is coming to the cottage: A new tool to study neurodegenerative diseases",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003697",
+        "source": "Plos.org",
+        "date": "2026-03-25T14:00:00Z"
+      },
+      {
+        "title": "ORYZON Strengthens Vafidemstat Patent Portfolio With U.S. Notice of Allowance",
+        "url": "https://www.globenewswire.com/news-release/2026/03/25/3262123/0/en/ORYZON-Strengthens-Vafidemstat-Patent-Portfolio-With-U-S-Notice-of-Allowance.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-25T12:00:00Z"
+      },
+      {
+        "title": "Brixton Metals Drills 82,334 g/t Silver (2,647 Ounces Per Tonne Silver) Over 0.5m within 11.35m of 4,560 g/t Silver at its Langis Project",
+        "url": "https://financialpost.com/globe-newswire/brixton-metals-drills-82334-g-t-silver-2647-ounces-per-tonne-silver-over-0-5m-within-11-35m-of-4560-g-t-silver-at-its-langis-project",
+        "source": "Financial Post",
+        "date": "2026-03-25T11:32:41Z"
+      },
+      {
+        "title": "Brixton Metals Drills 82,334 g/t Silver (2,647 Ounces Per Tonne Silver) Over 0.5m within 11.35m of 4,560 g/t Silver at its Langis Project",
+        "url": "https://www.globenewswire.com/news-release/2026/03/25/3262092/0/en/Brixton-Metals-Drills-82-334-g-t-Silver-2-647-Ounces-Per-Tonne-Silver-Over-0-5m-within-11-35m-of-4-560-g-t-Silver-at-its-Langis-Project.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-25T11:30:00Z"
+      },
+      {
+        "title": "Maximize Performance, Efficiency, and Usability for Enterprise Storage",
+        "url": "https://www.techradar.com/computing/storage-backup/maximize-performance-efficiency-and-usability-for-enterprise-storage",
+        "source": "TechRadar",
+        "date": "2026-03-25T11:15:46Z"
+      },
+      {
+        "title": "Nuke the Whales",
+        "url": "https://www.titanic-magazin.de/postkarten/karte/nuke-the-whales-42238/",
+        "source": "Titanic-magazin.de",
+        "date": "2026-03-25T11:05:55Z"
+      },
+      {
+        "title": "Koryx Copper Announces Updated Mineral Resource Estimate for the Haib Copper Project, Southern Namibia",
+        "url": "https://www.globenewswire.com/news-release/2026/03/25/3262058/0/en/Koryx-Copper-Announces-Updated-Mineral-Resource-Estimate-for-the-Haib-Copper-Project-Southern-Namibia.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-25T11:00:00Z"
+      },
+      {
+        "title": "LANCOM behoudt koppositie voor netwerkbeheer en \u2013monitoring voor zesde jaar op rij",
+        "url": "https://www.emerce.nl/wire/lancom-behoudt-koppositie-netwerkbeheer-monitoring-zesde-jaar-rij",
+        "source": "Emerce.nl",
+        "date": "2026-03-25T10:29:33Z"
+      }
+    ],
+    "generated_at": "2026-03-29T08:43:05.597168"
+  },
+  {
     "date": "2026-03-22",
     "week_of": "March 22, 2026",
     "digest_number": 13,
