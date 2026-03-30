@@ -1,5 +1,23 @@
 [
   {
+    "id": "2603.26462v1",
+    "title": "DTP-Attack: A decision-based black-box adversarial attack on trajectory prediction",
+    "summary": "Trajectory prediction systems are critical for autonomous vehicle safety, yet remain vulnerable to adversarial attacks that can cause catastrophic traffic behavior misinterpretations. Existing attack methods require white-box access with gradient information and rely on rigid physical constraints, limiting real-world applicability. We propose DTP-Attack, a decision-based black-box adversarial attack framework tailored for trajectory prediction systems. Our method operates exclusively on binary decision outputs without requiring model internals or gradients, making it practical for real-world scenarios. DTP-Attack employs a novel boundary walking algorithm that navigates adversarial regions without fixed constraints, naturally maintaining trajectory realism through proximity preservation. Unlike existing approaches, our method supports both intention misclassification attacks and prediction accuracy degradation. Extensive evaluation on nuScenes and Apolloscape datasets across state-of-the-art models including Trajectron++ and Grip++ demonstrates superior performance. DTP-Attack achieves 41 - 81% attack success rates for intention misclassification attacks that manipulate perceived driving maneuvers with perturbations below 0.45 m, and increases prediction errors by 1.9 - 4.2 for accuracy degradation. Our method consistently outperforms existing black-box approaches while maintaining high controllability and reliability across diverse scenarios. These results reveal fundamental vulnerabilities in current trajectory prediction systems, highlighting urgent needs for robust defenses in safety-critical autonomous driving applications.",
+    "published": "2026-03-27T14:30:37Z",
+    "link": "http://arxiv.org/abs/2603.26462v1",
+    "authors": [
+      "Jiaxiang Li",
+      "Jun Yan",
+      "Daniel Watzenig",
+      "Huilin Yin"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "ai_summary": "Trajectory prediction systems are critical for autonomous vehicle safety, yet remain vulnerable to adversarial attacks that can cause catastrophic traffic behavior misinterpretations. Existing attack methods require white-box access with gradient information and rely on rigid physical constraints, limiting real-world applicability.",
+    "selected_date": "2026-03-30"
+  },
+  {
     "id": "2603.25310v1",
     "title": "On the Vulnerability of Deep Automatic Modulation Classifiers to Explainable Backdoor Threats",
     "summary": "Deep learning (DL) has been widely studied for assisting applications of modern wireless communications. One of the applications is automatic modulation classification (AMC). However, DL models are found to be vulnerable to adversarial machine learning (AML) threats. One of the most persistent and stealthy threats is the backdoor (Trojan) attack. Nevertheless, most studied threats originate from other AI domains, such as computer vision (CV). Therefore, in this paper, a physical backdoor attack targeting the wireless signal before transmission is studied. The adversary is considered to be using explainable AI (XAI) to guide the placement of the trigger in the most vulnerable parts of the signal. Then, a class prototype combined with principal components is used to generate the trigger. The studied threat was found to be efficient in breaching multiple DL-based AMC models. The attack achieves high success rates for a wide range of SNR values and a small poisoning ratio.",
@@ -580,24 +598,5 @@
     ],
     "ai_summary": "Semantic communication (SemCom) redefines wireless communication from reproducing symbols to transmitting task-relevant semantics. However, this AI-native architecture also introduces new vulnerabilities, as semantic failures may arise from adversarial perturbations to models, corrupted training data, desynchronized priors, or misaligned inference even when lower-layer transmission reliability and cryptographic protection remain intact.",
     "selected_date": "2026-02-26"
-  },
-  {
-    "id": "2602.20680v1",
-    "title": "Vanishing Watermarks: Diffusion-Based Image Editing Undermines Robust Invisible Watermarking",
-    "summary": "Robust invisible watermarking schemes aim to embed hidden information into images such that the watermark survives common manipulations. However, powerful diffusion-based image generation and editing techniques now pose a new threat to these watermarks. In this paper, we present a comprehensive theoretical and empirical analysis demonstrating that diffusion models can effectively erase robust watermarks even when those watermarks were designed to withstand conventional distortions. We show that a diffusion-driven image regeneration process, which leverages generative models to recreate an image, can remove embedded watermarks while preserving the image's perceptual content. Furthermore, we introduce a guided diffusion-based attack that explicitly targets the embedded watermark signal during generation, significantly degrading watermark detectability. Theoretically, we prove that as an image undergoes sufficient diffusion transformations, the mutual information between the watermarked image and the hidden payload approaches zero, leading to inevitable decoding failure. Experimentally, we evaluate multiple state-of-the-art watermarking methods (including deep learning-based schemes like StegaStamp, TrustMark, and VINE) and demonstrate that diffusion edits yield near-zero watermark recovery rates after attack, while maintaining high visual fidelity of the regenerated images. Our findings reveal a fundamental vulnerability in current robust watermarking techniques against generative model-based edits, underscoring the need for new strategies to ensure watermark resilience in the era of powerful diffusion models.",
-    "published": "2026-02-24T08:34:48Z",
-    "link": "http://arxiv.org/abs/2602.20680v1",
-    "authors": [
-      "Fan Guo",
-      "Jiyu Kang",
-      "Qi Ming",
-      "Emily Davis",
-      "Finn Carter"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Robust invisible watermarking schemes aim to embed hidden information into images such that the watermark survives common manipulations. However, powerful diffusion-based image generation and editing techniques now pose a new threat to these watermarks.",
-    "selected_date": "2026-02-25"
   }
 ]
