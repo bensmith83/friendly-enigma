@@ -1,5 +1,24 @@
 [
   {
+    "id": "2603.29669v1",
+    "title": "The Manipulate-and-Observe Attack on Quantum Key Distribution",
+    "summary": "Quantum key distribution is often regarded as an unconditionally secure method to exchange a secret key by harnessing fundamental aspects of quantum mechanics. Despite the robustness of key exchange, classical post-processing reveals vulnerabilities that an eavesdropper could target. In particular, many reconciliation protocols correct errors by comparing the parities of subsets between both parties. These communications occur over insecure channels, leaking information that an eavesdropper could exploit. Currently there is no holistic threat model that addresses how parity-leakage during reconciliation might be actively manipulated. In this paper we introduce a new form of attack, namely the Manipulate-and-Observe attack in which the adversary (1) partially intercepts a fraction $\u03c1$ of the qubits during key exchange, injecting the maximally tolerated amount of errors up to the 11 percent error threshold whilst remaining undetected and (2) probes the maximum amount of parity-leakage during reconciliation, and exploits it using a vectorised, parallel brute force filter to shrink the search space from 2n down to as few as a single candidate, for an n-bit reconciled key. We perform simulations of the attack, deploying it on the most widely used protocol, BB84, andthe benchmark reconciliation protocol, Cascade. Our simulation results demonstrate that the attack can significantly reduce the security below the theoretical bound and, in the worst case, fully recover the reconciled key material. The principles of the attack could threaten other parity-based reconciliation schemes, like Low Density Parity Check, which underscores the need for urgent consideration of the combined security of key exchange and post-processing.",
+    "published": "2026-03-31T12:27:37Z",
+    "link": "http://arxiv.org/abs/2603.29669v1",
+    "authors": [
+      "William Tighe",
+      "George Brumpton",
+      "Mark Carney",
+      "Benjamin T. H. Varcoe"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.CR"
+    ],
+    "ai_summary": "Quantum key distribution is often regarded as an unconditionally secure method to exchange a secret key by harnessing fundamental aspects of quantum mechanics. Despite the robustness of key exchange, classical post-processing reveals vulnerabilities that an eavesdropper could target.",
+    "selected_date": "2026-04-01"
+  },
+  {
     "id": "2603.26462v1",
     "title": "DTP-Attack: A decision-based black-box adversarial attack on trajectory prediction",
     "summary": "Trajectory prediction systems are critical for autonomous vehicle safety, yet remain vulnerable to adversarial attacks that can cause catastrophic traffic behavior misinterpretations. Existing attack methods require white-box access with gradient information and rely on rigid physical constraints, limiting real-world applicability. We propose DTP-Attack, a decision-based black-box adversarial attack framework tailored for trajectory prediction systems. Our method operates exclusively on binary decision outputs without requiring model internals or gradients, making it practical for real-world scenarios. DTP-Attack employs a novel boundary walking algorithm that navigates adversarial regions without fixed constraints, naturally maintaining trajectory realism through proximity preservation. Unlike existing approaches, our method supports both intention misclassification attacks and prediction accuracy degradation. Extensive evaluation on nuScenes and Apolloscape datasets across state-of-the-art models including Trajectron++ and Grip++ demonstrates superior performance. DTP-Attack achieves 41 - 81% attack success rates for intention misclassification attacks that manipulate perceived driving maneuvers with perturbations below 0.45 m, and increases prediction errors by 1.9 - 4.2 for accuracy degradation. Our method consistently outperforms existing black-box approaches while maintaining high controllability and reliability across diverse scenarios. These results reveal fundamental vulnerabilities in current trajectory prediction systems, highlighting urgent needs for robust defenses in safety-critical autonomous driving applications.",
@@ -576,27 +595,5 @@
     ],
     "ai_summary": "The Platonic Representation Hypothesis posits that neural networks trained on different modalities converge toward a shared statistical model of the world. Recent work exploits this convergence by aligning frozen pretrained vision and language models with lightweight alignment layers, but typically relies on contrastive losses and millions of paired samples.",
     "selected_date": "2026-02-27"
-  },
-  {
-    "id": "2602.22134v1",
-    "title": "Secure Semantic Communications via AI Defenses: Fundamentals, Solutions, and Future Directions",
-    "summary": "Semantic communication (SemCom) redefines wireless communication from reproducing symbols to transmitting task-relevant semantics. However, this AI-native architecture also introduces new vulnerabilities, as semantic failures may arise from adversarial perturbations to models, corrupted training data, desynchronized priors, or misaligned inference even when lower-layer transmission reliability and cryptographic protection remain intact. This survey provides a defense-centered and system-oriented synthesis of security in SemCom via AI defense. We analyze AI-centric threat models by consolidating existing studies and organizing attack surfaces across model-level, channel-realizable, knowledge-based, and networked inference vectors. Building on this foundation, we present a structured taxonomy of defense strategies organized by where semantic integrity can be compromised in SemCom systems despite correct symbol delivery, spanning semantic encoding, wireless transmission, knowledge integrity, and coordination among multiple agents. These categories correspond to distinct security failure modes, including representation fragility, channel-realizable manipulation, semantic prior poisoning or desynchronization, and adversarial propagation through distributed inference. We also examine security utility operating envelopes that capture tradeoffs among semantic fidelity, robustness, latency, and energy under realistic constraints, survey evaluation frameworks and representative applications, and identify open challenges in cross-layer composition and deployment-time certification. Overall, this survey offers a unified system-level perspective that enables readers to understand major threat and defense mechanisms in AI-native SemCom systems and to leverage emerging security techniques in the design and deployment of robust SemCom architectures for next-generation intelligent networks.",
-    "published": "2026-02-25T17:28:07Z",
-    "link": "http://arxiv.org/abs/2602.22134v1",
-    "authors": [
-      "Lan Zhang",
-      "Chengsi Liang",
-      "Zeming Zhuang",
-      "Yao Sun",
-      "Fang Fang",
-      "Xiaoyong Yuan",
-      "Dusit Niyato"
-    ],
-    "categories": [
-      "cs.CR",
-      "eess.SY"
-    ],
-    "ai_summary": "Semantic communication (SemCom) redefines wireless communication from reproducing symbols to transmitting task-relevant semantics. However, this AI-native architecture also introduces new vulnerabilities, as semantic failures may arise from adversarial perturbations to models, corrupted training data, desynchronized priors, or misaligned inference even when lower-layer transmission reliability and cryptographic protection remain intact.",
-    "selected_date": "2026-02-26"
   }
 ]
