@@ -1,5 +1,27 @@
 [
   {
+    "id": "2604.01635v1",
+    "title": "Diffusion-Guided Adversarial Perturbation Injection for Generalizable Defense Against Facial Manipulations",
+    "summary": "Recent advances in GAN and diffusion models have significantly improved the realism and controllability of facial deepfake manipulation, raising serious concerns regarding privacy, security, and identity misuse. Proactive defenses attempt to counter this threat by injecting adversarial perturbations into images before manipulation takes place. However, existing approaches remain limited in effectiveness due to suboptimal perturbation injection strategies and are typically designed under white-box assumptions, targeting only simple GAN-based attribute editing. These constraints hinder their applicability in practical real-world scenarios. In this paper, we propose AEGIS, the first diffusion-guided paradigm in which the AdvErsarial facial images are Generated for Identity Shielding. We observe that the limited defense capability of existing approaches stems from the peak-clipping constraint, where perturbations are forcibly truncated due to a fixed $L_\\infty$-bounded. To overcome this limitation, instead of directly modifying pixels, AEGIS injects adversarial perturbations into the latent space along the DDIM denoising trajectory, thereby decoupling the perturbation magnitude from pixel-level constraints and allowing perturbations to adaptively amplify where most effective. The extensible design of AEGIS allows the defense to be expanded from purely white-box use to also support black-box scenarios through a gradient-estimation strategy. Extensive experiments across GAN and diffusion-based deepfake generators show that AEGIS consistently delivers strong defense effectiveness while maintaining high perceptual quality. In white-box settings, it achieves robust manipulation disruption, whereas in black-box settings, it demonstrates strong cross-model transferability.",
+    "published": "2026-04-02T05:24:11Z",
+    "link": "http://arxiv.org/abs/2604.01635v1",
+    "authors": [
+      "Yue Li",
+      "Linying Xue",
+      "Kaiqing Lin",
+      "Hanyu Quan",
+      "Dongdong Lin",
+      "Hui Tian",
+      "Hongxia Wang",
+      "Bin Wang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Recent advances in GAN and diffusion models have significantly improved the realism and controllability of facial deepfake manipulation, raising serious concerns regarding privacy, security, and identity misuse. Proactive defenses attempt to counter this threat by injecting adversarial perturbations into images before manipulation takes place.",
+    "selected_date": "2026-04-05"
+  },
+  {
     "id": "2604.02149v1",
     "title": "AEGIS: Adversarial Entropy-Guided Immune System -- Thermodynamic State Space Models for Zero-Day Network Evasion Detection",
     "summary": "As TLS 1.3 encryption limits traditional Deep Packet Inspection (DPI), the security community has pivoted to Euclidean Transformer-based classifiers (e.g., ET-BERT) for encrypted traffic analysis. However, these models remain vulnerable to byte-level adversarial morphing -- recent pre-padding attacks reduced ET-BERT accuracy to 25.68%, while VLESS Reality bypasses certificate-based detection entirely. We introduce AEGIS: an Adversarial Entropy-Guided Immune System powered by a Thermodynamic Variance-Guided Hyperbolic Liquid State Space Model (TVD-HL-SSM). Rather than competing in the Euclidean payload-reading domain, AEGIS discards payload bytes in favor of 6-dimensional continuous-time flow physics projected into a non-Euclidean Poincare manifold. Liquid Time-Constants measure microsecond IAT decay, and a Thermodynamic Variance Detector computes sequence-wide Shannon Entropy to expose automated C2 tunnel anomalies. A pure C++ eBPF Harvester with zero-copy IPC bypasses the Python GIL, enabling a linear-time O(N) Mamba-3 core to process 64,000-packet swarms at line-rate. Evaluated on a 400GB, 4-tier adversarial corpus spanning backbone traffic, IoT botnets, zero-days, and proprietary VLESS Reality tunnels, AEGIS achieves an F1-score of 0.9952 and 99.50% True Positive Rate at 262 us inference latency on an RTX 4090, establishing a new state-of-the-art for physics-based adversarial network defense.",
@@ -572,25 +594,5 @@
     ],
     "ai_summary": "Feedforward geometric foundation models achieve strong short-window reconstruction, yet scaling them to minutes-long videos is bottlenecked by quadratic attention complexity or limited effective memory in recurrent designs. We present LoGeR (Long-context Geometric Reconstruction), a novel architecture that scales dense 3D reconstruction to extremely long sequences without post-optimization.",
     "selected_date": "2026-03-04"
-  },
-  {
-    "id": "2603.01876v1",
-    "title": "Systematic Survey on Privacy-Preserving Architectures for IoT and Vehicular Data Sharing: Techniques, Challenges, and Future Directions",
-    "summary": "The proliferation of IoT and V2X systems generates unprecedented sensitive data at the network edge, demanding privacy-preserving architectures that enable secure sharing without exposing raw information. Contemporary solutions face a fundamental privacy-efficiency-trust trilemma: achieving strong privacy guarantees, computational efficiency for resource-constrained devices, and decentralized trust simultaneously remains intractable with single-paradigm approaches. This survey systematically analyzes 75 technical papers (2007--2025) through a novel three-dimensional taxonomy classifying architectures into Decentralized Computation, Cryptography-based, and Distributed Ledger approaches. Temporal analysis reveals dramatic acceleration during 2024--2025, with 48% of all papers published in this period -- Decentralized Computation dominates at 44% of contributions and 59% of 2025 publications. Comprehensive Security Threat Mapping and Technology Maturity Assessment demonstrate that mature solutions occupy narrow design regions excelling in one or two dimensions while compromising others, conclusively validating the trilemma hypothesis. We identify emerging hybrid architectures combining complementary paradigms as the essential path forward. Critical challenges including security guarantee composition across layers, multi-layer coordination overhead minimization, and post-quantum security integration must be addressed for practical deployment in next-generation intelligent transportation systems and IoT ecosystems.",
-    "published": "2026-03-02T13:54:52Z",
-    "link": "http://arxiv.org/abs/2603.01876v1",
-    "authors": [
-      "Phat T. Tran-Truong",
-      "Vinh X. Q. Nguyen",
-      "Ha X. Son",
-      "Phien Nguyen-Ngoc",
-      "Khanh H. Vo",
-      "Triet M. Nguyen"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "The proliferation of IoT and V2X systems generates unprecedented sensitive data at the network edge, demanding privacy-preserving architectures that enable secure sharing without exposing raw information. Contemporary solutions face a fundamental privacy-efficiency-trust trilemma: achieving strong privacy guarantees, computational efficiency for resource-constrained devices, and decentralized trust simultaneously remains intractable with single-paradigm approaches.",
-    "selected_date": "2026-03-03"
   }
 ]
