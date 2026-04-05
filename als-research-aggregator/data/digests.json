@@ -1,5 +1,1389 @@
 [
   {
+    "date": "2026-04-05",
+    "week_of": "April 05, 2026",
+    "digest_number": 15,
+    "weekly_summary": "This week brought significant developments in ALS research and treatment options that should interest your family. Two major clinical advances stand out: the PREVAiLS phase 3 trial is now actively recruiting patients with early-stage ALS, offering the potential to slow disease progression\u2014this is the only phase 3 ALS trial currently enrolling and represents a meaningful treatment opportunity. Additionally, Trethera Pharmaceuticals announced a clinical trial partnership with Massachusetts General Hospital for TRE-515, a first-in-class drug targeting inflammation and nucleotide metabolism through a novel approach to ALS treatment.\n\nOn the research front, a groundbreaking study published in Nature identified new rare genetic variants contributing to ALS through the largest genetic analysis to date (22 cohorts). This discovery could lead to targeted therapies and help identify at-risk family members. Complementing this, a separate study examined how dynein dysfunction affects spinal interneurons in ALS, furthering our understanding of disease mechanisms.\n\nFor your family in New Jersey specifically, there's positive local news: New Jersey has passed a bill allowing residents to make tax-deductible contributions to the ALS Association directly through state income tax returns. This provides a convenient way to support ALS research and patient services while benefiting from a tax deduction. Overall, this week reflects meaningful progress across genetic research, novel therapeutic approaches, and clinical trial opportunities.",
+    "highlights": [
+      {
+        "article": {
+          "title": "Breakthrough ALS study launches as drug aims to slow disease progression",
+          "description": "The PREVAiLS study, believed to be the only recruiting phase 3 ALS trial, aims to slow disease progression and preserve function in early-stage patients.",
+          "content": "There could be new hope for ALS management as a promising drug enters phase 3 clinical trials.\r\nALS is a progressive disease in which the brain loses connection with the muscles, The ALS Association \u2026 [+5540 chars]",
+          "url": "https://www.foxnews.com/health/breakthrough-als-study-launches-drug-aims-slow-disease-progression",
+          "source_name": "Fox News",
+          "source_type": "newsapi",
+          "published_at": "2026-04-03T11:00:47Z",
+          "author": null,
+          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/04/scientist-holding-pill.jpg",
+          "is_local_nj": false,
+          "article_id": "f24e84313590"
+        },
+        "why_important": "The PREVAiLS phase 3 clinical trial represents a major treatment advancement\u2014it's currently the only actively recruiting phase 3 ALS trial. For families dealing with early-stage ALS, this offers a potential option to slow disease progression and preserve function, making it critically important to be aware of enrollment opportunities."
+      },
+      {
+        "article": {
+          "title": "Trethera Announces Massachusetts General Hospital Clinical Trial Collaboration to Evaluate TRE-515 in ALS Patients",
+          "description": "MGH collaboration to evaluate TRE-515 in ALS patients, advancing development of a first-in-class therapy targeting inflammation and nucleotide metabolism....",
+          "content": "LOS ANGELES, March 31, 2026 (GLOBE NEWSWIRE) -- Trethera Corporation (Trethera), a clinical stage biopharmaceutical company developing first-in-class therapies for cancer, autoimmune, and neuroimmune\u2026 [+8394 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/31/3265678/0/en/Trethera-Announces-Massachusetts-General-Hospital-Clinical-Trial-Collaboration-to-Evaluate-TRE-515-in-ALS-Patients.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T13:45:00Z",
+          "author": "Trethera Corporation",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/7464da7d-c812-40a0-94eb-446f4349b1fd",
+          "is_local_nj": false,
+          "article_id": "1aac11fbd2fe"
+        },
+        "why_important": "Trethera's collaboration with Massachusetts General Hospital on TRE-515 introduces a novel first-in-class therapeutic approach targeting both inflammation and nucleotide metabolism in ALS. This represents innovative research into new disease mechanisms and offers hope for a different treatment strategy than currently available options."
+      },
+      {
+        "article": {
+          "title": "Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis",
+          "description": "Single-variant and ultrarare variant burden analyses leveraging exome sequencing data from 22 cohorts identify new risk genes for amyotrophic lateral sclerosis and show cumulative effects of several rare variants on disease risk.",
+          "content": "Building a harmonized ALS exome dataset for rare variant analysis\r\nTo identify rare coding variants involved in ALS, we harmonized 18 whole-exome (WXS) and whole-genome (WGS) sequencing datasets into\u2026 [+20387 chars]",
+          "url": "https://www.nature.com/articles/s41588-026-02535-9",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T00:00:00Z",
+          "author": "Paul J. Hop, Maarten Kooyman, Brendan J. Kenna, Ramona A. J. Zwamborn, Kristel R. van Eijk, Yan Wang, Charlotte H. van Dijk, Erwin Bekema, Wouter van Rheenen, Paul Beele, Joke J. F. A. van Vugt, Philip Van Damme, Leonard H. van den Berg, Mamede de Carvalho, Bradley N. Smith, Ahmad Al Khleifat, Alfredo Iacoangeli, Johnathan Cooper-Knock, Bradley N. Smith, Simon Topp, Anneke J. van der Kooi, Vera Fominykh, Vivian Drory, Yossef Lerner, Yehuda Shovman, Dominic B. Rowe, Kelly L. Williams, Russell L. McLaughlin, Jessica Hurt, Yunfeng Huang, Chia-Yen Chen, Ellen Tsai, Heiko Runz, Eleonora Aronica, Ewout J. N. Groen, Michael A. van Es, R. Jeroen Pasterkamp, Sali M. K. Farhan, Fleur C. Garton, Allan F. McRae, Pamela A. McCombe, Robert D. Henderson, Dongsheng Fan, Lenka \u0160lachtov\u00e1, Helle H\u00f8yer, Agnes L. Nishimura, Ruben J. Cauchi, Lev Brylev, Boris Rogelj, Bla\u017e Koritnik, Janez Zidar, Teresa Salas, Jesus S. Mora Pardina, Marc Gotkine, Monica Povedano, Philippe Corcia, Patrick Vourc\u2019h, Philippe Couratier, Markus Weber, Matthew C. Kiernan, Roger Pamphlett, Ian P. Blair, Mamede de Carvalho, Nazli A. Ba\u015fak, Caroline Ingre, Peter M. Andersen, Lorne Zinman, Ekaterina Rogaeva, Ian R. MacKenzie, Nicolas Dupre, Guy A. Rouleau, Bryan J. Traynor, Nicola Ticozzi, Adriano Chi\u00f2, Vincenzo Silani, Orla Hardiman, Hemali Phatnani, Matthew B. Harms, Clifton L. Dalgard, Jonathan D. Glass, John E. Landers, Philip Van Damme, Karen E. Morrison, Pamela J. Shaw, Chris E. Shaw, Ammar Al-Chalabi, Leonard H. van den Berg, Kevin P. Kenna, Jan H. Veldink",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41588-026-02535-9/MediaObjects/41588_2026_2535_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "73c415825514"
+        },
+        "why_important": "This large-scale Nature study identifies new ALS risk genes and genetic contributions through analysis of 22 cohorts\u2014one of the most comprehensive genetic analyses to date. Understanding genetic risk factors is fundamental to developing targeted therapies and may help identify at-risk family members earlier."
+      },
+      {
+        "article": {
+          "title": "New Jersey Bill Allows Contributions on Income Tax Returns to ALS Association - taxnotes.com",
+          "description": "New Jersey Bill Allows Contributions on Income Tax Returns to ALS Association&nbsp;&nbsp;taxnotes.com",
+          "content": "",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObThDdHhzZUpqT2Y2ZW1VbGRsYnpzcDJsOHlXT252RHVMU0thS1NiV0dfTElxd3lSYlp2Q18wVHdpMVNDWUttc0ZTaVJtUTdraHhtaDFrXzhfWWRLWDN1VkM4cDJ3WE1rdmpVTFctd1BiNjFYTVgyQXdLRERIdkJqajNpR0JxaU5DMld0U2p5MWFBRGg4WUw3Y1FpZXdTTHRHOG1EQklnVzB5a3ZkTlVqZ3AyeURUaUNCeVlla0VIbDljbDJycGpwam5nTm9obTA?oc=5",
+          "source_name": "Google News (\"New Jersey\" ALS...)",
+          "source_type": "rss",
+          "published_at": "2026-04-03T00:33:44",
+          "author": "",
+          "image_url": "",
+          "is_local_nj": true,
+          "category_hint": null,
+          "article_id": "b9c4251a8a9f"
+        },
+        "why_important": "The New Jersey tax return contribution option is directly relevant to the family as a local resource. It provides an easy, tax-efficient way to support ALS research and services through state income tax returns, helping advance the treatments and support services that benefit ALS patients in New Jersey."
+      }
+    ],
+    "categories": {
+      "research": [
+        {
+          "title": "Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis",
+          "description": "Single-variant and ultrarare variant burden analyses leveraging exome sequencing data from 22 cohorts identify new risk genes for amyotrophic lateral sclerosis and show cumulative effects of several rare variants on disease risk.",
+          "content": "Building a harmonized ALS exome dataset for rare variant analysis\r\nTo identify rare coding variants involved in ALS, we harmonized 18 whole-exome (WXS) and whole-genome (WGS) sequencing datasets into\u2026 [+20387 chars]",
+          "url": "https://www.nature.com/articles/s41588-026-02535-9",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T00:00:00Z",
+          "author": "Paul J. Hop, Maarten Kooyman, Brendan J. Kenna, Ramona A. J. Zwamborn, Kristel R. van Eijk, Yan Wang, Charlotte H. van Dijk, Erwin Bekema, Wouter van Rheenen, Paul Beele, Joke J. F. A. van Vugt, Philip Van Damme, Leonard H. van den Berg, Mamede de Carvalho, Bradley N. Smith, Ahmad Al Khleifat, Alfredo Iacoangeli, Johnathan Cooper-Knock, Bradley N. Smith, Simon Topp, Anneke J. van der Kooi, Vera Fominykh, Vivian Drory, Yossef Lerner, Yehuda Shovman, Dominic B. Rowe, Kelly L. Williams, Russell L. McLaughlin, Jessica Hurt, Yunfeng Huang, Chia-Yen Chen, Ellen Tsai, Heiko Runz, Eleonora Aronica, Ewout J. N. Groen, Michael A. van Es, R. Jeroen Pasterkamp, Sali M. K. Farhan, Fleur C. Garton, Allan F. McRae, Pamela A. McCombe, Robert D. Henderson, Dongsheng Fan, Lenka \u0160lachtov\u00e1, Helle H\u00f8yer, Agnes L. Nishimura, Ruben J. Cauchi, Lev Brylev, Boris Rogelj, Bla\u017e Koritnik, Janez Zidar, Teresa Salas, Jesus S. Mora Pardina, Marc Gotkine, Monica Povedano, Philippe Corcia, Patrick Vourc\u2019h, Philippe Couratier, Markus Weber, Matthew C. Kiernan, Roger Pamphlett, Ian P. Blair, Mamede de Carvalho, Nazli A. Ba\u015fak, Caroline Ingre, Peter M. Andersen, Lorne Zinman, Ekaterina Rogaeva, Ian R. MacKenzie, Nicolas Dupre, Guy A. Rouleau, Bryan J. Traynor, Nicola Ticozzi, Adriano Chi\u00f2, Vincenzo Silani, Orla Hardiman, Hemali Phatnani, Matthew B. Harms, Clifton L. Dalgard, Jonathan D. Glass, John E. Landers, Philip Van Damme, Karen E. Morrison, Pamela J. Shaw, Chris E. Shaw, Ammar Al-Chalabi, Leonard H. van den Berg, Kevin P. Kenna, Jan H. Veldink",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41588-026-02535-9/MediaObjects/41588_2026_2535_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "73c415825514",
+          "summary": "A major study published in Nature identifies new rare genetic variants contributing to ALS risk through large-scale exome sequencing analysis of 22 cohorts. The research reveals new ALS risk genes and demonstrates cumulative effects of multiple rare variants on disease susceptibility.",
+          "importance": 5,
+          "key_entities": [
+            "rare variants",
+            "ALS genetics",
+            "exome sequencing",
+            "22 cohorts",
+            "Nature journal",
+            "risk genes"
+          ],
+          "related_previous": [
+            {
+              "title": "Safety and biodistribution of intrathecal administration of mesenchymal stem cells (MSCs) and neurotrophin-releasing nanoparticles in a porcine CSF-guided delivery model for amyotrophic lateral sclerosis (ALS) drug discovery",
+              "url": "https://www.nature.com/articles/s41598-026-40196-0",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "A gut-activated NHR-86\u2013CYP pathway mediates the neuroprotective effects of Enterococcus faecium probiotics in a nematode model of amyotrophic lateral sclerosis",
+              "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003627",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "Modeling amyotrophic lateral sclerosis (ALS) in vitro: from mechanistic studies to translatable drug discovery",
+              "url": "https://pubs.rsc.org/en/content/articlelanding/2026/lc/d5lc00577a",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "Impaired dynein function preserves spinal interneuron survival and positioning in an ALS-like mouse model",
+          "description": "Impaired cytoplasmic dynein function has been implicated in amyotrophic lateral sclerosis (ALS) pathogenesis, yet the contributions of spinal interneurons to disease phenotypes remain unclear. We tested the hypothesis that hypomorphic dynein function in choli\u2026",
+          "content": "Abstract\r\nImpaired cytoplasmic dynein function has been implicated in amyotrophic lateral sclerosis (ALS) pathogenesis, yet the contributions of spinal interneurons to disease phenotypes remain uncle\u2026 [+52819 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346246",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-04-02T14:00:00Z",
+          "author": "Eleni Christoforidou, Jordan S. Rowe, Fabio A. Simoes, Raphaelle Cassel, Luc Dupuis, Peter Nigel Leigh, Majid Hafezparast",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0346246.g007&size=inline",
+          "is_local_nj": false,
+          "article_id": "f66737f57660",
+          "summary": "A scientific study published in PLOS ONE investigates how impaired cytoplasmic dynein function affects spinal interneurons in ALS-like mouse models. The research helps clarify the role of these neurons in disease pathogenesis, potentially opening new understanding of ALS mechanisms.",
+          "importance": 3,
+          "key_entities": [
+            "dynein function",
+            "spinal interneurons",
+            "ALS pathogenesis",
+            "mouse model",
+            "PLOS ONE"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Regional Australians more likely to die from MND, according to new study",
+          "description": "Tasmanian grandmother Kelli Skipper had to travel for hours to get the medical treatment she needed after being diagnosed with a form of motor neurone disease. She is now calling for change.",
+          "content": "Kelli Skipper knows all too well the difficulty regional Australians face when it comes to getting diagnosed with motor neurone disease (MND).\r\nMrs Skipper was last year diagnosed with a form of MND \u2026 [+4660 chars]",
+          "url": "https://www.abc.net.au/news/2026-03-31/motor-neurone-disease-deaths-linked-to-hotspots/106511160",
+          "source_name": "ABC News (AU)",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T04:44:14Z",
+          "author": "Crystal McKay",
+          "image_url": "https://live-production.wcms.abc-cdn.net.au/e8c2bb610bdcce492b00ebb45cab9283?impolicy=wcms_watermark_news&cropH=425&cropW=756&xPos=0&yPos=156&width=862&height=485&imformat=generic",
+          "is_local_nj": false,
+          "article_id": "8d9b4066b013",
+          "summary": "An Australian study reveals that regional residents have higher mortality rates from motor neurone disease (MND/ALS) compared to urban populations, suggesting geographic disparities in access to medical treatment. The research highlights the challenges faced by patients in remote areas.",
+          "importance": 3,
+          "key_entities": [
+            "motor neurone disease",
+            "regional health disparities",
+            "Australia",
+            "MND mortality"
+          ],
+          "related_previous": [
+            {
+              "title": "The Weekly Injection: New Releasers From LAMB OF GOD, WITCHCRAFT & More Out This Week 3/13",
+              "url": "https://metalinjection.net/upcoming-releases/heavy-new-releases/the-weekly-injeciton-new-releasers-from-lamb-of-god-witchcraft-more-out-this-week-3-13",
+              "digest_date": "2026-03-15"
+            }
+          ]
+        },
+        {
+          "title": "EXCLUSIVE: Eric Dane's Family 'Consumed With Grief' Over His 'Ghoulish' Appearance on Hit TV Show Weeks After His Death",
+          "description": "Eric Dane\u2019s family is said to be 'grieving' after he appeared in a trailer for the upcoming season of 'Euphoria.'",
+          "content": "RadarOnline.com can reveal Eric Dane has made a final on-screen appearance in the newly released trailer for Euphoria season three, prompting an emotional reaction from fans and renewed grief among h\u2026 [+3399 chars]",
+          "url": "https://radaronline.com/p/eric-dane-family-grief-tv-appearance-euphoria-trailer-death/",
+          "source_name": "Radaronline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T20:00:00Z",
+          "author": "Aaron Tinney",
+          "image_url": "https://media.radaronline.com/brand-img/b4i_dvwFW/1200x628/eric-dane-family-grief-tv-appearance-claims-1774984383982.jpg",
+          "is_local_nj": false,
+          "article_id": "f9329cfc0ad6",
+          "summary": "Celebrity news about actor Eric Dane who was diagnosed with ALS; mentions his appearance in upcoming television content filmed before his death.",
+          "importance": 1,
+          "key_entities": [
+            "Eric Dane",
+            "ALS diagnosis"
+          ],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart and daughters put on brave face for first public appearance since Eric Dane\u2019s death",
+              "url": "https://pagesix.com/2026/03/18/celebrity-news/rebecca-gayheart-daughters-make-first-public-appearance-since-eric-danes-death/",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "Rebecca Gayheart Makes 1st Public Appearance After Eric Dane\u2019s Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-steps-out-with-eric-danes-daughters/",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "Radar Reveals Everything Eric Dane Said About His ALS Battle Before His Tragic Death at 53 \u2014 'I Was Heartbroken'",
+              "url": "https://okmagazine.com/p/eric-dane-als-battle-everything-he-said-about-his-health-condition/",
+              "digest_date": "2026-03-15"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane Returns for His Final TV Role in the New Euphoria Trailer",
+          "description": "HBO\u2019s new Euphoria trailer features Eric Dane in his final TV role, giving fans one last look at the actor in season 3.",
+          "content": "The trailer for Euphoria's third and final season is now online, giving fans a more in-depth preview at the high-stakes intensity beginning on April 12. Among its most buzz-worthy items include the l\u2026 [+1961 chars]",
+          "url": "https://www.esquire.com/entertainment/tv/a70894721/eric-dane-euphoria-trailer-final-role/",
+          "source_name": "esquire.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T17:12:00Z",
+          "author": "Eric Francisco",
+          "image_url": "https://hips.hearstapps.com/hmg-prod/images/189898f2-b3da-4d30-9dbd-ace1eab00c13.jpg?crop=0.718xw:0.507xh;0,0.111xh&resize=1200:*",
+          "is_local_nj": false,
+          "article_id": "a6bd9abbb820",
+          "summary": "Celebrity entertainment news about actor Eric Dane's final television role, filmed while he was battling ALS.",
+          "importance": 1,
+          "key_entities": [
+            "Eric Dane",
+            "ALS",
+            "television"
+          ],
+          "related_previous": [
+            {
+              "title": "Radar Reveals Everything Eric Dane Said About His ALS Battle Before His Tragic Death at 53 \u2014 'I Was Heartbroken'",
+              "url": "https://okmagazine.com/p/eric-dane-als-battle-everything-he-said-about-his-health-condition/",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls 'Emotional' Moment with Eric Dane Before His Death",
+              "url": "https://extratv.com/2026/03/12/rebecca-gayheart-recalls-emotional-moment-with-eric-dane-before-his-death/",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "Rebecca Gayheart details \u2018powerful moment\u2019 that made Eric Dane \u2018visibly emotional\u2019 shortly before his death",
+              "url": "https://pagesix.com/2026/03/11/celebrity-news/rebecca-gayheart-details-powerful-moment-that-made-eric-dane-emotional-before-death/",
+              "digest_date": "2026-03-15"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane\u2019s final acting role teased in \u2018Euphoria\u2019 Season 3 trailer after his tragic death",
+          "description": "Dane filmed scenes for the HBO show while he was battling ALS.",
+          "content": "Eric Dane\u2019s final acting role before his death was teased in the new \u201cEuphoria\u201d Season 3 trailer.\r\nThe teaser released Monday shows Dane\u2019s character, Cal Jacobs, reuniting with Jules (Hunter Schafer)\u2026 [+2996 chars]",
+          "url": "https://pagesix.com/2026/03/31/entertainment/eric-danes-final-acting-role-teased-in-euphoria-season-3-trailer/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T16:25:41Z",
+          "author": "Eric Todisco",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/03/eric-dane-euphoria.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "af8239c910f7",
+          "summary": "Entertainment coverage noting that actor Eric Dane filmed scenes for HBO's 'Euphoria' Season 3 while battling ALS, with these scenes now serving as his final acting role.",
+          "importance": 1,
+          "key_entities": [
+            "Eric Dane",
+            "ALS diagnosis",
+            "final role"
+          ],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart Says She Still Has \u2018No Words\u2019 About Eric Dane\u2019s Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-still-has-no-words-on-eric-danes-death/",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "Rebecca Gayheart steps out with her daughters for first time since Eric Dane\u2019s death",
+              "url": "https://www.the-independent.com/life-style/rebecca-gayheart-eric-dane-death-b2941155.html",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "Rebecca Gayheart and daughters put on brave face for first public appearance since Eric Dane\u2019s death",
+              "url": "https://pagesix.com/2026/03/18/celebrity-news/rebecca-gayheart-daughters-make-first-public-appearance-since-eric-danes-death/",
+              "digest_date": "2026-03-22"
+            }
+          ]
+        },
+        {
+          "title": "Euphoria season 3 trailer gives first look at Eric Dane\u2019s final performance",
+          "description": "Dane filmed his scenes in April 2025 shortly after he revealed his ALS diagnosis",
+          "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia\u2026 [+3229 chars]",
+          "url": "https://www.the-independent.com/arts-entertainment/tv/news/euphoria-season-3-trailer-eric-dane-b2948842.html",
+          "source_name": "The-independent.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T04:38:50Z",
+          "author": "Inga Parkel",
+          "image_url": "https://static.the-independent.com/2024/06/30/12/newFile-4.jpg?width=1200&height=800&crop=1200:800",
+          "is_local_nj": false,
+          "article_id": "da8ecbaee250",
+          "summary": "Entertainment coverage of actor Eric Dane's final performance in 'Euphoria' Season 3, filmed in April 2025 shortly after his ALS diagnosis announcement.",
+          "importance": 1,
+          "key_entities": [
+            "Eric Dane",
+            "ALS diagnosis",
+            "Euphoria"
+          ],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart steps out with her daughters for first time since Eric Dane\u2019s death",
+              "url": "https://www.the-independent.com/life-style/rebecca-gayheart-eric-dane-death-b2941155.html",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "Rebecca Gayheart and daughters put on brave face for first public appearance since Eric Dane\u2019s death",
+              "url": "https://pagesix.com/2026/03/18/celebrity-news/rebecca-gayheart-daughters-make-first-public-appearance-since-eric-danes-death/",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "\u2018Grey\u2019s Anatomy\u2019 Pays Emotional Tribute to Eric Dane With Look Back at Dr. Mark Sloan - The Hollywood Reporter",
+              "url": "https://slashdot.org/firehose.pl?op=view&amp;id=180867334",
+              "digest_date": "2026-03-01"
+            }
+          ]
+        },
+        {
+          "title": "See Eric Dane in His Last Role on Euphoria",
+          "description": "Eric Dane appears in the season three trailer for \u2018Euphoria,\u2019 which was the actor\u2019s last role before his death.",
+          "content": "The Euphoriaseason three trailer that dropped on Monday offers a peek at Eric Danes last performance before his death on February 19.\r\nIn the show, Dane plays Nate Jacobs (Jacob Elordi) father Cal, w\u2026 [+785 chars]",
+          "url": "http://www.thecut.com/article/eric-dane-last-role-euphoria.html",
+          "source_name": "The Cut",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T00:38:12Z",
+          "author": "Kathleen Walsh",
+          "image_url": "https://pyxis.nymag.com/v1/imgs/f92/ba0/3e028ad2749022944ccfb6c1b8617f7882-GettyImages-1392654715.1x.rsocial.w1200.jpg",
+          "is_local_nj": false,
+          "article_id": "2abee73cfa24",
+          "summary": "Entertainment news about actor Eric Dane's last acting role appearing in 'Euphoria' Season 3 trailer before his death.",
+          "importance": 1,
+          "key_entities": [
+            "Eric Dane",
+            "final role",
+            "Euphoria"
+          ],
+          "related_previous": [
+            {
+              "title": "Radar Reveals Everything Eric Dane Said About His ALS Battle Before His Tragic Death at 53 \u2014 'I Was Heartbroken'",
+              "url": "https://okmagazine.com/p/eric-dane-als-battle-everything-he-said-about-his-health-condition/",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls 'Emotional' Moment with Eric Dane Before His Death",
+              "url": "https://extratv.com/2026/03/12/rebecca-gayheart-recalls-emotional-moment-with-eric-dane-before-his-death/",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "Rebecca Gayheart details \u2018powerful moment\u2019 that made Eric Dane \u2018visibly emotional\u2019 shortly before his death",
+              "url": "https://pagesix.com/2026/03/11/celebrity-news/rebecca-gayheart-details-powerful-moment-that-made-eric-dane-emotional-before-death/",
+              "digest_date": "2026-03-15"
+            }
+          ]
+        },
+        {
+          "title": "Gasperini listed as potential Italy coach",
+          "description": "Italy\u2019s defeat against Bosnia triggered a domino effect at the top of Italian football. Following the resignations of former FIGC president Gabriele Gravina and Gianluigi Buffon, Gennaro Gattuso als...",
+          "content": "Italys defeat against Bosnia triggered a domino effect at the top of Italian football.\r\nFollowing the resignations of former FIGC president Gabriele Gravina and Gianluigi Buffon, Gennaro Gattuso also\u2026 [+714 chars]",
+          "url": "https://romapress.net/gasperini-listed-as-potential-italy-coach/",
+          "source_name": "RomaPress",
+          "source_type": "newsapi",
+          "published_at": "2026-04-03T14:55:00Z",
+          "author": "RomaPress",
+          "image_url": "https://s.yimg.com/os/en/romapress_articles_142/bf412204c908501403d9f4841b00b525",
+          "is_local_nj": false,
+          "article_id": "24741cd493cc",
+          "summary": "Not relevant to ALS - article about Italian football coaching.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Active-Labeling-System 0.1.0",
+          "description": "Active Labeling System (ALS) with a PyQt6 GUI and active-learning workflow.",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/active-labeling-system/0.1.0/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-04-03T13:55:12Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "2d84a39fd0cb",
+          "summary": "Not relevant to ALS - article about a software development tool (Active Labeling System) unrelated to the disease.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Judge Jeanine\u2019s Big Audition",
+          "description": "Many in Trumpworld are circling the newly open job of Attorney General. Jeanine Pirro may be the most recklessly loyal.",
+          "content": "When Jeanine Pirro took over as United States Attorney for the District of Columbia in May of last year, she was surprised to learn that her workspace came with a full bathroom. Even more surprising \u2026 [+25112 chars]",
+          "url": "http://nymag.com/intelligencer/article/judge-jeanine-pirro-attorney-general-trump-jerome-powell.html",
+          "source_name": "New York Magazine",
+          "source_type": "newsapi",
+          "published_at": "2026-04-03T09:00:33Z",
+          "author": "Ben Terris",
+          "image_url": "https://pyxis.nymag.com/v1/imgs/2f0/0f6/c4ade42685ccdb0f4dd2cefb87ef00e6a6-0826FEA-Pirro-opener.1x.rsocial.w1200.png",
+          "is_local_nj": false,
+          "article_id": "f41be72a4ee8",
+          "summary": "Not relevant to ALS - political article about potential attorney general candidates.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u201eThe Death of Spotify: Why Streaming is Minutes Away From Being Obsolete\u201c",
+          "description": "Spotify, Apple Music, Amazon Music, and Tidal all offer the exact same product: A library of 100 million songs. As Jimmy [Iovine] points out in the podcast, this lack of differentiation turns music into a utility. Music is now indistinguishable from tap water\u2026",
+          "content": "Spotify, Apple Music, Amazon Music, and Tidal all offer the exact same product: A library of 100 million songs. As Jimmy [Iovine] points out in the podcast, this lack of differentiation turns music i\u2026 [+1927 chars]",
+          "url": "https://www.iphoneblog.de/2026/04/02/the-death-of-spotify-why-streaming-is-minutes-away-from-being-obsolete/",
+          "source_name": "Iphoneblog.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-02T19:46:19Z",
+          "author": "Alex Olma",
+          "image_url": "https://www.iphoneblog.de/wp-content/uploads/2026/04/image-2.4.2026-20.01.png",
+          "is_local_nj": false,
+          "article_id": "dee9c3ec6de0",
+          "summary": "Not relevant to ALS - article about music streaming services.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u2018Euphoria\u2019 Season 3 Premiere Will Screen at Coachella",
+          "description": "'Euphoria' Season 3 premiere will screen on the Coachella campgrounds at 11:59 p.m. PST timed to the series premiere on April 12.",
+          "content": "A major Euphoriawatch party is heading to the desert. On April 12, the Season Three premiere of the hit HBO series will screen on the Coachella campgrounds at 11:59 p.m PST.\r\nHBO Max has timed the sc\u2026 [+1509 chars]",
+          "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/euphoria-season-3-premiere-screening-coachella-1235540894/",
+          "source_name": "Rolling Stone",
+          "source_type": "newsapi",
+          "published_at": "2026-04-02T18:19:54Z",
+          "author": "Larisha Paul",
+          "image_url": "https://www.rollingstone.com/wp-content/uploads/2026/04/euphoria-coachella-premiere.jpg?w=1600&h=900&crop=1",
+          "is_local_nj": false,
+          "article_id": "a866b1421903",
+          "summary": "Not relevant to ALS - article about television entertainment.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"South LDN Lover Girl\" von Ms Banks",
+          "description": "Ms Banks - \"South LDN Lover Girl\"",
+          "content": "laut.de-Kritik\r\nYou done it, Thyra.\r\nReview von Dani Fromm\r\nEine Lebensrealit\u00e4t einfangen: Darin bestand Ms Banks erkl\u00e4rtes Ziel f\u00fcr ihr Projekt. Mission absolut erf\u00fcllt: \"South LDN Lover Girl\" ist n\u2026 [+6001 chars]",
+          "url": "https://laut.de/Ms-Banks/Alben/South-LDN-Lover-Girl-126673",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-02T12:08:08Z",
+          "author": "Dani Fromm",
+          "image_url": "https://laut.de/Ms-Banks/Alben/South-LDN-Lover-Girl-126673/ms-banks-south-ldn-lover-girl-250082.jpg?e255e0",
+          "is_local_nj": false,
+          "article_id": "60de9ec190f8",
+          "summary": "Not relevant to ALS - music album review.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "NevGold Announces Up to 99% Gold Recovery From Phase II Metallurgical Testwork on Oxide Antimony-Gold; Identifies More Antimony Mineralization At Surface In Historical Gold Waste Dump",
+          "description": "Vancouver, British Columbia, April 02, 2026 (GLOBE NEWSWIRE) \u2014 NevGold Corp. (\u201cNevGold\u201d or the \u201cCompany\u201d) (TSXV:NAU) (OTCQX:NAUFF) (Frankfurt:5E50) is pleased to announce further metallurgical testwork results on the residual tailings material from the positi\u2026",
+          "content": "Table 2 Summary of Phase II metallurgical testwork including acid leach tests (addition of H2SO4/HCL) for antimony, and cyanide shake leach tests for gold. \r\nFigure 1 Drone picture at Limo Butte look\u2026 [+4962 chars]",
+          "url": "https://financialpost.com/globe-newswire/nevgold-announces-up-to-99-gold-recovery-from-phase-ii-metallurgical-testwork-on-oxide-antimony-gold-identifies-more-antimony-mineralization-at-surface-in-historical-gold-waste-dump",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-04-02T11:48:07Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "71e56760172e",
+          "summary": "Not relevant to ALS - mining industry announcement about gold recovery.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+              "url": "https://financialpost.com/globe-newswire/zacatecas-silver-announces-results-from-rock-chip-sampling-program-at-el-cristo",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+              "url": "https://www.globenewswire.com/news-release/2026/03/26/3262818/0/en/Zacatecas-Silver-Announces-Results-from-Rock-Chip-Sampling-Program-at-El-Cristo.html",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+              "url": "https://financialpost.com/globe-newswire/b2gold-announces-positive-results-from-its-2025-exploration-program-at-the-back-river-gold-district-drill-results-confirm-significant-resource-potential-district-wide",
+              "digest_date": "2026-03-29"
+            }
+          ]
+        },
+        {
+          "title": "NevGold Announces Up to 99% Gold Recovery From Phase II Metallurgical Testwork on Oxide Antimony-Gold; Identifies More Antimony Mineralization At Surface In Historical Gold Waste Dump",
+          "description": "Vancouver, British Columbia, April 02, 2026 (GLOBE NEWSWIRE) -- NevGold Corp. (\u201cNevGold\u201d or the \u201cCompany\u201d) (TSXV:NAU) (OTCQX:NAUFF) (Frankfurt:5E50) is pleased to announce further metallurgical testwork results on the residual tailings material from the posit\u2026",
+          "content": "Vancouver, British Columbia, April 02, 2026 (GLOBE NEWSWIRE) -- NevGold Corp. (NevGold or the Company) (TSXV:NAU) (OTCQX:NAUFF) (Frankfurt:5E50) is pleased to announce further metallurgical testwork \u2026 [+13996 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/02/3267253/0/en/NevGold-Announces-Up-to-99-Gold-Recovery-From-Phase-II-Metallurgical-Testwork-on-Oxide-Antimony-Gold-Identifies-More-Antimony-Mineralization-At-Surface-In-Historical-Gold-Waste-Dum.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-02T11:45:00Z",
+          "author": "NevGold Corp.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/305d6e29-37f9-45b1-9a2e-4e5d0bd82d5a",
+          "is_local_nj": false,
+          "article_id": "ac3dbfc55845",
+          "summary": "Not relevant to ALS - duplicate mining industry announcement.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+              "url": "https://financialpost.com/globe-newswire/zacatecas-silver-announces-results-from-rock-chip-sampling-program-at-el-cristo",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+              "url": "https://www.globenewswire.com/news-release/2026/03/26/3262818/0/en/Zacatecas-Silver-Announces-Results-from-Rock-Chip-Sampling-Program-at-El-Cristo.html",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+              "url": "https://financialpost.com/globe-newswire/b2gold-announces-positive-results-from-its-2025-exploration-program-at-the-back-river-gold-district-drill-results-confirm-significant-resource-potential-district-wide",
+              "digest_date": "2026-03-29"
+            }
+          ]
+        },
+        {
+          "title": "\"Inflammable Material\" von Stiff Little Fingers",
+          "description": "Stiff Little Fingers - \"Inflammable Material\"",
+          "content": "laut.de-Kritik\r\nThe Kids are alright.\r\nReview von Stefan Johannesberg\r\nDie Kids in Belfast 1979 waren so gar nicht alright. Gefangen zwischen britischer Unterdr\u00fcckung und IRA-Terror, gespalten zwisch\u2026 [+6732 chars]",
+          "url": "https://laut.de/Stiff-Little-Fingers/Alben/Inflammable-Material-106784",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-02T11:36:04Z",
+          "author": "Stefan Johannesberg",
+          "image_url": "https://laut.de/Stiff-Little-Fingers/Alben/Inflammable-Material-106784/stiff-little-fingers-inflammable-material-250042.jpg?4a3395",
+          "is_local_nj": false,
+          "article_id": "53d223aca63f",
+          "summary": "Not relevant to ALS - music album review.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Testing, Inspection and Certification (TIC) Market Size to Worth USD 480.99 Billion by 2035 | SNS Insider",
+          "description": "Global Testing, Inspection, and Certification Market Size, Share, Trends & Segmentation, By Service Type, Sourcing, Application, And Region | Forecast 2035",
+          "content": "Austin, April 02, 2026 (GLOBE NEWSWIRE) -- Testing, Inspection and Certification (TIC) Market Size &amp; Growth Outlook:\r\nAccording to the SNS Insider, The\u00a0Testing, Inspection, and Certification (TIC\u2026 [+7497 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/02/3267137/0/en/Testing-Inspection-and-Certification-TIC-Market-Size-to-Worth-USD-480-99-Billion-by-2035-SNS-Insider.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-02T07:30:00Z",
+          "author": "SNS Insider pvt ltd",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/d6272c2e-d204-41b8-b545-a6e2e24f85c2",
+          "is_local_nj": false,
+          "article_id": "eacde00bf81b",
+          "summary": "Not relevant to ALS - market analysis report on testing and certification industry.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Testing, Inspection, and Certification (TIC) Market Poised to Reach US$ 541.12 Billion by 2035 | Electric Vehicle and Battery Testing Demand Accelerates Growth Says Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/02/11/3236521/0/en/Testing-Inspection-and-Certification-TIC-Market-Poised-to-Reach-US-541-12-Billion-by-2035-Electric-Vehicle-and-Battery-Testing-Demand-Accelerates-Growth-Says-Astute-Analytica.html",
+              "digest_date": "2026-02-15"
+            },
+            {
+              "title": "[Latest] Global Large And Small Scale Bioprocessing Market Size/Share Worth USD 277.4 Billion by 2035 at a 11.5% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Growth Rate, Value, SWOT Analysis)",
+              "url": "https://www.globenewswire.com/news-release/2026/02/10/3235814/0/en/Latest-Global-Large-And-Small-Scale-Bioprocessing-Market-Size-Share-Worth-USD-277-4-Billion-by-2035-at-a-11-5-CAGR-Custom-Market-Insights-Analysis-Outlook-Leaders-Report-Trends-For.html",
+              "digest_date": "2026-02-15"
+            },
+            {
+              "title": "Clinical Trials Market Size to Reach USD 175.02 Billion by 2035",
+              "url": "https://www.globenewswire.com/news-release/2026/01/22/3223500/0/en/Clinical-Trials-Market-Size-to-Reach-USD-175-02-Billion-by-2035.html",
+              "digest_date": "2026-01-25"
+            }
+          ]
+        },
+        {
+          "title": "\"Engines Of Demolition\" von Black Label Society",
+          "description": "Black Label Society - \"Engines Of Demolition\"",
+          "content": "laut.de-Kritik\r\nOzzy, du fehlst.\r\nReview von Josephine Maria Bayer\r\nNiemand hat je ein Geheimnis daraus gemacht, dass Black Label Society eine fortw\u00e4hrende Hommage an Black Sabbath ist. Zakk Wylde er\u2026 [+1669 chars]",
+          "url": "https://laut.de/Black-Label-Society/Alben/Engines-Of-Demolition-126775",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-02T07:20:04Z",
+          "author": "Josephine Maria Bayer",
+          "image_url": "https://laut.de/Black-Label-Society/Alben/Engines-Of-Demolition-126775/black-label-society-engines-of-demolition-250034.jpg?ae9376",
+          "is_local_nj": false,
+          "article_id": "a2c99cff55ed",
+          "summary": "Not relevant to ALS - music album review.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Functional programming accellerates agentic feature development",
+          "description": "AI agents fail in production because of mutable state, hidden dependencies, and side effects the agent can't see. The fix is functional programming. SUPER and SPIRALS are the frameworks I use.",
+          "content": "TL;DRAI agents break in production because codebases werent built for them. Mutable state, hidden dependencies, and entangled side effects make agent output non-deterministic and impossible to debug.\u2026 [+34899 chars]",
+          "url": "https://cyrusradfar.com/thoughts/functional-programming-is-the-only-way-to-scale-with-ai",
+          "source_name": "Cyrusradfar.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-01T18:32:05Z",
+          "author": "Cyrus Radfar",
+          "image_url": "https://cyrusradfar.com/images/posts/functional-programming-is-the-only-way-to-scale-with-ai/og.gif",
+          "is_local_nj": false,
+          "article_id": "25fc1edb6e14",
+          "summary": "Not relevant to ALS - technical article about software programming.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "meteoswiss-mcp added to PyPI",
+          "description": "MCP Server for Swiss weather and climate data \u2014 MeteoSwiss SwissMetNet, ICON forecasts, climate normals",
+          "content": "MCP Server f\u00fcr Schweizer Wetter- und Klimadaten von MeteoSwiss.\r\nVerbindet KI-Modelle mit dem SwissMetNet-Messnetz (160+ Stationen, 10-Minuten-Intervall), MeteoSwiss ICON-CH1/CH2-EPS Prognosen und Kl\u2026 [+5063 chars]",
+          "url": "https://pypi.org/project/meteoswiss-mcp/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-04-01T12:23:57Z",
+          "author": null,
+          "image_url": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+          "is_local_nj": false,
+          "article_id": "db9731c09c9b",
+          "summary": "Not relevant to ALS - software package announcement for weather data.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Almadex Provides New Hope Drilling, Big Sky Project and General Exploration Update",
+          "description": "VANCOUVER, British Columbia, April 01, 2026 (GLOBE NEWSWIRE) \u2014 Almadex Minerals Ltd. (\u201cAlmadex\u201d or the \u201cCompany\u201d) (TSX-V: \u201cDEX\u201d) is pleased to discuss the Company\u2019s 2026 exploration program progress. Details are provided below. Highlights Assays received from\u2026",
+          "content": "The Company looks forward to reporting further results from this years work plan as it progresses throughout 2026.\r\nQualified Persons\r\nMorgan J Poliquin, PhD, PEng, the President and CEO of Almadex a\u2026 [+4316 chars]",
+          "url": "https://financialpost.com/globe-newswire/almadex-provides-new-hope-drilling-big-sky-project-and-general-exploration-update",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-04-01T11:35:43Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/new-hope-project-core-photos.jpeg",
+          "is_local_nj": false,
+          "article_id": "ae0d041b5a1f",
+          "summary": "Not relevant to ALS - mining exploration update.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Mustang Confirms and Expands Large IP Geophysical Anomaly at the Pilot Cu-Au Project, Provides Update on General Exploration Activities in Nevada, USA",
+              "url": "https://financialpost.com/globe-newswire/mustang-confirms-and-expands-large-ip-geophysical-anomaly-at-the-pilot-cu-au-project-provides-update-on-general-exploration-activities-in-nevada-usa",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "Altius Provides 4th Quarter 2025 Project Generation Update",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-provides-4th-quarter-2025-project-generation-update",
+              "digest_date": "2026-01-11"
+            },
+            {
+              "title": "Midland, in Partnership with Rio Tinto Exploration Canada, Intersects New Lithium and Cesium Bearing Pegmatites During the 2025 Drilling Program on the Galin\u00e9e Project",
+              "url": "https://financialpost.com/globe-newswire/midland-in-partnership-with-rio-tinto-exploration-canada-intersects-new-lithium-and-cesium-bearing-pegmatites-during-the-2025-drilling-program-on-the-galinee-project",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "Almadex Provides New Hope Drilling, Big Sky Project and General Exploration Update",
+          "description": "VANCOUVER, British Columbia, April 01, 2026 (GLOBE NEWSWIRE) -- Almadex Minerals Ltd. (\"Almadex\" or the \"Company\") (TSX-V: \u201cDEX\u201d) is pleased to discuss the Company\u2019s 2026 exploration program progress. Details are provided below.",
+          "content": "VANCOUVER, British Columbia, April 01, 2026 (GLOBE NEWSWIRE) -- Almadex Minerals Ltd. (\"Almadex\" or the \"Company\") (TSX-V: DEX) is pleased to discuss the Companys 2026 exploration program progress. D\u2026 [+9752 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/01/3266513/0/en/Almadex-Provides-New-Hope-Drilling-Big-Sky-Project-and-General-Exploration-Update.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-01T11:30:00Z",
+          "author": "Almadex Minerals Ltd.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/15429dd1-a483-4d0f-9127-03cc45cca36b",
+          "is_local_nj": false,
+          "article_id": "d00c18944e23",
+          "summary": "Not relevant to ALS - duplicate mining exploration update.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Mustang Confirms and Expands Large IP Geophysical Anomaly at the Pilot Cu-Au Project, Provides Update on General Exploration Activities in Nevada, USA",
+              "url": "https://financialpost.com/globe-newswire/mustang-confirms-and-expands-large-ip-geophysical-anomaly-at-the-pilot-cu-au-project-provides-update-on-general-exploration-activities-in-nevada-usa",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "Altius Provides 4th Quarter 2025 Project Generation Update",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-provides-4th-quarter-2025-project-generation-update",
+              "digest_date": "2026-01-11"
+            },
+            {
+              "title": "Midland, in Partnership with Rio Tinto Exploration Canada, Intersects New Lithium and Cesium Bearing Pegmatites During the 2025 Drilling Program on the Galin\u00e9e Project",
+              "url": "https://financialpost.com/globe-newswire/midland-in-partnership-with-rio-tinto-exploration-canada-intersects-new-lithium-and-cesium-bearing-pegmatites-during-the-2025-drilling-program-on-the-galinee-project",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        },
+        {
+          "title": "Minerva Gas receives LNG carrier \u201cMinerva Roxanne\u201d",
+          "description": "Minerva Gas Inc., owned by Andreas A. Martinos, has further strengthened its fleet with the delivery of an additional state-of-the-art liquefied natural gas (LNG) Greek-flagged carrier.\nThe vessel, Minerva Roxanne,\u2026\nMinerva Gas receives LNG carrier \u201cMinerva R\u2026",
+          "content": "Minerva Gas Inc., owned by Andreas A. Martinos, has further strengthened its fleet with the delivery of an additional state-of-the-art liquefied natural gas (LNG) Greek-flagged carrier.\r\nThe vessel, \u2026 [+616 chars]",
+          "url": "https://www.naftemporiki.gr/english/2092875/minerva-gas-receives-lng-carrier-minerva-roxanne/",
+          "source_name": "Naftemporiki.gr",
+          "source_type": "newsapi",
+          "published_at": "2026-04-01T10:58:10Z",
+          "author": "\u0393\u03b9\u03ac\u03bd\u03bd\u03b1 \u0392\u03b1\u03c1\u03b4\u03b1\u03bb\u03b1\u03c7\u03ac\u03ba\u03b7",
+          "image_url": "https://www.naftemporiki.gr/wp-content/uploads/2025/04/martinos-andreas-e1743626332863.jpg",
+          "is_local_nj": false,
+          "article_id": "c558b4e18516",
+          "summary": "Not relevant to ALS - maritime industry news about LNG carrier delivery.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Zacatecas Silver Announces Drilling Commencement and Completion of First Hole at El Cristo",
+          "description": "VANCOUVER, British Columbia, April 01, 2026 (GLOBE NEWSWIRE) \u2014 Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (\u201cZacatecas Silver\u201d or the \u201cCompany\u201d)\u00a0is pleased to announce the commencement of its 2026 diamond drilling program at the El Cristo Pro\u2026",
+          "content": "VANCOUVER, British Columbia, April 01, 2026 (GLOBE NEWSWIRE) Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (Zacatecas Silver or the Company)\u00a0is pleased to announce the commencement of \u2026 [+5395 chars]",
+          "url": "https://financialpost.com/globe-newswire/zacatecas-silver-announces-drilling-commencement-and-completion-of-first-hole-at-el-cristo",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-04-01T10:33:36Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/figure-1-1.jpeg",
+          "is_local_nj": false,
+          "article_id": "edf6118b1470",
+          "summary": "Not relevant to ALS - mining company announcement about drilling program.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+              "url": "https://financialpost.com/globe-newswire/zacatecas-silver-announces-results-from-rock-chip-sampling-program-at-el-cristo",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+              "url": "https://www.globenewswire.com/news-release/2026/03/26/3262818/0/en/Zacatecas-Silver-Announces-Results-from-Rock-Chip-Sampling-Program-at-El-Cristo.html",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "Cambria Gold Mines Announces Commencement of Infill Drilling at the Premier Gold Project and Marketing Services Update - Capital 10X",
+              "url": "https://capital10x.com/cambria-gold-mines-announces-commencement-of-infill-drilling-at-the-premier-gold-project-and-marketing-services-update/",
+              "digest_date": "2026-03-01"
+            }
+          ]
+        },
+        {
+          "title": "Zacatecas Silver Announces Drilling Commencement and Completion of First Hole at El Cristo",
+          "description": "VANCOUVER, British Columbia, April 01, 2026 (GLOBE NEWSWIRE) -- Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (\u201cZacatecas Silver\u201d or the \u201cCompany\u201d)\u00a0is pleased to announce the commencement of its 2026 diamond drilling program at the El Cristo Pr\u2026",
+          "content": "VANCOUVER, British Columbia, April 01, 2026 (GLOBE NEWSWIRE) -- Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (Zacatecas Silver or the Company)\u00a0is pleased to announce the commencement \u2026 [+5762 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/01/3266424/0/en/Zacatecas-Silver-Announces-Drilling-Commencement-and-Completion-of-First-Hole-at-El-Cristo.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-01T10:30:00Z",
+          "author": "Zacatecas Silver Corp.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/0f5fd28b-d7f5-4ae6-ae38-b2937eef0838",
+          "is_local_nj": false,
+          "article_id": "27a18ce6b1a1",
+          "summary": "Not relevant to ALS - duplicate mining company announcement.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+              "url": "https://financialpost.com/globe-newswire/zacatecas-silver-announces-results-from-rock-chip-sampling-program-at-el-cristo",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "Zacatecas Silver Announces Results from Rock Chip Sampling Program at El Cristo",
+              "url": "https://www.globenewswire.com/news-release/2026/03/26/3262818/0/en/Zacatecas-Silver-Announces-Results-from-Rock-Chip-Sampling-Program-at-El-Cristo.html",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "Cambria Gold Mines Announces Commencement of Infill Drilling at the Premier Gold Project and Marketing Services Update - Capital 10X",
+              "url": "https://capital10x.com/cambria-gold-mines-announces-commencement-of-infill-drilling-at-the-premier-gold-project-and-marketing-services-update/",
+              "digest_date": "2026-03-01"
+            }
+          ]
+        },
+        {
+          "title": "Iran-Israel war shows future wars will be won by thousands of cheap drones not expensive missiles can India keep up",
+          "description": "India is rapidly advancing its drone capabilities, moving from reconnaissance to multi-role combat. While indigenous designs like Nagastra-1 show promise, the nation faces a significant challenge in scaling up production to match global powers. Future success\u2026",
+          "content": "The ongoing geopolitical tensions involving the United States and Iran underscore a structural transformation in modern warfare, where the decisive advantage is increasingly shifting away from tradit\u2026 [+9283 chars]",
+          "url": "https://economictimes.indiatimes.com/news/defence/iran-israel-war-shows-future-wars-will-be-won-by-thousands-of-cheap-drones-not-expensive-missiles-can-india-keep-up/articleshow/129932689.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T17:21:50Z",
+          "author": "ET Online",
+          "image_url": "https://img.etimg.com/thumb/msid-129932967,width-1200,height-630,imgsize-54464,overlay-etdefence/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "a4c2f5345b85",
+          "summary": "Not relevant to ALS - military analysis about drone warfare.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Integrated transcriptome and single-cell sequencing analysis identify blood-pancreas shared lncRNA biomarkers in new-onset T2DM",
+          "description": "Type 2 diabetes mellitus (T2DM) is characterized by \u03b2-cell dysfunction and insulin resistance, yet the early molecular drivers remain elusive. This study set out with the aim of identifying blood-pancreas shared long non-coding RNAs (lncRNAs) as potential sys\u2026",
+          "content": "Citation: Wang Y, Qu Y, Dong M, Zhang Y, Zhao N, Song S, et al. (2026) Integrated transcriptome and single-cell sequencing analysis identify blood-pancreas shared lncRNA biomarkers in new-onset T2DM.\u2026 [+37271 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345359",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T14:00:00Z",
+          "author": "Yan Wang, Yangming Qu, Mingxin Dong, Yulong Zhang, Na Zhao, Suli Song, Mingyang Huo, Nan Lu, Baichuan Chen, Chengbiao Sun, Kaikai Yu, Juan Ren, Na Xu, Wensen Liu, Yan Yao",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0345359.g005&size=inline",
+          "is_local_nj": false,
+          "article_id": "e5ad8206eb64",
+          "summary": "Not relevant to ALS - research article about type 2 diabetes biomarkers, not amyotrophic lateral sclerosis.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Predicted antiviral potential of phytochemicals prolific in Cleistanthus bracteosus Jabl. and essential oils of Artemisia scoparia and Thuja orientalis against Nipah virus and Human metapneumovirus: An AI-driven in-silico study",
+          "description": "The recent Nipah virus (NiV) epidemic and human metapneumovirus (hMPV) outbreak have had a significant impact on human health and society worldwide. The attachment glycoprotein (G) and fusion glycoprotein (F0) of NiV and hMPV are essential for pathogenesis an\u2026",
+          "content": "Abstract\r\nThe recent Nipah virus (NiV) epidemic and human metapneumovirus (hMPV) outbreak have had a significant impact on human health and society worldwide. The attachment glycoprotein (G) and fusi\u2026 [+83686 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346254",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T14:00:00Z",
+          "author": "Mackingsley Kushan Dassanayake, Teng-Jin Khoo, Chien Hwa Chong, Mohammed Tahir Ansari, Patrick Di Martino, Fernando Berton Zanchi, Adam Figiel, Antoni Szumny, Omar Ashraf Elfar, Christophe Wiart, Rachael Symonds",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0346254.g010&size=inline",
+          "is_local_nj": false,
+          "article_id": "5114d009e5d7",
+          "summary": "Not relevant to ALS - in-silico study about antiviral compounds against Nipah and human metapneumovirus.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "CRML Confirms Outstanding 2.96% TREO and HREO Refined Concentrate, Yielding ~40% Increase in Historical Metallurgical Test Work Results at Tanbreez",
+          "description": "NEW YORK, March 31, 2026 (GLOBE NEWSWIRE) -- Critical Metals Corp. (Nasdaq: CRML) (\u201cCritical Metals Corp.\u201d or the \u201cCompany\u201d), a leading critical mineral mining company, today announced that the historical metallurgical test results done by AMTEC / ALS in 2016\u2026",
+          "content": "NEW YORK, March 31, 2026 (GLOBE NEWSWIRE) -- Critical Metals Corp. (Nasdaq: CRML) (Critical Metals Corp. or the Company), a leading critical mineral mining company, today announced that the historica\u2026 [+8355 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/31/3265657/0/en/CRML-Confirms-Outstanding-2-96-TREO-and-HREO-Refined-Concentrate-Yielding-40-Increase-in-Historical-Metallurgical-Test-Work-Results-at-Tanbreez.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T13:15:00Z",
+          "author": "Critical Metals Corp",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/680bbdda-901a-4651-b3ea-28ffc9779159",
+          "is_local_nj": false,
+          "article_id": "cc74f2213a83",
+          "summary": "Not relevant to ALS - mining company announcement about metallurgical test results (ALS in this context refers to a testing lab, not amyotrophic lateral sclerosis).",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Mineros S.A. Reports Significant 2025 Drill Results in Nicaragua; Confirms High-Grade Discovery at a New Target and Potential Expansion of the District",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/mineros-s-a-reports-significant-2025-drill-results-in-nicaragua-confirms-high-grade-discovery-at-a-new-target-and-potential-expansion-of-the-district",
+              "digest_date": "2026-03-01"
+            },
+            {
+              "title": "West Red Lake Gold Confirms High-Grade Continuity at Rowan with First Round of Infill Drilling Results",
+              "url": "https://www.globenewswire.com/news-release/2026/01/29/3228243/0/en/West-Red-Lake-Gold-Confirms-High-Grade-Continuity-at-Rowan-with-First-Round-of-Infill-Drilling-Results.html",
+              "digest_date": "2026-02-01"
+            },
+            {
+              "title": "North American Niobium and Critical Minerals Corp. Confirms Magnet REE and Niobium Mineralization at Blanchette, Bardy and Sabot Properties, Including 1.82% TREO and 0.14% Nb\u2082O\u2085",
+              "url": "https://financialpost.com/globe-newswire/north-american-niobium-and-critical-minerals-corp-confirms-magnet-ree-and-niobium-mineralization-at-blanchette-bardy-and-sabot-properties-including-1-82-treo-and-0-14-nb\u2082o\u2085",
+              "digest_date": "2026-01-18"
+            }
+          ]
+        },
+        {
+          "title": "Starke Entwicklung! - Top-Klubs nehmen BVB-Star ins Visier!",
+          "description": "BVB: Atl\u00e9tico Madrid und Manchester United buhlen um Abwehrleader Waldemar Anton.",
+          "content": "TTS-Player \u00fcberspringenArtikel weiterlesenBei den beiden Freundschaftsspielen der deutschen Nationalmannschaft gegen die Schweiz (4:3) und Ghana (2:1) kam Waldemar Anton (29) nicht zum Einsatz. Trotz\u2026 [+1778 chars]",
+          "url": "https://www.bild.de/sport/fussball/bvb-top-klubs-nehmen-dortmund-star-waldemar-anton-ins-visier-69cbaaa5d5d629603f2667ae",
+          "source_name": "Bild",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T12:06:58Z",
+          "author": "Yannick H\u00fcber, Ren\u00e9 Walther",
+          "image_url": "https://images.bild.de/69cbaaa5d5d629603f2667ae/2ec854840ebc4477fbedeba087249566,59243ade?w=1280",
+          "is_local_nj": false,
+          "article_id": "18ff456c14f2",
+          "summary": "Not relevant to ALS - sports article about German football club player transfer rumors.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "West Red Lake Gold Adding Confidence to Rowan Mine Resource and Extending Vein Zones",
+          "description": "VANCOUVER, British Columbia, March 31, 2026 (GLOBE NEWSWIRE) \u2014 West Red Lake Gold Mines Ltd. (\u201cWest Red Lake Gold\u201d or \u201cWRLG\u201d or the \u201cCompany\u201d) (TSXV: WRLG) (OTCQB: WRLGF) is pleased to announce drill results from its fully funded infill and conversion drillin\u2026",
+          "content": "Samples are then prepped by ALS, which consists of drying at 105\u00b0C and crushing to 70% passing 2mm. A riffle splitter is then utilized to produce a 250g course reject for archive. The remainder of th\u2026 [+4476 chars]",
+          "url": "https://financialpost.com/globe-newswire/west-red-lake-gold-adding-confidence-to-rowan-mine-resource-and-extending-vein-zones",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T09:30:28Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/03/figure-1-multiple-instances-of-visible-gold-in-hole-rlg-26-2.jpeg",
+          "is_local_nj": false,
+          "article_id": "9547dc7759bf",
+          "summary": "Not relevant to ALS - mining company announcement about drill results.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "West Red Lake Gold Confirms High-Grade Continuity at Rowan with First Round of Infill Drilling Results",
+              "url": "https://www.globenewswire.com/news-release/2026/01/29/3228243/0/en/West-Red-Lake-Gold-Confirms-High-Grade-Continuity-at-Rowan-with-First-Round-of-Infill-Drilling-Results.html",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "West Red Lake Gold Adding Confidence to Rowan Mine Resource and Extending Vein Zones",
+          "description": "Incorporating Veins 006b and 013 into the production profile has the potential to materially increase the daily mined tonnage from Rowan...",
+          "content": "VANCOUVER, British Columbia, March 31, 2026 (GLOBE NEWSWIRE) -- West Red Lake Gold Mines Ltd.(West Red Lake Gold or WRLG or the Company) (TSXV: WRLG)(OTCQB: WRLGF) is pleased to announce drill result\u2026 [+32131 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/31/3265222/0/en/West-Red-Lake-Gold-Adding-Confidence-to-Rowan-Mine-Resource-and-Extending-Vein-Zones.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T09:30:00Z",
+          "author": "West Red Lake Gold Mines Ltd.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/86a7e7a0-b9c2-4180-b207-518ebd42c9b0",
+          "is_local_nj": false,
+          "article_id": "a9a903037f3a",
+          "summary": "Not relevant to ALS - duplicate mining company announcement.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "West Red Lake Gold Confirms High-Grade Continuity at Rowan with First Round of Infill Drilling Results",
+              "url": "https://www.globenewswire.com/news-release/2026/01/29/3228243/0/en/West-Red-Lake-Gold-Confirms-High-Grade-Continuity-at-Rowan-with-First-Round-of-Infill-Drilling-Results.html",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "A deep joint-learning proteomics model for diagnosis of six conditions associated with dementia",
+          "description": "ProtAIDe-Dx is a deep joint-learning model that uses plasma proteomics to provide simultaneous probabilistic diagnoses across six conditions associated with aging.",
+          "content": "Datasets\r\nGNPC\r\nThe GNPC (https://www.neuroproteome.org/), launched in 2023, is a mega consortium combining multiple dementia and population cohorts, including healthy aging, AD, PD, FTD, ALS and str\u2026 [+40205 chars]",
+          "url": "https://www.nature.com/articles/s41591-026-04303-y",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T00:00:00Z",
+          "author": "Lijun An, Alexa Pichet Binette, Ines Hristovska, Gabriele Vilkaite, Yu Xiao, Romina Zendehdel, Zijian Dong, Bart Smets, Rowan Saloner, Shinya Tasaki, Ying Xu, Varsha Krish, Farhad Imam, Shorena Janelidze, Danielle van Westen, Erik Stomrud, Christopher D. Whelan, Sebastian Palmqvist, Rik Ossenkoppele, Niklas Mattsson-Carlgren, Oskar Hansson, Jacob W. Vogel",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41591-026-04303-y/MediaObjects/41591_2026_4303_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "13e64d6dbfa2",
+          "summary": "Not relevant to ALS - research article about dementia diagnosis using plasma proteomics, not specifically about amyotrophic lateral sclerosis.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The Kids Are Not All Right in \u2018Euphoria\u2019 Season 3 Trailer",
+          "description": "Zendaya, Sydney Sweeney, Jacob Elordi, and the late Eric Dane return alongside newcomers Sharon Stone, Rosal\u00eda, and more",
+          "content": "Chaos ensues in the latest trailer for Euphoria\u00a0Season Three, set to release on HBO April 12.\r\nIt\u2019s been more than four years since audiences last saw the crew get together and the reunion is shaping\u2026 [+1426 chars]",
+          "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/euphoria-season-3-trailer-zendaya-sydney-sweeney-1235539213/",
+          "source_name": "Rolling Stone",
+          "source_type": "newsapi",
+          "published_at": "2026-03-30T22:23:41Z",
+          "author": "Charisma Madarang",
+          "image_url": "https://www.rollingstone.com/wp-content/uploads/2026/03/zendaya-Euphoria-S3-trailer.jpg?w=1600&h=900&crop=1",
+          "is_local_nj": false,
+          "article_id": "c32bab85cfd8",
+          "summary": "Entertainment coverage of 'Euphoria' Season 3 trailer featuring returning actors including the late Eric Dane.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Former investor says he's disappointed by Moose Jaw scientist Goodenowe's 'new lies and new promises'",
+          "description": "As Dayan Goodenowe makes new claims about a potential treatment for Alzheimer's, a former investor says the controversial Moose Jaw-based scientist has a history of making unproven promises that he can't keep.",
+          "content": "The founder of the controversial Dr. Goodenowe Restorative Health Center has announced hes in the final stages of building a drug manufacturing lab and a clinical trials centre in Moose Jaw, Sask., a\u2026 [+26305 chars]",
+          "url": "https://www.cbc.ca/news/canada/saskatchewan/moose-jaw-sask-goodenowe-9.7140672",
+          "source_name": "CBC News",
+          "source_type": "newsapi",
+          "published_at": "2026-03-30T21:38:17Z",
+          "author": null,
+          "image_url": "https://i.cbc.ca/ais/3b8eac56-981b-43fc-ae25-9fdc75ab4c1d,1774456943767/full/max/0/default.jpg?im=Crop%2Crect%3D%28304%2C126%2C1428%2C803%29%3BResize%3D620",
+          "is_local_nj": false,
+          "article_id": "2c1729647c62",
+          "summary": "Not relevant to ALS - article about a controversial scientist's claims regarding Alzheimer's disease treatments.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane's final TV performance teased in new 'Euphoria' trailer",
+          "description": "HBO released the second trailer for the third season of \"Euphoria\" on Monday, which features Eric Dane, Zendaya, Jacob Elordi and more.",
+          "content": "Eric Dane's final television performance is set to air nearly two months after his death.\r\nThe late actor died Feb. 19, following a battle with ALS. Prior to his death, he returned to his role as Cal\u2026 [+1441 chars]",
+          "url": "https://abcnews.com/GMA/Culture/eric-danes-final-tv-performance-euphoria-trailer/story?id=131553742",
+          "source_name": "Abcnews.com",
+          "source_type": "newsapi",
+          "published_at": "2026-03-30T21:35:57Z",
+          "author": "Angeline Jane Bernabe",
+          "image_url": "https://i.abcnewsfe.com/a/a56d62d4-9911-4beb-bfbd-78ac99d06f59/dane-ht-er-260330_1774904001843_hpMain_16x9.jpg?w=1600",
+          "is_local_nj": false,
+          "article_id": "558af3d79c9f",
+          "summary": "Entertainment news about Eric Dane's final television performance featured in 'Euphoria' Season 3 trailer.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane's Widow Rebecca Gayheart Recalls Heartbreaking Final Conversation With ALS-Stricken Star Who Secretly Linked Up with AI Firm to Restore Voice",
+              "url": "https://radaronline.com/p/eric-dane-widow-rebecca-gayheart-recalls-final-conversation-with-star-ai/",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "EXCLUSIVE: Eric Dane's Noble Battle \u2014 How Tragic Actor Spent Final Days Dedicated to Family, Friends and Raising ALS Awareness",
+              "url": "https://radaronline.com/p/eric-dane-dead-noble-battle-als-awareness-family-friends/",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "Why is Eric Dane's final interview airing? #entertainment",
+              "url": "https://alltoc.com/entertainment/why-is-eric-dane-s-final-interview-airing",
+              "digest_date": "2026-02-22"
+            }
+          ]
+        },
+        {
+          "title": "New Euphoria Season 3 Trailer Offers A First Look At Sharon Stone, The Late Eric Dane \u2014 Watch",
+          "description": "A new trailer for Season 3 of Euphoria gives us our first look at Sharon Stone and the late Eric Dane -\u00a0watch it here.",
+          "content": "Season 3 debuting Sunday, April 12 at 9 p.m. on HBO \u00a0jumps forward several years from Season 2, which finished airing back in February 2022, with the characters now graduated from high school and mak\u2026 [+846 chars]",
+          "url": "https://www.tvline.com/2135999/euphoria-season-3-second-trailer-sharon-stone-eric-dane/",
+          "source_name": "TVLine",
+          "source_type": "newsapi",
+          "published_at": "2026-03-30T20:14:42Z",
+          "author": "staff@tvline.com (Dave Nemetz)",
+          "image_url": "https://www.tvline.com/img/gallery/new-euphoria-season-3-trailer-offers-a-first-look-at-sharon-stone-the-late-eric-dane-watch/l-intro-1774901091.jpg",
+          "is_local_nj": false,
+          "article_id": "74e5eb61fff0",
+          "summary": "Entertainment coverage of 'Euphoria' Season 3 trailer featuring new and returning cast members.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Radar Reveals Everything Eric Dane Said About His ALS Battle Before His Tragic Death at 53 \u2014 'I Was Heartbroken'",
+              "url": "https://okmagazine.com/p/eric-dane-als-battle-everything-he-said-about-his-health-condition/",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voices - NPR",
+              "url": "https://slashdot.org/firehose.pl?op=view&amp;id=180957210",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "Rebecca Gayheart Dane on caring for her late husband, Eric Dane, and synthetic voices",
+              "url": "https://www.npr.org/2026/03/11/nx-s1-5742420/rebecca-gayheart-dane-eric-dane",
+              "digest_date": "2026-03-15"
+            }
+          ]
+        }
+      ],
+      "treatment": [
+        {
+          "title": "Breakthrough ALS study launches as drug aims to slow disease progression",
+          "description": "The PREVAiLS study, believed to be the only recruiting phase 3 ALS trial, aims to slow disease progression and preserve function in early-stage patients.",
+          "content": "There could be new hope for ALS management as a promising drug enters phase 3 clinical trials.\r\nALS is a progressive disease in which the brain loses connection with the muscles, The ALS Association \u2026 [+5540 chars]",
+          "url": "https://www.foxnews.com/health/breakthrough-als-study-launches-drug-aims-slow-disease-progression",
+          "source_name": "Fox News",
+          "source_type": "newsapi",
+          "published_at": "2026-04-03T11:00:47Z",
+          "author": null,
+          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/04/scientist-holding-pill.jpg",
+          "is_local_nj": false,
+          "article_id": "f24e84313590",
+          "summary": "The PREVAiLS study, described as the only recruiting phase 3 ALS clinical trial, has launched with the goal of slowing disease progression and preserving function in patients with early-stage ALS. This represents a significant advancement in available treatment options for newly diagnosed patients.",
+          "importance": 5,
+          "key_entities": [
+            "PREVAiLS study",
+            "phase 3 clinical trial",
+            "disease progression",
+            "early-stage ALS"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Trethera Announces Massachusetts General Hospital Clinical Trial Collaboration to Evaluate TRE-515 in ALS Patients",
+          "description": "MGH collaboration to evaluate TRE-515 in ALS patients, advancing development of a first-in-class therapy targeting inflammation and nucleotide metabolism....",
+          "content": "LOS ANGELES, March 31, 2026 (GLOBE NEWSWIRE) -- Trethera Corporation (Trethera), a clinical stage biopharmaceutical company developing first-in-class therapies for cancer, autoimmune, and neuroimmune\u2026 [+8394 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/03/31/3265678/0/en/Trethera-Announces-Massachusetts-General-Hospital-Clinical-Trial-Collaboration-to-Evaluate-TRE-515-in-ALS-Patients.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-03-31T13:45:00Z",
+          "author": "Trethera Corporation",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/7464da7d-c812-40a0-94eb-446f4349b1fd",
+          "is_local_nj": false,
+          "article_id": "1aac11fbd2fe",
+          "summary": "Trethera Pharmaceuticals has announced a collaboration with Massachusetts General Hospital to conduct a clinical trial evaluating TRE-515, a first-in-class therapy designed to target inflammation and nucleotide metabolism in ALS patients. This represents a new therapeutic approach in ALS drug development.",
+          "importance": 5,
+          "key_entities": [
+            "Trethera",
+            "TRE-515",
+            "Massachusetts General Hospital",
+            "clinical trial",
+            "first-in-class therapy"
+          ],
+          "related_previous": [
+            {
+              "title": "NRG Therapeutics Announces First Participants Dosed in its First-in-Human Phase 1 Clinical Trial of NRG5051 Which is Being Developed as a Disease-modifying Treatment for ALS/MND and Parkinson\u2019s",
+              "url": "https://www.globenewswire.com/news-release/2026/01/08/3215083/0/en/NRG-Therapeutics-Announces-First-Participants-Dosed-in-its-First-in-Human-Phase-1-Clinical-Trial-of-NRG5051-Which-is-Being-Developed-as-a-Disease-modifying-Treatment-for-ALS-MND-an.html",
+              "digest_date": "2026-01-11"
+            }
+          ]
+        }
+      ],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": [
+        {
+          "title": "New Jersey Bill Allows Contributions on Income Tax Returns to ALS Association - taxnotes.com",
+          "description": "New Jersey Bill Allows Contributions on Income Tax Returns to ALS Association&nbsp;&nbsp;taxnotes.com",
+          "content": "",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObThDdHhzZUpqT2Y2ZW1VbGRsYnpzcDJsOHlXT252RHVMU0thS1NiV0dfTElxd3lSYlp2Q18wVHdpMVNDWUttc0ZTaVJtUTdraHhtaDFrXzhfWWRLWDN1VkM4cDJ3WE1rdmpVTFctd1BiNjFYTVgyQXdLRERIdkJqajNpR0JxaU5DMld0U2p5MWFBRGg4WUw3Y1FpZXdTTHRHOG1EQklnVzB5a3ZkTlVqZ3AyeURUaUNCeVlla0VIbDljbDJycGpwam5nTm9obTA?oc=5",
+          "source_name": "Google News (\"New Jersey\" ALS...)",
+          "source_type": "rss",
+          "published_at": "2026-04-03T00:33:44",
+          "author": "",
+          "image_url": "",
+          "is_local_nj": true,
+          "category_hint": null,
+          "article_id": "b9c4251a8a9f",
+          "summary": "New Jersey has passed a bill allowing residents to make tax-deductible contributions to the ALS Association directly through their state income tax returns. This provides a convenient way for New Jersey residents to support ALS research and patient services.",
+          "importance": 4,
+          "key_entities": [
+            "New Jersey",
+            "ALS Association",
+            "income tax",
+            "charitable contributions"
+          ],
+          "related_previous": [
+            {
+              "title": "Hundreds plunge at Manasquan Beach to raise funds for people with ALS - News12 | New Jersey",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOblY4YlU5a2NTemdVUTl5cGdZRkFad3ZDYmh3NjZpcERnSXd0cU5XcDVrRHR2QmtJeklNVGtrR0dPTUtIT181Ym16UHFtZV9WSE55ZnhPaERBQ0lTcHBXZTFvUlRTSG9xaDdreG9veU8xMnJhMi1xYXRrS2w3N1VEX3c4eXlvR1IyTWhZSnRCSnl4aU5QazVXLUhmRlBqMEU?oc=5",
+              "digest_date": "2026-02-22"
+            },
+            {
+              "title": "Eric Dane, 'Grey's Anatomy' star and ALS awareness advocate, dies at 53 - News12 | New Jersey",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLS1sWVJjYlhkaTFGX2F2QXhaeHJJV2NEWVFOdi1KNHcyVlgweENXU1FnazdUOHZTc202NFJuTFBFUy1heUNIWWF4Mjh5WWVGN0VBcGNRdWFISGN4YWd3WHhfZThYTG5LVkRxY0tnY0pjQlJudmZKOWppS1dvSG5pbWxuSjNianNzcjJkc3VUci1FSmd0QkpIRllCNA?oc=5",
+              "digest_date": "2026-02-22"
+            }
+          ]
+        }
+      ]
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 41,
+    "references": [
+      {
+        "title": "New Jersey Bill Allows Contributions on Income Tax Returns to ALS Association - taxnotes.com",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObThDdHhzZUpqT2Y2ZW1VbGRsYnpzcDJsOHlXT252RHVMU0thS1NiV0dfTElxd3lSYlp2Q18wVHdpMVNDWUttc0ZTaVJtUTdraHhtaDFrXzhfWWRLWDN1VkM4cDJ3WE1rdmpVTFctd1BiNjFYTVgyQXdLRERIdkJqajNpR0JxaU5DMld0U2p5MWFBRGg4WUw3Y1FpZXdTTHRHOG1EQklnVzB5a3ZkTlVqZ3AyeURUaUNCeVlla0VIbDljbDJycGpwam5nTm9obTA?oc=5",
+        "source": "Google News (\"New Jersey\" ALS...)",
+        "date": "2026-04-03T00:33:44"
+      },
+      {
+        "title": "Gasperini listed as potential Italy coach",
+        "url": "https://romapress.net/gasperini-listed-as-potential-italy-coach/",
+        "source": "RomaPress",
+        "date": "2026-04-03T14:55:00Z"
+      },
+      {
+        "title": "Active-Labeling-System 0.1.0",
+        "url": "https://pypi.org/project/active-labeling-system/0.1.0/",
+        "source": "Pypi.org",
+        "date": "2026-04-03T13:55:12Z"
+      },
+      {
+        "title": "Breakthrough ALS study launches as drug aims to slow disease progression",
+        "url": "https://www.foxnews.com/health/breakthrough-als-study-launches-drug-aims-slow-disease-progression",
+        "source": "Fox News",
+        "date": "2026-04-03T11:00:47Z"
+      },
+      {
+        "title": "Judge Jeanine\u2019s Big Audition",
+        "url": "http://nymag.com/intelligencer/article/judge-jeanine-pirro-attorney-general-trump-jerome-powell.html",
+        "source": "New York Magazine",
+        "date": "2026-04-03T09:00:33Z"
+      },
+      {
+        "title": "\u201eThe Death of Spotify: Why Streaming is Minutes Away From Being Obsolete\u201c",
+        "url": "https://www.iphoneblog.de/2026/04/02/the-death-of-spotify-why-streaming-is-minutes-away-from-being-obsolete/",
+        "source": "Iphoneblog.de",
+        "date": "2026-04-02T19:46:19Z"
+      },
+      {
+        "title": "\u2018Euphoria\u2019 Season 3 Premiere Will Screen at Coachella",
+        "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/euphoria-season-3-premiere-screening-coachella-1235540894/",
+        "source": "Rolling Stone",
+        "date": "2026-04-02T18:19:54Z"
+      },
+      {
+        "title": "Impaired dynein function preserves spinal interneuron survival and positioning in an ALS-like mouse model",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346246",
+        "source": "Plos.org",
+        "date": "2026-04-02T14:00:00Z"
+      },
+      {
+        "title": "\"South LDN Lover Girl\" von Ms Banks",
+        "url": "https://laut.de/Ms-Banks/Alben/South-LDN-Lover-Girl-126673",
+        "source": "Laut.de",
+        "date": "2026-04-02T12:08:08Z"
+      },
+      {
+        "title": "NevGold Announces Up to 99% Gold Recovery From Phase II Metallurgical Testwork on Oxide Antimony-Gold; Identifies More Antimony Mineralization At Surface In Historical Gold Waste Dump",
+        "url": "https://financialpost.com/globe-newswire/nevgold-announces-up-to-99-gold-recovery-from-phase-ii-metallurgical-testwork-on-oxide-antimony-gold-identifies-more-antimony-mineralization-at-surface-in-historical-gold-waste-dump",
+        "source": "Financial Post",
+        "date": "2026-04-02T11:48:07Z"
+      },
+      {
+        "title": "NevGold Announces Up to 99% Gold Recovery From Phase II Metallurgical Testwork on Oxide Antimony-Gold; Identifies More Antimony Mineralization At Surface In Historical Gold Waste Dump",
+        "url": "https://www.globenewswire.com/news-release/2026/04/02/3267253/0/en/NevGold-Announces-Up-to-99-Gold-Recovery-From-Phase-II-Metallurgical-Testwork-on-Oxide-Antimony-Gold-Identifies-More-Antimony-Mineralization-At-Surface-In-Historical-Gold-Waste-Dum.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-02T11:45:00Z"
+      },
+      {
+        "title": "\"Inflammable Material\" von Stiff Little Fingers",
+        "url": "https://laut.de/Stiff-Little-Fingers/Alben/Inflammable-Material-106784",
+        "source": "Laut.de",
+        "date": "2026-04-02T11:36:04Z"
+      },
+      {
+        "title": "Testing, Inspection and Certification (TIC) Market Size to Worth USD 480.99 Billion by 2035 | SNS Insider",
+        "url": "https://www.globenewswire.com/news-release/2026/04/02/3267137/0/en/Testing-Inspection-and-Certification-TIC-Market-Size-to-Worth-USD-480-99-Billion-by-2035-SNS-Insider.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-02T07:30:00Z"
+      },
+      {
+        "title": "\"Engines Of Demolition\" von Black Label Society",
+        "url": "https://laut.de/Black-Label-Society/Alben/Engines-Of-Demolition-126775",
+        "source": "Laut.de",
+        "date": "2026-04-02T07:20:04Z"
+      },
+      {
+        "title": "Functional programming accellerates agentic feature development",
+        "url": "https://cyrusradfar.com/thoughts/functional-programming-is-the-only-way-to-scale-with-ai",
+        "source": "Cyrusradfar.com",
+        "date": "2026-04-01T18:32:05Z"
+      },
+      {
+        "title": "meteoswiss-mcp added to PyPI",
+        "url": "https://pypi.org/project/meteoswiss-mcp/",
+        "source": "Pypi.org",
+        "date": "2026-04-01T12:23:57Z"
+      },
+      {
+        "title": "Almadex Provides New Hope Drilling, Big Sky Project and General Exploration Update",
+        "url": "https://financialpost.com/globe-newswire/almadex-provides-new-hope-drilling-big-sky-project-and-general-exploration-update",
+        "source": "Financial Post",
+        "date": "2026-04-01T11:35:43Z"
+      },
+      {
+        "title": "Almadex Provides New Hope Drilling, Big Sky Project and General Exploration Update",
+        "url": "https://www.globenewswire.com/news-release/2026/04/01/3266513/0/en/Almadex-Provides-New-Hope-Drilling-Big-Sky-Project-and-General-Exploration-Update.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-01T11:30:00Z"
+      },
+      {
+        "title": "Minerva Gas receives LNG carrier \u201cMinerva Roxanne\u201d",
+        "url": "https://www.naftemporiki.gr/english/2092875/minerva-gas-receives-lng-carrier-minerva-roxanne/",
+        "source": "Naftemporiki.gr",
+        "date": "2026-04-01T10:58:10Z"
+      },
+      {
+        "title": "Zacatecas Silver Announces Drilling Commencement and Completion of First Hole at El Cristo",
+        "url": "https://financialpost.com/globe-newswire/zacatecas-silver-announces-drilling-commencement-and-completion-of-first-hole-at-el-cristo",
+        "source": "Financial Post",
+        "date": "2026-04-01T10:33:36Z"
+      },
+      {
+        "title": "Zacatecas Silver Announces Drilling Commencement and Completion of First Hole at El Cristo",
+        "url": "https://www.globenewswire.com/news-release/2026/04/01/3266424/0/en/Zacatecas-Silver-Announces-Drilling-Commencement-and-Completion-of-First-Hole-at-El-Cristo.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-01T10:30:00Z"
+      },
+      {
+        "title": "EXCLUSIVE: Eric Dane's Family 'Consumed With Grief' Over His 'Ghoulish' Appearance on Hit TV Show Weeks After His Death",
+        "url": "https://radaronline.com/p/eric-dane-family-grief-tv-appearance-euphoria-trailer-death/",
+        "source": "Radaronline.com",
+        "date": "2026-03-31T20:00:00Z"
+      },
+      {
+        "title": "Iran-Israel war shows future wars will be won by thousands of cheap drones not expensive missiles can India keep up",
+        "url": "https://economictimes.indiatimes.com/news/defence/iran-israel-war-shows-future-wars-will-be-won-by-thousands-of-cheap-drones-not-expensive-missiles-can-india-keep-up/articleshow/129932689.cms",
+        "source": "The Times of India",
+        "date": "2026-03-31T17:21:50Z"
+      },
+      {
+        "title": "Eric Dane Returns for His Final TV Role in the New Euphoria Trailer",
+        "url": "https://www.esquire.com/entertainment/tv/a70894721/eric-dane-euphoria-trailer-final-role/",
+        "source": "esquire.com",
+        "date": "2026-03-31T17:12:00Z"
+      },
+      {
+        "title": "Eric Dane\u2019s final acting role teased in \u2018Euphoria\u2019 Season 3 trailer after his tragic death",
+        "url": "https://pagesix.com/2026/03/31/entertainment/eric-danes-final-acting-role-teased-in-euphoria-season-3-trailer/",
+        "source": "Page Six",
+        "date": "2026-03-31T16:25:41Z"
+      },
+      {
+        "title": "Integrated transcriptome and single-cell sequencing analysis identify blood-pancreas shared lncRNA biomarkers in new-onset T2DM",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345359",
+        "source": "Plos.org",
+        "date": "2026-03-31T14:00:00Z"
+      },
+      {
+        "title": "Predicted antiviral potential of phytochemicals prolific in Cleistanthus bracteosus Jabl. and essential oils of Artemisia scoparia and Thuja orientalis against Nipah virus and Human metapneumovirus: An AI-driven in-silico study",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346254",
+        "source": "Plos.org",
+        "date": "2026-03-31T14:00:00Z"
+      },
+      {
+        "title": "Trethera Announces Massachusetts General Hospital Clinical Trial Collaboration to Evaluate TRE-515 in ALS Patients",
+        "url": "https://www.globenewswire.com/news-release/2026/03/31/3265678/0/en/Trethera-Announces-Massachusetts-General-Hospital-Clinical-Trial-Collaboration-to-Evaluate-TRE-515-in-ALS-Patients.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-31T13:45:00Z"
+      },
+      {
+        "title": "CRML Confirms Outstanding 2.96% TREO and HREO Refined Concentrate, Yielding ~40% Increase in Historical Metallurgical Test Work Results at Tanbreez",
+        "url": "https://www.globenewswire.com/news-release/2026/03/31/3265657/0/en/CRML-Confirms-Outstanding-2-96-TREO-and-HREO-Refined-Concentrate-Yielding-40-Increase-in-Historical-Metallurgical-Test-Work-Results-at-Tanbreez.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-31T13:15:00Z"
+      },
+      {
+        "title": "Starke Entwicklung! - Top-Klubs nehmen BVB-Star ins Visier!",
+        "url": "https://www.bild.de/sport/fussball/bvb-top-klubs-nehmen-dortmund-star-waldemar-anton-ins-visier-69cbaaa5d5d629603f2667ae",
+        "source": "Bild",
+        "date": "2026-03-31T12:06:58Z"
+      },
+      {
+        "title": "West Red Lake Gold Adding Confidence to Rowan Mine Resource and Extending Vein Zones",
+        "url": "https://financialpost.com/globe-newswire/west-red-lake-gold-adding-confidence-to-rowan-mine-resource-and-extending-vein-zones",
+        "source": "Financial Post",
+        "date": "2026-03-31T09:30:28Z"
+      },
+      {
+        "title": "West Red Lake Gold Adding Confidence to Rowan Mine Resource and Extending Vein Zones",
+        "url": "https://www.globenewswire.com/news-release/2026/03/31/3265222/0/en/West-Red-Lake-Gold-Adding-Confidence-to-Rowan-Mine-Resource-and-Extending-Vein-Zones.html",
+        "source": "GlobeNewswire",
+        "date": "2026-03-31T09:30:00Z"
+      },
+      {
+        "title": "Regional Australians more likely to die from MND, according to new study",
+        "url": "https://www.abc.net.au/news/2026-03-31/motor-neurone-disease-deaths-linked-to-hotspots/106511160",
+        "source": "ABC News (AU)",
+        "date": "2026-03-31T04:44:14Z"
+      },
+      {
+        "title": "Euphoria season 3 trailer gives first look at Eric Dane\u2019s final performance",
+        "url": "https://www.the-independent.com/arts-entertainment/tv/news/euphoria-season-3-trailer-eric-dane-b2948842.html",
+        "source": "The-independent.com",
+        "date": "2026-03-31T04:38:50Z"
+      },
+      {
+        "title": "See Eric Dane in His Last Role on Euphoria",
+        "url": "http://www.thecut.com/article/eric-dane-last-role-euphoria.html",
+        "source": "The Cut",
+        "date": "2026-03-31T00:38:12Z"
+      },
+      {
+        "title": "A deep joint-learning proteomics model for diagnosis of six conditions associated with dementia",
+        "url": "https://www.nature.com/articles/s41591-026-04303-y",
+        "source": "Nature.com",
+        "date": "2026-03-31T00:00:00Z"
+      },
+      {
+        "title": "Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis",
+        "url": "https://www.nature.com/articles/s41588-026-02535-9",
+        "source": "Nature.com",
+        "date": "2026-03-31T00:00:00Z"
+      },
+      {
+        "title": "The Kids Are Not All Right in \u2018Euphoria\u2019 Season 3 Trailer",
+        "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/euphoria-season-3-trailer-zendaya-sydney-sweeney-1235539213/",
+        "source": "Rolling Stone",
+        "date": "2026-03-30T22:23:41Z"
+      },
+      {
+        "title": "Former investor says he's disappointed by Moose Jaw scientist Goodenowe's 'new lies and new promises'",
+        "url": "https://www.cbc.ca/news/canada/saskatchewan/moose-jaw-sask-goodenowe-9.7140672",
+        "source": "CBC News",
+        "date": "2026-03-30T21:38:17Z"
+      },
+      {
+        "title": "Eric Dane's final TV performance teased in new 'Euphoria' trailer",
+        "url": "https://abcnews.com/GMA/Culture/eric-danes-final-tv-performance-euphoria-trailer/story?id=131553742",
+        "source": "Abcnews.com",
+        "date": "2026-03-30T21:35:57Z"
+      },
+      {
+        "title": "New Euphoria Season 3 Trailer Offers A First Look At Sharon Stone, The Late Eric Dane \u2014 Watch",
+        "url": "https://www.tvline.com/2135999/euphoria-season-3-second-trailer-sharon-stone-eric-dane/",
+        "source": "TVLine",
+        "date": "2026-03-30T20:14:42Z"
+      }
+    ],
+    "generated_at": "2026-04-05T08:47:14.972627"
+  },
+  {
     "date": "2026-03-29",
     "week_of": "March 29, 2026",
     "digest_number": 14,
