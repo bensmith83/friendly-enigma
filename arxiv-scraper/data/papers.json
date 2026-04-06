@@ -1,5 +1,28 @@
 [
   {
+    "id": "2604.03117v1",
+    "title": "Revealing Physical-World Semantic Vulnerabilities: Universal Adversarial Patches for Infrared Vision-Language Models",
+    "summary": "Infrared vision-language models (IR-VLMs) have emerged as a promising paradigm for multimodal perception in low-visibility environments, yet their robustness to adversarial attacks remains largely unexplored. Existing adversarial patch methods are mainly designed for RGB-based models in closed-set settings and are not readily applicable to the open-ended semantic understanding and physical deployment requirements of infrared VLMs. To bridge this gap, we propose Universal Curved-Grid Patch (UCGP), a universal physical adversarial patch framework for IR-VLMs. UCGP integrates Curved-Grid Mesh (CGM) parameterization for continuous, low-frequency, and deployable patch generation with a unified representation-driven objective that promotes subspace departure, topology disruption, and stealth. To improve robustness under real-world deployment and domain shift, we further incorporate Meta Differential Evolution and EOT-augmented TPS deformation modeling. Rather than manipulating labels or prompts, UCGP directly disrupts the visual representation space, weakening cross-modal semantic alignment. Extensive experiments demonstrate that UCGP consistently compromises semantic understanding across diverse IR-VLM architectures while maintaining cross-model transferability, cross-dataset generalization, real-world physical effectiveness, and robustness against defenses. These findings reveal a previously overlooked robustness vulnerability in current infrared multimodal systems.",
+    "published": "2026-04-03T15:42:55Z",
+    "link": "http://arxiv.org/abs/2604.03117v1",
+    "authors": [
+      "Chengyin Hu",
+      "Yuxian Dong",
+      "Yikun Guo",
+      "Xiang Chen",
+      "Junqi Wu",
+      "Jiahuan Long",
+      "Yiwei Wei",
+      "Tingsong Jiang",
+      "Wen Yao"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Infrared vision-language models (IR-VLMs) have emerged as a promising paradigm for multimodal perception in low-visibility environments, yet their robustness to adversarial attacks remains largely unexplored. Existing adversarial patch methods are mainly designed for RGB-based models in closed-set settings and are not readily applicable to the open-ended semantic understanding and physical deployment requirements of infrared VLMs.",
+    "selected_date": "2026-04-06"
+  },
+  {
     "id": "2604.01635v1",
     "title": "Diffusion-Guided Adversarial Perturbation Injection for Generalizable Defense Against Facial Manipulations",
     "summary": "Recent advances in GAN and diffusion models have significantly improved the realism and controllability of facial deepfake manipulation, raising serious concerns regarding privacy, security, and identity misuse. Proactive defenses attempt to counter this threat by injecting adversarial perturbations into images before manipulation takes place. However, existing approaches remain limited in effectiveness due to suboptimal perturbation injection strategies and are typically designed under white-box assumptions, targeting only simple GAN-based attribute editing. These constraints hinder their applicability in practical real-world scenarios. In this paper, we propose AEGIS, the first diffusion-guided paradigm in which the AdvErsarial facial images are Generated for Identity Shielding. We observe that the limited defense capability of existing approaches stems from the peak-clipping constraint, where perturbations are forcibly truncated due to a fixed $L_\\infty$-bounded. To overcome this limitation, instead of directly modifying pixels, AEGIS injects adversarial perturbations into the latent space along the DDIM denoising trajectory, thereby decoupling the perturbation magnitude from pixel-level constraints and allowing perturbations to adaptively amplify where most effective. The extensible design of AEGIS allows the defense to be expanded from purely white-box use to also support black-box scenarios through a gradient-estimation strategy. Extensive experiments across GAN and diffusion-based deepfake generators show that AEGIS consistently delivers strong defense effectiveness while maintaining high perceptual quality. In white-box settings, it achieves robust manipulation disruption, whereas in black-box settings, it demonstrates strong cross-model transferability.",
@@ -571,28 +594,5 @@
     ],
     "ai_summary": "Multimodal web agents that process both screenshots and accessibility trees are increasingly deployed to interact with web interfaces, yet their dual-stream architecture opens an underexplored attack surface: an adversary who injects content into the webpage DOM simultaneously corrupts both observation channels with a consistent deceptive narrative. Our vulnerability analysis on MiniWob++ reveals that attacks including a visual component far outperform text-only injections, exposing critical gaps in text-centric VLM safety training.",
     "selected_date": "2026-03-05"
-  },
-  {
-    "id": "2603.03269v1",
-    "title": "LoGeR: Long-Context Geometric Reconstruction with Hybrid Memory",
-    "summary": "Feedforward geometric foundation models achieve strong short-window reconstruction, yet scaling them to minutes-long videos is bottlenecked by quadratic attention complexity or limited effective memory in recurrent designs. We present LoGeR (Long-context Geometric Reconstruction), a novel architecture that scales dense 3D reconstruction to extremely long sequences without post-optimization. LoGeR processes video streams in chunks, leveraging strong bidirectional priors for high-fidelity intra-chunk reasoning. To manage the critical challenge of coherence across chunk boundaries, we propose a learning-based hybrid memory module. This dual-component system combines a parametric Test-Time Training (TTT) memory to anchor the global coordinate frame and prevent scale drift, alongside a non-parametric Sliding Window Attention (SWA) mechanism to preserve uncompressed context for high-precision adjacent alignment. Remarkably, this memory architecture enables LoGeR to be trained on sequences of 128 frames, and generalize up to thousands of frames during inference. Evaluated across standard benchmarks and a newly repurposed VBR dataset with sequences of up to 19k frames, LoGeR substantially outperforms prior state-of-the-art feedforward methods--reducing ATE on KITTI by over 74%--and achieves robust, globally consistent reconstruction over unprecedented horizons.",
-    "published": "2026-03-03T18:55:37Z",
-    "link": "http://arxiv.org/abs/2603.03269v1",
-    "authors": [
-      "Junyi Zhang",
-      "Charles Herrmann",
-      "Junhwa Hur",
-      "Chen Sun",
-      "Ming-Hsuan Yang",
-      "Forrester Cole",
-      "Trevor Darrell",
-      "Deqing Sun"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.LG"
-    ],
-    "ai_summary": "Feedforward geometric foundation models achieve strong short-window reconstruction, yet scaling them to minutes-long videos is bottlenecked by quadratic attention complexity or limited effective memory in recurrent designs. We present LoGeR (Long-context Geometric Reconstruction), a novel architecture that scales dense 3D reconstruction to extremely long sequences without post-optimization.",
-    "selected_date": "2026-03-04"
   }
 ]
