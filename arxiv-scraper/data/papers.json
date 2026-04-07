@@ -1,5 +1,22 @@
 [
   {
+    "id": "2604.04744v1",
+    "title": "Economic Security of VDF-Based Randomness Beacons: Models, Thresholds, and Design Guidelines",
+    "summary": "Randomness beacons based on Verifiable Delay Functions (VDFs) are increasingly proposed for blockchains and distributed systems, promising publicly verifiable delay and bias resistance. Existing analyses, however, treat adversaries purely as cryptographic entities and overlook that real attackers are economically motivated. A VDF may be sequentially secure, yet still vulnerable if a rational adversary can profit by purchasing faster hardware and exploiting reward spikes such as MEV opportunities.   We develop a formal framework for economic security of VDF-based randomness beacons. Modeling the attacker as a rational agent facing hardware speedup, operating costs, and stochastic rewards, we cast the attack decision as an optimal-stopping problem and prove that optimal behavior has a monotone threshold structure. This yields tight necessary and sufficient conditions relating delay parameters to adversarial cost and reward distributions. We extend the analysis to grinding, selective abort, and multi-adversary competition, demonstrating how each amplifies effective rewards and increases required delays.   Using realistic cloud costs, hardware benchmarks, and MEV data, we show that many proposed VDF delays, on the order of a few seconds, are economically insecure under plausible conditions. We conclude with deployable guidelines and introduce Economically Secure Delay Parameters (ESDPs) to support principled parameter selection in practical systems.",
+    "published": "2026-04-06T15:10:23Z",
+    "link": "http://arxiv.org/abs/2604.04744v1",
+    "authors": [
+      "Zhenhang Shang",
+      "Kani Chen"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.GT"
+    ],
+    "ai_summary": "Randomness beacons based on Verifiable Delay Functions (VDFs) are increasingly proposed for blockchains and distributed systems, promising publicly verifiable delay and bias resistance. Existing analyses, however, treat adversaries purely as cryptographic entities and overlook that real attackers are economically motivated.",
+    "selected_date": "2026-04-07"
+  },
+  {
     "id": "2604.03117v1",
     "title": "Revealing Physical-World Semantic Vulnerabilities: Universal Adversarial Patches for Infrared Vision-Language Models",
     "summary": "Infrared vision-language models (IR-VLMs) have emerged as a promising paradigm for multimodal perception in low-visibility environments, yet their robustness to adversarial attacks remains largely unexplored. Existing adversarial patch methods are mainly designed for RGB-based models in closed-set settings and are not readily applicable to the open-ended semantic understanding and physical deployment requirements of infrared VLMs. To bridge this gap, we propose Universal Curved-Grid Patch (UCGP), a universal physical adversarial patch framework for IR-VLMs. UCGP integrates Curved-Grid Mesh (CGM) parameterization for continuous, low-frequency, and deployable patch generation with a unified representation-driven objective that promotes subspace departure, topology disruption, and stealth. To improve robustness under real-world deployment and domain shift, we further incorporate Meta Differential Evolution and EOT-augmented TPS deformation modeling. Rather than manipulating labels or prompts, UCGP directly disrupts the visual representation space, weakening cross-modal semantic alignment. Extensive experiments demonstrate that UCGP consistently compromises semantic understanding across diverse IR-VLM architectures while maintaining cross-model transferability, cross-dataset generalization, real-world physical effectiveness, and robustness against defenses. These findings reveal a previously overlooked robustness vulnerability in current infrared multimodal systems.",
@@ -574,25 +591,5 @@
     ],
     "ai_summary": "Reading comprehension systems for low-resource languages face significant challenges in handling unanswerable questions. These systems tend to produce unreliable responses when correct answers are absent from context.",
     "selected_date": "2026-03-06"
-  },
-  {
-    "id": "2603.04364v1",
-    "title": "Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks",
-    "summary": "Multimodal web agents that process both screenshots and accessibility trees are increasingly deployed to interact with web interfaces, yet their dual-stream architecture opens an underexplored attack surface: an adversary who injects content into the webpage DOM simultaneously corrupts both observation channels with a consistent deceptive narrative. Our vulnerability analysis on MiniWob++ reveals that attacks including a visual component far outperform text-only injections, exposing critical gaps in text-centric VLM safety training. Motivated by this finding, we propose Dual-Modality Multi-Stage Adversarial Safety Training (DMAST), a framework that formalizes the agent-attacker interaction as a two-player zero-sum Markov game and co-trains both players through a three-stage pipeline: (1) imitation learning from a strong teacher model, (2) oracle-guided supervised fine-tuning that uses a novel zero-acknowledgment strategy to instill task-focused reasoning under adversarial noise, and (3) adversarial reinforcement learning via Group Relative Policy Optimization (GRPO) self-play. On out-of-distribution tasks, DMAST substantially mitigates adversarial risks while simultaneously doubling task completion efficiency. Our approach significantly outperforms established training-based and prompt-based defenses, demonstrating genuine co-evolutionary progress and robust generalization to complex, unseen environments.",
-    "published": "2026-03-04T18:29:54Z",
-    "link": "http://arxiv.org/abs/2603.04364v1",
-    "authors": [
-      "Haoyu Liu",
-      "Dingcheng Li",
-      "Lukas Rutishauser",
-      "Zeyu Zheng"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.CL"
-    ],
-    "ai_summary": "Multimodal web agents that process both screenshots and accessibility trees are increasingly deployed to interact with web interfaces, yet their dual-stream architecture opens an underexplored attack surface: an adversary who injects content into the webpage DOM simultaneously corrupts both observation channels with a consistent deceptive narrative. Our vulnerability analysis on MiniWob++ reveals that attacks including a visual component far outperform text-only injections, exposing critical gaps in text-centric VLM safety training.",
-    "selected_date": "2026-03-05"
   }
 ]
