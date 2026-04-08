@@ -1,5 +1,27 @@
 [
   {
+    "id": "2604.05853v1",
+    "title": "Reading Between the Pixels: An Inscriptive Jailbreak Attack on Text-to-Image Models",
+    "summary": "Modern text-to-image (T2I) models can now render legible, paragraph-length text, enabling a fundamentally new class of misuse. We identify and formalize the inscriptive jailbreak, where an adversary coerces a T2I system into generating images containing harmful textual payloads (e.g., fraudulent documents) embedded within visually benign scenes. Unlike traditional depictive jailbreaks that elicit visually objectionable imagery, inscriptive attacks weaponize the text-rendering capability itself. Because existing jailbreak techniques are designed for coarse visual manipulation, they struggle to bypass multi-stage safety filters while maintaining character-level fidelity. To expose this vulnerability, we propose Etch, a black-box attack framework that decomposes the adversarial prompt into three functionally orthogonal layers: semantic camouflage, visual-spatial anchoring, and typographic encoding. This decomposition reduces joint optimization over the full prompt space to tractable sub-problems, which are iteratively refined through a zero-order loop. In this process, a vision-language model critiques each generated image, localizes failures to specific layers, and prescribes targeted revisions. Extensive evaluations across 7 models on the 2 benchmarks demonstrate that Etch achieves an average attack success rate of 65.57% (peaking at 91.00%), significantly outperforming existing baselines. Our results reveal a critical blind spot in current T2I safety alignments and underscore the urgent need for typography-aware defense multimodal mechanisms.",
+    "published": "2026-04-07T13:16:07Z",
+    "link": "http://arxiv.org/abs/2604.05853v1",
+    "authors": [
+      "Zonghao Ying",
+      "Haowen Dai",
+      "Lianyu Hu",
+      "Zonglei Jing",
+      "Quanchen Zou",
+      "Yaodong Yang",
+      "Aishan Liu",
+      "Xianglong Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Modern text-to-image (T2I) models can now render legible, paragraph-length text, enabling a fundamentally new class of misuse. We identify and formalize the inscriptive jailbreak, where an adversary coerces a T2I system into generating images containing harmful textual payloads (e.g., fraudulent documents) embedded within visually benign scenes.",
+    "selected_date": "2026-04-08"
+  },
+  {
     "id": "2604.04744v1",
     "title": "Economic Security of VDF-Based Randomness Beacons: Models, Thresholds, and Design Guidelines",
     "summary": "Randomness beacons based on Verifiable Delay Functions (VDFs) are increasingly proposed for blockchains and distributed systems, promising publicly verifiable delay and bias resistance. Existing analyses, however, treat adversaries purely as cryptographic entities and overlook that real attackers are economically motivated. A VDF may be sequentially secure, yet still vulnerable if a rational adversary can profit by purchasing faster hardware and exploiting reward spikes such as MEV opportunities.   We develop a formal framework for economic security of VDF-based randomness beacons. Modeling the attacker as a rational agent facing hardware speedup, operating costs, and stochastic rewards, we cast the attack decision as an optimal-stopping problem and prove that optimal behavior has a monotone threshold structure. This yields tight necessary and sufficient conditions relating delay parameters to adversarial cost and reward distributions. We extend the analysis to grinding, selective abort, and multi-adversary competition, demonstrating how each amplifies effective rewards and increases required delays.   Using realistic cloud costs, hardware benchmarks, and MEV data, we show that many proposed VDF delays, on the order of a few seconds, are economically insecure under plausible conditions. We conclude with deployable guidelines and introduce Economically Secure Delay Parameters (ESDPs) to support principled parameter selection in practical systems.",
@@ -574,22 +596,5 @@
     ],
     "ai_summary": "Reading comprehension systems for low-resource languages face significant challenges in handling unanswerable questions. These systems tend to produce unreliable responses when correct answers are absent from context.",
     "selected_date": "2026-03-07"
-  },
-  {
-    "id": "2603.05462v1",
-    "title": "NCTB-QA: A Large-Scale Bangla Educational Question Answering Dataset and Benchmarking Performance",
-    "summary": "Reading comprehension systems for low-resource languages face significant challenges in handling unanswerable questions. These systems tend to produce unreliable responses when correct answers are absent from context. To solve this problem, we introduce NCTB-QA, a large-scale Bangla question answering dataset comprising 87,805 question-answer pairs extracted from 50 textbooks published by Bangladesh's National Curriculum and Textbook Board. Unlike existing Bangla datasets, NCTB-QA maintains a balanced distribution of answerable (57.25%) and unanswerable (42.75%) questions. NCTB-QA also includes adversarially designed instances containing plausible distractors. We benchmark three transformer-based models (BERT, RoBERTa, ELECTRA) and demonstrate substantial improvements through fine-tuning. BERT achieves 313% relative improvement in F1 score (0.150 to 0.620). Semantic answer quality measured by BERTScore also increases significantly across all models. Our results establish NCTB-QA as a challenging benchmark for Bangla educational question answering. This study demonstrates that domain-specific fine-tuning is critical for robust performance in low-resource settings.",
-    "published": "2026-03-05T18:35:03Z",
-    "link": "http://arxiv.org/abs/2603.05462v1",
-    "authors": [
-      "Abrar Eyasir",
-      "Tahsin Ahmed",
-      "Muhammad Ibrahim"
-    ],
-    "categories": [
-      "cs.CL"
-    ],
-    "ai_summary": "Reading comprehension systems for low-resource languages face significant challenges in handling unanswerable questions. These systems tend to produce unreliable responses when correct answers are absent from context.",
-    "selected_date": "2026-03-06"
   }
 ]
