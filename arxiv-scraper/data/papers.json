@@ -1,5 +1,30 @@
 [
   {
+    "id": "2604.06950v1",
+    "title": "Making MLLMs Blind: Adversarial Smuggling Attacks in MLLM Content Moderation",
+    "summary": "Multimodal Large Language Models (MLLMs) are increasingly being deployed as automated content moderators. Within this landscape, we uncover a critical threat: Adversarial Smuggling Attacks. Unlike adversarial perturbations (for misclassification) and adversarial jailbreaks (for harmful output generation), adversarial smuggling exploits the Human-AI capability gap. It encodes harmful content into human-readable visual formats that remain AI-unreadable, thereby evading automated detection and enabling the dissemination of harmful content. We classify smuggling attacks into two pathways: (1) Perceptual Blindness, disrupting text recognition; and (2) Reasoning Blockade, inhibiting semantic understanding despite successful text recognition. To evaluate this threat, we constructed SmuggleBench, the first comprehensive benchmark comprising 1,700 adversarial smuggling attack instances. Evaluations on SmuggleBench reveal that both proprietary (e.g., GPT-5) and open-source (e.g., Qwen3-VL) state-of-the-art models are vulnerable to this threat, producing Attack Success Rates (ASR) exceeding 90%. By analyzing the vulnerability through the lenses of perception and reasoning, we identify three root causes: the limited capabilities of vision encoders, the robustness gap in OCR, and the scarcity of domain-specific adversarial examples. We conduct a preliminary exploration of mitigation strategies, investigating the potential of test-time scaling (via CoT) and adversarial training (via SFT) to mitigate this threat. Our code is publicly available at https://github.com/zhihengli-casia/smugglebench.",
+    "published": "2026-04-08T11:13:16Z",
+    "link": "http://arxiv.org/abs/2604.06950v1",
+    "authors": [
+      "Zhiheng Li",
+      "Zongyang Ma",
+      "Yuntong Pan",
+      "Ziqi Zhang",
+      "Xiaolei Lv",
+      "Bo Li",
+      "Jun Gao",
+      "Jianing Zhang",
+      "Chunfeng Yuan",
+      "Bing Li",
+      "Weiming Hu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Multimodal Large Language Models (MLLMs) are increasingly being deployed as automated content moderators. Within this landscape, we uncover a critical threat: Adversarial Smuggling Attacks.",
+    "selected_date": "2026-04-09"
+  },
+  {
     "id": "2604.05853v1",
     "title": "Reading Between the Pixels: An Inscriptive Jailbreak Attack on Text-to-Image Models",
     "summary": "Modern text-to-image (T2I) models can now render legible, paragraph-length text, enabling a fundamentally new class of misuse. We identify and formalize the inscriptive jailbreak, where an adversary coerces a T2I system into generating images containing harmful textual payloads (e.g., fraudulent documents) embedded within visually benign scenes. Unlike traditional depictive jailbreaks that elicit visually objectionable imagery, inscriptive attacks weaponize the text-rendering capability itself. Because existing jailbreak techniques are designed for coarse visual manipulation, they struggle to bypass multi-stage safety filters while maintaining character-level fidelity. To expose this vulnerability, we propose Etch, a black-box attack framework that decomposes the adversarial prompt into three functionally orthogonal layers: semantic camouflage, visual-spatial anchoring, and typographic encoding. This decomposition reduces joint optimization over the full prompt space to tractable sub-problems, which are iteratively refined through a zero-order loop. In this process, a vision-language model critiques each generated image, localizes failures to specific layers, and prescribes targeted revisions. Extensive evaluations across 7 models on the 2 benchmarks demonstrate that Etch achieves an average attack success rate of 65.57% (peaking at 91.00%), significantly outperforming existing baselines. Our results reveal a critical blind spot in current T2I safety alignments and underscore the urgent need for typography-aware defense multimodal mechanisms.",
@@ -579,22 +604,5 @@
     ],
     "ai_summary": "Sparse matrix-vector multiplication (SpMV) is a fundamental operation in scientific computing, data analysis, and machine learning. When the data being processed are sensitive, preserving privacy becomes critical, and homomorphic encryption (HE) has emerged as a leading approach for addressing this challenge.",
     "selected_date": "2026-03-08"
-  },
-  {
-    "id": "2603.05462v1",
-    "title": "NCTB-QA: A Large-Scale Bangla Educational Question Answering Dataset and Benchmarking Performance",
-    "summary": "Reading comprehension systems for low-resource languages face significant challenges in handling unanswerable questions. These systems tend to produce unreliable responses when correct answers are absent from context. To solve this problem, we introduce NCTB-QA, a large-scale Bangla question answering dataset comprising 87,805 question-answer pairs extracted from 50 textbooks published by Bangladesh's National Curriculum and Textbook Board. Unlike existing Bangla datasets, NCTB-QA maintains a balanced distribution of answerable (57.25%) and unanswerable (42.75%) questions. NCTB-QA also includes adversarially designed instances containing plausible distractors. We benchmark three transformer-based models (BERT, RoBERTa, ELECTRA) and demonstrate substantial improvements through fine-tuning. BERT achieves 313% relative improvement in F1 score (0.150 to 0.620). Semantic answer quality measured by BERTScore also increases significantly across all models. Our results establish NCTB-QA as a challenging benchmark for Bangla educational question answering. This study demonstrates that domain-specific fine-tuning is critical for robust performance in low-resource settings.",
-    "published": "2026-03-05T18:35:03Z",
-    "link": "http://arxiv.org/abs/2603.05462v1",
-    "authors": [
-      "Abrar Eyasir",
-      "Tahsin Ahmed",
-      "Muhammad Ibrahim"
-    ],
-    "categories": [
-      "cs.CL"
-    ],
-    "ai_summary": "Reading comprehension systems for low-resource languages face significant challenges in handling unanswerable questions. These systems tend to produce unreliable responses when correct answers are absent from context.",
-    "selected_date": "2026-03-07"
   }
 ]
