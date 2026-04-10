@@ -1,5 +1,26 @@
 [
   {
+    "id": "2604.08401v1",
+    "title": "Verify Before You Commit: Towards Faithful Reasoning in LLM Agents via Self-Auditing",
+    "summary": "In large language model (LLM) agents, reasoning trajectories are treated as reliable internal beliefs for guiding actions and updating memory. However, coherent reasoning can still violate logical or evidential constraints, allowing unsupported beliefs repeatedly stored and propagated across decision steps, leading to systematic behavioral drift in long-horizon agentic systems. Most existing strategies rely on the consensus mechanism, conflating agreement with faithfulness. In this paper, inspired by the vulnerability of unfaithful intermediate reasoning trajectories, we propose \\textbf{S}elf-\\textbf{A}udited \\textbf{Ve}rified \\textbf{R}easoning (\\textsc{SAVeR}), a novel framework that enforces verification over internal belief states within the agent before action commitment, achieving faithful reasoning. Concretely, we structurally generate persona-based diverse candidate beliefs for selection under a faithfulness-relevant structure space. To achieve reasoning faithfulness, we perform adversarial auditing to localize violations and repair through constraint-guided minimal interventions under verifiable acceptance criteria. Extensive experiments on six benchmark datasets demonstrate that our approach consistently improves reasoning faithfulness while preserving competitive end-task performance.",
+    "published": "2026-04-09T16:01:03Z",
+    "link": "http://arxiv.org/abs/2604.08401v1",
+    "authors": [
+      "Wenhao Yuan",
+      "Chenchen Lin",
+      "Jian Chen",
+      "Jinfeng Xu",
+      "Xuehe Wang",
+      "Edith Cheuk Han Ngai"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "ai_summary": "In large language model (LLM) agents, reasoning trajectories are treated as reliable internal beliefs for guiding actions and updating memory. However, coherent reasoning can still violate logical or evidential constraints, allowing unsupported beliefs repeatedly stored and propagated across decision steps, leading to systematic behavioral drift in long-horizon agentic systems.",
+    "selected_date": "2026-04-10"
+  },
+  {
     "id": "2604.06950v1",
     "title": "Making MLLMs Blind: Adversarial Smuggling Attacks in MLLM Content Moderation",
     "summary": "Multimodal Large Language Models (MLLMs) are increasingly being deployed as automated content moderators. Within this landscape, we uncover a critical threat: Adversarial Smuggling Attacks. Unlike adversarial perturbations (for misclassification) and adversarial jailbreaks (for harmful output generation), adversarial smuggling exploits the Human-AI capability gap. It encodes harmful content into human-readable visual formats that remain AI-unreadable, thereby evading automated detection and enabling the dissemination of harmful content. We classify smuggling attacks into two pathways: (1) Perceptual Blindness, disrupting text recognition; and (2) Reasoning Blockade, inhibiting semantic understanding despite successful text recognition. To evaluate this threat, we constructed SmuggleBench, the first comprehensive benchmark comprising 1,700 adversarial smuggling attack instances. Evaluations on SmuggleBench reveal that both proprietary (e.g., GPT-5) and open-source (e.g., Qwen3-VL) state-of-the-art models are vulnerable to this threat, producing Attack Success Rates (ASR) exceeding 90%. By analyzing the vulnerability through the lenses of perception and reasoning, we identify three root causes: the limited capabilities of vision encoders, the robustness gap in OCR, and the scarcity of domain-specific adversarial examples. We conduct a preliminary exploration of mitigation strategies, investigating the potential of test-time scaling (via CoT) and adversarial training (via SFT) to mitigate this threat. Our code is publicly available at https://github.com/zhihengli-casia/smugglebench.",
@@ -584,25 +605,5 @@
     ],
     "ai_summary": "CAPTCHAs remain a critical defense against automated abuse, yet modern systems suffer from well-known limitations in usability, accessibility, and resistance to increasingly capable bots and low-cost CAPTCHA farms. Behavioral and puzzle-based mechanisms often impose cognitive burdens, collect extensive interaction data, or permit outsourcing to human solvers.",
     "selected_date": "2026-03-09"
-  },
-  {
-    "id": "2603.04742v1",
-    "title": "Efficient Privacy-Preserving Sparse Matrix-Vector Multiplication Using Homomorphic Encryption",
-    "summary": "Sparse matrix-vector multiplication (SpMV) is a fundamental operation in scientific computing, data analysis, and machine learning. When the data being processed are sensitive, preserving privacy becomes critical, and homomorphic encryption (HE) has emerged as a leading approach for addressing this challenge. Although HE enables privacy-preserving computation, its application to SpMV has remained largely unaddressed. To the best of our knowledge, this paper presents the first framework that efficiently integrates HE with SpMV, addressing the dual challenges of computational efficiency and data privacy. In particular, we introduce a novel compressed matrix format, named Compressed Sparse Sorted Column (CSSC), which is specifically designed to optimize encrypted sparse matrix computations. By preserving sparsity and enabling efficient ciphertext packing, CSSC significantly reduces storage and computational overhead. Our experimental results on real-world datasets demonstrate that the proposed method achieves significant gains in both processing time and memory usage. This study advances privacy-preserving SpMV and lays the groundwork for secure applications in federated learning, encrypted databases, scientific computing, and beyond.",
-    "published": "2026-03-05T02:29:50Z",
-    "link": "http://arxiv.org/abs/2603.04742v1",
-    "authors": [
-      "Yang Gao",
-      "Gang Quan",
-      "Wujie Wen",
-      "Scott Piersall",
-      "Qian Lou",
-      "Liqiang Wang"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Sparse matrix-vector multiplication (SpMV) is a fundamental operation in scientific computing, data analysis, and machine learning. When the data being processed are sensitive, preserving privacy becomes critical, and homomorphic encryption (HE) has emerged as a leading approach for addressing this challenge.",
-    "selected_date": "2026-03-08"
   }
 ]
