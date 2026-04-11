@@ -1,5 +1,30 @@
 [
   {
+    "id": "2604.08542v1",
+    "title": "Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction",
+    "summary": "This paper addresses the task of large-scale 3D scene reconstruction from long video sequences. Recent feed-forward reconstruction models have shown promising results by directly regressing 3D geometry from RGB images without explicit 3D priors or geometric constraints. However, these methods often struggle to maintain reconstruction accuracy and consistency over long sequences due to limited memory capacity and the inability to effectively capture global contextual cues. In contrast, humans can naturally exploit the global understanding of the scene to inform local perception. Motivated by this, we propose a novel neural global context representation that efficiently compresses and retains long-range scene information, enabling the model to leverage extensive contextual cues for enhanced reconstruction accuracy and consistency. The context representation is realized through a set of lightweight neural sub-networks that are rapidly adapted during test time via self-supervised objectives, which substantially increases memory capacity without incurring significant computational overhead. The experiments on multiple large-scale benchmarks, including the KITTI Odometry~\\cite{Geiger2012CVPR} and Oxford Spires~\\cite{tao2025spires} datasets, demonstrate the effectiveness of our approach in handling ultra-large scenes, achieving leading pose accuracy and state-of-the-art 3D reconstruction accuracy while maintaining efficiency. Code is available at https://zju3dv.github.io/scal3r.",
+    "published": "2026-04-09T17:59:50Z",
+    "link": "http://arxiv.org/abs/2604.08542v1",
+    "authors": [
+      "Tao Xie",
+      "Peishan Yang",
+      "Yudong Jin",
+      "Yingfeng Cai",
+      "Wei Yin",
+      "Weiqiang Ren",
+      "Qian Zhang",
+      "Wei Hua",
+      "Sida Peng",
+      "Xiaoyang Guo",
+      "Xiaowei Zhou"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "This paper addresses the task of large-scale 3D scene reconstruction from long video sequences. Recent feed-forward reconstruction models have shown promising results by directly regressing 3D geometry from RGB images without explicit 3D priors or geometric constraints.",
+    "selected_date": "2026-04-11"
+  },
+  {
     "id": "2604.08401v1",
     "title": "Verify Before You Commit: Towards Faithful Reasoning in LLM Agents via Self-Auditing",
     "summary": "In large language model (LLM) agents, reasoning trajectories are treated as reliable internal beliefs for guiding actions and updating memory. However, coherent reasoning can still violate logical or evidential constraints, allowing unsupported beliefs repeatedly stored and propagated across decision steps, leading to systematic behavioral drift in long-horizon agentic systems. Most existing strategies rely on the consensus mechanism, conflating agreement with faithfulness. In this paper, inspired by the vulnerability of unfaithful intermediate reasoning trajectories, we propose \\textbf{S}elf-\\textbf{A}udited \\textbf{Ve}rified \\textbf{R}easoning (\\textsc{SAVeR}), a novel framework that enforces verification over internal belief states within the agent before action commitment, achieving faithful reasoning. Concretely, we structurally generate persona-based diverse candidate beliefs for selection under a faithfulness-relevant structure space. To achieve reasoning faithfulness, we perform adversarial auditing to localize violations and repair through constraint-guided minimal interventions under verifiable acceptance criteria. Extensive experiments on six benchmark datasets demonstrate that our approach consistently improves reasoning faithfulness while preserving competitive end-task performance.",
@@ -588,22 +613,5 @@
     ],
     "ai_summary": "Modern vision-language-model (VLM) based graphical user interface (GUI) agents are expected not only to execute actions accurately but also to respond to user instructions with low latency. While existing research on GUI-agent security mainly focuses on manipulating action correctness, the security risks related to response efficiency remain largely unexplored.",
     "selected_date": "2026-03-10"
-  },
-  {
-    "id": "2603.05915v1",
-    "title": "ThermoCAPTCHA: Privacy-Preserving Human Verification with Farm-Resistant Traceable Tokens",
-    "summary": "CAPTCHAs remain a critical defense against automated abuse, yet modern systems suffer from well-known limitations in usability, accessibility, and resistance to increasingly capable bots and low-cost CAPTCHA farms. Behavioral and puzzle-based mechanisms often impose cognitive burdens, collect extensive interaction data, or permit outsourcing to human solvers. In this paper, we present ThermoCAPTCHA, a novel privacy-preserving human verification system that uses real-time thermal imaging to detect live human presence without requiring users to solve challenges. A lightweight YOLOv4-tiny model identifies human heat signatures from a single thermal capture, while cryptographically bound traceable tokens prevent forwarding attacks by CAPTCHA farm workers. Our prototype achieves 96.70% detection accuracy with a 73.60 ms verification latency on a low-powered server. Comprehensive security evaluation, including MITM manipulation, spoofing attempts, adversarial perturbations, and misuse scenarios, shows that ThermoCAPTCHA withstands threats that commonly defeat behavioral CAPTCHAs. A user study with 50 participants, including visually challenged users, demonstrates improved accuracy, faster completion times, and higher perceived usability compared to reCAPTCHA v2.",
-    "published": "2026-03-06T05:07:53Z",
-    "link": "http://arxiv.org/abs/2603.05915v1",
-    "authors": [
-      "Shovon Paul",
-      "Md Imran Hossen",
-      "Xiali Hei"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "CAPTCHAs remain a critical defense against automated abuse, yet modern systems suffer from well-known limitations in usability, accessibility, and resistance to increasingly capable bots and low-cost CAPTCHA farms. Behavioral and puzzle-based mechanisms often impose cognitive burdens, collect extensive interaction data, or permit outsourcing to human solvers.",
-    "selected_date": "2026-03-09"
   }
 ]
