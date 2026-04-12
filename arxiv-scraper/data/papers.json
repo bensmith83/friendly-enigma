@@ -1,5 +1,26 @@
 [
   {
+    "id": "2604.08401v1",
+    "title": "Verify Before You Commit: Towards Faithful Reasoning in LLM Agents via Self-Auditing",
+    "summary": "In large language model (LLM) agents, reasoning trajectories are treated as reliable internal beliefs for guiding actions and updating memory. However, coherent reasoning can still violate logical or evidential constraints, allowing unsupported beliefs repeatedly stored and propagated across decision steps, leading to systematic behavioral drift in long-horizon agentic systems. Most existing strategies rely on the consensus mechanism, conflating agreement with faithfulness. In this paper, inspired by the vulnerability of unfaithful intermediate reasoning trajectories, we propose \\textbf{S}elf-\\textbf{A}udited \\textbf{Ve}rified \\textbf{R}easoning (\\textsc{SAVeR}), a novel framework that enforces verification over internal belief states within the agent before action commitment, achieving faithful reasoning. Concretely, we structurally generate persona-based diverse candidate beliefs for selection under a faithfulness-relevant structure space. To achieve reasoning faithfulness, we perform adversarial auditing to localize violations and repair through constraint-guided minimal interventions under verifiable acceptance criteria. Extensive experiments on six benchmark datasets demonstrate that our approach consistently improves reasoning faithfulness while preserving competitive end-task performance.",
+    "published": "2026-04-09T16:01:03Z",
+    "link": "http://arxiv.org/abs/2604.08401v1",
+    "authors": [
+      "Wenhao Yuan",
+      "Chenchen Lin",
+      "Jian Chen",
+      "Jinfeng Xu",
+      "Xuehe Wang",
+      "Edith Cheuk Han Ngai"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "ai_summary": "In large language model (LLM) agents, reasoning trajectories are treated as reliable internal beliefs for guiding actions and updating memory. However, coherent reasoning can still violate logical or evidential constraints, allowing unsupported beliefs repeatedly stored and propagated across decision steps, leading to systematic behavioral drift in long-horizon agentic systems.",
+    "selected_date": "2026-04-12"
+  },
+  {
     "id": "2604.08542v1",
     "title": "Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction",
     "summary": "This paper addresses the task of large-scale 3D scene reconstruction from long video sequences. Recent feed-forward reconstruction models have shown promising results by directly regressing 3D geometry from RGB images without explicit 3D priors or geometric constraints. However, these methods often struggle to maintain reconstruction accuracy and consistency over long sequences due to limited memory capacity and the inability to effectively capture global contextual cues. In contrast, humans can naturally exploit the global understanding of the scene to inform local perception. Motivated by this, we propose a novel neural global context representation that efficiently compresses and retains long-range scene information, enabling the model to leverage extensive contextual cues for enhanced reconstruction accuracy and consistency. The context representation is realized through a set of lightweight neural sub-networks that are rapidly adapted during test time via self-supervised objectives, which substantially increases memory capacity without incurring significant computational overhead. The experiments on multiple large-scale benchmarks, including the KITTI Odometry~\\cite{Geiger2012CVPR} and Oxford Spires~\\cite{tao2025spires} datasets, demonstrate the effectiveness of our approach in handling ultra-large scenes, achieving leading pose accuracy and state-of-the-art 3D reconstruction accuracy while maintaining efficiency. Code is available at https://zju3dv.github.io/scal3r.",
@@ -592,26 +613,5 @@
     ],
     "ai_summary": "Bird's-eye-view (BEV) perception has emerged as a cornerstone of autonomous driving systems, providing a structured, ego-centric representation critical for downstream planning and control. However, real-world deployment faces challenges from sensor degradation and adversarial attacks, which can cause severe perceptual anomalies and ultimately compromise the safety of autonomous driving systems.",
     "selected_date": "2026-03-11"
-  },
-  {
-    "id": "2603.08316v1",
-    "title": "SlowBA: An efficiency backdoor attack towards VLM-based GUI agents",
-    "summary": "Modern vision-language-model (VLM) based graphical user interface (GUI) agents are expected not only to execute actions accurately but also to respond to user instructions with low latency. While existing research on GUI-agent security mainly focuses on manipulating action correctness, the security risks related to response efficiency remain largely unexplored. In this paper, we introduce SlowBA, a novel backdoor attack that targets the responsiveness of VLM-based GUI agents. The key idea is to manipulate response latency by inducing excessively long reasoning chains under specific trigger patterns. To achieve this, we propose a two-stage reward-level backdoor injection (RBI) strategy that first aligns the long-response format and then learns trigger-aware activation through reinforcement learning. In addition, we design realistic pop-up windows as triggers that naturally appear in GUI environments, improving the stealthiness of the attack. Extensive experiments across multiple datasets and baselines demonstrate that SlowBA can significantly increase response length and latency while largely preserving task accuracy. The attack remains effective even with a small poisoning ratio and under several defense settings. These findings reveal a previously overlooked security vulnerability in GUI agents and highlight the need for defenses that consider both action correctness and response efficiency. Code can be found in https://github.com/tu-tuing/SlowBA.",
-    "published": "2026-03-09T12:38:28Z",
-    "link": "http://arxiv.org/abs/2603.08316v1",
-    "authors": [
-      "Junxian Li",
-      "Tu Lan",
-      "Haozhen Tan",
-      "Yan Meng",
-      "Haojin Zhu"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.CL",
-      "cs.CV"
-    ],
-    "ai_summary": "Modern vision-language-model (VLM) based graphical user interface (GUI) agents are expected not only to execute actions accurately but also to respond to user instructions with low latency. While existing research on GUI-agent security mainly focuses on manipulating action correctness, the security risks related to response efficiency remain largely unexplored.",
-    "selected_date": "2026-03-10"
   }
 ]
