@@ -1,5 +1,23 @@
 [
   {
+    "id": "2604.08800v1",
+    "title": "Tracing the Chain: Deep Learning for Stepping-Stone Intrusion Detection",
+    "summary": "Stepping-stone intrusions (SSIs) are a prevalent network evasion technique in which attackers route sessions through chains of compromised intermediate hosts to obscure their origin. Effective SSI detection requires correlating the incoming and outgoing flows at each relay host at extremely low false positive rates -- a stringent requirement that renders classical statistical methods inadequate in operational settings. We apply ESPRESSO, a deep learning flow correlation model combining a transformer-based feature extraction network, time-aligned multi-channel interval features, and online triplet metric learning, to the problem of stepping-stone intrusion detection. To support training and evaluation, we develop a synthetic data collection tool that generates realistic stepping-stone traffic across five tunneling protocols: SSH, SOCAT, ICMP, DNS, and mixed multi-protocol chains. Across all five protocols and in both host-mode and network-mode detection scenarios, ESPRESSO substantially outperforms the state-of-the-art DeepCoFFEA baseline, achieving a true positive rate exceeding 0.99 at a false positive rate of $10^{-3}$ for standard bursty protocols in network-mode. We further demonstrate chain length prediction as a tool for distinguishing malicious from benign pivoting, and conduct a systematic robustness analysis revealing that timing-based perturbations are the primary vulnerability of correlation-based stepping-stone detectors.",
+    "published": "2026-04-09T22:26:52Z",
+    "link": "http://arxiv.org/abs/2604.08800v1",
+    "authors": [
+      "Nate Mathews",
+      "Nicholas Hopper",
+      "Matthew Wright"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "ai_summary": "Stepping-stone intrusions (SSIs) are a prevalent network evasion technique in which attackers route sessions through chains of compromised intermediate hosts to obscure their origin. Effective SSI detection requires correlating the incoming and outgoing flows at each relay host at extremely low false positive rates -- a stringent requirement that renders classical statistical methods inadequate in operational settings.",
+    "selected_date": "2026-04-13"
+  },
+  {
     "id": "2604.08401v1",
     "title": "Verify Before You Commit: Towards Faithful Reasoning in LLM Agents via Self-Auditing",
     "summary": "In large language model (LLM) agents, reasoning trajectories are treated as reliable internal beliefs for guiding actions and updating memory. However, coherent reasoning can still violate logical or evidential constraints, allowing unsupported beliefs repeatedly stored and propagated across decision steps, leading to systematic behavioral drift in long-horizon agentic systems. Most existing strategies rely on the consensus mechanism, conflating agreement with faithfulness. In this paper, inspired by the vulnerability of unfaithful intermediate reasoning trajectories, we propose \\textbf{S}elf-\\textbf{A}udited \\textbf{Ve}rified \\textbf{R}easoning (\\textsc{SAVeR}), a novel framework that enforces verification over internal belief states within the agent before action commitment, achieving faithful reasoning. Concretely, we structurally generate persona-based diverse candidate beliefs for selection under a faithfulness-relevant structure space. To achieve reasoning faithfulness, we perform adversarial auditing to localize violations and repair through constraint-guided minimal interventions under verifiable acceptance criteria. Extensive experiments on six benchmark datasets demonstrate that our approach consistently improves reasoning faithfulness while preserving competitive end-task performance.",
@@ -595,23 +613,5 @@
     ],
     "ai_summary": "As open-weights generative AI rapidly proliferates, the ability to synthesize hyper-realistic media has introduced profound challenges to digital trust. Automated disinformation and AI-generated imagery have made robust digital provenance a critical cybersecurity imperative.",
     "selected_date": "2026-03-12"
-  },
-  {
-    "id": "2603.09529v1",
-    "title": "RESBev: Making BEV Perception More Robust",
-    "summary": "Bird's-eye-view (BEV) perception has emerged as a cornerstone of autonomous driving systems, providing a structured, ego-centric representation critical for downstream planning and control. However, real-world deployment faces challenges from sensor degradation and adversarial attacks, which can cause severe perceptual anomalies and ultimately compromise the safety of autonomous driving systems. To address this, we propose a resilient and plug-and-play BEV perception method, RESBev, which can be easily applied to existing BEV perception methods to enhance their robustness to diverse disturbances. Specifically, we reframe perception robustness as a latent semantic prediction problem. A latent world model is constructed to extract spatiotemporal correlations across sequential BEV observations, thereby learning the underlying BEV state transitions to predict clean BEV features for reconstructing corrupted observations. The proposed framework operates at the semantic feature level of the Lift-Splat-Shoot pipeline, enabling recovery that generalizes across both natural disturbances and adversarial attacks without modifying the underlying backbone. Extensive experiments on the nuScenes dataset demonstrate that, with few-shot fine-tuning, RESBev significantly improves the robustness of existing BEV perception models against various external disturbances and adversarial attacks.",
-    "published": "2026-03-10T11:36:52Z",
-    "link": "http://arxiv.org/abs/2603.09529v1",
-    "authors": [
-      "Lifeng Zhuo",
-      "Kefan Jin",
-      "Zhe Liu",
-      "Hesheng Wang"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Bird's-eye-view (BEV) perception has emerged as a cornerstone of autonomous driving systems, providing a structured, ego-centric representation critical for downstream planning and control. However, real-world deployment faces challenges from sensor degradation and adversarial attacks, which can cause severe perceptual anomalies and ultimately compromise the safety of autonomous driving systems.",
-    "selected_date": "2026-03-11"
   }
 ]
