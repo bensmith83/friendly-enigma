@@ -1,5 +1,24 @@
 [
   {
+    "id": "2604.14987v1",
+    "title": "AI-Enabled Covert Channel Detection in RF Receiver Architectures",
+    "summary": "Covert channels (CCs) in wireless chips pose a serious security threat, as they enable the exfiltration of sensitive information from the chip to an external attacker. In this work, we propose an AI-based defense mechanism deployed at the RF receiver, where the model directly monitors raw I/Q samples to detect, in real time, the presence of a CC embedded within an otherwise nominal signal. We first compact a state-of-the-art convolutional neural network (CNN), achieving an 80% reduction in parameters, which is an essential requirement for efficient edge deployment. When evaluated on the open-source hardware Trojan (HT)-based CC dataset, the compacted CNN attains an average accuracy of 90.28% for CC detection and 86.50% for identifying the underlying HT, with results averaged across SNR values above 1 dB. For practical communication scenarios where SNR > 20 dB, the model achieves over 97% accuracy for both tasks. These results correspond to a minimal performance degradation of less than 2% compared to the baseline model. The compacted CNN is further benchmarked against alternative classifiers, demonstrating an excellent accuracy-model size trade-off. Finally, we design a lightweight CNN hardware accelerator and demonstrate it on an FPGA, achieving very low resource utilization and an efficiency of 107 GOPs/W. Being the first AI hardware accelerator proposed specifically for CC detection, we compare it against state-of-the-art AI accelerators for RF signal classification tasks such as modulation recognition, showing superior performance.",
+    "published": "2026-04-16T13:17:49Z",
+    "link": "http://arxiv.org/abs/2604.14987v1",
+    "authors": [
+      "Abdelrahman Emad Abdelazim",
+      "Alan Rodrigo Diaz-Rizo",
+      "Hassan Aboushady",
+      "Haralampos-G. Stratigopoulos"
+    ],
+    "categories": [
+      "cs.AI",
+      "eess.SP"
+    ],
+    "ai_summary": "Covert channels (CCs) in wireless chips pose a serious security threat, as they enable the exfiltration of sensitive information from the chip to an external attacker. In this work, we propose an AI-based defense mechanism deployed at the RF receiver, where the model directly monitors raw I/Q samples to detect, in real time, the presence of a CC embedded within an otherwise nominal signal.",
+    "selected_date": "2026-04-19"
+  },
+  {
     "id": "2604.15115v1",
     "title": "FedIDM: Achieving Fast and Stable Convergence in Byzantine Federated Learning through Iterative Distribution Matching",
     "summary": "Most existing Byzantine-robust federated learning (FL) methods suffer from slow and unstable convergence. Moreover, when handling a substantial proportion of colluded malicious clients, achieving robustness typically entails compromising model utility. To address these issues, this work introduces FedIDM, which employs distribution matching to construct trustworthy condensed data for identifying and filtering abnormal clients. FedIDM consists of two main components: (1) attack-tolerant condensed data generation, and (2) robust aggregation with negative contribution-based rejection. These components exclude local updates that (1) deviate from the update direction derived from condensed data, or (2) cause a significant loss on the condensed dataset. Comprehensive evaluations on three benchmark datasets demonstrate that FedIDM achieves fast and stable convergence while maintaining acceptable model utility, under multiple state-of-the-art Byzantine attacks involving a large number of malicious clients.",
@@ -584,30 +603,5 @@
     ],
     "ai_summary": "Attacks can exploit zero-day or one-day vulnerabilities that are not publicly disclosed. To detect these vulnerabilities, security researchers monitor development activities in open-source repositories to identify unreported security patches.",
     "selected_date": "2026-03-19"
-  },
-  {
-    "id": "2603.16576v1",
-    "title": "REFORGE: Multi-modal Attacks Reveal Vulnerable Concept Unlearning in Image Generation Models",
-    "summary": "Recent progress in image generation models (IGMs) enables high-fidelity content creation but also amplifies risks, including the reproduction of copyrighted content and the generation of offensive content. Image Generation Model Unlearning (IGMU) mitigates these risks by removing harmful concepts without full retraining. Despite growing attention, the robustness under adversarial inputs, particularly image-side threats in black-box settings, remains underexplored. To bridge this gap, we present REFORGE, a black-box red-teaming framework that evaluates IGMU robustness via adversarial image prompts. REFORGE initializes stroke-based images and optimizes perturbations with a cross-attention-guided masking strategy that allocates noise to concept-relevant regions, balancing attack efficacy and visual fidelity. Extensive experiments across representative unlearning tasks and defenses demonstrate that REFORGE significantly improves attack success rate while achieving stronger semantic alignment and higher efficiency than involved baselines. These results expose persistent vulnerabilities in current IGMU methods and highlight the need for robustness-aware unlearning against multi-modal adversarial attacks. Our code is at: https://github.com/Imfatnoily/REFORGE.",
-    "published": "2026-03-17T14:29:01Z",
-    "link": "http://arxiv.org/abs/2603.16576v1",
-    "authors": [
-      "Yong Zou",
-      "Haoran Li",
-      "Fanxiao Li",
-      "Shenyang Wei",
-      "Yunyun Dong",
-      "Li Tang",
-      "Wei Zhou",
-      "Renyang Liu"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.AI",
-      "cs.CR",
-      "cs.LG"
-    ],
-    "ai_summary": "Recent progress in image generation models (IGMs) enables high-fidelity content creation but also amplifies risks, including the reproduction of copyrighted content and the generation of offensive content. Image Generation Model Unlearning (IGMU) mitigates these risks by removing harmful concepts without full retraining.",
-    "selected_date": "2026-03-18"
   }
 ]
