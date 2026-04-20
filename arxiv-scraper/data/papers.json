@@ -1,5 +1,21 @@
 [
   {
+    "id": "2604.16266v1",
+    "title": "Hero-Mamba: Mamba-based Dual Domain Learning for Underwater Image Enhancement",
+    "summary": "Underwater images often suffer from severe degradation, such as color distortion, low contrast, and blurred details, due to light absorption and scattering in water. While learning-based methods like CNNs and Transformers have shown promise, they face critical limitations: CNNs struggle to model the long-range dependencies needed for non-uniform degradation, and Transformers incur quadratic computational complexity, making them inefficient for high-resolution images. To address these challenges, we propose Hero-Mamba, a novel Mamba-based network that achieves efficient dual-domain learning for underwater image enhancement. Our approach uniquely processes information from both the spatial domain (RGB image) and the spectral domain (FFT components) in parallel. This dual-domain input allows the network to decouple degradation factors, separating color/brightness information from texture/noise. The core of our network utilizes Mamba-based SS2D blocks to capture global receptive fields and long-range dependencies with linear complexity, overcoming the limitations of both CNNs and Transformers. Furthermore, we introduce a ColorFusion block, guided by a background light prior, to restore color information with high fidelity. Extensive experiments on the LSUI and UIEB benchmark datasets demonstrate that Hero-Mamba outperforms state-of-the-art methods. Notably, our model achieves a PSNR of 25.802 and an SSIM of 0.913 on LSUI, validating its superior performance and generalization capabilities.",
+    "published": "2026-04-17T17:24:11Z",
+    "link": "http://arxiv.org/abs/2604.16266v1",
+    "authors": [
+      "Tejeswar Pokuri",
+      "Shivarth Rai"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Underwater images often suffer from severe degradation, such as color distortion, low contrast, and blurred details, due to light absorption and scattering in water. While learning-based methods like CNNs and Transformers have shown promise, they face critical limitations: CNNs struggle to model the long-range dependencies needed for non-uniform degradation, and Transformers incur quadratic computational complexity, making them inefficient for high-resolution images.",
+    "selected_date": "2026-04-20"
+  },
+  {
     "id": "2604.14987v1",
     "title": "AI-Enabled Covert Channel Detection in RF Receiver Architectures",
     "summary": "Covert channels (CCs) in wireless chips pose a serious security threat, as they enable the exfiltration of sensitive information from the chip to an external attacker. In this work, we propose an AI-based defense mechanism deployed at the RF receiver, where the model directly monitors raw I/Q samples to detect, in real time, the presence of a CC embedded within an otherwise nominal signal. We first compact a state-of-the-art convolutional neural network (CNN), achieving an 80% reduction in parameters, which is an essential requirement for efficient edge deployment. When evaluated on the open-source hardware Trojan (HT)-based CC dataset, the compacted CNN attains an average accuracy of 90.28% for CC detection and 86.50% for identifying the underlying HT, with results averaged across SNR values above 1 dB. For practical communication scenarios where SNR > 20 dB, the model achieves over 97% accuracy for both tasks. These results correspond to a minimal performance degradation of less than 2% compared to the baseline model. The compacted CNN is further benchmarked against alternative classifiers, demonstrating an excellent accuracy-model size trade-off. Finally, we design a lightweight CNN hardware accelerator and demonstrate it on an FPGA, achieving very low resource utilization and an efficiency of 107 GOPs/W. Being the first AI hardware accelerator proposed specifically for CC detection, we compare it against state-of-the-art AI accelerators for RF signal classification tasks such as modulation recognition, showing superior performance.",
@@ -578,30 +594,5 @@
     ],
     "ai_summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages.",
     "selected_date": "2026-03-20"
-  },
-  {
-    "id": "2603.17266v1",
-    "title": "Revisiting Vulnerability Patch Identification on Data in the Wild",
-    "summary": "Attacks can exploit zero-day or one-day vulnerabilities that are not publicly disclosed. To detect these vulnerabilities, security researchers monitor development activities in open-source repositories to identify unreported security patches. The sheer volume of commits makes this task infeasible to accomplish manually. Consequently, security patch detectors commonly trained and evaluated on security patches linked from vulnerability reports in the National Vulnerability Database (NVD). In this study, we assess the effectiveness of these detectors when applied in-the-wild. Our results show that models trained on NVD-derived data show substantially decreased performance, with decreases in F1-score of up to 90\\% when tested on in-the-wild security patches, rendering them impractical for real-world use. An analysis comparing security patches identified in-the-wild and commits linked from NVD reveals that they can be easily distinguished from each other. Security patches associated with NVD have different distribution of commit messages, vulnerability types, and composition of changes. These differences suggest that NVD may be unsuitable as the \\textit{sole} source of data for training models to detect security patches. We find that constructing a dataset that combines security patches from NVD data with a small subset of manually identified security patches can improve model robustness.",
-    "published": "2026-03-18T01:45:39Z",
-    "link": "http://arxiv.org/abs/2603.17266v1",
-    "authors": [
-      "Ivana Clairine Irsan",
-      "Ratnadira Widyasari",
-      "Ting Zhang",
-      "Huihui Huang",
-      "Ferdian Thung",
-      "Yikun Li",
-      "Lwin Khin Shar",
-      "Eng Lieh Ouh",
-      "Hong Jin Kang",
-      "David Lo"
-    ],
-    "categories": [
-      "cs.SE",
-      "cs.CR"
-    ],
-    "ai_summary": "Attacks can exploit zero-day or one-day vulnerabilities that are not publicly disclosed. To detect these vulnerabilities, security researchers monitor development activities in open-source repositories to identify unreported security patches.",
-    "selected_date": "2026-03-19"
   }
 ]
