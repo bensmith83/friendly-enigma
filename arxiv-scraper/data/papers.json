@@ -1,5 +1,24 @@
 [
   {
+    "id": "2604.18052v1",
+    "title": "ExAI5G: A Logic-Based Explainable AI Framework for Intrusion Detection in 5G Networks",
+    "summary": "Intrusion detection systems (IDSs) for 5G networks must handle complex, high-volume traffic. Although opaque \"black-box\" models can achieve high accuracy, their lack of transparency hinders trust and effective operational response. We propose ExAI5G, a framework that prioritizes interpretability by integrating a Transformer-based deep learning IDS with logic-based explainable AI (XAI) techniques. The framework uses Integrated Gradients to attribute feature importance and extracts a surrogate decision tree to derive logical rules. We introduce a novel evaluation methodology for LLM-generated explanations, using a powerful evaluator LLM to assess actionability and measuring their semantic similarity and faithfulness. On a 5G IoT intrusion dataset, our system achieves 99.9\\% accuracy and a 0.854 macro F1-score, demonstrating strong performance. More importantly, we extract 16 logical rules with 99.7\\% fidelity, making the model's reasoning transparent. The evaluation demonstrates that modern LLMs can generate explanations that are both faithful and actionable, indicating that it is possible to build a trustworthy and effective IDS without compromising performance for the sake of marginal gains from an opaque model.",
+    "published": "2026-04-20T10:19:57Z",
+    "link": "http://arxiv.org/abs/2604.18052v1",
+    "authors": [
+      "Saeid Sheikhi",
+      "Panos Kostakos",
+      "Lauri Loven"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "ai_summary": "Intrusion detection systems (IDSs) for 5G networks must handle complex, high-volume traffic. Although opaque \"black-box\" models can achieve high accuracy, their lack of transparency hinders trust and effective operational response.",
+    "selected_date": "2026-04-21"
+  },
+  {
     "id": "2604.16266v1",
     "title": "Hero-Mamba: Mamba-based Dual Domain Learning for Underwater Image Enhancement",
     "summary": "Underwater images often suffer from severe degradation, such as color distortion, low contrast, and blurred details, due to light absorption and scattering in water. While learning-based methods like CNNs and Transformers have shown promise, they face critical limitations: CNNs struggle to model the long-range dependencies needed for non-uniform degradation, and Transformers incur quadratic computational complexity, making them inefficient for high-resolution images. To address these challenges, we propose Hero-Mamba, a novel Mamba-based network that achieves efficient dual-domain learning for underwater image enhancement. Our approach uniquely processes information from both the spatial domain (RGB image) and the spectral domain (FFT components) in parallel. This dual-domain input allows the network to decouple degradation factors, separating color/brightness information from texture/noise. The core of our network utilizes Mamba-based SS2D blocks to capture global receptive fields and long-range dependencies with linear complexity, overcoming the limitations of both CNNs and Transformers. Furthermore, we introduce a ColorFusion block, guided by a background light prior, to restore color information with high fidelity. Extensive experiments on the LSUI and UIEB benchmark datasets demonstrate that Hero-Mamba outperforms state-of-the-art methods. Notably, our model achieves a PSNR of 25.802 and an SSIM of 0.913 on LSUI, validating its superior performance and generalization capabilities.",
@@ -573,26 +592,5 @@
     ],
     "ai_summary": "Vertical federated learning (VFL) allows an active party with a top model, and multiple passive parties with bottom models to collaborate. In this scenario, passive parties possessing only features may attempt to infer active party's private labels, making label inference attacks (LIAs) a significant threat.",
     "selected_date": "2026-03-21"
-  },
-  {
-    "id": "2603.18789v1",
-    "title": "Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary",
-    "summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages. This boundary remains largely underexplored, as previous works mainly focus on testing JS and Wasm as two isolated entities rather than investigating the security implications of their cross-language interactions.   This paper proposes Weaver, an effective greybox fuzzing framework specifically tailored to uncover vulnerabilities at the JS-Wasm boundary. To comply with the language constraints, Weaver uses a type-aware generation strategy, meticulously maintaining the dual-type representation for every generated variables. This allows fuzzer to validly utilize variables across the language boundary. Besides, Weaver leverages the UCB-1 algorithm to intelligently schedule mutators and generators to maximize the discovery of new code paths.   We have implemented and evaluated Weaver on three JS engines. The results indicate that Weaver achieves superior code coverage compared to state-of-the-art fuzzers. Moreover, Weaver has uncovered two new bugs in the latest versions of these engines, one of which is considered high severity and set to highest priority, demonstrating the practicality of Weaver.",
-    "published": "2026-03-19T11:40:09Z",
-    "link": "http://arxiv.org/abs/2603.18789v1",
-    "authors": [
-      "Lingming Zhang",
-      "Binbin Zhao",
-      "Puzhuo Liu",
-      "Qinge Xie",
-      "Peng Di",
-      "Jianhai Chen",
-      "Shouling Ji"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages.",
-    "selected_date": "2026-03-20"
   }
 ]
