@@ -1,5 +1,23 @@
 [
   {
+    "id": "2604.19533v1",
+    "title": "Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps",
+    "summary": "We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows event logs with no guided questions or hints, identify the exact timestamps of malicious events.   The benchmark wraps 106 real attack procedures from the OTRF Security-Datasets corpus - spanning 86 MITRE ATT&CK sub-techniques across 12 tactics - into a Gymnasium reinforcement-learning environment. Each episode presents the agent with an in-memory SQLite database of 75,000-135,000 log records produced by a deterministic campaign simulator that time-shifts and entity-obfuscates the raw recordings.   The agent must iteratively submit SQL queries to discover malicious event timestamps and explicitly flag them, scored CTF-style against Sigma-rule-derived ground truth.   Evaluating five frontier models - Claude Opus 4.6, GPT-5, Gemini 3.1 Pro, Kimi K2.5, and Gemini 3 Flash - on 26 campaigns covering 105 of 106 procedures, we find that all models fail dramatically: the best model (Claude Opus 4.6) submits correct flags for only 3.8% of malicious events on average, and no run across any model ever finds all flags.   We define a passing score as >= 50% recall on every ATT&CK tactic - the minimum bar for unsupervised SOC deployment. No model passes: the leader clears this bar on 5 of 13 tactics and the remaining four on zero.   These results suggest that current LLMs are poorly suited for open-ended, evidence-driven threat hunting despite strong performance on curated Q&A security benchmarks.",
+    "published": "2026-04-21T14:53:23Z",
+    "link": "http://arxiv.org/abs/2604.19533v1",
+    "authors": [
+      "Alankrit Chona",
+      "Igor Kozlov",
+      "Ambuj Kumar"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows event logs with no guided questions or hints, identify the exact timestamps of malicious events.   The benchmark wraps 106 real attack procedures from the OTRF Security-Datasets corpus - spanning 86 MITRE ATT&CK sub-techniques across 12 tactics - into a Gymnasium reinforcement-learning environment.",
+    "selected_date": "2026-04-22"
+  },
+  {
     "id": "2604.18052v1",
     "title": "ExAI5G: A Logic-Based Explainable AI Framework for Intrusion Detection in 5G Networks",
     "summary": "Intrusion detection systems (IDSs) for 5G networks must handle complex, high-volume traffic. Although opaque \"black-box\" models can achieve high accuracy, their lack of transparency hinders trust and effective operational response. We propose ExAI5G, a framework that prioritizes interpretability by integrating a Transformer-based deep learning IDS with logic-based explainable AI (XAI) techniques. The framework uses Integrated Gradients to attribute feature importance and extracts a surrogate decision tree to derive logical rules. We introduce a novel evaluation methodology for LLM-generated explanations, using a powerful evaluator LLM to assess actionability and measuring their semantic similarity and faithfulness. On a 5G IoT intrusion dataset, our system achieves 99.9\\% accuracy and a 0.854 macro F1-score, demonstrating strong performance. More importantly, we extract 16 logical rules with 99.7\\% fidelity, making the model's reasoning transparent. The evaluation demonstrates that modern LLMs can generate explanations that are both faithful and actionable, indicating that it is possible to build a trustworthy and effective IDS without compromising performance for the sake of marginal gains from an opaque model.",
@@ -572,25 +590,5 @@
     ],
     "ai_summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages.",
     "selected_date": "2026-03-22"
-  },
-  {
-    "id": "2603.18680v1",
-    "title": "Revisiting Label Inference Attacks in Vertical Federated Learning: Why They Are Vulnerable and How to Defend",
-    "summary": "Vertical federated learning (VFL) allows an active party with a top model, and multiple passive parties with bottom models to collaborate. In this scenario, passive parties possessing only features may attempt to infer active party's private labels, making label inference attacks (LIAs) a significant threat. Previous LIA studies have claimed that well-trained bottom models can effectively represent labels. However, we demonstrate that this view is misleading and exposes the vulnerability of existing LIAs. By leveraging mutual information, we present the first observation of the \"model compensation\" phenomenon in VFL. We theoretically prove that, in VFL, the mutual information between layer outputs and labels increases with layer depth, indicating that bottom models primarily extract feature information while the top model handles label mapping. Building on this insight, we introduce task reassignment to show that the success of existing LIAs actually stems from the distribution alignment between features and labels. When this alignment is disrupted, the performance of LIAs declines sharply or even fails entirely. Furthermore, the implications of this insight for defenses are also investigated. We propose a zero-overhead defense technique based on layer adjustment. Extensive experiments across five datasets and five representative model architectures indicate that shifting cut layers forward to increase the proportion of top model layers in the entire model not only improves resistance to LIAs but also enhances other defenses.",
-    "published": "2026-03-19T09:41:06Z",
-    "link": "http://arxiv.org/abs/2603.18680v1",
-    "authors": [
-      "Yige Liu",
-      "Dexuan Xu",
-      "Zimai Guo",
-      "Yongzhi Cao",
-      "Hanpin Wang"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR"
-    ],
-    "ai_summary": "Vertical federated learning (VFL) allows an active party with a top model, and multiple passive parties with bottom models to collaborate. In this scenario, passive parties possessing only features may attempt to infer active party's private labels, making label inference attacks (LIAs) a significant threat.",
-    "selected_date": "2026-03-21"
   }
 ]
