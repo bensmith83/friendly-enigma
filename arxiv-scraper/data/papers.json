@@ -1,5 +1,21 @@
 [
   {
+    "id": "2604.20704v1",
+    "title": "Auto-ART: Structured Literature Synthesis and Automated Adversarial Robustness Testing",
+    "summary": "Adversarial robustness evaluation underpins every claim of trustworthy ML deployment, yet the field suffers from fragmented protocols and undetected gradient masking. We make two contributions. (1) Structured synthesis. We analyze nine peer-reviewed corpus sources (2020--2026) through seven complementary protocols, producing the first end-to-end structured analysis of the field's consensus and unresolved challenges. (2) Auto-ART framework. We introduce Auto-ART, an open-source framework that operationalizes identified gaps: 50+ attacks, 28 defense modules, the Robustness Diagnostic Index (RDI), and gradient-masking detection. It supports multi-norm evaluation (l1/l2/linf/semantic/spatial) and compliance mapping to NIST AI RMF, OWASP LLM Top 10, and the EU AI Act. Empirical validation on RobustBench demonstrates that Auto-ART's pre-screening identifies gradient masking in 92% of flagged cases, and RDI rankings correlate highly with full AutoAttack. Multi-norm evaluation exposes a 23.5 pp gap between average and worst-case robustness on state-of-the-art models. No prior work combines such structured meta-scientific analysis with an executable evaluation framework bridging literature gaps into engineering.",
+    "published": "2026-04-22T15:46:11Z",
+    "link": "http://arxiv.org/abs/2604.20704v1",
+    "authors": [
+      "Abhijit Talluri"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "ai_summary": "Adversarial robustness evaluation underpins every claim of trustworthy ML deployment, yet the field suffers from fragmented protocols and undetected gradient masking. We make two contributions.",
+    "selected_date": "2026-04-23"
+  },
+  {
     "id": "2604.19533v1",
     "title": "Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps",
     "summary": "We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows event logs with no guided questions or hints, identify the exact timestamps of malicious events.   The benchmark wraps 106 real attack procedures from the OTRF Security-Datasets corpus - spanning 86 MITRE ATT&CK sub-techniques across 12 tactics - into a Gymnasium reinforcement-learning environment. Each episode presents the agent with an in-memory SQLite database of 75,000-135,000 log records produced by a deterministic campaign simulator that time-shifts and entity-obfuscates the raw recordings.   The agent must iteratively submit SQL queries to discover malicious event timestamps and explicitly flag them, scored CTF-style against Sigma-rule-derived ground truth.   Evaluating five frontier models - Claude Opus 4.6, GPT-5, Gemini 3.1 Pro, Kimi K2.5, and Gemini 3 Flash - on 26 campaigns covering 105 of 106 procedures, we find that all models fail dramatically: the best model (Claude Opus 4.6) submits correct flags for only 3.8% of malicious events on average, and no run across any model ever finds all flags.   We define a passing score as >= 50% recall on every ATT&CK tactic - the minimum bar for unsupervised SOC deployment. No model passes: the leader clears this bar on 5 of 13 tactics and the remaining four on zero.   These results suggest that current LLMs are poorly suited for open-ended, evidence-driven threat hunting despite strong performance on curated Q&A security benchmarks.",
@@ -569,26 +585,5 @@
     ],
     "ai_summary": "Advanced Persistent Threats (APTs) remain difficult to detect due to their stealthy nature and long-term persistence. To tackle this challenge, provenance-based threat hunting has gained traction as a proactive defense mechanism.",
     "selected_date": "2026-03-23"
-  },
-  {
-    "id": "2603.18789v1",
-    "title": "Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary",
-    "summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages. This boundary remains largely underexplored, as previous works mainly focus on testing JS and Wasm as two isolated entities rather than investigating the security implications of their cross-language interactions.   This paper proposes Weaver, an effective greybox fuzzing framework specifically tailored to uncover vulnerabilities at the JS-Wasm boundary. To comply with the language constraints, Weaver uses a type-aware generation strategy, meticulously maintaining the dual-type representation for every generated variables. This allows fuzzer to validly utilize variables across the language boundary. Besides, Weaver leverages the UCB-1 algorithm to intelligently schedule mutators and generators to maximize the discovery of new code paths.   We have implemented and evaluated Weaver on three JS engines. The results indicate that Weaver achieves superior code coverage compared to state-of-the-art fuzzers. Moreover, Weaver has uncovered two new bugs in the latest versions of these engines, one of which is considered high severity and set to highest priority, demonstrating the practicality of Weaver.",
-    "published": "2026-03-19T11:40:09Z",
-    "link": "http://arxiv.org/abs/2603.18789v1",
-    "authors": [
-      "Lingming Zhang",
-      "Binbin Zhao",
-      "Puzhuo Liu",
-      "Qinge Xie",
-      "Peng Di",
-      "Jianhai Chen",
-      "Shouling Ji"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "The security of modern JavaScript (JS) engines is critical since they provide the primary defense mechanism for executing untrusted code on the web. The recent integration of WebAssembly (Wasm) has transformed these engines into complex polyglot environments, creating a novel attack surface at the JS-Wasm interaction boundary due to the distinct type systems and memory models of two languages.",
-    "selected_date": "2026-03-22"
   }
 ]
