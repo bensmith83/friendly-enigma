@@ -1,5 +1,26 @@
 [
   {
+    "id": "2604.21416v1",
+    "title": "CSC: Turning the Adversary's Poison against Itself",
+    "summary": "Poisoning-based backdoor attacks pose significant threats to deep neural networks by embedding triggers in training data, causing models to misclassify triggered inputs as adversary-specified labels while maintaining performance on clean data. Existing poison restraint-based defenses often suffer from inadequate detection against specific attack variants and compromise model utility through unlearning methods that lead to accuracy degradation. This paper conducts a comprehensive analysis of backdoor attack dynamics during model training, revealing that poisoned samples form isolated clusters in latent space early on, with triggers acting as dominant features distinct from benign ones. Leveraging these insights, we propose Cluster Segregation Concealment (CSC), a novel poison suppression defense. CSC first trains a deep neural network via standard supervised learning while segregating poisoned samples through feature extraction from early epochs, DBSCAN clustering, and identification of anomalous clusters based on class diversity and density metrics. In the concealment stage, identified poisoned samples are relabeled to a virtual class, and the model's classifier is fine-tuned using cross-entropy loss to replace the backdoor association with a benign virtual linkage, preserving overall accuracy. CSC was evaluated on four benchmark datasets against twelve poisoning-based attacks, CSC outperforms nine state-of-the-art defenses by reducing average attack success rates to near zero with minimal clean accuracy loss. Contributions include robust backdoor patterns identification, an effective concealment mechanism, and superior empirical validation, advancing trustworthy artificial intelligence.",
+    "published": "2026-04-23T08:30:53Z",
+    "link": "http://arxiv.org/abs/2604.21416v1",
+    "authors": [
+      "Yuchen Shi",
+      "Xin Guo",
+      "Huajie Chen",
+      "Tianqing Zhu",
+      "Bo Liu",
+      "Wanlei Zhou"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Poisoning-based backdoor attacks pose significant threats to deep neural networks by embedding triggers in training data, causing models to misclassify triggered inputs as adversary-specified labels while maintaining performance on clean data. Existing poison restraint-based defenses often suffer from inadequate detection against specific attack variants and compromise model utility through unlearning methods that lead to accuracy degradation.",
+    "selected_date": "2026-04-24"
+  },
+  {
     "id": "2604.20704v1",
     "title": "Auto-ART: Structured Literature Synthesis and Automated Adversarial Robustness Testing",
     "summary": "Adversarial robustness evaluation underpins every claim of trustworthy ML deployment, yet the field suffers from fragmented protocols and undetected gradient masking. We make two contributions. (1) Structured synthesis. We analyze nine peer-reviewed corpus sources (2020--2026) through seven complementary protocols, producing the first end-to-end structured analysis of the field's consensus and unresolved challenges. (2) Auto-ART framework. We introduce Auto-ART, an open-source framework that operationalizes identified gaps: 50+ attacks, 28 defense modules, the Robustness Diagnostic Index (RDI), and gradient-masking detection. It supports multi-norm evaluation (l1/l2/linf/semantic/spatial) and compliance mapping to NIST AI RMF, OWASP LLM Top 10, and the EU AI Act. Empirical validation on RobustBench demonstrates that Auto-ART's pre-screening identifies gradient masking in 92% of flagged cases, and RDI rankings correlate highly with full AutoAttack. Multi-norm evaluation exposes a 23.5 pp gap between average and worst-case robustness on state-of-the-art models. No prior work combines such structured meta-scientific analysis with an executable evaluation framework bridging literature gaps into engineering.",
@@ -566,24 +587,5 @@
     ],
     "ai_summary": "Retrieval-Augmented Generation (RAG) significantly mitigates the hallucinations and domain knowledge deficiency in large language models by incorporating external knowledge bases. However, the multi-module architecture of RAG introduces complex system-level security vulnerabilities.",
     "selected_date": "2026-03-24"
-  },
-  {
-    "id": "2603.19658v1",
-    "title": "ProHunter: A Comprehensive APT Hunting System Based on Whole-System Provenance",
-    "summary": "Advanced Persistent Threats (APTs) remain difficult to detect due to their stealthy nature and long-term persistence. To tackle this challenge, provenance-based threat hunting has gained traction as a proactive defense mechanism. This technique models audit logs as a whole-system provenance graph and searches for subgraphs that match APT patterns recorded in Cyber Threat Intelligence (CTI) reports. However, several limitations persist: 1) significant memory and time overhead due to the extremely large provenance graphs; 2) imprecise segmentation of APT activities from provenance graphs due to their intricate entanglement with benign operations; and 3) poor alignment of attack representations between CTI-derived query graphs and provenance graphs due to their substantial semantic gaps.   To address these limitations, this paper presents ProHunter, an efficient and accurate provenance-based APT hunting system with a platform-independent design. To minimize system overhead, ProHunter creates a compact data structure that efficiently stores long-term provenance graphs using semantic abstraction and bit-level hierarchical encoding strategies. To segment APT behaviors, a heuristic-driven threat graph sampling algorithm is designed, which can extract precise attack patterns from provenance graphs. Furthermore, to bridge the semantic gaps between CTI-derived graphs and provenance graphs, ProHunter proposes adaptive graph representation and feature enhancement methods, enabling the extraction of consistent attack semantics at both localized and globalized levels.Extensive evaluations on real-world APT campaigns from DARPA TC E3, E5 and OpTC datasets demonstrate that ProHunter outperforms state-of-the-art threat hunting systems in terms of efficiency and accuracy. Our code is available at https://github.com/xueboQiu/ProHunter.",
-    "published": "2026-03-20T05:47:58Z",
-    "link": "http://arxiv.org/abs/2603.19658v1",
-    "authors": [
-      "Xuebo Qiu",
-      "Mingqi Lv",
-      "Yimei Zhang",
-      "Tiantian Zhu",
-      "Tieming Chen"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Advanced Persistent Threats (APTs) remain difficult to detect due to their stealthy nature and long-term persistence. To tackle this challenge, provenance-based threat hunting has gained traction as a proactive defense mechanism.",
-    "selected_date": "2026-03-23"
   }
 ]
