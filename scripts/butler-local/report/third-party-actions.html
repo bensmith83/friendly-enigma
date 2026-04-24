@@ -1,0 +1,1403 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<html>
+<head>
+    <title>GitHub Workflows Butler - Third Party Actions</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/lumen/bootstrap.min.css" integrity="sha384-VvtmOf0H1c5UOkg0sTVnp2+DaE7+6PO78xrugFKUni8B3tEbZ6V56DNytr8Zs2ZI" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@11.1.0/public/assets/styles/choices.min.css" integrity="sha384-n0GACcBzAGKp29zpmkTj4eje26AGm3wqHG9TROENrVHXySIkFf8nwmY5IgVr5qen" crossorigin="anonymous">
+
+    <style>
+        .link-black {
+            color: black;
+            text-decoration: none;
+        }
+
+        .link-black:hover {
+            color: black;
+            text-decoration: underline;
+            text-decoration-color: black;
+        }
+
+        /* Hide placeholder when an item is selected */
+        .choices__list--multiple:not(:empty) + .choices__input::placeholder {
+            opacity: 0;
+        }
+
+        /* Stop select box from expanding vertically */
+        .choices-max-height .choices__inner {
+            max-height: 44px !important;
+        }
+
+        .striped-rows .strip:nth-child(odd) {
+            background-color: var(--bs-table-striped-bg, rgba(var(--bs-emphasis-color-rgb), .05));
+        }
+
+        .striped-rows .strip:nth-child(even) {
+            background-color: transparent;
+        }
+
+        .striped-rows2 .strip2:nth-child(odd) {
+            background-color: var(--bs-table-striped-bg, rgba(var(--bs-emphasis-color-rgb), .05));
+        }
+
+        .striped-rows2 .strip2:nth-child(even) {
+            background-color: transparent;
+        }
+
+        .striped-rows3 .strip3:nth-child(odd) {
+            background-color: var(--bs-table-striped-bg, rgba(var(--bs-emphasis-color-rgb), .05));
+        }
+
+        .striped-rows3 .strip3:nth-child(even) {
+            background-color: transparent;
+        }
+
+        .trusted-org {
+            color: rgb(var(--bs-success-rgb)) !important;
+        }
+
+        .untrusted-org {
+            color: rgb(var(--bs-warning-rgb)) !important;
+        }
+
+        .stars {
+            color: black;
+            /*background-color: rgb(var(--bs-secondary-rgb)) !important*/
+            background-color: #fad76e !important
+        }
+
+        .text-bg-branch {
+            background-color: #502800;
+            color: white;
+        }
+
+        .text-bg-tag {
+            background-color: #3434d7;
+            color: white;
+        }
+
+        .text-bg-deprecated {
+            background-color: rgb(var(--bs-warning-rgb)) !important;
+            color: white;
+        }
+
+        .text-bg-commit {
+            background-color: #3edeed;
+            color: black;
+        }
+
+        .text-bg-secret {
+            /*background-color: rgb(var(--bs-danger-rgb)) !important;*/
+            background-color: #ac3933;
+            color: white;
+        }
+
+        .text-bg-variable {
+            /*background-color: rgb(var(--bs-primary-rgb)) !important;*/
+            background-color: #3748d7;
+            color: white;
+        }
+
+        .text-bg-self-hosted {
+            background-color: #586ad7;
+            color: white;
+        }
+
+        .text-bg-github-hosted {
+            background-color: #06713b;
+            color: white;
+        }
+
+        .text-bg-jobs {
+            background-color: #06713b;
+            color: white;
+        }
+
+        .text-bg-triggers {
+            background-color: #586ad7;
+            color: white;
+        }
+
+        .text-bg-missing {
+            background-color: rgb(var(--bs-danger-rgb)) !important;
+            color: white;
+        }
+
+        .text-bg-error {
+            background-color: #7500d7;
+            color: white;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@11.1.0/public/assets/scripts/choices.min.js" integrity="sha384-WXCib67DFM/o9ln5XWnf/xepwCGB7NzCdkB7J8Iy8tSgnOR5s3iVHB7LobqBEWCv" crossorigin="anonymous"></script>
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<div class="container-fluid bg-black">
+    <div class="container mt-2 mb-2">
+        <div class="row">
+            <div class="col"><a class="text-white text-decoration-none fs-4" href="index.html">GitHub Workflow Oversight</a></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <div class="container mt-2 mb-5">
+    <div class="row">
+        <div class="col text-center">
+            <h1 class="org display-2 fw-bold p-3">bensmith83</h1>
+        </div>
+     </div>
+
+    <div class="row mt-2">
+        <div class="col" id="filters">
+            <h3><span class="visible-results">8</span> Third Party Actions</h3>
+            <div class="input-group mb-1">
+                <input type="text" class="form-control search" placeholder="search">
+            </div>
+            <div class="row choices-max-height">
+                <div class="col-3">
+                    <select class="form-control" id="org" multiple>
+                        <option value="trusted" data-count="7">trusted</option>
+                        <option value="untrusted" data-count="1">untrusted</option>
+                    </select>
+                </div>
+                <div class="col-3">
+                    <select class="form-control" id="type" multiple>
+                        <option value="source" data-count="8">source</option>
+                        <option value="archived" data-count="0">archived</option>
+                        <option value="fork" data-count="0">fork</option>
+                    </select>
+                </div>
+                <div class="col-3">
+                    <select class="form-control" id="ref" multiple>
+                        <option value="tag" data-count="0">tag</option>
+                        <option value="branch" data-count="0">branch</option>
+                        <option value="commit" data-count="8">commit</option>
+                    </select>
+                </div>
+                <div class="col-3">
+                    <select class="form-control" id="state" multiple>
+                        <option value="supported" data-count="8">supported</option>
+                        <option value="deprecated" data-count="0">deprecated</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col text-end">
+                    <span class="badge text-bg-tag">tag</span>
+                    <span class="badge text-bg-branch">branch</span>
+                    <span class="badge text-bg-commit">commit</span>
+                    <span class="badge text-bg-deprecated">deprecated</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 mb-5" id="actions">
+        <div class="col">
+            
+            <div
+                    class="row action striped-rows"
+                    data-org="trusted"
+                    data-type="source"
+                    data-name="actions/checkout"
+            >
+                <div class="col">
+                    <div class="row pb-1 pt-1 strip">
+                        <div class="col">
+                            
+                            <i class="fa-solid fa-building-shield trusted-org" title="Trusted Organisation"></i>
+                            
+
+                            <span id="expand-collapse-1">
+                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                            </span>
+                            <a
+                                    href="https://github.com/actions/checkout/blob/de0fac2e4500dabe0009e67214ff5f5447ce83dd/"
+                                    class="name me-1"
+                                    target="_blank"
+                                    data-details="action-details-1"
+                                    data-refs="action-refs-1"
+                                    data-expand-collapse="expand-collapse-1"
+                            >actions/checkout</a>
+
+                            
+
+                            
+                        </div>
+                        <div class="col-1 text-end">
+                            <span class="badge stars">0<i class="fa-solid fa-star ms-1"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="row pb-1 pt-1 strip" id="action-refs-1">
+                        <div class="col ms-4">
+                            
+
+                            
+
+                            
+                            <div>
+                                
+                                
+                                <span class="badge ref commit text-bg-commit" data-type="commit" data-state="supported" title="commit for unknown">de0fac2e (unknown)</span>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Action details -->
+                    <div class="row mt-2 mb-2 d-none striped-rows2" id="action-details-1">
+                        <div class="col">
+                            
+                            <div class="row mb-1 strip2">
+                                <div class="col-1 ms-4">
+                                    
+                                    
+                                    <span class="badge text-bg-commit  d-block">commit</span>
+                                    
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge text-black d-block">7</span>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span id="expand-collapse-6b138d750eb937bb499803038172bb36">
+                                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                                            </span>
+                                            <a
+                                                    href="https://github.com/actions/checkout/tree/de0fac2e4500dabe0009e67214ff5f5447ce83dd/"
+                                                    target="_blank"
+                                                    class="ref-name font-monospace small"
+                                                    data-details="action-usages-6b138d750eb937bb499803038172bb36"
+                                                    data-expand-collapse="expand-collapse-6b138d750eb937bb499803038172bb36"
+                                            >de0fac2e4500dabe0009e67214ff5f5447ce83dd</a>
+                                            
+                                            <span class="badge text-bg-unknown ms-1">unknown</span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="action-usages-6b138d750eb937bb499803038172bb36" class="d-none striped-rows3">
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/als-aggregator.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/als-aggregator.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/check-action-pinning.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/check-action-pinning.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/cybersecurity-jobs.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/cybersecurity-jobs.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/deploy-pages.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/deploy-pages.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/generate-science-facts.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/generate-science-facts.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/generate-scifi.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/generate-scifi.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/scrape-papers.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/scrape-papers.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div
+                    class="row action striped-rows"
+                    data-org="trusted"
+                    data-type="source"
+                    data-name="actions/configure-pages"
+            >
+                <div class="col">
+                    <div class="row pb-1 pt-1 strip">
+                        <div class="col">
+                            
+                            <i class="fa-solid fa-building-shield trusted-org" title="Trusted Organisation"></i>
+                            
+
+                            <span id="expand-collapse-2">
+                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                            </span>
+                            <a
+                                    href="https://github.com/actions/configure-pages/blob/983d7736d9b0ae728b81ab479565c72886d7745b/"
+                                    class="name me-1"
+                                    target="_blank"
+                                    data-details="action-details-2"
+                                    data-refs="action-refs-2"
+                                    data-expand-collapse="expand-collapse-2"
+                            >actions/configure-pages</a>
+
+                            
+
+                            
+                        </div>
+                        <div class="col-1 text-end">
+                            <span class="badge stars">0<i class="fa-solid fa-star ms-1"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="row pb-1 pt-1 strip" id="action-refs-2">
+                        <div class="col ms-4">
+                            
+
+                            
+
+                            
+                            <div>
+                                
+                                
+                                <span class="badge ref commit text-bg-commit" data-type="commit" data-state="supported" title="commit for unknown">983d7736 (unknown)</span>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Action details -->
+                    <div class="row mt-2 mb-2 d-none striped-rows2" id="action-details-2">
+                        <div class="col">
+                            
+                            <div class="row mb-1 strip2">
+                                <div class="col-1 ms-4">
+                                    
+                                    
+                                    <span class="badge text-bg-commit  d-block">commit</span>
+                                    
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge text-black d-block">1</span>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span id="expand-collapse-c781ffe5e47bf5cb7346e2f4ada2b78d">
+                                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                                            </span>
+                                            <a
+                                                    href="https://github.com/actions/configure-pages/tree/983d7736d9b0ae728b81ab479565c72886d7745b/"
+                                                    target="_blank"
+                                                    class="ref-name font-monospace small"
+                                                    data-details="action-usages-c781ffe5e47bf5cb7346e2f4ada2b78d"
+                                                    data-expand-collapse="expand-collapse-c781ffe5e47bf5cb7346e2f4ada2b78d"
+                                            >983d7736d9b0ae728b81ab479565c72886d7745b</a>
+                                            
+                                            <span class="badge text-bg-unknown ms-1">unknown</span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="action-usages-c781ffe5e47bf5cb7346e2f4ada2b78d" class="d-none striped-rows3">
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/deploy-pages.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/deploy-pages.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div
+                    class="row action striped-rows"
+                    data-org="trusted"
+                    data-type="source"
+                    data-name="actions/deploy-pages"
+            >
+                <div class="col">
+                    <div class="row pb-1 pt-1 strip">
+                        <div class="col">
+                            
+                            <i class="fa-solid fa-building-shield trusted-org" title="Trusted Organisation"></i>
+                            
+
+                            <span id="expand-collapse-3">
+                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                            </span>
+                            <a
+                                    href="https://github.com/actions/deploy-pages/blob/d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e/"
+                                    class="name me-1"
+                                    target="_blank"
+                                    data-details="action-details-3"
+                                    data-refs="action-refs-3"
+                                    data-expand-collapse="expand-collapse-3"
+                            >actions/deploy-pages</a>
+
+                            
+
+                            
+                        </div>
+                        <div class="col-1 text-end">
+                            <span class="badge stars">0<i class="fa-solid fa-star ms-1"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="row pb-1 pt-1 strip" id="action-refs-3">
+                        <div class="col ms-4">
+                            
+
+                            
+
+                            
+                            <div>
+                                
+                                
+                                <span class="badge ref commit text-bg-commit" data-type="commit" data-state="supported" title="commit for unknown">d6db9016 (unknown)</span>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Action details -->
+                    <div class="row mt-2 mb-2 d-none striped-rows2" id="action-details-3">
+                        <div class="col">
+                            
+                            <div class="row mb-1 strip2">
+                                <div class="col-1 ms-4">
+                                    
+                                    
+                                    <span class="badge text-bg-commit  d-block">commit</span>
+                                    
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge text-black d-block">1</span>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span id="expand-collapse-b3b46581c37486b5aa711f57eefeff87">
+                                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                                            </span>
+                                            <a
+                                                    href="https://github.com/actions/deploy-pages/tree/d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e/"
+                                                    target="_blank"
+                                                    class="ref-name font-monospace small"
+                                                    data-details="action-usages-b3b46581c37486b5aa711f57eefeff87"
+                                                    data-expand-collapse="expand-collapse-b3b46581c37486b5aa711f57eefeff87"
+                                            >d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e</a>
+                                            
+                                            <span class="badge text-bg-unknown ms-1">unknown</span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="action-usages-b3b46581c37486b5aa711f57eefeff87" class="d-none striped-rows3">
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/deploy-pages.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/deploy-pages.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div
+                    class="row action striped-rows"
+                    data-org="trusted"
+                    data-type="source"
+                    data-name="actions/github-script"
+            >
+                <div class="col">
+                    <div class="row pb-1 pt-1 strip">
+                        <div class="col">
+                            
+                            <i class="fa-solid fa-building-shield trusted-org" title="Trusted Organisation"></i>
+                            
+
+                            <span id="expand-collapse-4">
+                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                            </span>
+                            <a
+                                    href="https://github.com/actions/github-script/blob/ed597411d8f924073f98dfc5c65a23a2325f34cd/"
+                                    class="name me-1"
+                                    target="_blank"
+                                    data-details="action-details-4"
+                                    data-refs="action-refs-4"
+                                    data-expand-collapse="expand-collapse-4"
+                            >actions/github-script</a>
+
+                            
+
+                            
+                        </div>
+                        <div class="col-1 text-end">
+                            <span class="badge stars">0<i class="fa-solid fa-star ms-1"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="row pb-1 pt-1 strip" id="action-refs-4">
+                        <div class="col ms-4">
+                            
+
+                            
+
+                            
+                            <div>
+                                
+                                
+                                <span class="badge ref commit text-bg-commit" data-type="commit" data-state="supported" title="commit for unknown">ed597411 (unknown)</span>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Action details -->
+                    <div class="row mt-2 mb-2 d-none striped-rows2" id="action-details-4">
+                        <div class="col">
+                            
+                            <div class="row mb-1 strip2">
+                                <div class="col-1 ms-4">
+                                    
+                                    
+                                    <span class="badge text-bg-commit  d-block">commit</span>
+                                    
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge text-black d-block">1</span>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span id="expand-collapse-177ad6391ffae3bed0221688f4ce59ef">
+                                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                                            </span>
+                                            <a
+                                                    href="https://github.com/actions/github-script/tree/ed597411d8f924073f98dfc5c65a23a2325f34cd/"
+                                                    target="_blank"
+                                                    class="ref-name font-monospace small"
+                                                    data-details="action-usages-177ad6391ffae3bed0221688f4ce59ef"
+                                                    data-expand-collapse="expand-collapse-177ad6391ffae3bed0221688f4ce59ef"
+                                            >ed597411d8f924073f98dfc5c65a23a2325f34cd</a>
+                                            
+                                            <span class="badge text-bg-unknown ms-1">unknown</span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="action-usages-177ad6391ffae3bed0221688f4ce59ef" class="d-none striped-rows3">
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/generate-scifi.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/generate-scifi.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div
+                    class="row action striped-rows"
+                    data-org="trusted"
+                    data-type="source"
+                    data-name="actions/setup-node"
+            >
+                <div class="col">
+                    <div class="row pb-1 pt-1 strip">
+                        <div class="col">
+                            
+                            <i class="fa-solid fa-building-shield trusted-org" title="Trusted Organisation"></i>
+                            
+
+                            <span id="expand-collapse-5">
+                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                            </span>
+                            <a
+                                    href="https://github.com/actions/setup-node/blob/53b83947a5a98c8d113130e565377fae1a50d02f/"
+                                    class="name me-1"
+                                    target="_blank"
+                                    data-details="action-details-5"
+                                    data-refs="action-refs-5"
+                                    data-expand-collapse="expand-collapse-5"
+                            >actions/setup-node</a>
+
+                            
+
+                            
+                        </div>
+                        <div class="col-1 text-end">
+                            <span class="badge stars">0<i class="fa-solid fa-star ms-1"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="row pb-1 pt-1 strip" id="action-refs-5">
+                        <div class="col ms-4">
+                            
+
+                            
+
+                            
+                            <div>
+                                
+                                
+                                <span class="badge ref commit text-bg-commit" data-type="commit" data-state="supported" title="commit for unknown">53b83947 (unknown)</span>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Action details -->
+                    <div class="row mt-2 mb-2 d-none striped-rows2" id="action-details-5">
+                        <div class="col">
+                            
+                            <div class="row mb-1 strip2">
+                                <div class="col-1 ms-4">
+                                    
+                                    
+                                    <span class="badge text-bg-commit  d-block">commit</span>
+                                    
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge text-black d-block">2</span>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span id="expand-collapse-0188b47d0d89236103d96140b30eb150">
+                                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                                            </span>
+                                            <a
+                                                    href="https://github.com/actions/setup-node/tree/53b83947a5a98c8d113130e565377fae1a50d02f/"
+                                                    target="_blank"
+                                                    class="ref-name font-monospace small"
+                                                    data-details="action-usages-0188b47d0d89236103d96140b30eb150"
+                                                    data-expand-collapse="expand-collapse-0188b47d0d89236103d96140b30eb150"
+                                            >53b83947a5a98c8d113130e565377fae1a50d02f</a>
+                                            
+                                            <span class="badge text-bg-unknown ms-1">unknown</span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="action-usages-0188b47d0d89236103d96140b30eb150" class="d-none striped-rows3">
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/cybersecurity-jobs.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/cybersecurity-jobs.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/generate-science-facts.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/generate-science-facts.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div
+                    class="row action striped-rows"
+                    data-org="trusted"
+                    data-type="source"
+                    data-name="actions/setup-python"
+            >
+                <div class="col">
+                    <div class="row pb-1 pt-1 strip">
+                        <div class="col">
+                            
+                            <i class="fa-solid fa-building-shield trusted-org" title="Trusted Organisation"></i>
+                            
+
+                            <span id="expand-collapse-6">
+                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                            </span>
+                            <a
+                                    href="https://github.com/actions/setup-python/blob/a309ff8b426b58ec0e2a45f0f869d46889d02405/"
+                                    class="name me-1"
+                                    target="_blank"
+                                    data-details="action-details-6"
+                                    data-refs="action-refs-6"
+                                    data-expand-collapse="expand-collapse-6"
+                            >actions/setup-python</a>
+
+                            
+
+                            
+                        </div>
+                        <div class="col-1 text-end">
+                            <span class="badge stars">0<i class="fa-solid fa-star ms-1"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="row pb-1 pt-1 strip" id="action-refs-6">
+                        <div class="col ms-4">
+                            
+
+                            
+
+                            
+                            <div>
+                                
+                                
+                                <span class="badge ref commit text-bg-commit" data-type="commit" data-state="supported" title="commit for unknown">a309ff8b (unknown)</span>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Action details -->
+                    <div class="row mt-2 mb-2 d-none striped-rows2" id="action-details-6">
+                        <div class="col">
+                            
+                            <div class="row mb-1 strip2">
+                                <div class="col-1 ms-4">
+                                    
+                                    
+                                    <span class="badge text-bg-commit  d-block">commit</span>
+                                    
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge text-black d-block">3</span>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span id="expand-collapse-6753c9e6cc8ec100e86be86a20f0e508">
+                                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                                            </span>
+                                            <a
+                                                    href="https://github.com/actions/setup-python/tree/a309ff8b426b58ec0e2a45f0f869d46889d02405/"
+                                                    target="_blank"
+                                                    class="ref-name font-monospace small"
+                                                    data-details="action-usages-6753c9e6cc8ec100e86be86a20f0e508"
+                                                    data-expand-collapse="expand-collapse-6753c9e6cc8ec100e86be86a20f0e508"
+                                            >a309ff8b426b58ec0e2a45f0f869d46889d02405</a>
+                                            
+                                            <span class="badge text-bg-unknown ms-1">unknown</span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="action-usages-6753c9e6cc8ec100e86be86a20f0e508" class="d-none striped-rows3">
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/als-aggregator.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/als-aggregator.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/generate-scifi.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/generate-scifi.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/scrape-papers.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/scrape-papers.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div
+                    class="row action striped-rows"
+                    data-org="trusted"
+                    data-type="source"
+                    data-name="actions/upload-pages-artifact"
+            >
+                <div class="col">
+                    <div class="row pb-1 pt-1 strip">
+                        <div class="col">
+                            
+                            <i class="fa-solid fa-building-shield trusted-org" title="Trusted Organisation"></i>
+                            
+
+                            <span id="expand-collapse-7">
+                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                            </span>
+                            <a
+                                    href="https://github.com/actions/upload-pages-artifact/blob/7b1f4a764d45c48632c6b24a0339c27f5614fb0b/"
+                                    class="name me-1"
+                                    target="_blank"
+                                    data-details="action-details-7"
+                                    data-refs="action-refs-7"
+                                    data-expand-collapse="expand-collapse-7"
+                            >actions/upload-pages-artifact</a>
+
+                            
+
+                            
+                        </div>
+                        <div class="col-1 text-end">
+                            <span class="badge stars">0<i class="fa-solid fa-star ms-1"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="row pb-1 pt-1 strip" id="action-refs-7">
+                        <div class="col ms-4">
+                            
+
+                            
+
+                            
+                            <div>
+                                
+                                
+                                <span class="badge ref commit text-bg-commit" data-type="commit" data-state="supported" title="commit for unknown">7b1f4a76 (unknown)</span>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Action details -->
+                    <div class="row mt-2 mb-2 d-none striped-rows2" id="action-details-7">
+                        <div class="col">
+                            
+                            <div class="row mb-1 strip2">
+                                <div class="col-1 ms-4">
+                                    
+                                    
+                                    <span class="badge text-bg-commit  d-block">commit</span>
+                                    
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge text-black d-block">1</span>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span id="expand-collapse-c6aca01f1f967f32b3783bedc8b1b929">
+                                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                                            </span>
+                                            <a
+                                                    href="https://github.com/actions/upload-pages-artifact/tree/7b1f4a764d45c48632c6b24a0339c27f5614fb0b/"
+                                                    target="_blank"
+                                                    class="ref-name font-monospace small"
+                                                    data-details="action-usages-c6aca01f1f967f32b3783bedc8b1b929"
+                                                    data-expand-collapse="expand-collapse-c6aca01f1f967f32b3783bedc8b1b929"
+                                            >7b1f4a764d45c48632c6b24a0339c27f5614fb0b</a>
+                                            
+                                            <span class="badge text-bg-unknown ms-1">unknown</span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="action-usages-c6aca01f1f967f32b3783bedc8b1b929" class="d-none striped-rows3">
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/deploy-pages.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/deploy-pages.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div
+                    class="row action striped-rows"
+                    data-org="untrusted"
+                    data-type="source"
+                    data-name="ruby/setup-ruby"
+            >
+                <div class="col">
+                    <div class="row pb-1 pt-1 strip">
+                        <div class="col">
+                            
+                            <i class="fa-solid fa-building-circle-exclamation untrusted-org" title="Untrusted Organisation"></i>
+                            
+
+                            <span id="expand-collapse-8">
+                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                            </span>
+                            <a
+                                    href="https://github.com/ruby/setup-ruby/blob/319994f95fa847cf3fb3cd3dbe89f6dcde9f178f/"
+                                    class="name me-1"
+                                    target="_blank"
+                                    data-details="action-details-8"
+                                    data-refs="action-refs-8"
+                                    data-expand-collapse="expand-collapse-8"
+                            >ruby/setup-ruby</a>
+
+                            
+
+                            
+                        </div>
+                        <div class="col-1 text-end">
+                            <span class="badge stars">0<i class="fa-solid fa-star ms-1"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="row pb-1 pt-1 strip" id="action-refs-8">
+                        <div class="col ms-4">
+                            
+
+                            
+
+                            
+                            <div>
+                                
+                                
+                                <span class="badge ref commit text-bg-commit" data-type="commit" data-state="supported" title="commit for unknown">319994f9 (unknown)</span>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Action details -->
+                    <div class="row mt-2 mb-2 d-none striped-rows2" id="action-details-8">
+                        <div class="col">
+                            
+                            <div class="row mb-1 strip2">
+                                <div class="col-1 ms-4">
+                                    
+                                    
+                                    <span class="badge text-bg-commit  d-block">commit</span>
+                                    
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge text-black d-block">1</span>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span id="expand-collapse-ef821fadaee22ee3f47e3ffb1e99f882">
+                                                <i class="fa-solid fa-circle-chevron-right fa-xs expand-icon"></i>
+                                                <i class="fa-solid fa-circle-chevron-down fa-xs collapse-icon d-none"></i>
+                                            </span>
+                                            <a
+                                                    href="https://github.com/ruby/setup-ruby/tree/319994f95fa847cf3fb3cd3dbe89f6dcde9f178f/"
+                                                    target="_blank"
+                                                    class="ref-name font-monospace small"
+                                                    data-details="action-usages-ef821fadaee22ee3f47e3ffb1e99f882"
+                                                    data-expand-collapse="expand-collapse-ef821fadaee22ee3f47e3ffb1e99f882"
+                                            >319994f95fa847cf3fb3cd3dbe89f6dcde9f178f</a>
+                                            
+                                            <span class="badge text-bg-unknown ms-1">unknown</span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="action-usages-ef821fadaee22ee3f47e3ffb1e99f882" class="d-none striped-rows3">
+                                        
+                                        <div class="row mb-1 mt-1 strip3">
+                                            <div class="col">
+                                                <a href="https://github.com/bensmith83/friendly-enigma/blob/claude/integrate-butler-scanner-8Iid0/.github/workflows/deploy-pages.yml" target="_blank">bensmith83/friendly-enigma/.github/workflows/deploy-pages.yml@claude/integrate-butler-scanner-8Iid0</a>
+                                            </div>
+                                            <div class="col-1 text-end">
+                                                
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    const PageManager = {
+        selectOrg: null,
+        selectType: null,
+        selectRef: null,
+        selectState: null,
+
+        init: function() {
+            this.selectOrg = ChoicesTemplateManager.init_with_count(document.getElementById('org'), 'org trust');
+            this.selectType = ChoicesTemplateManager.init_with_count(document.getElementById('type'), 'repo type');
+            this.selectRef = ChoicesTemplateManager.init_with_count(document.getElementById('ref'), 'ref type');
+            this.selectState = ChoicesTemplateManager.init_with_count(document.getElementById('state'), 'state');
+
+            this.selectOrg.passedElement.element.addEventListener('change', function (event) { PageManager.filter() });
+            this.selectType.passedElement.element.addEventListener('change', function (event) { PageManager.filter() });
+            this.selectRef.passedElement.element.addEventListener('change', function (event) { PageManager.filter() });
+            this.selectState.passedElement.element.addEventListener('change', function (event) { PageManager.filter() });
+
+            $('.action .name').click(function () {
+                let box = $('#' + $(this).data('details'));
+                let refs = $('#' + $(this).data('refs'));
+                let expand_collapse = $('#' + $(this).data('expand-collapse'));
+                if ($(box).hasClass('d-none')) {
+                    $(expand_collapse).find('.expand-icon').addClass('d-none');
+                    $(expand_collapse).find('.collapse-icon').removeClass('d-none');
+                    $(refs).addClass('d-none');
+                    $(box).removeClass('d-none');
+                } else {
+                    $(expand_collapse).find('.expand-icon').removeClass('d-none');
+                    $(expand_collapse).find('.collapse-icon').addClass('d-none');
+                    $(box).addClass('d-none');
+                    $(refs).removeClass('d-none');
+                }
+                return false;
+            });
+
+            $('.action .ref-name').click(function () {
+                let box = $('#' + $(this).data('details'));
+                let expand_collapse = $('#' + $(this).data('expand-collapse'));
+                if ($(box).hasClass('d-none')) {
+                    $(expand_collapse).find('.expand-icon').addClass('d-none');
+                    $(expand_collapse).find('.collapse-icon').removeClass('d-none');
+                    $(box).removeClass('d-none');
+                } else {
+                    $(expand_collapse).find('.expand-icon').removeClass('d-none');
+                    $(expand_collapse).find('.collapse-icon').addClass('d-none');
+                    $(box).addClass('d-none');
+                }
+                return false;
+            });
+
+            $('.search').keyup(function () {
+                PageManager.filter();
+            });
+
+            $('.search').each(function() {
+                $(this).val('');
+            });
+        },
+
+        filter: function() {
+            // Start from a visible state.
+            $('#actions .action').removeClass('d-none');
+            $('#actions .action .ref').removeClass('d-none');
+
+            let orgFilter = this.selectOrg.getValue(true);
+            let typeFilter = this.selectType.getValue(true);
+            let refFilter = this.selectRef.getValue(true);
+            let stateFilter = this.selectState.getValue(true);
+
+            // Hide based on trust and repo type.
+            $('#actions .action').each(function () {
+                let org = $(this).data('org');
+                let type = $(this).data('type');
+
+                if (orgFilter.length > 0 && !orgFilter.includes(org)) {
+                    $(this).addClass('d-none');
+                } else if (typeFilter.length > 0 && !typeFilter.includes(type)) {
+                    $(this).addClass('d-none');
+                }
+            });
+
+            // Refs are part of the action.
+            $('#actions .action .ref').each(function () {
+                let type = $(this).data('type');
+                let state = $(this).data('state');
+
+                if (refFilter.length > 0 && !refFilter.includes(type)) {
+                    $(this).addClass('d-none');
+                }
+
+                if (stateFilter.length > 0 && !stateFilter.includes(state)) {
+                    $(this).addClass('d-none');
+                }
+            });
+
+            // Hide actions where all refs are hidden.
+            $('#actions .action').each(function () {
+                if ($(this).find('.ref:visible').length === 0) {
+                    $(this).addClass('d-none');
+                }
+            });
+
+            let searchFor = $('#filters .search').val().toLowerCase();
+            if (searchFor.length > 0) {
+                $('#actions .action').each(function () {
+                    if (!$(this).data('name').toLowerCase().includes(searchFor) && !$(this).hasClass('d-none')) {
+                        $(this).addClass('d-none');
+                    }
+                });
+            }
+
+            $('#filters .visible-results').text($('#actions .action:visible').length.toLocaleString());
+        }
+    };
+
+    $(document).ready(function() {
+        PageManager.init();
+    });
+</script>
+
+
+<script type="text/javascript">
+    const ExportManager = {
+    export_data: function(data, format, filename) {
+        if (format === 'clipboard') {
+            navigator.clipboard.writeText(data).then(() => { /* Nothing */ });
+        } else if (format === 'download') {
+            const blob = new Blob([data], { type: "text/csv" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    }
+}
+
+const ChoicesTemplateManager = {
+    item: function (strToEl, escapeForTemplate, classNames, data, html) {
+        let output = ChoicesTemplateManager.__generateItem(
+            [
+                String(classNames.item),
+                String(data.highlighted ? classNames.highlightedState : classNames.itemSelectable)
+            ].join(' '),
+            String(data.id),
+            String(escapeForTemplate(true, data.value)),
+            String(escapeForTemplate(true, data.label)),
+            html
+        );
+        return strToEl(output);
+    },
+
+    choice: function (strToEl, escapeForTemplate, classNames, itemSelectText, data, html) {
+        let output = ChoicesTemplateManager.__generateChoice(
+            [
+                String(classNames.item),
+                String(classNames.itemChoice),
+                String(data.disabled ? classNames.itemDisabled : classNames.itemSelectable)
+            ].join(' '),
+            String(itemSelectText),
+            String(data.id),
+            String(escapeForTemplate(true, data.value)),
+            String(escapeForTemplate(true, data.label)),
+            html
+        )
+        return strToEl(output);
+    },
+
+    __generateItem: function (classes, id, value, label, html) {
+        return `<div
+                    class="${classes}"
+                    data-item
+                    role="option"
+                    data-id="${id}"
+                    data-value="${value}"
+                    data-deletable
+                >
+                ${html}
+                ${label}
+                <button type="button" class="choices__button" aria-label="Remove item: ${label}" data-button="">Remove item</button>
+                </div>`;
+    },
+
+    __generateChoice: function (classes, text, id, value, label, html) {
+        return `<div
+                    class="${classes}"
+                    data-select-text="${text}"
+                    data-choice
+                    data-choice-selectable
+                    data-id="${id}"
+                    data-value="${value}"
+                >
+                ${html}
+                ${label}
+                </div>`
+    },
+
+    init_with_count: function (element, placeholder) {
+        return new Choices(
+                element,
+                {
+                    removeItemButton: true,
+                    searchResultLimit: -1,
+                    placeholderValue: placeholder,
+                    allowHTML: true,
+                    shouldSort: false,
+                    callbackOnCreateTemplates: function (strToEl, escapeForTemplate) {
+                        let classNames = this.config.classNames;
+                        let itemSelectText = this.config.itemSelectText;
+                        return {
+                            item: function({ classNames }, data) {
+                                return ChoicesTemplateManager.item(strToEl, escapeForTemplate, classNames, data, '');
+                            },
+                            choice: function ({ classNames }, data) {
+                                return ChoicesTemplateManager.choice(strToEl, escapeForTemplate, classNames, itemSelectText, data, `<span class="badge text-bg-primary me-2" style="width: 40px;">${$(data.element).data('count')}</span>`);
+                            }
+                        }
+                    }
+                }
+            );
+    }
+};
+</script>
+
+</body>
+</html>

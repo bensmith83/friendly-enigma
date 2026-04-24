@@ -1,0 +1,5 @@
+org,name,type
+bensmith83,ANTHROPIC_API_KEY,secret
+bensmith83,HF_TOKEN,secret
+bensmith83,NEWSAPI_KEY,secret
+bensmith83,OPENAI_API_KEY,secret
