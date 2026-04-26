@@ -1,5 +1,23 @@
 [
   {
+    "id": "2604.21774v1",
+    "title": "Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks",
+    "summary": "Near-field millimeter-wave (mmWave) imaging is widely deployed in safety-critical applications such as airport passenger screening, yet its own security remains largely unexplored. This paper presents a systematic study of the adversarial robustness of mmWave imaging algorithms under waveform-domain physical attacks that directly manipulate the image reconstruction process. We propose a practical white-box adversarial model and develop a differential imaging attack framework that leverages the differentiable imaging pipeline to optimize attack waveforms. We also construct a real measured dataset of clean and attack waveforms using a mmWave imaging testbed. Experiments on 10 representative imaging algorithms show that mmWave imaging is highly vulnerable to such attacks, enabling an adversary to conceal or alter targets with moderate transmission power. Surprisingly, deep-learning-based imaging algorithms demonstrate higher robustness than classical algorithms. These findings expose critical security risks and motivate the development of robust and secure mmWave imaging systems.",
+    "published": "2026-04-23T15:32:27Z",
+    "link": "http://arxiv.org/abs/2604.21774v1",
+    "authors": [
+      "Lhamo Dorje",
+      "Jordan Madden",
+      "Soamar Homsi",
+      "Xiaohua Li"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Near-field millimeter-wave (mmWave) imaging is widely deployed in safety-critical applications such as airport passenger screening, yet its own security remains largely unexplored. This paper presents a systematic study of the adversarial robustness of mmWave imaging algorithms under waveform-domain physical attacks that directly manipulate the image reconstruction process.",
+    "selected_date": "2026-04-26"
+  },
+  {
     "id": "2604.21623v1",
     "title": "A-THENA: Early Intrusion Detection for IoT with Time-Aware Hybrid Encoding and Network-Specific Augmentation",
     "summary": "The proliferation of Internet of Things (IoT) devices has significantly expanded attack surfaces, making IoT ecosystems particularly susceptible to sophisticated cyber threats. To address this challenge, this work introduces A-THENA, a lightweight early intrusion detection system (EIDS) that significantly extends preliminary findings on time-aware encodings. A-THENA employs an advanced Transformer-based architecture augmented with a generalized Time-Aware Hybrid Encoding (THE), integrating packet timestamps to effectively capture temporal dynamics essential for accurate and early threat detection. The proposed system further employs a Network-Specific Augmentation (NA) pipeline, which enhances model robustness and generalization. We evaluate A-THENA on three benchmark IoT intrusion detection datasets-CICIoT23-WEB, MQTT-IoT-IDS2020, and IoTID20-where it consistently achieves strong performance. Averaged across all three datasets, it improves accuracy by 6.88 percentage points over the best-performing traditional positional encoding, 3.69 points over the strongest feature-based model, 6.17 points over the leading time-aware alternatives, and 5.11 points over related models, while achieving near-zero false alarms and false negatives. To assess real-world feasibility, we deploy A-THENA on the Raspberry Pi Zero 2 W, demonstrating its ability to perform real-time intrusion detection with minimal latency and memory usage. These results establish A-THENA as an agile, practical, and highly effective solution for securing IoT networks.",
@@ -565,23 +583,5 @@
     ],
     "ai_summary": "Deep learning models for time series imputation are now essential in fields such as healthcare, the Internet of Things (IoT), and finance. However, their deployment raises critical privacy concerns.",
     "selected_date": "2026-03-26"
-  },
-  {
-    "id": "2603.23496v1",
-    "title": "Estimating Flow Velocity and Vehicle Angle-of-Attack from Non-invasive Piezoelectric Structural Measurements Using Deep Learning",
-    "summary": "Accurate estimation of aerodynamic state variables such as freestream velocity and angle of attack (AoA) is important for aerodynamic load prediction, flight control, and model validation. This work presents a non-intrusive method for estimating vehicle velocity and AoA from structural vibration measurements rather than direct flow instrumentation such as pitot tubes. A dense array of piezoelectric sensors mounted on the interior skin of an aeroshell capture vibrations induced by turbulent boundary layer pressure fluctuations, and a convolutional neural network (CNN) is trained to invert these structural responses to recover velocity and AoA.   Proof-of-concept is demonstrated through controlled experiments in Sandia's hypersonic wind tunnel spanning zero and nonzero AoA configurations, Mach~5 and Mach~8 conditions, and both constant and continuously varying tunnel operations. The CNN is trained and evaluated using data from 16 wind tunnel runs, with a temporally centered held-out interval within each run used to form training, validation, and test datasets and assess intra-run temporal generalization. Raw CNN predictions exhibit increased variance during continuously varying conditions; a short-window moving-median post-processing step suppresses this variance and improves robustness. After post-processing, the method achieves a mean velocity error relative to the low-pass filtered reference velocity below 2.27~m/s (0.21\\%) and a mean AoA error of $0.44^{\\circ} (8.25\\%)$ on held-out test data from the same experimental campaign, demonstrating feasibility of vibration-based velocity and AoA estimation in a controlled laboratory environment.",
-    "published": "2026-03-24T17:58:23Z",
-    "link": "http://arxiv.org/abs/2603.23496v1",
-    "authors": [
-      "Chandler B. Smith",
-      "S. Hales Swift",
-      "Andrew Steyer",
-      "Ihab El-Kady"
-    ],
-    "categories": [
-      "cs.LG"
-    ],
-    "ai_summary": "Accurate estimation of aerodynamic state variables such as freestream velocity and angle of attack (AoA) is important for aerodynamic load prediction, flight control, and model validation. This work presents a non-intrusive method for estimating vehicle velocity and AoA from structural vibration measurements rather than direct flow instrumentation such as pitot tubes.",
-    "selected_date": "2026-03-25"
   }
 ]
