@@ -1,5 +1,1307 @@
 [
   {
+    "date": "2026-04-26",
+    "week_of": "April 26, 2026",
+    "digest_number": 18,
+    "weekly_summary": "This week brought several important advances in ALS research and understanding. The most significant breakthrough is the discovery that amyotrophic lateral sclerosis and frontotemporal dementia (FTD) can share the same genetic causes\u2014a finding that earned researchers a portion of the 2026 Breakthrough Prize in Life Sciences and could revolutionize how scientists approach treatment development for both conditions. Additionally, new research demonstrates that changes in gut microbiome composition may predict ALS risk years before symptoms develop, potentially enabling early intervention and prevention strategies.\n\nOn the treatment front, two promising new approaches emerged: AI-designed intracellular antibody fragments that can remain stable inside cells and bind misfolded proteins, and Dr. David Fajgenbaum's innovative AI method for identifying hidden cures by repurposing existing medications. A detailed study published in Nature also revealed how somatic mutations can drive the progression of ALS from localized disease to widespread neurodegeneration, providing critical insights into disease mechanisms. While no New Jersey-specific support resources or events were identified in this week's articles, fundraising efforts continue, with New Mexico United organizing jersey sales to support ALS research. These developments represent meaningful progress toward better understanding ALS biology and discovering effective treatments.",
+    "highlights": [
+      {
+        "article": {
+          "title": "How geneticists uncovered a common root of two neurological diseases",
+          "description": "Amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) can have the same genetic cause, a discovery that won two neurogeneticists a portion of the 2026 Breakthrough Prize in Life Sciences",
+          "content": "On the surface, frontotemporal dementia (FTD) and amyotrophic lateral sclerosis (ALS) are very different neurodegenerative diseases. In FTD, people can experience drastic changes in personality and b\u2026 [+10490 chars]",
+          "url": "https://www.scientificamerican.com/article/how-geneticists-uncovered-a-common-root-of-two-neurological-diseases/",
+          "source_name": "Scientific American",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T11:00:00Z",
+          "author": "Allison Parshall",
+          "image_url": "https://static.scientificamerican.com/dam/asset/ad74ec68-4ec8-4677-8f30-407fa34c2b07/Rademakers-and-Traynor.jpg?m=1776977292.488&w=1200",
+          "is_local_nj": false,
+          "article_id": "b3152a5e6cac"
+        },
+        "why_important": "Major breakthrough in understanding ALS genetics: discovery that ALS and FTD share common genetic causes earned scientists the prestigious 2026 Breakthrough Prize in Life Sciences. This finding could fundamentally change how researchers approach treatment development for both diseases."
+      },
+      {
+        "article": {
+          "title": "Scientists pinpoint new way to predict dementia, Parkinson's and motor neurone disease risk - YEARS before symptoms develop",
+          "description": "Changes to the gut can identify people at greater risk of Parkinson's, Alzheimer's and Motor Neurone Disease long before symptoms appear, new research suggests.",
+          "content": "Monitoring changes to proteins that live in the gut can identify people who are at a greater risk of\u00a0neurogenerative diseases, according to promising new research.\r\nIn a major new study - published i\u2026 [+5172 chars]",
+          "url": "https://www.dailymail.com/health/article-15751393/Gut-micrbiome-dementia-Parkinsons-Motor-Neuron-Disease.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T13:47:42Z",
+          "author": "Zoe Hardy",
+          "image_url": "https://i.dailymail.com/1s/2026/04/21/12/108043397-0-image-a-6_1776771240432.jpg",
+          "is_local_nj": false,
+          "article_id": "ef700759e28e"
+        },
+        "why_important": "Significant advance in early detection: research showing gut microbiome changes can predict motor neurone disease (ALS) years before symptoms appear. Early identification could enable preventative interventions and dramatically improve patient outcomes."
+      },
+      {
+        "article": {
+          "title": "Somatic mutations link focal onset to widespread neurodegeneration in ALS and FTD",
+          "description": "Most cases of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) are genetically sporadic. By detecting low-frequency somatic mutations across postmortem brains, we show that rare somatic mutations are spatially restricted to focal regions \u2026",
+          "content": "<li>Ling, S.-C. et al. Converging mechanisms in ALS and FTD: disrupted RNA and protein homeostasis. Neuron79, 416438 (2013). A review that summarizes overlapping clinical, genetic and pathological fe\u2026 [+1176 chars]",
+          "url": "https://www.nature.com/articles/s41588-026-02572-4",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T00:00:00Z",
+          "author": null,
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41588-026-02572-4/MediaObjects/41588_2026_2572_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "f0d6728c39ec"
+        },
+        "why_important": "Important mechanistic discovery published in Nature: somatic mutations can explain how ALS progresses from focal onset to widespread neurodegeneration. Understanding this mechanism is critical for developing targeted therapies."
+      },
+      {
+        "article": {
+          "title": "New Antibody Drugs Target Disease From Within",
+          "description": "AI\u2011designed intracellular antibody fragments can stay stable inside cells and bind misfolded proteins, opening new treatment routes for diseases.",
+          "content": "Antibodies can now be re-engineered to work inside cells, not just on their surface, using AI-guided redesign of their binding fragments so they remain stable in the intracellular environment and can\u2026 [+6001 chars]",
+          "url": "https://www.forbes.com/sites/williamhaseltine/2026/04/24/new-antibody-drugs-target-disease-from-within/",
+          "source_name": "Forbes",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T13:56:35Z",
+          "author": "William A. Haseltine, Contributor, \n William A. Haseltine, Contributor\n https://www.forbes.com/sites/williamhaseltine/",
+          "image_url": "https://imageio.forbes.com/specials-images/imageserve/69eb753f7bde49e09d973a63/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+          "is_local_nj": false,
+          "article_id": "f8619b82ea0f"
+        },
+        "why_important": "Novel therapeutic approach: AI-designed antibody fragments that work inside cells represent a fundamentally new treatment strategy for neurodegenerative diseases. This could open entirely new therapeutic avenues for ALS treatment."
+      },
+      {
+        "article": {
+          "title": "The Doctor Using AI to Find Hidden Cures",
+          "description": "After nearly dying, Dr. David Fajgenbaum learned that the treatment for his rare disease was sitting on the shelf at his local pharmacy. Now he\u2019s using AI to search for thousands of other cures that may be hiding in plain sight.",
+          "content": "YOURE 28 YEARS OLD, and youre lying in a hospital bed, more dead than alive.\r\nYour organs are failing. Your kidneys have stopped functioning, which means you cant pee, so fluid is collecting in parts\u2026 [+32406 chars]",
+          "url": "https://www.menshealth.com/health/a70885753/david-fajgenbaum-every-cure-interview/",
+          "source_name": "menshealth.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-21T13:00:00Z",
+          "author": "Ryan D'Agostino",
+          "image_url": "https://hips.hearstapps.com/hmg-prod/images/fe94fd3a-d20f-4cbf-840b-c2002cc1fbfa.jpg?crop=1xw:0.751631853786xh;center,top&resize=1200:*",
+          "is_local_nj": false,
+          "article_id": "5e0c0c28f79b"
+        },
+        "why_important": "Innovative treatment discovery method: Dr. Fajgenbaum's AI-powered approach to finding hidden cures in existing drugs could accelerate treatment options for ALS and other diseases, potentially repurposing already-approved medications."
+      }
+    ],
+    "categories": {
+      "research": [
+        {
+          "title": "How geneticists uncovered a common root of two neurological diseases",
+          "description": "Amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) can have the same genetic cause, a discovery that won two neurogeneticists a portion of the 2026 Breakthrough Prize in Life Sciences",
+          "content": "On the surface, frontotemporal dementia (FTD) and amyotrophic lateral sclerosis (ALS) are very different neurodegenerative diseases. In FTD, people can experience drastic changes in personality and b\u2026 [+10490 chars]",
+          "url": "https://www.scientificamerican.com/article/how-geneticists-uncovered-a-common-root-of-two-neurological-diseases/",
+          "source_name": "Scientific American",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T11:00:00Z",
+          "author": "Allison Parshall",
+          "image_url": "https://static.scientificamerican.com/dam/asset/ad74ec68-4ec8-4677-8f30-407fa34c2b07/Rademakers-and-Traynor.jpg?m=1776977292.488&w=1200",
+          "is_local_nj": false,
+          "article_id": "b3152a5e6cac",
+          "summary": "Geneticists have discovered that amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) can share the same genetic cause. This discovery by neurogeneticists earned them a portion of the 2026 Breakthrough Prize in Life Sciences.",
+          "importance": 5,
+          "key_entities": [
+            "ALS",
+            "FTD",
+            "genetic cause",
+            "Breakthrough Prize",
+            "neurogeneticists"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Scientists pinpoint new way to predict dementia, Parkinson's and motor neurone disease risk - YEARS before symptoms develop",
+          "description": "Changes to the gut can identify people at greater risk of Parkinson's, Alzheimer's and Motor Neurone Disease long before symptoms appear, new research suggests.",
+          "content": "Monitoring changes to proteins that live in the gut can identify people who are at a greater risk of\u00a0neurogenerative diseases, according to promising new research.\r\nIn a major new study - published i\u2026 [+5172 chars]",
+          "url": "https://www.dailymail.com/health/article-15751393/Gut-micrbiome-dementia-Parkinsons-Motor-Neuron-Disease.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T13:47:42Z",
+          "author": "Zoe Hardy",
+          "image_url": "https://i.dailymail.com/1s/2026/04/21/12/108043397-0-image-a-6_1776771240432.jpg",
+          "is_local_nj": false,
+          "article_id": "ef700759e28e",
+          "summary": "New research identifies changes in the gut microbiome as an early predictor of Parkinson's disease, Alzheimer's disease, and motor neurone disease (ALS) years before symptoms develop. This discovery could enable early identification of people at risk for these neurodegenerative conditions.",
+          "importance": 5,
+          "key_entities": [
+            "gut microbiome",
+            "early prediction",
+            "motor neurone disease",
+            "preventative screening"
+          ],
+          "related_previous": [
+            {
+              "title": "Early Indiana Punk And New Wave (The Crazy Als Years 1976 - 1983) (2CD) (2014) FLAC",
+              "url": "https://post.rlsbb.to/early-indiana-punk-and-new-wave-the-crazy-als-years-1976-1983-2cd-2014-flac/",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "How I Beat Lyme Disease with The Ketogenic Diet \u2014 Science, How-To Protocols, and 10+ Years of Zero Symptoms",
+              "url": "https://tim.blog/2026/01/30/lyme-disease-ketogenic-diet/",
+              "digest_date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "title": "Somatic mutations link focal onset to widespread neurodegeneration in ALS and FTD",
+          "description": "Most cases of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) are genetically sporadic. By detecting low-frequency somatic mutations across postmortem brains, we show that rare somatic mutations are spatially restricted to focal regions \u2026",
+          "content": "<li>Ling, S.-C. et al. Converging mechanisms in ALS and FTD: disrupted RNA and protein homeostasis. Neuron79, 416438 (2013). A review that summarizes overlapping clinical, genetic and pathological fe\u2026 [+1176 chars]",
+          "url": "https://www.nature.com/articles/s41588-026-02572-4",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T00:00:00Z",
+          "author": null,
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41588-026-02572-4/MediaObjects/41588_2026_2572_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "f0d6728c39ec",
+          "summary": "A study in Nature demonstrates that somatic mutations can link focal-onset neurodegeneration to widespread disease progression in both ALS and FTD. By detecting low-frequency somatic mutations in postmortem brains, researchers revealed how mutations in specific brain regions contribute to disease spread.",
+          "importance": 5,
+          "key_entities": [
+            "somatic mutations",
+            "ALS",
+            "FTD",
+            "neurodegeneration",
+            "Nature"
+          ],
+          "related_previous": [
+            {
+              "title": "Somatic mosaicism in ALS and FTD identifies focal mutations associated with widespread degeneration",
+              "url": "https://www.nature.com/articles/s41588-026-02570-6",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Central Nervous System (CNS) Biomarkers Global Market Analysis Report 2026: Focus on Alzheimer's, Multiple Sclerosis, ALS, Frontotemporal Dementia, Parkinson's Disease - Forecast to 2030",
+          "description": "Key market opportunities in the CNS Biomarkers sector include utilizing AI and technologies like ML and NLP to enhance drug development, improve patient stratification, and optimize medication strategies. Focus areas include neurodegenerative diseases and per\u2026",
+          "content": "Dublin, April 23, 2026 (GLOBE NEWSWIRE) -- The \"Central Nervous System (CNS) Biomarkers: Technologies and Global Markets\" report has been added to ResearchAndMarkets.com's offering.\r\nThe Central Nerv\u2026 [+8415 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/23/3279653/28124/en/Central-Nervous-System-CNS-Biomarkers-Global-Market-Analysis-Report-2026-Focus-on-Alzheimer-s-Multiple-Sclerosis-ALS-Frontotemporal-Dementia-Parkinson-s-Disease-Forecast-to-2030.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T09:45:00Z",
+          "author": "Research and Markets",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/309e1de7-714e-4b0c-8ad3-fe068f00d5cd",
+          "is_local_nj": false,
+          "article_id": "f1f48d819c29",
+          "summary": "A global market analysis report on Central Nervous System (CNS) biomarkers includes ALS among key focus areas for neurodegenerative diseases. The report highlights market opportunities using AI and machine learning technologies to enhance drug development and patient stratification.",
+          "importance": 3,
+          "key_entities": [
+            "CNS biomarkers",
+            "ALS",
+            "AI drug development",
+            "patient stratification"
+          ],
+          "related_previous": [
+            {
+              "title": "Physical Artificial Intellligence (AI) Research Report 2026: A $3.25 Trillion Market by 2040 from $383 Billion in 2026 with Untapped Potential Across Healthcare, Smart Infrastructure, and Agriculture",
+              "url": "https://www.globenewswire.com/news-release/2026/04/16/3275135/28124/en/Physical-Artificial-Intellligence-AI-Research-Report-2026-A-3-25-Trillion-Market-by-2040-from-383-Billion-in-2026-with-Untapped-Potential-Across-Healthcare-Smart-Infrastructure-and.html",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Correction: Multidimensional predictors of fatigue in amyotrophic lateral sclerosis: a cross-sectional study in China",
+          "description": "Scientific Reports - Correction: Multidimensional predictors of fatigue in amyotrophic lateral sclerosis: a cross-sectional study in China",
+          "content": "<li>Motor Neuron Center, Hubei Provincial Hospital of Traditional Chinese Medicine, Wuhan, 430061, China\r\nFangfang Cai,\u00a0Dandan Xu,\u00a0Dan Yang,\u00a0Fei Huang,\u00a0Xiaoyu Song,\u00a0Yan Zhao\u00a0&amp;\u00a0Jing Zhou\r\n</li><li\u2026 [+875 chars]",
+          "url": "https://www.nature.com/articles/s41598-026-49397-z",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-21T00:00:00Z",
+          "author": "Fangfang Cai, Dandan Xu, Dan Yang, Fei Huang, Xiaoyu Song, Qianping Jiang, ShiLei Wan, Yan Zhao, Jing Zhou",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "b04032dfb0a2",
+          "summary": "A correction to a published study on multidimensional predictors of fatigue in ALS patients in China. This research examines factors contributing to fatigue, a significant symptom affecting quality of life in ALS patients.",
+          "importance": 3,
+          "key_entities": [
+            "ALS fatigue",
+            "clinical research",
+            "China",
+            "symptom management"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "When Did Eric Dane Film \u2018Euphoria\u2019 Season 3 Wedding Scenes Before He Died of ALS?",
+          "description": "Eric died less than a year after filming season 3 of 'Euphoria.' Here's the timeline of when he was diagnosed with ALS and when he completed working on the show's third season.",
+          "content": "Image Credit: Courtesy of HBO\r\nEuphoria made sure to pay tribute to its late cast member Eric Dane. The late 53-year-old died in February 2026, less than a year after revealing his ALS (amyotrophic l\u2026 [+2086 chars]",
+          "url": "https://hollywoodlife.com/feature/when-did-eric-dane-film-euphoria-scenes-5534885/",
+          "source_name": "Hollywood Life",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T16:41:48Z",
+          "author": "Elisabeth McGowan",
+          "image_url": "https://hollywoodlife.com/wp-content/uploads/2026/04/eric-dane_1_b1bc81-e1777045768978.jpeg?fit=1360%2C764",
+          "is_local_nj": false,
+          "article_id": "294bf69926dd",
+          "summary": "The article discusses actor Eric Dane's filming timeline for Euphoria Season 3 before his death from ALS. It provides a timeline connecting his ALS diagnosis to his final work on the television series.",
+          "importance": 2,
+          "key_entities": [
+            "Eric Dane",
+            "ALS",
+            "Euphoria"
+          ],
+          "related_previous": [
+            {
+              "title": "Dax Shepard Says He and Eric Dane \u2018Hated Each Other\u2019 After Meeting in AA: \u2018Then We Became Friends\u2019 | Video",
+              "url": "https://www.thewrap.com/creative-content/tv-shows/dax-shepard-eric-dane-hated-each-other-aa-friendship/",
+              "digest_date": "2026-04-12"
+            },
+            {
+              "title": "\u2018Euphoria\u2019 Season 3 Will Feature Eric Dane in His Final Role",
+              "url": "https://www.cosmopolitan.com/entertainment/tv/a70977306/will-eric-dane-be-in-euphoria-season-3/",
+              "digest_date": "2026-04-12"
+            },
+            {
+              "title": "How Sam Levinson Weighed \u2018Choices and Consequences\u2019 in \u2018Euphoria\u2019 Season 3",
+              "url": "http://www.rollingstone.com/tv-movies/tv-movie-features/euphoria-sam-levinson-season-3-interview-1235543902/",
+              "digest_date": "2026-04-12"
+            }
+          ]
+        },
+        {
+          "title": "Jungle Leopard PC Case Figurine Shelf Holder Platform RGB, PC Shelf for Figures Computer Accessories Decor for Office Game,120MM",
+          "description": "Samstag ab 06:55 Uhr: Jungle Leopard PC Case Figurine Shelf Holder Platform RGB, PC Shelf for Figures Computer Accessories Decor for Office Game,120MM f\u00fcr nur 16,98 Euro\r\n (regul\u00e4rer Amazon Preis: 19,98 Euro)",
+          "content": "Produkttest: Star Trails PC L\u00fcfterDer Star Trails PC L\u00fcfter \u00fcberzeugt in unserem Test mit einer rundum gelungenen Kombination aus Leistung, Design und Benutzerfreundlichkeit. Bereits beim Auspacken f\u2026 [+1155 chars]",
+          "url": "https://www.amazon.de/-/en/Jungle-Leopard-Case-Figurine-Shelf/dp/B0GF8BGSTM",
+          "source_name": "Amazon.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-25T04:55:01Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "8c0b663cb208",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ren\u00e9e Zellweger\u2019s Boyfriend Ant Anstead Shares Rare Glimpse at Romance",
+          "description": "Ant Anstead is enjoying the ride.\u00a0\nThe Born Mechanic host paid tribute to longtime girlfriend Ren\u00e9e Zellwegger, marking five years with the Oscar winner with a look back on their first meeting on...",
+          "content": "Ant Anstead is enjoying the ride.\u00a0\r\nThe Born Mechanic host paid tribute to longtime girlfriend Ren\u00e9e Zellwegger,marking five years with the Oscar winner with a look back on their first meeting on the\u2026 [+961 chars]",
+          "url": "https://www.eonline.com/news/1431296/renee-zellweger-ant-anstead-celebrate-5th-anniversary-post",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T18:35:44Z",
+          "author": "Daysia Tolentino",
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20260424/03294e20-bacb-422d-a0ae-b953b882a8c0_1777054320.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "is_local_nj": false,
+          "article_id": "5bd6872a2a10",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Von der Leyen: Engere Marinekooperation in Nahost",
+          "description": null,
+          "content": "Angesichts der Blockade der Stra\u00dfe von Hormus hat EU-Kommissionspr\u00e4sidentin Ursula von der Leyen vorgeschlagen, den Milit\u00e4reinsatz zur Sicherung der Handelsschifffahrt im Nahen Osten zu erweitern. Na\u2026 [+1431 chars]",
+          "url": "https://orf.at/stories/3427875/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T16:18:49Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "c47aeaa496b5",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Location Lost\" von Failure",
+          "description": "Dark-Rock-Comeback mit Gaststar Hayley Williams. (4/5)",
+          "content": "laut.de-Kritik\r\nDark-Rock-Comeback mit Gaststar Hayley Williams.\r\nReview von Michael Schuh\r\nEndlich mal ein Cover-Artwork, das ihrer Musik gerecht wird: Failure sind wieder da, niemand hat auf sie ge\u2026 [+3335 chars]",
+          "url": "https://laut.de/Failure/Alben/Location-Lost-126862",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T11:17:46Z",
+          "author": "Michael Schuh",
+          "image_url": "https://laut.de/Failure/Alben/Location-Lost-126862/failure-location-lost-250374.jpg?315445",
+          "is_local_nj": false,
+          "article_id": "2777bf4ac287",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Einhell Automatische Gartenpumpe GE-AW 1144 Smart",
+          "description": "Einhell GE-AW 1144 Smart Automatic Garden Pump (Smart Garden, App, Watering by Schedule / Smart with AI + Weather Data, 4400 L/h Flow Rate, Max. 48 m Delivery Height, Pre-Filter) : Amazon.de: Home & Kitchen",
+          "content": "Bis dato haben wir einen Regenwassertank mit einer ja manuellen Handpumpe um das Wasser in Kannen - Eimern zu bef\u00fcllen. (Frischwasser f\u00fcr die den Rasensprenger) Mir schwebte sch\u00f6n l\u00e4nger eine elektri\u2026 [+1768 chars]",
+          "url": "https://www.amazon.de/-/en/Einhell-Automatic-Watering-Schedule-Pre-Filter/dp/B0CKFL4HQH",
+          "source_name": "Amazon.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T09:10:01Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "52b029f97fbf",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Syensqo - Participation notification by BlackRock Inc.",
+          "description": "Press releaseCommuniqu\u00e9 de pressePersbericht Regulated  Participation notifications by BlackRock Inc.\u00a0  Brussels, Belgium \u2013 April 24, 2026 - 8:45...",
+          "content": "Regulated\r\nParticipation notifications by BlackRock Inc.\u00a0\r\nBrussels, Belgium April 24, 2026 - 8:45 CESTAccording to Belgian transparency legislation (Law of May 2, 2007), BlackRock Inc. (12 Throgmort\u2026 [+10334 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/24/3280547/0/en/Syensqo-Participation-notification-by-BlackRock-Inc.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T06:45:00Z",
+          "author": "Syensqo SA",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/580c265c-48dc-4c96-b0d2-782304bfb832",
+          "is_local_nj": false,
+          "article_id": "4dc8e51d1d97",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Syensqo - Participation notification by BlackRock Inc.",
+              "url": "https://www.globenewswire.com/news-release/2026/03/11/3254046/0/en/Syensqo-Participation-notification-by-BlackRock-Inc.html",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "Syensqo - Participation notification by BlackRock Inc.",
+              "url": "https://www.globenewswire.com/news-release/2026/02/04/3231787/0/en/Syensqo-Participation-notification-by-BlackRock-Inc.html",
+              "digest_date": "2026-02-08"
+            }
+          ]
+        },
+        {
+          "title": "\"The Ghost Of A Future Dead\" von At The Gates",
+          "description": "At The Gates - \"The Ghost Of A Future Dead\"",
+          "content": "laut.de-Kritik\r\nAbschied mit erhobenem Haupt.\r\nReview von Gil Bieler\r\nWas f\u00fcr ein Mindfuck das gewesen sein muss: Als Tomas Lindberg die Vocals f\u00fcr dieses At The Gates-Album einsang, rang er schon ei\u2026 [+5234 chars]",
+          "url": "https://laut.de/At-The-Gates/Alben/The-Ghost-Of-A-Future-Dead-126581",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T06:09:07Z",
+          "author": "Gil Bieler",
+          "image_url": "https://laut.de/At-The-Gates/Alben/The-Ghost-Of-A-Future-Dead-126581/at-the-gates-ghost-of-a-future-dead-250363.jpg?752dd1",
+          "is_local_nj": false,
+          "article_id": "9b0ae75033fc",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "mkdocs-rsoxs 0.1.1",
+          "description": "A mkdocs theme for als rsoxs projects",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/mkdocs-rsoxs/0.1.1/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T05:17:54Z",
+          "author": "73567020+HarlanHeilman@users.noreply.github.com",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "04b4b45070da",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "mkdocs-rsoxs 0.1.0",
+          "description": "A mkdocs theme for als rsoxs projects",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/mkdocs-rsoxs/0.1.0/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T02:23:16Z",
+          "author": "73567020+HarlanHeilman@users.noreply.github.com",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "861b4435c64b",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Towards integrated people-centred health services: patient-reported experiences of post-COVID care in Austria - PubMed",
+          "description": "Patients suffering from post-COVID symptoms perceive patient care in Austria as unable to adequately meet their needs. Pushing ahead with the planned implementation of specialized centers makes sense from both a medical and economic perspective.",
+          "content": "Background:\r\nThis study examined patient perspectives and related the findings to the WHO framework for Integrated People-Centred Health Services in Austrian patients suffering from post-COVID sympto\u2026 [+2716 chars]",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42024184/",
+          "source_name": "National Institutes of Health",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T23:22:38Z",
+          "author": null,
+          "image_url": "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg",
+          "is_local_nj": false,
+          "article_id": "4945362874b8",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "LeonaBio to Host Virtual Key Opinion Leader Event Highlighting Potential of Lasofoxifene in Treatment-Resistant ER+/HER2-, ESR1-Mutated Metastatic Breast Cancer",
+          "description": "Management to be Joined by Two Clinical Leaders in the Breast Cancer Field\u00a0  Expected to Complete Enrollment in Ongoing ELAINE-3 Phase 3 Registrational...",
+          "content": "Management to be Joined by Two Clinical Leaders in the Breast Cancer Field\u00a0\r\nExpected to Complete Enrollment in Ongoing ELAINE-3 Phase 3 Registrational Study of Lasofoxifene in Metastatic Breast Canc\u2026 [+10650 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/23/3280370/0/en/LeonaBio-to-Host-Virtual-Key-Opinion-Leader-Event-Highlighting-Potential-of-Lasofoxifene-in-Treatment-Resistant-ER-HER2-ESR1-Mutated-Metastatic-Breast-Cancer.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T20:05:00Z",
+          "author": "LeonaBio, Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/84ac024a-139b-463f-a43f-ed787a66c0fd",
+          "is_local_nj": false,
+          "article_id": "756e42ab9c66",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Minnesota Vikings left grieving hours before NFL Draft as they mourn the death of Doug Martin at 68",
+          "description": "The Minnesota Vikings are in mourning following the death of the team's former first-round pick from the 1980 NFL Draft. The team announced his passing just hours before the first round of this year's draft.",
+          "content": "The Minnesota Vikings are mourning the loss of retired defensive end Doug Martin following his death at 68.\r\nThe ninth-overall pick of the 1980 NFL Draft, Martin would go on to play 10 seasons, earni\u2026 [+1966 chars]",
+          "url": "https://www.dailymail.com/sport/nfl/article-15760291/Minnesota-Vikings-NFL-Draft-Doug-Martin.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T19:51:44Z",
+          "author": "Alex Raskin",
+          "image_url": "https://i.dailymail.com/1s/2026/04/23/20/108112485-0-The_Minnesota_Vikings_are_mourning_the_loss_of_Doug_Martin_follo-a-20_1776973953661.jpg",
+          "is_local_nj": false,
+          "article_id": "f041dd8873d8",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "\u2018Game of Thrones\u2019 actor Michael Patrick\u2019s heartbreaking final post revealed how long he had to live before death at 35",
+              "url": "https://pagesix.com/2026/04/09/celebrity-news/game-of-thrones-actor-michael-patricks-revealed-how-long-he-had-to-live-in-final-post/",
+              "digest_date": "2026-04-12"
+            },
+            {
+              "title": "Radar Reveals Everything Eric Dane Said About His ALS Battle Before His Tragic Death at 53 \u2014 'I Was Heartbroken'",
+              "url": "https://okmagazine.com/p/eric-dane-als-battle-everything-he-said-about-his-health-condition/",
+              "digest_date": "2026-03-15"
+            }
+          ]
+        },
+        {
+          "title": "48 Hours Left: Disney World\u2019s Frontierland Landmarks Closing Forever After 50 Years",
+          "description": "A noticeable shift is taking place at Walt Disney World, particularly inside Magic Kingdom\u2019s Frontierland. On the surface, Frontierland still appears largely unchanged. Background music continues to play, guests move through the familiar wooden walkways, and \u2026",
+          "content": "A noticeable shift is taking place at Walt Disney World, particularly inside Magic Kingdoms Frontierland.\r\nOn the surface, Frontierland still appears largely unchanged. Background music continues to \u2026 [+6053 chars]",
+          "url": "https://insidethemagic.net/?p=824979&preview=true&preview_id=824979",
+          "source_name": "Inside the Magic",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T18:05:20Z",
+          "author": "Sarah Larson",
+          "image_url": "https://insidethemagic.net/wp-content/uploads/2025/11/walt-disney-world-railroad-at-frontierland.jpg",
+          "is_local_nj": false,
+          "article_id": "10131110bb64",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "World Press Photo Award: ICE-Gewalt in den USA",
+          "description": null,
+          "content": "Kinder klammern sich am T-Shirt ihres Vaters fest. Man sieht H\u00e4nde und Verzweiflung, doch den Vater nicht: Das Foto aus einem Gericht in New York ist das Weltpressefoto des Jahres. Es zeigt die Folge\u2026 [+1065 chars]",
+          "url": "https://orf.at/stories/3427755/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T13:49:14Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "8a7b68109eb9",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH",
+          "description": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH HIGHLIGHTS: \u2022 Definitive Feasibility Study confirms Assafou\u2019s potential to become a cornerstore asset for Endeavour highlighting: \u00a0 >\u00a0 320kozpa pr\u2026",
+          "content": "Figure 7: Assafou Deposit Map\r\nFigure 8 below highlights that 2025 drilling has identified mineralisation towards the southeast of the Assafou deposit, below the existing pit shell. Mineralisation st\u2026 [+23335 chars]",
+          "url": "https://financialpost.com/globe-newswire/endeavour-announces-positive-dfs-results-for-the-assafou-project-that-underpins-the-next-phase-of-organic-growth",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T13:30:20Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "b66407daad09",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+              "url": "https://financialpost.com/globe-newswire/b2gold-announces-positive-results-from-its-2025-exploration-program-at-the-back-river-gold-district-drill-results-confirm-significant-resource-potential-district-wide",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+              "url": "https://www.globenewswire.com/news-release/2026/03/25/3262636/0/en/B2Gold-Announces-Positive-Results-from-its-2025-Exploration-Program-at-the-Back-River-Gold-District-Drill-Results-Confirm-Significant-Resource-Potential-District-Wide.html",
+              "digest_date": "2026-03-29"
+            }
+          ]
+        },
+        {
+          "title": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH",
+          "description": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH HIGHLIGHTS:\u2022Definitive Feasibility Study...",
+          "content": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH\r\n<table><tr><td>HIGHLIGHTS:</td></tr><tr><td></td><td>Definitive Feasibility Study con\u2026 [+69783 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/23/3280063/0/en/ENDEAVOUR-ANNOUNCES-POSITIVE-DFS-RESULTS-FOR-THE-ASSAFOU-PROJECT-THAT-UNDERPINS-THE-NEXT-PHASE-OF-ORGANIC-GROWTH.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T13:30:00Z",
+          "author": "Endeavour Mining PLC",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/cff109e5-0693-447f-8afe-290bcfdfd66f",
+          "is_local_nj": false,
+          "article_id": "47d4a25bedd9",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+              "url": "https://financialpost.com/globe-newswire/b2gold-announces-positive-results-from-its-2025-exploration-program-at-the-back-river-gold-district-drill-results-confirm-significant-resource-potential-district-wide",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+              "url": "https://www.globenewswire.com/news-release/2026/03/25/3262636/0/en/B2Gold-Announces-Positive-Results-from-its-2025-Exploration-Program-at-the-Back-River-Gold-District-Drill-Results-Confirm-Significant-Resource-Potential-District-Wide.html",
+              "digest_date": "2026-03-29"
+            }
+          ]
+        },
+        {
+          "title": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH",
+          "description": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH HIGHLIGHTS:\u2022Definitive Feasibility Study...",
+          "content": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH\r\n<table><tr><td>HIGHLIGHTS:</td></tr><tr><td></td><td>Definitive Feasibility Study con\u2026 [+68811 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/23/3280064/0/en/ENDEAVOUR-ANNOUNCES-POSITIVE-DFS-RESULTS-FOR-THE-ASSAFOU-PROJECT-THAT-UNDERPINS-THE-NEXT-PHASE-OF-ORGANIC-GROWTH.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T13:30:00Z",
+          "author": "Endeavour Mining PLC",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/cff109e5-0693-447f-8afe-290bcfdfd66f",
+          "is_local_nj": false,
+          "article_id": "e6d3f8ce174d",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+              "url": "https://financialpost.com/globe-newswire/b2gold-announces-positive-results-from-its-2025-exploration-program-at-the-back-river-gold-district-drill-results-confirm-significant-resource-potential-district-wide",
+              "digest_date": "2026-03-29"
+            },
+            {
+              "title": "B2Gold Announces Positive Results from its 2025 Exploration Program at the Back River Gold District; Drill Results Confirm Significant Resource Potential District Wide",
+              "url": "https://www.globenewswire.com/news-release/2026/03/25/3262636/0/en/B2Gold-Announces-Positive-Results-from-its-2025-Exploration-Program-at-the-Back-River-Gold-District-Drill-Results-Confirm-Significant-Resource-Potential-District-Wide.html",
+              "digest_date": "2026-03-29"
+            }
+          ]
+        },
+        {
+          "title": "Prince Harry arrived in Ukraine for a surprise two-day visit & keynote speech",
+          "description": "Prince Harry is in Ukraine for the third time in thirteen months, and second time in the past eight months. Last September, he made a semi-surprise visit to Kyiv directly after spending almost a week in the UK. Given the timing of this week\u2019s surprise visit, \u2026",
+          "content": "Prince Harry is in Ukraine for the third time in thirteen months, and second time in the past eight months. Last September, he made a semi-surprise visit to Kyiv directly after spending almost a week\u2026 [+6589 chars]",
+          "url": "https://www.celebitchy.com/973452/prince_harry_arrived_in_ukraine_for_a_surprise_two-day_visit_keynote_security_speech/",
+          "source_name": "Celebitchy.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T11:25:05Z",
+          "author": "Kaiser",
+          "image_url": "https://www.celebitchy.com/wp-content/uploads/2026/04/avalon-0805503545.jpg",
+          "is_local_nj": false,
+          "article_id": "dd7dbabdc523",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Mirasol Provides Exploration Update on Sobek Copper-Gold Project in the Vicu\u00f1a District, Chile",
+          "description": "Exploration season completed, including two drill holes, at the 46 South Target located just 7 km west of Filo del Sol in the Vicu\u00f1a District, at the south end of Sobek Central Results from the first drill hole testing the 46 South target confirm a structural\u2026",
+          "content": "High-Profile Vicu\u00f1a\r\nCopper-Gold-Silver District\r\nMirasol staked the Sobek Project in 2016 based on prospective local geology and attractive structural architecture prior to the 2021 discovery of the\u2026 [+4380 chars]",
+          "url": "https://financialpost.com/globe-newswire/mirasol-provides-exploration-update-on-sobek-copper-gold-project-in-the-vicuna-district-chile",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T11:04:03Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "9d8c82719df3",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Entr\u00e9e Resources Provides JV Licenses Update and Drill and Regional Exploration Results",
+              "url": "https://www.globenewswire.com/news-release/2026/04/09/3270839/0/en/Entr%C3%A9e-Resources-Provides-JV-Licenses-Update-and-Drill-and-Regional-Exploration-Results.html",
+              "digest_date": "2026-04-12"
+            },
+            {
+              "title": "Almadex Provides New Hope Drilling, Big Sky Project and General Exploration Update",
+              "url": "https://financialpost.com/globe-newswire/almadex-provides-new-hope-drilling-big-sky-project-and-general-exploration-update",
+              "digest_date": "2026-04-05"
+            },
+            {
+              "title": "Almadex Provides New Hope Drilling, Big Sky Project and General Exploration Update",
+              "url": "https://www.globenewswire.com/news-release/2026/04/01/3266513/0/en/Almadex-Provides-New-Hope-Drilling-Big-Sky-Project-and-General-Exploration-Update.html",
+              "digest_date": "2026-04-05"
+            }
+          ]
+        },
+        {
+          "title": "David Malouf was a writer of wisdom, grace and generosity",
+          "description": "As an accomplished novelist, poet and essayist, David Malouf possessed a rare ability to work across genres with flair and elegance.",
+          "content": "Conrad del Villar/UQP\r\nDavid George Joseph Malouf AO, one of Australia\u2019s most accomplished, internationally renowned and beloved writers, has died aged 92. \n\nMalouf\u2019s novels are cherished by readers \u2026 [+10780 chars]",
+          "url": "https://theconversation.com/david-malouf-was-a-writer-of-wisdom-grace-and-generosity-223011",
+          "source_name": "The Conversation Africa",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T09:14:20Z",
+          "author": "Brigid Rooney, Associate Professor (Affiliate), Australian Literature, University of Sydney",
+          "image_url": "https://images.theconversation.com/files/731880/original/file-20260423-57-w5srd4.jpg?ixlib=rb-4.1.0&rect=0%2C315%2C1600%2C800&q=45&auto=format&w=1356&h=668&fit=crop",
+          "is_local_nj": false,
+          "article_id": "65538c6189f3",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "fastgc added to PyPI",
+          "description": "FAST-GC: Fully Adaptive Self-Tuning Sensor-Agnostic Ground Classification for LiDAR point clouds",
+          "content": "FAST-GC\r\nFully Adaptive Self-Tuning Sensor-Agnostic LiDAR Ground Classification Framework\r\nFAST-GC (Fully Adaptive Self-Tuning Sensor-Agnostic Ground Classification) is a Python framework for LiDAR g\u2026 [+17433 chars]",
+          "url": "https://pypi.org/project/fastgc/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-04-23T05:09:42Z",
+          "author": null,
+          "image_url": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+          "is_local_nj": false,
+          "article_id": "2eced5793843",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "American: San Francisco \u2013 Jacksonville, Florida (and vice versa). $240 (Basic Economy) / $348 (Regular Economy). Roundtrip, including all Taxes",
+          "description": "A good sale to / from Jacksonville. Pricing can vary slightly depending on routingThe $348 fare is the regular fare which allows advance seat assignments and a normal size carry-onAmerican als",
+          "content": "A good sale to / from Jacksonville. Pricing can vary slightly depending on routing\r\nThe $348 fare is the regular fare which allows advance seat assignments and a normal size carry-on\r\nAmerican also h\u2026 [+4502 chars]",
+          "url": "https://www.theflightdeal.com/2026/04/22/american-san-francisco-jacksonville-florida-and-vice-versa-240-basic-economy-348-regular-economy-roundtrip-including-all-taxes/",
+          "source_name": "Theflightdeal.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T18:53:55Z",
+          "author": "The Flight Deal",
+          "image_url": "https://www.theflightdeal.com/wp-content/uploads/2014/12/jacksonville_december.jpg",
+          "is_local_nj": false,
+          "article_id": "7f7d7dce7258",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "American: San Francisco \u2013 Jacksonville, Florida (and vice versa). $240 (Basic Economy) / $347 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/03/26/american-san-francisco-jacksonville-florida-and-vice-versa-240-basic-economy-347-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-03-29"
+            }
+          ]
+        },
+        {
+          "title": "American: Los Angeles \u2013 Orlando, Florida (and vice versa). $219 (Basic Economy) / $339 (Regular Economy). Roundtrip, including all Taxes",
+          "description": "A good sale for nonstop service to/from OrlandoThe $339 fare is the regular fare which allows for normal size carry-on and one personal item in addition to advance seat assignment.American als",
+          "content": "A good sale for nonstop service to/from Orlando\r\nThe $339 fare is the regular fare which allows for normal size carry-on and one personal item in addition to advance seat assignment.\r\nAmerican also h\u2026 [+3502 chars]",
+          "url": "https://www.theflightdeal.com/2026/04/22/american-los-angeles-orlando-florida-and-vice-versa-219-basic-economy-339-regular-economy-roundtrip-including-all-taxes/",
+          "source_name": "Theflightdeal.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T18:28:48Z",
+          "author": "The Flight Deal",
+          "image_url": "https://www.theflightdeal.com/wp-content/uploads/2014/08/orlando_epcot-640x390.jpg",
+          "is_local_nj": false,
+          "article_id": "a810cd707fb2",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "American: San Francisco \u2013 Jacksonville, Florida (and vice versa). $240 (Basic Economy) / $347 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/03/26/american-san-francisco-jacksonville-florida-and-vice-versa-240-basic-economy-347-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-03-29"
+            }
+          ]
+        },
+        {
+          "title": "German word of the day: Aussteiger",
+          "description": "Have you ever had the urge to talk with Germans about turning on, tuning in and dropping out? Today\u2019s word is for everyone who has ever toyed with the idea of leaving it all behind.",
+          "content": "Have you ever had the urge to talk with Germans about turning on, tuning in and dropping out? Todays word is for everyone who has ever toyed with the idea of leaving it all behind.\r\n What does Ausste\u2026 [+2520 chars]",
+          "url": "https://www.thelocal.de/20260422/german-word-of-the-day-aussteiger",
+          "source_name": "The Local Germany",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T14:17:50Z",
+          "author": "The Local",
+          "image_url": "https://assets.thelocal.com/cdn-cgi/rs:fit:1200/quality:75/plain/https://apiwp.thelocal.com/wp-content/uploads/2026/04/watermarks-logo-word-of-the-day-blank-picture34.jpg@webp",
+          "is_local_nj": false,
+          "article_id": "dae9d43d7f07",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "'Finding Satoshi' Makes the Case for Hal Finney, Len Sassaman as Bitcoin Co-Creators",
+          "description": "A new documentary asserts that Bitcoin creator Satoshi Nakamoto was actually two people: the late Hal Finney and Len Sassaman.",
+          "content": "In brief\r\n<ul><li>A new documentary argues that Bitcoin creator Satoshi Nakamoto was two people: late cryptographers Hal Finney and Len Sassaman.</li><li>The documentarys investigation relied on a pr\u2026 [+5340 chars]",
+          "url": "https://decrypt.co/365075/finding-satoshi-makes-the-case-for-hal-finney-len-sassaman-as-bitcoin-co-creators",
+          "source_name": "Decrypt",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T13:01:03Z",
+          "author": "Andr\u00e9 Beganski",
+          "image_url": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/satoshi-nakamoto-statue-lugano-gID_7.jpg",
+          "is_local_nj": false,
+          "article_id": "4c38eae0b981",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Emerita Intersects High Grade Zone of 4.9m Containing Mineralization Grading 3.5% Copper, 1.95 g/t Gold and 95.63 g/t Silver at El Cura",
+          "description": "TORONTO, April 22, 2026 (GLOBE NEWSWIRE) -- Emerita Resources Corp. (TSX-V: EMO; OTCQX: EMOTF; FSE: LLJA) (the \u201cCompany\u201d or \u201cEmerita\u201d) reports results from ongoing drilling of El Cura deposit. El Cura is part of Emerita\u2019s wholly owned Iberian Belt West projec\u2026",
+          "content": "TORONTO, April 22, 2026 (GLOBE NEWSWIRE) -- Emerita Resources Corp. (TSX-V: EMO; OTCQX: EMOTF; FSE: LLJA) (the Company or Emerita) reports results from ongoing drilling of El Cura deposit. El Cura is\u2026 [+9836 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/04/22/3278804/0/en/Emerita-Intersects-High-Grade-Zone-of-4-9m-Containing-Mineralization-Grading-3-5-Copper-1-95-g-t-Gold-and-95-63-g-t-Silver-at-El-Cura.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T11:00:00Z",
+          "author": "Emerita Resources Corp.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/4f79f4fa-5c57-4a06-845c-225193c952fb",
+          "is_local_nj": false,
+          "article_id": "ab1f09130654",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Trident Intersects 4.61 g/t Au over 38.48m from 77.00m, including 5.48 g/t over 26.14m from Hole 26028 \u2013 200m ENE of 2025 Drilling. Hole 26025 intersects 11.97 g/t over 10.70m from 324.20m at Contact Lake, Expands Winter Drill Program",
+              "url": "https://www.globenewswire.com/news-release/2026/04/15/3274154/0/en/Trident-Intersects-4-61-g-t-Au-over-38-48m-from-77-00m-including-5-48-g-t-over-26-14m-from-Hole-26028-200m-ENE-of-2025-Drilling-Hole-26025-intersects-11-97-g-t-over-10-70m-from-324.html",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "NevGold Announces Up to 99% Gold Recovery From Phase II Metallurgical Testwork on Oxide Antimony-Gold; Identifies More Antimony Mineralization At Surface In Historical Gold Waste Dump",
+              "url": "https://financialpost.com/globe-newswire/nevgold-announces-up-to-99-gold-recovery-from-phase-ii-metallurgical-testwork-on-oxide-antimony-gold-identifies-more-antimony-mineralization-at-surface-in-historical-gold-waste-dump",
+              "digest_date": "2026-04-05"
+            },
+            {
+              "title": "NevGold Announces Up to 99% Gold Recovery From Phase II Metallurgical Testwork on Oxide Antimony-Gold; Identifies More Antimony Mineralization At Surface In Historical Gold Waste Dump",
+              "url": "https://www.globenewswire.com/news-release/2026/04/02/3267253/0/en/NevGold-Announces-Up-to-99-Gold-Recovery-From-Phase-II-Metallurgical-Testwork-on-Oxide-Antimony-Gold-Identifies-More-Antimony-Mineralization-At-Surface-In-Historical-Gold-Waste-Dum.html",
+              "digest_date": "2026-04-05"
+            }
+          ]
+        },
+        {
+          "title": "Arctic Wolf introduceert Decipio, een \u2018community-shared defensive cybersecuritytool\u2019 om logindiefstal tegen te gaan",
+          "description": "Amsterdam, 22 april 2026 \u2013 Arctic Wolf komt met Decipio, een \u2018community-shared defensive cybersecuritytool\u2019 die securityteams helpt om aanvallers te [\u2026]",
+          "content": "Amsterdam, 22 april 2026 Arctic Wolf komt met Decipio, een community-shared defensive cybersecuritytool die securityteams helpt om aanvallers te onderscheppen op het moment dat ze logingegevens binne\u2026 [+4267 chars]",
+          "url": "https://www.emerce.nl/wire/arctic-wolf-introduceert-decipio-communityshared-defensive-cybersecuritytool-om-logindiefstal-tegen-gaan",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T07:31:03Z",
+          "author": "Stark Narrative",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/04/Arctic-Wolf-announcement1.jpg",
+          "is_local_nj": false,
+          "article_id": "5c8561ceb4db",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Nine Inch Noize\" von Nine Inch Nails & Boys Noize",
+          "description": "Nine Inch Nails & Boys Noize - \"Nine Inch Noize\"",
+          "content": "laut.de-Kritik\r\nDisco Brutal im Bunker.\r\nReview von Rinko Heidrich\r\nStell dir vor, eine der gr\u00f6\u00dften Legenden des Industrial-Rock bietet dir eine Zusammenarbeit an. Zwar geh\u00f6rt Alex Rhieda a.k.a. Boys\u2026 [+6224 chars]",
+          "url": "https://laut.de/Nine-Inch-Nails-Boys-Noize/Alben/Nine-Inch-Noize-126855",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-21T14:56:14Z",
+          "author": "Rinko Heidrich",
+          "image_url": "https://laut.de/Nine-Inch-Nails-Boys-Noize/Alben/Nine-Inch-Noize-126855/nine-inch-nails-boys-noize-250309.jpg?d4b090",
+          "is_local_nj": false,
+          "article_id": "dcbafd1ea621",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u201eThe Company Man\u201c tritt zur\u00fcck",
+          "description": "Today we announced that I\u2019m taking the next step in my journey at Apple. Over the coming months I will be transitioning into a new role, leaving the CEO job behind in September and becoming Apple\u2019s executive chairman. A new person will be stepping into what I\u2026",
+          "content": "Today we announced that Im taking the next step in my journey at Apple. Over the coming months I will be transitioning into a new role, leaving the CEO job behind in September and becoming Apples exe\u2026 [+3330 chars]",
+          "url": "https://www.iphoneblog.de/2026/04/21/the-company-man-tritt-zuruck/",
+          "source_name": "Iphoneblog.de",
+          "source_type": "newsapi",
+          "published_at": "2026-04-21T08:42:37Z",
+          "author": "Alex Olma",
+          "image_url": "https://www.iphoneblog.de/wp-content/uploads/2026/04/iphoneblog.de_tim_cook_and_john_ternus_apple_executive_changes.jpg",
+          "is_local_nj": false,
+          "article_id": "75c20d4b6aa3",
+          "summary": "Not relevant to ALS research or patient care.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [
+        {
+          "title": "New Antibody Drugs Target Disease From Within",
+          "description": "AI\u2011designed intracellular antibody fragments can stay stable inside cells and bind misfolded proteins, opening new treatment routes for diseases.",
+          "content": "Antibodies can now be re-engineered to work inside cells, not just on their surface, using AI-guided redesign of their binding fragments so they remain stable in the intracellular environment and can\u2026 [+6001 chars]",
+          "url": "https://www.forbes.com/sites/williamhaseltine/2026/04/24/new-antibody-drugs-target-disease-from-within/",
+          "source_name": "Forbes",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T13:56:35Z",
+          "author": "William A. Haseltine, Contributor, \n William A. Haseltine, Contributor\n https://www.forbes.com/sites/williamhaseltine/",
+          "image_url": "https://imageio.forbes.com/specials-images/imageserve/69eb753f7bde49e09d973a63/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+          "is_local_nj": false,
+          "article_id": "f8619b82ea0f",
+          "summary": "AI-designed intracellular antibody fragments represent a new therapeutic approach that can remain stable inside cells and bind to misfolded proteins. This breakthrough opens new treatment routes for neurodegenerative diseases including ALS.",
+          "importance": 4,
+          "key_entities": [
+            "antibody drugs",
+            "intracellular antibodies",
+            "misfolded proteins",
+            "AI-designed therapeutics"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "The Doctor Using AI to Find Hidden Cures",
+          "description": "After nearly dying, Dr. David Fajgenbaum learned that the treatment for his rare disease was sitting on the shelf at his local pharmacy. Now he\u2019s using AI to search for thousands of other cures that may be hiding in plain sight.",
+          "content": "YOURE 28 YEARS OLD, and youre lying in a hospital bed, more dead than alive.\r\nYour organs are failing. Your kidneys have stopped functioning, which means you cant pee, so fluid is collecting in parts\u2026 [+32406 chars]",
+          "url": "https://www.menshealth.com/health/a70885753/david-fajgenbaum-every-cure-interview/",
+          "source_name": "menshealth.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-21T13:00:00Z",
+          "author": "Ryan D'Agostino",
+          "image_url": "https://hips.hearstapps.com/hmg-prod/images/fe94fd3a-d20f-4cbf-840b-c2002cc1fbfa.jpg?crop=1xw:0.751631853786xh;center,top&resize=1200:*",
+          "is_local_nj": false,
+          "article_id": "5e0c0c28f79b",
+          "summary": "Dr. David Fajgenbaum, who nearly died from a rare disease that was treated with a drug already available on pharmacy shelves, is now using AI technology to identify hidden cures for thousands of other diseases. This innovative approach could accelerate treatment discovery for conditions including neurodegenerative diseases.",
+          "importance": 4,
+          "key_entities": [
+            "AI drug discovery",
+            "rare disease treatment",
+            "hidden cures",
+            "drug repurposing"
+          ],
+          "related_previous": []
+        }
+      ],
+      "cure": [],
+      "grants": [],
+      "assistance": [
+        {
+          "title": "Dad With ALS Who Went Viral for Sharing His Journey Announces His Own Death: 'Deeply Grateful'",
+          "description": "Darin Nakakihara, a teacher who went viral for documenting his journey with amyotrophic lateral sclerosis (ALS), died Wednesday, April 22, 2026",
+          "content": "Darin Nakakihara, a teacher who went viral for documenting his journey with amyotrophic lateral sclerosis (ALS), died Wednesday, April 22, 2026.\r\nNakakihara himself announced the news of his death in\u2026 [+2307 chars]",
+          "url": "https://www.today.com/health/disease/darin-nakakihara-death-announcement-als-rcna341875",
+          "source_name": "TODAY",
+          "source_type": "newsapi",
+          "published_at": "2026-04-24T15:04:10Z",
+          "author": "Aryelle Siclait",
+          "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2026-04/Darin-nakakihara-2-04242026-e3c971.jpg",
+          "is_local_nj": false,
+          "article_id": "f6f39cb24175",
+          "summary": "Darin Nakakihara, a teacher who documented his ALS journey and went viral on social media, has passed away on April 22, 2026. His public documentation of living with ALS raised awareness and inspired others facing the disease.",
+          "importance": 3,
+          "key_entities": [
+            "Darin Nakakihara",
+            "ALS awareness",
+            "patient advocacy"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Rebecca Gayheart looks somber at sushi dinner with daughter 2 months after ex Eric Dane's death",
+          "description": "Gayheart, 54, and Georgia, 14, spent one-on-one time together as they dined at Sushi Park in West Hollywood, a restaurant that Kylie and Kendall Jenner frequent.",
+          "content": "Eric Dane's\u00a0widow Rebecca Gayheart and their daughter Georgia stepped out for dinner in Los Angeles on Tuesday night.\r\nIt comes two months\u00a0after the actor died at age 53 following a battle with amyot\u2026 [+3147 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-15755517/Rebecca-Gayheart-somber-Eric-Dane.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-22T14:34:12Z",
+          "author": "Ashleigh Gray",
+          "image_url": "https://i.dailymail.com/1s/2026/04/22/15/108073951-0-image-m-11_1776867071140.jpg",
+          "is_local_nj": false,
+          "article_id": "b0e62763f5fa",
+          "summary": "Rebecca Gayheart and her daughter are shown adjusting to life after the death of Eric Dane from ALS. The article highlights the family impact of ALS-related loss.",
+          "importance": 2,
+          "key_entities": [
+            "Rebecca Gayheart",
+            "Eric Dane",
+            "ALS",
+            "family impact"
+          ],
+          "related_previous": [
+            {
+              "title": "Dax Shepard slammed for exposing late Eric Dane's private AA struggles after death",
+              "url": "https://www.foxnews.com/entertainment/dax-shepard-slammed-exposing-late-eric-danes-private-aa-struggles-death",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "How Dax Shepard, Eric Dane Bonded After Tense Encounter at AA Meeting",
+              "url": "https://www.eonline.com/news/1430779/dax-shepard-on-eric-dane-friendship-attending-aa-meetings",
+              "digest_date": "2026-04-12"
+            },
+            {
+              "title": "EXCLUSIVE: Eric Dane's Family 'Consumed With Grief' Over His 'Ghoulish' Appearance on Hit TV Show Weeks After His Death",
+              "url": "https://radaronline.com/p/eric-dane-family-grief-tv-appearance-euphoria-trailer-death/",
+              "digest_date": "2026-04-05"
+            }
+          ]
+        },
+        {
+          "title": "Sandra Bullock says she 'won't sacrifice' her family time as she gives a rare insight into raising two children alone after the tragic death of long-term partner Bryan Randall",
+          "description": "The Academy Award winning actress raises son Louis, 16, and daughter Laila, 12, alone following the tragic death of her long-term partner Bryan Randall to\u00a0Amyotrophic Lateral Sclerosis.",
+          "content": "Sandra Bullock says her responsibilities as a lone parent outweigh the inevitable pressures that come with mainstream filmmaking.\u00a0\r\nThe Academy Award winning actress raises son Louis, 16, and daughte\u2026 [+3791 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-15751169/Sandra-Bullock-says-wont-sacrifice-family-time-gives-rare-insight-raising-two-children-tragic-death-long-term-partner-Bryan-Randall.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-04-21T11:44:50Z",
+          "author": "Jason Chester",
+          "image_url": "https://i.dailymail.com/1s/2026/04/21/12/108043275-0-image-m-78_1776771007316.jpg",
+          "is_local_nj": false,
+          "article_id": "47200dedadee",
+          "summary": "Sandra Bullock is raising her two children alone following the death of her long-term partner Bryan Randall from amyotrophic lateral sclerosis (ALS). She discusses balancing parenting and career while managing family life after ALS-related loss.",
+          "importance": 2,
+          "key_entities": [
+            "Sandra Bullock",
+            "Bryan Randall",
+            "ALS",
+            "caregiver support",
+            "family impact"
+          ],
+          "related_previous": [
+            {
+              "title": "How Sandra Bullock handled heartbreak after partner Bryan Randall\u2019s tragic death 3 years ago",
+              "url": "https://pagesix.com/2026/04/16/celebrity-news/how-sandra-bullock-handled-heartbreak-after-partner-bryan-randalls-death-3-years-ago/",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "How Sandra Bullock Is Easing Back Into the Spotlight After Tragedy",
+              "url": "https://www.eonline.com/news/1430982/sandra-bullocks-return-to-public-life-after-bryan-randalls-death",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "EXCLUSIVE: Eric Dane's Family 'Consumed With Grief' Over His 'Ghoulish' Appearance on Hit TV Show Weeks After His Death",
+              "url": "https://radaronline.com/p/eric-dane-family-grief-tv-appearance-euphoria-trailer-death/",
+              "digest_date": "2026-04-05"
+            }
+          ]
+        }
+      ],
+      "local": [
+        {
+          "title": "New Mexico United releases new jersey to raise money for ALS research - MSN",
+          "description": "New Mexico United releases new jersey to raise money for ALS research&nbsp;&nbsp;MSN",
+          "content": "",
+          "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPVGlEYTBFQ05HRlY5cmVaWDRkdWZ0eHlnNXRwVnNKUDFocjRGMi16VC1LQW12QXJsdUpQcTVkX2xwZWx4UVRwclB0Rm5xNVk0UC1XQUoxUHgzX0RyRTZxWnFjdnMxbDI1N09WRGxWR1QwbHNXZWFGVU9VVmFEUUtwdHktNnVfd1JqN1lxc3Q1bHNqZnlpS0UxSmttVnVweS0zczFJN0JuZThhVUVzU3VNcDJ5SGlzc3BhcUV6dkNYbVdEbjVxaF9aOXZaZERxT3hyUFNwVU5JZUt4MG1waVkzSWN5cXFsSFhIZWs4YXdsTG5qOFEwZmJ0SmhFMUZNNUZYRjROYzFhZXJjdUR1Y3JsMjF0MGVYbVhWa3hGZTFCWXZEZGIxT3E3MWI4UkdKLUE3cUxuaVNrWVk1MEh3UHVSVHpnSGRKdVRCT0U3MUtHclNsQ0FvUWE0Nkh2eDc1cXJHNGlndGdnSXBUMjUwd1VF?oc=5",
+          "source_name": "Google News (\"New Jersey\" ALS...)",
+          "source_type": "rss",
+          "published_at": "2026-04-24T02:55:16",
+          "author": "",
+          "image_url": "",
+          "is_local_nj": true,
+          "category_hint": null,
+          "article_id": "e927ea0e7de9",
+          "summary": "New Mexico United, a sports organization, is releasing a new jersey with proceeds going to ALS research. This fundraising initiative combines sports and charitable giving to support ALS research efforts.",
+          "importance": 3,
+          "key_entities": [
+            "New Mexico United",
+            "ALS research fundraising",
+            "New Jersey"
+          ],
+          "related_previous": [
+            {
+              "title": "New Mexico United releases new jersey to raise money for ALS research - MSN",
+              "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQRzRzTVFXQXNEdUduQzNBT09xSm5hbHBYUENxY2M2alh2QXZYc2FLQ3FiMHBZeF91UXI2ZDBoaTRVM2tjQVJZU09CRnROSWdXb3lsMjVwNlNVVk55RDR2dzRLY1VPd19xRHN5NnlGdUlhRVZXQWNscjZ5eVZkekY0SE04X1lxbW0zNWNET3VMTUVfYXpWSkVmaHVabjlaS0JrRlNLeEMxQUVoNEFsTENrQ3FXTWd5TUk4Y3E5Q1ZtdElRLURua2UzTkdzcURPdWN5SDdCWXJkMTExajNYWXNnOGY3V2NTYW41VlJTclJMZXFTenRtakxESFFDZWRlYWNtUzlvaGF4THlaOTV0Q0NYOG5wVXhiR0tPRWpTTTF6X2ZPZUpYSGlmNGlMVjFDTm9yVEdRLUtmRUFWZkpHMlRvSHhyNU9BOHJMZ0s3dUR6aDFYRVk?oc=5",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "New Jersey Bill Allows Contributions on Income Tax Returns to ALS Association - taxnotes.com",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObThDdHhzZUpqT2Y2ZW1VbGRsYnpzcDJsOHlXT252RHVMU0thS1NiV0dfTElxd3lSYlp2Q18wVHdpMVNDWUttc0ZTaVJtUTdraHhtaDFrXzhfWWRLWDN1VkM4cDJ3WE1rdmpVTFctd1BiNjFYTVgyQXdLRERIdkJqajNpR0JxaU5DMld0U2p5MWFBRGg4WUw3Y1FpZXdTTHRHOG1EQklnVzB5a3ZkTlVqZ3AyeURUaUNCeVlla0VIbDljbDJycGpwam5nTm9obTA?oc=5",
+              "digest_date": "2026-04-05"
+            },
+            {
+              "title": "Hundreds plunge at Manasquan Beach to raise funds for people with ALS - News12 | New Jersey",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOblY4YlU5a2NTemdVUTl5cGdZRkFad3ZDYmh3NjZpcERnSXd0cU5XcDVrRHR2QmtJeklNVGtrR0dPTUtIT181Ym16UHFtZV9WSE55ZnhPaERBQ0lTcHBXZTFvUlRTSG9xaDdreG9veU8xMnJhMi1xYXRrS2w3N1VEX3c4eXlvR1IyTWhZSnRCSnl4aU5QazVXLUhmRlBqMEU?oc=5",
+              "digest_date": "2026-02-22"
+            }
+          ]
+        }
+      ]
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 41,
+    "references": [
+      {
+        "title": "New Mexico United releases new jersey to raise money for ALS research - MSN",
+        "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPVGlEYTBFQ05HRlY5cmVaWDRkdWZ0eHlnNXRwVnNKUDFocjRGMi16VC1LQW12QXJsdUpQcTVkX2xwZWx4UVRwclB0Rm5xNVk0UC1XQUoxUHgzX0RyRTZxWnFjdnMxbDI1N09WRGxWR1QwbHNXZWFGVU9VVmFEUUtwdHktNnVfd1JqN1lxc3Q1bHNqZnlpS0UxSmttVnVweS0zczFJN0JuZThhVUVzU3VNcDJ5SGlzc3BhcUV6dkNYbVdEbjVxaF9aOXZaZERxT3hyUFNwVU5JZUt4MG1waVkzSWN5cXFsSFhIZWs4YXdsTG5qOFEwZmJ0SmhFMUZNNUZYRjROYzFhZXJjdUR1Y3JsMjF0MGVYbVhWa3hGZTFCWXZEZGIxT3E3MWI4UkdKLUE3cUxuaVNrWVk1MEh3UHVSVHpnSGRKdVRCT0U3MUtHclNsQ0FvUWE0Nkh2eDc1cXJHNGlndGdnSXBUMjUwd1VF?oc=5",
+        "source": "Google News (\"New Jersey\" ALS...)",
+        "date": "2026-04-24T02:55:16"
+      },
+      {
+        "title": "Jungle Leopard PC Case Figurine Shelf Holder Platform RGB, PC Shelf for Figures Computer Accessories Decor for Office Game,120MM",
+        "url": "https://www.amazon.de/-/en/Jungle-Leopard-Case-Figurine-Shelf/dp/B0GF8BGSTM",
+        "source": "Amazon.de",
+        "date": "2026-04-25T04:55:01Z"
+      },
+      {
+        "title": "Ren\u00e9e Zellweger\u2019s Boyfriend Ant Anstead Shares Rare Glimpse at Romance",
+        "url": "https://www.eonline.com/news/1431296/renee-zellweger-ant-anstead-celebrate-5th-anniversary-post",
+        "source": "Eonline.com",
+        "date": "2026-04-24T18:35:44Z"
+      },
+      {
+        "title": "When Did Eric Dane Film \u2018Euphoria\u2019 Season 3 Wedding Scenes Before He Died of ALS?",
+        "url": "https://hollywoodlife.com/feature/when-did-eric-dane-film-euphoria-scenes-5534885/",
+        "source": "Hollywood Life",
+        "date": "2026-04-24T16:41:48Z"
+      },
+      {
+        "title": "Von der Leyen: Engere Marinekooperation in Nahost",
+        "url": "https://orf.at/stories/3427875/",
+        "source": "Orf.at",
+        "date": "2026-04-24T16:18:49Z"
+      },
+      {
+        "title": "Dad With ALS Who Went Viral for Sharing His Journey Announces His Own Death: 'Deeply Grateful'",
+        "url": "https://www.today.com/health/disease/darin-nakakihara-death-announcement-als-rcna341875",
+        "source": "TODAY",
+        "date": "2026-04-24T15:04:10Z"
+      },
+      {
+        "title": "New Antibody Drugs Target Disease From Within",
+        "url": "https://www.forbes.com/sites/williamhaseltine/2026/04/24/new-antibody-drugs-target-disease-from-within/",
+        "source": "Forbes",
+        "date": "2026-04-24T13:56:35Z"
+      },
+      {
+        "title": "\"Location Lost\" von Failure",
+        "url": "https://laut.de/Failure/Alben/Location-Lost-126862",
+        "source": "Laut.de",
+        "date": "2026-04-24T11:17:46Z"
+      },
+      {
+        "title": "How geneticists uncovered a common root of two neurological diseases",
+        "url": "https://www.scientificamerican.com/article/how-geneticists-uncovered-a-common-root-of-two-neurological-diseases/",
+        "source": "Scientific American",
+        "date": "2026-04-24T11:00:00Z"
+      },
+      {
+        "title": "Einhell Automatische Gartenpumpe GE-AW 1144 Smart",
+        "url": "https://www.amazon.de/-/en/Einhell-Automatic-Watering-Schedule-Pre-Filter/dp/B0CKFL4HQH",
+        "source": "Amazon.de",
+        "date": "2026-04-24T09:10:01Z"
+      },
+      {
+        "title": "Syensqo - Participation notification by BlackRock Inc.",
+        "url": "https://www.globenewswire.com/news-release/2026/04/24/3280547/0/en/Syensqo-Participation-notification-by-BlackRock-Inc.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-24T06:45:00Z"
+      },
+      {
+        "title": "\"The Ghost Of A Future Dead\" von At The Gates",
+        "url": "https://laut.de/At-The-Gates/Alben/The-Ghost-Of-A-Future-Dead-126581",
+        "source": "Laut.de",
+        "date": "2026-04-24T06:09:07Z"
+      },
+      {
+        "title": "mkdocs-rsoxs 0.1.1",
+        "url": "https://pypi.org/project/mkdocs-rsoxs/0.1.1/",
+        "source": "Pypi.org",
+        "date": "2026-04-24T05:17:54Z"
+      },
+      {
+        "title": "mkdocs-rsoxs 0.1.0",
+        "url": "https://pypi.org/project/mkdocs-rsoxs/0.1.0/",
+        "source": "Pypi.org",
+        "date": "2026-04-24T02:23:16Z"
+      },
+      {
+        "title": "Towards integrated people-centred health services: patient-reported experiences of post-COVID care in Austria - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42024184/",
+        "source": "National Institutes of Health",
+        "date": "2026-04-23T23:22:38Z"
+      },
+      {
+        "title": "LeonaBio to Host Virtual Key Opinion Leader Event Highlighting Potential of Lasofoxifene in Treatment-Resistant ER+/HER2-, ESR1-Mutated Metastatic Breast Cancer",
+        "url": "https://www.globenewswire.com/news-release/2026/04/23/3280370/0/en/LeonaBio-to-Host-Virtual-Key-Opinion-Leader-Event-Highlighting-Potential-of-Lasofoxifene-in-Treatment-Resistant-ER-HER2-ESR1-Mutated-Metastatic-Breast-Cancer.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-23T20:05:00Z"
+      },
+      {
+        "title": "Minnesota Vikings left grieving hours before NFL Draft as they mourn the death of Doug Martin at 68",
+        "url": "https://www.dailymail.com/sport/nfl/article-15760291/Minnesota-Vikings-NFL-Draft-Doug-Martin.html",
+        "source": "Dailymail.com",
+        "date": "2026-04-23T19:51:44Z"
+      },
+      {
+        "title": "48 Hours Left: Disney World\u2019s Frontierland Landmarks Closing Forever After 50 Years",
+        "url": "https://insidethemagic.net/?p=824979&preview=true&preview_id=824979",
+        "source": "Inside the Magic",
+        "date": "2026-04-23T18:05:20Z"
+      },
+      {
+        "title": "World Press Photo Award: ICE-Gewalt in den USA",
+        "url": "https://orf.at/stories/3427755/",
+        "source": "Orf.at",
+        "date": "2026-04-23T13:49:14Z"
+      },
+      {
+        "title": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH",
+        "url": "https://financialpost.com/globe-newswire/endeavour-announces-positive-dfs-results-for-the-assafou-project-that-underpins-the-next-phase-of-organic-growth",
+        "source": "Financial Post",
+        "date": "2026-04-23T13:30:20Z"
+      },
+      {
+        "title": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH",
+        "url": "https://www.globenewswire.com/news-release/2026/04/23/3280063/0/en/ENDEAVOUR-ANNOUNCES-POSITIVE-DFS-RESULTS-FOR-THE-ASSAFOU-PROJECT-THAT-UNDERPINS-THE-NEXT-PHASE-OF-ORGANIC-GROWTH.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-23T13:30:00Z"
+      },
+      {
+        "title": "ENDEAVOUR ANNOUNCES POSITIVE DFS RESULTS FOR THE ASSAFOU PROJECT THAT UNDERPINS THE NEXT PHASE OF ORGANIC GROWTH",
+        "url": "https://www.globenewswire.com/news-release/2026/04/23/3280064/0/en/ENDEAVOUR-ANNOUNCES-POSITIVE-DFS-RESULTS-FOR-THE-ASSAFOU-PROJECT-THAT-UNDERPINS-THE-NEXT-PHASE-OF-ORGANIC-GROWTH.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-23T13:30:00Z"
+      },
+      {
+        "title": "Prince Harry arrived in Ukraine for a surprise two-day visit & keynote speech",
+        "url": "https://www.celebitchy.com/973452/prince_harry_arrived_in_ukraine_for_a_surprise_two-day_visit_keynote_security_speech/",
+        "source": "Celebitchy.com",
+        "date": "2026-04-23T11:25:05Z"
+      },
+      {
+        "title": "Mirasol Provides Exploration Update on Sobek Copper-Gold Project in the Vicu\u00f1a District, Chile",
+        "url": "https://financialpost.com/globe-newswire/mirasol-provides-exploration-update-on-sobek-copper-gold-project-in-the-vicuna-district-chile",
+        "source": "Financial Post",
+        "date": "2026-04-23T11:04:03Z"
+      },
+      {
+        "title": "Central Nervous System (CNS) Biomarkers Global Market Analysis Report 2026: Focus on Alzheimer's, Multiple Sclerosis, ALS, Frontotemporal Dementia, Parkinson's Disease - Forecast to 2030",
+        "url": "https://www.globenewswire.com/news-release/2026/04/23/3279653/28124/en/Central-Nervous-System-CNS-Biomarkers-Global-Market-Analysis-Report-2026-Focus-on-Alzheimer-s-Multiple-Sclerosis-ALS-Frontotemporal-Dementia-Parkinson-s-Disease-Forecast-to-2030.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-23T09:45:00Z"
+      },
+      {
+        "title": "David Malouf was a writer of wisdom, grace and generosity",
+        "url": "https://theconversation.com/david-malouf-was-a-writer-of-wisdom-grace-and-generosity-223011",
+        "source": "The Conversation Africa",
+        "date": "2026-04-23T09:14:20Z"
+      },
+      {
+        "title": "fastgc added to PyPI",
+        "url": "https://pypi.org/project/fastgc/",
+        "source": "Pypi.org",
+        "date": "2026-04-23T05:09:42Z"
+      },
+      {
+        "title": "American: San Francisco \u2013 Jacksonville, Florida (and vice versa). $240 (Basic Economy) / $348 (Regular Economy). Roundtrip, including all Taxes",
+        "url": "https://www.theflightdeal.com/2026/04/22/american-san-francisco-jacksonville-florida-and-vice-versa-240-basic-economy-348-regular-economy-roundtrip-including-all-taxes/",
+        "source": "Theflightdeal.com",
+        "date": "2026-04-22T18:53:55Z"
+      },
+      {
+        "title": "American: Los Angeles \u2013 Orlando, Florida (and vice versa). $219 (Basic Economy) / $339 (Regular Economy). Roundtrip, including all Taxes",
+        "url": "https://www.theflightdeal.com/2026/04/22/american-los-angeles-orlando-florida-and-vice-versa-219-basic-economy-339-regular-economy-roundtrip-including-all-taxes/",
+        "source": "Theflightdeal.com",
+        "date": "2026-04-22T18:28:48Z"
+      },
+      {
+        "title": "Rebecca Gayheart looks somber at sushi dinner with daughter 2 months after ex Eric Dane's death",
+        "url": "https://www.dailymail.com/tvshowbiz/article-15755517/Rebecca-Gayheart-somber-Eric-Dane.html",
+        "source": "Dailymail.com",
+        "date": "2026-04-22T14:34:12Z"
+      },
+      {
+        "title": "German word of the day: Aussteiger",
+        "url": "https://www.thelocal.de/20260422/german-word-of-the-day-aussteiger",
+        "source": "The Local Germany",
+        "date": "2026-04-22T14:17:50Z"
+      },
+      {
+        "title": "Scientists pinpoint new way to predict dementia, Parkinson's and motor neurone disease risk - YEARS before symptoms develop",
+        "url": "https://www.dailymail.com/health/article-15751393/Gut-micrbiome-dementia-Parkinsons-Motor-Neuron-Disease.html",
+        "source": "Dailymail.com",
+        "date": "2026-04-22T13:47:42Z"
+      },
+      {
+        "title": "'Finding Satoshi' Makes the Case for Hal Finney, Len Sassaman as Bitcoin Co-Creators",
+        "url": "https://decrypt.co/365075/finding-satoshi-makes-the-case-for-hal-finney-len-sassaman-as-bitcoin-co-creators",
+        "source": "Decrypt",
+        "date": "2026-04-22T13:01:03Z"
+      },
+      {
+        "title": "Emerita Intersects High Grade Zone of 4.9m Containing Mineralization Grading 3.5% Copper, 1.95 g/t Gold and 95.63 g/t Silver at El Cura",
+        "url": "https://www.globenewswire.com/news-release/2026/04/22/3278804/0/en/Emerita-Intersects-High-Grade-Zone-of-4-9m-Containing-Mineralization-Grading-3-5-Copper-1-95-g-t-Gold-and-95-63-g-t-Silver-at-El-Cura.html",
+        "source": "GlobeNewswire",
+        "date": "2026-04-22T11:00:00Z"
+      },
+      {
+        "title": "Arctic Wolf introduceert Decipio, een \u2018community-shared defensive cybersecuritytool\u2019 om logindiefstal tegen te gaan",
+        "url": "https://www.emerce.nl/wire/arctic-wolf-introduceert-decipio-communityshared-defensive-cybersecuritytool-om-logindiefstal-tegen-gaan",
+        "source": "Emerce.nl",
+        "date": "2026-04-22T07:31:03Z"
+      },
+      {
+        "title": "Somatic mutations link focal onset to widespread neurodegeneration in ALS and FTD",
+        "url": "https://www.nature.com/articles/s41588-026-02572-4",
+        "source": "Nature.com",
+        "date": "2026-04-22T00:00:00Z"
+      },
+      {
+        "title": "\"Nine Inch Noize\" von Nine Inch Nails & Boys Noize",
+        "url": "https://laut.de/Nine-Inch-Nails-Boys-Noize/Alben/Nine-Inch-Noize-126855",
+        "source": "Laut.de",
+        "date": "2026-04-21T14:56:14Z"
+      },
+      {
+        "title": "The Doctor Using AI to Find Hidden Cures",
+        "url": "https://www.menshealth.com/health/a70885753/david-fajgenbaum-every-cure-interview/",
+        "source": "menshealth.com",
+        "date": "2026-04-21T13:00:00Z"
+      },
+      {
+        "title": "Sandra Bullock says she 'won't sacrifice' her family time as she gives a rare insight into raising two children alone after the tragic death of long-term partner Bryan Randall",
+        "url": "https://www.dailymail.com/tvshowbiz/article-15751169/Sandra-Bullock-says-wont-sacrifice-family-time-gives-rare-insight-raising-two-children-tragic-death-long-term-partner-Bryan-Randall.html",
+        "source": "Dailymail.com",
+        "date": "2026-04-21T11:44:50Z"
+      },
+      {
+        "title": "\u201eThe Company Man\u201c tritt zur\u00fcck",
+        "url": "https://www.iphoneblog.de/2026/04/21/the-company-man-tritt-zuruck/",
+        "source": "Iphoneblog.de",
+        "date": "2026-04-21T08:42:37Z"
+      },
+      {
+        "title": "Correction: Multidimensional predictors of fatigue in amyotrophic lateral sclerosis: a cross-sectional study in China",
+        "url": "https://www.nature.com/articles/s41598-026-49397-z",
+        "source": "Nature.com",
+        "date": "2026-04-21T00:00:00Z"
+      }
+    ],
+    "generated_at": "2026-04-26T09:03:29.839022"
+  },
+  {
     "date": "2026-04-19",
     "week_of": "April 19, 2026",
     "digest_number": 17,
