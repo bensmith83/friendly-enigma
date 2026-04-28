@@ -1,5 +1,26 @@
 [
   {
+    "id": "2604.24332v1",
+    "title": "Mitigating Error Amplification in Fast Adversarial Training",
+    "summary": "Fast Adversarial Training (FAT) has proven effective in enhancing model robustness by encouraging networks to learn perturbation-invariant representations. However, FAT often suffers from catastrophic overfitting (CO), where the model overfits to the training attack and fails to generalize to unseen ones. Moreover, robustness oriented optimization typically leads to notable performance degradation on clean inputs, and such degradation becomes increasingly severe as the perturbation budget grows. In this work, we conduct a comprehensive analysis of how guidance strength affects model performance by modulating perturbation and supervision levels across distinct confidence groups. The findings reveal that low confidence samples are the primary contributors to CO and the robustness accuracy trade off. Building on this insight, we propose a Distribution-aware Dynamic Guidance (DDG) strategy that dynamically adjusts both the perturbation budget and supervision signal. Specifically, DDG scales the perturbation magnitude according to the sample confidence at the ground truth class, thereby guiding samples toward consistent decision boundaries while mitigating the influence of learning spurious correlations. Simultaneously, it dynamically adjusts the supervision signal based on the prediction state of each sample, preventing overemphasis on incorrect signals. To alleviate potential gradient instability arising from dynamic guidance, we further design a weighted regularization constraint. Extensive experiments on standard benchmarks demonstrate that DDG effectively alleviates both CO and the robustness accuracy trade off.",
+    "published": "2026-04-27T11:23:18Z",
+    "link": "http://arxiv.org/abs/2604.24332v1",
+    "authors": [
+      "Mengnan Zhao",
+      "Lihe Zhang",
+      "Bo Wang",
+      "Tianhang Zheng",
+      "Hong Zhong",
+      "Geyong Min"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "ai_summary": "Fast Adversarial Training (FAT) has proven effective in enhancing model robustness by encouraging networks to learn perturbation-invariant representations. However, FAT often suffers from catastrophic overfitting (CO), where the model overfits to the training attack and fails to generalize to unseen ones.",
+    "selected_date": "2026-04-28"
+  },
+  {
     "id": "2604.22552v1",
     "title": "Transferable Physical-World Adversarial Patches Against Pedestrian Detection Models",
     "summary": "Physical adversarial patch attacks critically threaten pedestrian detection, causing surveillance and autonomous driving systems to miss pedestrians and creating severe safety risks. Despite their effectiveness in controlled settings, existing physical attacks face two major limitations in practice: they lack systematic disruption of the multi-stage decision pipeline, enabling residual modules to offset perturbations, and they fail to model complex physical variations, leading to poor robustness. To overcome these limitations, we propose a novel pedestrian adversarial patch generation method that combines multi-stage collaborative attacks with robustness enhancement under physical diversity, called TriPatch. Specifically, we design a triplet loss consisting of detection confidence suppression, bounding-box offset amplification, and non-maximum suppression (NMS) disruption, which jointly act across different stages of the detection pipeline. In addition, we introduce an appearance consistency loss to constrain the color distribution of the patch, thereby improving its adaptability under diverse imaging conditions, and incorporate data augmentation to further enhance robustness against complex physical perturbations. Extensive experiments demonstrate that TriPatch achieves a higher attack success rate across multiple detector models compared to existing approaches.",
@@ -569,21 +590,5 @@
     ],
     "ai_summary": "Deep learning (DL) has been widely studied for assisting applications of modern wireless communications. One of the applications is automatic modulation classification (AMC).",
     "selected_date": "2026-03-28"
-  },
-  {
-    "id": "2603.25304v1",
-    "title": "Physical Backdoor Attack Against Deep Learning-Based Modulation Classification",
-    "summary": "Deep Learning (DL) has become a key technology that assists radio frequency (RF) signal classification applications, such as modulation classification. However, the DL models are vulnerable to adversarial machine learning threats, such as data manipulation attacks. We study a physical backdoor (Trojan) attack that targets a DL-based modulation classifier. In contrast to digital backdoor attacks, where digital triggers are injected into the training dataset, we use power amplifier (PA) non-linear distortions to create physical triggers before the dataset is formed. During training, the adversary manipulates amplitudes of RF signals and changes their labels to a target modulation scheme, training a backdoored model. At inference, the adversary aims to keep the backdoor attack inactive such that the backdoored model maintains high accuracy on test signals. However, if they apply the same manipulation used during training on these test signals, the backdoor is activated, and the model misclassifies these signals. We demonstrate that our proposed attack achieves high attack success rates with few manipulated RD signals for different noise levels. Furthermore, we test the resilience of the proposed attack to multiple defense techniques, and the results show that these techniques fail to mitigate the attack.",
-    "published": "2026-03-26T10:49:07Z",
-    "link": "http://arxiv.org/abs/2603.25304v1",
-    "authors": [
-      "Younes Salmi",
-      "Hanna Bogucka"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Deep Learning (DL) has become a key technology that assists radio frequency (RF) signal classification applications, such as modulation classification. However, the DL models are vulnerable to adversarial machine learning threats, such as data manipulation attacks.",
-    "selected_date": "2026-03-27"
   }
 ]
