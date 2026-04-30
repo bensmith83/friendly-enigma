@@ -1,5 +1,24 @@
 [
   {
+    "id": "2604.26313v1",
+    "title": "VulStyle: A Multi-Modal Pre-Training for Code Stylometry-Augmented Vulnerability Detection",
+    "summary": "We present VulStyle, a multi-modal software vulnerability detection model that jointly encodes function-level source code, non-terminal Abstract Syntax Tree (AST) structure, and code stylometry (CStyle) features. Prior work in code representation primarily leverages token-level models or full AST trees, often missing stylistic cues indicative of risky programming practices, or incurring high structural overhead. Our approach selects only non-terminal AST nodes, reducing input complexity while preserving semantic hierarchy, and integrates syntactic and lexical CStyle features as auxiliary vulnerability signals.   VulStyle is pre-trained using masked language modeling on 4.9M functions across seven programming languages, and fine-tuned across five benchmark datasets: Devign, BigVul, DiverseVul, REVEAL, and VulDeePecker. VulStyle achieves state-of-the-art performance on BigVul and VulDeePecker, improving F1 by 4-48% over strong transformer baselines, and attains competitive or best-average performance across all benchmarks. We contribute an ablation study isolating the effect of CStyle and AST structure, error case analysis, and a threat model situating the detection task in attacker-realistic scenarios.",
+    "published": "2026-04-29T05:41:16Z",
+    "link": "http://arxiv.org/abs/2604.26313v1",
+    "authors": [
+      "Chidera Biringa",
+      "Ajmal Abbas",
+      "Vishnu Selvaraj",
+      "Gokhan Kul"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "ai_summary": "We present VulStyle, a multi-modal software vulnerability detection model that jointly encodes function-level source code, non-terminal Abstract Syntax Tree (AST) structure, and code stylometry (CStyle) features. Prior work in code representation primarily leverages token-level models or full AST trees, often missing stylistic cues indicative of risky programming practices, or incurring high structural overhead.",
+    "selected_date": "2026-04-30"
+  },
+  {
     "id": "2604.25152v1",
     "title": "MGTEVAL: An Interactive Platform for Systemtic Evaluation of Machine-Generated Text Detectors",
     "summary": "We present MGTEVAL, an extensible platform for systematic evaluation of Machine-Generated Text (MGT) detectors. Despite rapid progress in MGT detection, existing evaluations are often fragmented across datasets, preprocessing, attacks, and metrics, making results hard to compare and reproduce. MGTEVAL organizes the workflow into four components: Dataset Building, Dataset Attack, Detector Training, and Performance Evaluation. It supports constructing custom benchmarks by generating MGT with configurable LLMs, applying 12 text attacks to test sets, training detectors via a unified interface, and reporting effectiveness, robustness, and efficiency. The platform provides both command-line and Web-based interfaces for user-friendly experimentation without code rewriting.",
@@ -579,23 +598,5 @@
     ],
     "ai_summary": "Quantum key distribution is often regarded as an unconditionally secure method to exchange a secret key by harnessing fundamental aspects of quantum mechanics. Despite the robustness of key exchange, classical post-processing reveals vulnerabilities that an eavesdropper could target.",
     "selected_date": "2026-04-01"
-  },
-  {
-    "id": "2603.26462v1",
-    "title": "DTP-Attack: A decision-based black-box adversarial attack on trajectory prediction",
-    "summary": "Trajectory prediction systems are critical for autonomous vehicle safety, yet remain vulnerable to adversarial attacks that can cause catastrophic traffic behavior misinterpretations. Existing attack methods require white-box access with gradient information and rely on rigid physical constraints, limiting real-world applicability. We propose DTP-Attack, a decision-based black-box adversarial attack framework tailored for trajectory prediction systems. Our method operates exclusively on binary decision outputs without requiring model internals or gradients, making it practical for real-world scenarios. DTP-Attack employs a novel boundary walking algorithm that navigates adversarial regions without fixed constraints, naturally maintaining trajectory realism through proximity preservation. Unlike existing approaches, our method supports both intention misclassification attacks and prediction accuracy degradation. Extensive evaluation on nuScenes and Apolloscape datasets across state-of-the-art models including Trajectron++ and Grip++ demonstrates superior performance. DTP-Attack achieves 41 - 81% attack success rates for intention misclassification attacks that manipulate perceived driving maneuvers with perturbations below 0.45 m, and increases prediction errors by 1.9 - 4.2 for accuracy degradation. Our method consistently outperforms existing black-box approaches while maintaining high controllability and reliability across diverse scenarios. These results reveal fundamental vulnerabilities in current trajectory prediction systems, highlighting urgent needs for robust defenses in safety-critical autonomous driving applications.",
-    "published": "2026-03-27T14:30:37Z",
-    "link": "http://arxiv.org/abs/2603.26462v1",
-    "authors": [
-      "Jiaxiang Li",
-      "Jun Yan",
-      "Daniel Watzenig",
-      "Huilin Yin"
-    ],
-    "categories": [
-      "cs.RO"
-    ],
-    "ai_summary": "Trajectory prediction systems are critical for autonomous vehicle safety, yet remain vulnerable to adversarial attacks that can cause catastrophic traffic behavior misinterpretations. Existing attack methods require white-box access with gradient information and rely on rigid physical constraints, limiting real-world applicability.",
-    "selected_date": "2026-03-30"
   }
 ]
