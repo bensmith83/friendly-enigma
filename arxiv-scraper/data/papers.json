@@ -1,5 +1,25 @@
 [
   {
+    "id": "2604.28159v1",
+    "title": "Continuous-tone Simple Points: An $\\ell_0$-Norm of Cyclic Gradient for Topology-Preserving Data-Driven Image Segmentation",
+    "summary": "Topological features play an essential role in ensuring geometric plausibility and structural consistency in image analysis tasks such as segmentation and skeletonization. However, integrating topology-preserving learning based on simple points into deep learning tasks remains challenging, as existing simple point detection methods are confined to binary images and are non-differentiable, rendering them incompatible with gradient-based optimization in modern deep learning. Moreover, morphological and purely data-driven approaches often fail to guaranty topological consistency. To address these limitations, we propose a novel method that directly computes simple points on continuous-valued images, enabling differentiable topological inference. Building on this theory, we develop an efficient skeleton extraction algorithm that preserves topological structures in binary and continuous-valued images. Furthermore, we design a variational model that enforces topological constraints by preserving topologically non-removable (i.e., non-simple) points, which can be seamlessly integrated into any deep neural network segmentation with softmax or sigmoid outputs. Experimental results demonstrate that the proposed approach effectively improves topological integrity and structural accuracy across multiple benchmarks. The codes are available in https://github.com/levnsio/CSP.",
+    "published": "2026-04-30T17:45:50Z",
+    "link": "http://arxiv.org/abs/2604.28159v1",
+    "authors": [
+      "Wenxiao Li",
+      "Faqiang Wang",
+      "Yuping Duan",
+      "Li Cui",
+      "Liqiang Zhang",
+      "Jun Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Topological features play an essential role in ensuring geometric plausibility and structural consistency in image analysis tasks such as segmentation and skeletonization. However, integrating topology-preserving learning based on simple points into deep learning tasks remains challenging, as existing simple point detection methods are confined to binary images and are non-differentiable, rendering them incompatible with gradient-based optimization in modern deep learning.",
+    "selected_date": "2026-05-01"
+  },
+  {
     "id": "2604.26313v1",
     "title": "VulStyle: A Multi-Modal Pre-Training for Code Stylometry-Augmented Vulnerability Detection",
     "summary": "We present VulStyle, a multi-modal software vulnerability detection model that jointly encodes function-level source code, non-terminal Abstract Syntax Tree (AST) structure, and code stylometry (CStyle) features. Prior work in code representation primarily leverages token-level models or full AST trees, often missing stylistic cues indicative of risky programming practices, or incurring high structural overhead. Our approach selects only non-terminal AST nodes, reducing input complexity while preserving semantic hierarchy, and integrates syntactic and lexical CStyle features as auxiliary vulnerability signals.   VulStyle is pre-trained using masked language modeling on 4.9M functions across seven programming languages, and fine-tuned across five benchmark datasets: Devign, BigVul, DiverseVul, REVEAL, and VulDeePecker. VulStyle achieves state-of-the-art performance on BigVul and VulDeePecker, improving F1 by 4-48% over strong transformer baselines, and attains competitive or best-average performance across all benchmarks. We contribute an ablation study isolating the effect of CStyle and AST structure, error case analysis, and a threat model situating the detection task in attacker-realistic scenarios.",
@@ -579,24 +599,5 @@
     ],
     "ai_summary": "Deep neural networks have demonstrated excellent performance in SAR target detection tasks but remain susceptible to adversarial attacks. Existing SAR-specific attack methods can effectively deceive detectors; however, they often introduce noticeable perturbations and are largely confined to digital domain, neglecting physical implementation constrains for attacking SAR systems.",
     "selected_date": "2026-04-02"
-  },
-  {
-    "id": "2603.29669v1",
-    "title": "The Manipulate-and-Observe Attack on Quantum Key Distribution",
-    "summary": "Quantum key distribution is often regarded as an unconditionally secure method to exchange a secret key by harnessing fundamental aspects of quantum mechanics. Despite the robustness of key exchange, classical post-processing reveals vulnerabilities that an eavesdropper could target. In particular, many reconciliation protocols correct errors by comparing the parities of subsets between both parties. These communications occur over insecure channels, leaking information that an eavesdropper could exploit. Currently there is no holistic threat model that addresses how parity-leakage during reconciliation might be actively manipulated. In this paper we introduce a new form of attack, namely the Manipulate-and-Observe attack in which the adversary (1) partially intercepts a fraction $\u03c1$ of the qubits during key exchange, injecting the maximally tolerated amount of errors up to the 11 percent error threshold whilst remaining undetected and (2) probes the maximum amount of parity-leakage during reconciliation, and exploits it using a vectorised, parallel brute force filter to shrink the search space from 2n down to as few as a single candidate, for an n-bit reconciled key. We perform simulations of the attack, deploying it on the most widely used protocol, BB84, andthe benchmark reconciliation protocol, Cascade. Our simulation results demonstrate that the attack can significantly reduce the security below the theoretical bound and, in the worst case, fully recover the reconciled key material. The principles of the attack could threaten other parity-based reconciliation schemes, like Low Density Parity Check, which underscores the need for urgent consideration of the combined security of key exchange and post-processing.",
-    "published": "2026-03-31T12:27:37Z",
-    "link": "http://arxiv.org/abs/2603.29669v1",
-    "authors": [
-      "William Tighe",
-      "George Brumpton",
-      "Mark Carney",
-      "Benjamin T. H. Varcoe"
-    ],
-    "categories": [
-      "quant-ph",
-      "cs.CR"
-    ],
-    "ai_summary": "Quantum key distribution is often regarded as an unconditionally secure method to exchange a secret key by harnessing fundamental aspects of quantum mechanics. Despite the robustness of key exchange, classical post-processing reveals vulnerabilities that an eavesdropper could target.",
-    "selected_date": "2026-04-01"
   }
 ]
