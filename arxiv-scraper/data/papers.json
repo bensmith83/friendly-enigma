@@ -1,5 +1,23 @@
 [
   {
+    "id": "2605.00747v1",
+    "title": "Quantum Interval Bound Propagation for Certified Training of Quantum Neural Networks",
+    "summary": "Quantum machine learning is a promising field for efficiently learning features of a dataset to perform a specified task, such as classification. Interval bound propagation (IBP) is a popular certified training method in classical machine learning, where the lower and upper bounds are tracked throughout the model. These bounds are used during training to ensure that the model is certified to predict the correct label even under adversarial perturbations. While IBP is successful in classical domain, there are limited certified training efforts in quantum domain. In this paper, we present quantum interval bound propagation (QIBP) to establish a certified training routine for quantum machine learning, certifying the accuracy of models under adversarial perturbations. We implement QIBP using both interval and affine arithmetic to explore the tradeoffs between the two implementations in terms of accuracy and other design considerations. Extensive evaluation demonstrates that the resulting certified trained models have robust decision boundaries, guaranteed to predict the correct class for the samples within the trained adversarial robustness bounds.",
+    "published": "2026-05-01T15:55:40Z",
+    "link": "http://arxiv.org/abs/2605.00747v1",
+    "authors": [
+      "Emma Andrews",
+      "Nahyeon Kim",
+      "Prabhat Mishra"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.LG"
+    ],
+    "ai_summary": "Quantum machine learning is a promising field for efficiently learning features of a dataset to perform a specified task, such as classification. Interval bound propagation (IBP) is a popular certified training method in classical machine learning, where the lower and upper bounds are tracked throughout the model.",
+    "selected_date": "2026-05-04"
+  },
+  {
     "id": "2604.28159v1",
     "title": "Continuous-tone Simple Points: An $\\ell_0$-Norm of Cyclic Gradient for Topology-Preserving Data-Driven Image Segmentation",
     "summary": "Topological features play an essential role in ensuring geometric plausibility and structural consistency in image analysis tasks such as segmentation and skeletonization. However, integrating topology-preserving learning based on simple points into deep learning tasks remains challenging, as existing simple point detection methods are confined to binary images and are non-differentiable, rendering them incompatible with gradient-based optimization in modern deep learning. Moreover, morphological and purely data-driven approaches often fail to guaranty topological consistency. To address these limitations, we propose a novel method that directly computes simple points on continuous-valued images, enabling differentiable topological inference. Building on this theory, we develop an efficient skeleton extraction algorithm that preserves topological structures in binary and continuous-valued images. Furthermore, we design a variational model that enforces topological constraints by preserving topologically non-removable (i.e., non-simple) points, which can be seamlessly integrated into any deep neural network segmentation with softmax or sigmoid outputs. Experimental results demonstrate that the proposed approach effectively improves topological integrity and structural accuracy across multiple benchmarks. The codes are available in https://github.com/levnsio/CSP.",
@@ -581,25 +599,5 @@
     ],
     "ai_summary": "As TLS 1.3 encryption limits traditional Deep Packet Inspection (DPI), the security community has pivoted to Euclidean Transformer-based classifiers (e.g., ET-BERT) for encrypted traffic analysis. However, these models remain vulnerable to byte-level adversarial morphing -- recent pre-padding attacks reduced ET-BERT accuracy to 25.68%, while VLESS Reality bypasses certificate-based detection entirely.",
     "selected_date": "2026-04-04"
-  },
-  {
-    "id": "2604.01645v1",
-    "title": "Contextualizing Sink Knowledge for Java Vulnerability Discovery",
-    "summary": "Java applications are prone to vulnerabilities stemming from the insecure use of security-sensitive APIs, such as file operations enabling path traversal or deserialization routines allowing remote code execution. These sink APIs encode critical information for vulnerability discovery: the program-specific constraints required to reach them and the exploitation conditions necessary to trigger security flaws. Despite this, existing fuzzers largely overlook such vulnerability-specific knowledge, limiting their effectiveness.   We present GONDAR, a sink-centric fuzzing framework that systematically leverages sink API semantics for targeted vulnerability discovery. GONDAR first identifies reachable and exploitable sink call sites through CWE-specific scanning combined with LLM-assisted static filtering. It then deploys two specialized agents that work collaboratively with a coverage-guided fuzzer: an exploration agent generates inputs to reach target call sites by iteratively solving path constraints, while an exploitation agent synthesizes proof-of-concept exploits by reasoning about and satisfying vulnerability-triggering conditions. The agents and fuzzer continuously exchange seeds and runtime feedback, complementing each other. We evaluated GONDAR on real-world Java benchmarks, where it discovers four times more vulnerabilities than Jazzer, the state-of-the-art Java fuzzer. Notably, GONDAR also demonstrated strong performance in the DARPA AI Cyber Challenge, and is integrated into OSS-CRS, a sandbox project in The Linux Foundation's OpenSSF, to improve the security of open-source software.",
-    "published": "2026-04-02T05:43:25Z",
-    "link": "http://arxiv.org/abs/2604.01645v1",
-    "authors": [
-      "Fabian Fleischer",
-      "Cen Zhang",
-      "Joonun Jang",
-      "Jeongin Cho",
-      "Meng Xu",
-      "Taesoo Kim"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Java applications are prone to vulnerabilities stemming from the insecure use of security-sensitive APIs, such as file operations enabling path traversal or deserialization routines allowing remote code execution. These sink APIs encode critical information for vulnerability discovery: the program-specific constraints required to reach them and the exploitation conditions necessary to trigger security flaws.",
-    "selected_date": "2026-04-03"
   }
 ]
