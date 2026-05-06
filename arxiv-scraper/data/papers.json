@@ -1,5 +1,25 @@
 [
   {
+    "id": "2605.03948v1",
+    "title": "HELO Cryptography: A Lightweight Cryptographic System for Enhancing IoT Security in P2P Data Transmission",
+    "summary": "The recent surge in security concerns for IoT devices highlights the increasing threat of cryptographic vulnerabilities. These weaknesses can lead to unauthorized access, data breaches, and manipulation of device functions, compromising the privacy and security of both the devices and their users. Given the limited computational power of IoT devices, especially when handling large amounts of data, encrypting and transmitting data over insecure networks poses significant challenges. This situation not only heightens security risks and prolongs runtime, but also degrades performance and consumes more resources. To address these issues, a novel cryptographic system named HELO (Hybrid Encryption Lightweight Optimization) is proposed. It is hybridized and gives solid security against cryptographic cyberattacks. However, the research objective is to enhance the security level of IoT devices without decreasing their performance. This system is ideal for resource-constrained gadgets due to its lightweight mechanism. Finally, it offers top-level cryptographic security for IoT gadgets by guaranteeing confidentiality, integrity, and availability while doing P2P data transmission.",
+    "published": "2026-05-05T16:35:44Z",
+    "link": "http://arxiv.org/abs/2605.03948v1",
+    "authors": [
+      "Tahsin Ahmed",
+      "Arjita Saha",
+      "Arian Nuhan",
+      "Nafim Ahmed Bin Mohammad Noor",
+      "Md Faisal Ahmed",
+      "Muhammad Iqbal Hossain"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "The recent surge in security concerns for IoT devices highlights the increasing threat of cryptographic vulnerabilities. These weaknesses can lead to unauthorized access, data breaches, and manipulation of device functions, compromising the privacy and security of both the devices and their users.",
+    "selected_date": "2026-05-06"
+  },
+  {
     "id": "2605.00747v1",
     "title": "Quantum Interval Bound Propagation for Certified Training of Quantum Neural Networks",
     "summary": "Quantum machine learning is a promising field for efficiently learning features of a dataset to perform a specified task, such as classification. Interval bound propagation (IBP) is a popular certified training method in classical machine learning, where the lower and upper bounds are tracked throughout the model. These bounds are used during training to ensure that the model is certified to predict the correct label even under adversarial perturbations. While IBP is successful in classical domain, there are limited certified training efforts in quantum domain. In this paper, we present quantum interval bound propagation (QIBP) to establish a certified training routine for quantum machine learning, certifying the accuracy of models under adversarial perturbations. We implement QIBP using both interval and affine arithmetic to explore the tradeoffs between the two implementations in terms of accuracy and other design considerations. Extensive evaluation demonstrates that the resulting certified trained models have robust decision boundaries, guaranteed to predict the correct class for the samples within the trained adversarial robustness bounds.",
@@ -583,21 +603,5 @@
     ],
     "ai_summary": "Recent advances in GAN and diffusion models have significantly improved the realism and controllability of facial deepfake manipulation, raising serious concerns regarding privacy, security, and identity misuse. Proactive defenses attempt to counter this threat by injecting adversarial perturbations into images before manipulation takes place.",
     "selected_date": "2026-04-05"
-  },
-  {
-    "id": "2604.02149v1",
-    "title": "AEGIS: Adversarial Entropy-Guided Immune System -- Thermodynamic State Space Models for Zero-Day Network Evasion Detection",
-    "summary": "As TLS 1.3 encryption limits traditional Deep Packet Inspection (DPI), the security community has pivoted to Euclidean Transformer-based classifiers (e.g., ET-BERT) for encrypted traffic analysis. However, these models remain vulnerable to byte-level adversarial morphing -- recent pre-padding attacks reduced ET-BERT accuracy to 25.68%, while VLESS Reality bypasses certificate-based detection entirely. We introduce AEGIS: an Adversarial Entropy-Guided Immune System powered by a Thermodynamic Variance-Guided Hyperbolic Liquid State Space Model (TVD-HL-SSM). Rather than competing in the Euclidean payload-reading domain, AEGIS discards payload bytes in favor of 6-dimensional continuous-time flow physics projected into a non-Euclidean Poincare manifold. Liquid Time-Constants measure microsecond IAT decay, and a Thermodynamic Variance Detector computes sequence-wide Shannon Entropy to expose automated C2 tunnel anomalies. A pure C++ eBPF Harvester with zero-copy IPC bypasses the Python GIL, enabling a linear-time O(N) Mamba-3 core to process 64,000-packet swarms at line-rate. Evaluated on a 400GB, 4-tier adversarial corpus spanning backbone traffic, IoT botnets, zero-days, and proprietary VLESS Reality tunnels, AEGIS achieves an F1-score of 0.9952 and 99.50% True Positive Rate at 262 us inference latency on an RTX 4090, establishing a new state-of-the-art for physics-based adversarial network defense.",
-    "published": "2026-04-02T15:16:56Z",
-    "link": "http://arxiv.org/abs/2604.02149v1",
-    "authors": [
-      "Vickson Ferrel"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "ai_summary": "As TLS 1.3 encryption limits traditional Deep Packet Inspection (DPI), the security community has pivoted to Euclidean Transformer-based classifiers (e.g., ET-BERT) for encrypted traffic analysis. However, these models remain vulnerable to byte-level adversarial morphing -- recent pre-padding attacks reduced ET-BERT accuracy to 25.68%, while VLESS Reality bypasses certificate-based detection entirely.",
-    "selected_date": "2026-04-04"
   }
 ]
