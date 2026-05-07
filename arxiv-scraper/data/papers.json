@@ -1,5 +1,25 @@
 [
   {
+    "id": "2605.04724v1",
+    "title": "From Beats to Breaches:How Offensive AI Infers Sensitive User Information from Playlists",
+    "summary": "The pervasive integration of AI has enabled Offensive AI: the exploitation of AI for malicious ends across the cyber-kill chain. A critical manifestation is the user attribute inference attack, where AI infers sensitive Personally Identifiable Information (PII) from innocuous public data. We explore how music streaming ecosystems, where users routinely release public playlists, can be exploited for Offensive AI. To quantify this threat, we developed musicPIIrate. This novel tool leverages deep learning architectures that utilize both standalone data representations and the structural information embedded in a user's playlist collection. Our design explores set-based approaches (e.g., Deep Sets) and methodologies modeling relationships between playlists (e.g., Graph Neural Networks), which we also combine to leverage both perspectives. Our approach addresses feature extraction from unordered, variable-length set data, enabling accurate PII prediction.   Empirical evaluation demonstrates that musicPIIrate achieves state-of-the-art inference accuracy. The tool successfully infers a wide array of attributes, including: Demographics (Age, Country, Gender), Habits (Alcohol, Smoke, Sport), and Personality Traits (OCEAN scores). musicPIIrate outperforms existing methods, beating baselines in 9 out of 15 attribute inference tasks. To counter this vulnerability, we propose JamShield, a lightweight defensive framework. JamShield strategically injects dummy playlists into an account to dilute the PII-carrying signal. Our analysis indicates that JamShield represents a promising defense, lowering inference F1-scores by an average of 10%. This work provides an initial Offensive-AI benchmark for playlist-based PII inference using architectures that leverage set- and graph-structured data and introduces a defense showing encouraging mitigation effects.",
+    "published": "2026-05-06T10:18:55Z",
+    "link": "http://arxiv.org/abs/2605.04724v1",
+    "authors": [
+      "Stefano Cecconello",
+      "Mauro Conti",
+      "Luca Pajola",
+      "Luca Pasa",
+      "Pier Paolo Tricomi"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "The pervasive integration of AI has enabled Offensive AI: the exploitation of AI for malicious ends across the cyber-kill chain. A critical manifestation is the user attribute inference attack, where AI infers sensitive Personally Identifiable Information (PII) from innocuous public data.",
+    "selected_date": "2026-05-07"
+  },
+  {
     "id": "2605.03948v1",
     "title": "HELO Cryptography: A Lightweight Cryptographic System for Enhancing IoT Security in P2P Data Transmission",
     "summary": "The recent surge in security concerns for IoT devices highlights the increasing threat of cryptographic vulnerabilities. These weaknesses can lead to unauthorized access, data breaches, and manipulation of device functions, compromising the privacy and security of both the devices and their users. Given the limited computational power of IoT devices, especially when handling large amounts of data, encrypting and transmitting data over insecure networks poses significant challenges. This situation not only heightens security risks and prolongs runtime, but also degrades performance and consumes more resources. To address these issues, a novel cryptographic system named HELO (Hybrid Encryption Lightweight Optimization) is proposed. It is hybridized and gives solid security against cryptographic cyberattacks. However, the research objective is to enhance the security level of IoT devices without decreasing their performance. This system is ideal for resource-constrained gadgets due to its lightweight mechanism. Finally, it offers top-level cryptographic security for IoT gadgets by guaranteeing confidentiality, integrity, and availability while doing P2P data transmission.",
@@ -581,27 +601,5 @@
     ],
     "ai_summary": "Infrared vision-language models (IR-VLMs) have emerged as a promising paradigm for multimodal perception in low-visibility environments, yet their robustness to adversarial attacks remains largely unexplored. Existing adversarial patch methods are mainly designed for RGB-based models in closed-set settings and are not readily applicable to the open-ended semantic understanding and physical deployment requirements of infrared VLMs.",
     "selected_date": "2026-04-06"
-  },
-  {
-    "id": "2604.01635v1",
-    "title": "Diffusion-Guided Adversarial Perturbation Injection for Generalizable Defense Against Facial Manipulations",
-    "summary": "Recent advances in GAN and diffusion models have significantly improved the realism and controllability of facial deepfake manipulation, raising serious concerns regarding privacy, security, and identity misuse. Proactive defenses attempt to counter this threat by injecting adversarial perturbations into images before manipulation takes place. However, existing approaches remain limited in effectiveness due to suboptimal perturbation injection strategies and are typically designed under white-box assumptions, targeting only simple GAN-based attribute editing. These constraints hinder their applicability in practical real-world scenarios. In this paper, we propose AEGIS, the first diffusion-guided paradigm in which the AdvErsarial facial images are Generated for Identity Shielding. We observe that the limited defense capability of existing approaches stems from the peak-clipping constraint, where perturbations are forcibly truncated due to a fixed $L_\\infty$-bounded. To overcome this limitation, instead of directly modifying pixels, AEGIS injects adversarial perturbations into the latent space along the DDIM denoising trajectory, thereby decoupling the perturbation magnitude from pixel-level constraints and allowing perturbations to adaptively amplify where most effective. The extensible design of AEGIS allows the defense to be expanded from purely white-box use to also support black-box scenarios through a gradient-estimation strategy. Extensive experiments across GAN and diffusion-based deepfake generators show that AEGIS consistently delivers strong defense effectiveness while maintaining high perceptual quality. In white-box settings, it achieves robust manipulation disruption, whereas in black-box settings, it demonstrates strong cross-model transferability.",
-    "published": "2026-04-02T05:24:11Z",
-    "link": "http://arxiv.org/abs/2604.01635v1",
-    "authors": [
-      "Yue Li",
-      "Linying Xue",
-      "Kaiqing Lin",
-      "Hanyu Quan",
-      "Dongdong Lin",
-      "Hui Tian",
-      "Hongxia Wang",
-      "Bin Wang"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Recent advances in GAN and diffusion models have significantly improved the realism and controllability of facial deepfake manipulation, raising serious concerns regarding privacy, security, and identity misuse. Proactive defenses attempt to counter this threat by injecting adversarial perturbations into images before manipulation takes place.",
-    "selected_date": "2026-04-05"
   }
 ]
