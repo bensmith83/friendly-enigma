@@ -1,5 +1,1237 @@
 [
   {
+    "date": "2026-05-10",
+    "week_of": "May 10, 2026",
+    "digest_number": 20,
+    "weekly_summary": "This week brought encouraging news for the ALS community with a major research breakthrough from Harvard and significant progress in expanding access to care. Researchers at Harvard School of Engineering and Applied Sciences report that a new drug therapy shows promise in stopping ALS progression\u2014a remarkable development after decades of limited treatment options. Simultaneously, The ALS Association announced $3 million in grants for the Hoffman ALS Clinic Development program, targeting rural and underserved communities that currently lack access to expert ALS care. These grants address a critical gap by bringing specialized treatment services to geographically isolated patients and families.\n\nBeyond research and access, families should also be aware of practical resources now available to help manage the financial impact of ALS. Psychology Today highlighted an expert-led financial planning tool designed specifically for families facing progressive chronic illnesses, helping them map future care costs and navigate the complex insurance landscape. Additionally, ongoing FDA reviews of therapies like Leqembi Iqlik suggest continued development in neurodegenerative disease treatments that may eventually benefit ALS patients.\n\nFor families in New Jersey specifically, these developments underscore the importance of staying connected to national ALS organizations and resources. The recent funding announcements and research progress offer hope for improved treatment options and more equitable access to specialized care in the coming years.",
+    "highlights": [
+      {
+        "article": {
+          "title": "Glint of light in therapy for deadly ALS after decades of struggle",
+          "description": "New drug shows researchers \u201cthis illness can be stopped.\u201d",
+          "content": "Merit Cudkowicz has been working on ALS for three decades. She knew who she wanted to tell as soon as she was able to discuss the breakthrough findings publicly.\r\nThe first person I called was the hu\u2026 [+6643 chars]",
+          "url": "https://news.harvard.edu/gazette/story/2026/05/glint-of-light-in-therapy-for-deadly-als-after-decades-of-struggle/",
+          "source_name": "Harvard School of Engineering and Applied Sciences",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T19:19:59Z",
+          "author": "Terry Murphy",
+          "image_url": "https://news.harvard.edu/wp-content/uploads/2026/05/1980Dr.-Cudkowicz-headshot.jpg",
+          "is_local_nj": false,
+          "article_id": "f334237985d0"
+        },
+        "why_important": "This represents a significant research breakthrough from Harvard with promising results showing a new drug therapy that researchers believe can stop ALS progression. This is rare positive news in ALS research and represents meaningful progress in treatment development."
+      },
+      {
+        "article": {
+          "title": "The ALS Association Awards $3 Million to Bring Expert ALS Care to Communities that Don't Have It",
+          "description": "New Hoffman clinic grants target rural, underserved and geographically isolated Americans living with ALS ARLINGTON, Va., May 7, 2026 /PRNewswire/ -- The ALS Association today announced the newest recipients of the Hoffman ALS Clinic Development and Capacity \u2026",
+          "content": "New Hoffman clinic grants target rural, underserved and geographically isolated Americans living with ALS\r\nARLINGTON, Va., May 7, 2026 /PRNewswire/ -- The\u00a0ALS Association today announced the newest r\u2026 [+8216 chars]",
+          "url": "https://www.prnewswire.com/news-releases/the-als-association-awards-3-million-to-bring-expert-als-care-to-communities-that-dont-have-it-302766046.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T19:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS446695/alslogo.jpg?id=OA2632672&p=facebook",
+          "is_local_nj": false,
+          "article_id": "ed4b03b1805e"
+        },
+        "why_important": "The ALS Association's $3 million in Hoffman clinic grants directly address a critical gap in ALS care by bringing expert services to underserved rural and isolated communities. This is a major step forward in ensuring equitable access to specialized ALS treatment across the country."
+      },
+      {
+        "article": {
+          "title": "The High Cost of Caring: Financial Planning for Chronic Illness",
+          "description": "Facing a progressive diagnosis? A new expert-led tool helps families map out future care costs and navigate the complex patchwork of insurance to plan their financial road map.",
+          "content": "A few years ago, a loved one received a diagnosis that changed everything. It wasn't just the medical jargon or the looming physical challenges that kept us up at night; it was the math. As we sat ar\u2026 [+4552 chars]",
+          "url": "https://www.psychologytoday.com/us/blog/the-social-trust/202605/the-high-cost-of-caring-financial-planning-for-chronic-illness",
+          "source_name": "Psychology Today",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T19:50:37Z",
+          "author": "Ulrich Boser",
+          "image_url": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2026-05/psytoday.jpg?itok=LbEu1k-i",
+          "is_local_nj": false,
+          "article_id": "e3acc9b0fdb5"
+        },
+        "why_important": "This Psychology Today resource provides practical financial planning tools for families facing chronic progressive illnesses like ALS. Addressing the financial burden of care is a critical aspect of patient and family support that often goes unaddressed."
+      },
+      {
+        "article": {
+          "title": "Leqembi\u00ae Iqlik\u2122 PDUFA date updated to August 24 in the U.S.",
+          "description": "STOCKHOLM, May 8, 2026 /PRNewswire/ -- BioArctic AB's (publ) (Nasdaq Stockholm: BIOA B) partner Eisai today announced that the U.S. Food and Drug Administration (FDA) has extended the review period by three months for the supplemental Biologics License Applic\u2026",
+          "content": "STOCKHOLM, May 8, 2026 /PRNewswire/ --\u00a0BioArctic AB's (publ) (Nasdaq Stockholm: BIOA B) partner Eisai today announced that the U.S. Food and Drug Administration (FDA) has extended the review period b\u2026 [+7058 chars]",
+          "url": "https://www.prnewswire.com/news-releases/leqembi-iqlik-pdufa-date-updated-to-august-24-in-the-us-302766723.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T06:50:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "f3c04975632b"
+        },
+        "why_important": "Leqembi Iqlik's FDA review extension, while not a direct approval, represents ongoing progress in neurodegenerative disease therapies. The supplemental application suggests continued development of this amyloid-targeting approach that could have implications for ALS research."
+      }
+    ],
+    "categories": {
+      "research": [
+        {
+          "title": "Glint of light in therapy for deadly ALS after decades of struggle",
+          "description": "New drug shows researchers \u201cthis illness can be stopped.\u201d",
+          "content": "Merit Cudkowicz has been working on ALS for three decades. She knew who she wanted to tell as soon as she was able to discuss the breakthrough findings publicly.\r\nThe first person I called was the hu\u2026 [+6643 chars]",
+          "url": "https://news.harvard.edu/gazette/story/2026/05/glint-of-light-in-therapy-for-deadly-als-after-decades-of-struggle/",
+          "source_name": "Harvard School of Engineering and Applied Sciences",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T19:19:59Z",
+          "author": "Terry Murphy",
+          "image_url": "https://news.harvard.edu/wp-content/uploads/2026/05/1980Dr.-Cudkowicz-headshot.jpg",
+          "is_local_nj": false,
+          "article_id": "f334237985d0",
+          "summary": "Harvard School of Engineering and Applied Sciences reports progress on a new drug therapy for ALS after decades of limited breakthroughs. Researchers indicate the drug shows promise that 'this illness can be stopped,' offering hope in ALS treatment development.",
+          "importance": 5,
+          "key_entities": [
+            "Harvard School of Engineering and Applied Sciences",
+            "ALS drug therapy"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Rebecca Gayheart shares new tribute to Eric Dane 2 months after his tragic death",
+          "description": "Gayheart had filed for divorce from Dane in February 2018, but withdrew the petition after his shocking ALS diagnosis last year.",
+          "content": "Rebecca Gayheart remembered her late husband, Eric Dane, with a touching tribute on social media two months after his tragic death.\r\nThe 54-year-old actress and model took to her Instagram Stories on\u2026 [+3616 chars]",
+          "url": "https://pagesix.com/2026/05/08/celebrity-news/rebecca-gayheart-shares-new-tribute-to-eric-dane-2-months-after-his-tragic-death/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T17:59:02Z",
+          "author": "Connor Surmonte",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/05/127266831.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "a3ceea0a60a4",
+          "summary": "This celebrity news article mentions that actor Eric Dane received an ALS diagnosis, but focuses primarily on his widow's tributes and personal relationships rather than ALS research or resources.",
+          "importance": 1,
+          "key_entities": [
+            "Eric Dane",
+            "Rebecca Gayheart",
+            "ALS diagnosis"
+          ],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart looks somber at sushi dinner with daughter 2 months after ex Eric Dane's death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-15755517/Rebecca-Gayheart-somber-Eric-Dane.html",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "Sandra Bullock says she 'won't sacrifice' her family time as she gives a rare insight into raising two children alone after the tragic death of long-term partner Bryan Randall",
+              "url": "https://www.dailymail.com/tvshowbiz/article-15751169/Sandra-Bullock-says-wont-sacrifice-family-time-gives-rare-insight-raising-two-children-tragic-death-long-term-partner-Bryan-Randall.html",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "How Sandra Bullock handled heartbreak after partner Bryan Randall\u2019s tragic death 3 years ago",
+              "url": "https://pagesix.com/2026/04/16/celebrity-news/how-sandra-bullock-handled-heartbreak-after-partner-bryan-randalls-death-3-years-ago/",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Kevin McKidd confirms Grey's Anatomy paid 'intentional' tribute to Eric Dane in season 22 finale",
+          "description": "Grey's Anatomy actor Kevin McKidd directed the season 22 finale, and he has confirmed the closing montage was a deliberate nod to his late co-star Eric Dane.",
+          "content": "Kevin McKidd says Grey's Anatomy paid a \"very intentional\" tribute to Eric Dane in the season 22 finale.\r\nThe 52-year-old actor has revealed that the finale montage on Thursday's (07.05.26) episode -\u2026 [+2172 chars]",
+          "url": "https://www.perthnow.com.au/entertainment/celebrity-gossip/kevin-mckidd-confirms-greys-anatomy-paid-intentional-tribute-to-eric-dane-in-season-22-finale-c-22255521",
+          "source_name": "PerthNow",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T06:19:23Z",
+          "author": "Perthnow",
+          "image_url": "https://images.perthnow.com.au/publication/C-22255521/6c39c95216b68234934945434bd2c0a705c7c7ec-16x9-x0y0w2048h1152.jpg?imwidth=1200",
+          "is_local_nj": false,
+          "article_id": "774aad3eff25",
+          "summary": "This article discusses Grey's Anatomy's tribute to actor Eric Dane in the season 22 finale and is not directly relevant to ALS research or resources, though it references his ALS diagnosis.",
+          "importance": 1,
+          "key_entities": [
+            "Eric Dane",
+            "Grey's Anatomy",
+            "ALS"
+          ],
+          "related_previous": [
+            {
+              "title": "When Did Eric Dane Film \u2018Euphoria\u2019 Season 3 Wedding Scenes Before He Died of ALS?",
+              "url": "https://hollywoodlife.com/feature/when-did-eric-dane-film-euphoria-scenes-5534885/",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "\u2018Euphoria\u2019 Season 3 Will Feature Eric Dane in His Final Role",
+              "url": "https://www.cosmopolitan.com/entertainment/tv/a70977306/will-eric-dane-be-in-euphoria-season-3/",
+              "digest_date": "2026-04-12"
+            },
+            {
+              "title": "New Euphoria Season 3 Trailer Offers A First Look At Sharon Stone, The Late Eric Dane \u2014 Watch",
+              "url": "https://www.tvline.com/2135999/euphoria-season-3-second-trailer-sharon-stone-eric-dane/",
+              "digest_date": "2026-04-05"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Shares New Tribute to Eric Dane 3 Months After His Death",
+          "description": "Rebecca Gayheart is continuing to mourn her late husband and father of her children, Eric Dane. Posting via her Instagram Stories on Wednesday, May 7, Gayheart, 54, shared a post commemorating the actor following his death. The photo showed a plaque that read\u2026",
+          "content": "Rebecca Gayheartis continuing to mourn her late husband and father of her children, Eric Dane.\r\nPosting via her Instagram Stories on Wednesday, May 7, Gayheart, 54, shared a post commemorating the ac\u2026 [+2359 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-remembers-eric-dane-months-after-his-death/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T05:15:09Z",
+          "author": "Erin Doyle",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/05/GettyImages-692044082Rebecca-Gayheart-Shares-New-Tribute-as-She-Continues-to-Mourn-Eric-Dane-3-Months-After-His-Death.jpg?crop=109px%2C80px%2C1101px%2C579px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "84ad80d85f49",
+          "summary": "This article discusses Rebecca Gayheart's social media tribute to her late husband Eric Dane, who died from ALS, but focuses on personal remembrance rather than ALS research or resources.",
+          "importance": 1,
+          "key_entities": [
+            "Rebecca Gayheart",
+            "Eric Dane",
+            "ALS"
+          ],
+          "related_previous": [
+            {
+              "title": "When Did Eric Dane Film \u2018Euphoria\u2019 Season 3 Wedding Scenes Before He Died of ALS?",
+              "url": "https://hollywoodlife.com/feature/when-did-eric-dane-film-euphoria-scenes-5534885/",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "Rebecca Gayheart looks somber at sushi dinner with daughter 2 months after ex Eric Dane's death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-15755517/Rebecca-Gayheart-somber-Eric-Dane.html",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "How Sandra Bullock handled heartbreak after partner Bryan Randall\u2019s tragic death 3 years ago",
+              "url": "https://pagesix.com/2026/04/16/celebrity-news/how-sandra-bullock-handled-heartbreak-after-partner-bryan-randalls-death-3-years-ago/",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Quote of the Day by Stephen Hawking: \u201cThe past, like the future, is indefinite and exists only as a spectrum of possibilities\u201d \u2014 Why nothing in life is constant and how the legendary physicist reshaped our understanding of time, reality and memory",
+          "description": "Stephen Hawking\u2019s quote, \u201cThe past, like the future, is indefinite and exists only as a spectrum of possibilities,\u201d challenges the traditional way we understand time. Quote of the Day by Stephen Hawking suggests that neither the past nor the future is complet\u2026",
+          "content": "Quote of the Day by Stephen Hawking: When we hear the word past, we instinctively imagine something fixed, events that have already happened, locked into history and beyond change. The future, on the\u2026 [+11180 chars]",
+          "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-the-past-like-the-future-is-indefinite-and-exists-only-as-a-spectrum-of-possibilities-why-nothing-in-life-is-constant-and-how-the-legendary-physicist-reshaped-our-understanding-of-time-reality-and-memory/articleshow/130910873.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T17:10:25Z",
+          "author": "Advaita Suresh",
+          "image_url": "https://img.etimg.com/thumb/msid-130910873,width-1200,height-630,imgsize-8760,overlay-economictimes/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "9d20a27615a1",
+          "summary": "This article features a Stephen Hawking quote about the nature of time and reality, noting his contributions to physics. While Hawking lived with ALS, this article focuses on his scientific legacy rather than ALS treatment or resources.",
+          "importance": 1,
+          "key_entities": [
+            "Stephen Hawking",
+            "ALS",
+            "physics"
+          ],
+          "related_previous": [
+            {
+              "title": "Why is everyone wearing 42 in baseball? Explaining MLB's Jackie Robinson Day and its history",
+              "url": "https://www.sportingnews.com/us/mlb/news/why-everyone-wearing-42-baseball-mlb-jackie-robinson-day/1e9f6abfda3e845481f3b440",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Billie Eilish-Konzertfilm: Wenn Fans w\u00e4hrend der Vorf\u00fchrung durchs Kino tanzen",
+          "description": "Billie Eilish \u201eHit Me Hard and Soft: The Tour\u201c im Kino",
+          "content": "Ich kreische. Es ist 2019, ich bin gerade 20 geworden und schreie zum ersten Mal, seit ich kein Baby mehr bin, aus voller Lunge. Eigentlich habe ich mich bis dahin nicht als Fangirl gesehen. Der Schr\u2026 [+93 chars]",
+          "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/billie-eilish-hit-me-hard-and-soft-the-tour-im-kino-accg-200810397.html",
+          "source_name": "Faz.net",
+          "source_type": "newsapi",
+          "published_at": "2026-05-09T09:00:38Z",
+          "author": "Elisabeth Fleschutz",
+          "image_url": "https://media0.faz.net/image/w1200h627/80ca1204c8c2/w3900h2037x0y318o/202605/ae001307-c347-4401-a72a-114666a2566b/hit-me-hard-and-soft-ist-schon.webp",
+          "is_local_nj": false,
+          "article_id": "ad1a46786dd7",
+          "summary": "This article is about a Billie Eilish concert film and is not relevant to ALS research, treatment, or resources.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Knicks vor Einzug ins Conference-Finale",
+          "description": null,
+          "content": "Die New York Knicks stehen in den Play-offs der National Basketball Association (NBA) dicht vor dem Einzug ins Finale der Eastern Conference. Die Knicks gewannen am Freitag (Ortszeit) auch das dritte\u2026 [+1653 chars]",
+          "url": "https://sport.orf.at/stories/3155593/",
+          "source_name": "Sport.orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-05-09T06:21:55Z",
+          "author": "ORF.at",
+          "image_url": "https://sport.orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-sport.png",
+          "is_local_nj": false,
+          "article_id": "dd6075a082f8",
+          "summary": "This article covers sports news about the Knicks basketball team and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Vols fans should warm up to idea that Tennessee can win it all in 2026 after hearing new quotes from Al Wilson and Phillip Fulmer",
+          "description": "Expectations aren't very high for the Tennessee Volunteers in 2026 after going 8-5 last season, but that doesn't mean Josh Heupel's program can't pull off a special season this fall.",
+          "content": "Expectations arent very high for the Tennessee Volunteers in 2026 after going 8-5 last season, but that doesnt mean Josh Heupels program cant pull off a special season this fall.\r\nExpectations arent \u2026 [+4316 chars]",
+          "url": "https://atozsports.com/nashville/volunteers/vols-fans-warm-foootball-tennessee-quotes-from-al-wilson-phillip-fulmer/",
+          "source_name": "Atozsports.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T20:31:18Z",
+          "author": "Zach Ragan",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/9ymWOtLgw8jYb2m647Tjmw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NzI7Y2Y9d2VicA--/https://media.zenfs.com/en/atoz_sports_articles_485/e447fd649a75b9033f80989af6143225",
+          "is_local_nj": false,
+          "article_id": "17cc2a7dd575",
+          "summary": "This article discusses Tennessee Volunteers football team expectations for the 2026 season and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Shonda Rhimes Speaks Out After 'Grey's Anatomy' Star Eric Dane is Excluded from Oscars 2026 In Memoriam",
+              "url": "https://www.justjared.com/2026/03/19/shonda-rhimes-speaks-out-after-greys-anatomy-star-eric-dane-is-excluded-from-oscars-2026-in-memoriam/",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "argenx to Present New Data at 2026 AAN Annual Meeting that Continue to Transform Patient Outcomes in MG and CIDP and Build Upon Strength of Pipeline",
+              "url": "https://www.globenewswire.com/news-release/2026/03/06/3250804/0/en/argenx-to-Present-New-Data-at-2026-AAN-Annual-Meeting-that-Continue-to-Transform-Patient-Outcomes-in-MG-and-CIDP-and-Build-Upon-Strength-of-Pipeline.html",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Can slugger Spencer Jones impact 2026 Yankees? We start to find out now",
+          "description": "Yankees' slugging prospect Spencer Jones was called up on Friday to make his big-league debut in Milwaukee.",
+          "content": "Seems like weve been talking about Spencer Jones forever, as he moved up the Yankees minor league chain.\r\nJones was the top Yankees prospect, and then he wasnt.\r\nJones mashed two home runs in a 2024 \u2026 [+3335 chars]",
+          "url": "https://www.northjersey.com/story/sports/mlb/yankees/2026/05/08/can-slugger-spencer-jones-impact-the-2026-yankees-we-start-to-find-out-now/89986154007/",
+          "source_name": "NorthJersey.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T20:20:36Z",
+          "author": "Pete Caldera, NorthJersey.com",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/LSQYdb7iGT2H8QeFLDDoGQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/the-bergen-record/6fef1340d5ae33989b2957c357bfbfd6",
+          "is_local_nj": false,
+          "article_id": "c342701f77cd",
+          "summary": "This sports article covers Yankees prospect Spencer Jones' major league debut and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "xed-cci added to PyPI",
+          "description": "cBOX@ /Container Inventur \u2014 Read-Only-Tool f\u00fcr lokale Box-Inventur (OS, CC-Suite, Stack, Datenbanken, Server-Apps). Drittes Mitglied der XED /CC-Suite neben ccc + cca. cBOX.at/YOU by XED.dev Tools via Collective Context (CC).",
+          "content": "Read-Only-Tool f\u00fcr lokale cBOX-Inventur. Drittes Mitglied der XED /CC-Suite\r\nneben ccc (Control) und cca (App-Installation).\r\n100% Read-Only: cci ver\u00e4ndert NIEMALS den Box-Zustand. Strukturelle\r\nGara\u2026 [+2014 chars]",
+          "url": "https://pypi.org/project/xed-cci/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T19:42:38Z",
+          "author": "code@collective-context.org",
+          "image_url": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+          "is_local_nj": false,
+          "article_id": "7c1f45c194ef",
+          "summary": "This article is a technical notice about a Python software package and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u2018The Power of Valerie Cherish\u2019 Helped Cast The Comeback",
+          "description": "\u2018The Comeback\u2019 season three casting director Allison Jones breaks down how she filled the supporting roles everyone was dying to play and the tricky business of casting a sitcom within a send-up of a sitcom.",
+          "content": "In the world of The Comeback, Valerie Cherish may sometimes feel that its hard to get noticed in Hollywood, but in our world, everyone in Hollywood really wants to meet Valerie Cherish. One of the ma\u2026 [+9366 chars]",
+          "url": "http://www.vulture.com/article/the-comeback-season-3-casting-allison-jones.html",
+          "source_name": "Vulture",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T18:35:06Z",
+          "author": "Jackson McHenry",
+          "image_url": "https://pyxis.nymag.com/v1/imgs/e7c/583/5faf3f5d45ab625d60558642d4b17a2b04-lisa-kudrow-1.1x.rsocial.w1200.jpg",
+          "is_local_nj": false,
+          "article_id": "a7f722823ff9",
+          "summary": "This article discusses casting decisions for season three of the television show 'The Comeback' and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Er besiegte schon Flying Uwe - Deutscher Star-Streamer boxt bei Fame Fighting",
+          "description": "Star-Streamer Ediz Tasci trifft bei Fame Fighting auf Comedian Nathan Barnatt.",
+          "content": "TTS-Player \u00fcberspringenArtikel weiterlesenDas wird ja immer besser! 6 K\u00e4mpfe von Fame Fighting International sind mittlerweile offiziell \u00a0und heute folgt der 7. Streich! Denn Gr\u00fcnder Eugen Lopez (33)\u2026 [+1881 chars]",
+          "url": "https://www.bild.de/unterhaltung/stars-und-leute/fame-fighting-international-twitch-streamer-ediz-der-breite-steigt-in-den-ring-69fddeb5cd4a28c470021034",
+          "source_name": "Bild",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T16:14:11Z",
+          "author": "Kilian Gaffrey",
+          "image_url": "https://images.bild.de/69fddeb5cd4a28c470021034/aeb893c8d111a52385c802e7ea7e5012-landscape,f270e12c?w=1280",
+          "is_local_nj": false,
+          "article_id": "39fd7b09ec1d",
+          "summary": "This article covers a German streamer's boxing match appearance and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Updated Fantasy Baseball Catcher Rankings: Value check for the backstops in May",
+          "description": "Fantasy baseball analyst Scott Pianowski updates the values of catchers as we move through May.",
+          "content": "The calendar has moved to May, which means its time to get some positional Shuffle Ups your way. We have enough data to form some actionable opinions (in some cases), or at least educated guesses (in\u2026 [+3522 chars]",
+          "url": "https://sports.yahoo.com/fantasy/article/updated-fantasy-baseball-catcher-rankings-value-check-for-the-backstops-in-may-155041151.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T15:50:41Z",
+          "author": "Scott Pianowski",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/t_lBhkykhjliOS5vPhgU.A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://d29szjachogqwa.cloudfront.net/images/2026-05/84d0db8d-b496-46cd-865e-cba6e80ade9b",
+          "is_local_nj": false,
+          "article_id": "ebfd07554616",
+          "summary": "This article provides fantasy baseball catcher rankings and analysis and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "I Love How Fez Is Part Of Euphoria Season 3, But I Can't Believe Another Character Hasn't Been Mentioned",
+          "description": "This is starting to feel weird.",
+          "content": "Immediately after its debut, Sam Levinson's Euphoria became a HBO show that got the world talking. The Emmy-winning series (which is streaming with a HBO Max subscription) is a cultural phenomenon, a\u2026 [+2651 chars]",
+          "url": "https://www.cinemablend.com/television/i-love-how-fez-part-euphoria-season-3-cant-believe-another-character-hasnt-been-mentioned-kat-barbie-ferreira",
+          "source_name": "CinemaBlend",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T13:06:54Z",
+          "author": "Corey Chichizola",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/2tnMxyCoLXCo6qZDZcXZ6C-1280-80.jpg",
+          "is_local_nj": false,
+          "article_id": "1c84497e16c1",
+          "summary": "This article discusses character appearances in season 3 of the television show 'Euphoria' and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Berserker +\" von OG Keemo",
+          "description": "Suffering from success. (4/5)",
+          "content": "laut.de-Kritik\r\nSuffering from success.\r\nReview von David Maciej Laskowski\r\n\u00dcberraschung, OG Keemo droppt seine neue EP \"Berserker +\". Gerade jetzt, wo er in einer merkw\u00fcrdigen Phase seiner Karriere \u2026 [+6358 chars]",
+          "url": "https://laut.de/OG-Keemo/Alben/Berserker--126933",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T11:45:38Z",
+          "author": "David Maciej Laskowski",
+          "image_url": "https://laut.de/OG-Keemo/Alben/Berserker--126933/og-keemo-berserker-250580.jpg?8803cf",
+          "is_local_nj": false,
+          "article_id": "9f478256fe67",
+          "summary": "This article is a music review of an album by OG Keemo and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Kolumne: Smartphones - Das beste Feature vom iPhone 17, \u00fcber das viel zu wenige sprechen \u2013 ich w\u00fcnsche es mir f\u00fcr jedes Handy",
+          "description": "Wie sagt man so sch\u00f6n? \u00bbBe there or be square\u00ab. In diesem Fall: lieber Square.",
+          "content": "Ausgerechnet die Frontkamera ist f\u00fcr mich das spannendste Feature des iPhone 17. (Bildquelle: Apple)\r\nDas iPhone 17 \u00dcberflieger, All-Rounder und Bestseller. Kein Handy hat sich im ersten Quartal von \u2026 [+6189 chars]",
+          "url": "https://www.gamestar.de/artikel/iphone-17-kolumne-quadratischer-sensor,3452745.html",
+          "source_name": "GameStar",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T09:58:00Z",
+          "author": "Duy Linh Dinh",
+          "image_url": "https://images.cgames.de/images/gamestar/293/iphone-center-stage-peat-gs-linh-apple_6417828.jpg",
+          "is_local_nj": false,
+          "article_id": "cc5a46366505",
+          "summary": "This article discusses features of the iPhone 17 and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Train On The Island\" von Aldous Harding",
+          "description": "Aldous Harding - \"Train On The Island\"",
+          "content": "laut.de-Kritik\r\nDie Stille ist ihre Lautst\u00e4rke.\r\nReview von Jasmin L\u00fctz\r\nIn einem Interview mit dem Guardian hat sich Aldous Harding mal als Jim Carrey der Indie-Szene bezeichnet. H\u00f6rt man ihr neues \u2026 [+3976 chars]",
+          "url": "https://laut.de/Aldous-Harding/Alben/Train-On-The-Island-126917",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T05:23:41Z",
+          "author": "Jasmin L\u00fctz",
+          "image_url": "https://laut.de/Aldous-Harding/Alben/Train-On-The-Island-126917/aldous-harding-train-on-the-island-250545.jpg?e4f25e",
+          "is_local_nj": false,
+          "article_id": "9dc92dae74af",
+          "summary": "This article is a music review of an album by Aldous Harding and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Tech company claims its new caps and beanies can read your mind and put it on a screen \u2014 no brain implant required",
+          "description": "A new tech company claims it has developed a hat that can literally read your mind \u2014 then translate it onto a computer.",
+          "content": "A new tech company claims it has developed a hat that can literally read your mind then translate it onto a computer.\r\nMuch has been discussed about brain implants which require cracking open a perso\u2026 [+8532 chars]",
+          "url": "https://nypost.com/2026/05/07/tech/tech-company-claims-its-new-caps-and-beanies-can-read-your-mind-and-put-it-on-a-screen-no-brain-implant-required/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T22:33:09Z",
+          "author": "Michael Kaplan",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/05/newspress-collage-g3t3wulwu-1778193136022.jpg?quality=75&strip=all&1778178783&w=1200",
+          "is_local_nj": false,
+          "article_id": "38d7fe6330fb",
+          "summary": "This article discusses a new technology company's mind-reading hat prototype and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "AI can screen 15 million molecules in a day. It still can\u2019t cure Alzheimer\u2019s.",
+              "url": "https://thenextweb.com/news/ai-healthcare-drug-discovery-chatbots-reality/",
+              "digest_date": "2026-04-12"
+            }
+          ]
+        },
+        {
+          "title": "Idaho corrections officer shot during Boise hospital ambush sues police, county",
+          "description": "The lawsuit alleges Boise police failed to verify identities or gather critical information before opening fire during the chaotic response to inmate Skylar Meade\u2019s hospital escape",
+          "content": "By Alex BrizeeThe Idaho Statesman\r\nBOISE, Idaho Officers with the Boise Police Department arrived to Saint Alphonsus Regional Medical Center in the early hours of March 20, 2024, to a quiet scene. Al\u2026 [+5922 chars]",
+          "url": "https://www.police1.com/legal/idaho-correctional-officer-shot-during-2024-hospital-ambush-response-sues-police-county",
+          "source_name": "Police1.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T19:40:37Z",
+          "author": null,
+          "image_url": "https://lexipol.brightspotcdn.com/dims4/default/b5c51fd/2147483647/strip/true/crop/1897x1067+76+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk1-prod-lexipol.s3.us-east-2.amazonaws.com%2Fbrightspot%2F21%2Fc9%2Fd3b2564c4d8c9057c7fb07956862%2Fap24082737392221.jpg",
+          "is_local_nj": false,
+          "article_id": "9af7cb50f062",
+          "summary": "This article covers a lawsuit by an Idaho corrections officer and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "[vim-security] Heap Buffer Overflow in spell file loading affects Vim",
+          "description": "Posted by Christian Brabandt on May 07Heap Buffer Overflow in spell file loading affects Vim \n=================================================================\nDate: 07.05.2026\nSeverity: Medium\nCVE: *requested, not yet assigned*\nCWE: Integer Overflow or Wrapa\u2026",
+          "content": "oss-sec\r\nmailing list archives\r\nFrom: Christian Brabandt &lt;cb () 256bit org&gt;Date: Thu, 7 May 2026 21:14:11 +0200\r\nHeap Buffer Overflow in spell file loading affects Vim &lt; 9.2.0450\r\n==========\u2026 [+3472 chars]",
+          "url": "https://seclists.org/oss-sec/2026/q2/431",
+          "source_name": "Seclists.org",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T19:15:42Z",
+          "author": null,
+          "image_url": "https://seclists.org/images/oss-sec-img.png",
+          "is_local_nj": false,
+          "article_id": "533dd96e67a4",
+          "summary": "This article is a technical security notice about a vulnerability in the Vim text editor and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Global Ambulance Service Market is Set to Cross USD 100 Billion by 2034 | DelveInsight",
+          "description": "The ambulance services market is largely fueled by the increasing number of road accidents and trauma-related incidents, as well as the rising burden of chronic illnesses such as cardiovascular diseases and respiratory disorders that demand immediate medical \u2026",
+          "content": "New York, USA, May 07, 2026 (GLOBE NEWSWIRE) -- Global Ambulance Service Market is Set to Cross USD 100 Billion by 2034 | DelveInsight\r\nThe ambulance services market is largely fueled by the increasi\u2026 [+15312 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/05/07/3290392/0/en/Global-Ambulance-Service-Market-is-Set-to-Cross-USD-100-Billion-by-2034-DelveInsight.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T17:00:00Z",
+          "author": "DelveInsight Business Research LLP",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/dbcddd65-71dd-4559-8875-ae89ac4f96db",
+          "is_local_nj": false,
+          "article_id": "e4e3310bc1e0",
+          "summary": "This article discusses market projections for global ambulance services and mentions chronic illnesses as a driver of demand, but is not specifically focused on ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Physical Artificial Intellligence (AI) Research Report 2026: A $3.25 Trillion Market by 2040 from $383 Billion in 2026 with Untapped Potential Across Healthcare, Smart Infrastructure, and Agriculture",
+              "url": "https://www.globenewswire.com/news-release/2026/04/16/3275135/28124/en/Physical-Artificial-Intellligence-AI-Research-Report-2026-A-3-25-Trillion-Market-by-2040-from-383-Billion-in-2026-with-Untapped-Potential-Across-Healthcare-Smart-Infrastructure-and.html",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "Testing, Inspection and Certification (TIC) Market Size to Worth USD 480.99 Billion by 2035 | SNS Insider",
+              "url": "https://www.globenewswire.com/news-release/2026/04/02/3267137/0/en/Testing-Inspection-and-Certification-TIC-Market-Size-to-Worth-USD-480-99-Billion-by-2035-SNS-Insider.html",
+              "digest_date": "2026-04-05"
+            },
+            {
+              "title": "Testing, Inspection, and Certification (TIC) Market Poised to Reach US$ 541.12 Billion by 2035 | Electric Vehicle and Battery Testing Demand Accelerates Growth Says Astute Analytica",
+              "url": "https://www.globenewswire.com/news-release/2026/02/11/3236521/0/en/Testing-Inspection-and-Certification-TIC-Market-Poised-to-Reach-US-541-12-Billion-by-2035-Electric-Vehicle-and-Battery-Testing-Demand-Accelerates-Growth-Says-Astute-Analytica.html",
+              "digest_date": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "title": "Gomes, Manuel Teixeira: Der Hain der toten Frau [German] v.1 07.05.2026 (Other Fiction, ePub)",
+          "description": "Other Fiction Gomes, Manuel Teixeira: Der Hain der toten Frau [German] v.1 07.05.2026 ePub Books",
+          "content": "Manuel Teixeira Gomes (1860\u00961941) nimmt eine einzigartige Stellung in der portugiesischen Geistesgeschichte ein: Er war nicht nur ein bedeutender Schriftsteller des sp\u00e4ten Impressionismus, sondern au\u2026 [+1451 chars]",
+          "url": "https://www.mobileread.com/forums/showthread.php?t=373435",
+          "source_name": "Mobileread.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T13:27:58Z",
+          "author": "Leonatus",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "804af57d7530",
+          "summary": "This is a posting about a German-language fiction e-book and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Carl\u00e9n, Rosa: Tuva. V1 [German] 17.4.2026 (Other Fiction, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=373123",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "Kabel, Walther: Harald Harst (312) - Der gr\u00fcne Vampir. V1.0 [German] 13.03.2026 (Mystery and Crime, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=372506",
+              "digest_date": "2026-03-15"
+            },
+            {
+              "title": "Lewald, Fanny: Helmar. v1 [German] 05.02.2026 (Other Fiction, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=372385",
+              "digest_date": "2026-03-08"
+            }
+          ]
+        },
+        {
+          "title": "Greenland Mines Reports Up To 45% - 55% Increase in Palladium Equivalent (PdEq) Grades at Skaergaard in Sensitivity Study",
+          "description": "CHARLOTTE, N.C., May 7, 2026 /PRNewswire/ -- Greenland Mines Ltd (\"Greenland Mines\" or the \"Company\") (Nasdaq: GRML) reports the results of an independent metal price sensitivity analysis completed by SLR Consulting (\"SLR\") on the Company's Skaergaard Project\u2026",
+          "content": "CHARLOTTE, N.C., May 7, 2026 /PRNewswire/ -- Greenland Mines Ltd (\"Greenland Mines\" or the \"Company\") (Nasdaq: GRML) reports the results of an independent metal price sensitivity analysis completed b\u2026 [+12184 chars]",
+          "url": "https://www.prnewswire.com/news-releases/greenland-mines-reports-up-to-45--55-increase-in-palladium-equivalent-pdeq-grades-at-skaergaard-in-sensitivity-study-302764844.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T12:30:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/2938164/Greenland_Mines_Logo.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "7104300de98f",
+          "summary": "This article reports on mining company Greenland Mines' palladium findings in Greenland and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Cambria Gold Mines Announces Commencement of Infill Drilling at the Premier Gold Project and Marketing Services Update - Capital 10X",
+              "url": "https://capital10x.com/cambria-gold-mines-announces-commencement-of-infill-drilling-at-the-premier-gold-project-and-marketing-services-update/",
+              "digest_date": "2026-03-01"
+            }
+          ]
+        },
+        {
+          "title": "Overtourism in Madrid: Ort gerettet, Seele verloren",
+          "description": "Overtourism in Madrid",
+          "content": "Man muss den Eingang des Caf\u00e9s Gij\u00f3n suchen. Drau\u00dfen, an der Terrasse am schattigen Recoletos-Boulevard, steht nur noch in gro\u00dfen Buchstaben Cappuccino Grand Caf\u00e9. So hei\u00dft die Kette, die vor Kurzem \u2026 [+14329 chars]",
+          "url": "https://www.faz.net/aktuell/reise/overtourism-in-madrid-ort-gerettet-seelen-verloren-accg-200800715.html",
+          "source_name": "Faz.net",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T11:35:02Z",
+          "author": "Hans-Christian R\u00f6\u00dfler",
+          "image_url": "https://media0.faz.net/image/w1200h627/ddf77b4695cc/w3000h1567x0y372o/202605/69cd2634-4879-11f1-80b4-1128950390bf/trolleys-bestimmen-das.webp",
+          "is_local_nj": false,
+          "article_id": "e1c0c73ebf0f",
+          "summary": "This article discusses overtourism and its effects on Madrid, Spain and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "PAN GLOBAL REPORTS SURFACE HIGH-GRADE GOLD WITH 20.2 g/t OVER 5.0 METERS AT C\u00c1RMENES PROJECT, SPAIN",
+          "description": "TSXV: PGZ | OTCQB: PGZFF | FRA: 2EU Saw-cut sampling returned 20.2 g/t gold over 5.0 meters at surface confirming higher grades well beyond the historical Providencia mine workings Discovery of extensive sulphide and hematite breccia exposed at the newly acce\u2026",
+          "content": "Accessibility StatementSkip Navigation\r\nTSXV: PGZ\u00a0\u00a0 |\u00a0\u00a0 OTCQB: PGZFF\u00a0\u00a0 |\u00a0\u00a0 FRA: 2EU\r\n<ul><li>Saw-cut sampling returned 20.2 g/t gold over 5.0 meters at surface confirming higher grades well beyond th\u2026 [+10700 chars]",
+          "url": "https://www.prnewswire.com/news-releases/pan-global-reports-surface-high-grade-gold-with-20-2-gt-over-5-0-meters-at-carmenes-project-spain-302764693.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T11:27:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/2974129/Pan_Global_Resources_Inc__PAN_GLOBAL_REPORTS_SURFACE_HIGH_GRADE.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "828487f0b4ff",
+          "summary": "This article reports on gold mining exploration results in Spain and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Trident Intersects 15.11 g/t Au over 51.83m from 256.0m in the BK3 Zone at the Contact Lake Gold Project, Saskatchewan",
+              "url": "https://www.globenewswire.com/news-release/2026/04/29/3283471/0/en/Trident-Intersects-15-11-g-t-Au-over-51-83m-from-256-0m-in-the-BK3-Zone-at-the-Contact-Lake-Gold-Project-Saskatchewan.html",
+              "digest_date": "2026-05-03"
+            },
+            {
+              "title": "Emerita Intersects High Grade Zone of 4.9m Containing Mineralization Grading 3.5% Copper, 1.95 g/t Gold and 95.63 g/t Silver at El Cura",
+              "url": "https://www.globenewswire.com/news-release/2026/04/22/3278804/0/en/Emerita-Intersects-High-Grade-Zone-of-4-9m-Containing-Mineralization-Grading-3-5-Copper-1-95-g-t-Gold-and-95-63-g-t-Silver-at-El-Cura.html",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "Zacatecas Silver Completes Surface Sampling and Mapping Program at Oso Negro Project, Sonora, Mexico",
+              "url": "https://www.globenewswire.com/news-release/2026/04/16/3275144/0/en/Zacatecas-Silver-Completes-Surface-Sampling-and-Mapping-Program-at-Oso-Negro-Project-Sonora-Mexico.html",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "PAN GLOBAL REPORTS SURFACE HIGH-GRADE GOLD WITH 20.2 g/t OVER 5.0 METERS AT C\u00c1RMENES PROJECT, SPAIN",
+          "description": "TSXV: PGZ | OTCQB: PGZFF | FRA: 2EU Saw-cut sampling returned 20.2 g/t gold over 5.0 meters at surface confirming higher grades well beyond the historical Providencia mine workings Discovery of extensive sulphide and hematite breccia exposed at the newly acce\u2026",
+          "content": "Accessibility StatementSkip Navigation\r\nTSXV: PGZ\u00a0\u00a0 |\u00a0\u00a0 OTCQB: PGZFF\u00a0\u00a0 |\u00a0\u00a0 FRA: 2EU\r\n<ul><li>Saw-cut sampling returned 20.2 g/t gold over 5.0 meters at surface confirming higher grades well beyond th\u2026 [+11396 chars]",
+          "url": "https://www.prnewswire.com/news-releases/pan-global-reports-surface-high-grade-gold-with-20-2-gt-over-5-0-meters-at-carmenes-project-spain-302764728.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T11:27:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/2974129/Pan_Global_Resources_Inc__PAN_GLOBAL_REPORTS_SURFACE_HIGH_GRADE.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "b362e79af9bb",
+          "summary": "This article reports on gold mining exploration results in Spain and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Trident Intersects 15.11 g/t Au over 51.83m from 256.0m in the BK3 Zone at the Contact Lake Gold Project, Saskatchewan",
+              "url": "https://www.globenewswire.com/news-release/2026/04/29/3283471/0/en/Trident-Intersects-15-11-g-t-Au-over-51-83m-from-256-0m-in-the-BK3-Zone-at-the-Contact-Lake-Gold-Project-Saskatchewan.html",
+              "digest_date": "2026-05-03"
+            },
+            {
+              "title": "Emerita Intersects High Grade Zone of 4.9m Containing Mineralization Grading 3.5% Copper, 1.95 g/t Gold and 95.63 g/t Silver at El Cura",
+              "url": "https://www.globenewswire.com/news-release/2026/04/22/3278804/0/en/Emerita-Intersects-High-Grade-Zone-of-4-9m-Containing-Mineralization-Grading-3-5-Copper-1-95-g-t-Gold-and-95-63-g-t-Silver-at-El-Cura.html",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "Zacatecas Silver Completes Surface Sampling and Mapping Program at Oso Negro Project, Sonora, Mexico",
+              "url": "https://www.globenewswire.com/news-release/2026/04/16/3275144/0/en/Zacatecas-Silver-Completes-Surface-Sampling-and-Mapping-Program-at-Oso-Negro-Project-Sonora-Mexico.html",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Insmed Reports First-Quarter 2026 Financial Results and Provides Business Update",
+          "description": "\u2014 Total Company Revenues of $306.0 Million for the First Quarter of 2026\u2014 \u2014BRINSUPRI\u00ae (brensocatib) Revenues of $207.9 Million for the First Quarter of 2026, Reflecting 44% Growth Over the Fourth Quarter of 2025\u2014 \u2014 ARIKAYCE\u00ae (amikacin liposome inhalation susp\u2026",
+          "content": "Total Company Revenues of $306.0 Million for the First Quarter of 2026\r\nBRINSUPRI\u00ae(brensocatib) Revenues of $207.9 Million for the First Quarter of 2026, Reflecting 44% Growth Over the Fourth Quarter\u2026 [+44975 chars]",
+          "url": "https://www.prnewswire.com/news-releases/insmed-reports-first-quarter-2026-financial-results-and-provides-business-update-302764710.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T11:00:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/2544698/Insmed_Incorporated_Logo.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "d7aaef7686ef",
+          "summary": "This article reports Insmed's Q1 2026 financial results and discusses their respiratory and nontuberculous mycobacterium medications, which are not related to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NewcelX Reports Financial Results for 2025 and Provides Shareholders with Update on Accelerated Development of Type 1 Diabetes Treatment in Collaboration with Eledon Pharmaceuticals in 2026",
+              "url": "https://www.globenewswire.com/news-release/2026/04/30/3284829/0/en/NewcelX-Reports-Financial-Results-for-2025-and-Provides-Shareholders-with-Update-on-Accelerated-Development-of-Type-1-Diabetes-Treatment-in-Collaboration-with-Eledon-Pharmaceutical.html",
+              "digest_date": "2026-05-03"
+            },
+            {
+              "title": "Entr\u00e9e Resources Provides JV Licenses Update and Drill and Regional Exploration Results",
+              "url": "https://www.globenewswire.com/news-release/2026/04/09/3270839/0/en/Entr%C3%A9e-Resources-Provides-JV-Licenses-Update-and-Drill-and-Regional-Exploration-Results.html",
+              "digest_date": "2026-04-12"
+            },
+            {
+              "title": "LeonaBio Reports Full Year 2025 Financial Results and Provides Business Update",
+              "url": "https://www.globenewswire.com/news-release/2026/03/26/3263468/0/en/LeonaBio-Reports-Full-Year-2025-Financial-Results-and-Provides-Business-Update.html",
+              "digest_date": "2026-03-29"
+            }
+          ]
+        },
+        {
+          "title": "Artific verwelkomt Artiliance als nieuwe implementatiepartner",
+          "description": "Artific, AI Company of the Year 2025, verwelkomt Artiliance als nieuwe implementatiepartner. Artiliance helpt organisaties om AI structureel te integreren, [\u2026]",
+          "content": "Artific, AI Company of the Year 2025, verwelkomt Artiliance als nieuwe implementatiepartner. Artiliance helpt organisaties om AI structureel te integreren, van strategie en AI Scan tot volledige adop\u2026 [+2917 chars]",
+          "url": "https://www.emerce.nl/wire/artific-verwelkomt-artiliance-nieuwe-implementatiepartner",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T08:37:19Z",
+          "author": "Artific",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/05/Artific-verwelkomt-Artiliance-als-nieuwe-implementatiepartner-Artific.jpg",
+          "is_local_nj": false,
+          "article_id": "b4aefd853967",
+          "summary": "This article announces a partnership between AI companies and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "FILM: mapping organellar metabolism by mid-infrared photothermal-modulated fluorescence",
+          "description": "FILM is a mid-infrared photothermal microscopy variant that involves optical boxcar demodulation-based illumination, denoising and spectral deconvolution. Its relatively gentle nature allows imaging of metabolic processes in organelles in cell culture as well\u2026",
+          "content": "<li>DeBerardinis, R. J. &amp; Thompson, C. B. Cellular metabolism and disease: what do metabolic outliers teach us?. Cell148, 11321144 (2012).\r\nArticle\u00a0\r\n CAS\u00a0\r\n PubMed\u00a0\r\n PubMed Central\u00a0\r\nGoogle Sch\u2026 [+11583 chars]",
+          "url": "https://www.nature.com/articles/s41592-026-03090-1",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T00:00:00Z",
+          "author": "Jianpeng Ao, Jiaze Yin, Haonan Lin, Guangrui Ding, Youchen Guan, Marzia Savini, Bethany Weinberg, Dashan Dong, Qing Xia, Zhongyue Guo, Bowen Liu, Biwen Gao, Ji-Xin Cheng, Meng C. Wang",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41592-026-03090-1/MediaObjects/41592_2026_3090_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "7436e3a18d1e",
+          "summary": "This article describes a new microscopy technique for imaging cellular metabolism published in Nature and is not specifically focused on ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "At the New Museum Spring Gala, the Art World Turned Out for Lisa Phillips",
+          "description": "From John Waters' toast to Deborah Harry's closing set, the evening was as unconventional as the director it honored.",
+          "content": "John Waters and Jeff Koons Yvonne Tnt/BFA.com\r\nAfter nearly three decades at the helm of the New Museum, former director Lisa Phillips deserved a sendoff worthy of the institution, and in late April,\u2026 [+4887 chars]",
+          "url": "https://observer.com/2026/05/art-parties-photos-inside-the-new-museum-spring-gala-2026/",
+          "source_name": "Observer",
+          "source_type": "newsapi",
+          "published_at": "2026-05-06T21:08:45Z",
+          "author": "Christa Terry, Christa Terry",
+          "image_url": "https://observer.com/wp-content/uploads/sites/2/2026/05/BFA_54041_7870281-e1778100594841.jpg?quality=80",
+          "is_local_nj": false,
+          "article_id": "7ca3f2ad03ab",
+          "summary": "This article covers the New Museum Spring Gala event and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "New Museum Spring Gala 2026 Draws Chlo\u00eb Sevigny, John Waters &\u00a0More",
+              "url": "http://wwd.com/eye/parties/new-museum-spring-gala-2026-1238930947/",
+              "digest_date": "2026-05-03"
+            }
+          ]
+        },
+        {
+          "title": "Bionano Announces Leadership Transition",
+          "description": "SAN DIEGO, May 06, 2026 (GLOBE NEWSWIRE) -- Bionano Genomics, Inc. (Nasdaq: BNGO) today announced that Al Luderer, Ph.D., chairman of Bionano\u2019s Board of Directors, has been appointed interim president and chief executive officer, effective May 5, 2026. Dr. Lu\u2026",
+          "content": "SAN DIEGO, May 06, 2026 (GLOBE NEWSWIRE) -- Bionano Genomics, Inc. (Nasdaq: BNGO) today announced that Al Luderer, Ph.D., chairman of Bionanos Board of Directors, has been appointed interim president\u2026 [+8900 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/05/06/3289425/0/en/Bionano-Announces-Leadership-Transition.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-06T20:30:00Z",
+          "author": "Bionano Genomics, Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/5ba4072e-6e59-46e7-847c-6aaf7755bbbf",
+          "is_local_nj": false,
+          "article_id": "b8563815f39e",
+          "summary": "This article announces a leadership transition at Bionano Genomics and is not specifically relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "'Tragedy for Thiago': Mother of Gaza Flotilla Activist Dies as Son Suffers Torture in Israel",
+          "description": "The mother of detained Brazilian Gaza flotilla activist Thiago \u00c1vila died Tuesday while her son is allegedly being abused in Israeli custody after being seized off the coast of Greece last week.Brazilian media reported that Teresa Regina de \u00c1vila e Silva, 63,\u2026",
+          "content": "The mother of detained Brazilian Gaza flotilla activist Thiago \u00c1vila died Tuesday while her son is allegedly being abused in Israeli custody after being seized off the coast of Greece last week.\r\nBra\u2026 [+4578 chars]",
+          "url": "https://www.commondreams.org/news/mother-of-flotilla-activist-dies",
+          "source_name": "Common Dreams",
+          "source_type": "newsapi",
+          "published_at": "2026-05-06T18:50:19Z",
+          "author": "Brett Wilkins",
+          "image_url": "https://www.commondreams.org/media-library/image.png?id=66691863&width=1200&height=600&coordinates=0%2C126%2C0%2C126",
+          "is_local_nj": false,
+          "article_id": "fa388c751a56",
+          "summary": "This article covers news about a Gaza flotilla activist's mother and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Op Sindoor: Precision, restraint and the new grammar of war in the one year since the war",
+          "description": "Explore Operation Sindoor's impact on India's military strategy, emphasizing drone advancements and defense budget increases in response to evolving threats.",
+          "content": "The first anniversary of Operation Sindoor has, by many accounts, demonstrated the Indian armed forces ability to swiftly overwhelm Pakistans air defence system through precise strikes deep inside th\u2026 [+6096 chars]",
+          "url": "https://www.thehindubusinessline.com/news/op-sindoor-precision-restraint-and-the-new-grammar-of-war-in-the-one-year-since-the-war/article70947592.ece",
+          "source_name": "BusinessLine",
+          "source_type": "newsapi",
+          "published_at": "2026-05-06T14:44:37Z",
+          "author": "Dalip Singh",
+          "image_url": "https://bl-i.thgim.com/public/incoming/1s2ln/article70947796.ece/alternates/LANDSCAPE_1200/PTI05_07_2025_000050A.jpg",
+          "is_local_nj": false,
+          "article_id": "d966ea871808",
+          "summary": "This article discusses military strategy and operations and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Who's baseball's GOAT? From Babe Ruth to Barry Bonds, a case for the best US-born players",
+          "description": "Babe Ruth, Jackie Robinson, Barry Bonds and more all have a case to be named baseball's best. These are the all-time greats of America's pastime.",
+          "content": "\"America's pastime\" at least until the NFL performs a hostile takeover of the moniker baseball has been sewn into the fabric of American life since the end of the 19th century.\r\nFrom Babe Ruth to Jac\u2026 [+12592 chars]",
+          "url": "https://www.usatoday.com/story/sports/high-school/2026/05/06/best-usa-born-baseball-players/89955135007/",
+          "source_name": "USA Today",
+          "source_type": "newsapi",
+          "published_at": "2026-05-06T14:44:32Z",
+          "author": "Jesse Yomtov, Bob Nightengale and Gabe Lacques, USA TODAY",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/9ajKTbQ_7UWn2CdwkLK2ww--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD0xNjgzO2NmPXdlYnA-/https://media.zenfs.com/en/usa_today_sports_articles_558/5e67f7ea0ecb9efc726ab58babfb55c0",
+          "is_local_nj": false,
+          "article_id": "7eac21d9788c",
+          "summary": "This article discusses baseball's greatest players and is not relevant to ALS.",
+          "importance": 0,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [
+        {
+          "title": "Leqembi\u00ae Iqlik\u2122 PDUFA date updated to August 24 in the U.S.",
+          "description": "STOCKHOLM, May 8, 2026 /PRNewswire/ -- BioArctic AB's (publ) (Nasdaq Stockholm: BIOA B) partner Eisai today announced that the U.S. Food and Drug Administration (FDA) has extended the review period by three months for the supplemental Biologics License Applic\u2026",
+          "content": "STOCKHOLM, May 8, 2026 /PRNewswire/ --\u00a0BioArctic AB's (publ) (Nasdaq Stockholm: BIOA B) partner Eisai today announced that the U.S. Food and Drug Administration (FDA) has extended the review period b\u2026 [+7058 chars]",
+          "url": "https://www.prnewswire.com/news-releases/leqembi-iqlik-pdufa-date-updated-to-august-24-in-the-us-302766723.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T06:50:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "f3c04975632b",
+          "summary": "BioArctic AB announced that the FDA has extended the review period for Leqembi Iqlik (a supplemental biologics license application) by three months, with the new PDUFA date set for August 24, 2026. Leqembi is an amyloid-targeting therapy that has shown potential in neurodegenerative disease treatment.",
+          "importance": 3,
+          "key_entities": [
+            "Leqembi Iqlik",
+            "BioArctic AB",
+            "Eisai",
+            "FDA",
+            "PDUFA date"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Leqembi\u00ae Iqlik\u2122 PDUFA date updated to August 24 in the U.S.",
+          "description": "STOCKHOLM, May 8, 2026 /PRNewswire/ -- BioArctic AB's (publ) (Nasdaq Stockholm: BIOA B) partner Eisai today announced that the U.S. Food and Drug Administration (FDA) has extended the review period by three months for the supplemental Biologics License Applic\u2026",
+          "content": "STOCKHOLM, May 8, 2026 /PRNewswire/ --\u00a0BioArctic AB's (publ) (Nasdaq Stockholm: BIOA B) partner Eisai today announced that the U.S. Food and Drug Administration (FDA) has extended the review period b\u2026 [+7076 chars]",
+          "url": "https://www.prnewswire.com/news-releases/leqembi-iqlik-pdufa-date-updated-to-august-24-in-the-us-302766719.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T06:47:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "a53e786a08b5",
+          "summary": "BioArctic AB announced that the FDA has extended the review period for Leqembi Iqlik (a supplemental biologics license application) by three months, with the new PDUFA date set for August 24, 2026. Leqembi is an amyloid-targeting therapy that has shown potential in neurodegenerative disease treatment.",
+          "importance": 3,
+          "key_entities": [
+            "Leqembi Iqlik",
+            "BioArctic AB",
+            "Eisai",
+            "FDA",
+            "PDUFA date"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "FDA Expands Approval of VYVGART and VYVGART Hytrulo to All Adults Living with Generalized Myasthenia Gravis",
+          "description": "New York, May 08, 2026 (GLOBE NEWSWIRE) -- The Muscular Dystrophy Association (MDA) today welcomed the U.S. Food and Drug Administration\u2019s (FDA) approval for label expansion of VYVGART\u00ae (efgartigimod alfa-fcab) and VYVGART Hytrulo\u00ae (efgartigimod alfa and hyal\u2026",
+          "content": "New York, May 08, 2026 (GLOBE NEWSWIRE) -- The Muscular Dystrophy Association (MDA) today welcomed the U.S. Food and Drug Administrations (FDA) approval for label expansion of VYVGART\u00ae (efgartigimod \u2026 [+5182 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/05/08/3291395/0/en/FDA-Expands-Approval-of-VYVGART-and-VYVGART-Hytrulo-to-All-Adults-Living-with-Generalized-Myasthenia-Gravis.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-08T22:27:00Z",
+          "author": "Muscular Dystrophy Association",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/eb2e6c3e-1073-4c61-bee2-10436035d15d",
+          "is_local_nj": false,
+          "article_id": "3fe86559f545",
+          "summary": "The FDA has expanded approval of VYVGART and VYVGART Hytrulo to all adults with generalized myasthenia gravis. While this is a neuromuscular disease treatment approval, it is for myasthenia gravis, not ALS, though it may be of tangential interest to those studying neuromuscular disorders.",
+          "importance": 2,
+          "key_entities": [
+            "FDA",
+            "VYVGART",
+            "VYVGART Hytrulo",
+            "Muscular Dystrophy Association",
+            "myasthenia gravis"
+          ],
+          "related_previous": []
+        }
+      ],
+      "cure": [],
+      "grants": [
+        {
+          "title": "The ALS Association Awards $3 Million to Bring Expert ALS Care to Communities that Don't Have It",
+          "description": "New Hoffman clinic grants target rural, underserved and geographically isolated Americans living with ALS ARLINGTON, Va., May 7, 2026 /PRNewswire/ -- The ALS Association today announced the newest recipients of the Hoffman ALS Clinic Development and Capacity \u2026",
+          "content": "New Hoffman clinic grants target rural, underserved and geographically isolated Americans living with ALS\r\nARLINGTON, Va., May 7, 2026 /PRNewswire/ -- The\u00a0ALS Association today announced the newest r\u2026 [+8216 chars]",
+          "url": "https://www.prnewswire.com/news-releases/the-als-association-awards-3-million-to-bring-expert-als-care-to-communities-that-dont-have-it-302766046.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T19:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS446695/alslogo.jpg?id=OA2632672&p=facebook",
+          "is_local_nj": false,
+          "article_id": "ed4b03b1805e",
+          "summary": "The ALS Association has awarded $3 million in new Hoffman clinic grants to bring expert ALS care to rural, underserved, and geographically isolated communities. These grants target areas with limited access to specialized ALS healthcare services.",
+          "importance": 5,
+          "key_entities": [
+            "The ALS Association",
+            "Hoffman ALS Clinic Development",
+            "$3 million grant",
+            "rural communities",
+            "underserved populations"
+          ],
+          "related_previous": []
+        }
+      ],
+      "assistance": [
+        {
+          "title": "The High Cost of Caring: Financial Planning for Chronic Illness",
+          "description": "Facing a progressive diagnosis? A new expert-led tool helps families map out future care costs and navigate the complex patchwork of insurance to plan their financial road map.",
+          "content": "A few years ago, a loved one received a diagnosis that changed everything. It wasn't just the medical jargon or the looming physical challenges that kept us up at night; it was the math. As we sat ar\u2026 [+4552 chars]",
+          "url": "https://www.psychologytoday.com/us/blog/the-social-trust/202605/the-high-cost-of-caring-financial-planning-for-chronic-illness",
+          "source_name": "Psychology Today",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T19:50:37Z",
+          "author": "Ulrich Boser",
+          "image_url": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2026-05/psytoday.jpg?itok=LbEu1k-i",
+          "is_local_nj": false,
+          "article_id": "e3acc9b0fdb5",
+          "summary": "Psychology Today presents an expert-led tool from an article titled 'The High Cost of Caring' that helps families with chronic illnesses, including progressive diagnoses, map out future care costs and navigate insurance options for financial planning. This resource is relevant for ALS families managing the financial aspects of long-term care.",
+          "importance": 4,
+          "key_entities": [
+            "Psychology Today",
+            "financial planning",
+            "chronic illness",
+            "caregiver resources"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "ALS Network Launches Tribute Fund Honoring Steve Ellis During ALS Awareness Month",
+          "description": "LOS ANGELES, May 7, 2026 /PRNewswire/ -- The ALS Network today announces the launch of a tribute fund honoring the life and legacy of Steve Ellis, created in partnership with his wife, Scean Ellis, and their daughter, Kennedy. Affectionately known as \"Smoke\",\u2026",
+          "content": "LOS ANGELES, May 7, 2026 /PRNewswire/ -- The ALS Network today announces the launch of a tribute fund honoring the life and legacy of Steve Ellis, created in partnership with his wife, Scean Ellis, a\u2026 [+1519 chars]",
+          "url": "https://www.prnewswire.com/news-releases/als-network-launches-tribute-fund-honoring-steve-ellis-during-als-awareness-month-302766005.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-07T17:08:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1624921/ALS_Network_Logo.jpg?id=OA2632886&p=facebook",
+          "is_local_nj": false,
+          "article_id": "f1dd231795d8",
+          "summary": "The ALS Network has launched a tribute fund honoring Steve Ellis during ALS Awareness Month in partnership with his family. The fund 'Smoke' Ellis is created to honor his life and legacy.",
+          "importance": 3,
+          "key_entities": [
+            "ALS Network",
+            "Steve Ellis tribute fund",
+            "ALS Awareness Month",
+            "family support"
+          ],
+          "related_previous": []
+        }
+      ],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Billie Eilish-Konzertfilm: Wenn Fans w\u00e4hrend der Vorf\u00fchrung durchs Kino tanzen",
+        "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/billie-eilish-hit-me-hard-and-soft-the-tour-im-kino-accg-200810397.html",
+        "source": "Faz.net",
+        "date": "2026-05-09T09:00:38Z"
+      },
+      {
+        "title": "Knicks vor Einzug ins Conference-Finale",
+        "url": "https://sport.orf.at/stories/3155593/",
+        "source": "Sport.orf.at",
+        "date": "2026-05-09T06:21:55Z"
+      },
+      {
+        "title": "FDA Expands Approval of VYVGART and VYVGART Hytrulo to All Adults Living with Generalized Myasthenia Gravis",
+        "url": "https://www.globenewswire.com/news-release/2026/05/08/3291395/0/en/FDA-Expands-Approval-of-VYVGART-and-VYVGART-Hytrulo-to-All-Adults-Living-with-Generalized-Myasthenia-Gravis.html",
+        "source": "GlobeNewswire",
+        "date": "2026-05-08T22:27:00Z"
+      },
+      {
+        "title": "Vols fans should warm up to idea that Tennessee can win it all in 2026 after hearing new quotes from Al Wilson and Phillip Fulmer",
+        "url": "https://atozsports.com/nashville/volunteers/vols-fans-warm-foootball-tennessee-quotes-from-al-wilson-phillip-fulmer/",
+        "source": "Atozsports.com",
+        "date": "2026-05-08T20:31:18Z"
+      },
+      {
+        "title": "Can slugger Spencer Jones impact 2026 Yankees? We start to find out now",
+        "url": "https://www.northjersey.com/story/sports/mlb/yankees/2026/05/08/can-slugger-spencer-jones-impact-the-2026-yankees-we-start-to-find-out-now/89986154007/",
+        "source": "NorthJersey.com",
+        "date": "2026-05-08T20:20:36Z"
+      },
+      {
+        "title": "xed-cci added to PyPI",
+        "url": "https://pypi.org/project/xed-cci/",
+        "source": "Pypi.org",
+        "date": "2026-05-08T19:42:38Z"
+      },
+      {
+        "title": "Glint of light in therapy for deadly ALS after decades of struggle",
+        "url": "https://news.harvard.edu/gazette/story/2026/05/glint-of-light-in-therapy-for-deadly-als-after-decades-of-struggle/",
+        "source": "Harvard School of Engineering and Applied Sciences",
+        "date": "2026-05-08T19:19:59Z"
+      },
+      {
+        "title": "\u2018The Power of Valerie Cherish\u2019 Helped Cast The Comeback",
+        "url": "http://www.vulture.com/article/the-comeback-season-3-casting-allison-jones.html",
+        "source": "Vulture",
+        "date": "2026-05-08T18:35:06Z"
+      },
+      {
+        "title": "Rebecca Gayheart shares new tribute to Eric Dane 2 months after his tragic death",
+        "url": "https://pagesix.com/2026/05/08/celebrity-news/rebecca-gayheart-shares-new-tribute-to-eric-dane-2-months-after-his-tragic-death/",
+        "source": "Page Six",
+        "date": "2026-05-08T17:59:02Z"
+      },
+      {
+        "title": "Er besiegte schon Flying Uwe - Deutscher Star-Streamer boxt bei Fame Fighting",
+        "url": "https://www.bild.de/unterhaltung/stars-und-leute/fame-fighting-international-twitch-streamer-ediz-der-breite-steigt-in-den-ring-69fddeb5cd4a28c470021034",
+        "source": "Bild",
+        "date": "2026-05-08T16:14:11Z"
+      },
+      {
+        "title": "Updated Fantasy Baseball Catcher Rankings: Value check for the backstops in May",
+        "url": "https://sports.yahoo.com/fantasy/article/updated-fantasy-baseball-catcher-rankings-value-check-for-the-backstops-in-may-155041151.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-05-08T15:50:41Z"
+      },
+      {
+        "title": "I Love How Fez Is Part Of Euphoria Season 3, But I Can't Believe Another Character Hasn't Been Mentioned",
+        "url": "https://www.cinemablend.com/television/i-love-how-fez-part-euphoria-season-3-cant-believe-another-character-hasnt-been-mentioned-kat-barbie-ferreira",
+        "source": "CinemaBlend",
+        "date": "2026-05-08T13:06:54Z"
+      },
+      {
+        "title": "\"Berserker +\" von OG Keemo",
+        "url": "https://laut.de/OG-Keemo/Alben/Berserker--126933",
+        "source": "Laut.de",
+        "date": "2026-05-08T11:45:38Z"
+      },
+      {
+        "title": "Kolumne: Smartphones - Das beste Feature vom iPhone 17, \u00fcber das viel zu wenige sprechen \u2013 ich w\u00fcnsche es mir f\u00fcr jedes Handy",
+        "url": "https://www.gamestar.de/artikel/iphone-17-kolumne-quadratischer-sensor,3452745.html",
+        "source": "GameStar",
+        "date": "2026-05-08T09:58:00Z"
+      },
+      {
+        "title": "Leqembi\u00ae Iqlik\u2122 PDUFA date updated to August 24 in the U.S.",
+        "url": "https://www.prnewswire.com/news-releases/leqembi-iqlik-pdufa-date-updated-to-august-24-in-the-us-302766723.html",
+        "source": "PRNewswire",
+        "date": "2026-05-08T06:50:00Z"
+      },
+      {
+        "title": "Leqembi\u00ae Iqlik\u2122 PDUFA date updated to August 24 in the U.S.",
+        "url": "https://www.prnewswire.com/news-releases/leqembi-iqlik-pdufa-date-updated-to-august-24-in-the-us-302766719.html",
+        "source": "PRNewswire",
+        "date": "2026-05-08T06:47:00Z"
+      },
+      {
+        "title": "Kevin McKidd confirms Grey's Anatomy paid 'intentional' tribute to Eric Dane in season 22 finale",
+        "url": "https://www.perthnow.com.au/entertainment/celebrity-gossip/kevin-mckidd-confirms-greys-anatomy-paid-intentional-tribute-to-eric-dane-in-season-22-finale-c-22255521",
+        "source": "PerthNow",
+        "date": "2026-05-08T06:19:23Z"
+      },
+      {
+        "title": "\"Train On The Island\" von Aldous Harding",
+        "url": "https://laut.de/Aldous-Harding/Alben/Train-On-The-Island-126917",
+        "source": "Laut.de",
+        "date": "2026-05-08T05:23:41Z"
+      },
+      {
+        "title": "Rebecca Gayheart Shares New Tribute to Eric Dane 3 Months After His Death",
+        "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-remembers-eric-dane-months-after-his-death/",
+        "source": "Us Weekly",
+        "date": "2026-05-08T05:15:09Z"
+      },
+      {
+        "title": "Tech company claims its new caps and beanies can read your mind and put it on a screen \u2014 no brain implant required",
+        "url": "https://nypost.com/2026/05/07/tech/tech-company-claims-its-new-caps-and-beanies-can-read-your-mind-and-put-it-on-a-screen-no-brain-implant-required/",
+        "source": "New York Post",
+        "date": "2026-05-07T22:33:09Z"
+      },
+      {
+        "title": "The High Cost of Caring: Financial Planning for Chronic Illness",
+        "url": "https://www.psychologytoday.com/us/blog/the-social-trust/202605/the-high-cost-of-caring-financial-planning-for-chronic-illness",
+        "source": "Psychology Today",
+        "date": "2026-05-07T19:50:37Z"
+      },
+      {
+        "title": "Idaho corrections officer shot during Boise hospital ambush sues police, county",
+        "url": "https://www.police1.com/legal/idaho-correctional-officer-shot-during-2024-hospital-ambush-response-sues-police-county",
+        "source": "Police1.com",
+        "date": "2026-05-07T19:40:37Z"
+      },
+      {
+        "title": "[vim-security] Heap Buffer Overflow in spell file loading affects Vim",
+        "url": "https://seclists.org/oss-sec/2026/q2/431",
+        "source": "Seclists.org",
+        "date": "2026-05-07T19:15:42Z"
+      },
+      {
+        "title": "The ALS Association Awards $3 Million to Bring Expert ALS Care to Communities that Don't Have It",
+        "url": "https://www.prnewswire.com/news-releases/the-als-association-awards-3-million-to-bring-expert-als-care-to-communities-that-dont-have-it-302766046.html",
+        "source": "PRNewswire",
+        "date": "2026-05-07T19:00:00Z"
+      },
+      {
+        "title": "Quote of the Day by Stephen Hawking: \u201cThe past, like the future, is indefinite and exists only as a spectrum of possibilities\u201d \u2014 Why nothing in life is constant and how the legendary physicist reshaped our understanding of time, reality and memory",
+        "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-the-past-like-the-future-is-indefinite-and-exists-only-as-a-spectrum-of-possibilities-why-nothing-in-life-is-constant-and-how-the-legendary-physicist-reshaped-our-understanding-of-time-reality-and-memory/articleshow/130910873.cms",
+        "source": "The Times of India",
+        "date": "2026-05-07T17:10:25Z"
+      },
+      {
+        "title": "ALS Network Launches Tribute Fund Honoring Steve Ellis During ALS Awareness Month",
+        "url": "https://www.prnewswire.com/news-releases/als-network-launches-tribute-fund-honoring-steve-ellis-during-als-awareness-month-302766005.html",
+        "source": "PRNewswire",
+        "date": "2026-05-07T17:08:00Z"
+      },
+      {
+        "title": "Global Ambulance Service Market is Set to Cross USD 100 Billion by 2034 | DelveInsight",
+        "url": "https://www.globenewswire.com/news-release/2026/05/07/3290392/0/en/Global-Ambulance-Service-Market-is-Set-to-Cross-USD-100-Billion-by-2034-DelveInsight.html",
+        "source": "GlobeNewswire",
+        "date": "2026-05-07T17:00:00Z"
+      },
+      {
+        "title": "Gomes, Manuel Teixeira: Der Hain der toten Frau [German] v.1 07.05.2026 (Other Fiction, ePub)",
+        "url": "https://www.mobileread.com/forums/showthread.php?t=373435",
+        "source": "Mobileread.com",
+        "date": "2026-05-07T13:27:58Z"
+      },
+      {
+        "title": "Greenland Mines Reports Up To 45% - 55% Increase in Palladium Equivalent (PdEq) Grades at Skaergaard in Sensitivity Study",
+        "url": "https://www.prnewswire.com/news-releases/greenland-mines-reports-up-to-45--55-increase-in-palladium-equivalent-pdeq-grades-at-skaergaard-in-sensitivity-study-302764844.html",
+        "source": "PRNewswire",
+        "date": "2026-05-07T12:30:00Z"
+      },
+      {
+        "title": "Overtourism in Madrid: Ort gerettet, Seele verloren",
+        "url": "https://www.faz.net/aktuell/reise/overtourism-in-madrid-ort-gerettet-seelen-verloren-accg-200800715.html",
+        "source": "Faz.net",
+        "date": "2026-05-07T11:35:02Z"
+      },
+      {
+        "title": "PAN GLOBAL REPORTS SURFACE HIGH-GRADE GOLD WITH 20.2 g/t OVER 5.0 METERS AT C\u00c1RMENES PROJECT, SPAIN",
+        "url": "https://www.prnewswire.com/news-releases/pan-global-reports-surface-high-grade-gold-with-20-2-gt-over-5-0-meters-at-carmenes-project-spain-302764693.html",
+        "source": "PRNewswire",
+        "date": "2026-05-07T11:27:00Z"
+      },
+      {
+        "title": "PAN GLOBAL REPORTS SURFACE HIGH-GRADE GOLD WITH 20.2 g/t OVER 5.0 METERS AT C\u00c1RMENES PROJECT, SPAIN",
+        "url": "https://www.prnewswire.com/news-releases/pan-global-reports-surface-high-grade-gold-with-20-2-gt-over-5-0-meters-at-carmenes-project-spain-302764728.html",
+        "source": "PRNewswire",
+        "date": "2026-05-07T11:27:00Z"
+      },
+      {
+        "title": "Insmed Reports First-Quarter 2026 Financial Results and Provides Business Update",
+        "url": "https://www.prnewswire.com/news-releases/insmed-reports-first-quarter-2026-financial-results-and-provides-business-update-302764710.html",
+        "source": "PRNewswire",
+        "date": "2026-05-07T11:00:00Z"
+      },
+      {
+        "title": "Artific verwelkomt Artiliance als nieuwe implementatiepartner",
+        "url": "https://www.emerce.nl/wire/artific-verwelkomt-artiliance-nieuwe-implementatiepartner",
+        "source": "Emerce.nl",
+        "date": "2026-05-07T08:37:19Z"
+      },
+      {
+        "title": "FILM: mapping organellar metabolism by mid-infrared photothermal-modulated fluorescence",
+        "url": "https://www.nature.com/articles/s41592-026-03090-1",
+        "source": "Nature.com",
+        "date": "2026-05-07T00:00:00Z"
+      },
+      {
+        "title": "At the New Museum Spring Gala, the Art World Turned Out for Lisa Phillips",
+        "url": "https://observer.com/2026/05/art-parties-photos-inside-the-new-museum-spring-gala-2026/",
+        "source": "Observer",
+        "date": "2026-05-06T21:08:45Z"
+      },
+      {
+        "title": "Bionano Announces Leadership Transition",
+        "url": "https://www.globenewswire.com/news-release/2026/05/06/3289425/0/en/Bionano-Announces-Leadership-Transition.html",
+        "source": "GlobeNewswire",
+        "date": "2026-05-06T20:30:00Z"
+      },
+      {
+        "title": "'Tragedy for Thiago': Mother of Gaza Flotilla Activist Dies as Son Suffers Torture in Israel",
+        "url": "https://www.commondreams.org/news/mother-of-flotilla-activist-dies",
+        "source": "Common Dreams",
+        "date": "2026-05-06T18:50:19Z"
+      },
+      {
+        "title": "Op Sindoor: Precision, restraint and the new grammar of war in the one year since the war",
+        "url": "https://www.thehindubusinessline.com/news/op-sindoor-precision-restraint-and-the-new-grammar-of-war-in-the-one-year-since-the-war/article70947592.ece",
+        "source": "BusinessLine",
+        "date": "2026-05-06T14:44:37Z"
+      },
+      {
+        "title": "Who's baseball's GOAT? From Babe Ruth to Barry Bonds, a case for the best US-born players",
+        "url": "https://www.usatoday.com/story/sports/high-school/2026/05/06/best-usa-born-baseball-players/89955135007/",
+        "source": "USA Today",
+        "date": "2026-05-06T14:44:32Z"
+      }
+    ],
+    "generated_at": "2026-05-10T09:39:49.644284"
+  },
+  {
     "date": "2026-05-03",
     "week_of": "May 03, 2026",
     "digest_number": 19,
