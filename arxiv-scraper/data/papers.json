@@ -1,5 +1,23 @@
 [
   {
+    "id": "2605.06629v1",
+    "title": "Hybrid Quantum-Classical GANs for the Generation of Adversarial Network Flows",
+    "summary": "Classical generative adversarial networks (GANs) have been applied to generate adversarial network traffic capable of attacking intrusion detection systems, but they suffer from shortcomings such as the need for large amounts of high-dimensional datasets, mode collapse, and high computational overhead. In this work, we propose a hybrid quantum-classical GAN (QC-GAN) framework where a variational quantum generator is used to generate synthetic network traffic flows mimicking malicious traffic using latent representations. Instead of sampling classical noise vectors, we encode the latent vector (the hidden features) as a quantum state, which is the basis for claiming more expressive latent representations and reducing computational overhead. A classical discriminator will be trained on real-world datasets (UNSW-NB15) and the proposed QC-GAN-generated fake network flows. In this configuration, the generator aims to minimize the discriminator's ability to distinguish real from fake traffic, while the discriminator aims to maximize its classification accuracy, in an iterative manner. In our attack model, we assume that the attacker is a state actor with access to limited quantum computing power, whereas the discriminator is chosen to be classical, as will likely be the case for most end users and organizations. We test the generated flows using classical intrusion detection system (IDS) models, such as a random forest classifier and a convolutional neural network-based classifier, for their ability to bypass the detection process. This work aims to highlight the possibilities of quantum machine learning as a means of generating advanced attack flows and stress testing classical IDS. Lastly, we further evaluate how hardware-based noise affects these attacks to offer a new perspective on IDS, highlighting the need for a quantum resilient defense system.",
+    "published": "2026-05-07T17:43:25Z",
+    "link": "http://arxiv.org/abs/2605.06629v1",
+    "authors": [
+      "Prateek Paudel",
+      "Nitin Jha",
+      "Abhishek Parakh",
+      "Mahadevan Subramaniam"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "ai_summary": "Classical generative adversarial networks (GANs) have been applied to generate adversarial network traffic capable of attacking intrusion detection systems, but they suffer from shortcomings such as the need for large amounts of high-dimensional datasets, mode collapse, and high computational overhead. In this work, we propose a hybrid quantum-classical GAN (QC-GAN) framework where a variational quantum generator is used to generate synthetic network traffic flows mimicking malicious traffic using latent representations.",
+    "selected_date": "2026-05-10"
+  },
+  {
     "id": "2605.06571v1",
     "title": "CLAD: A Clustered Label-Agnostic Federated Learning Framework for Joint Anomaly Detection and Attack Classification",
     "summary": "The rapid expansion of the Internet of Things (IoT) and Industrial IoT (IIoT) has created a massive, heterogeneous attack surface that challenges traditional network security mechanisms. While Federated Learning (FL) offers a privacy-preserving alternative to centralized Intrusion Detection Systems (IDS), standard approaches struggle to generalize across diverse device behaviors and typically fail to utilize the vast amounts of unlabeled data present in realistic edge environments. To bridge these gaps, we propose CLAD, a holistic framework that seamlessly incorporates Clustered Federated Learning (CFL) with a novel Dual-Mode Micro-Architecture ($\\text{DM}^2\\text{A}$). This unified approach simultaneously tackles the two primary bottlenecks of IoT security: device heterogeneity and label scarcity. The $\\text{DM}^2\\text{A}$ component features a shared encoder followed by two branches, enabling joint unsupervised anomaly detection and supervised attack classification; this allows the framework to harvest intelligence from both labeled and unlabeled clients. Concurrently, the clustering component dynamically groups devices with congruent traffic patterns, preventing global model divergence. By carefully combining these elements, CLAD ensures that no data is discarded and distinct operational patterns are preserved. Extensive evaluations demonstrate that this integrated approach significantly outperforms state-of-the-art baselines, achieving a 30% relative improvement in detection performance in scenarios with 80% unlabeled clients, with only half the communication cost.",
@@ -583,22 +601,5 @@
     ],
     "ai_summary": "Modern text-to-image (T2I) models can now render legible, paragraph-length text, enabling a fundamentally new class of misuse. We identify and formalize the inscriptive jailbreak, where an adversary coerces a T2I system into generating images containing harmful textual payloads (e.g., fraudulent documents) embedded within visually benign scenes.",
     "selected_date": "2026-04-08"
-  },
-  {
-    "id": "2604.04744v1",
-    "title": "Economic Security of VDF-Based Randomness Beacons: Models, Thresholds, and Design Guidelines",
-    "summary": "Randomness beacons based on Verifiable Delay Functions (VDFs) are increasingly proposed for blockchains and distributed systems, promising publicly verifiable delay and bias resistance. Existing analyses, however, treat adversaries purely as cryptographic entities and overlook that real attackers are economically motivated. A VDF may be sequentially secure, yet still vulnerable if a rational adversary can profit by purchasing faster hardware and exploiting reward spikes such as MEV opportunities.   We develop a formal framework for economic security of VDF-based randomness beacons. Modeling the attacker as a rational agent facing hardware speedup, operating costs, and stochastic rewards, we cast the attack decision as an optimal-stopping problem and prove that optimal behavior has a monotone threshold structure. This yields tight necessary and sufficient conditions relating delay parameters to adversarial cost and reward distributions. We extend the analysis to grinding, selective abort, and multi-adversary competition, demonstrating how each amplifies effective rewards and increases required delays.   Using realistic cloud costs, hardware benchmarks, and MEV data, we show that many proposed VDF delays, on the order of a few seconds, are economically insecure under plausible conditions. We conclude with deployable guidelines and introduce Economically Secure Delay Parameters (ESDPs) to support principled parameter selection in practical systems.",
-    "published": "2026-04-06T15:10:23Z",
-    "link": "http://arxiv.org/abs/2604.04744v1",
-    "authors": [
-      "Zhenhang Shang",
-      "Kani Chen"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.GT"
-    ],
-    "ai_summary": "Randomness beacons based on Verifiable Delay Functions (VDFs) are increasingly proposed for blockchains and distributed systems, promising publicly verifiable delay and bias resistance. Existing analyses, however, treat adversaries purely as cryptographic entities and overlook that real attackers are economically motivated.",
-    "selected_date": "2026-04-07"
   }
 ]
