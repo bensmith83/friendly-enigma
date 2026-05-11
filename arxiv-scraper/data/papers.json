@@ -1,5 +1,28 @@
 [
   {
+    "id": "2605.07961v1",
+    "title": "Graph Representation Learning Augmented Model Manipulation on Federated Fine-Tuning of LLMs",
+    "summary": "Federated fine-tuning (FFT) has emerged as a privacy-preserving paradigm for collaboratively adapting large language models (LLMs). Built upon federated learning, FFT enables distributed agents to jointly refine a shared pretrained LLM by aggregating local LLM updates without sharing local raw data. However, FFT-based LLMs remain vulnerable to model manipulation threats, in which adversarial participants upload manipulated LLM updates that corrupt the aggregation process and degrade the performance of the global LLM. In this paper, we propose an Augmented Model maniPulation (AugMP) strategy against FFT-based LLMs. Specifically, we design a novel graph representation learning framework that captures feature correlations among benign LLM updates to guide the generation of malicious updates. To enhance manipulation effectiveness and stealthiness, we develop an iterative manipulation algorithm based on an augmented Lagrangian dual formulation. Through this formulation, malicious updates are optimized to embed adversarial objectives while preserving benign-like parameter characteristics. Experimental results across multiple LLM backbones demonstrate that the AugMP strategy achieves the strongest manipulation performance among all competing baselines, reducing the global LLM accuracy by up to 26% and degrading the average accuracy of local LLM agents by up to 22%. Meanwhile, AugMP maintains high statistical and geometric consistency with benign updates, enabling it to evade conventional distance- and similarity-based defense methods.",
+    "published": "2026-05-08T16:24:54Z",
+    "link": "http://arxiv.org/abs/2605.07961v1",
+    "authors": [
+      "Hanlin Cai",
+      "Kai Li",
+      "Houtianfu Wang",
+      "Haofan Dong",
+      "Yichen Li",
+      "Falko Dressler",
+      "Ozgur B. Akan"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.NI"
+    ],
+    "ai_summary": "Federated fine-tuning (FFT) has emerged as a privacy-preserving paradigm for collaboratively adapting large language models (LLMs). Built upon federated learning, FFT enables distributed agents to jointly refine a shared pretrained LLM by aggregating local LLM updates without sharing local raw data.",
+    "selected_date": "2026-05-11"
+  },
+  {
     "id": "2605.06629v1",
     "title": "Hybrid Quantum-Classical GANs for the Generation of Adversarial Network Flows",
     "summary": "Classical generative adversarial networks (GANs) have been applied to generate adversarial network traffic capable of attacking intrusion detection systems, but they suffer from shortcomings such as the need for large amounts of high-dimensional datasets, mode collapse, and high computational overhead. In this work, we propose a hybrid quantum-classical GAN (QC-GAN) framework where a variational quantum generator is used to generate synthetic network traffic flows mimicking malicious traffic using latent representations. Instead of sampling classical noise vectors, we encode the latent vector (the hidden features) as a quantum state, which is the basis for claiming more expressive latent representations and reducing computational overhead. A classical discriminator will be trained on real-world datasets (UNSW-NB15) and the proposed QC-GAN-generated fake network flows. In this configuration, the generator aims to minimize the discriminator's ability to distinguish real from fake traffic, while the discriminator aims to maximize its classification accuracy, in an iterative manner. In our attack model, we assume that the attacker is a state actor with access to limited quantum computing power, whereas the discriminator is chosen to be classical, as will likely be the case for most end users and organizations. We test the generated flows using classical intrusion detection system (IDS) models, such as a random forest classifier and a convolutional neural network-based classifier, for their ability to bypass the detection process. This work aims to highlight the possibilities of quantum machine learning as a means of generating advanced attack flows and stress testing classical IDS. Lastly, we further evaluate how hardware-based noise affects these attacks to offer a new perspective on IDS, highlighting the need for a quantum resilient defense system.",
@@ -579,27 +602,5 @@
     ],
     "ai_summary": "Multimodal Large Language Models (MLLMs) are increasingly being deployed as automated content moderators. Within this landscape, we uncover a critical threat: Adversarial Smuggling Attacks.",
     "selected_date": "2026-04-09"
-  },
-  {
-    "id": "2604.05853v1",
-    "title": "Reading Between the Pixels: An Inscriptive Jailbreak Attack on Text-to-Image Models",
-    "summary": "Modern text-to-image (T2I) models can now render legible, paragraph-length text, enabling a fundamentally new class of misuse. We identify and formalize the inscriptive jailbreak, where an adversary coerces a T2I system into generating images containing harmful textual payloads (e.g., fraudulent documents) embedded within visually benign scenes. Unlike traditional depictive jailbreaks that elicit visually objectionable imagery, inscriptive attacks weaponize the text-rendering capability itself. Because existing jailbreak techniques are designed for coarse visual manipulation, they struggle to bypass multi-stage safety filters while maintaining character-level fidelity. To expose this vulnerability, we propose Etch, a black-box attack framework that decomposes the adversarial prompt into three functionally orthogonal layers: semantic camouflage, visual-spatial anchoring, and typographic encoding. This decomposition reduces joint optimization over the full prompt space to tractable sub-problems, which are iteratively refined through a zero-order loop. In this process, a vision-language model critiques each generated image, localizes failures to specific layers, and prescribes targeted revisions. Extensive evaluations across 7 models on the 2 benchmarks demonstrate that Etch achieves an average attack success rate of 65.57% (peaking at 91.00%), significantly outperforming existing baselines. Our results reveal a critical blind spot in current T2I safety alignments and underscore the urgent need for typography-aware defense multimodal mechanisms.",
-    "published": "2026-04-07T13:16:07Z",
-    "link": "http://arxiv.org/abs/2604.05853v1",
-    "authors": [
-      "Zonghao Ying",
-      "Haowen Dai",
-      "Lianyu Hu",
-      "Zonglei Jing",
-      "Quanchen Zou",
-      "Yaodong Yang",
-      "Aishan Liu",
-      "Xianglong Liu"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Modern text-to-image (T2I) models can now render legible, paragraph-length text, enabling a fundamentally new class of misuse. We identify and formalize the inscriptive jailbreak, where an adversary coerces a T2I system into generating images containing harmful textual payloads (e.g., fraudulent documents) embedded within visually benign scenes.",
-    "selected_date": "2026-04-08"
   }
 ]
