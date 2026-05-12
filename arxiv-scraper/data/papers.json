@@ -1,5 +1,26 @@
 [
   {
+    "id": "2605.10822v1",
+    "title": "Benchmarking Sensor-Fault Robustness in Forecasting",
+    "summary": "Cyber-physical system (CPS) forecasting models depend on sensor streams with noisy, biased, missing, or temporally misaligned readings, yet standard forecasting evaluation often selects models by nominal error without showing whether they remain robust under such faults. We introduce SensorFault-Bench, a shared CPS-grounded sensor-fault stress-test protocol for evaluating forecasting architectures and robustness-improvement methods, and an operational taxonomy organizing the method comparison. Across four real-world datasets and eight scored scenarios governed by a standardized severity model, it reports worst-scenario degradation, clean mean squared error (MSE), and worst-scenario fault-time MSE, separating relative robustness from absolute error. A disjoint fault-transfer split lets explicit fault-training methods train on adjacent fault families while evaluation uses separate benchmark scenarios. Empirically, forecasting architectures favored by clean MSE can degrade sharply under faults, and clean-MSE rankings can disagree with worst-scenario fault-time error rankings. Chronos-2, the evaluated zero-shot foundation-model representative, matches or trails the last-value naive forecaster in clean MSE on the two single-target datasets and has the largest worst-scenario degradation on ETTh1 and Traffic, where all channels are forecast targets. For the evaluated robustness-improvement method set, paired deltas show selective degradation reductions: projected gradient descent adversarial training and randomized training lead where value faults dominate observed degradation, while fault augmentation leads where availability faults dominate. SensorFault-Bench provides open-source code, documented data access, and reproduction and extension guides, so new datasets, architectures, and robustness-improvement methods can be evaluated under the same CPS sensor-fault robustness protocol.",
+    "published": "2026-05-11T16:41:14Z",
+    "link": "http://arxiv.org/abs/2605.10822v1",
+    "authors": [
+      "Alexander Windmann",
+      "Philipp Wittenberg",
+      "Gianluca Manca",
+      "Marcel Dix",
+      "Jens U. Brandt",
+      "Oliver Niggemann"
+    ],
+    "categories": [
+      "cs.LG",
+      "eess.SP"
+    ],
+    "ai_summary": "Cyber-physical system (CPS) forecasting models depend on sensor streams with noisy, biased, missing, or temporally misaligned readings, yet standard forecasting evaluation often selects models by nominal error without showing whether they remain robust under such faults. We introduce SensorFault-Bench, a shared CPS-grounded sensor-fault stress-test protocol for evaluating forecasting architectures and robustness-improvement methods, and an operational taxonomy organizing the method comparison.",
+    "selected_date": "2026-05-12"
+  },
+  {
     "id": "2605.07961v1",
     "title": "Graph Representation Learning Augmented Model Manipulation on Federated Fine-Tuning of LLMs",
     "summary": "Federated fine-tuning (FFT) has emerged as a privacy-preserving paradigm for collaboratively adapting large language models (LLMs). Built upon federated learning, FFT enables distributed agents to jointly refine a shared pretrained LLM by aggregating local LLM updates without sharing local raw data. However, FFT-based LLMs remain vulnerable to model manipulation threats, in which adversarial participants upload manipulated LLM updates that corrupt the aggregation process and degrade the performance of the global LLM. In this paper, we propose an Augmented Model maniPulation (AugMP) strategy against FFT-based LLMs. Specifically, we design a novel graph representation learning framework that captures feature correlations among benign LLM updates to guide the generation of malicious updates. To enhance manipulation effectiveness and stealthiness, we develop an iterative manipulation algorithm based on an augmented Lagrangian dual formulation. Through this formulation, malicious updates are optimized to embed adversarial objectives while preserving benign-like parameter characteristics. Experimental results across multiple LLM backbones demonstrate that the AugMP strategy achieves the strongest manipulation performance among all competing baselines, reducing the global LLM accuracy by up to 26% and degrading the average accuracy of local LLM agents by up to 22%. Meanwhile, AugMP maintains high statistical and geometric consistency with benign updates, enabling it to evade conventional distance- and similarity-based defense methods.",
@@ -577,30 +598,5 @@
     ],
     "ai_summary": "In large language model (LLM) agents, reasoning trajectories are treated as reliable internal beliefs for guiding actions and updating memory. However, coherent reasoning can still violate logical or evidential constraints, allowing unsupported beliefs repeatedly stored and propagated across decision steps, leading to systematic behavioral drift in long-horizon agentic systems.",
     "selected_date": "2026-04-10"
-  },
-  {
-    "id": "2604.06950v1",
-    "title": "Making MLLMs Blind: Adversarial Smuggling Attacks in MLLM Content Moderation",
-    "summary": "Multimodal Large Language Models (MLLMs) are increasingly being deployed as automated content moderators. Within this landscape, we uncover a critical threat: Adversarial Smuggling Attacks. Unlike adversarial perturbations (for misclassification) and adversarial jailbreaks (for harmful output generation), adversarial smuggling exploits the Human-AI capability gap. It encodes harmful content into human-readable visual formats that remain AI-unreadable, thereby evading automated detection and enabling the dissemination of harmful content. We classify smuggling attacks into two pathways: (1) Perceptual Blindness, disrupting text recognition; and (2) Reasoning Blockade, inhibiting semantic understanding despite successful text recognition. To evaluate this threat, we constructed SmuggleBench, the first comprehensive benchmark comprising 1,700 adversarial smuggling attack instances. Evaluations on SmuggleBench reveal that both proprietary (e.g., GPT-5) and open-source (e.g., Qwen3-VL) state-of-the-art models are vulnerable to this threat, producing Attack Success Rates (ASR) exceeding 90%. By analyzing the vulnerability through the lenses of perception and reasoning, we identify three root causes: the limited capabilities of vision encoders, the robustness gap in OCR, and the scarcity of domain-specific adversarial examples. We conduct a preliminary exploration of mitigation strategies, investigating the potential of test-time scaling (via CoT) and adversarial training (via SFT) to mitigate this threat. Our code is publicly available at https://github.com/zhihengli-casia/smugglebench.",
-    "published": "2026-04-08T11:13:16Z",
-    "link": "http://arxiv.org/abs/2604.06950v1",
-    "authors": [
-      "Zhiheng Li",
-      "Zongyang Ma",
-      "Yuntong Pan",
-      "Ziqi Zhang",
-      "Xiaolei Lv",
-      "Bo Li",
-      "Jun Gao",
-      "Jianing Zhang",
-      "Chunfeng Yuan",
-      "Bing Li",
-      "Weiming Hu"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Multimodal Large Language Models (MLLMs) are increasingly being deployed as automated content moderators. Within this landscape, we uncover a critical threat: Adversarial Smuggling Attacks.",
-    "selected_date": "2026-04-09"
   }
 ]
