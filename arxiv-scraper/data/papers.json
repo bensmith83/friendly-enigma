@@ -1,5 +1,27 @@
 [
   {
+    "id": "2605.13338v1",
+    "title": "Inducing Overthink: Hierarchical Genetic Algorithm-based DoS Attack on Black-Box Large Language Reasoning Models",
+    "summary": "Large Reasoning Models (LRMs) are increasingly integrated into systems requiring reliable multi-step inference, yet this growing dependence exposes new vulnerabilities related to computational availability. In particular, LRMs exhibit a tendency to \"overthink\", producing excessively long and redundant reasoning traces, when confronted with incomplete or logically inconsistent inputs. This behavior significantly increases inference latency and energy consumption, forming a potential vector for denial-of-service (DoS) style resource exhaustion. In this work, we investigate this attack surface and propose an automated black-box framework that induces overthinking in LRMs by systematically perturbing the logical structure of input problems. Our method employs a hierarchical genetic algorithm (HGA) operating on structured problem decompositions, and optimizes a composite fitness function designed to maximize both response length and reflective overthinking markers. Across four state-of-the-art reasoning models, the proposed method substantially amplifies output length, achieving up to a 26.1x increase on the MATH benchmark and consistently outperforming benign and manually crafted missing-premise baselines. We further demonstrate strong transferability, showing that adversarial inputs evolved using a small proxy model retain high effectiveness against large commercial LRMs. These findings highlight overthinking as a shared and exploitable vulnerability in modern reasoning systems, underscoring the need for more robust defenses.",
+    "published": "2026-05-13T10:57:10Z",
+    "link": "http://arxiv.org/abs/2605.13338v1",
+    "authors": [
+      "Shuqiang Wang",
+      "Wei Cao",
+      "Jiaqi Weng",
+      "Jialing Tao",
+      "Licheng Pan",
+      "Hui Xue",
+      "Zhixuan Chu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Large Reasoning Models (LRMs) are increasingly integrated into systems requiring reliable multi-step inference, yet this growing dependence exposes new vulnerabilities related to computational availability. In particular, LRMs exhibit a tendency to \"overthink\", producing excessively long and redundant reasoning traces, when confronted with incomplete or logically inconsistent inputs.",
+    "selected_date": "2026-05-14"
+  },
+  {
     "id": "2605.12264v1",
     "title": "Reconstruction of Personally Identifiable Information from Supervised Finetuned Models",
     "summary": "Supervised Finetuning (SFT) has become one of the primary methods for adapting a large language model (LLM) with extensive pre-trained knowledge to domain-specific, instruction-following tasks. SFT datasets, composed of instruction-response pairs, often include user-provided information that may contain sensitive data such as personally identifiable information (PII), raising privacy concerns. This paper studies the problem of PII reconstruction from SFT models for the first time. We construct multi-turn, user-centric Q&A datasets in sensitive domains, specifically medical and legal settings, that incorporate PII to enable realistic evaluation of leakage. Using these datasets, we evaluate the extent to which an adversary, with varying levels of knowledge about the fine-tuning dataset, can infer sensitive information about individuals whose data was used during SFT. In the reconstruction setting, we propose COVA, a novel decoding algorithm to reconstruct PII under prefix-based attacks, consistently outperforming existing extraction methods. Our results show that even partial attacker knowledge can significantly improve reconstruction success, while leakage varies substantially across PII types.",
@@ -570,30 +592,5 @@
     ],
     "ai_summary": "In large language model (LLM) agents, reasoning trajectories are treated as reliable internal beliefs for guiding actions and updating memory. However, coherent reasoning can still violate logical or evidential constraints, allowing unsupported beliefs repeatedly stored and propagated across decision steps, leading to systematic behavioral drift in long-horizon agentic systems.",
     "selected_date": "2026-04-12"
-  },
-  {
-    "id": "2604.08542v1",
-    "title": "Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction",
-    "summary": "This paper addresses the task of large-scale 3D scene reconstruction from long video sequences. Recent feed-forward reconstruction models have shown promising results by directly regressing 3D geometry from RGB images without explicit 3D priors or geometric constraints. However, these methods often struggle to maintain reconstruction accuracy and consistency over long sequences due to limited memory capacity and the inability to effectively capture global contextual cues. In contrast, humans can naturally exploit the global understanding of the scene to inform local perception. Motivated by this, we propose a novel neural global context representation that efficiently compresses and retains long-range scene information, enabling the model to leverage extensive contextual cues for enhanced reconstruction accuracy and consistency. The context representation is realized through a set of lightweight neural sub-networks that are rapidly adapted during test time via self-supervised objectives, which substantially increases memory capacity without incurring significant computational overhead. The experiments on multiple large-scale benchmarks, including the KITTI Odometry~\\cite{Geiger2012CVPR} and Oxford Spires~\\cite{tao2025spires} datasets, demonstrate the effectiveness of our approach in handling ultra-large scenes, achieving leading pose accuracy and state-of-the-art 3D reconstruction accuracy while maintaining efficiency. Code is available at https://zju3dv.github.io/scal3r.",
-    "published": "2026-04-09T17:59:50Z",
-    "link": "http://arxiv.org/abs/2604.08542v1",
-    "authors": [
-      "Tao Xie",
-      "Peishan Yang",
-      "Yudong Jin",
-      "Yingfeng Cai",
-      "Wei Yin",
-      "Weiqiang Ren",
-      "Qian Zhang",
-      "Wei Hua",
-      "Sida Peng",
-      "Xiaoyang Guo",
-      "Xiaowei Zhou"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "This paper addresses the task of large-scale 3D scene reconstruction from long video sequences. Recent feed-forward reconstruction models have shown promising results by directly regressing 3D geometry from RGB images without explicit 3D priors or geometric constraints.",
-    "selected_date": "2026-04-11"
   }
 ]
