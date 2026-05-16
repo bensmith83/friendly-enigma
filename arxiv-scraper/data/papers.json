@@ -1,5 +1,31 @@
 [
   {
+    "id": "2605.15030v1",
+    "title": "WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections",
+    "summary": "Web agents can autonomously complete online tasks by interacting with websites, but their exposure to open web environments makes them vulnerable to prompt injection attacks embedded in HTML content or visual interfaces. Existing guard models still suffer from limited generalization to unseen domains and attack patterns, high false positive rates on benign content, reduced deployment efficiency due to added latency at each step, and vulnerability to adversarial attacks that evolve over time or directly target the guard itself. To address these limitations, we propose WARD (Web Agent Robust Defense against Prompt Injection), a practical guard model for secure and efficient web agents. WARD is built on WARD-Base, a large-scale dataset with around 177K samples collected from 719 high-traffic URLs and platforms, and WARD-PIG, a dedicated dataset designed for prompt injection attacks targeting the guard model. We further introduce A3T, an adaptive adversarial attack training framework that iteratively strengthens WARD through a memory-based attacker and guard co-evolution process. Extensive experiments show that WARD achieves nearly perfect recall on out-of-distribution benchmarks, maintains low false positive rates to preserve agent utility, remains robust against guard-targeted and adaptive attacks under substantial distribution shifts, and runs efficiently in parallel with the agent without introducing additional latency.",
+    "published": "2026-05-14T16:26:27Z",
+    "link": "http://arxiv.org/abs/2605.15030v1",
+    "authors": [
+      "Tri Cao",
+      "Yulin Chen",
+      "Hieu Cao",
+      "Yibo Li",
+      "Khoi Le",
+      "Thong Nguyen",
+      "Yuexin Li",
+      "Yufei He",
+      "Yue Liu",
+      "Shuicheng Yan",
+      "Bryan Hooi"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Web agents can autonomously complete online tasks by interacting with websites, but their exposure to open web environments makes them vulnerable to prompt injection attacks embedded in HTML content or visual interfaces. Existing guard models still suffer from limited generalization to unseen domains and attack patterns, high false positive rates on benign content, reduced deployment efficiency due to added latency at each step, and vulnerability to adversarial attacks that evolve over time or directly target the guard itself.",
+    "selected_date": "2026-05-16"
+  },
+  {
     "id": "2605.14587v1",
     "title": "Angel or Demon: Investigating the Plasticity Interventions' Impact on Backdoor Threats in Deep Reinforcement Learning",
     "summary": "Extensive research has highlighted the severe threats posed by backdoor attacks to deep reinforcement learning (DRL). However, prior studies primarily focus on vanilla scenarios, while plasticity interventions have emerged as indispensable built-in components of modern DRL agents. Despite their effectiveness in mitigating plasticity loss, the impact of these interventions on DRL backdoor vulnerabilities remains underexplored, and this lack of systematic investigation poses risks in practical DRL deployments. To bridge this gap, we empirically study 14,664 cases integrating representative interventions and attack scenarios. We find that only one intervention (i.e., SAM) exacerbates backdoor threats, while other interventions mitigate them. Pathological analysis identifies that the exacerbation is attributed to backdoor gradient amplification, while the mitigation stems from activation pathway disruption and representation space compression. From these findings, we derive two novel insights: (1) a conceptual framework SCC for robust backdoor injection that deconstructs the mechanistic interplay between interventions and backdoors in DRL, and (2) abnormal loss landscape sharpness as a key indicator for DRL backdoor detection.",
@@ -576,23 +602,5 @@
     ],
     "ai_summary": "The proliferation of autoregressive (AR) image generators demands reliable detection and attribution of their outputs to mitigate misinformation, and to filter synthetic images from training data to prevent model collapse. To address this need, watermarking techniques, specifically designed for AR models, embed a subtle signal at generation time, enabling downstream verification through a corresponding watermark detector.",
     "selected_date": "2026-04-14"
-  },
-  {
-    "id": "2604.08800v1",
-    "title": "Tracing the Chain: Deep Learning for Stepping-Stone Intrusion Detection",
-    "summary": "Stepping-stone intrusions (SSIs) are a prevalent network evasion technique in which attackers route sessions through chains of compromised intermediate hosts to obscure their origin. Effective SSI detection requires correlating the incoming and outgoing flows at each relay host at extremely low false positive rates -- a stringent requirement that renders classical statistical methods inadequate in operational settings. We apply ESPRESSO, a deep learning flow correlation model combining a transformer-based feature extraction network, time-aligned multi-channel interval features, and online triplet metric learning, to the problem of stepping-stone intrusion detection. To support training and evaluation, we develop a synthetic data collection tool that generates realistic stepping-stone traffic across five tunneling protocols: SSH, SOCAT, ICMP, DNS, and mixed multi-protocol chains. Across all five protocols and in both host-mode and network-mode detection scenarios, ESPRESSO substantially outperforms the state-of-the-art DeepCoFFEA baseline, achieving a true positive rate exceeding 0.99 at a false positive rate of $10^{-3}$ for standard bursty protocols in network-mode. We further demonstrate chain length prediction as a tool for distinguishing malicious from benign pivoting, and conduct a systematic robustness analysis revealing that timing-based perturbations are the primary vulnerability of correlation-based stepping-stone detectors.",
-    "published": "2026-04-09T22:26:52Z",
-    "link": "http://arxiv.org/abs/2604.08800v1",
-    "authors": [
-      "Nate Mathews",
-      "Nicholas Hopper",
-      "Matthew Wright"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "ai_summary": "Stepping-stone intrusions (SSIs) are a prevalent network evasion technique in which attackers route sessions through chains of compromised intermediate hosts to obscure their origin. Effective SSI detection requires correlating the incoming and outgoing flows at each relay host at extremely low false positive rates -- a stringent requirement that renders classical statistical methods inadequate in operational settings.",
-    "selected_date": "2026-04-13"
   }
 ]
