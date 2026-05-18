@@ -1,5 +1,22 @@
 [
   {
+    "id": "2605.16227v1",
+    "title": "LymphNode: A Plug-and-Play Access Control Method for Deep Neural Networks",
+    "summary": "Deep Neural Networks (DNNs) are high-value intellectual property (IP), yet deploying them to edge environments exposes them to \\textbf{unrestricted oracle access}, rendering them vulnerable to model extraction and inversion attacks. Existing defenses fail to address this practically: passive watermarking only offers post-hoc provenance, while active defenses impose prohibitive latency or require persistent access to sensitive training data. To bridge this gap, we propose \\textit{LymphNode}, a novel post-hoc defense framework that acts as an intrinsic ``immune system\" within the model. \\textit{LymphNode} enforces a strict ``default-deny'' policy: it actively neutralizes model utility for unauthorized queries via \\textbf{Generalized Sparse Universal Adversarial Perturbations (GSUAP)} injected into the feature space, effectively blocking gradient estimation and data inference. Utility is selectively restored only for authorized inputs carrying a stealthy feature-domain credential. Our framework is highly practical: it is \\textbf{data-efficient}, establishing robust protection with fewer than 100 samples ($<1\\%$ of training data), and \\textbf{cross-dataset adaptable}, enabling protection using public surrogate datasets. \\textit{LymphNode} thus provides a lightweight, immediately deployable defense for high-stakes scenarios where original training data is restricted or unavailable.",
+    "published": "2026-05-15T17:38:06Z",
+    "link": "http://arxiv.org/abs/2605.16227v1",
+    "authors": [
+      "Hanyu Pei",
+      "Shang Liu",
+      "Zeyan Liu"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Deep Neural Networks (DNNs) are high-value intellectual property (IP), yet deploying them to edge environments exposes them to \\textbf{unrestricted oracle access}, rendering them vulnerable to model extraction and inversion attacks. Existing defenses fail to address this practically: passive watermarking only offers post-hoc provenance, while active defenses impose prohibitive latency or require persistent access to sensitive training data.",
+    "selected_date": "2026-05-18"
+  },
+  {
     "id": "2605.14587v1",
     "title": "Angel or Demon: Investigating the Plasticity Interventions' Impact on Backdoor Threats in Deep Reinforcement Learning",
     "summary": "Extensive research has highlighted the severe threats posed by backdoor attacks to deep reinforcement learning (DRL). However, prior studies primarily focus on vanilla scenarios, while plasticity interventions have emerged as indispensable built-in components of modern DRL agents. Despite their effectiveness in mitigating plasticity loss, the impact of these interventions on DRL backdoor vulnerabilities remains underexplored, and this lack of systematic investigation poses risks in practical DRL deployments. To bridge this gap, we empirically study 14,664 cases integrating representative interventions and attack scenarios. We find that only one intervention (i.e., SAM) exacerbates backdoor threats, while other interventions mitigate them. Pathological analysis identifies that the exacerbation is attributed to backdoor gradient amplification, while the mitigation stems from activation pathway disruption and representation space compression. From these findings, we derive two novel insights: (1) a conceptual framework SCC for robust backdoor injection that deconstructs the mechanistic interplay between interventions and backdoors in DRL, and (2) abnormal loss landscape sharpness as a key indicator for DRL backdoor detection.",
@@ -583,23 +600,5 @@
     ],
     "ai_summary": "Deep learning-based surface electromyography (sEMG) gesture recognition is frequently bottlenecked by data scarcity and limited subject diversity. While synthetic data generation via Generative Adversarial Networks (GANs) and diffusion models has emerged as a promising augmentation strategy, these approaches often face challenges regarding training stability or inference efficiency.",
     "selected_date": "2026-04-16"
-  },
-  {
-    "id": "2604.12548v1",
-    "title": "DeepSeek Robustness Against Semantic-Character Dual-Space Mutated Prompt Injection",
-    "summary": "Prompt injection has emerged as a critical security threat to large language models (LLMs), yet existing studies predominantly focus on single-dimensional attack strategies, such as semantic rewriting or character-level obfuscation, which fail to capture the combined effects of multi-space perturbations in realistic scenarios. In addition, systematic black-box robustness evaluations of recent Chinese LLMs, such as DeepSeek, remain limited. To address these gaps, we propose PromptFuzz-SC, a semantic-character dual-space mutation framework for evaluating LLM robustness against prompt injection. The framework integrates semantic transformations (e.g., paraphrasing and word-order perturbation) with character-level obfuscation (e.g., zero-width insertion and encoding-based mutation), forming a unified and extensible mutation operator library. A hybrid search strategy combining epsilon-greedy exploration and hill-climbing refinement is adopted to efficiently discover high-quality adversarial prompts. We further introduce a unified evaluation protocol based on three metrics: misuse success rate (MSR), Average Queries to Success (AQS), and Stealth. Experimental results on DeepSeek demonstrate that dual-space mutation achieves the strongest overall attack performance among the evaluated strategies, attaining the highest mean MSR (0.189), peak MSR (0.375), and mean Stealth. Compared with semantic-only and character-only mutation, it improves mean MSR by 12.5% and 5.6%, respectively. While not consistently minimizing query cost, the proposed method achieves competitive best-case efficiency and maintains strong imperceptibility, indicating a more favorable balance between attack effectiveness and concealment. These findings highlight the importance of composite mutation strategies for robust red-teaming of LLMs and provide practical insights for the design of multi-layer defense mechanisms.",
-    "published": "2026-04-14T10:20:15Z",
-    "link": "http://arxiv.org/abs/2604.12548v1",
-    "authors": [
-      "Junyu Ren",
-      "Xingjian Pan",
-      "Wensheng Gan",
-      "Philip S. Yu"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Prompt injection has emerged as a critical security threat to large language models (LLMs), yet existing studies predominantly focus on single-dimensional attack strategies, such as semantic rewriting or character-level obfuscation, which fail to capture the combined effects of multi-space perturbations in realistic scenarios. In addition, systematic black-box robustness evaluations of recent Chinese LLMs, such as DeepSeek, remain limited.",
-    "selected_date": "2026-04-15"
   }
 ]
