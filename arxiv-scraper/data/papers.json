@@ -1,5 +1,26 @@
 [
   {
+    "id": "2605.20174v1",
+    "title": "Multi-axis Analysis of Image Manipulation Localization",
+    "summary": "Advanced image editing software enables easy creation of highly convincing image manipulations, which has been made even more accessible in recent years due to advances in generative AI. Manipulated images, while often harmless, could spread misinformation, create false narratives, and influence people's opinions on important issues. Despite this growing threat, there is limited research on detecting advanced manipulations across different visual domains. Thus, we introduce Analysis Under Domain-shifts, qualIty, Type, and Size (AUDITS), a comprehensive benchmark designed for studying axes of analysis in image manipulation detection. AUDITS comprises over 530K images from two distinct sources (user and news photos). We curate our dataset to support analysis across multiple axes using recent diffusion-based inpaintings, spanning a diverse range of manipulation types and sizes. We conduct experiments under different types of domain shift to evaluate robustness of existing image manipulation detection methods. Our goal is to drive further research in this area by offering new insights that would help develop more reliable and generalizable image manipulation detection methods.",
+    "published": "2026-05-19T17:54:33Z",
+    "link": "http://arxiv.org/abs/2605.20174v1",
+    "authors": [
+      "Keanu Nichols",
+      "Divya Appapogu",
+      "Giscard Biamby",
+      "Dina Bashkirova",
+      "Anna Rohrbach",
+      "Bryan A. Plummer"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "ai_summary": "Advanced image editing software enables easy creation of highly convincing image manipulations, which has been made even more accessible in recent years due to advances in generative AI. Manipulated images, while often harmless, could spread misinformation, create false narratives, and influence people's opinions on important issues.",
+    "selected_date": "2026-05-20"
+  },
+  {
     "id": "2605.16227v1",
     "title": "LymphNode: A Plug-and-Play Access Control Method for Deep Neural Networks",
     "summary": "Deep Neural Networks (DNNs) are high-value intellectual property (IP), yet deploying them to edge environments exposes them to \\textbf{unrestricted oracle access}, rendering them vulnerable to model extraction and inversion attacks. Existing defenses fail to address this practically: passive watermarking only offers post-hoc provenance, while active defenses impose prohibitive latency or require persistent access to sensitive training data. To bridge this gap, we propose \\textit{LymphNode}, a novel post-hoc defense framework that acts as an intrinsic ``immune system\" within the model. \\textit{LymphNode} enforces a strict ``default-deny'' policy: it actively neutralizes model utility for unauthorized queries via \\textbf{Generalized Sparse Universal Adversarial Perturbations (GSUAP)} injected into the feature space, effectively blocking gradient estimation and data inference. Utility is selectively restored only for authorized inputs carrying a stealthy feature-domain credential. Our framework is highly practical: it is \\textbf{data-efficient}, establishing robust protection with fewer than 100 samples ($<1\\%$ of training data), and \\textbf{cross-dataset adaptable}, enabling protection using public surrogate datasets. \\textit{LymphNode} thus provides a lightweight, immediately deployable defense for high-stakes scenarios where original training data is restricted or unavailable.",
@@ -582,23 +603,5 @@
     ],
     "ai_summary": "Modern Large audio-language models (LALMs) power intelligent voice interactions by tightly integrating audio and text. This integration, however, expands the attack surface beyond text and introduces vulnerabilities in the continuous, high-dimensional audio channel.",
     "selected_date": "2026-04-17"
-  },
-  {
-    "id": "2604.13685v1",
-    "title": "EMGFlow: Robust and Efficient Surface Electromyography Synthesis via Flow Matching",
-    "summary": "Deep learning-based surface electromyography (sEMG) gesture recognition is frequently bottlenecked by data scarcity and limited subject diversity. While synthetic data generation via Generative Adversarial Networks (GANs) and diffusion models has emerged as a promising augmentation strategy, these approaches often face challenges regarding training stability or inference efficiency. To bridge this gap, we propose EMGFlow, a conditional sEMG generation framework. To the best of our knowledge, this is the first study to investigate the application of Flow Matching (FM) and continuous-time generative modeling in the sEMG domain. To validate EMGFlow across three benchmark sEMG datasets, we employ a unified evaluation protocol integrating feature-based fidelity, distributional geometry, and downstream utility. Extensive evaluations show that EMGFlow outperforms conventional augmentation and GAN baselines, and provides stronger standalone utility than the diffusion baselines considered here under the train-on-synthetic test-on-real (TSTR) protocol. Furthermore, by optimizing generation dynamics through advanced numerical solvers and targeted time sampling, EMGFlow achieves improved quality-efficiency trade-offs. Taken together, these results suggest that Flow Matching is a promising and efficient paradigm for addressing data bottlenecks in myoelectric control systems. Our code is available at: https://github.com/Open-EXG/EMGFlow.",
-    "published": "2026-04-15T10:07:29Z",
-    "link": "http://arxiv.org/abs/2604.13685v1",
-    "authors": [
-      "Boxuan Jiang",
-      "Chenyun Dai",
-      "Can Han"
-    ],
-    "categories": [
-      "cs.HC",
-      "cs.LG"
-    ],
-    "ai_summary": "Deep learning-based surface electromyography (sEMG) gesture recognition is frequently bottlenecked by data scarcity and limited subject diversity. While synthetic data generation via Generative Adversarial Networks (GANs) and diffusion models has emerged as a promising augmentation strategy, these approaches often face challenges regarding training stability or inference efficiency.",
-    "selected_date": "2026-04-16"
   }
 ]
