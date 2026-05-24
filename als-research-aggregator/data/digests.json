@@ -1,5 +1,1185 @@
 [
   {
+    "date": "2026-05-24",
+    "week_of": "May 24, 2026",
+    "digest_number": 22,
+    "weekly_summary": "This week brought several important developments in ALS research and awareness. The most significant scientific news is AC Immune's Phase 1 data on their TDP-43 PET tracer ACI-19626, which showed higher uptake in ALS patients compared to controls. This biomarker advance could be transformative for how doctors diagnose and monitor ALS progression, making it one of the most important research announcements this week. Clinically, this type of imaging biomarker can help stratify patients, track disease progression more accurately, and potentially serve as an endpoint in future clinical trials.\n\nOn the advocacy and awareness front, multiple stories highlight growing ALS visibility in mainstream media. Actor Eric Dane's new documentary 'Ring Every Bell' features his advocacy work with the I Am ALS nonprofit, including Capitol Hill engagement, suggesting coordinated policy efforts around ALS. Additionally, '90 Day Fianc\u00e9' star Jenny Slatten's public disclosure of her ALS diagnosis continues raising general population awareness about the disease. These public figures sharing their stories help combat stigma and increase fundraising momentum for research and patient support.\n\nFor New Jersey families specifically, the partnership between Ales for ALS and Untappd platform offers concrete opportunities to participate in local fundraising events in 2026. This grassroots fundraising approach connects the craft beer community to ALS causes, making it an accessible way for supporters to contribute to research and patient care initiatives. Together, these developments reflect progress on both the research pipeline and the advocacy/community engagement front.",
+    "highlights": [
+      {
+        "article": {
+          "title": "AC Immune Presents New Phase 1 Data Indicating Higher Uptake of TDP-43 PET Tracer ACI-19626 in Patients with ALS",
+          "description": "AC Immune Presents New Phase 1 Data Indicating Higher Uptake of TDP-43 PET Tracer ACI-19626 in Patients with ALS  Presentation at 2026 TDP43 Summit shows...",
+          "content": "AC Immune Presents New Phase 1 Data Indicating Higher Uptake of TDP-43 PET Tracer ACI-19626 in Patients with ALS\r\n<ul><li>Presentation at 2026 TDP43 Summit shows ACI-19626 detects TDP-43 pathology in\u2026 [+6028 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/05/22/3300024/0/en/AC-Immune-Presents-New-Phase-1-Data-Indicating-Higher-Uptake-of-TDP-43-PET-Tracer-ACI-19626-in-Patients-with-ALS.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T11:00:00Z",
+          "author": "AC Immune SA",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/0065cdfd-b9fc-4994-8aca-731c1d031b51",
+          "is_local_nj": false,
+          "article_id": "f3794bcff752"
+        },
+        "why_important": "This is the most significant ALS research development this week. AC Immune's Phase 1 data on the TDP-43 PET tracer ACI-19626 represents important progress in biomarker development, which is critical for improved ALS diagnosis, patient stratification, and monitoring disease progression. TDP-43 is a hallmark pathological feature in ALS, making this tracer potentially valuable for clinical practice."
+      },
+      {
+        "article": {
+          "title": "Ales for ALS: Find a Local Event and Raise a Glass for a Great Cause",
+          "description": "We're thrilled to announce that Untappd is teaming up with Ales for ALS in 2026.This one means a lot to us. The craft beer community has always been about more than what's in the glass, it's about the people, the stories, and showing up for each other when it\u2026",
+          "content": "We're thrilled to announce that Untappd is teaming up with Ales for ALS in 2026.\r\nThis one means a lot to us. The craft beer community has always been about more than what's in the glass, it's about \u2026 [+2738 chars]",
+          "url": "https://untappd.com/blog/ales-for-als-find-a-local-event-and-raise-a-glass-for-a-great-cause/1917",
+          "source_name": "Untappd.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T15:30:07Z",
+          "author": "The Untappd Team",
+          "image_url": "https://assets.untappd.com/promo/4ba2bf3a52_ales_for_als_featured_image_001.png",
+          "is_local_nj": false,
+          "article_id": "b79f137bae5b"
+        },
+        "why_important": "The Ales for ALS partnership with Untappd provides concrete opportunities for local fundraising events and community engagement. For New Jersey families, this type of grassroots fundraising effort supports ALS organizations and research while building community awareness. This is directly actionable for supporters wanting to participate in fundraising."
+      },
+      {
+        "article": {
+          "title": "See Eric Dane Campaign for ALS Awareness in New Documentary Short",
+          "description": "Ring Every Bell shows how the late actor visited Capitol Hill with the nonprofit group I Am ALS, which also released a new PSA featuring Dane and other celebrities",
+          "content": "Eric Dane\u2018s battle with ALS, or Lou Gehrig\u2019s disease, is the subject of a new short documentary, Ring Every Bell. \u201cIt\u2019s the cruelest of all diseases,\u201d he says in the film. \u201cThere\u2019s a grieving process\u2026 [+2022 chars]",
+          "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-ring-every-bell-als-documentary-1235566582/",
+          "source_name": "Rolling Stone",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T22:19:17Z",
+          "author": "Kory Grow",
+          "image_url": "https://www.rollingstone.com/wp-content/uploads/2026/05/eric-dane-als.jpg?crop=0px%2C32px%2C1800px%2C1014px&resize=1600%2C900",
+          "is_local_nj": false,
+          "article_id": "2540fdff4aea"
+        },
+        "why_important": "Eric Dane's documentary 'Ring Every Bell' and the associated PSA campaign represent significant celebrity advocacy for ALS awareness. The involvement of I Am ALS nonprofit and Capitol Hill engagement suggests this is part of larger policy advocacy efforts, making it important for understanding how ALS is being promoted at institutional levels."
+      },
+      {
+        "article": {
+          "title": "90 Day Fianc\u00e9\u2019s Jenny Slatten Gives Update After Sharing ALS Diagnosis",
+          "description": "Jenny Slatten\u00a0is sharing\u00a0more insight into\u00a0her\u00a0wellbeing.\u00a0\nHours after the\u00a090 Day Fianc\u00e9\u00a0star\u2014who married husband\u00a0Sumit Singh\u00a0in 2021\u2014announced she was diagnosed with amyotrophic lateral sclerosis...",
+          "content": "Emilia Clarke filmed battle scenes for Game of Thrones, but in 2019, she published an essay in The New Yorker titled \"A Battle for My Life.\"\r\nHaving a bad headache at the gym, \"I reached the toilet, \u2026 [+1248 chars]",
+          "url": "https://www.eonline.com/news/1432189/90-day-fiances-jenny-slatten-diagnosed-with-als-gives-update",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T18:06:05Z",
+          "author": "Sasha Wayman",
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20260520/a69eab97-9186-4ad6-ac54-a04b815e9600_1779299458.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "is_local_nj": false,
+          "article_id": "952f05899d61"
+        },
+        "why_important": "Jenny Slatten's public ALS diagnosis announcement brings mainstream media attention to the disease. Public figures disclosing their ALS diagnosis help raise awareness among the general population and reduce stigma, which can be valuable for patient communities and fundraising efforts."
+      },
+      {
+        "article": {
+          "title": "MND has been called 'the beast'. We still don't know what causes it",
+          "description": "As another rugby league player is diagnosed with motor neurone disease, we asked experts why so little is known about what causes it.",
+          "content": "Rugby league players are among the most high-profile faces of motor neurone disease (MND) diagnoses in Australia.\r\nFormer Maroon player Carl Webb died of MND at 42 in December 2023.\r\nRob Burrow, a fo\u2026 [+8526 chars]",
+          "url": "https://www.abc.net.au/news/2026-05-21/jai-arrow-motor-neurone-disease-cause-symptoms-explained/106705760",
+          "source_name": "ABC News (AU)",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T04:41:31Z",
+          "author": "Hanan Dervisevic",
+          "image_url": "https://live-production.wcms.abc-cdn.net.au/2b1a55ddf4436777329f3a71d5a0f7d2?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=302&width=862&height=485&imformat=generic",
+          "is_local_nj": false,
+          "article_id": "0feb6d0a1b2a"
+        },
+        "why_important": "This ABC News investigation into Motor Neurone Disease causes and symptoms provides educational content examining why so little is known about ALS etiology. Understanding disease mechanisms remains one of the key gaps in ALS research, and this article highlights the importance of continued investigation into causative factors."
+      }
+    ],
+    "categories": {
+      "research": [
+        {
+          "title": "AC Immune Presents New Phase 1 Data Indicating Higher Uptake of TDP-43 PET Tracer ACI-19626 in Patients with ALS",
+          "description": "AC Immune Presents New Phase 1 Data Indicating Higher Uptake of TDP-43 PET Tracer ACI-19626 in Patients with ALS  Presentation at 2026 TDP43 Summit shows...",
+          "content": "AC Immune Presents New Phase 1 Data Indicating Higher Uptake of TDP-43 PET Tracer ACI-19626 in Patients with ALS\r\n<ul><li>Presentation at 2026 TDP43 Summit shows ACI-19626 detects TDP-43 pathology in\u2026 [+6028 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/05/22/3300024/0/en/AC-Immune-Presents-New-Phase-1-Data-Indicating-Higher-Uptake-of-TDP-43-PET-Tracer-ACI-19626-in-Patients-with-ALS.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T11:00:00Z",
+          "author": "AC Immune SA",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/0065cdfd-b9fc-4994-8aca-731c1d031b51",
+          "is_local_nj": false,
+          "article_id": "f3794bcff752",
+          "summary": "AC Immune presented Phase 1 data showing higher uptake of TDP-43 PET tracer ACI-19626 in ALS patients compared to controls. This biomarker advancement was presented at the 2026 TDP43 Summit and could improve ALS diagnosis and monitoring.",
+          "importance": 5,
+          "key_entities": [
+            "AC Immune",
+            "ACI-19626",
+            "TDP-43 PET tracer",
+            "Phase 1 data"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "See Eric Dane Campaign for ALS Awareness in New Documentary Short",
+          "description": "Ring Every Bell shows how the late actor visited Capitol Hill with the nonprofit group I Am ALS, which also released a new PSA featuring Dane and other celebrities",
+          "content": "Eric Dane\u2018s battle with ALS, or Lou Gehrig\u2019s disease, is the subject of a new short documentary, Ring Every Bell. \u201cIt\u2019s the cruelest of all diseases,\u201d he says in the film. \u201cThere\u2019s a grieving process\u2026 [+2022 chars]",
+          "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-ring-every-bell-als-documentary-1235566582/",
+          "source_name": "Rolling Stone",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T22:19:17Z",
+          "author": "Kory Grow",
+          "image_url": "https://www.rollingstone.com/wp-content/uploads/2026/05/eric-dane-als.jpg?crop=0px%2C32px%2C1800px%2C1014px&resize=1600%2C900",
+          "is_local_nj": false,
+          "article_id": "2540fdff4aea",
+          "summary": "Documentary short titled 'Ring Every Bell' features actor Eric Dane campaigning for ALS awareness and visiting Capitol Hill with nonprofit organization I Am ALS. The production includes a new PSA featuring Dane and other celebrities advocating for ALS awareness.",
+          "importance": 4,
+          "key_entities": [
+            "Eric Dane",
+            "Ring Every Bell",
+            "I Am ALS",
+            "ALS awareness"
+          ],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart shares new tribute to Eric Dane 2 months after his tragic death",
+              "url": "https://pagesix.com/2026/05/08/celebrity-news/rebecca-gayheart-shares-new-tribute-to-eric-dane-2-months-after-his-tragic-death/",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "Rebecca Gayheart Shares New Tribute to Eric Dane 3 Months After His Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-remembers-eric-dane-months-after-his-death/",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "Eric Dane Returns for His Final TV Role in the New Euphoria Trailer",
+              "url": "https://www.esquire.com/entertainment/tv/a70894721/eric-dane-euphoria-trailer-final-role/",
+              "digest_date": "2026-04-05"
+            }
+          ]
+        },
+        {
+          "title": "Emotional Matty Johns chokes back tears in Jai Arrow MND tribute as he breaks the No.1 rule of live television",
+          "description": "Footy legend Matty Johns has delivered a sincere, emotional and direct tribute to former South Sydney and Gold Coast player Jai Arrow after his MND diagnosis this week",
+          "content": "Footy legend Matty Johns has delivered a sincere, emotional and direct tribute to former South Sydney and Gold Coast player Jai Arrow after his MND diagnosis this week.\r\nArrow stunned the NRL world t\u2026 [+3887 chars]",
+          "url": "https://www.dailymail.com/sport/nrl/article-15839205/Emotional-Matty-Johns-chokes-tears-Jai-Arrow-MND-tribute-breaks-No-1-rule-live-television.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T23:47:06Z",
+          "author": "Josh Alston",
+          "image_url": "https://i.dailymail.com/1s/2026/05/22/00/108790473-0-image-m-11_1779406961452.jpg",
+          "is_local_nj": false,
+          "article_id": "f8bc57ef6af8",
+          "summary": "Sports commentator Matty Johns delivered an emotional tribute to rugby league player Jai Arrow following Arrow's Motor Neurone Disease (MND) diagnosis. The tribute highlights the broader awareness of neurological disease in sports communities.",
+          "importance": 3,
+          "key_entities": [
+            "Jai Arrow",
+            "Motor Neurone Disease",
+            "MND"
+          ],
+          "related_previous": [
+            {
+              "title": "\u2018Grey\u2019s Anatomy\u2019 Pays Emotional Tribute to Eric Dane With Look Back at Dr. Mark Sloan - The Hollywood Reporter",
+              "url": "https://slashdot.org/firehose.pl?op=view&amp;id=180867334",
+              "digest_date": "2026-03-01"
+            }
+          ]
+        },
+        {
+          "title": "Quote of the Day by renowned physicist Stephen Hawking: 'Life would be tragic if...'- The greatest physicist's most powerful quote was not about science, rather about finding humor in human struggle",
+          "description": "Quote of the Day: Stephen Hawking, a renowned physicist, is remembered not only for his groundbreaking scientific contributions but also for his profound observation: 'Life would be tragic if it weren't funny.' Despite facing a devastating illness for decades\u2026",
+          "content": "Quote of the Day by Stephen Hawking: Black holes, time travel, collapsing stars, and the mysteries of the universe made Stephen Hawking one of the most recognizable scientific minds in modern history\u2026 [+5513 chars]",
+          "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-renowned-physicist-stephen-hawking-life-would-be-tragic-if-the-greatest-physicists-most-powerful-quote-was-not-about-science-rather-about-finding-humor-in-human-struggle/articleshow/131250594.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T19:34:51Z",
+          "author": "Muskan Singh",
+          "image_url": "https://img.etimg.com/thumb/msid-131250978,width-1200,height-630,imgsize-878465,overlay-economictimes/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "d5ca4147c5a3",
+          "summary": "Article featuring a quote from physicist Stephen Hawking about finding humor in human struggle, reflecting on his decades-long battle with a devastating illness. Hawking's experience with ALS is highlighted as an inspiration for others facing serious health challenges.",
+          "importance": 3,
+          "key_entities": [
+            "Stephen Hawking",
+            "ALS"
+          ],
+          "related_previous": [
+            {
+              "title": "Quote of the Day by Stephen Hawking: \u201cThe past, like the future, is indefinite and exists only as a spectrum of possibilities\u201d \u2014 Why nothing in life is constant and how the legendary physicist reshaped our understanding of time, reality and memory",
+              "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-the-past-like-the-future-is-indefinite-and-exists-only-as-a-spectrum-of-possibilities-why-nothing-in-life-is-constant-and-how-the-legendary-physicist-reshaped-our-understanding-of-time-reality-and-memory/articleshow/130910873.cms",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "Iran-Israel war shows future wars will be won by thousands of cheap drones not expensive missiles can India keep up",
+              "url": "https://economictimes.indiatimes.com/news/defence/iran-israel-war-shows-future-wars-will-be-won-by-thousands-of-cheap-drones-not-expensive-missiles-can-india-keep-up/articleshow/129932689.cms",
+              "digest_date": "2026-04-05"
+            },
+            {
+              "title": "Radar Reveals Everything Eric Dane Said About His ALS Battle Before His Tragic Death at 53 \u2014 'I Was Heartbroken'",
+              "url": "https://okmagazine.com/p/eric-dane-als-battle-everything-he-said-about-his-health-condition/",
+              "digest_date": "2026-03-15"
+            }
+          ]
+        },
+        {
+          "title": "MND has been called 'the beast'. We still don't know what causes it",
+          "description": "As another rugby league player is diagnosed with motor neurone disease, we asked experts why so little is known about what causes it.",
+          "content": "Rugby league players are among the most high-profile faces of motor neurone disease (MND) diagnoses in Australia.\r\nFormer Maroon player Carl Webb died of MND at 42 in December 2023.\r\nRob Burrow, a fo\u2026 [+8526 chars]",
+          "url": "https://www.abc.net.au/news/2026-05-21/jai-arrow-motor-neurone-disease-cause-symptoms-explained/106705760",
+          "source_name": "ABC News (AU)",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T04:41:31Z",
+          "author": "Hanan Dervisevic",
+          "image_url": "https://live-production.wcms.abc-cdn.net.au/2b1a55ddf4436777329f3a71d5a0f7d2?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=302&width=862&height=485&imformat=generic",
+          "is_local_nj": false,
+          "article_id": "0feb6d0a1b2a",
+          "summary": "ABC News article examines Motor Neurone Disease (MND) causes and symptoms following rugby league player Jai Arrow's recent diagnosis. Experts discuss why little is known about what causes this devastating neurological condition.",
+          "importance": 3,
+          "key_entities": [
+            "Motor Neurone Disease",
+            "MND",
+            "disease causes"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "90 Day Fianc\u00e9\u2019s Jenny Slatten Gives Update After Sharing ALS Diagnosis",
+          "description": "Jenny Slatten\u00a0is sharing\u00a0more insight into\u00a0her\u00a0wellbeing.\u00a0\nHours after the\u00a090 Day Fianc\u00e9\u00a0star\u2014who married husband\u00a0Sumit Singh\u00a0in 2021\u2014announced she was diagnosed with amyotrophic lateral sclerosis...",
+          "content": "Emilia Clarke filmed battle scenes for Game of Thrones, but in 2019, she published an essay in The New Yorker titled \"A Battle for My Life.\"\r\nHaving a bad headache at the gym, \"I reached the toilet, \u2026 [+1248 chars]",
+          "url": "https://www.eonline.com/news/1432189/90-day-fiances-jenny-slatten-diagnosed-with-als-gives-update",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T18:06:05Z",
+          "author": "Sasha Wayman",
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20260520/a69eab97-9186-4ad6-ac54-a04b815e9600_1779299458.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "is_local_nj": false,
+          "article_id": "952f05899d61",
+          "summary": "'90 Day Fianc\u00e9' reality TV star Jenny Slatten announced her diagnosis with amyotrophic lateral sclerosis (ALS) and provided health updates following the disclosure. The public announcement brings attention to ALS and its impact on individuals and families.",
+          "importance": 3,
+          "key_entities": [
+            "Jenny Slatten",
+            "ALS",
+            "amyotrophic lateral sclerosis"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "\u201890 Day Fianc\u00e9\u2019 star Jenny Slatten gives update on ALS progression after announcing diagnosis",
+          "description": "The TLC star went public with her ALS diagnosis on Tuesday after first receiving it in December 2025.",
+          "content": "\u201c90 Day Fianc\u00e9\u201d star Jenny Slatten shared a positive update on her health after revealing her amyotrophic lateral sclerosis (ALS) diagnosis.\r\n\u201cI\u2019m still able to walk around and Sumit is still allowed\u2026 [+3782 chars]",
+          "url": "https://pagesix.com/2026/05/20/celebrity-news/90-day-fiance-star-jenny-slatten-gives-update-on-als-progression-after-announcing-diagnosis/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T16:29:21Z",
+          "author": "Jolie Zenna",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/05/128305824.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "729ce1964616",
+          "summary": "'90 Day Fianc\u00e9' star Jenny Slatten publicly announced her ALS diagnosis in May 2026 after receiving it in December 2025, and provided an update on her disease progression. Her disclosure helps raise public awareness about ALS.",
+          "importance": 3,
+          "key_entities": [
+            "Jenny Slatten",
+            "ALS diagnosis",
+            "disease progression"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Charcot-Marie-Tooth Disease Market Growth to Accelerate Significantly During the Forecast Period (2026-2036) Driven by the Launch of Emerging Disease-Modifying Therapies | DelveInsight",
+          "description": "The Charcot\u2013Marie\u2013Tooth disease market is poised for steady growth, driven by increasing disease awareness and improved diagnostic capabilities. Advancements in genetic testing are enabling earlier and more accurate diagnosis, expanding the identifiable patie\u2026",
+          "content": "The CharcotMarieTooth disease market is poised for steady growth, driven by increasing disease awareness and improved diagnostic capabilities. Advancements in genetic testing are enabling earlier and\u2026 [+20587 chars]",
+          "url": "https://www.prnewswire.com/news-releases/charcotmarietooth-disease-market-growth-to-accelerate-significantly-during-the-forecast-period-20262036-driven-by-the-launch-of-emerging-disease-modifying-therapies--delveinsight-302778562.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T09:31:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/1082265/3528414/DelveInsight_Logo.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "3df4d8042335",
+          "summary": "Market analysis predicts significant growth in Charcot-Marie-Tooth disease treatment market from 2026-2036, driven by emerging disease-modifying therapies and improved diagnostic capabilities. The article highlights advances in genetic testing enabling earlier diagnosis and expanded patient identification.",
+          "importance": 2,
+          "key_entities": [
+            "Charcot-Marie-Tooth disease",
+            "genetic testing",
+            "disease-modifying therapies"
+          ],
+          "related_previous": [
+            {
+              "title": "Global Ambulance Service Market is Set to Cross USD 100 Billion by 2034 | DelveInsight",
+              "url": "https://www.globenewswire.com/news-release/2026/05/07/3290392/0/en/Global-Ambulance-Service-Market-is-Set-to-Cross-USD-100-Billion-by-2034-DelveInsight.html",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "Central Nervous System (CNS) Biomarkers Global Market Analysis Report 2026: Focus on Alzheimer's, Multiple Sclerosis, ALS, Frontotemporal Dementia, Parkinson's Disease - Forecast to 2030",
+              "url": "https://www.globenewswire.com/news-release/2026/04/23/3279653/28124/en/Central-Nervous-System-CNS-Biomarkers-Global-Market-Analysis-Report-2026-Focus-on-Alzheimer-s-Multiple-Sclerosis-ALS-Frontotemporal-Dementia-Parkinson-s-Disease-Forecast-to-2030.html",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "Testing, Inspection and Certification (TIC) Market Size to Worth USD 480.99 Billion by 2035 | SNS Insider",
+              "url": "https://www.globenewswire.com/news-release/2026/04/02/3267137/0/en/Testing-Inspection-and-Certification-TIC-Market-Size-to-Worth-USD-480-99-Billion-by-2035-SNS-Insider.html",
+              "digest_date": "2026-04-05"
+            }
+          ]
+        },
+        {
+          "title": "Foamy microglia link oxylipins to disease progression in multiple sclerosis",
+          "description": "Foamy microglia are associated with multiple sclerosis progression, linking phagocytosis, altered lipid metabolism (oxylipins) and lysosomal stress to nonclassical neuroinflammation and disease severity, highlighting potential therapeutic targets.",
+          "content": "Human brain tissue\r\nHuman brain samples from 38 donors (28 secondary progressive MS and 10 matched nondemented controls) were obtained from the NBB (brainbank.nl, project 1327). All procedures of the\u2026 [+37448 chars]",
+          "url": "https://www.nature.com/articles/s41593-026-02302-3",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T00:00:00Z",
+          "author": "Daan van der Vliet, Xinyu Di, Tatiana M. Shamorkina, Claire Coulon-Bainier, Anto Pavlovic, Iris A. C. M. van der Vliet, Yingyu Zeng, Will Macnair, No\u00eblle van Egmond, J. Q. Alida Chen, Aletta M. R. van den Bosch, Hendrik J. Engelenburg, Dennis Wever, Matthew R. J. Mason, Wouter P. F. Driever, Berend Gagestein, Elise Dusseldorp, Marco van Eijk, Uwe Grether, Aletta M. R. van den Bosch, Mignon de Goeij, Annemieke J. M. Rozemuller, Amy C. Harms, Thomas Hankemeier, Ludovic Collin, Albert J. R. Heck, Inge Huitinga, Mario van der Stelt",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41593-026-02302-3/MediaObjects/41593_2026_2302_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "79aa71256954",
+          "summary": "Nature study links foamy microglia and oxylipins to disease progression in multiple sclerosis, identifying potential therapeutic targets involving phagocytosis, lipid metabolism, and lysosomal stress. While focused on MS, findings may have implications for other neuroinflammatory diseases.",
+          "importance": 2,
+          "key_entities": [
+            "foamy microglia",
+            "oxylipins",
+            "neuroinflammation",
+            "multiple sclerosis"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "#StartupTicker - +++ Eterno +++ Unframe +++ Bunch +++ Getquin +++ Feldwerke +++ Reliant AI +++ Emmi AI +++ Dance +++",
+          "description": "+++ #StartupTicker-Wochenr\u00fcckblick +++ Eterno +++ Unframe +++ Bunch +++ Getquin +++ Feldwerke +++ ClerarOps +++ coachbetter +++ LawX +++ Cohere +++ Reliant AI +++ Mistral AI +++ Emmi AI +++ Swapfiets +++ Dance +++ Infinite Roots +++ Bosque Foods +++",
+          "content": "Was gibts Neues?\u00a0In unserem\u00a0#StartupTicker-Wochenr\u00fcckblick\u00a0liefern wir einen schnellen \u00dcberblick dar\u00fcber, was in der deutschsprachigen Startup-Szene zuletzt wirklich wichtig war!\r\nSTARTUPLAND: Founde\u2026 [+3509 chars]",
+          "url": "https://www.deutsche-startups.de/2026/05/23/wochenrueckblick-21-2026/",
+          "source_name": "Deutsche-startups.de",
+          "source_type": "newsapi",
+          "published_at": "2026-05-23T08:00:00Z",
+          "author": "Team",
+          "image_url": "https://www.deutsche-startups.de/wp-content/uploads/2018/06/ds-dealmonitor_tresor.jpg",
+          "is_local_nj": false,
+          "article_id": "bd7089736b36",
+          "summary": "German startup news roundup covering various tech companies. Not relevant to ALS research or patient care.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Dino-Power in \u201eYoshi and the Mysterious Book\u201c",
+          "description": null,
+          "content": "Nintendo bringt sieben Jahre nach dem letzten eigenst\u00e4ndigen Abenteuer des gr\u00fcnen Dinos mit Yoshi and the Mysterious Book\" den neunten Teil der Yoshi-Reihe heraus. Wer einen entspannten H\u00fcpfer f\u00fcr zw\u2026 [+2562 chars]",
+          "url": "https://oe3.orf.at/stories/3053621/",
+          "source_name": "Oe3.orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-05-23T06:39:00Z",
+          "author": null,
+          "image_url": "https://tubestatic.orf.at/static/images/site/tube/20260521/gamecheck_bild_12.6043852.jpeg",
+          "is_local_nj": false,
+          "article_id": "b5566594cf69",
+          "summary": "Entertainment news about a video game. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Notice of Annual General Meeting",
+          "description": "Notice of Annual General Meeting The Company announces that its Annual General Meeting will be held on Thursday 18 June 2026, at the offices of Travers Smith LLP, 3 Stonecutter Street, London EC4A 4AW, England at 3.00 pm (BST). The Company has published the f\u2026",
+          "content": "Completion and return of a form of proxy will not prevent Shareholders from attending and voting in person at the AGM should they so wish.\r\nBeneficial Shareholders (as defined in the Voting by Benefi\u2026 [+4360 chars]",
+          "url": "https://financialpost.com/globe-newswire/notice-of-annual-general-meeting-4",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T21:14:59Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "dfa8f9b3da62",
+          "summary": "Corporate notice of annual shareholder meeting. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Notice of Annual General Meeting",
+          "description": "Notice of Annual General Meeting   The Company announces that its Annual General Meeting will be held on Thursday 18 June 2026, at the offices of Travers...",
+          "content": "Notice of Annual General Meeting \r\nThe Company announces that its Annual General Meeting will be held on Thursday 18 June 2026, at the offices of Travers Smith LLP, 3 Stonecutter Street, London EC4A \u2026 [+11268 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/05/22/3300380/0/en/Notice-of-Annual-General-Meeting.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T21:10:00Z",
+          "author": "Serabi Gold plc",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/9be68406-a193-471a-bebc-3a6ef6d077c6",
+          "is_local_nj": false,
+          "article_id": "b153481ade4f",
+          "summary": "Corporate notice of annual shareholder meeting. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Dividend Information",
+          "description": "Dividend Information  Serabi Gold plc (\u201cSerabi\u201d or the \u201cCompany\u201d) (AIM: SRB, TSX: SBI, OTCQX: SRBIF), the Brazilian focused gold mining and development...",
+          "content": "Dividend Information\r\nSerabi Gold plc (Serabi or the Company) (AIM: SRB, TSX: SBI, OTCQX: SRBIF), the Brazilian focused gold mining and development company, announces that subject to the approval at \u2026 [+7274 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/05/22/3300377/0/en/Dividend-Information.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T21:00:00Z",
+          "author": "Serabi Gold plc",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/9be68406-a193-471a-bebc-3a6ef6d077c6",
+          "is_local_nj": false,
+          "article_id": "143911fb5e30",
+          "summary": "Corporate dividend announcement for a gold mining company. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Astros vs. Cubs Game Thread: Game 52, 5/22/2026",
+          "description": "TODAY\u2019S GAME: The Houston Astros (20-31) and Chicago Cubs (29-21) will begin their 3-game series this afternoon at Wrigley Field. RHP Spencer Arrighetti (5-1, 1.50 ERA) will take the mound for the Astros as he takes on RHP Jameson Taillon (2-3, 4.97 ERA). Hou\u2026",
+          "content": "TODAYS GAME: The Houston Astros (20-31) and Chicago Cubs (29-21) will begin their 3-game series this afternoon at Wrigley Field.\r\nRHP Spencer Arrighetti (5-1, 1.50 ERA) will take the mound for the As\u2026 [+5538 chars]",
+          "url": "https://www.crawfishboxes.com/houston-astros-game-information/75014/astros-vs-cubs-game-thread-game-52-5-22-2026",
+          "source_name": "The Crawfish Boxes",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T17:47:10Z",
+          "author": "Patrick Creighton",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/WCoH07CwIOlrcF6F9TfMJg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/14cdae6df63698057282c2a3c5fdec75",
+          "is_local_nj": false,
+          "article_id": "c192ef46ce3b",
+          "summary": "Baseball game thread for Houston Astros vs Chicago Cubs. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "MIRAGE: Robust multi-modal architectures translate fMRI-to-image models from vision to mental imagery",
+          "description": "Author summary Recent research has focused on developing \u201cvision decoding models\u201d that reconstruct images a person is currently viewing. While scientifically impressive, we argue that the tremendous potential of this technology lies in externalizing mental im\u2026",
+          "content": "Citation: Kneeland R, Villanueva CKT, Chen T, Ojeda J, Khanna S, Xu J, et al. (2026) MIRAGE: Robust multi-modal architectures translate fMRI-to-image models from vision to mental imagery. PLoS Comput\u2026 [+45887 chars]",
+          "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014263",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T14:00:00Z",
+          "author": "Reese Kneeland, Cesar Kadir Torrico Villanueva, Tong Chen, Jordyn Ojeda, Shubh Khanna, Jonathan Xu, Paul S. Scotti, Thomas Naselaris",
+          "image_url": "https://journals.plos.org/ploscompbiol/article/figure/image?id=10.1371/journal.pcbi.1014263.g007&size=inline",
+          "is_local_nj": false,
+          "article_id": "3e2ca7776fdf",
+          "summary": "Scientific study about brain imaging and mental imagery reconstruction. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "James Gray: Why I Made \u2018Paper Tiger\u2019",
+          "description": "The filmmaker gets candid about the autobiographical elements of his new thriller, his return to a more intimate type of filmmaking, and more.",
+          "content": "James Gray is a grandmaster of conversational tangents. Should you meet up with the veteran filmmaker behind Little Odessa, Ad Astra, Armageddon Time, and a number of other movies that run the gamut \u2026 [+18045 chars]",
+          "url": "http://www.rollingstone.com/tv-movies/tv-movie-features/james-gray-paper-tiger-interview-1235552786/",
+          "source_name": "Rolling Stone",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T13:00:00Z",
+          "author": "David Fear",
+          "image_url": "https://www.rollingstone.com/wp-content/uploads/2026/05/Paper-Tiger.jpg?w=1600&h=900&crop=1",
+          "is_local_nj": false,
+          "article_id": "3011a5fc12cc",
+          "summary": "Entertainment interview with filmmaker James Gray about his new thriller. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "netbox-dynamicmenu added to PyPI",
+          "description": "NetBox plugin for rendering a configurable dynamic menu.",
+          "content": "Dieses Projekt ist als NetBox-Plugin vorbereitet und rendert ein konfigurierbares Menue ohne Anpassungen an NetBox-Templates direkt ueber eine PluginTemplateExtension in der Navbar.\r\nAktueller Stand\r\u2026 [+1109 chars]",
+          "url": "https://pypi.org/project/netbox-dynamicmenu/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T11:10:54Z",
+          "author": null,
+          "image_url": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+          "is_local_nj": false,
+          "article_id": "8500c773410d",
+          "summary": "Software package added to programming repository. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Hell Awaits (40th Anniversary)\" von Slayer",
+          "description": "Slayer - \"Hell Awaits (40th Anniversary)\"",
+          "content": "laut.de-Kritik\r\nWiderhall aus der H\u00f6lle.\r\nReview von Emil Dr\u00f6ll\r\n1983 kroch \"Show No Mercy\" aus dem Keller der amerikanischen Metalgeschichte und mit ihm eine Band, die dunkler, schneller und b\u00f6ser w\u2026 [+3950 chars]",
+          "url": "https://laut.de/Slayer/Alben/Hell-Awaits-40th-Anniversary-126987",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T09:40:27Z",
+          "author": "Emil Dr\u00f6ll",
+          "image_url": "https://laut.de/Slayer/Alben/Hell-Awaits-40th-Anniversary-126987/slayer-hell-awaits-40th-anniversary-250736.jpg?12db71",
+          "is_local_nj": false,
+          "article_id": "8075d89da4e7",
+          "summary": "Music album anniversary announcement. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "AI Forensics vs. BigTech: \u201eWe can have retaliation against us\u201c",
+          "description": "X is one of the platforms that Marc Faddoul and his team investigate. \u2013 Alle Rechte vorbehalten: Marc Faddoul: AI Forensics, X: unsplash / BoliviaInteligente\r\nThe Grok deepfake scandal was uncovered with the help of the data-driven investigation conducted by \u2026",
+          "content": "When it comes to enforcing the EUs digital regulation against social media platforms like X and TikTok, the Commission and national authorities are not alone in collecting the necessary evidence. In \u2026 [+9406 chars]",
+          "url": "https://netzpolitik.org/2026/ai-forensics-vs-bigtech-we-can-have-retaliation-against-us/",
+          "source_name": "Netzpolitik.org",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T08:32:30Z",
+          "author": "Anna Str\u00f6bele Romero",
+          "image_url": "https://cdn.netzpolitik.org/wp-upload/2026/05/marc7-1.png",
+          "is_local_nj": false,
+          "article_id": "b3b91fd0e01c",
+          "summary": "Article about AI forensics and deepfakes. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "AI Forensics vs. X: \u201eWe can have retaliation against us\u201c",
+          "description": "X is one of the platforms that Marc Faddoul and his team investigate. \u2013 Alle Rechte vorbehalten: Marc Faddoul: AI Forensics, X: unsplash / BoliviaInteligente\r\nWithout the data-driven investigation conducted by AI Forensics the Grok deepfake scandal might neve\u2026",
+          "content": "When it comes to enforcing the EUs digital regulation against social media platforms like X, the Commission and national authorities are not alone in collecting the necessary evidence. In many cases,\u2026 [+9395 chars]",
+          "url": "https://netzpolitik.org/2026/ai-forensics-vs-x-we-can-have-retaliation-against-us/",
+          "source_name": "Netzpolitik.org",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T08:32:30Z",
+          "author": "Anna Str\u00f6bele Romero",
+          "image_url": "https://cdn.netzpolitik.org/wp-upload/2026/05/marc7-1.png",
+          "is_local_nj": false,
+          "article_id": "e14eae564c4d",
+          "summary": "Article about AI forensics and deepfakes. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "AI Forensics: The NGO behind the Grok investigation",
+          "description": "X is one of the platforms that Marc Faddoul and his team investigate. \u2013 Alle Rechte vorbehalten: Marc Faddoul: AI Forensics, X: unsplash / BoliviaInteligente\r\nWithout the data-driven investigation conducted by AI Forensics the Grok deepfake scandal might neve\u2026",
+          "content": "When it comes to enforcing the EUs digital regulation against social media platforms like X, the Commission and national authorities are not alone in collecting the necessary evidence. In many cases,\u2026 [+9291 chars]",
+          "url": "https://netzpolitik.org/2026/ai-forensics-the-ngo-behind-the-grok-investigation/",
+          "source_name": "Netzpolitik.org",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T08:32:30Z",
+          "author": "Anna Str\u00f6bele Romero",
+          "image_url": "https://cdn.netzpolitik.org/wp-upload/2026/05/marc7-1.png",
+          "is_local_nj": false,
+          "article_id": "0afdb57f9a4b",
+          "summary": "Article about an NGO investigating deepfakes. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "PSG Receive Good News Ahead of UCL Final Against Arsenal",
+          "description": "The UEFA Champions League final is a few days away as PSG looks to win back-to-back titles. Nonetheless, standing in their way is an Arsenal team that\u2019s coming off a Premier League title. PSG is als...",
+          "content": "If you click 'Accept all', we and our partners, including 247 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us\u2026 [+1046 chars]",
+          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a5cc6728-2b10-4428-af5e-66feced7a161",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-05-22T08:20:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "657b59b52c6a",
+          "summary": "Sports news about PSG and the UEFA Champions League final. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane\u2019s Forgotten TNT Series \u2018The Last Ship\u2019 Heads to Netflix For First Time",
+          "description": "Netflix's licensing spree continues as all 56 episodes of TNT's hit sci-fi drama joins the June 2026 lineup.",
+          "content": "Picture Credit: TNT\r\nFollowing the emotional release of his posthumous documentary interview, Famous Last Words, fans of the late Eric Dane will soon have another way to celebrate his television lega\u2026 [+3198 chars]",
+          "url": "https://www.whats-on-netflix.com/news/the-last-ship-seasons-1-5-netflix-release-date/",
+          "source_name": "What's on Netflix",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T17:22:35Z",
+          "author": "Kasey Moore",
+          "image_url": "https://www.whats-on-netflix.com/wp-content/uploads/2026/05/eric-danes-the-last-ship-coming-to-netflix.webp",
+          "is_local_nj": false,
+          "article_id": "c5d7e80bcde0",
+          "summary": "Netflix licensing announcement for TNT's sci-fi drama series. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Euphoria season 3 trailer gives first look at Eric Dane\u2019s final performance",
+              "url": "https://www.the-independent.com/arts-entertainment/tv/news/euphoria-season-3-trailer-eric-dane-b2948842.html",
+              "digest_date": "2026-04-05"
+            },
+            {
+              "title": "Rebecca Gayheart steps out with her daughters for first time since Eric Dane\u2019s death",
+              "url": "https://www.the-independent.com/life-style/rebecca-gayheart-eric-dane-death-b2941155.html",
+              "digest_date": "2026-03-22"
+            },
+            {
+              "title": "Rebecca Gayheart and daughters put on brave face for first public appearance since Eric Dane\u2019s death",
+              "url": "https://pagesix.com/2026/03/18/celebrity-news/rebecca-gayheart-daughters-make-first-public-appearance-since-eric-danes-death/",
+              "digest_date": "2026-03-22"
+            }
+          ]
+        },
+        {
+          "title": "[Premiere] Virak shares haunting yet ethereal single \"Where It All Begins\" from re-release album 'Threads'",
+          "description": "Danish indie rock outfit\u00a0Virak\u00a0leads the deeply moving re-release of their debut album Threads\u00a0with \"Where It All Begins,\" which weaves off-kilter guitars with haunting yet ethereal vocal notes together to deliver\u2026",
+          "content": "Danish indie rock outfit\u00a0Virak\u00a0leads the deeply moving re-release of their debut album Threads\u00a0with \"Where It All Begins,\" which weaves off-kilter guitars with haunting yet ethereal vocal notes toget\u2026 [+1335 chars]",
+          "url": "https://earmilk.com/2026/05/21/premiere-virak-shares-haunting-yet-ethereal-single-where-it-all-begins-from-re-release-album-threads/",
+          "source_name": "Earmilk.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T16:10:15Z",
+          "author": "Malvika Padin",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "95682c438710",
+          "summary": "Music premiere announcement for Danish indie rock band. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Vols fans should warm up to idea that Tennessee can win it all in 2026 after hearing new quotes from Al Wilson and Phillip Fulmer",
+              "url": "https://atozsports.com/nashville/volunteers/vols-fans-warm-foootball-tennessee-quotes-from-al-wilson-phillip-fulmer/",
+              "digest_date": "2026-05-10"
+            }
+          ]
+        },
+        {
+          "title": "United: Washington D.C. \u2013 Liberia, Costa Rica. $292 (Basic Economy) / $412 (Regular Economy). Roundtrip, including all Taxes",
+          "description": "A good sale to the Guanacaste province of Costa Rica.The $412 fare is the regular fare which allows for normal size carry-on and personal item in addition to advance seat assignment.United als",
+          "content": "A good sale to the Guanacaste province of Costa Rica.\r\nThe $412 fare is the regular fare which allows for normal size carry-on and personal item in addition to advance seat assignment.\r\nUnited also h\u2026 [+5030 chars]",
+          "url": "https://www.theflightdeal.com/2026/05/21/united-washington-d-c-liberia-costa-rica-292-basic-economy-412-regular-economy-roundtrip-including-all-taxes/",
+          "source_name": "Theflightdeal.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T15:53:47Z",
+          "author": "The Flight Deal",
+          "image_url": "https://www.theflightdeal.com/wp-content/uploads/2015/08/guanacaste_liberia_costa_rica-playa-samara-640x390.jpg",
+          "is_local_nj": false,
+          "article_id": "e9e0f7fb2c5e",
+          "summary": "Travel deal announcement for United Airlines flights. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "United: Washington D.C. \u2013 Liberia, Costa Rica. $350 (Basic Economy) / $470 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/05/13/united-washington-d-c-liberia-costa-rica-350-basic-economy-470-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-05-17"
+            },
+            {
+              "title": "American: San Francisco \u2013 Jacksonville, Florida (and vice versa). $240 (Basic Economy) / $348 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/04/22/american-san-francisco-jacksonville-florida-and-vice-versa-240-basic-economy-348-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "American: Los Angeles \u2013 Orlando, Florida (and vice versa). $219 (Basic Economy) / $339 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/04/22/american-los-angeles-orlando-florida-and-vice-versa-219-basic-economy-339-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-04-26"
+            }
+          ]
+        },
+        {
+          "title": "Why a $35 Million Greenland Rare Earth Deal Just Put One Small-Cap on Every Investor's Radar",
+          "description": "Issued on behalf of Greenland Mines Ltd. A Toronto-listed industry leader is handing the keys to one of Greenland's most strategically valuable rare earth projects to a new Nasdaq-listed developer \u2014 and staying on as a partner. NEW YORK, May 21, 2026 /PRNewsw\u2026",
+          "content": "Issued on behalf of Greenland Mines Ltd.\r\nA Toronto-listed industry leader is handing the keys to one of Greenland's most strategically valuable rare earth projects to a new Nasdaq-listed developer a\u2026 [+15299 chars]",
+          "url": "https://www.prnewswire.com/news-releases/why-a-35-million-greenland-rare-earth-deal-just-put-one-small-cap-on-every-investors-radar-302777575.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T15:21:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/2838876/USA_News_Group_Logo.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "77a6aa6b37e3",
+          "summary": "Business news about a rare earth minerals deal in Greenland. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "123NET Names Ken Fitzpatrick President and CEO",
+          "description": "Former Everstream CEO brings 30 years of telecom and internet industry experience SOUTHFIELD, Mich., May 21, 2026 /PRNewswire/ -- 123NET, a Michigan-based provider of fiber internet, colocation and voice services, today announced that Ken Fitzpatrick, former \u2026",
+          "content": "Former Everstream CEO brings 30 years of telecom and internet industry experience\r\nSOUTHFIELD, Mich., May 21, 2026 /PRNewswire/ -- 123NET, a Michigan-based provider of fiber internet, colocation and \u2026 [+3611 chars]",
+          "url": "https://www.prnewswire.com/news-releases/123net-names-ken-fitzpatrick-president-and-ceo-302779165.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T15:20:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/2985480/Ken_Fitzpatrick.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "5470db55a3b9",
+          "summary": "Corporate announcement about executive leadership change at a Michigan telecom company. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Greenland Mines Signs Definitive Agreement to Acquire the Sarfartoq Neodymium-Praseodymium Rare Earths Project in Greenland",
+          "description": "Transaction will add an advanced magnet rare earths asset in Greenland to complement Skaergaard and solidifies Greenland Mines' position in the global critical minerals race Neo Performance Materials will become a strategic shareholder and secures offtake rig\u2026",
+          "content": "Transaction will add an advanced magnet rare earths asset in Greenland to complement Skaergaard and solidifies Greenland Mines' position in the global critical minerals race \r\nNeo Performance Materia\u2026 [+14619 chars]",
+          "url": "https://www.prnewswire.com/news-releases/greenland-mines-signs-definitive-agreement-to-acquire-the-sarfartoq-neodymium-praseodymium-rare-earths-project-in-greenland-302778314.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T12:30:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/2938164/Greenland_Mines_Logo.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "21fe9c45a3ae",
+          "summary": "Corporate business news about acquisition of mining project in Greenland. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "GreenboneOS: Attackers are increasingly shifting from stolen credentials to exploited vulnerabilities",
+          "description": "For nearly two decades, stolen credentials have been the focus of many analyses of security breaches. This picture is now changing. According to the Verizon 2026 Data Breach Investigations Report (DBIR), vulnerability exploitation has overtaken credential abu\u2026",
+          "content": "For nearly two decades, stolen credentials have been the focus of many analyses of security breaches. This picture is now changing. According to the Verizon 2026 Data Breach Investigations Report (DB\u2026 [+5264 chars]",
+          "url": "https://www.greenbone.net/en/blog/ai-vulnerability-management-attacks/",
+          "source_name": "Greenbone.net",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T12:17:19Z",
+          "author": "Elmar Geese",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "ab1e2e1ecfc1",
+          "summary": "Cybersecurity report about vulnerability exploitation trends. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"The Opposite Of December... A Season Of Separation\" von Poison The Well",
+          "description": "Poison The Well - \"The Opposite Of December... A Season Of Separation\"",
+          "content": "laut.de-Kritik\r\nMetalcore in Selbstfindung.\r\nReview von Emil Dr\u00f6ll\r\nEs geht steil auf die Jahrtausendwende zu. Hardcore hat l\u00e4ngst bewiesen, dass er mehr kann als nur alte Schule. Doch jetzt verschie\u2026 [+3800 chars]",
+          "url": "https://laut.de/Poison-The-Well/Alben/The-Opposite-Of-December...-A-Season-Of-Separation-126762",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T08:18:46Z",
+          "author": "Emil Dr\u00f6ll",
+          "image_url": "https://laut.de/Poison-The-Well/Alben/The-Opposite-Of-December...-A-Season-Of-Separation-126762/poison-the-well-opposite-of-december-a-season-separation-250706.jpg?6f981a",
+          "is_local_nj": false,
+          "article_id": "fe050c26e565",
+          "summary": "Music album announcement. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Stone Cold Anger\" von Pro-Pain",
+          "description": "Pro-Pain - \"Stone Cold Anger\"",
+          "content": "laut.de-Kritik\r\nLeerlauf in Capslock.\r\nReview von Emil Dr\u00f6ll\r\nDass Pro Pain die groovige Coolness ihrer 90er-Alben nicht mehr so souver\u00e4n vermitteln k\u00f6nnen, ist leider nichts Neues. Die elfj\u00e4hrige Pa\u2026 [+2711 chars]",
+          "url": "https://laut.de/Pro-Pain/Alben/Stone-Cold-Anger-126985",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T07:59:45Z",
+          "author": "Emil Dr\u00f6ll",
+          "image_url": "https://laut.de/Pro-Pain/Alben/Stone-Cold-Anger-126985/pro-pain-stone-cold-anger-250704.jpg?8c7046",
+          "is_local_nj": false,
+          "article_id": "c77e0abcf8df",
+          "summary": "Music album announcement. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Tom Kaulitz (Tokio Hotel) World Cup \"Fan Expert\"",
+          "description": "[News] Tom Kaulitz wird Experte bei der Fu\u00dfball-WM. - Tom Kaulitz st\u00f6\u00dft zum Team f\u00fcr die WM-Berichterstattung von MagentaTV. Als \u201eFan-Experte\u201c begleitet er das Turnier mit pers\u00f6nlichem Blick. \u201eF\u00fcr mich wird damit ein... #OKde | Mehr hier >>> https://t.co/uLsM\u2026",
+          "content": "[News] Tom Kaulitz wird Experte bei der Fu\u00dfball-WM. - Tom Kaulitz st\u00f6\u00dft zum Team f\u00fcr die WM-Berichterstattung von MagentaTV. Als Fan-Experte begleitet er das Turnier mit pers\u00f6nlichem Blick. F\u00fcr mich \u2026 [+681 chars]",
+          "url": "https://ohnotheydidnt.livejournal.com/132367519.html",
+          "source_name": "Livejournal.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T20:35:03Z",
+          "author": "tyinterrupted",
+          "image_url": "https://l-stat.livejournal.net/img/sign.png",
+          "is_local_nj": false,
+          "article_id": "65d270c31120",
+          "summary": "Entertainment news about Tom Kaulitz joining World Cup coverage as a fan expert. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eledon Pharmaceuticals to Present New Long-Term Data from Phase 2 BESTOW Trial of Tegoprubart for the Prevention of Rejection in Kidney Transplantation at American Transplant Congress",
+          "description": "Eledon to Present New Long-Term Data from Phase 2 BESTOW Trial of Tegoprubart for the Prevention of Rejection in Kidney Transplantation at ATC...",
+          "content": "IRVINE, Calif., May 20, 2026 (GLOBE NEWSWIRE) -- Eledon Pharmaceuticals, Inc. (Eledon) (Nasdaq: ELDN) today announced that the Company will present new clinical data from its tegoprubart program in p\u2026 [+3389 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/05/20/3298862/0/en/Eledon-Pharmaceuticals-to-Present-New-Long-Term-Data-from-Phase-2-BESTOW-Trial-of-Tegoprubart-for-the-Prevention-of-Rejection-in-Kidney-Transplantation-at-American-Transplant-Congr.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T20:05:00Z",
+          "author": "Eledon Pharmaceuticals, Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/5e2f90ec-c9a5-4fcd-99c8-2c8c838ac033",
+          "is_local_nj": false,
+          "article_id": "9ab55cd9f9fc",
+          "summary": "Pharmaceutical company announcement about presenting transplant research data. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NevGold Announces Up to 99% Gold Recovery From Phase II Metallurgical Testwork on Oxide Antimony-Gold; Identifies More Antimony Mineralization At Surface In Historical Gold Waste Dump",
+              "url": "https://financialpost.com/globe-newswire/nevgold-announces-up-to-99-gold-recovery-from-phase-ii-metallurgical-testwork-on-oxide-antimony-gold-identifies-more-antimony-mineralization-at-surface-in-historical-gold-waste-dump",
+              "digest_date": "2026-04-05"
+            },
+            {
+              "title": "NevGold Announces Up to 99% Gold Recovery From Phase II Metallurgical Testwork on Oxide Antimony-Gold; Identifies More Antimony Mineralization At Surface In Historical Gold Waste Dump",
+              "url": "https://www.globenewswire.com/news-release/2026/04/02/3267253/0/en/NevGold-Announces-Up-to-99-Gold-Recovery-From-Phase-II-Metallurgical-Testwork-on-Oxide-Antimony-Gold-Identifies-More-Antimony-Mineralization-At-Surface-In-Historical-Gold-Waste-Dum.html",
+              "digest_date": "2026-04-05"
+            },
+            {
+              "title": "ProMIS Neurosciences to Present Data on ALS & Parkinsons Disease Programs at Alzheimer\u2019s Disease/Parkinson\u2019s Disease 2026 International Conference (AD/PD\u2122)",
+              "url": "https://financialpost.com/globe-newswire/promis-neurosciences-to-present-data-on-als-parkinsons-disease-programs-at-alzheimers-disease-parkinsons-disease-2026-international-conference-ad-pd",
+              "digest_date": "2026-03-22"
+            }
+          ]
+        },
+        {
+          "title": "Now That IRS Is FOREVER BARRED From Auditing Trump, Guess He'll Release His Tax Returns, Huh?",
+          "description": "He must be so relieved. He's wanted to release them for YEARS.",
+          "content": "Tuesday, right around the time our story on Donald Trumps Big Slush Fund for January 6 insurrectors and other villains went online, Trumps Justice Department dropped another stinky shit-covered shoe,\u2026 [+6439 chars]",
+          "url": "https://www.wonkette.com/p/now-that-irs-is-forever-barred-from",
+          "source_name": "Wonkette.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T18:36:54Z",
+          "author": "Doktor Zoom",
+          "image_url": "https://images.unsplash.com/photo-1546238232-20216dec9f72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwzfHxhZG9yYWJsZSUyMHB1cHBpZXN8ZW58MHx8fHwxNzc5MjkzMDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "is_local_nj": false,
+          "article_id": "d8697acab341",
+          "summary": "Political commentary article. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Astros vs. Twins Game Thread: Game 51, 5/20/2026",
+          "description": "TODAY\u2019S GAME: The Houston Astros (20-30) and Minnesota Twins (22-27) will play the rubber match of this 3-game series this afternoon at 12:40 p.m. CT. RHP Mike Burrows (2-5, 5.72 ERA) will make his 10th start of the season as he takes on Twins RHP Joe Ryan (2\u2026",
+          "content": "TODAYS GAME: The Houston Astros (20-30) and Minnesota Twins (22-27) will play the rubber match of this 3-game series this afternoon at 12:40 p.m. CT.\r\nRHP Mike Burrows (2-5, 5.72 ERA) will make his 1\u2026 [+4251 chars]",
+          "url": "https://www.crawfishboxes.com/houston-astros-game-information/74996/astros-vs-twins-game-thread-game-51-5-20-2026",
+          "source_name": "The Crawfish Boxes",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T17:00:00Z",
+          "author": "Patrick Creighton",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/Wc698N7YYD4uag2u64MRIg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/8d578e977204d9d2f51a4753db3cc024",
+          "is_local_nj": false,
+          "article_id": "75981ad0140a",
+          "summary": "Baseball game thread for Houston Astros vs Minnesota Twins. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "What Patton Oswalt Watches (and Listens to) With His Daughter",
+          "description": "The comedian Patton Oswalt is very close with his 16-year-old daughter, Alice, whom he takes to movies and concerts. He also, of course, shows her stand-up from beloved comedians like Mitch Hedberg and Maria Bamford.",
+          "content": "Patton Oswalt wouldnt have known he was in the Epstein files without the help of his 16-year-old daughter. Messing around with some of her friends online, as teens are wont to do, Alice Oswalt typed \u2026 [+5692 chars]",
+          "url": "http://www.vulture.com/article/patton-oswalt-daughter-family-entertainment.html",
+          "source_name": "Vulture",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T15:00:11Z",
+          "author": "Patton Oswalt, Marah Eakin",
+          "image_url": "https://pyxis.nymag.com/v1/imgs/25a/b89/7485b11be6fc0893b927192b4efb9a14e0-patton-parentingcolumn.1x.rsocial.w1200.png",
+          "is_local_nj": false,
+          "article_id": "e5953e8163cd",
+          "summary": "Entertainment article about comedian Patton Oswalt's media preferences. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "When 90 Day Fianc\u00e9's Jenny Slatten Will Return To The Franchise",
+          "description": "Here's when we can expect her back.",
+          "content": "90 Day Fianc\u00e9's Jenny Slatten just went public with her ALS diagnosis, months after her daughter acknowledged her mother was going through something. This news was shared ahead of Slatten's return to\u2026 [+2902 chars]",
+          "url": "https://www.cinemablend.com/television/when-90-day-fiance-jenny-slatten-will-return-franchise",
+          "source_name": "CinemaBlend",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T14:55:46Z",
+          "author": "mick.joest@CinemaBlend.com (Mick Joest) , Mick Joest",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/6WeKorwt9QfTnYygvrBA4P-1280-80.jpg",
+          "is_local_nj": false,
+          "article_id": "e157437e2276",
+          "summary": "Entertainment news about a reality TV star's schedule. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The Pseudomonas aeruginosa ribonuclease Ribocin cleaves eukaryotic ribosomes at helix 69 to inhibit host translation",
+          "description": "A prior PLOS Biology study showed that P. aeruginosa can cleave the decoding center of C. elegans ribosomes. This new study identifies the agent as Ribocin, a nuclease that cleaves helix 69 in eukaryotic ribosomes to block translation, revealing a new mechani\u2026",
+          "content": "Abstract\r\nPseudomonas aeruginosa employs host translation inhibition as a virulence-enhancing strategy. We previously showed that the bacterium induces cleavage of Caenorhabditis elegans large riboso\u2026 [+75311 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003790",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-05-20T14:00:00Z",
+          "author": "Alejandro Vasquez-Rifo, Denis Susorov, Emily H. Sholi, Gabriel Demo, Yasaman Jami, Jihui Sha, James A. Wohlschlegel, Andrei Korostelev, Victor Ambros",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003790.g005&size=inline",
+          "is_local_nj": false,
+          "article_id": "65f86322cef9",
+          "summary": "Scientific study about bacterial toxins and ribosome function. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [
+        {
+          "title": "Ales for ALS: Find a Local Event and Raise a Glass for a Great Cause",
+          "description": "We're thrilled to announce that Untappd is teaming up with Ales for ALS in 2026.This one means a lot to us. The craft beer community has always been about more than what's in the glass, it's about the people, the stories, and showing up for each other when it\u2026",
+          "content": "We're thrilled to announce that Untappd is teaming up with Ales for ALS in 2026.\r\nThis one means a lot to us. The craft beer community has always been about more than what's in the glass, it's about \u2026 [+2738 chars]",
+          "url": "https://untappd.com/blog/ales-for-als-find-a-local-event-and-raise-a-glass-for-a-great-cause/1917",
+          "source_name": "Untappd.com",
+          "source_type": "newsapi",
+          "published_at": "2026-05-21T15:30:07Z",
+          "author": "The Untappd Team",
+          "image_url": "https://assets.untappd.com/promo/4ba2bf3a52_ales_for_als_featured_image_001.png",
+          "is_local_nj": false,
+          "article_id": "b79f137bae5b",
+          "summary": "Untappd, a craft beer social platform, announced a partnership with Ales for ALS in 2026 to find and promote local fundraising events. This partnership leverages the craft beer community to raise awareness and funds for ALS causes.",
+          "importance": 4,
+          "key_entities": [
+            "Ales for ALS",
+            "Untappd",
+            "fundraising events"
+          ],
+          "related_previous": []
+        }
+      ],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "#StartupTicker - +++ Eterno +++ Unframe +++ Bunch +++ Getquin +++ Feldwerke +++ Reliant AI +++ Emmi AI +++ Dance +++",
+        "url": "https://www.deutsche-startups.de/2026/05/23/wochenrueckblick-21-2026/",
+        "source": "Deutsche-startups.de",
+        "date": "2026-05-23T08:00:00Z"
+      },
+      {
+        "title": "Dino-Power in \u201eYoshi and the Mysterious Book\u201c",
+        "url": "https://oe3.orf.at/stories/3053621/",
+        "source": "Oe3.orf.at",
+        "date": "2026-05-23T06:39:00Z"
+      },
+      {
+        "title": "Notice of Annual General Meeting",
+        "url": "https://financialpost.com/globe-newswire/notice-of-annual-general-meeting-4",
+        "source": "Financial Post",
+        "date": "2026-05-22T21:14:59Z"
+      },
+      {
+        "title": "Notice of Annual General Meeting",
+        "url": "https://www.globenewswire.com/news-release/2026/05/22/3300380/0/en/Notice-of-Annual-General-Meeting.html",
+        "source": "GlobeNewswire",
+        "date": "2026-05-22T21:10:00Z"
+      },
+      {
+        "title": "Dividend Information",
+        "url": "https://www.globenewswire.com/news-release/2026/05/22/3300377/0/en/Dividend-Information.html",
+        "source": "GlobeNewswire",
+        "date": "2026-05-22T21:00:00Z"
+      },
+      {
+        "title": "Astros vs. Cubs Game Thread: Game 52, 5/22/2026",
+        "url": "https://www.crawfishboxes.com/houston-astros-game-information/75014/astros-vs-cubs-game-thread-game-52-5-22-2026",
+        "source": "The Crawfish Boxes",
+        "date": "2026-05-22T17:47:10Z"
+      },
+      {
+        "title": "MIRAGE: Robust multi-modal architectures translate fMRI-to-image models from vision to mental imagery",
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014263",
+        "source": "Plos.org",
+        "date": "2026-05-22T14:00:00Z"
+      },
+      {
+        "title": "James Gray: Why I Made \u2018Paper Tiger\u2019",
+        "url": "http://www.rollingstone.com/tv-movies/tv-movie-features/james-gray-paper-tiger-interview-1235552786/",
+        "source": "Rolling Stone",
+        "date": "2026-05-22T13:00:00Z"
+      },
+      {
+        "title": "netbox-dynamicmenu added to PyPI",
+        "url": "https://pypi.org/project/netbox-dynamicmenu/",
+        "source": "Pypi.org",
+        "date": "2026-05-22T11:10:54Z"
+      },
+      {
+        "title": "AC Immune Presents New Phase 1 Data Indicating Higher Uptake of TDP-43 PET Tracer ACI-19626 in Patients with ALS",
+        "url": "https://www.globenewswire.com/news-release/2026/05/22/3300024/0/en/AC-Immune-Presents-New-Phase-1-Data-Indicating-Higher-Uptake-of-TDP-43-PET-Tracer-ACI-19626-in-Patients-with-ALS.html",
+        "source": "GlobeNewswire",
+        "date": "2026-05-22T11:00:00Z"
+      },
+      {
+        "title": "\"Hell Awaits (40th Anniversary)\" von Slayer",
+        "url": "https://laut.de/Slayer/Alben/Hell-Awaits-40th-Anniversary-126987",
+        "source": "Laut.de",
+        "date": "2026-05-22T09:40:27Z"
+      },
+      {
+        "title": "AI Forensics vs. BigTech: \u201eWe can have retaliation against us\u201c",
+        "url": "https://netzpolitik.org/2026/ai-forensics-vs-bigtech-we-can-have-retaliation-against-us/",
+        "source": "Netzpolitik.org",
+        "date": "2026-05-22T08:32:30Z"
+      },
+      {
+        "title": "AI Forensics vs. X: \u201eWe can have retaliation against us\u201c",
+        "url": "https://netzpolitik.org/2026/ai-forensics-vs-x-we-can-have-retaliation-against-us/",
+        "source": "Netzpolitik.org",
+        "date": "2026-05-22T08:32:30Z"
+      },
+      {
+        "title": "AI Forensics: The NGO behind the Grok investigation",
+        "url": "https://netzpolitik.org/2026/ai-forensics-the-ngo-behind-the-grok-investigation/",
+        "source": "Netzpolitik.org",
+        "date": "2026-05-22T08:32:30Z"
+      },
+      {
+        "title": "PSG Receive Good News Ahead of UCL Final Against Arsenal",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a5cc6728-2b10-4428-af5e-66feced7a161",
+        "source": "Yahoo Entertainment",
+        "date": "2026-05-22T08:20:00Z"
+      },
+      {
+        "title": "Emotional Matty Johns chokes back tears in Jai Arrow MND tribute as he breaks the No.1 rule of live television",
+        "url": "https://www.dailymail.com/sport/nrl/article-15839205/Emotional-Matty-Johns-chokes-tears-Jai-Arrow-MND-tribute-breaks-No-1-rule-live-television.html",
+        "source": "Dailymail.com",
+        "date": "2026-05-21T23:47:06Z"
+      },
+      {
+        "title": "Quote of the Day by renowned physicist Stephen Hawking: 'Life would be tragic if...'- The greatest physicist's most powerful quote was not about science, rather about finding humor in human struggle",
+        "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-renowned-physicist-stephen-hawking-life-would-be-tragic-if-the-greatest-physicists-most-powerful-quote-was-not-about-science-rather-about-finding-humor-in-human-struggle/articleshow/131250594.cms",
+        "source": "The Times of India",
+        "date": "2026-05-21T19:34:51Z"
+      },
+      {
+        "title": "Eric Dane\u2019s Forgotten TNT Series \u2018The Last Ship\u2019 Heads to Netflix For First Time",
+        "url": "https://www.whats-on-netflix.com/news/the-last-ship-seasons-1-5-netflix-release-date/",
+        "source": "What's on Netflix",
+        "date": "2026-05-21T17:22:35Z"
+      },
+      {
+        "title": "[Premiere] Virak shares haunting yet ethereal single \"Where It All Begins\" from re-release album 'Threads'",
+        "url": "https://earmilk.com/2026/05/21/premiere-virak-shares-haunting-yet-ethereal-single-where-it-all-begins-from-re-release-album-threads/",
+        "source": "Earmilk.com",
+        "date": "2026-05-21T16:10:15Z"
+      },
+      {
+        "title": "United: Washington D.C. \u2013 Liberia, Costa Rica. $292 (Basic Economy) / $412 (Regular Economy). Roundtrip, including all Taxes",
+        "url": "https://www.theflightdeal.com/2026/05/21/united-washington-d-c-liberia-costa-rica-292-basic-economy-412-regular-economy-roundtrip-including-all-taxes/",
+        "source": "Theflightdeal.com",
+        "date": "2026-05-21T15:53:47Z"
+      },
+      {
+        "title": "Ales for ALS: Find a Local Event and Raise a Glass for a Great Cause",
+        "url": "https://untappd.com/blog/ales-for-als-find-a-local-event-and-raise-a-glass-for-a-great-cause/1917",
+        "source": "Untappd.com",
+        "date": "2026-05-21T15:30:07Z"
+      },
+      {
+        "title": "Why a $35 Million Greenland Rare Earth Deal Just Put One Small-Cap on Every Investor's Radar",
+        "url": "https://www.prnewswire.com/news-releases/why-a-35-million-greenland-rare-earth-deal-just-put-one-small-cap-on-every-investors-radar-302777575.html",
+        "source": "PRNewswire",
+        "date": "2026-05-21T15:21:00Z"
+      },
+      {
+        "title": "123NET Names Ken Fitzpatrick President and CEO",
+        "url": "https://www.prnewswire.com/news-releases/123net-names-ken-fitzpatrick-president-and-ceo-302779165.html",
+        "source": "PRNewswire",
+        "date": "2026-05-21T15:20:00Z"
+      },
+      {
+        "title": "Greenland Mines Signs Definitive Agreement to Acquire the Sarfartoq Neodymium-Praseodymium Rare Earths Project in Greenland",
+        "url": "https://www.prnewswire.com/news-releases/greenland-mines-signs-definitive-agreement-to-acquire-the-sarfartoq-neodymium-praseodymium-rare-earths-project-in-greenland-302778314.html",
+        "source": "PRNewswire",
+        "date": "2026-05-21T12:30:00Z"
+      },
+      {
+        "title": "GreenboneOS: Attackers are increasingly shifting from stolen credentials to exploited vulnerabilities",
+        "url": "https://www.greenbone.net/en/blog/ai-vulnerability-management-attacks/",
+        "source": "Greenbone.net",
+        "date": "2026-05-21T12:17:19Z"
+      },
+      {
+        "title": "Charcot-Marie-Tooth Disease Market Growth to Accelerate Significantly During the Forecast Period (2026-2036) Driven by the Launch of Emerging Disease-Modifying Therapies | DelveInsight",
+        "url": "https://www.prnewswire.com/news-releases/charcotmarietooth-disease-market-growth-to-accelerate-significantly-during-the-forecast-period-20262036-driven-by-the-launch-of-emerging-disease-modifying-therapies--delveinsight-302778562.html",
+        "source": "PRNewswire",
+        "date": "2026-05-21T09:31:00Z"
+      },
+      {
+        "title": "\"The Opposite Of December... A Season Of Separation\" von Poison The Well",
+        "url": "https://laut.de/Poison-The-Well/Alben/The-Opposite-Of-December...-A-Season-Of-Separation-126762",
+        "source": "Laut.de",
+        "date": "2026-05-21T08:18:46Z"
+      },
+      {
+        "title": "\"Stone Cold Anger\" von Pro-Pain",
+        "url": "https://laut.de/Pro-Pain/Alben/Stone-Cold-Anger-126985",
+        "source": "Laut.de",
+        "date": "2026-05-21T07:59:45Z"
+      },
+      {
+        "title": "MND has been called 'the beast'. We still don't know what causes it",
+        "url": "https://www.abc.net.au/news/2026-05-21/jai-arrow-motor-neurone-disease-cause-symptoms-explained/106705760",
+        "source": "ABC News (AU)",
+        "date": "2026-05-21T04:41:31Z"
+      },
+      {
+        "title": "Foamy microglia link oxylipins to disease progression in multiple sclerosis",
+        "url": "https://www.nature.com/articles/s41593-026-02302-3",
+        "source": "Nature.com",
+        "date": "2026-05-21T00:00:00Z"
+      },
+      {
+        "title": "See Eric Dane Campaign for ALS Awareness in New Documentary Short",
+        "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-ring-every-bell-als-documentary-1235566582/",
+        "source": "Rolling Stone",
+        "date": "2026-05-20T22:19:17Z"
+      },
+      {
+        "title": "Tom Kaulitz (Tokio Hotel) World Cup \"Fan Expert\"",
+        "url": "https://ohnotheydidnt.livejournal.com/132367519.html",
+        "source": "Livejournal.com",
+        "date": "2026-05-20T20:35:03Z"
+      },
+      {
+        "title": "Eledon Pharmaceuticals to Present New Long-Term Data from Phase 2 BESTOW Trial of Tegoprubart for the Prevention of Rejection in Kidney Transplantation at American Transplant Congress",
+        "url": "https://www.globenewswire.com/news-release/2026/05/20/3298862/0/en/Eledon-Pharmaceuticals-to-Present-New-Long-Term-Data-from-Phase-2-BESTOW-Trial-of-Tegoprubart-for-the-Prevention-of-Rejection-in-Kidney-Transplantation-at-American-Transplant-Congr.html",
+        "source": "GlobeNewswire",
+        "date": "2026-05-20T20:05:00Z"
+      },
+      {
+        "title": "Now That IRS Is FOREVER BARRED From Auditing Trump, Guess He'll Release His Tax Returns, Huh?",
+        "url": "https://www.wonkette.com/p/now-that-irs-is-forever-barred-from",
+        "source": "Wonkette.com",
+        "date": "2026-05-20T18:36:54Z"
+      },
+      {
+        "title": "90 Day Fianc\u00e9\u2019s Jenny Slatten Gives Update After Sharing ALS Diagnosis",
+        "url": "https://www.eonline.com/news/1432189/90-day-fiances-jenny-slatten-diagnosed-with-als-gives-update",
+        "source": "Eonline.com",
+        "date": "2026-05-20T18:06:05Z"
+      },
+      {
+        "title": "Astros vs. Twins Game Thread: Game 51, 5/20/2026",
+        "url": "https://www.crawfishboxes.com/houston-astros-game-information/74996/astros-vs-twins-game-thread-game-51-5-20-2026",
+        "source": "The Crawfish Boxes",
+        "date": "2026-05-20T17:00:00Z"
+      },
+      {
+        "title": "\u201890 Day Fianc\u00e9\u2019 star Jenny Slatten gives update on ALS progression after announcing diagnosis",
+        "url": "https://pagesix.com/2026/05/20/celebrity-news/90-day-fiance-star-jenny-slatten-gives-update-on-als-progression-after-announcing-diagnosis/",
+        "source": "Page Six",
+        "date": "2026-05-20T16:29:21Z"
+      },
+      {
+        "title": "What Patton Oswalt Watches (and Listens to) With His Daughter",
+        "url": "http://www.vulture.com/article/patton-oswalt-daughter-family-entertainment.html",
+        "source": "Vulture",
+        "date": "2026-05-20T15:00:11Z"
+      },
+      {
+        "title": "When 90 Day Fianc\u00e9's Jenny Slatten Will Return To The Franchise",
+        "url": "https://www.cinemablend.com/television/when-90-day-fiance-jenny-slatten-will-return-franchise",
+        "source": "CinemaBlend",
+        "date": "2026-05-20T14:55:46Z"
+      },
+      {
+        "title": "The Pseudomonas aeruginosa ribonuclease Ribocin cleaves eukaryotic ribosomes at helix 69 to inhibit host translation",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003790",
+        "source": "Plos.org",
+        "date": "2026-05-20T14:00:00Z"
+      }
+    ],
+    "generated_at": "2026-05-24T09:56:39.833231"
+  },
+  {
     "date": "2026-05-17",
     "week_of": "May 17, 2026",
     "digest_number": 21,
