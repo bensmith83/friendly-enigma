@@ -1,5 +1,24 @@
 [
   {
+    "id": "2605.26876v1",
+    "title": "Secure UAV Swarms in Low-Altitude Wireless Networks: Challenges and Solutions",
+    "summary": "Unmanned aerial vehicle (UAV) swarms are increasingly deployed in vast low-altitude applications, owing to their capabilities in distributed sensing, flexible communication, and autonomous coordination. Nevertheless, the open and highly dynamic operating environment of UAV swarms introduces serious security risks, including GPS spoofing, insider threats, and multi-hop intrusion. These threats are aggravated by limited on-board resources, frequently changing network topology, and the presence of intelligent adversaries. To tackle these issues, this paper proposes a cloud-edge-end collaborative defense framework for UAV swarms. Based on this framework, three complementary mechanisms are developed. First, a cooperative perception scheme is designed to resist GPS spoofing via interactive attack-defense game modeling. Second, a behavior-driven authentication method with trust evaluation is developed to mitigate insider threats. Third, a multi-agent attack forensics framework is devised to intelligently trace the propagation paths of multi-hop attacks in UAV networks. Experimental results validate the effectiveness of the proposed approaches. Finally, several open research directions are outlined.",
+    "published": "2026-05-26T11:33:02Z",
+    "link": "http://arxiv.org/abs/2605.26876v1",
+    "authors": [
+      "Yuntao Wang",
+      "Haojia Yang",
+      "Han Liu",
+      "Jianle Ba",
+      "Zhou Su"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Unmanned aerial vehicle (UAV) swarms are increasingly deployed in vast low-altitude applications, owing to their capabilities in distributed sensing, flexible communication, and autonomous coordination. Nevertheless, the open and highly dynamic operating environment of UAV swarms introduces serious security risks, including GPS spoofing, insider threats, and multi-hop intrusion.",
+    "selected_date": "2026-05-27"
+  },
+  {
     "id": "2605.23623v1",
     "title": "Adversarial Vulnerability Under Temporal Concept Drift: A Longitudinal Study of Android Malware Detection",
     "summary": "We present a longitudinal, drift-aware evaluation of adversarial robustness across more than a decade of Android applications using static and dynamic feature representations extracted from emulator and real-device executions. The dataset is organized into yearly slices and evaluated under three deployment protocols that emulate realistic learning scenarios: (1) same-year training and testing, (2) cross-year deployment without model updates, and (3) expanding-window retraining with cumulative historical data. Across multiple classifier families, adversarial examples are generated using FGSM and SPSA under feasibility constraints. We measure clean performance, Adversarial Accuracy (AA), Attack Success Rate (ASR), and introduce temporal linkage metrics -- RobustDrop, $\u0394$ASR, and Adversarial Amplification Factor (AAF) -- to quantify the relationship between distribution shift and robustness degradation.nResults show that temporal separation is associated with reduced adversarial robustness under the evaluated transfer-based feature-space setting. As the train-test gap increases, clean accuracy and adversarial accuracy decline, while attack success exhibits configuration-dependent increases, particularly under FGSM perturbations and static features. Expanding-window retraining mitigates, but does not eliminate, robustness loss under continued distributional evolution. These findings indicate that temporal drift should be considered when assessing the long-term robustness of intelligent detection systems under evolving data distributions and highlight the need for drift-aware robustness assessment frameworks in long-lived adversarial environments.",
@@ -586,23 +605,5 @@
     ],
     "ai_summary": "Adversarial robustness evaluation underpins every claim of trustworthy ML deployment, yet the field suffers from fragmented protocols and undetected gradient masking. We make two contributions.",
     "selected_date": "2026-04-23"
-  },
-  {
-    "id": "2604.19533v1",
-    "title": "Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps",
-    "summary": "We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows event logs with no guided questions or hints, identify the exact timestamps of malicious events.   The benchmark wraps 106 real attack procedures from the OTRF Security-Datasets corpus - spanning 86 MITRE ATT&CK sub-techniques across 12 tactics - into a Gymnasium reinforcement-learning environment. Each episode presents the agent with an in-memory SQLite database of 75,000-135,000 log records produced by a deterministic campaign simulator that time-shifts and entity-obfuscates the raw recordings.   The agent must iteratively submit SQL queries to discover malicious event timestamps and explicitly flag them, scored CTF-style against Sigma-rule-derived ground truth.   Evaluating five frontier models - Claude Opus 4.6, GPT-5, Gemini 3.1 Pro, Kimi K2.5, and Gemini 3 Flash - on 26 campaigns covering 105 of 106 procedures, we find that all models fail dramatically: the best model (Claude Opus 4.6) submits correct flags for only 3.8% of malicious events on average, and no run across any model ever finds all flags.   We define a passing score as >= 50% recall on every ATT&CK tactic - the minimum bar for unsupervised SOC deployment. No model passes: the leader clears this bar on 5 of 13 tactics and the remaining four on zero.   These results suggest that current LLMs are poorly suited for open-ended, evidence-driven threat hunting despite strong performance on curated Q&A security benchmarks.",
-    "published": "2026-04-21T14:53:23Z",
-    "link": "http://arxiv.org/abs/2604.19533v1",
-    "authors": [
-      "Alankrit Chona",
-      "Igor Kozlov",
-      "Ambuj Kumar"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "ai_summary": "We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows event logs with no guided questions or hints, identify the exact timestamps of malicious events.   The benchmark wraps 106 real attack procedures from the OTRF Security-Datasets corpus - spanning 86 MITRE ATT&CK sub-techniques across 12 tactics - into a Gymnasium reinforcement-learning environment.",
-    "selected_date": "2026-04-22"
   }
 ]
