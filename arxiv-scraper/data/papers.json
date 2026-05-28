@@ -1,5 +1,31 @@
 [
   {
+    "id": "2605.28116v1",
+    "title": "MIRAGE: Context-Aware Prompt Injection against Mobile GUI Agents via User-Generated Content",
+    "summary": "Mobile graphical user interface (GUI) agents driven by vision-language models (VLMs) perceive the screen as rendered pixels and choose actions from what they see, so they cannot reliably separate trusted interface elements from user-generated content. We present MIRAGE (Mobile Injection of Realistic Adversarial GUI Examples), a pipeline that turns benign mobile screenshots into prompt-injection samples by placing attacker-controlled text into ordinary user-generated content regions, without modifying the agent, the application, or the operating system. MIRAGE operates in three stages: a Localizer identifies user-controllable regions on the screenshot, a Generator synthesises context-aware payloads and renders them in the application's native style, and a Curator moderates realism and balances the samples across applications, region types, and attack intents. A key challenge is that an injected screenshot must stay visually indistinguishable from genuine user content while still diverting the agent; we address this by separating the stages that control reach, realism, and distributional balance. On a 1,111-sample benchmark spanning ten applications and eleven attack intents, all five evaluated VLM agents are vulnerable, with attack success rates of 23%-30%, and MIRAGE scores higher on human realism ratings than the strongest prior attack (3.02 versus 2.52 out of 5). We further find that per-sample realism and attack success are uncorrelated, so visual-quality filtering alone cannot reliably defend against this threat.",
+    "published": "2026-05-27T08:09:53Z",
+    "link": "http://arxiv.org/abs/2605.28116v1",
+    "authors": [
+      "Ruoqi Guo",
+      "Yi Liu",
+      "Gelei Deng",
+      "Yiheng Xiong",
+      "Yuekang Li",
+      "Ying Zhang",
+      "Leo Yu Zhang",
+      "Lida Zhao",
+      "Ji Jie",
+      "Yuxiao Lu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "ai_summary": "Mobile graphical user interface (GUI) agents driven by vision-language models (VLMs) perceive the screen as rendered pixels and choose actions from what they see, so they cannot reliably separate trusted interface elements from user-generated content. We present MIRAGE (Mobile Injection of Realistic Adversarial GUI Examples), a pipeline that turns benign mobile screenshots into prompt-injection samples by placing attacker-controlled text into ordinary user-generated content regions, without modifying the agent, the application, or the operating system.",
+    "selected_date": "2026-05-28"
+  },
+  {
     "id": "2605.26876v1",
     "title": "Secure UAV Swarms in Low-Altitude Wireless Networks: Challenges and Solutions",
     "summary": "Unmanned aerial vehicle (UAV) swarms are increasingly deployed in vast low-altitude applications, owing to their capabilities in distributed sensing, flexible communication, and autonomous coordination. Nevertheless, the open and highly dynamic operating environment of UAV swarms introduces serious security risks, including GPS spoofing, insider threats, and multi-hop intrusion. These threats are aggravated by limited on-board resources, frequently changing network topology, and the presence of intelligent adversaries. To tackle these issues, this paper proposes a cloud-edge-end collaborative defense framework for UAV swarms. Based on this framework, three complementary mechanisms are developed. First, a cooperative perception scheme is designed to resist GPS spoofing via interactive attack-defense game modeling. Second, a behavior-driven authentication method with trust evaluation is developed to mitigate insider threats. Third, a multi-agent attack forensics framework is devised to intelligently trace the propagation paths of multi-hop attacks in UAV networks. Experimental results validate the effectiveness of the proposed approaches. Finally, several open research directions are outlined.",
@@ -589,21 +615,5 @@
     ],
     "ai_summary": "Poisoning-based backdoor attacks pose significant threats to deep neural networks by embedding triggers in training data, causing models to misclassify triggered inputs as adversary-specified labels while maintaining performance on clean data. Existing poison restraint-based defenses often suffer from inadequate detection against specific attack variants and compromise model utility through unlearning methods that lead to accuracy degradation.",
     "selected_date": "2026-04-24"
-  },
-  {
-    "id": "2604.20704v1",
-    "title": "Auto-ART: Structured Literature Synthesis and Automated Adversarial Robustness Testing",
-    "summary": "Adversarial robustness evaluation underpins every claim of trustworthy ML deployment, yet the field suffers from fragmented protocols and undetected gradient masking. We make two contributions. (1) Structured synthesis. We analyze nine peer-reviewed corpus sources (2020--2026) through seven complementary protocols, producing the first end-to-end structured analysis of the field's consensus and unresolved challenges. (2) Auto-ART framework. We introduce Auto-ART, an open-source framework that operationalizes identified gaps: 50+ attacks, 28 defense modules, the Robustness Diagnostic Index (RDI), and gradient-masking detection. It supports multi-norm evaluation (l1/l2/linf/semantic/spatial) and compliance mapping to NIST AI RMF, OWASP LLM Top 10, and the EU AI Act. Empirical validation on RobustBench demonstrates that Auto-ART's pre-screening identifies gradient masking in 92% of flagged cases, and RDI rankings correlate highly with full AutoAttack. Multi-norm evaluation exposes a 23.5 pp gap between average and worst-case robustness on state-of-the-art models. No prior work combines such structured meta-scientific analysis with an executable evaluation framework bridging literature gaps into engineering.",
-    "published": "2026-04-22T15:46:11Z",
-    "link": "http://arxiv.org/abs/2604.20704v1",
-    "authors": [
-      "Abhijit Talluri"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "ai_summary": "Adversarial robustness evaluation underpins every claim of trustworthy ML deployment, yet the field suffers from fragmented protocols and undetected gradient masking. We make two contributions.",
-    "selected_date": "2026-04-23"
   }
 ]
