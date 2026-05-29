@@ -1,5 +1,26 @@
 [
   {
+    "id": "2605.30203v1",
+    "title": "A Bayesian Approach to Membership Inference for Statistical Release",
+    "summary": "The membership inference problem for publicly released statistics from a private dataset is well-studied. When developing and formally analyzing attack strategies, however, the focus has been on attacks that model the population using only its marginals. In practice, these attacks can perform well on various populations, however most formal analysis is for populations that follow a product distribution. These strategies may fail to leverage useful information about the population that is important for understanding a realistic privacy threat.   In this work, we explore the impact of providing an attacker with additional information about the attribute dependency structure of the population, motivated by examples where multiple parties may have access to similarly structured data, for example the US Census and the IRS. To model this scenario, we re-frame the membership inference problem with respect to a population represented as a Bayesian network (BN). We develop a framework based on Bayesian decision-making which can incorporate prior information about the population to launch more effective, specialized attacks.   To evaluate our framework, we introduce a specific attack instantiation which computes the Bayesian posterior using a probabilistic program, and prove its equivalence to an optimal variant of the likelihood ratio test attack for two populations with strong attribute dependency. We implement our program in the Roulette probabilistic programming language and show experimentally that it outperforms the likelihood ratio test and inner product attacks on five commonly used BNs, where the population dependency structure is too complex for the existing attacks to be manually adapted.",
+    "published": "2026-05-28T16:42:04Z",
+    "link": "http://arxiv.org/abs/2605.30203v1",
+    "authors": [
+      "Lisa Oakley",
+      "Sam Stites",
+      "Cameron Moy",
+      "Steven Holtzen",
+      "Alina Oprea",
+      "Marco Gaboardi"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.PL"
+    ],
+    "ai_summary": "The membership inference problem for publicly released statistics from a private dataset is well-studied. When developing and formally analyzing attack strategies, however, the focus has been on attacks that model the population using only its marginals.",
+    "selected_date": "2026-05-29"
+  },
+  {
     "id": "2605.28116v1",
     "title": "MIRAGE: Context-Aware Prompt Injection against Mobile GUI Agents via User-Generated Content",
     "summary": "Mobile graphical user interface (GUI) agents driven by vision-language models (VLMs) perceive the screen as rendered pixels and choose actions from what they see, so they cannot reliably separate trusted interface elements from user-generated content. We present MIRAGE (Mobile Injection of Realistic Adversarial GUI Examples), a pipeline that turns benign mobile screenshots into prompt-injection samples by placing attacker-controlled text into ordinary user-generated content regions, without modifying the agent, the application, or the operating system. MIRAGE operates in three stages: a Localizer identifies user-controllable regions on the screenshot, a Generator synthesises context-aware payloads and renders them in the application's native style, and a Curator moderates realism and balances the samples across applications, region types, and attack intents. A key challenge is that an injected screenshot must stay visually indistinguishable from genuine user content while still diverting the agent; we address this by separating the stages that control reach, realism, and distributional balance. On a 1,111-sample benchmark spanning ten applications and eleven attack intents, all five evaluated VLM agents are vulnerable, with attack success rates of 23%-30%, and MIRAGE scores higher on human realism ratings than the strongest prior attack (3.02 versus 2.52 out of 5). We further find that per-sample realism and attack success are uncorrelated, so visual-quality filtering alone cannot reliably defend against this threat.",
@@ -594,26 +615,5 @@
     ],
     "ai_summary": "The proliferation of Internet of Things (IoT) devices has significantly expanded attack surfaces, making IoT ecosystems particularly susceptible to sophisticated cyber threats. To address this challenge, this work introduces A-THENA, a lightweight early intrusion detection system (EIDS) that significantly extends preliminary findings on time-aware encodings.",
     "selected_date": "2026-04-25"
-  },
-  {
-    "id": "2604.21416v1",
-    "title": "CSC: Turning the Adversary's Poison against Itself",
-    "summary": "Poisoning-based backdoor attacks pose significant threats to deep neural networks by embedding triggers in training data, causing models to misclassify triggered inputs as adversary-specified labels while maintaining performance on clean data. Existing poison restraint-based defenses often suffer from inadequate detection against specific attack variants and compromise model utility through unlearning methods that lead to accuracy degradation. This paper conducts a comprehensive analysis of backdoor attack dynamics during model training, revealing that poisoned samples form isolated clusters in latent space early on, with triggers acting as dominant features distinct from benign ones. Leveraging these insights, we propose Cluster Segregation Concealment (CSC), a novel poison suppression defense. CSC first trains a deep neural network via standard supervised learning while segregating poisoned samples through feature extraction from early epochs, DBSCAN clustering, and identification of anomalous clusters based on class diversity and density metrics. In the concealment stage, identified poisoned samples are relabeled to a virtual class, and the model's classifier is fine-tuned using cross-entropy loss to replace the backdoor association with a benign virtual linkage, preserving overall accuracy. CSC was evaluated on four benchmark datasets against twelve poisoning-based attacks, CSC outperforms nine state-of-the-art defenses by reducing average attack success rates to near zero with minimal clean accuracy loss. Contributions include robust backdoor patterns identification, an effective concealment mechanism, and superior empirical validation, advancing trustworthy artificial intelligence.",
-    "published": "2026-04-23T08:30:53Z",
-    "link": "http://arxiv.org/abs/2604.21416v1",
-    "authors": [
-      "Yuchen Shi",
-      "Xin Guo",
-      "Huajie Chen",
-      "Tianqing Zhu",
-      "Bo Liu",
-      "Wanlei Zhou"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "ai_summary": "Poisoning-based backdoor attacks pose significant threats to deep neural networks by embedding triggers in training data, causing models to misclassify triggered inputs as adversary-specified labels while maintaining performance on clean data. Existing poison restraint-based defenses often suffer from inadequate detection against specific attack variants and compromise model utility through unlearning methods that lead to accuracy degradation.",
-    "selected_date": "2026-04-24"
   }
 ]
