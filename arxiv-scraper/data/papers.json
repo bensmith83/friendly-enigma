@@ -1,5 +1,26 @@
 [
   {
+    "id": "2605.30347v1",
+    "title": "NeuROK: Generative 4D Neural Object Kinematics",
+    "summary": "Data-driven approaches have revolutionized 3D vision, enabling transformers to effectively reconstruct and generate static 3D objects. However, generating simulative 4D dynamics -- realistic temporal deformations of static objects under various physical conditions -- remains challenging and often ad hoc, despite its importance in building comprehensive 3D world models. Most existing methods assume a predefined physical model and use system identification to estimate parameters, restricting these methods to specific categories and small-scale datasets. We propose that these restrictions can be overcome by learning a data-driven kinematic state parameterization for object-centric physical systems. Specifically, we learn both a latent space representing all possible states of the object and a decoder that maps any sampled latent to a plausibly deformed shape of the object. We refer to this parameterization as Neural Object Kinematics (NeuROK), and learn a transformer-based encoder-decoder model on a curated large-scale 4D dataset. This formulation and the learned model significantly simplify the generation of simulative dynamics since we only need to consider the dynamics within a low-dimensional latent space from the Lagrangian mechanics' perspective in classical physics. We demonstrate the effectiveness and generality of this neural simulation framework across diverse dynamic object types, showing clear advantages over prior works. Project page: https://chen-geng.com/neurok",
+    "published": "2026-05-28T17:59:53Z",
+    "link": "http://arxiv.org/abs/2605.30347v1",
+    "authors": [
+      "Chen Geng",
+      "Guangzhao He",
+      "Yue Gao",
+      "Yunzhi Zhang",
+      "Shangzhe Wu",
+      "Jiajun Wu"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.GR"
+    ],
+    "ai_summary": "Data-driven approaches have revolutionized 3D vision, enabling transformers to effectively reconstruct and generate static 3D objects. However, generating simulative 4D dynamics -- realistic temporal deformations of static objects under various physical conditions -- remains challenging and often ad hoc, despite its importance in building comprehensive 3D world models.",
+    "selected_date": "2026-05-31"
+  },
+  {
     "id": "2605.29801v1",
     "title": "AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
     "summary": "Modern open-world agents such as OpenClaw exhibit powerful cross-environment execution capabilities yet introduce broad new safety risk sources. Meanwhile, advanced frontier AI models drastically lower attack barriers, rendering current agent alignment frameworks inadequate for real-world deployment. To tackle these emerging threats, we propose a lightweight and scalable agent safety alignment framework. Specifically, we update the agent safety taxonomy to accommodate emergent risks from Codex and OpenClaw execution scenarios. We further build a taxonomy-guided data engine with influence-function purification to train lightweight AgentDoG 1.5 variants (0.8B, 2B, 4B, and 8B parameters) using only around 1k samples, achieving comparable performance with leading closed-source models (e.g., GPT-5.4). Based on AgentDoG 1.5, we construct a highly efficient agentic safety SFT and RL training environment, which reduces deployment overhead in Docker-level environments by two orders of magnitude. Finally, we deploy AgentDoG 1.5 as a training-free online guardrail for real-time safety moderation. Extensive experimental results indicate that AgentDoG 1.5 achieves state-of-the-art performance in diverse and complex interactive agentic scenarios. All models and datasets are openly released.",
@@ -644,23 +665,5 @@
     ],
     "ai_summary": "Physical adversarial patch attacks critically threaten pedestrian detection, causing surveillance and autonomous driving systems to miss pedestrians and creating severe safety risks. Despite their effectiveness in controlled settings, existing physical attacks face two major limitations in practice: they lack systematic disruption of the multi-stage decision pipeline, enabling residual modules to offset perturbations, and they fail to model complex physical variations, leading to poor robustness.",
     "selected_date": "2026-04-27"
-  },
-  {
-    "id": "2604.21774v1",
-    "title": "Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks",
-    "summary": "Near-field millimeter-wave (mmWave) imaging is widely deployed in safety-critical applications such as airport passenger screening, yet its own security remains largely unexplored. This paper presents a systematic study of the adversarial robustness of mmWave imaging algorithms under waveform-domain physical attacks that directly manipulate the image reconstruction process. We propose a practical white-box adversarial model and develop a differential imaging attack framework that leverages the differentiable imaging pipeline to optimize attack waveforms. We also construct a real measured dataset of clean and attack waveforms using a mmWave imaging testbed. Experiments on 10 representative imaging algorithms show that mmWave imaging is highly vulnerable to such attacks, enabling an adversary to conceal or alter targets with moderate transmission power. Surprisingly, deep-learning-based imaging algorithms demonstrate higher robustness than classical algorithms. These findings expose critical security risks and motivate the development of robust and secure mmWave imaging systems.",
-    "published": "2026-04-23T15:32:27Z",
-    "link": "http://arxiv.org/abs/2604.21774v1",
-    "authors": [
-      "Lhamo Dorje",
-      "Jordan Madden",
-      "Soamar Homsi",
-      "Xiaohua Li"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Near-field millimeter-wave (mmWave) imaging is widely deployed in safety-critical applications such as airport passenger screening, yet its own security remains largely unexplored. This paper presents a systematic study of the adversarial robustness of mmWave imaging algorithms under waveform-domain physical attacks that directly manipulate the image reconstruction process.",
-    "selected_date": "2026-04-26"
   }
 ]
