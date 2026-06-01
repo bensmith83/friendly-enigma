@@ -1,5 +1,23 @@
 [
   {
+    "id": "2605.31277v1",
+    "title": "GETA: Generalized Encrypted Traffic Analysis",
+    "summary": "Traditional traffic analysis is being fundamentally challenged by the rapid adoption of encryption, tunnelling, and privacy-preserving protocols, which increasingly obscure packet payloads and limit the usefulness of Deep Packet Inspection (DPI). Although machine learning has advanced encrypted traffic analysis, existing approaches often remain tied to protocol-specific header features, depend on large labelled datasets, and degrade when deployed across heterogeneous network environments. We present GETA, a protocol-agnostic framework for encrypted traffic analysis that models network flows as multivariate time series using only traffic metadata, thereby avoiding reliance on packet payloads or header semantics. GETA combines meta-learning, embedding refinement, and self-attention to support few-shot adaptation to previously unseen domains with minimal labelled data. Across nine public datasets spanning application identification, VPN traffic classification, IoT device fingerprinting, and attack detection, GETA consistently outperforms state-of-the-art baselines. These results show that GETA offers a practical and generalisable foundation for robust traffic analysis in modern encrypted networks.",
+    "published": "2026-05-29T13:09:35Z",
+    "link": "http://arxiv.org/abs/2605.31277v1",
+    "authors": [
+      "Ransika Gunasekara",
+      "Rahat Masood",
+      "Salil Kanhere"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "ai_summary": "Traditional traffic analysis is being fundamentally challenged by the rapid adoption of encryption, tunnelling, and privacy-preserving protocols, which increasingly obscure packet payloads and limit the usefulness of Deep Packet Inspection (DPI). Although machine learning has advanced encrypted traffic analysis, existing approaches often remain tied to protocol-specific header features, depend on large labelled datasets, and degrade when deployed across heterogeneous network environments.",
+    "selected_date": "2026-06-01"
+  },
+  {
     "id": "2605.30347v1",
     "title": "NeuROK: Generative 4D Neural Object Kinematics",
     "summary": "Data-driven approaches have revolutionized 3D vision, enabling transformers to effectively reconstruct and generate static 3D objects. However, generating simulative 4D dynamics -- realistic temporal deformations of static objects under various physical conditions -- remains challenging and often ad hoc, despite its importance in building comprehensive 3D world models. Most existing methods assume a predefined physical model and use system identification to estimate parameters, restricting these methods to specific categories and small-scale datasets. We propose that these restrictions can be overcome by learning a data-driven kinematic state parameterization for object-centric physical systems. Specifically, we learn both a latent space representing all possible states of the object and a decoder that maps any sampled latent to a plausibly deformed shape of the object. We refer to this parameterization as Neural Object Kinematics (NeuROK), and learn a transformer-based encoder-decoder model on a curated large-scale 4D dataset. This formulation and the learned model significantly simplify the generation of simulative dynamics since we only need to consider the dynamics within a low-dimensional latent space from the Lagrangian mechanics' perspective in classical physics. We demonstrate the effectiveness and generality of this neural simulation framework across diverse dynamic object types, showing clear advantages over prior works. Project page: https://chen-geng.com/neurok",
@@ -645,25 +663,5 @@
     ],
     "ai_summary": "Fast Adversarial Training (FAT) has proven effective in enhancing model robustness by encouraging networks to learn perturbation-invariant representations. However, FAT often suffers from catastrophic overfitting (CO), where the model overfits to the training attack and fails to generalize to unseen ones.",
     "selected_date": "2026-04-28"
-  },
-  {
-    "id": "2604.22552v1",
-    "title": "Transferable Physical-World Adversarial Patches Against Pedestrian Detection Models",
-    "summary": "Physical adversarial patch attacks critically threaten pedestrian detection, causing surveillance and autonomous driving systems to miss pedestrians and creating severe safety risks. Despite their effectiveness in controlled settings, existing physical attacks face two major limitations in practice: they lack systematic disruption of the multi-stage decision pipeline, enabling residual modules to offset perturbations, and they fail to model complex physical variations, leading to poor robustness. To overcome these limitations, we propose a novel pedestrian adversarial patch generation method that combines multi-stage collaborative attacks with robustness enhancement under physical diversity, called TriPatch. Specifically, we design a triplet loss consisting of detection confidence suppression, bounding-box offset amplification, and non-maximum suppression (NMS) disruption, which jointly act across different stages of the detection pipeline. In addition, we introduce an appearance consistency loss to constrain the color distribution of the patch, thereby improving its adaptability under diverse imaging conditions, and incorporate data augmentation to further enhance robustness against complex physical perturbations. Extensive experiments demonstrate that TriPatch achieves a higher attack success rate across multiple detector models compared to existing approaches.",
-    "published": "2026-04-24T13:45:11Z",
-    "link": "http://arxiv.org/abs/2604.22552v1",
-    "authors": [
-      "Shihui Yan",
-      "Ziqi Zhou",
-      "Yufei Song",
-      "Yifan Hu",
-      "Minghui Li",
-      "Shengshan Hu"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Physical adversarial patch attacks critically threaten pedestrian detection, causing surveillance and autonomous driving systems to miss pedestrians and creating severe safety risks. Despite their effectiveness in controlled settings, existing physical attacks face two major limitations in practice: they lack systematic disruption of the multi-stage decision pipeline, enabling residual modules to offset perturbations, and they fail to model complex physical variations, leading to poor robustness.",
-    "selected_date": "2026-04-27"
   }
 ]
