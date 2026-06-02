@@ -1,5 +1,26 @@
 [
   {
+    "id": "2606.02196v1",
+    "title": "PyFEX: Uncovering Evasive Python-based Threats via Resilient and Exhaustive Path Exploration",
+    "summary": "The rapid expansion of the Python ecosystem has fueled two distinct but converging threats: adversaries increasingly target the software supply chain via the Python Package Index (PyPI), while also building evasive, cross-platform malicious binaries compiled from source code written in Python. Current program analysis techniques struggle to address this dual threat. Static analysis based tools are often blinded by runtime obfuscation and compiled bytecode, while dynamic analysis based ones are fragile, prone to evasion by environmental guardrails, and often terminates prematurely due to unsatisfied dependencies.   To overcome these limitations, we present PyFEX, a resilient forced-execution engine. PyFEX explores a program's behavioral space systematically by forcing execution across all conditional branches to bypass evasion checks. To address the fragility of dynamic execution, it introduces a novel resilient crash recovery mechanism that synthesizes dummy objects to satisfy failed operations at the runtime, allowing analysis to proceed past fatal errors, and employs path merging to mitigate path explosion. PyFEX further incorporates an automated entry identification mechanism that proactively discovers and invokes dormant functions, exposing malicious logic hidden within uncalled APIs. To demonstrate the efficacy of this engine, we built PyFEXScan, a proof-of-concept malware detector built on top of PyFEX. Evaluated against both known malicious PyPI packages and real-world compiled binaries, PyFEX exposes critical behaviors missed by the existing state-of-the-art tools. In a live deployment on PyPI, PyFEXScan discovered 212 previously unknown malicious packages accounting for over 91,648 downloads, underscoring the necessity of resilient, exhaustive analysis for securing the Python ecosystem.",
+    "published": "2026-06-01T12:51:21Z",
+    "link": "http://arxiv.org/abs/2606.02196v1",
+    "authors": [
+      "Meng Wang",
+      "Yue Ma",
+      "Majid Garoosi",
+      "Wenting Fan",
+      "Liwei Guo",
+      "Jianqiang Wang",
+      "Ali Abbasi"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "The rapid expansion of the Python ecosystem has fueled two distinct but converging threats: adversaries increasingly target the software supply chain via the Python Package Index (PyPI), while also building evasive, cross-platform malicious binaries compiled from source code written in Python. Current program analysis techniques struggle to address this dual threat.",
+    "selected_date": "2026-06-02"
+  },
+  {
     "id": "2605.31277v1",
     "title": "GETA: Generalized Encrypted Traffic Analysis",
     "summary": "Traditional traffic analysis is being fundamentally challenged by the rapid adoption of encryption, tunnelling, and privacy-preserving protocols, which increasingly obscure packet payloads and limit the usefulness of Deep Packet Inspection (DPI). Although machine learning has advanced encrypted traffic analysis, existing approaches often remain tied to protocol-specific header features, depend on large labelled datasets, and degrade when deployed across heterogeneous network environments. We present GETA, a protocol-agnostic framework for encrypted traffic analysis that models network flows as multivariate time series using only traffic metadata, thereby avoiding reliance on packet payloads or header semantics. GETA combines meta-learning, embedding refinement, and self-attention to support few-shot adaptation to previously unseen domains with minimal labelled data. Across nine public datasets spanning application identification, VPN traffic classification, IoT device fingerprinting, and attack detection, GETA consistently outperforms state-of-the-art baselines. These results show that GETA offers a practical and generalisable foundation for robust traffic analysis in modern encrypted networks.",
@@ -642,26 +663,5 @@
     ],
     "ai_summary": "We present MGTEVAL, an extensible platform for systematic evaluation of Machine-Generated Text (MGT) detectors. Despite rapid progress in MGT detection, existing evaluations are often fragmented across datasets, preprocessing, attacks, and metrics, making results hard to compare and reproduce.",
     "selected_date": "2026-04-29"
-  },
-  {
-    "id": "2604.24332v1",
-    "title": "Mitigating Error Amplification in Fast Adversarial Training",
-    "summary": "Fast Adversarial Training (FAT) has proven effective in enhancing model robustness by encouraging networks to learn perturbation-invariant representations. However, FAT often suffers from catastrophic overfitting (CO), where the model overfits to the training attack and fails to generalize to unseen ones. Moreover, robustness oriented optimization typically leads to notable performance degradation on clean inputs, and such degradation becomes increasingly severe as the perturbation budget grows. In this work, we conduct a comprehensive analysis of how guidance strength affects model performance by modulating perturbation and supervision levels across distinct confidence groups. The findings reveal that low confidence samples are the primary contributors to CO and the robustness accuracy trade off. Building on this insight, we propose a Distribution-aware Dynamic Guidance (DDG) strategy that dynamically adjusts both the perturbation budget and supervision signal. Specifically, DDG scales the perturbation magnitude according to the sample confidence at the ground truth class, thereby guiding samples toward consistent decision boundaries while mitigating the influence of learning spurious correlations. Simultaneously, it dynamically adjusts the supervision signal based on the prediction state of each sample, preventing overemphasis on incorrect signals. To alleviate potential gradient instability arising from dynamic guidance, we further design a weighted regularization constraint. Extensive experiments on standard benchmarks demonstrate that DDG effectively alleviates both CO and the robustness accuracy trade off.",
-    "published": "2026-04-27T11:23:18Z",
-    "link": "http://arxiv.org/abs/2604.24332v1",
-    "authors": [
-      "Mengnan Zhao",
-      "Lihe Zhang",
-      "Bo Wang",
-      "Tianhang Zheng",
-      "Hong Zhong",
-      "Geyong Min"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR"
-    ],
-    "ai_summary": "Fast Adversarial Training (FAT) has proven effective in enhancing model robustness by encouraging networks to learn perturbation-invariant representations. However, FAT often suffers from catastrophic overfitting (CO), where the model overfits to the training attack and fails to generalize to unseen ones.",
-    "selected_date": "2026-04-28"
   }
 ]
