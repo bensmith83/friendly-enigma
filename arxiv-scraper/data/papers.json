@@ -1,5 +1,27 @@
 [
   {
+    "id": "2606.05821v1",
+    "title": "PriSrv: Privacy-Enhanced and Highly Usable Service Discovery in Wireless Communications",
+    "summary": "Service discovery is essential in wireless communications. However, existing protocols provide limited privacy protection, leaking sensitive device information and opening routes to network attacks. This paper proposes a private service discovery protocol, called PriSrv, which enables both service providers and clients to specify fine-grained authentication policies before establishing connections. PriSrv achieves this via a dual-layer matching architecture: an outer layer filters mismatched entities using public attributes, while an inner layer handles mutual authentication using selectively disclosed private attributes. As a core component, we introduce the primitive of anonymous credential-based matchmaking encryption (ACME), which enables dual-layer matching in a single step to achieve bilateral policy control, selective attribute disclosure, and multi-show unlinkability. To instantiate ACME, we design a fast anonymous credential (FAC) scheme providing constant-size credentials and efficient verification. We demonstrate PriSrv's interoperability by integrating it with popular wireless frameworks including EAP, mDNS, BLE, and AirDrop. Detailed formal security proofs and extensive performance evaluations across desktop, laptop, smartphone, and Raspberry Pi platforms demonstrate that PriSrv provides enhanced privacy guarantees with high usability, achieving secure discovery in less than one second on mainstream mobile devices.",
+    "published": "2026-06-04T08:00:31Z",
+    "link": "http://arxiv.org/abs/2606.05821v1",
+    "authors": [
+      "Yang Yang",
+      "Robert H. Deng",
+      "Guomin Yang",
+      "Yingjiu Li",
+      "HweeHwa Pang",
+      "Minming Huang",
+      "Rui Shi",
+      "Jian Weng"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Service discovery is essential in wireless communications. However, existing protocols provide limited privacy protection, leaking sensitive device information and opening routes to network attacks.",
+    "selected_date": "2026-06-05"
+  },
+  {
     "id": "2606.02196v1",
     "title": "PyFEX: Uncovering Evasive Python-based Threats via Resilient and Exhaustive Path Exploration",
     "summary": "The rapid expansion of the Python ecosystem has fueled two distinct but converging threats: adversaries increasingly target the software supply chain via the Python Package Index (PyPI), while also building evasive, cross-platform malicious binaries compiled from source code written in Python. Current program analysis techniques struggle to address this dual threat. Static analysis based tools are often blinded by runtime obfuscation and compiled bytecode, while dynamic analysis based ones are fragile, prone to evasion by environmental guardrails, and often terminates prematurely due to unsatisfied dependencies.   To overcome these limitations, we present PyFEX, a resilient forced-execution engine. PyFEX explores a program's behavioral space systematically by forcing execution across all conditional branches to bypass evasion checks. To address the fragility of dynamic execution, it introduces a novel resilient crash recovery mechanism that synthesizes dummy objects to satisfy failed operations at the runtime, allowing analysis to proceed past fatal errors, and employs path merging to mitigate path explosion. PyFEX further incorporates an automated entry identification mechanism that proactively discovers and invokes dormant functions, exposing malicious logic hidden within uncalled APIs. To demonstrate the efficacy of this engine, we built PyFEXScan, a proof-of-concept malware detector built on top of PyFEX. Evaluated against both known malicious PyPI packages and real-world compiled binaries, PyFEX exposes critical behaviors missed by the existing state-of-the-art tools. In a live deployment on PyPI, PyFEXScan discovered 212 previously unknown malicious packages accounting for over 91,648 downloads, underscoring the necessity of resilient, exhaustive analysis for securing the Python ecosystem.",
@@ -640,28 +662,5 @@
     ],
     "ai_summary": "We present VulStyle, a multi-modal software vulnerability detection model that jointly encodes function-level source code, non-terminal Abstract Syntax Tree (AST) structure, and code stylometry (CStyle) features. Prior work in code representation primarily leverages token-level models or full AST trees, often missing stylistic cues indicative of risky programming practices, or incurring high structural overhead.",
     "selected_date": "2026-04-30"
-  },
-  {
-    "id": "2604.25152v1",
-    "title": "MGTEVAL: An Interactive Platform for Systemtic Evaluation of Machine-Generated Text Detectors",
-    "summary": "We present MGTEVAL, an extensible platform for systematic evaluation of Machine-Generated Text (MGT) detectors. Despite rapid progress in MGT detection, existing evaluations are often fragmented across datasets, preprocessing, attacks, and metrics, making results hard to compare and reproduce. MGTEVAL organizes the workflow into four components: Dataset Building, Dataset Attack, Detector Training, and Performance Evaluation. It supports constructing custom benchmarks by generating MGT with configurable LLMs, applying 12 text attacks to test sets, training detectors via a unified interface, and reporting effectiveness, robustness, and efficiency. The platform provides both command-line and Web-based interfaces for user-friendly experimentation without code rewriting.",
-    "published": "2026-04-28T02:55:29Z",
-    "link": "http://arxiv.org/abs/2604.25152v1",
-    "authors": [
-      "Yuanfan Li",
-      "Qi Zhou",
-      "Chengzhengxu Li",
-      "Zhaohan Zhang",
-      "Chenxu Zhao",
-      "Zepu Ruan",
-      "Chao Shen",
-      "Xiaoming Liu"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.CL"
-    ],
-    "ai_summary": "We present MGTEVAL, an extensible platform for systematic evaluation of Machine-Generated Text (MGT) detectors. Despite rapid progress in MGT detection, existing evaluations are often fragmented across datasets, preprocessing, attacks, and metrics, making results hard to compare and reproduce.",
-    "selected_date": "2026-04-29"
   }
 ]
