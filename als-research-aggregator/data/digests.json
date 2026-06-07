@@ -1,5 +1,1125 @@
 [
   {
+    "date": "2026-06-07",
+    "week_of": "June 07, 2026",
+    "digest_number": 24,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Scientist with Huntington's gene dedicates life to curing fatal disease he'll one day develop",
+          "description": "Jeff Carroll, a scientist who carries the mutant gene for Huntington's disease, is now part of a global initiative to advance treatment for neurodegenerative diseases.",
+          "content": "Scientist Jeff Carroll was told by his colleagues that he didnt have to devote his life to Huntingtons disease.\r\nHis grandmother and mother both died from the genetic condition. As a carrier of the g\u2026 [+5648 chars]",
+          "url": "https://www.cbc.ca/radio/asithappens/scientist-with-huntington-s-gene-dedicates-life-to-curing-fatal-disease-he-ll-one-day-develop-9.7225211",
+          "source_name": "CBC News",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T21:02:36Z",
+          "author": null,
+          "image_url": "https://i.cbc.ca/ais/119442f7-63c3-409f-9924-63a14fe3b8c0,1780683405547/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C156%2C3000%2C1687%29%3BResize%3D620",
+          "is_local_nj": false,
+          "article_id": "bcae0c45c8b1",
+          "summary": "Jeff Carroll, a scientist who carries the mutant gene for Huntington's disease, is now part of a global initiative to advance treatment for neurodegenerative diseases.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Food Safety Testing Market Expected to Reach $44.1 Billion by 2033, at a CAGR of 7% : Allied Market Research",
+          "description": "Driven by intensifying food safety requirements with the increased stringency of regulatory guidelines, a substantial and growing incidence of food fraud across global supply chains, innovations in molecular technologies that are rapidly transforming the spee\u2026",
+          "content": "Driven by intensifying food safety requirements with the increased stringency of regulatory guidelines, a substantial and growing incidence of food fraud across global supply chains, innovations in m\u2026 [+20391 chars]",
+          "url": "https://www.prnewswire.com/news-releases/food-safety-testing-market-expected-to-reach-44-1-billion-by-2033--at-a-cagr-of-7--allied-market-research-302792722.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T21:01:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1147254/Allied_Market_Research_Logo.jpg?id=OA2676768&p=facebook",
+          "is_local_nj": false,
+          "article_id": "142ca9846f6c",
+          "summary": "Driven by intensifying food safety requirements with the increased stringency of regulatory guidelines, a substantial and growing incidence of food fraud across global supply chains, innovations in mo",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Global Ambulance Service Market is Set to Cross USD 100 Billion by 2034 | DelveInsight",
+              "url": "https://www.globenewswire.com/news-release/2026/05/07/3290392/0/en/Global-Ambulance-Service-Market-is-Set-to-Cross-USD-100-Billion-by-2034-DelveInsight.html",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "Physical Artificial Intellligence (AI) Research Report 2026: A $3.25 Trillion Market by 2040 from $383 Billion in 2026 with Untapped Potential Across Healthcare, Smart Infrastructure, and Agriculture",
+              "url": "https://www.globenewswire.com/news-release/2026/04/16/3275135/28124/en/Physical-Artificial-Intellligence-AI-Research-Report-2026-A-3-25-Trillion-Market-by-2040-from-383-Billion-in-2026-with-Untapped-Potential-Across-Healthcare-Smart-Infrastructure-and.html",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "Testing, Inspection and Certification (TIC) Market Size to Worth USD 480.99 Billion by 2035 | SNS Insider",
+              "url": "https://www.globenewswire.com/news-release/2026/04/02/3267137/0/en/Testing-Inspection-and-Certification-TIC-Market-Size-to-Worth-USD-480-99-Billion-by-2035-SNS-Insider.html",
+              "digest_date": "2026-04-05"
+            }
+          ]
+        },
+        {
+          "title": "Food Safety Testing Market Expected to Reach $44.1 Billion by 2033, at a CAGR of 7% : Allied Market Research",
+          "description": "Driven by intensifying food safety requirements with the increased stringency of regulatory guidelines, a substantial and growing incidence of food fraud across global supply chains, innovations in molecular technologies that are rapidly transforming the spee\u2026",
+          "content": "Driven by intensifying food safety requirements with the increased stringency of regulatory guidelines, a substantial and growing incidence of food fraud across global supply chains, innovations in m\u2026 [+20372 chars]",
+          "url": "https://www.prnewswire.co.uk/news-releases/food-safety-testing-market-expected-to-reach-44-1-billion-by-2033--at-a-cagr-of-7--allied-market-research-302792727.html",
+          "source_name": "PR Newswire UK",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T21:01:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1147254/Allied_Market_Research_Logo.jpg?id=OA2676793&p=facebook",
+          "is_local_nj": false,
+          "article_id": "543a80fba77e",
+          "summary": "Driven by intensifying food safety requirements with the increased stringency of regulatory guidelines, a substantial and growing incidence of food fraud across global supply chains, innovations in mo",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Global Ambulance Service Market is Set to Cross USD 100 Billion by 2034 | DelveInsight",
+              "url": "https://www.globenewswire.com/news-release/2026/05/07/3290392/0/en/Global-Ambulance-Service-Market-is-Set-to-Cross-USD-100-Billion-by-2034-DelveInsight.html",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "Physical Artificial Intellligence (AI) Research Report 2026: A $3.25 Trillion Market by 2040 from $383 Billion in 2026 with Untapped Potential Across Healthcare, Smart Infrastructure, and Agriculture",
+              "url": "https://www.globenewswire.com/news-release/2026/04/16/3275135/28124/en/Physical-Artificial-Intellligence-AI-Research-Report-2026-A-3-25-Trillion-Market-by-2040-from-383-Billion-in-2026-with-Untapped-Potential-Across-Healthcare-Smart-Infrastructure-and.html",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "Testing, Inspection and Certification (TIC) Market Size to Worth USD 480.99 Billion by 2035 | SNS Insider",
+              "url": "https://www.globenewswire.com/news-release/2026/04/02/3267137/0/en/Testing-Inspection-and-Certification-TIC-Market-Size-to-Worth-USD-480-99-Billion-by-2035-SNS-Insider.html",
+              "digest_date": "2026-04-05"
+            }
+          ]
+        },
+        {
+          "title": "China approved the world\u2019s first commercial brain implant before Neuralink \u2014 and the key difference is that NEO\u2019s sensors rest on top of the brain\u2019s protective membrane rather than piercing the cortex itself",
+          "description": "In March 2026, China\u2019s National Medical Products Administration approved NEO, a brain-computer interface developed by Shanghai-based startup Neuracle Technology with researchers at Tsinghua University, for commercial use in patients with paralysis caused by s\u2026",
+          "content": "In March 2026, China\u2019s National Medical Products Administration approved NEO, a brain-computer interface developed by Shanghai-based startup Neuracle Technology with researchers at Tsinghua Universit\u2026 [+7482 chars]",
+          "url": "https://spacedaily.com/n-china-approved-the-worlds-first-commercial-brain-implant-before-neuralink-and-the-key-difference-is-that-neos-sensors-rest-on-top-of-the-brains-protective-membrane-rather-than-piercing-th/",
+          "source_name": "Space Daily",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T19:00:17Z",
+          "author": "Space Daily Editorial Team",
+          "image_url": "https://spacedaily.com/wp-content/uploads/2026/06/commercial-brain-implant.png",
+          "is_local_nj": false,
+          "article_id": "5078f74f9a68",
+          "summary": "In March 2026, China\u2019s National Medical Products Administration approved NEO, a brain-computer interface developed by Shanghai-based startup Neuracle Technology with researchers at Tsinghua University",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Tech company claims its new caps and beanies can read your mind and put it on a screen \u2014 no brain implant required",
+              "url": "https://nypost.com/2026/05/07/tech/tech-company-claims-its-new-caps-and-beanies-can-read-your-mind-and-put-it-on-a-screen-no-brain-implant-required/",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "Science Corp is preparing to place its first brain sensor in a human, betting biology will beat electrodes",
+              "url": "https://thenextweb.com/news/science-corp-biohybrid-brain-sensor-first-human-hodak-yale/",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "Max Hodak\u2019s Science Corp. is preparing to place its first sensor in a human brain | TechCrunch",
+              "url": "https://techcrunch.com/2026/04/14/max-hodaks-science-corp-is-preparing-to-place-its-first-sensor-in-a-human-brain/",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Kabel, Walther: Harald Harst (321) - Dr Fausts Zauberspruch. V1.0 [German] 05.06.2026 (Mystery and Crime, ePub)",
+          "description": "Mystery and Crime Kabel, Walther: Harald Harst (321) - Dr Fausts Zauberspruch. V1.0 [German] 05.06.2026 ePub Books",
+          "content": "Dr. Fausts ZauberspruchDer Kriminalrat spuckte die Zigarre pl\u00f6tzlich \u00fcber Bord \u0085\r\nSoeben hatte der Wind den Nebel wieder gelichtet, und Mondschein und Sterne zeigten gerade voraus ein kleines dunkles\u2026 [+1491 chars]",
+          "url": "https://www.mobileread.com/forums/showthread.php?t=373848",
+          "source_name": "Mobileread.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T17:03:10Z",
+          "author": "Zentaurus",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "ad9c002a0367",
+          "summary": "Mystery and Crime Kabel, Walther: Harald Harst (321) - Dr Fausts Zauberspruch. V1.0 [German] 05.06.2026 ePub Books",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Kabel, Walther: Harald Harst (323) - Hellblaue Dominostein. V1.0 [German] 13.05.2026 (Mystery and Crime, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=373522",
+              "digest_date": "2026-05-17"
+            },
+            {
+              "title": "Hume, Fergus: Der R\u00e4tselhafte Mord in Piccadilly.PDF [German] V 1.0 01.05.2026 (Mystery and Crime, Misc)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=373340",
+              "digest_date": "2026-05-03"
+            },
+            {
+              "title": "Kabel, Walther: Harald Harst (312) - Der gr\u00fcne Vampir. V1.0 [German] 13.03.2026 (Mystery and Crime, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=372506",
+              "digest_date": "2026-03-15"
+            }
+          ]
+        },
+        {
+          "title": "Toxic Clumps in Huntington\u2019s Disease May Protect the Brain Too",
+          "description": "The findings could lead to new treatments for multiple neurodegenerative diseases.\nThe post Toxic Clumps in Huntington\u2019s Disease May Protect the Brain Too appeared first on SingularityHub.",
+          "content": "Huntingtons disease is tragically predictable. An inherited genetic mutation causes neurons to make distorted, sticky proteins. These proteins clump together and gradually overwhelm brain cells. The \u2026 [+6916 chars]",
+          "url": "https://singularityhub.com/2026/06/05/toxic-clumps-in-huntingtons-disease-may-protect-the-brain-too/#article",
+          "source_name": "Singularity Hub",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T14:00:00Z",
+          "author": "Shelly Fan",
+          "image_url": "https://singularityhub.com/uploads/2026/06/signaling-neuron.jpeg?auto=webp",
+          "is_local_nj": false,
+          "article_id": "b566de7d13b2",
+          "summary": "The findings could lead to new treatments for multiple neurodegenerative diseases.\nThe post Toxic Clumps in Huntington\u2019s Disease May Protect the Brain Too appeared first on SingularityHub.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Inside the family tragedy that triggered a shocking midnight home invasion - where a terrified elderly couple were allegedly stabbed before they gunned down accused attacker",
+          "description": "A man charged with stabbing an elderly couple in a terrifying midnight rural home invasion had lost his mother to a crippling disease just hours before his alleged attack.",
+          "content": "A man accused of stabbing an elderly couple in a random home invasion lost his mother to a crippling disease just hours before his alleged attack, the Daily Mail can reveal.\r\nPolice allege Joshua Dyl\u2026 [+6075 chars]",
+          "url": "https://www.dailymail.com/news/article-15875787/torrington-home-invasion-elderly-couple-stabbed.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T13:24:07Z",
+          "author": "Karleigh Smith, Maisy Rae",
+          "image_url": "https://i.dailymail.com/1s/2026/06/05/06/109140401-0-image-m-22_1780635958347.jpg",
+          "is_local_nj": false,
+          "article_id": "bf776220b0a4",
+          "summary": "A man charged with stabbing an elderly couple in a terrifying midnight rural home invasion had lost his mother to a crippling disease just hours before his alleged attack.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Smokin' Charley Hull gets off to a fast start at U.S. Women's Open before fading, Stephen A weight loss & MEAT",
+          "description": "Friday Screencaps covers a 16th wedding anniversary, Charley Hull's cigarette-free U.S. Women's Open round at Riviera, and a $700 Cabo golf review.",
+          "content": "Welcome in to another edition of Friday Screencaps where I address my 16th wedding anniversary with Mrs. Screencaps and we check in with Smokin' Charley Hull at the U.S. Women's Open to see if she's \u2026 [+12268 chars]",
+          "url": "https://www.foxnews.com/outkick-culture/smokin-charley-hull-gets-fast-start-us-womens-open-fading-stephen-weight-loss-meat",
+          "source_name": "Fox News",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T13:17:16Z",
+          "author": null,
+          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2024/06/Charley-Hull3.jpg",
+          "is_local_nj": false,
+          "article_id": "674708fca290",
+          "summary": "Friday Screencaps covers a 16th wedding anniversary, Charley Hull's cigarette-free U.S. Women's Open round at Riviera, and a $700 Cabo golf review.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"I Built You A Tower\" von Death Cab For Cutie",
+          "description": "Death Cab For Cutie - \"I Built You A Tower\"",
+          "content": "laut.de-Kritik\r\nSpoiler: Der Turm st\u00fcrzt ein.\r\nReview von Ben Schiwek\r\nBen Gibbard hat eine Scheidung durchgemacht. Das ist das Wesentliche, was man f\u00fcr \"I Built You A Tower\" wissen sollte, und auch \u2026 [+4857 chars]",
+          "url": "https://laut.de/Death-Cab-For-Cutie/Alben/I-Built-You-A-Tower-127043",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T12:30:39Z",
+          "author": "Ben Schiwek",
+          "image_url": "https://laut.de/Death-Cab-For-Cutie/Alben/I-Built-You-A-Tower-127043/death-cab-for-cutie-i-built-you-a-tower-251003.jpg?18d29f",
+          "is_local_nj": false,
+          "article_id": "584b91af77a1",
+          "summary": "Death Cab For Cutie - \"I Built You A Tower\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Why Gehrig Frei's parents named Mississippi State leadoff batter after Lou Gehrig",
+          "description": "Mississippi State baseball second baseman Gehrig Frei is named after Lou Gehrig. Here's why his parents gave him that name.",
+          "content": "STARKVILLE Gehrig Frei's parents named him after Lou Gehrig, but they never envisioned it working out as well as it did.\r\nFrei bats leadoff for Mississippi State, and he's also got a similar personal\u2026 [+3191 chars]",
+          "url": "https://www.clarionledger.com/story/sports/college/mississippi-state/2026/06/05/gehrig-frei-mississippi-state-baseball-lou-gehrig-name/90377312007/",
+          "source_name": "Clarion Ledger",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T10:04:42Z",
+          "author": "Sam Sklar, Mississippi Clarion Ledger",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/rD4Pd6CYjdqq.xO8xl8J8Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/the-clarion-ledger/cb5b57b216756a1dce9572367bedea0e",
+          "is_local_nj": false,
+          "article_id": "cfeb73dda573",
+          "summary": "Mississippi State baseball second baseman Gehrig Frei is named after Lou Gehrig. Here's why his parents gave him that name.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Three More Collaborations Shaking Up Watchmaking",
+          "description": "In the span of a few days, watch fans were treated to three collaborative limited editions from Bell & Ross, Oris and Zenith.\nThe post Three More Collaborations Shaking Up Watchmaking appeared first on Haute Time.",
+          "content": "If history remembers May 2026 for anythingbeyond Arsenal Football Club finally winning the English Premier Leagueit will be the subversion of horological norms.\r\nThree weeks ago, an unlikely collabor\u2026 [+4918 chars]",
+          "url": "https://www.hautetime.com/three-more-collaborations-shaking-up-watchmaking/",
+          "source_name": "Hautetime.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T10:00:13Z",
+          "author": "Andre Frois",
+          "image_url": "https://hautetime.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/06/04054902/Untitled-design.jpg",
+          "is_local_nj": false,
+          "article_id": "c6790e6e03e5",
+          "summary": "In the span of a few days, watch fans were treated to three collaborative limited editions from Bell & Ross, Oris and Zenith.\nThe post Three More Collaborations Shaking Up Watchmaking appeared first o",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"For Love Of Grace & The Hereafter\" von Iceage",
+          "description": "Iceage - \"For Love Of Grace & The Hereafter\"",
+          "content": "laut.de-Kritik\r\nVerkrampfte Entkrampfung.\r\nReview von Franz Mauerer\r\nFr\u00fcher waren Iceage die Art Band, bei der man nie sicher war, ob gleich ein Song, eine Schl\u00e4gerei oder ein Kunsthochschulmanifest \u2026 [+6936 chars]",
+          "url": "https://laut.de/Iceage/Alben/For-Love-Of-Grace-The-Hereafter-127024",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T08:35:39Z",
+          "author": "Franz Mauerer",
+          "image_url": "https://laut.de/Iceage/Alben/For-Love-Of-Grace-The-Hereafter-127024/iceage-for-love-of-grace-the-hereafter-250979.jpg?4d81fc",
+          "is_local_nj": false,
+          "article_id": "e4ce6f27caae",
+          "summary": "Iceage - \"For Love Of Grace & The Hereafter\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Spielfilmtipps zum Wochenende: Machtspiele mit coolen Typen",
+          "description": "\u201eFlight\u201c, \u201eAmerican Gangster\u201c, \u201eGladiator II\u201c, \u201eCaptain Phillips\u201c: sehenswerte Filme im TV-Programm des Wochenendes.",
+          "content": "Psychodrama, SWR/SR, Sonntag, 22.45 Uhr\r\nWhip Whitaker wird als echter American hero\u00a0gefeiert in dem Film von Robert Zemeckis, 2012. Ein Flugkapit\u00e4n, der seine Maschine beim Start in Orlando durch de\u2026 [+3787 chars]",
+          "url": "https://www.sueddeutsche.de/medien/fernsehen-spielfilmtipps-wochenende-flight-american-gangster-li.3488027",
+          "source_name": "S\u00fcddeutsche Zeitung",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T07:30:09Z",
+          "author": "Von Fritz G\u00f6ttler",
+          "image_url": "https://www.sueddeutsche.de/2026/06/03/a5551ab4-6871-4e94-a72c-aaa3f6364586.jpg?q=60&fm=webp&width=1200&rect=0%2C160%2C3072%2C1728",
+          "is_local_nj": false,
+          "article_id": "cd0f5d8c74cc",
+          "summary": "\u201eFlight\u201c, \u201eAmerican Gangster\u201c, \u201eGladiator II\u201c, \u201eCaptain Phillips\u201c: sehenswerte Filme im TV-Programm des Wochenendes.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Blue Jays rookie Dallas says 'a little God wink' set stage for beating Braves in major league debut",
+          "description": "Chad Dallas was told on Tuesday he would be promoted for his major league debut with the Toronto Blue Jays. The call came on Lou Gehrig Day, and it happened to be about a year since Dallas's father, Tony, died from ALS, the neurodegenerative disease now commo\u2026",
+          "content": "ATLANTA (AP) Chad Dallas was told on Tuesday he would be promoted for his major league debut with the Toronto Blue Jays.\r\nThe call came on Lou Gehrig Day, and it happened to be about a year since Dal\u2026 [+2535 chars]",
+          "url": "https://sports.yahoo.com/articles/blue-jays-rookie-dallas-says-034105402.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T03:41:05Z",
+          "author": "CHARLES ODUM",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/Bb14s.K2TpCmiJxwzeo9uw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/346bac178f754d6c2531bae492593093",
+          "is_local_nj": false,
+          "article_id": "668db55a3e0b",
+          "summary": "Chad Dallas was told on Tuesday he would be promoted for his major league debut with the Toronto Blue Jays. The call came on Lou Gehrig Day, and it happened to be about a year since Dallas's father, T",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Multiplexed, precise genome engineering in monocots with twin prime editing systems",
+          "description": "Plant genome editing is multiplexed with twin prime editing.",
+          "content": "<li>Chen, R. Z. et al. Rice functional genomics: decades efforts and roads ahead. Sci. China Life Sci.65, 3392 (2022).\r\nArticle\u00a0\r\n PubMed\u00a0\r\nGoogle Scholar\u00a0\r\n</li><li>Li, B. S., Sun, C., Li, J. Y. &am\u2026 [+10336 chars]",
+          "url": "https://www.nature.com/articles/s41587-026-03174-5",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-05T00:00:00Z",
+          "author": "Hongchao Li, Zhuangzhuang Chai, Xiaoli Shi, Chao Sun, Rui Zhang, Qiao Zhang, Zhenyu Li, Kang Zhang, Yuan Lei, Caixia Gao",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41587-026-03174-5/MediaObjects/41587_2026_3174_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "3cfa8dae251f",
+          "summary": "Plant genome editing is multiplexed with twin prime editing.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The Curious Coloration of Eggplants",
+          "description": "I love eggplant. Although common supermarket varieties are dark purple, or a pricier stripy lavender, the fruits may also be white or\u2026\nThe post The Curious Coloration of Eggplants appeared first on DNA Science.",
+          "content": "I love eggplant. Although common supermarket varieties are dark purple, or a pricier stripy lavender, the fruits may also be white or green. Standard chlorophyll provides the green, and anthocyanin p\u2026 [+2578 chars]",
+          "url": "https://dnascience.plos.org/2026/06/04/the-curious-coloration-of-eggplants/",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-06-04T20:35:42Z",
+          "author": "Ricki Lewis, PhD",
+          "image_url": "https://dnascience.plos.org/wp-content/uploads/sites/12/2026/06/Aubergine-Varianten.jpg",
+          "is_local_nj": false,
+          "article_id": "f4b680d13628",
+          "summary": "I love eggplant. Although common supermarket varieties are dark purple, or a pricier stripy lavender, the fruits may also be white or\u2026\nThe post The Curious Coloration of Eggplants appeared first on DN",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eledon Announces Presentation of Updated Data from Investigator-Initiated Islet Transplant Trial of Tegoprubart in Patients with Type 1 Diabetes at American Diabetes Association (ADA) 2026 Scientific Sessions",
+          "description": "Eledon Announces Presentation of Updated Data from Investigator-Initiated Islet Transplant Trial of Tegoprubart in Patients with Type 1 Diabetes at ADA...",
+          "content": "IRVINE, Calif., June 04, 2026 (GLOBE NEWSWIRE) -- Eledon Pharmaceuticals, Inc. (Eledon) (Nasdaq: ELDN) today announced that updated results from an investigator-initiated trial being conducted at the\u2026 [+1873 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/06/04/3307113/0/en/Eledon-Announces-Presentation-of-Updated-Data-from-Investigator-Initiated-Islet-Transplant-Trial-of-Tegoprubart-in-Patients-with-Type-1-Diabetes-at-American-Diabetes-Association-AD.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-04T20:31:00Z",
+          "author": "Eledon Pharmaceuticals, Inc.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/5e2f90ec-c9a5-4fcd-99c8-2c8c838ac033",
+          "is_local_nj": false,
+          "article_id": "2327601dfd75",
+          "summary": "Eledon Announces Presentation of Updated Data from Investigator-Initiated Islet Transplant Trial of Tegoprubart in Patients with Type 1 Diabetes at ADA...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "AC Immune Presents New Phase 1 Data Indicating Higher Uptake of TDP-43 PET Tracer ACI-19626 in Patients with ALS",
+              "url": "https://www.globenewswire.com/news-release/2026/05/22/3300024/0/en/AC-Immune-Presents-New-Phase-1-Data-Indicating-Higher-Uptake-of-TDP-43-PET-Tracer-ACI-19626-in-Patients-with-ALS.html",
+              "digest_date": "2026-05-24"
+            },
+            {
+              "title": "Eledon Pharmaceuticals to Present New Long-Term Data from Phase 2 BESTOW Trial of Tegoprubart for the Prevention of Rejection in Kidney Transplantation at American Transplant Congress",
+              "url": "https://www.globenewswire.com/news-release/2026/05/20/3298862/0/en/Eledon-Pharmaceuticals-to-Present-New-Long-Term-Data-from-Phase-2-BESTOW-Trial-of-Tegoprubart-for-the-Prevention-of-Rejection-in-Kidney-Transplantation-at-American-Transplant-Congr.html",
+              "digest_date": "2026-05-24"
+            },
+            {
+              "title": "Invitation to presentation of BioArctic's first quarter report for January - March 2026 on May 20 at 9:30 a.m. CET",
+              "url": "https://www.prnewswire.com/news-releases/invitation-to-presentation-of-bioarctics-first-quarter-report-for-january--march-2026-on-may-20-at-930-am-cet-302770617.html",
+              "digest_date": "2026-05-17"
+            }
+          ]
+        },
+        {
+          "title": "Who is Chad Dallas? What to know about Blue Jays' pitcher making MLB debut",
+          "description": "Dallas has an inspiring story for Toronto.",
+          "content": "Who is Chad Dallas? What to know about Blue Jays' pitcher making MLB debut originally appeared on The Sporting News. Add The Sporting News as a Preferred Source by clicking here.\r\nThis moment has bee\u2026 [+1401 chars]",
+          "url": "https://www.sportingnews.com/us/mlb/toronto-blue-jays/news/who-chad-dallas-blue-jays-pitcher-mlb-debut/577eb537d38a9b85592700d0",
+          "source_name": "Sporting News",
+          "source_type": "newsapi",
+          "published_at": "2026-06-04T19:38:28Z",
+          "author": "Billy Heyen",
+          "image_url": "https://s.yimg.com/os/en/the_sporting_news_articles_584/82dcb4c0f03766081506bb5f793a7fb2",
+          "is_local_nj": false,
+          "article_id": "d6e008e7a692",
+          "summary": "Dallas has an inspiring story for Toronto.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Pierre Deny Health: What We Know About the \u2018Emily in Paris\u2019 Star\u2019s ALS",
+              "url": "https://hollywoodlife.com/feature/pierre-deny-emily-in-paris-health-als-5542079/",
+              "digest_date": "2026-05-31"
+            },
+            {
+              "title": "\u2018Emily in Paris\u2019 Star Dies: What We Know About Pierre Deny\u2019s Cause of Death",
+              "url": "https://hollywoodlife.com/feature/emily-in-paris-star-dies-pierre-deny-death-5542046/",
+              "digest_date": "2026-05-31"
+            },
+            {
+              "title": "What to Know About 'Game of Thrones' Star Michael Patrick's Death at 35",
+              "url": "https://www.usmagazine.com/celebrity-news/news/what-to-know-about-actor-michael-patricks-death-at-35/",
+              "digest_date": "2026-04-12"
+            }
+          ]
+        },
+        {
+          "title": "lightfall added to PyPI",
+          "description": "Lightfall - control system for the ALS facility",
+          "content": "A modern, unified control system for synchrotron lightsource facilities that provides facility-wide consistency with beamline-specific customization.\r\nOverview\r\nLightfall is designed for the Advanced\u2026 [+3726 chars]",
+          "url": "https://pypi.org/project/lightfall/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-06-04T17:24:25Z",
+          "author": null,
+          "image_url": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+          "is_local_nj": false,
+          "article_id": "3d6d62bb1224",
+          "summary": "Lightfall - control system for the ALS facility",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Greenland Mines Completes Site Visit to Sarfartoq Nd-Pr Rare Earth Magnet Project in Greenland; Prepares 2026 Field Program",
+          "description": "CHARLOTTE, N.C., June 4, 2026 /PRNewswire/ -- Greenland Mines Ltd (\"Greenland Mines\" or the \"Company\") (Nasdaq: GRML) today announced that its Greenland operations team has completed an inaugural site visit to the Sarfartoq neodymium\u2011praseodymium (\"Nd\u2011Pr\") ra\u2026",
+          "content": "Accessibility StatementSkip Navigation\r\nCHARLOTTE, N.C., June 4, 2026 /PRNewswire/ --\u00a0Greenland Mines Ltd (\"Greenland Mines\" or the \"Company\") (Nasdaq: GRML) today announced that its Greenland operat\u2026 [+12894 chars]",
+          "url": "https://www.prnewswire.com/news-releases/greenland-mines-completes-site-visit-to-sarfartoq-nd-pr-rare-earth-magnet-project-in-greenland-prepares-2026-field-program-302790745.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-04T12:30:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/2994602/Greenland_Mines_Ltd_Picture1.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "5dea9fa3b8fe",
+          "summary": "CHARLOTTE, N.C., June 4, 2026 /PRNewswire/ -- Greenland Mines Ltd (\"Greenland Mines\" or the \"Company\") (Nasdaq: GRML) today announced that its Greenland operations team has completed an inaugural site",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Why a $35 Million Greenland Rare Earth Deal Just Put One Small-Cap on Every Investor's Radar",
+              "url": "https://www.prnewswire.com/news-releases/why-a-35-million-greenland-rare-earth-deal-just-put-one-small-cap-on-every-investors-radar-302777575.html",
+              "digest_date": "2026-05-24"
+            },
+            {
+              "title": "Greenland Mines Signs Definitive Agreement to Acquire the Sarfartoq Neodymium-Praseodymium Rare Earths Project in Greenland",
+              "url": "https://www.prnewswire.com/news-releases/greenland-mines-signs-definitive-agreement-to-acquire-the-sarfartoq-neodymium-praseodymium-rare-earths-project-in-greenland-302778314.html",
+              "digest_date": "2026-05-24"
+            }
+          ]
+        },
+        {
+          "title": "ALS Northwest Continues Research Investment, Strengthening Momentum Through National Collaboration",
+          "description": "PORTLAND, Ore., June 4, 2026 /PRNewswire/ -- ALS Northwest is accelerating progress in ALS research through continued investment and deepened national collaboration, reinforcing a shared commitment to advancing treatment, prevention, and understanding of the \u2026",
+          "content": "PORTLAND, Ore., June 4, 2026 /PRNewswire/ --\u00a0ALS Northwest is accelerating progress in ALS research through continued investment and deepened national collaboration, reinforcing a shared commitment t\u2026 [+2338 chars]",
+          "url": "https://www.prnewswire.com/news-releases/als-northwest-continues-research-investment-strengthening-momentum-through-national-collaboration-302790999.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-04T11:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1645923/ALS-United-Logo-1-Logo_Logo.jpg?id=OA2659430&p=facebook",
+          "is_local_nj": false,
+          "article_id": "93120f67b706",
+          "summary": "PORTLAND, Ore., June 4, 2026 /PRNewswire/ -- ALS Northwest is accelerating progress in ALS research through continued investment and deepened national collaboration, reinforcing a shared commitment to",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "ALS United Connecticut Continues Research Investment, Strengthening Momentum Through National Collaboration",
+          "description": "STRATFORD, Conn., June 4, 2026 /PRNewswire/ -- ALS United Connecticut is accelerating progress in ALS research through continued investment and deepened national collaboration, reinforcing a shared commitment to advancing treatment, prevention, and understand\u2026",
+          "content": "STRATFORD, Conn., June 4, 2026 /PRNewswire/ -- ALS United Connecticut is accelerating progress in ALS research through continued investment and deepened national collaboration, reinforcing a shared c\u2026 [+2855 chars]",
+          "url": "https://www.prnewswire.com/news-releases/als-united-connecticut-continues-research-investment-strengthening-momentum-through-national-collaboration-302790992.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-04T11:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1645923/ALS-United-Logo-1-Logo_Logo.jpg?id=OA2659445&p=facebook",
+          "is_local_nj": false,
+          "article_id": "1dd298d73608",
+          "summary": "STRATFORD, Conn., June 4, 2026 /PRNewswire/ -- ALS United Connecticut is accelerating progress in ALS research through continued investment and deepened national collaboration, reinforcing a shared co",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "ALS United Greater New York Continues Research Investment, Strengthening Momentum Through National Collaboration",
+          "description": "NEW YORK, June 4, 2026 /PRNewswire/ -- ALS United Greater New York is accelerating progress in ALS research through continued investment and deepened national collaboration, reinforcing a shared commitment to advancing treatment, prevention, and understanding\u2026",
+          "content": "NEW YORK, June 4, 2026 /PRNewswire/ -- ALS United Greater New York is accelerating progress in ALS research through continued investment and deepened national collaboration, reinforcing a shared comm\u2026 [+2328 chars]",
+          "url": "https://www.prnewswire.com/news-releases/als-united-greater-new-york-continues-research-investment-strengthening-momentum-through-national-collaboration-302790995.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-04T11:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1645923/ALS-United-Logo-1-Logo_Logo.jpg?id=OA2659400&p=facebook",
+          "is_local_nj": false,
+          "article_id": "d985eeb7d453",
+          "summary": "NEW YORK, June 4, 2026 /PRNewswire/ -- ALS United Greater New York is accelerating progress in ALS research through continued investment and deepened national collaboration, reinforcing a shared commi",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "New Mexico United releases new jersey to raise money for ALS research - MSN",
+              "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPVGlEYTBFQ05HRlY5cmVaWDRkdWZ0eHlnNXRwVnNKUDFocjRGMi16VC1LQW12QXJsdUpQcTVkX2xwZWx4UVRwclB0Rm5xNVk0UC1XQUoxUHgzX0RyRTZxWnFjdnMxbDI1N09WRGxWR1QwbHNXZWFGVU9VVmFEUUtwdHktNnVfd1JqN1lxc3Q1bHNqZnlpS0UxSmttVnVweS0zczFJN0JuZThhVUVzU3VNcDJ5SGlzc3BhcUV6dkNYbVdEbjVxaF9aOXZaZERxT3hyUFNwVU5JZUt4MG1waVkzSWN5cXFsSFhIZWs4YXdsTG5qOFEwZmJ0SmhFMUZNNUZYRjROYzFhZXJjdUR1Y3JsMjF0MGVYbVhWa3hGZTFCWXZEZGIxT3E3MWI4UkdKLUE3cUxuaVNrWVk1MEh3UHVSVHpnSGRKdVRCT0U3MUtHclNsQ0FvUWE0Nkh2eDc1cXJHNGlndGdnSXBUMjUwd1VF?oc=5",
+              "digest_date": "2026-04-26"
+            },
+            {
+              "title": "New Mexico United releases new jersey to raise money for ALS research - MSN",
+              "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQRzRzTVFXQXNEdUduQzNBT09xSm5hbHBYUENxY2M2alh2QXZYc2FLQ3FiMHBZeF91UXI2ZDBoaTRVM2tjQVJZU09CRnROSWdXb3lsMjVwNlNVVk55RDR2dzRLY1VPd19xRHN5NnlGdUlhRVZXQWNscjZ5eVZkekY0SE04X1lxbW0zNWNET3VMTUVfYXpWSkVmaHVabjlaS0JrRlNLeEMxQUVoNEFsTENrQ3FXTWd5TUk4Y3E5Q1ZtdElRLURua2UzTkdzcURPdWN5SDdCWXJkMTExajNYWXNnOGY3V2NTYW41VlJTclJMZXFTenRtakxESFFDZWRlYWNtUzlvaGF4THlaOTV0Q0NYOG5wVXhiR0tPRWpTTTF6X2ZPZUpYSGlmNGlMVjFDTm9yVEdRLUtmRUFWZkpHMlRvSHhyNU9BOHJMZ0s3dUR6aDFYRVk?oc=5",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Alle reden \u00fcber diesen Kerl - Haben Sie diesen Gaga-Auftritt gesehen?",
+          "description": "US-Comedian Nathan Barnatt tritt als skurriler Boxer \u201eDad\u201c im Ring an.",
+          "content": "TTS-Player \u00fcberspringenArtikel weiterlesenLeverkusen (Nordrhein-Westfalen) Hat sich Stromberg hier in der T\u00fcr geirrt? Bei der Pressekonferenz zum BILD-Boxspektakel Fame Fighting International fiel ei\u2026 [+3363 chars]",
+          "url": "https://www.bild.de/unterhaltung/stars-und-leute/fame-fighting-international-haben-sie-diesen-schraegen-auftritt-gesehen-6a2069e9aa3fa782d1470ddd",
+          "source_name": "Bild",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T20:03:57Z",
+          "author": "Jasmin Kayser, Eileen Primus",
+          "image_url": "https://images.bild.de/6a2069e9aa3fa782d1470ddd/6ff286a67aa8e67c604e4aa903546019,f5ee9a81?w=1280",
+          "is_local_nj": false,
+          "article_id": "f7e15f5bf97f",
+          "summary": "US-Comedian Nathan Barnatt tritt als skurriler Boxer \u201eDad\u201c im Ring an.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Abetment FIR on wife over a mth after D\u2019vli cop\u2019s suicide",
+          "description": "Kalyan: More than a month after a constable of Vishnu Nagar police station in Dombivli died by suicide, an FIR was lodged against his wife, who is als.",
+          "content": "Follow Us On Social Media\r\nCopyright \u00a9 2026 Bennett, Coleman &amp; Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service",
+          "url": "https://timesofindia.indiatimes.com/city/mumbai/abetment-fir-on-wife-over-a-mth-after-dvli-cops-suicide/articleshow/131491292.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T18:53:00Z",
+          "author": "The Times Of India",
+          "image_url": "https://static.toiimg.com/thumb/msid-131491288,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "2485e171664a",
+          "summary": "Kalyan: More than a month after a constable of Vishnu Nagar police station in Dombivli died by suicide, an FIR was lodged against his wife, who is als.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Spekulationen um Gesundheitszustand - Keine Trump-Termine seit 7 Tagen",
+          "description": "Iraq oil exports face a major crisis as Hormuz remains blocked, leaving Baghdad dependent on limited Turkey pipeline routes.",
+          "content": "TTS-Player \u00fcberspringenArtikel weiterlesenWashington - Der sonst so allgegenw\u00e4rtige Donald Trump (79) wirkt pl\u00f6tzlich wie vom Erdboden verschluckt! Der US-Pr\u00e4sident postet zwar weiter flei\u00dfig auf Tru\u2026 [+2673 chars]",
+          "url": "https://www.bild.de/politik/ausland-und-internationales/spekulationen-um-gesundheitszustand-keine-trump-termine-seit-einer-woche-6a2045e81f46a650bff5e55e",
+          "source_name": "Bild",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T17:51:21Z",
+          "author": "Herbert Bauernebel",
+          "image_url": "https://images.bild.de/6a2045e81f46a650bff5e55e/50a996ee2091066ecdf169c98e2f3434,c3368201?w=1280",
+          "is_local_nj": false,
+          "article_id": "1a5368cc7f50",
+          "summary": "Iraq oil exports face a major crisis as Hormuz remains blocked, leaving Baghdad dependent on limited Turkey pipeline routes.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u2018Mystery at Blind Frog Ranch\u2019 star Duane Ollinger dead at 68",
+          "description": "The Texas oilman was a fan-favorite on the Discovery Channel series.",
+          "content": "Duane Ollinger, who starred on the Discovery Channel series \u201cMystery at Blind Frog Ranch,\u201d has died. He was 68.\r\nThe reality TV star died Tuesday at a Texas hospital following a battle with amyotroph\u2026 [+344 chars]",
+          "url": "https://pagesix.com/2026/06/03/celebrity-news/mystery-at-blind-frog-ranch-star-duane-ollinger-dead-at-68/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T16:02:45Z",
+          "author": "Jolie Zenna",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/06/ollinger-75.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "33dd71bd84a3",
+          "summary": "The Texas oilman was a fan-favorite on the Discovery Channel series.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Kentucky: Governor Issues Executive Order Expanding Medical Cannabis Access",
+          "description": "Democratic Gov. Andy Beshear took executive action yesterday significantly expanding medical cannabis access for eligible\u2026\nThe post Kentucky: Governor Issues Executive Order Expanding Medical Cannabis Access appeared first on NORML.",
+          "content": "Democratic Gov. Andy Beshear took executive action yesterday significantly expanding medical cannabis access for eligible patients.\r\nThe Governor\u2019s order expands the pool of patients eligible to rece\u2026 [+1866 chars]",
+          "url": "https://norml.org/blog/2026/06/03/kentucky-governor-issues-executive-order-expanding-medical-cannabis-access/",
+          "source_name": "Norml.org",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T15:23:36Z",
+          "author": "NORML",
+          "image_url": "https://norml.org/wp-content/uploads/2024/04/medical-cannabis-flower.png",
+          "is_local_nj": false,
+          "article_id": "c2166e2f3f6e",
+          "summary": "Democratic Gov. Andy Beshear took executive action yesterday significantly expanding medical cannabis access for eligible\u2026\nThe post Kentucky: Governor Issues Executive Order Expanding Medical Cannabis",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The year in review: Influential people who have died in 2026",
+          "description": "He was a brash and outspoken media mogul who gave the world the 24-hour news cycle when he launched CNN",
+          "content": "He was a brash and outspoken media mogul who gave the world the 24-hour news cycle when he launched CNN.\r\nTed Turner, who died in May, built a media empire that also included TNT, the Cartoon Network\u2026 [+16440 chars]",
+          "url": "https://abcnews.com/Entertainment/wireStory/year-review-influential-people-died-2026-133552818",
+          "source_name": "Abcnews.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T15:01:18Z",
+          "author": "BERNARD MCGHEE Associated Press",
+          "image_url": "https://i.abcnewsfe.com/a/af3a5ac1-1d5d-47b8-8229-809947516f48/wirestory_6be824dd4081ec0c35749a80ac1c6575_16x9.jpg?w=1600",
+          "is_local_nj": false,
+          "article_id": "d3157191f25e",
+          "summary": "He was a brash and outspoken media mogul who gave the world the 24-hour news cycle when he launched CNN",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Structural basis for conserved and distinct antigen recognition by a lineage of malaria-protective antibodies",
+          "description": "Author summary Malaria vaccines targeting the Plasmodium falciparum circumsporozoite protein (CSP) provide partial protection that wanes over time, underscoring the need to better understand antibody-mediated immunity. In this study, we reveal how closely rel\u2026",
+          "content": "Abstract\r\nMonoclonal antibodies (mAbs) targeting the Plasmodium falciparum circumsporozoite protein (PfCSP) have demonstrated substantial promise in preventing malaria infection and disease. PfCSP is\u2026 [+82099 chars]",
+          "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014243",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T14:00:00Z",
+          "author": "Monika Jain, Fabien Cannac, Sashank Agrawal, Wen-Hsin Lee, Johannes R. Loeffler, Monica L. Fern\u00e1ndez-Quintero, Gonzalo E. Gonz\u00e1lez-P\u00e1ez, Re\u2019em Moskovitz, Andrew B. Ward, Ian A. Wilson",
+          "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.1014243.g008&size=inline",
+          "is_local_nj": false,
+          "article_id": "33cf12399169",
+          "summary": "Author summary Malaria vaccines targeting the Plasmodium falciparum circumsporozoite protein (CSP) provide partial protection that wanes over time, underscoring the need to better understand antibody-",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Y! Sports AM: Vegas, baby. Vegas!",
+          "description": "The Golden Knights have stolen home-ice advantage in the Stanley Cup Final.",
+          "content": "Yahoo Sports AM is our daily newsletter that keeps you up to date on all things sports. Sign up here to get it every weekday morning.\r\n\u00a0French Open update: No. 2 Alexander Zverev (Germany) and No. 26\u2026 [+12305 chars]",
+          "url": "https://sports.yahoo.com/articles/y-sports-am-vegas-baby-115849855.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T11:58:49Z",
+          "author": "Kendall Baker",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/O6vswmaoHy7_RoHzOeGYSQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/yahoo_sports_am_newsletters_819/3a6e2dc5d316022e3cef472406747314",
+          "is_local_nj": false,
+          "article_id": "e6ed38adec2c",
+          "summary": "The Golden Knights have stolen home-ice advantage in the Stanley Cup Final.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "A science powerhouse bets on genetic therapy to beat brain disorders - NPR",
+          "description": "A science powerhouse bets on genetic therapy to beat brain disordersNPR This scientist learned he has a devastating brain disease. He set out to cure it.The Washington Post Allen Institute sets sights on treatments for five brain diseasesThe Transmitter Updat\u2026",
+          "content": "I THINK MAN INVENTED THE CAR by instinct.\r\n-- Jack Handley, The New Mexican, 1988.",
+          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183577240",
+          "source_name": "Slashdot.org",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T11:12:06Z",
+          "author": "feedfeeder",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "702e470a0d53",
+          "summary": "A science powerhouse bets on genetic therapy to beat brain disordersNPR This scientist learned he has a devastating brain disease. He set out to cure it.The Washington Post Allen Institute sets sights",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Science Corp is preparing to place its first brain sensor in a human, betting biology will beat electrodes",
+              "url": "https://thenextweb.com/news/science-corp-biohybrid-brain-sensor-first-human-hodak-yale/",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "A meta-analysis of single-nucleus expression quantitative trait loci linking genetic risk to brain disorders",
+              "url": "https://www.nature.com/articles/s41588-026-02541-x",
+              "digest_date": "2026-03-22"
+            }
+          ]
+        },
+        {
+          "title": "Canterra Minerals Expands Lundberg Footprint with 57.15m of 0.57% CuEq and Confirms High Grade lens at Two Level target with 4.34% CuEq over 1.65m at Buchans Project, Newfoundland",
+          "description": "VANCOUVER, British Columbia, June 03, 2026 (GLOBE NEWSWIRE) -- Canterra Minerals Corporation (TSXV:CTM) (OTCQB: CTMCF) (FSE:DXZB) (\u201cCanterra\u201d or the \u201cCompany\u201d) is pleased to report assay results from its winter drill program at the Buchans Project in the Cent\u2026",
+          "content": "VANCOUVER, British Columbia, June 03, 2026 (GLOBE NEWSWIRE) -- Canterra Minerals Corporation (TSXV:CTM) (OTCQB: CTMCF) (FSE:DXZB) (Canterra or the Company) is pleased to report assay results from its\u2026 [+21201 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/06/03/3305853/0/en/Canterra-Minerals-Expands-Lundberg-Footprint-with-57-15m-of-0-57-CuEq-and-Confirms-High-Grade-lens-at-Two-Level-target-with-4-34-CuEq-over-1-65m-at-Buchans-Project-Newfoundland.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T10:00:00Z",
+          "author": "Canterra Minerals Corporation",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/a49e3911-50fd-4d3c-ac48-c4d571489e56",
+          "is_local_nj": false,
+          "article_id": "188a17497158",
+          "summary": "VANCOUVER, British Columbia, June 03, 2026 (GLOBE NEWSWIRE) -- Canterra Minerals Corporation (TSXV:CTM) (OTCQB: CTMCF) (FSE:DXZB) (\u201cCanterra\u201d or the \u201cCompany\u201d) is pleased to report assay results from ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "PAN GLOBAL REPORTS SURFACE HIGH-GRADE GOLD WITH 20.2 g/t OVER 5.0 METERS AT C\u00c1RMENES PROJECT, SPAIN",
+              "url": "https://www.prnewswire.com/news-releases/pan-global-reports-surface-high-grade-gold-with-20-2-gt-over-5-0-meters-at-carmenes-project-spain-302764693.html",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "PAN GLOBAL REPORTS SURFACE HIGH-GRADE GOLD WITH 20.2 g/t OVER 5.0 METERS AT C\u00c1RMENES PROJECT, SPAIN",
+              "url": "https://www.prnewswire.com/news-releases/pan-global-reports-surface-high-grade-gold-with-20-2-gt-over-5-0-meters-at-carmenes-project-spain-302764728.html",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "Trident Intersects 15.11 g/t Au over 51.83m from 256.0m in the BK3 Zone at the Contact Lake Gold Project, Saskatchewan",
+              "url": "https://www.globenewswire.com/news-release/2026/04/29/3283471/0/en/Trident-Intersects-15-11-g-t-Au-over-51-83m-from-256-0m-in-the-BK3-Zone-at-the-Contact-Lake-Gold-Project-Saskatchewan.html",
+              "digest_date": "2026-05-03"
+            }
+          ]
+        },
+        {
+          "title": "A science powerhouse bets on genetic therapy to beat brain disorders",
+          "description": "The Allen Institute in Seattle says scientists have now learned enough about how the brain works to start fixing it when it breaks.",
+          "content": "Scientists who've spent decades learning how the brain works say they're now ready to start fixing it when it breaks.\r\nThat's the premise of the Brain Health accelerator, a collaborative effort launc\u2026 [+4161 chars]",
+          "url": "https://www.npr.org/2026/06/03/nx-s1-5837620/brain-health-accelerator-gene-therapy-alzheimer",
+          "source_name": "NPR",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T09:00:00Z",
+          "author": "Jon Hamilton",
+          "image_url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6240x3510+0+325/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F59%2F68%2F306520534d088bf003d5abf8e25b%2F7rv04351.JPG",
+          "is_local_nj": false,
+          "article_id": "6626b18fa762",
+          "summary": "The Allen Institute in Seattle says scientists have now learned enough about how the brain works to start fixing it when it breaks.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Science Corp is preparing to place its first brain sensor in a human, betting biology will beat electrodes",
+              "url": "https://thenextweb.com/news/science-corp-biohybrid-brain-sensor-first-human-hodak-yale/",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "A meta-analysis of single-nucleus expression quantitative trait loci linking genetic risk to brain disorders",
+              "url": "https://www.nature.com/articles/s41588-026-02541-x",
+              "digest_date": "2026-03-22"
+            }
+          ]
+        },
+        {
+          "title": "Matt Olson, baseball\u2019s iron man, stars for the Braves on Lou Gehrig Day",
+          "description": "Matt Olson marked his 844th consecutive game with a tiebreaking homer in the sixth inning, giving the Braves a 4-3 victory over the Toronto Blue Jays.",
+          "content": "ATLANTA (AP) On Lou Gehrig Day, baseballs reigning iron man came through with the biggest blow for the Atlanta Braves.\r\nMatt Olson marked his 844th consecutive game with a tiebreaking homer in the si\u2026 [+3046 chars]",
+          "url": "https://www.nbcsports.com/mlb/news/matt-olson-baseballs-iron-man-stars-for-the-braves-on-lou-gehrig-day",
+          "source_name": "NBCSports.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T04:30:55Z",
+          "author": "Associated Press",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/Tv0useMypoq8G9xuFTDEOQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/nbcsports.com/bd9a72cee7e4a8960bf00b6a929e1936",
+          "is_local_nj": false,
+          "article_id": "4e090cfc6e6e",
+          "summary": "Matt Olson marked his 844th consecutive game with a tiebreaking homer in the sixth inning, giving the Braves a 4-3 victory over the Toronto Blue Jays.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Matt Olson, baseball's iron man, stars for the Braves on Lou Gehrig Day",
+          "description": "On Lou Gehrig Day, baseball's reigning iron man came through with the biggest blow for the Atlanta Braves. Matt Olson marked his 844th consecutive game with a tiebreaking homer in the sixth inning, giving the Braves a 4-3 victory over the Toronto Blue Jays. O\u2026",
+          "content": "ATLANTA (AP) On Lou Gehrig Day, baseball's reigning iron man came through with the biggest blow for the Atlanta Braves.\r\nMatt Olson marked his 844th consecutive game with a tiebreaking homer in the s\u2026 [+3112 chars]",
+          "url": "https://sports.yahoo.com/articles/matt-olson-baseballs-iron-man-041029501.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T04:10:29Z",
+          "author": "PAUL NEWBERRY",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/IvCvI5IQgbWfYJGoJUKcHw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/d26c062706f478b935436c88aad6ee61",
+          "is_local_nj": false,
+          "article_id": "2c79e3902564",
+          "summary": "On Lou Gehrig Day, baseball's reigning iron man came through with the biggest blow for the Atlanta Braves. Matt Olson marked his 844th consecutive game with a tiebreaking homer in the sixth inning, gi",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Dodgers vs. Rays Series is \u2018Must-Watch,\u2019 Says MLB Insider",
+          "description": "ESPN MLB insider Jeff Passan named the Los Angeles Dodgers' series against the Tampa Bay Rays as the most interesting series of June.",
+          "content": "ESPN MLB insider Jeff Passan named the Los Angeles Dodgers series against the Tampa Bay Rays as the most interesting series of June.\r\nThe Rays are one of the most exciting stories in the league at th\u2026 [+2386 chars]",
+          "url": "https://dodgersnation.com/dodgers-vs-rays-series-is-must-watch-says-mlb-insider/2026/06/02/",
+          "source_name": "Dodgers Nation",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T00:00:00Z",
+          "author": "Aaron Coloma",
+          "image_url": "https://s.yimg.com/os/en/dodgers_nation_articles_337/cf283a00fba08da87dbbfc02170bb333",
+          "is_local_nj": false,
+          "article_id": "5e2b5b594aed",
+          "summary": "ESPN MLB insider Jeff Passan named the Los Angeles Dodgers' series against the Tampa Bay Rays as the most interesting series of June.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Enamel nanocrystal misorientation increased with meat-eating and agriculture",
+          "description": "An analysis of enamel nanocrystal misorientation in primate and human teeth across three major dietary shifts in human evolution shows that misorientation increased with harder diets, suggesting that misorientation contributes to enamel\u2019s resilience.",
+          "content": "Sample\r\nThe nine species analysed in this study are listed in Supplementary Table 1. The 12 tooth samples, locations of origin, date, collection ID and precise tooth analysed are listed in Supplement\u2026 [+19104 chars]",
+          "url": "https://www.nature.com/articles/s41586-026-10583-8",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-03T00:00:00Z",
+          "author": "Pupa U. P. A. Gilbert, Daniel R. Green, Patrick Mahoney, Debbie Guatelli-Steinberg, W. Scott McGraw, Emma Lagan, Fredrick Kyalo Manthi, Samuel Muteti, Emmanuel Ndiema, Fernando Ramirez Rozzi, Cayla A. Stifler, Connor A. Schmidt, Barat Q. Achinuq, Andreas Scholl, Benjamin Gilbert, Mackie C. O\u2019Hara",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-10583-8/MediaObjects/41586_2026_10583_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "bb476b5ce33a",
+          "summary": "An analysis of enamel nanocrystal misorientation in primate and human teeth across three major dietary shifts in human evolution shows that misorientation increased with harder diets, suggesting that ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Oris Salutes Baseball\u2019s Iron Horse With a Limited Big Crown",
+          "description": "Each of the 2,130 pieces marks one game in Gehrig's untouchable streak.",
+          "content": "Lou Gehrig\u2019s number 4 was the first jersey ever retired in Major League Baseball. So it only seems fitting that it would one day land on a watch dial, picked out in Yankees blue on the date track of \u2026 [+2994 chars]",
+          "url": "https://hiconsumption.com/watches/oris-big-crown-pointer-date-lou-gehrig-limited-edition/",
+          "source_name": "Hiconsumption.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-02T23:55:40Z",
+          "author": "Ryan Calder",
+          "image_url": "https://cdn.hiconsumption.com/wp-content/uploads/2026/06/Oris-Big-Crown-Pointer-Date-Lou-Gehrig-Limited-Edition-0-Hero.jpg",
+          "is_local_nj": false,
+          "article_id": "51120d490b1b",
+          "summary": "Each of the 2,130 pieces marks one game in Gehrig's untouchable streak.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Astros vs. Pirates Game Thread: Game 62, 6/2/2026",
+          "description": "TONIGHT\u2019S GAME: The Houston Astros (27-34), who are 7-3 in their last 10 games, will continue their nine-game homestand tonight as they open a three-game series against their former divisional opponent, the Pittsburgh Pirates (32-28). RHP Mike Burrows (3-6, 5\u2026",
+          "content": "TONIGHTS GAME: The Houston Astros (27-34), who are 7-3 in their last 10 games, will continue their nine-game homestand tonight as they open a three-game series against their former divisional opponen\u2026 [+5344 chars]",
+          "url": "https://www.crawfishboxes.com/houston-astros-game-information/75345/astros-vs-pirates-game-thread-game-62-6-2-2026",
+          "source_name": "The Crawfish Boxes",
+          "source_type": "newsapi",
+          "published_at": "2026-06-02T23:30:00Z",
+          "author": "Patrick Creighton",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/k06cptk6tBnuRuMJw5540w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NTA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/b93938c03ab64202cb9849b7a3eba6e7",
+          "is_local_nj": false,
+          "article_id": "ae1b37545d15",
+          "summary": "TONIGHT\u2019S GAME: The Houston Astros (27-34), who are 7-3 in their last 10 games, will continue their nine-game homestand tonight as they open a three-game series against their former divisional opponen",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Astros vs. Rangers Game Thread: Game 57, 5/27/2026",
+              "url": "https://www.crawfishboxes.com/houston-astros-game-information/75152/astros-vs-rangers-game-thread-game-57-5-27-2026",
+              "digest_date": "2026-05-31"
+            },
+            {
+              "title": "Astros vs. Cubs Game Thread: Game 52, 5/22/2026",
+              "url": "https://www.crawfishboxes.com/houston-astros-game-information/75014/astros-vs-cubs-game-thread-game-52-5-22-2026",
+              "digest_date": "2026-05-24"
+            },
+            {
+              "title": "Astros vs. Twins Game Thread: Game 51, 5/20/2026",
+              "url": "https://www.crawfishboxes.com/houston-astros-game-information/74996/astros-vs-twins-game-thread-game-51-5-20-2026",
+              "digest_date": "2026-05-24"
+            }
+          ]
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Scientist with Huntington's gene dedicates life to curing fatal disease he'll one day develop",
+        "url": "https://www.cbc.ca/radio/asithappens/scientist-with-huntington-s-gene-dedicates-life-to-curing-fatal-disease-he-ll-one-day-develop-9.7225211",
+        "source": "CBC News",
+        "date": "2026-06-05T21:02:36Z"
+      },
+      {
+        "title": "Food Safety Testing Market Expected to Reach $44.1 Billion by 2033, at a CAGR of 7% : Allied Market Research",
+        "url": "https://www.prnewswire.com/news-releases/food-safety-testing-market-expected-to-reach-44-1-billion-by-2033--at-a-cagr-of-7--allied-market-research-302792722.html",
+        "source": "PRNewswire",
+        "date": "2026-06-05T21:01:00Z"
+      },
+      {
+        "title": "Food Safety Testing Market Expected to Reach $44.1 Billion by 2033, at a CAGR of 7% : Allied Market Research",
+        "url": "https://www.prnewswire.co.uk/news-releases/food-safety-testing-market-expected-to-reach-44-1-billion-by-2033--at-a-cagr-of-7--allied-market-research-302792727.html",
+        "source": "PR Newswire UK",
+        "date": "2026-06-05T21:01:00Z"
+      },
+      {
+        "title": "China approved the world\u2019s first commercial brain implant before Neuralink \u2014 and the key difference is that NEO\u2019s sensors rest on top of the brain\u2019s protective membrane rather than piercing the cortex itself",
+        "url": "https://spacedaily.com/n-china-approved-the-worlds-first-commercial-brain-implant-before-neuralink-and-the-key-difference-is-that-neos-sensors-rest-on-top-of-the-brains-protective-membrane-rather-than-piercing-th/",
+        "source": "Space Daily",
+        "date": "2026-06-05T19:00:17Z"
+      },
+      {
+        "title": "Kabel, Walther: Harald Harst (321) - Dr Fausts Zauberspruch. V1.0 [German] 05.06.2026 (Mystery and Crime, ePub)",
+        "url": "https://www.mobileread.com/forums/showthread.php?t=373848",
+        "source": "Mobileread.com",
+        "date": "2026-06-05T17:03:10Z"
+      },
+      {
+        "title": "Toxic Clumps in Huntington\u2019s Disease May Protect the Brain Too",
+        "url": "https://singularityhub.com/2026/06/05/toxic-clumps-in-huntingtons-disease-may-protect-the-brain-too/#article",
+        "source": "Singularity Hub",
+        "date": "2026-06-05T14:00:00Z"
+      },
+      {
+        "title": "Inside the family tragedy that triggered a shocking midnight home invasion - where a terrified elderly couple were allegedly stabbed before they gunned down accused attacker",
+        "url": "https://www.dailymail.com/news/article-15875787/torrington-home-invasion-elderly-couple-stabbed.html",
+        "source": "Dailymail.com",
+        "date": "2026-06-05T13:24:07Z"
+      },
+      {
+        "title": "Smokin' Charley Hull gets off to a fast start at U.S. Women's Open before fading, Stephen A weight loss & MEAT",
+        "url": "https://www.foxnews.com/outkick-culture/smokin-charley-hull-gets-fast-start-us-womens-open-fading-stephen-weight-loss-meat",
+        "source": "Fox News",
+        "date": "2026-06-05T13:17:16Z"
+      },
+      {
+        "title": "\"I Built You A Tower\" von Death Cab For Cutie",
+        "url": "https://laut.de/Death-Cab-For-Cutie/Alben/I-Built-You-A-Tower-127043",
+        "source": "Laut.de",
+        "date": "2026-06-05T12:30:39Z"
+      },
+      {
+        "title": "Why Gehrig Frei's parents named Mississippi State leadoff batter after Lou Gehrig",
+        "url": "https://www.clarionledger.com/story/sports/college/mississippi-state/2026/06/05/gehrig-frei-mississippi-state-baseball-lou-gehrig-name/90377312007/",
+        "source": "Clarion Ledger",
+        "date": "2026-06-05T10:04:42Z"
+      },
+      {
+        "title": "Three More Collaborations Shaking Up Watchmaking",
+        "url": "https://www.hautetime.com/three-more-collaborations-shaking-up-watchmaking/",
+        "source": "Hautetime.com",
+        "date": "2026-06-05T10:00:13Z"
+      },
+      {
+        "title": "\"For Love Of Grace & The Hereafter\" von Iceage",
+        "url": "https://laut.de/Iceage/Alben/For-Love-Of-Grace-The-Hereafter-127024",
+        "source": "Laut.de",
+        "date": "2026-06-05T08:35:39Z"
+      },
+      {
+        "title": "Spielfilmtipps zum Wochenende: Machtspiele mit coolen Typen",
+        "url": "https://www.sueddeutsche.de/medien/fernsehen-spielfilmtipps-wochenende-flight-american-gangster-li.3488027",
+        "source": "S\u00fcddeutsche Zeitung",
+        "date": "2026-06-05T07:30:09Z"
+      },
+      {
+        "title": "Blue Jays rookie Dallas says 'a little God wink' set stage for beating Braves in major league debut",
+        "url": "https://sports.yahoo.com/articles/blue-jays-rookie-dallas-says-034105402.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-06-05T03:41:05Z"
+      },
+      {
+        "title": "Multiplexed, precise genome engineering in monocots with twin prime editing systems",
+        "url": "https://www.nature.com/articles/s41587-026-03174-5",
+        "source": "Nature.com",
+        "date": "2026-06-05T00:00:00Z"
+      },
+      {
+        "title": "The Curious Coloration of Eggplants",
+        "url": "https://dnascience.plos.org/2026/06/04/the-curious-coloration-of-eggplants/",
+        "source": "Plos.org",
+        "date": "2026-06-04T20:35:42Z"
+      },
+      {
+        "title": "Eledon Announces Presentation of Updated Data from Investigator-Initiated Islet Transplant Trial of Tegoprubart in Patients with Type 1 Diabetes at American Diabetes Association (ADA) 2026 Scientific Sessions",
+        "url": "https://www.globenewswire.com/news-release/2026/06/04/3307113/0/en/Eledon-Announces-Presentation-of-Updated-Data-from-Investigator-Initiated-Islet-Transplant-Trial-of-Tegoprubart-in-Patients-with-Type-1-Diabetes-at-American-Diabetes-Association-AD.html",
+        "source": "GlobeNewswire",
+        "date": "2026-06-04T20:31:00Z"
+      },
+      {
+        "title": "Who is Chad Dallas? What to know about Blue Jays' pitcher making MLB debut",
+        "url": "https://www.sportingnews.com/us/mlb/toronto-blue-jays/news/who-chad-dallas-blue-jays-pitcher-mlb-debut/577eb537d38a9b85592700d0",
+        "source": "Sporting News",
+        "date": "2026-06-04T19:38:28Z"
+      },
+      {
+        "title": "lightfall added to PyPI",
+        "url": "https://pypi.org/project/lightfall/",
+        "source": "Pypi.org",
+        "date": "2026-06-04T17:24:25Z"
+      },
+      {
+        "title": "Greenland Mines Completes Site Visit to Sarfartoq Nd-Pr Rare Earth Magnet Project in Greenland; Prepares 2026 Field Program",
+        "url": "https://www.prnewswire.com/news-releases/greenland-mines-completes-site-visit-to-sarfartoq-nd-pr-rare-earth-magnet-project-in-greenland-prepares-2026-field-program-302790745.html",
+        "source": "PRNewswire",
+        "date": "2026-06-04T12:30:00Z"
+      },
+      {
+        "title": "ALS Northwest Continues Research Investment, Strengthening Momentum Through National Collaboration",
+        "url": "https://www.prnewswire.com/news-releases/als-northwest-continues-research-investment-strengthening-momentum-through-national-collaboration-302790999.html",
+        "source": "PRNewswire",
+        "date": "2026-06-04T11:00:00Z"
+      },
+      {
+        "title": "ALS United Connecticut Continues Research Investment, Strengthening Momentum Through National Collaboration",
+        "url": "https://www.prnewswire.com/news-releases/als-united-connecticut-continues-research-investment-strengthening-momentum-through-national-collaboration-302790992.html",
+        "source": "PRNewswire",
+        "date": "2026-06-04T11:00:00Z"
+      },
+      {
+        "title": "ALS United Greater New York Continues Research Investment, Strengthening Momentum Through National Collaboration",
+        "url": "https://www.prnewswire.com/news-releases/als-united-greater-new-york-continues-research-investment-strengthening-momentum-through-national-collaboration-302790995.html",
+        "source": "PRNewswire",
+        "date": "2026-06-04T11:00:00Z"
+      },
+      {
+        "title": "Alle reden \u00fcber diesen Kerl - Haben Sie diesen Gaga-Auftritt gesehen?",
+        "url": "https://www.bild.de/unterhaltung/stars-und-leute/fame-fighting-international-haben-sie-diesen-schraegen-auftritt-gesehen-6a2069e9aa3fa782d1470ddd",
+        "source": "Bild",
+        "date": "2026-06-03T20:03:57Z"
+      },
+      {
+        "title": "Abetment FIR on wife over a mth after D\u2019vli cop\u2019s suicide",
+        "url": "https://timesofindia.indiatimes.com/city/mumbai/abetment-fir-on-wife-over-a-mth-after-dvli-cops-suicide/articleshow/131491292.cms",
+        "source": "The Times of India",
+        "date": "2026-06-03T18:53:00Z"
+      },
+      {
+        "title": "Spekulationen um Gesundheitszustand - Keine Trump-Termine seit 7 Tagen",
+        "url": "https://www.bild.de/politik/ausland-und-internationales/spekulationen-um-gesundheitszustand-keine-trump-termine-seit-einer-woche-6a2045e81f46a650bff5e55e",
+        "source": "Bild",
+        "date": "2026-06-03T17:51:21Z"
+      },
+      {
+        "title": "\u2018Mystery at Blind Frog Ranch\u2019 star Duane Ollinger dead at 68",
+        "url": "https://pagesix.com/2026/06/03/celebrity-news/mystery-at-blind-frog-ranch-star-duane-ollinger-dead-at-68/",
+        "source": "Page Six",
+        "date": "2026-06-03T16:02:45Z"
+      },
+      {
+        "title": "Kentucky: Governor Issues Executive Order Expanding Medical Cannabis Access",
+        "url": "https://norml.org/blog/2026/06/03/kentucky-governor-issues-executive-order-expanding-medical-cannabis-access/",
+        "source": "Norml.org",
+        "date": "2026-06-03T15:23:36Z"
+      },
+      {
+        "title": "The year in review: Influential people who have died in 2026",
+        "url": "https://abcnews.com/Entertainment/wireStory/year-review-influential-people-died-2026-133552818",
+        "source": "Abcnews.com",
+        "date": "2026-06-03T15:01:18Z"
+      },
+      {
+        "title": "Structural basis for conserved and distinct antigen recognition by a lineage of malaria-protective antibodies",
+        "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014243",
+        "source": "Plos.org",
+        "date": "2026-06-03T14:00:00Z"
+      },
+      {
+        "title": "Y! Sports AM: Vegas, baby. Vegas!",
+        "url": "https://sports.yahoo.com/articles/y-sports-am-vegas-baby-115849855.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-06-03T11:58:49Z"
+      },
+      {
+        "title": "A science powerhouse bets on genetic therapy to beat brain disorders - NPR",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183577240",
+        "source": "Slashdot.org",
+        "date": "2026-06-03T11:12:06Z"
+      },
+      {
+        "title": "Canterra Minerals Expands Lundberg Footprint with 57.15m of 0.57% CuEq and Confirms High Grade lens at Two Level target with 4.34% CuEq over 1.65m at Buchans Project, Newfoundland",
+        "url": "https://www.globenewswire.com/news-release/2026/06/03/3305853/0/en/Canterra-Minerals-Expands-Lundberg-Footprint-with-57-15m-of-0-57-CuEq-and-Confirms-High-Grade-lens-at-Two-Level-target-with-4-34-CuEq-over-1-65m-at-Buchans-Project-Newfoundland.html",
+        "source": "GlobeNewswire",
+        "date": "2026-06-03T10:00:00Z"
+      },
+      {
+        "title": "A science powerhouse bets on genetic therapy to beat brain disorders",
+        "url": "https://www.npr.org/2026/06/03/nx-s1-5837620/brain-health-accelerator-gene-therapy-alzheimer",
+        "source": "NPR",
+        "date": "2026-06-03T09:00:00Z"
+      },
+      {
+        "title": "Matt Olson, baseball\u2019s iron man, stars for the Braves on Lou Gehrig Day",
+        "url": "https://www.nbcsports.com/mlb/news/matt-olson-baseballs-iron-man-stars-for-the-braves-on-lou-gehrig-day",
+        "source": "NBCSports.com",
+        "date": "2026-06-03T04:30:55Z"
+      },
+      {
+        "title": "Matt Olson, baseball's iron man, stars for the Braves on Lou Gehrig Day",
+        "url": "https://sports.yahoo.com/articles/matt-olson-baseballs-iron-man-041029501.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-06-03T04:10:29Z"
+      },
+      {
+        "title": "Dodgers vs. Rays Series is \u2018Must-Watch,\u2019 Says MLB Insider",
+        "url": "https://dodgersnation.com/dodgers-vs-rays-series-is-must-watch-says-mlb-insider/2026/06/02/",
+        "source": "Dodgers Nation",
+        "date": "2026-06-03T00:00:00Z"
+      },
+      {
+        "title": "Enamel nanocrystal misorientation increased with meat-eating and agriculture",
+        "url": "https://www.nature.com/articles/s41586-026-10583-8",
+        "source": "Nature.com",
+        "date": "2026-06-03T00:00:00Z"
+      },
+      {
+        "title": "Oris Salutes Baseball\u2019s Iron Horse With a Limited Big Crown",
+        "url": "https://hiconsumption.com/watches/oris-big-crown-pointer-date-lou-gehrig-limited-edition/",
+        "source": "Hiconsumption.com",
+        "date": "2026-06-02T23:55:40Z"
+      },
+      {
+        "title": "Astros vs. Pirates Game Thread: Game 62, 6/2/2026",
+        "url": "https://www.crawfishboxes.com/houston-astros-game-information/75345/astros-vs-pirates-game-thread-game-62-6-2-2026",
+        "source": "The Crawfish Boxes",
+        "date": "2026-06-02T23:30:00Z"
+      }
+    ],
+    "generated_at": "2026-06-07T10:30:50.293071"
+  },
+  {
     "date": "2026-05-31",
     "week_of": "May 31, 2026",
     "digest_number": 23,
