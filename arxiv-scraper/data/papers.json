@@ -1,5 +1,24 @@
 [
   {
+    "id": "2606.10749v1",
+    "title": "Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation",
+    "summary": "Large language model (LLM) agents are rapidly moving from conversational interfaces to software components that plan, invoke tools, maintain memory, and act on external environments. This transition changes the nature of security risk. In agentic settings, failures are no longer limited to unsafe text generation. Untrusted content may redirect control flow, misuse tool privileges, corrupt persistent state, leak sensitive information, or trigger harmful external actions. At the same time, research on LLM agent security is expanding quickly but remains fragmented across attack families, defense layers, application domains, and evaluation settings. This paper synthesizes 247 papers through a lifecycle-based, systems-oriented framework that models agent security around the interaction of information flow, delegated authority, and persistent state. We organize the literature around four questions: how LLM agent security should be modeled, which threat surfaces and attack families dominate, what defenses have been proposed and with what tradeoffs, and how security claims are evaluated. We find that prompt injection and tool-mediated control-flow hijacking still dominate the field, while persistent state corruption and multi-agent propagation are becoming central emerging concerns. We further find that current defenses provide useful building blocks but remain weakly compositional, and that existing benchmarks still underrepresent long-horizon, stateful, and deployment-sensitive risks. We argue that secure LLM agents require explicit trust boundaries, principled privilege control, provenance-aware state management, and evaluation practices aligned with realistic operational settings.",
+    "published": "2026-06-09T12:01:07Z",
+    "link": "http://arxiv.org/abs/2606.10749v1",
+    "authors": [
+      "Yuchen Ling",
+      "Shengcheng Yu",
+      "Zhenyu Chen",
+      "Chunrong Fang"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Large language model (LLM) agents are rapidly moving from conversational interfaces to software components that plan, invoke tools, maintain memory, and act on external environments. This transition changes the nature of security risk.",
+    "selected_date": "2026-06-10"
+  },
+  {
     "id": "2606.09536v1",
     "title": "Adversarial Attack and Disturbance Detection by Hadamard-Coded Output Representations for Object Detection and Semantic Segmentation",
     "summary": "Conventional one-hot encodings often yield poorly calibrated models, being overconfident under attack, and letting entropy-based detection algorithms fail. Previous image classification works have demonstrated that Hadamard-coded output representations can improve adversarial robustness. However, attempts to integrate Hadamard codes into semantic segmentation fall far behind state-of-the-art models in mean intersection-over-union performance. Regarding object detection, such output encodings have not yet been investigated at all. Further, no prior art addressed intrinsic codeword inconsistencies or actually exploited intrinsic codeword redundancy. Accordingly, we first derive a novel decoding procedure for Hadamard codewords towards optimal class-wise probabilities, solving the underlying optimization problem by using the projection onto the probability simplex. Second, our optimization delivers a measure of prediction inconsistency. Third, we are the first to show how to exploit these inconsistencies for adversarial attack and disturbance detection. Fourth, we introduce HadamardNet, a framework employing Hadamard codes as output representations for semantic segmentation and object detection models and tasks. We conduct a comprehensive evaluation both on disturbances and adversarial attacks, achieving state-of-the-art perturbation detection performance for both tasks in only a single detection pass, while delivering equivalent or close-by reference performance on clean data.",
@@ -646,25 +665,5 @@
     ],
     "ai_summary": "The pervasive integration of AI has enabled Offensive AI: the exploitation of AI for malicious ends across the cyber-kill chain. A critical manifestation is the user attribute inference attack, where AI infers sensitive Personally Identifiable Information (PII) from innocuous public data.",
     "selected_date": "2026-05-07"
-  },
-  {
-    "id": "2605.03948v1",
-    "title": "HELO Cryptography: A Lightweight Cryptographic System for Enhancing IoT Security in P2P Data Transmission",
-    "summary": "The recent surge in security concerns for IoT devices highlights the increasing threat of cryptographic vulnerabilities. These weaknesses can lead to unauthorized access, data breaches, and manipulation of device functions, compromising the privacy and security of both the devices and their users. Given the limited computational power of IoT devices, especially when handling large amounts of data, encrypting and transmitting data over insecure networks poses significant challenges. This situation not only heightens security risks and prolongs runtime, but also degrades performance and consumes more resources. To address these issues, a novel cryptographic system named HELO (Hybrid Encryption Lightweight Optimization) is proposed. It is hybridized and gives solid security against cryptographic cyberattacks. However, the research objective is to enhance the security level of IoT devices without decreasing their performance. This system is ideal for resource-constrained gadgets due to its lightweight mechanism. Finally, it offers top-level cryptographic security for IoT gadgets by guaranteeing confidentiality, integrity, and availability while doing P2P data transmission.",
-    "published": "2026-05-05T16:35:44Z",
-    "link": "http://arxiv.org/abs/2605.03948v1",
-    "authors": [
-      "Tahsin Ahmed",
-      "Arjita Saha",
-      "Arian Nuhan",
-      "Nafim Ahmed Bin Mohammad Noor",
-      "Md Faisal Ahmed",
-      "Muhammad Iqbal Hossain"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "The recent surge in security concerns for IoT devices highlights the increasing threat of cryptographic vulnerabilities. These weaknesses can lead to unauthorized access, data breaches, and manipulation of device functions, compromising the privacy and security of both the devices and their users.",
-    "selected_date": "2026-05-06"
   }
 ]
