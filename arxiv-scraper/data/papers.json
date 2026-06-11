@@ -1,5 +1,23 @@
 [
   {
+    "id": "2606.12225v1",
+    "title": "Bridging the Smart City Cybersecurity Data Gap Through AI-Driven Synthetic Dataset Generation",
+    "summary": "Smart cities rely on interconnected cyber-physical systems that integrate sensors, IoT devices, cloud platforms, and AI-driven services and decision-making. While these systems enhance city services, they also introduce complex cybersecurity challenges due to their large attack surfaces, heterogeneous data flows, and evolving threat vectors. Developing and validating cybersecurity tools for smart cities requires high-quality datasets that accurately represent real operational conditions. However, real-world datasets are often incomplete, contain privacy-sensitive data, are difficult to access, or lack sufficient malicious activity to support tool development. This research addresses this critical gap by proposing an AI-based synthetic data generation (SDG) framework designed specifically for smart city cybersecurity research. The proposed framework leverages generative artificial intelligence models to produce high-fidelity synthetic cybersecurity datasets that replicate realistic device behaviors, network interactions, and cyber-attack scenarios. The synthetic datasets are evaluated for conformity to protocol standards, statistical similarity to original datasets, and utility in common security tools. The resulting synthetic data generation framework and evaluation metrics are expected to advance smart city cybersecurity by enabling researchers to model threats more effectively and evaluate defensive techniques more comprehensively to better protect critical smart city infrastructures.",
+    "published": "2026-06-10T15:36:31Z",
+    "link": "http://arxiv.org/abs/2606.12225v1",
+    "authors": [
+      "Stephanie Polczynski",
+      "John D. Hastings",
+      "Varghese Vaidyan",
+      "Kyle Korman"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Smart cities rely on interconnected cyber-physical systems that integrate sensors, IoT devices, cloud platforms, and AI-driven services and decision-making. While these systems enhance city services, they also introduce complex cybersecurity challenges due to their large attack surfaces, heterogeneous data flows, and evolving threat vectors.",
+    "selected_date": "2026-06-11"
+  },
+  {
     "id": "2606.10749v1",
     "title": "Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation",
     "summary": "Large language model (LLM) agents are rapidly moving from conversational interfaces to software components that plan, invoke tools, maintain memory, and act on external environments. This transition changes the nature of security risk. In agentic settings, failures are no longer limited to unsafe text generation. Untrusted content may redirect control flow, misuse tool privileges, corrupt persistent state, leak sensitive information, or trigger harmful external actions. At the same time, research on LLM agent security is expanding quickly but remains fragmented across attack families, defense layers, application domains, and evaluation settings. This paper synthesizes 247 papers through a lifecycle-based, systems-oriented framework that models agent security around the interaction of information flow, delegated authority, and persistent state. We organize the literature around four questions: how LLM agent security should be modeled, which threat surfaces and attack families dominate, what defenses have been proposed and with what tradeoffs, and how security claims are evaluated. We find that prompt injection and tool-mediated control-flow hijacking still dominate the field, while persistent state corruption and multi-agent propagation are becoming central emerging concerns. We further find that current defenses provide useful building blocks but remain weakly compositional, and that existing benchmarks still underrepresent long-horizon, stateful, and deployment-sensitive risks. We argue that secure LLM agents require explicit trust boundaries, principled privilege control, provenance-aware state management, and evaluation practices aligned with realistic operational settings.",
@@ -645,25 +663,5 @@
     ],
     "ai_summary": "The rapid expansion of the Internet of Things (IoT) and Industrial IoT (IIoT) has created a massive, heterogeneous attack surface that challenges traditional network security mechanisms. While Federated Learning (FL) offers a privacy-preserving alternative to centralized Intrusion Detection Systems (IDS), standard approaches struggle to generalize across diverse device behaviors and typically fail to utilize the vast amounts of unlabeled data present in realistic edge environments.",
     "selected_date": "2026-05-09"
-  },
-  {
-    "id": "2605.04724v1",
-    "title": "From Beats to Breaches:How Offensive AI Infers Sensitive User Information from Playlists",
-    "summary": "The pervasive integration of AI has enabled Offensive AI: the exploitation of AI for malicious ends across the cyber-kill chain. A critical manifestation is the user attribute inference attack, where AI infers sensitive Personally Identifiable Information (PII) from innocuous public data. We explore how music streaming ecosystems, where users routinely release public playlists, can be exploited for Offensive AI. To quantify this threat, we developed musicPIIrate. This novel tool leverages deep learning architectures that utilize both standalone data representations and the structural information embedded in a user's playlist collection. Our design explores set-based approaches (e.g., Deep Sets) and methodologies modeling relationships between playlists (e.g., Graph Neural Networks), which we also combine to leverage both perspectives. Our approach addresses feature extraction from unordered, variable-length set data, enabling accurate PII prediction.   Empirical evaluation demonstrates that musicPIIrate achieves state-of-the-art inference accuracy. The tool successfully infers a wide array of attributes, including: Demographics (Age, Country, Gender), Habits (Alcohol, Smoke, Sport), and Personality Traits (OCEAN scores). musicPIIrate outperforms existing methods, beating baselines in 9 out of 15 attribute inference tasks. To counter this vulnerability, we propose JamShield, a lightweight defensive framework. JamShield strategically injects dummy playlists into an account to dilute the PII-carrying signal. Our analysis indicates that JamShield represents a promising defense, lowering inference F1-scores by an average of 10%. This work provides an initial Offensive-AI benchmark for playlist-based PII inference using architectures that leverage set- and graph-structured data and introduces a defense showing encouraging mitigation effects.",
-    "published": "2026-05-06T10:18:55Z",
-    "link": "http://arxiv.org/abs/2605.04724v1",
-    "authors": [
-      "Stefano Cecconello",
-      "Mauro Conti",
-      "Luca Pajola",
-      "Luca Pasa",
-      "Pier Paolo Tricomi"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "ai_summary": "The pervasive integration of AI has enabled Offensive AI: the exploitation of AI for malicious ends across the cyber-kill chain. A critical manifestation is the user attribute inference attack, where AI infers sensitive Personally Identifiable Information (PII) from innocuous public data.",
-    "selected_date": "2026-05-07"
   }
 ]
