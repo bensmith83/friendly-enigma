@@ -1,5 +1,26 @@
 [
   {
+    "id": "2606.13107v1",
+    "title": "The Invisible Ink of the Android Malware World: A Longitudinal Study on the Usage of Covert Communication Channels",
+    "summary": "Proxies, VPNs and Tor have long helped the privacy community and users in censored regions to fight censorship. However, the same tools can be maliciously exploited by malware and botnets to conceal their communication to external command and control servers. Despite being a critical concern fueled by the proliferation of malware based attacks, no longitudinal studies have analyzed how malware applications use covert channels (CC) to evade detection.   We fill this gap by performing the first study of the usage of covert channels in the Android malware ecosystem. To that end, we develop a multistage pipeline that combines static and dynamic analysis to investigate both system and network-level features. We applied this pipeline on a corpus of 3.5M Android malware spanning 2009 to July 2025. Our carefully crafted static validation rules uncovered 288K APKs that used CCs spanning 511 malware families and CC usage growing exponentially from 0.30\\% (2012) to 50\\% (2025). Overall, in dynamic analysis, we identified 19,308 unique IP addresses being contacted in 85 countries, out of which we were able to explicitly validate the presence of CCs for 59 IP addresses across 17 countries. Further, we performed a longitudinal dataset study spanning over 16 years for CC based malware and found that CC usage has evolved, \\textit{e.g.,} some malware adopted by using more than one CCs; others switched between them periodically (one family switched CC usage 40 times from 2019 to 2025).",
+    "published": "2026-06-11T09:34:55Z",
+    "link": "http://arxiv.org/abs/2606.13107v1",
+    "authors": [
+      "Zeya Umayya",
+      "Manan Aggarwal",
+      "Manan Chugh",
+      "Mann Nariya",
+      "Yogesh Kaushik",
+      "Sambuddho Chakravarty"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "ai_summary": "Proxies, VPNs and Tor have long helped the privacy community and users in censored regions to fight censorship. However, the same tools can be maliciously exploited by malware and botnets to conceal their communication to external command and control servers.",
+    "selected_date": "2026-06-12"
+  },
+  {
     "id": "2606.12225v1",
     "title": "Bridging the Smart City Cybersecurity Data Gap Through AI-Driven Synthetic Dataset Generation",
     "summary": "Smart cities rely on interconnected cyber-physical systems that integrate sensors, IoT devices, cloud platforms, and AI-driven services and decision-making. While these systems enhance city services, they also introduce complex cybersecurity challenges due to their large attack surfaces, heterogeneous data flows, and evolving threat vectors. Developing and validating cybersecurity tools for smart cities requires high-quality datasets that accurately represent real operational conditions. However, real-world datasets are often incomplete, contain privacy-sensitive data, are difficult to access, or lack sufficient malicious activity to support tool development. This research addresses this critical gap by proposing an AI-based synthetic data generation (SDG) framework designed specifically for smart city cybersecurity research. The proposed framework leverages generative artificial intelligence models to produce high-fidelity synthetic cybersecurity datasets that replicate realistic device behaviors, network interactions, and cyber-attack scenarios. The synthetic datasets are evaluated for conformity to protocol standards, statistical similarity to original datasets, and utility in common security tools. The resulting synthetic data generation framework and evaluation metrics are expected to advance smart city cybersecurity by enabling researchers to model threats more effectively and evaluate defensive techniques more comprehensively to better protect critical smart city infrastructures.",
@@ -641,27 +662,5 @@
     ],
     "ai_summary": "Classical generative adversarial networks (GANs) have been applied to generate adversarial network traffic capable of attacking intrusion detection systems, but they suffer from shortcomings such as the need for large amounts of high-dimensional datasets, mode collapse, and high computational overhead. In this work, we propose a hybrid quantum-classical GAN (QC-GAN) framework where a variational quantum generator is used to generate synthetic network traffic flows mimicking malicious traffic using latent representations.",
     "selected_date": "2026-05-10"
-  },
-  {
-    "id": "2605.06571v1",
-    "title": "CLAD: A Clustered Label-Agnostic Federated Learning Framework for Joint Anomaly Detection and Attack Classification",
-    "summary": "The rapid expansion of the Internet of Things (IoT) and Industrial IoT (IIoT) has created a massive, heterogeneous attack surface that challenges traditional network security mechanisms. While Federated Learning (FL) offers a privacy-preserving alternative to centralized Intrusion Detection Systems (IDS), standard approaches struggle to generalize across diverse device behaviors and typically fail to utilize the vast amounts of unlabeled data present in realistic edge environments. To bridge these gaps, we propose CLAD, a holistic framework that seamlessly incorporates Clustered Federated Learning (CFL) with a novel Dual-Mode Micro-Architecture ($\\text{DM}^2\\text{A}$). This unified approach simultaneously tackles the two primary bottlenecks of IoT security: device heterogeneity and label scarcity. The $\\text{DM}^2\\text{A}$ component features a shared encoder followed by two branches, enabling joint unsupervised anomaly detection and supervised attack classification; this allows the framework to harvest intelligence from both labeled and unlabeled clients. Concurrently, the clustering component dynamically groups devices with congruent traffic patterns, preventing global model divergence. By carefully combining these elements, CLAD ensures that no data is discarded and distinct operational patterns are preserved. Extensive evaluations demonstrate that this integrated approach significantly outperforms state-of-the-art baselines, achieving a 30% relative improvement in detection performance in scenarios with 80% unlabeled clients, with only half the communication cost.",
-    "published": "2026-05-07T17:01:19Z",
-    "link": "http://arxiv.org/abs/2605.06571v1",
-    "authors": [
-      "Iason Ofeidis",
-      "Nikos Papadis",
-      "Randeep Bhatia",
-      "Leandros Tassiulas",
-      "TV Lakshman"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR",
-      "cs.DC",
-      "cs.NI"
-    ],
-    "ai_summary": "The rapid expansion of the Internet of Things (IoT) and Industrial IoT (IIoT) has created a massive, heterogeneous attack surface that challenges traditional network security mechanisms. While Federated Learning (FL) offers a privacy-preserving alternative to centralized Intrusion Detection Systems (IDS), standard approaches struggle to generalize across diverse device behaviors and typically fail to utilize the vast amounts of unlabeled data present in realistic edge environments.",
-    "selected_date": "2026-05-09"
   }
 ]
