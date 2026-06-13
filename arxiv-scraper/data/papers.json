@@ -1,5 +1,28 @@
 [
   {
+    "id": "2606.12737v1",
+    "title": "PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections",
+    "summary": "Large Language Models (LLMs) are rapidly evolving into agentic systems that interact with external tools and environments, introducing new security risks such as indirect prompt injection attacks through untrusted external sources. Existing defenses mainly focus on blocking malicious content at inference time, and current red-teaming methods primarily optimize attack success. As a result, developers have limited visibility into how latent prompt injections emerge and propagate through agents. We propose PI-Hunter, an automated agentic auditing framework for proactive vulnerability exposure in LLM agents. PI-Hunter constructs realistic source-aware test cases and iteratively evolves them through feedback-driven exploration to induce agents to retrieve and reveal latent malicious instructions embedded within external environments. Extensive experiments across multiple benchmarks, agent architectures, attacks, and defenses demonstrate that PI-Hunter substantially improves vulnerability exposure and attack-surface coverage over strong automated red-teaming baselines, while remaining effective under existing prompt injection defenses.",
+    "published": "2026-06-10T22:57:02Z",
+    "link": "http://arxiv.org/abs/2606.12737v1",
+    "authors": [
+      "Pengfei He",
+      "Lesly Miculicich",
+      "Vishesh Sharma",
+      "Ash Fox",
+      "George Lee",
+      "Jiliang Tang",
+      "Tomas Pfister",
+      "Long T. Le"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Large Language Models (LLMs) are rapidly evolving into agentic systems that interact with external tools and environments, introducing new security risks such as indirect prompt injection attacks through untrusted external sources. Existing defenses mainly focus on blocking malicious content at inference time, and current red-teaming methods primarily optimize attack success.",
+    "selected_date": "2026-06-13"
+  },
+  {
     "id": "2606.13107v1",
     "title": "The Invisible Ink of the Android Malware World: A Longitudinal Study on the Usage of Covert Communication Channels",
     "summary": "Proxies, VPNs and Tor have long helped the privacy community and users in censored regions to fight censorship. However, the same tools can be maliciously exploited by malware and botnets to conceal their communication to external command and control servers. Despite being a critical concern fueled by the proliferation of malware based attacks, no longitudinal studies have analyzed how malware applications use covert channels (CC) to evade detection.   We fill this gap by performing the first study of the usage of covert channels in the Android malware ecosystem. To that end, we develop a multistage pipeline that combines static and dynamic analysis to investigate both system and network-level features. We applied this pipeline on a corpus of 3.5M Android malware spanning 2009 to July 2025. Our carefully crafted static validation rules uncovered 288K APKs that used CCs spanning 511 malware families and CC usage growing exponentially from 0.30\\% (2012) to 50\\% (2025). Overall, in dynamic analysis, we identified 19,308 unique IP addresses being contacted in 85 countries, out of which we were able to explicitly validate the presence of CCs for 59 IP addresses across 17 countries. Further, we performed a longitudinal dataset study spanning over 16 years for CC based malware and found that CC usage has evolved, \\textit{e.g.,} some malware adopted by using more than one CCs; others switched between them periodically (one family switched CC usage 40 times from 2019 to 2025).",
@@ -644,23 +667,5 @@
     ],
     "ai_summary": "Federated fine-tuning (FFT) has emerged as a privacy-preserving paradigm for collaboratively adapting large language models (LLMs). Built upon federated learning, FFT enables distributed agents to jointly refine a shared pretrained LLM by aggregating local LLM updates without sharing local raw data.",
     "selected_date": "2026-05-11"
-  },
-  {
-    "id": "2605.06629v1",
-    "title": "Hybrid Quantum-Classical GANs for the Generation of Adversarial Network Flows",
-    "summary": "Classical generative adversarial networks (GANs) have been applied to generate adversarial network traffic capable of attacking intrusion detection systems, but they suffer from shortcomings such as the need for large amounts of high-dimensional datasets, mode collapse, and high computational overhead. In this work, we propose a hybrid quantum-classical GAN (QC-GAN) framework where a variational quantum generator is used to generate synthetic network traffic flows mimicking malicious traffic using latent representations. Instead of sampling classical noise vectors, we encode the latent vector (the hidden features) as a quantum state, which is the basis for claiming more expressive latent representations and reducing computational overhead. A classical discriminator will be trained on real-world datasets (UNSW-NB15) and the proposed QC-GAN-generated fake network flows. In this configuration, the generator aims to minimize the discriminator's ability to distinguish real from fake traffic, while the discriminator aims to maximize its classification accuracy, in an iterative manner. In our attack model, we assume that the attacker is a state actor with access to limited quantum computing power, whereas the discriminator is chosen to be classical, as will likely be the case for most end users and organizations. We test the generated flows using classical intrusion detection system (IDS) models, such as a random forest classifier and a convolutional neural network-based classifier, for their ability to bypass the detection process. This work aims to highlight the possibilities of quantum machine learning as a means of generating advanced attack flows and stress testing classical IDS. Lastly, we further evaluate how hardware-based noise affects these attacks to offer a new perspective on IDS, highlighting the need for a quantum resilient defense system.",
-    "published": "2026-05-07T17:43:25Z",
-    "link": "http://arxiv.org/abs/2605.06629v1",
-    "authors": [
-      "Prateek Paudel",
-      "Nitin Jha",
-      "Abhishek Parakh",
-      "Mahadevan Subramaniam"
-    ],
-    "categories": [
-      "cs.LG"
-    ],
-    "ai_summary": "Classical generative adversarial networks (GANs) have been applied to generate adversarial network traffic capable of attacking intrusion detection systems, but they suffer from shortcomings such as the need for large amounts of high-dimensional datasets, mode collapse, and high computational overhead. In this work, we propose a hybrid quantum-classical GAN (QC-GAN) framework where a variational quantum generator is used to generate synthetic network traffic flows mimicking malicious traffic using latent representations.",
-    "selected_date": "2026-05-10"
   }
 ]
