@@ -1,5 +1,25 @@
 [
   {
+    "id": "2606.14504v1",
+    "title": "Scratched Lenses, Shifted Depth: Passive Camera-Side Optical Attacks",
+    "summary": "Physical adversarial attacks on vision systems are typically studied through scene manipulation, such as adversarial patches or projections, where the adversary controls what the camera observes. Camera-side attacks using stickers or auxiliary optics have also been explored, but they treat attacks as image-space perturbations from designed patterns. This misses how physical imperfections interact with scene-dependent lighting and optics. We identify a threat: passive lens-side damage that is persistent yet trigger-conditioned, producing optical artifacts that bias geometric inference under particular visual conditions.   We instantiate this threat through Scratch-induced Lens Adversarial Streak Hijacking SLASH, a physical-world attack caused by small scratches on a camera lens or protective cover. Scratches interact with bright light sources and specular reflections to create structured streak artifacts that distort depth cues. Since the perturbation is fixed in the optical path but triggered by the scene, it is both persistent and selective. We formulate the attack in optical space, model the scratch pattern as a trigger-conditioned optical channel, and optimize one fixed configuration across diverse viewing conditions. We evaluate SLASH on monocular depth estimation and monocular 3D object detection in digital and real-world settings. Under the fixed-scratch constraint, directional depth shifts reach up to 32% relative error for monocular depth estimation, with consistent effects on monocular 3D object detection. Physical experiments confirm transfer to real camera recordings, inducing depth shifts above the model's natural prediction baseline. These findings reveal an attack surface where benign-looking hardware imperfections act as latent, scene-triggered adversarial mechanisms, challenging assumptions about physical robustness and motivating defenses for secure vision systems.",
+    "published": "2026-06-12T14:34:53Z",
+    "link": "http://arxiv.org/abs/2606.14504v1",
+    "authors": [
+      "Qinlin He",
+      "Zeming Zhuang",
+      "Yongji Wu",
+      "Lan Zhang",
+      " Xiaoyong",
+      " Yuan"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Physical adversarial attacks on vision systems are typically studied through scene manipulation, such as adversarial patches or projections, where the adversary controls what the camera observes. Camera-side attacks using stickers or auxiliary optics have also been explored, but they treat attacks as image-space perturbations from designed patterns.",
+    "selected_date": "2026-06-15"
+  },
+  {
     "id": "2606.12737v1",
     "title": "PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections",
     "summary": "Large Language Models (LLMs) are rapidly evolving into agentic systems that interact with external tools and environments, introducing new security risks such as indirect prompt injection attacks through untrusted external sources. Existing defenses mainly focus on blocking malicious content at inference time, and current red-teaming methods primarily optimize attack success. As a result, developers have limited visibility into how latent prompt injections emerge and propagate through agents. We propose PI-Hunter, an automated agentic auditing framework for proactive vulnerability exposure in LLM agents. PI-Hunter constructs realistic source-aware test cases and iteratively evolves them through feedback-driven exploration to induce agents to retrieve and reveal latent malicious instructions embedded within external environments. Extensive experiments across multiple benchmarks, agent architectures, attacks, and defenses demonstrate that PI-Hunter substantially improves vulnerability exposure and attack-surface coverage over strong automated red-teaming baselines, while remaining effective under existing prompt injection defenses.",
@@ -646,26 +666,5 @@
     ],
     "ai_summary": "Supervised Finetuning (SFT) has become one of the primary methods for adapting a large language model (LLM) with extensive pre-trained knowledge to domain-specific, instruction-following tasks. SFT datasets, composed of instruction-response pairs, often include user-provided information that may contain sensitive data such as personally identifiable information (PII), raising privacy concerns.",
     "selected_date": "2026-05-13"
-  },
-  {
-    "id": "2605.10822v1",
-    "title": "Benchmarking Sensor-Fault Robustness in Forecasting",
-    "summary": "Cyber-physical system (CPS) forecasting models depend on sensor streams with noisy, biased, missing, or temporally misaligned readings, yet standard forecasting evaluation often selects models by nominal error without showing whether they remain robust under such faults. We introduce SensorFault-Bench, a shared CPS-grounded sensor-fault stress-test protocol for evaluating forecasting architectures and robustness-improvement methods, and an operational taxonomy organizing the method comparison. Across four real-world datasets and eight scored scenarios governed by a standardized severity model, it reports worst-scenario degradation, clean mean squared error (MSE), and worst-scenario fault-time MSE, separating relative robustness from absolute error. A disjoint fault-transfer split lets explicit fault-training methods train on adjacent fault families while evaluation uses separate benchmark scenarios. Empirically, forecasting architectures favored by clean MSE can degrade sharply under faults, and clean-MSE rankings can disagree with worst-scenario fault-time error rankings. Chronos-2, the evaluated zero-shot foundation-model representative, matches or trails the last-value naive forecaster in clean MSE on the two single-target datasets and has the largest worst-scenario degradation on ETTh1 and Traffic, where all channels are forecast targets. For the evaluated robustness-improvement method set, paired deltas show selective degradation reductions: projected gradient descent adversarial training and randomized training lead where value faults dominate observed degradation, while fault augmentation leads where availability faults dominate. SensorFault-Bench provides open-source code, documented data access, and reproduction and extension guides, so new datasets, architectures, and robustness-improvement methods can be evaluated under the same CPS sensor-fault robustness protocol.",
-    "published": "2026-05-11T16:41:14Z",
-    "link": "http://arxiv.org/abs/2605.10822v1",
-    "authors": [
-      "Alexander Windmann",
-      "Philipp Wittenberg",
-      "Gianluca Manca",
-      "Marcel Dix",
-      "Jens U. Brandt",
-      "Oliver Niggemann"
-    ],
-    "categories": [
-      "cs.LG",
-      "eess.SP"
-    ],
-    "ai_summary": "Cyber-physical system (CPS) forecasting models depend on sensor streams with noisy, biased, missing, or temporally misaligned readings, yet standard forecasting evaluation often selects models by nominal error without showing whether they remain robust under such faults. We introduce SensorFault-Bench, a shared CPS-grounded sensor-fault stress-test protocol for evaluating forecasting architectures and robustness-improvement methods, and an operational taxonomy organizing the method comparison.",
-    "selected_date": "2026-05-12"
   }
 ]
