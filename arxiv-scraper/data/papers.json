@@ -1,5 +1,24 @@
 [
   {
+    "id": "2606.20415v1",
+    "title": "Pseudo-Feature Padding: A Lightweight Defense Against False Data Injection in Power Grids",
+    "summary": "Deep Neural Networks DNNs have achieved remarkable accuracy in various tasks including their application in CyberPhysical Systems CPS for detecting False Data Injection Attacks FDIA during critical operations However the unique infrastructure of CPS makes DNNs vulnerable to exploitation by attackers aiming to evade detection Additionally the distinct nature of CPS presents challenges for conventional defense mechanisms against FDIA This paper proposes an innovative defense framework that strengthens DNNs against such attacks by introducing an additional input layer that performs padding in the input samples using pseudofeature values derived from the inputs statistical distribution This padding increases the input dimensionality in a randomized and dataaware manner making adversarial attacks computationally infeasible due to the nontransferable nature of crafted perturbations and the unpredictability of the padded structure Our method is lightweight modelagnostic and requires no modifications to the core architecture making it highly deployable in realworld CPS settings We evaluated our framework on critical power grid applications such as state estimation using the IEEE 14bus 30bus 118bus and 300bus systems Experiments under adversarial settings demonstrate that our padding strategy significantly improves model robustness with negligible impact on performance and effectively mitigates attacks that would otherwise bypass conventional defenses",
+    "published": "2026-06-18T16:01:39Z",
+    "link": "http://arxiv.org/abs/2606.20415v1",
+    "authors": [
+      "Farhin Farhad Riya",
+      "Shahinul Hoque",
+      "Yingyuan Yang",
+      "Jinyuan Sun",
+      "Kevin Tomsovic"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "ai_summary": "Deep Neural Networks DNNs have achieved remarkable accuracy in various tasks including their application in CyberPhysical Systems CPS for detecting Fa...",
+    "selected_date": "2026-06-19"
+  },
+  {
     "id": "2606.18697v1",
     "title": "Stealthy World Model Manipulation via Data Poisoning",
     "summary": "Model-based learning agents use learned world models to predict future states, plan actions, and adapt to new environments. However, the process of updating world models from collected experience creates a training-time attack surface: adversarially poisoned fine-tuning trajectories can manipulate the learned dynamics and thereby corrupt downstream planning. In this paper, we propose SWAAP, the first two-stage data poisoning framework for learned world models. In the first stage, SWAAP identifies a harmful target world model that induces low-return behavior under planning while remaining close to clean dynamics, using first-order bilevel optimization enabled by a transition-gradient theorem. In the second stage, SWAAP realizes this target through stealth-constrained gradient matching, modifying only a limited fraction of fine-tuning transition targets so that the induced training gradients steer the victim model toward the adversarial target, while a prediction-error regularizer encourages the poisoned targets to remain close to the world model's natural approximation error. To assess attack stealthiness, we evaluate defenses and detectability across three stages of the poisoning pipeline: pre-training detection of poisoned transitions, robust training during fine-tuning, and test-time monitoring of the resulting world model. Across diverse continuous-control tasks, SWAAP causes substantial performance degradation while keeping poisoned transitions close to clean data and evading the evaluated non-adaptive residual/CUSUM/TRIM-style defenses. These results reveal a practical vulnerability in world-model adaptation pipelines and highlight the need for robustness methods that protect both world-model training data and learned dynamics.",
@@ -638,31 +657,5 @@
     ],
     "ai_summary": "Extensive research has highlighted the severe threats posed by backdoor attacks to deep reinforcement learning (DRL). However, prior studies primarily focus on vanilla scenarios, while plasticity interventions have emerged as indispensable built-in components of modern DRL agents.",
     "selected_date": "2026-05-17"
-  },
-  {
-    "id": "2605.15030v1",
-    "title": "WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections",
-    "summary": "Web agents can autonomously complete online tasks by interacting with websites, but their exposure to open web environments makes them vulnerable to prompt injection attacks embedded in HTML content or visual interfaces. Existing guard models still suffer from limited generalization to unseen domains and attack patterns, high false positive rates on benign content, reduced deployment efficiency due to added latency at each step, and vulnerability to adversarial attacks that evolve over time or directly target the guard itself. To address these limitations, we propose WARD (Web Agent Robust Defense against Prompt Injection), a practical guard model for secure and efficient web agents. WARD is built on WARD-Base, a large-scale dataset with around 177K samples collected from 719 high-traffic URLs and platforms, and WARD-PIG, a dedicated dataset designed for prompt injection attacks targeting the guard model. We further introduce A3T, an adaptive adversarial attack training framework that iteratively strengthens WARD through a memory-based attacker and guard co-evolution process. Extensive experiments show that WARD achieves nearly perfect recall on out-of-distribution benchmarks, maintains low false positive rates to preserve agent utility, remains robust against guard-targeted and adaptive attacks under substantial distribution shifts, and runs efficiently in parallel with the agent without introducing additional latency.",
-    "published": "2026-05-14T16:26:27Z",
-    "link": "http://arxiv.org/abs/2605.15030v1",
-    "authors": [
-      "Tri Cao",
-      "Yulin Chen",
-      "Hieu Cao",
-      "Yibo Li",
-      "Khoi Le",
-      "Thong Nguyen",
-      "Yuexin Li",
-      "Yufei He",
-      "Yue Liu",
-      "Shuicheng Yan",
-      "Bryan Hooi"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "ai_summary": "Web agents can autonomously complete online tasks by interacting with websites, but their exposure to open web environments makes them vulnerable to prompt injection attacks embedded in HTML content or visual interfaces. Existing guard models still suffer from limited generalization to unseen domains and attack patterns, high false positive rates on benign content, reduced deployment efficiency due to added latency at each step, and vulnerability to adversarial attacks that evolve over time or directly target the guard itself.",
-    "selected_date": "2026-05-16"
   }
 ]
