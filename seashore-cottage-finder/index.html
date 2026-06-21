@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seashore Cottage Finder</title>
+    <meta name="description" content="Scan a whole summer for open dates at Sun Retreats Seashore instead of checking one date at a time.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏖️ Seashore Cottage Finder</h1>
+            <p class="subtitle">Find open dates for a <strong>Premium Cottage (2&nbsp;Bedroom)</strong> at Sun Retreats Seashore &mdash; scan the whole summer instead of one date at a time.</p>
+        </header>
+
+        <div class="callout">
+            <p><strong>How this works.</strong> The resort's own booking page only lets you check one date range at a time, which makes hunting for vacancy painful. This tool builds a checklist of <em>every</em> stay window across the summer, gives you a one-click link straight into the booking page for each, and remembers which dates you found open &mdash; all saved in your browser.</p>
+            <details>
+                <summary>Why can't it just check availability automatically?</summary>
+                <p>The resort runs its booking through Campspot. Real-time availability lives behind a paid, authenticated API and bot protection, so a free page like this usually <em>cannot</em> read it directly from your browser (the request gets blocked by the site's security/CORS rules). The tool will still <em>attempt</em> a live check when you ask &mdash; but the dependable path is: open each window's link, glance at the result, and tick it off here. You can also <strong>teach it your booking link</strong> below so the one-click links land on the exact dates automatically.</p>
+            </details>
+        </div>
+
+        <main>
+            <!-- STEP 1: Settings -->
+            <section class="card">
+                <h2><span class="step">1</span> Set your search</h2>
+
+                <div class="grid">
+                    <div class="field">
+                        <label for="start-date">Earliest check-in</label>
+                        <input type="date" id="start-date">
+                    </div>
+                    <div class="field">
+                        <label for="end-date">Latest check-out</label>
+                        <input type="date" id="end-date">
+                    </div>
+                    <div class="field">
+                        <label for="guests">Guests</label>
+                        <input type="number" id="guests" min="1" max="6" value="2">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label>Stay length (nights)</label>
+                    <div class="chips" id="length-chips">
+                        <label class="chip"><input type="checkbox" value="2" checked> 2</label>
+                        <label class="chip"><input type="checkbox" value="3" checked> 3</label>
+                        <label class="chip"><input type="checkbox" value="4" checked> 4</label>
+                        <label class="chip"><input type="checkbox" value="7" checked> 7</label>
+                    </div>
+                    <p class="hint">Pick any combination &mdash; "Flexible" means leave several checked.</p>
+                </div>
+
+                <div class="field">
+                    <label for="dow-filter">Check-in day</label>
+                    <select id="dow-filter">
+                        <option value="any">Any day</option>
+                        <option value="weekend">Weekends only (Fri / Sat check-in)</option>
+                        <option value="weekday">Weekdays only (Sun&ndash;Thu check-in)</option>
+                    </select>
+                </div>
+
+                <div class="actions">
+                    <button id="generate-btn" class="btn btn-primary">Build my date checklist</button>
+                    <button id="reset-btn" class="btn btn-ghost">Reset everything</button>
+                </div>
+            </section>
+
+            <!-- STEP 2: Teach the link -->
+            <section class="card">
+                <h2><span class="step">2</span> Teach it your booking link <span class="optional">optional, but recommended</span></h2>
+                <p>Go to the booking page once, pick <em>any</em> set of dates, and copy the URL from your browser's address bar. Paste it below and this tool will reuse its exact format so every link lands on the right dates. If you skip this, links open the booking page with a best-effort guess.</p>
+                <div class="field">
+                    <textarea id="template-url" rows="3" placeholder="Paste a booking URL that already has dates in it, e.g. https://www.sunoutdoors.com/book/checkavailability/236/nj/sun-retreats-seashore?..."></textarea>
+                </div>
+                <div class="actions">
+                    <button id="learn-btn" class="btn btn-secondary">Learn this link</button>
+                    <a id="open-booking" class="btn btn-ghost" href="https://www.sunoutdoors.com/book/checkavailability/236/nj/sun-retreats-seashore" target="_blank" rel="noopener">Open booking page ↗</a>
+                </div>
+                <p id="template-status" class="status-line"></p>
+            </section>
+
+            <!-- STEP 3: Results -->
+            <section class="card" id="results-card" hidden>
+                <div class="results-head">
+                    <h2><span class="step">3</span> Your summer checklist</h2>
+                    <div class="results-tools">
+                        <label class="inline"><input type="checkbox" id="show-open-only"> Show only "Open" dates</label>
+                        <select id="filter-status" class="mini">
+                            <option value="all">All statuses</option>
+                            <option value="unknown">Not checked yet</option>
+                            <option value="open">Open</option>
+                            <option value="full">Full</option>
+                            <option value="maybe">Maybe</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="summary-bar" id="summary-bar"></div>
+
+                <div class="actions live-actions">
+                    <button id="check-all-btn" class="btn btn-secondary">⚡ Attempt live auto-check (experimental)</button>
+                    <button id="copy-open-btn" class="btn btn-ghost">Copy open dates</button>
+                    <button id="print-btn" class="btn btn-ghost">Print checklist</button>
+                </div>
+                <p id="live-status" class="status-line"></p>
+
+                <div class="table-wrap">
+                    <table id="results-table">
+                        <thead>
+                            <tr>
+                                <th>Check-in</th>
+                                <th>Check-out</th>
+                                <th>Nights</th>
+                                <th>Open booking</th>
+                                <th>Status</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody id="results-body"></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Advanced -->
+            <section class="card">
+                <details>
+                    <summary><strong>Advanced</strong> &mdash; live-check settings (for the technically curious)</summary>
+                    <p class="hint">The live auto-check tries to fetch each booking link from your browser. Cross-site security usually blocks this. If you have a CORS proxy you trust, you can route requests through it. Leave blank to attempt a direct request.</p>
+                    <div class="field">
+                        <label for="proxy-url">CORS proxy prefix (optional)</label>
+                        <input type="text" id="proxy-url" placeholder="e.g. https://my-proxy.example/?url=">
+                    </div>
+                    <p class="hint">Your settings, learned link, and date statuses are stored only in this browser (localStorage). Nothing is sent anywhere except the booking links you open and any live-check requests you trigger.</p>
+                </details>
+            </section>
+        </main>
+
+        <footer>
+            <p>Not affiliated with Sun Outdoors, Sun Retreats, or Campspot. A personal planning aid &mdash; always confirm availability and book on the official site.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
