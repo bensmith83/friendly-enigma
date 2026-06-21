@@ -1,5 +1,1098 @@
 [
   {
+    "date": "2026-06-21",
+    "week_of": "June 21, 2026",
+    "digest_number": 26,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "I hope I inherited my dad's artistic brilliance. I fear I inherited his fatal disease",
+          "description": "Holly Harris's father, Neil Harris, was a renowned composer and musician. While she hopes she inherited his talents, she also fears she inherited the ALS that eventually killed him.",
+          "content": "This First Person article is the\u00a0experience of Holly Harris, a Winnipeg musician and educator, and a participant in CBC Manitoba's First Person\u00a0writing workshop, which helps people finesse the skills\u2026 [+5188 chars]",
+          "url": "https://www.cbc.ca/news/canada/manitoba/first-person-holly-harris-als-9.7233246",
+          "source_name": "CBC News",
+          "source_type": "newsapi",
+          "published_at": "2026-06-20T11:00:00Z",
+          "author": null,
+          "image_url": "https://i.cbc.ca/ais/54311cbf-6cb5-43f0-913a-395a4f5286d6,1781552630718/full/max/0/default.jpg?im=Crop%2Crect%3D%28182%2C244%2C1616%2C909%29%3BResize%3D620",
+          "is_local_nj": false,
+          "article_id": "3370850a19e1",
+          "summary": "Holly Harris's father, Neil Harris, was a renowned composer and musician. While she hopes she inherited his talents, she also fears she inherited the ALS that eventually killed him.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Status Update Music\" von Leroy (Jane Remover)",
+          "description": "Leroy (Jane Remover) - \"Status Update Music\"",
+          "content": "laut.de-Kritik\r\nNennt es Prog-Brainrot.\r\nReview von Yannik G\u00f6lz\r\nIch bin keine kredible Person, um euch zu erkl\u00e4ren, was Dariacore jetzt schon wieder sein soll. Ich war nicht in den Soundcloud-Trench\u2026 [+3860 chars]",
+          "url": "https://laut.de/Leroy-Jane-Remover/Alben/Status-Update-Music-127189",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-06-20T10:40:14Z",
+          "author": "Yannik G\u00f6lz",
+          "image_url": "https://laut.de/Leroy-Jane-Remover/Alben/Status-Update-Music-127189/leroy-jane-remover-status-update-music-251843.jpg?040721",
+          "is_local_nj": false,
+          "article_id": "b3651f66e404",
+          "summary": "Leroy (Jane Remover) - \"Status Update Music\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Yes, Your Cells May Age At Different Rates \u2014 What That Means For Longevity",
+          "description": "Different cells age at different speeds\u2014and that gap may matter.",
+          "content": "You already know that some people seem to age faster than others. But what if the more important question isn't how fast you're aging overall it's which parts of you are aging fastest?\r\nA new study1\r\u2026 [+4918 chars]",
+          "url": "https://www.mindbodygreen.com/articles/your-cells-dont-all-age-at-the-same-rate-and-that-gap-may-predict-how-long-youll-live",
+          "source_name": "mindbodygreen.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-20T09:17:00Z",
+          "author": "https://www.mindbodygreen.com/wc/zhan-slambee",
+          "image_url": "https://mindbodygreen-res.cloudinary.com/image/upload/c_fill,w_2000,h_1200,g_auto,fl_lossy,f_jpg/org/lsi5jc3z5l5v4mmam.jpg",
+          "is_local_nj": false,
+          "article_id": "2344b80788f3",
+          "summary": "Different cells age at different speeds\u2014and that gap may matter.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "'When I got the call, I thought it was a joke!': GIANFRANCO ZOLA on his 'unbelievable' Ryder Cup assignment, the 'very wild' celebrations after Team Europe's victory - and his favourite Chelsea memory",
+          "description": "EXCLUSIVE INTERVIEW BY ALEX JENNINGS: Beside a beautiful golf course in Mallorca, an Italian is explaining to an Englishman how he came to help Team Europe in America.",
+          "content": "Beside a beautiful golf course in Mallorca, an Italian is explaining to an Englishman how he came to help Team Europe in America.\r\nTheres many a course that brings back happy memories for Gianfranco \u2026 [+6333 chars]",
+          "url": "https://www.dailymail.com/sport/football/article-15914285/gianfranco-zola-ryder-cup-chelsea.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-20T07:03:36Z",
+          "author": "Alex Jennings",
+          "image_url": "https://i.dailymail.com/1s/2026/06/19/19/109469271-0-image-m-25_1781893579691.jpg",
+          "is_local_nj": false,
+          "article_id": "bc42013c1cb9",
+          "summary": "EXCLUSIVE INTERVIEW BY ALEX JENNINGS: Beside a beautiful golf course in Mallorca, an Italian is explaining to an Englishman how he came to help Team Europe in America.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "'Alter-Ego': An Italian hospital's little robot carer",
+          "description": "A robot with expressive eyebrows that is designed to perform basic tasks to free up healthcare workers is being given a trial run by a hospital in Milan.",
+          "content": "A robot with expressive eyebrows that is designed to perform basic tasks to free up healthcare workers is being given a trial run by a hospital in Milan.\r\nNamed \"Alter-Ego\", the 1.2-metre tall robot \u2026 [+2613 chars]",
+          "url": "https://www.rte.ie/news/newslens/2026/0620/1579279-milan-hospital-robot/",
+          "source_name": "RTE",
+          "source_type": "newsapi",
+          "published_at": "2026-06-20T05:00:00Z",
+          "author": "RT\u00c9 News",
+          "image_url": "https://www.rte.ie/images/00248bd5-1600.jpg",
+          "is_local_nj": false,
+          "article_id": "3cf827c95ff3",
+          "summary": "A robot with expressive eyebrows that is designed to perform basic tasks to free up healthcare workers is being given a trial run by a hospital in Milan.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "WATCH: David Muir shares how son helped dad on retirement flight after ALS cut career short",
+          "description": "David Muir shares the remarkable story of how a son helped his pilot dad fulfill a lifelong dream of taking his retirement flight after his aviation career was cut short by an ALS diagnosis.",
+          "content": "<ul><li>Trump unveils new Air Force One plane from Qatar as Iran postpones nuclear talks\r\n</li><li>Train collision outside outside London leaves 1 dead, dozens injured\r\n</li><li>Looking back at the l\u2026 [+4399 chars]",
+          "url": "https://abcnews.com/video/134047331/",
+          "source_name": "Abcnews.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-20T00:34:00Z",
+          "author": "ABC News",
+          "image_url": "https://i.abcnewsfe.com/a/3058e61d-9dc1-4b30-8e1b-455b0db9afa8/260619_wn_ender_hpMain_16x9.jpg?w=992",
+          "is_local_nj": false,
+          "article_id": "9f8b6f7ee06a",
+          "summary": "David Muir shares the remarkable story of how a son helped his pilot dad fulfill a lifelong dream of taking his retirement flight after his aviation career was cut short by an ALS diagnosis.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "A Vancouver Cop Just Made Medical History. His Thoughts Can Now Control His iPhone.",
+          "description": "A Vancouver Police sergeant just became the first Canadian living with ALS to receive a Neuralink brain implant from Elon Musk\u2019s company. Sgt. Lee Marten put in 18 years with the VPD and 14 years before that in the Canadian Armed Forces. He was diagnosed with\u2026",
+          "content": "A Vancouver Police sergeant just became the first Canadian living with ALS to receive a Neuralink brain implant from Elon Musk\u2019s company.\r\nSgt. Lee Marten put in 18 years with the VPD and 14 years be\u2026 [+1952 chars]",
+          "url": "https://www.iphoneincanada.ca/2026/06/19/vancouver-police-sergeant-first-canadian-als-neuralink/",
+          "source_name": "iPhone in Canada",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T17:29:10Z",
+          "author": "Austin Blake",
+          "image_url": "https://cdn.iphoneincanada.ca/wp-content/uploads/2025/09/neuralink-canada.jpeg",
+          "is_local_nj": false,
+          "article_id": "3d86bafebc06",
+          "summary": "A Vancouver Police sergeant just became the first Canadian living with ALS to receive a Neuralink brain implant from Elon Musk\u2019s company. Sgt. Lee Marten put in 18 years with the VPD and 14 years befo",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "China's brain chip breakthrough raises big questions",
+          "description": "China approves NEO brain chip for commercial medical use in paralysis patients, raising questions about neural data privacy and cybersecurity risks.",
+          "content": "A coin-sized brain chip in China could help people with paralysis control devices using their thoughts. China has approved a brain-computer interface called NEO for commercial medical use in certain \u2026 [+9896 chars]",
+          "url": "https://www.foxnews.com/tech/chinas-brain-chip-breakthrough-raises-big-questions",
+          "source_name": "Fox News",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T16:30:26Z",
+          "author": null,
+          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/06/neo-brain-chip-patient.jpeg",
+          "is_local_nj": false,
+          "article_id": "c996a680684b",
+          "summary": "China approves NEO brain chip for commercial medical use in paralysis patients, raising questions about neural data privacy and cybersecurity risks.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Yankees Birthday of the Day: Lou Gehrig",
+          "description": "Today marks the birthday of one of the best and most important ever Yankees.",
+          "content": "If you were to make a list of the most important baseball players, Lou Gehrig would rank quite high on the list. For one, he would also rank quite highly on the best players of all time list, but his\u2026 [+10440 chars]",
+          "url": "https://www.pinstripealley.com/yankees-history-trivia/192707/yankees-history-lou-gehrig-birthday-june-19-streak-babe-ruth-cal-ripken-jr-als-speech",
+          "source_name": "Pinstripe Alley",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T15:30:00Z",
+          "author": "Matt Ferenchick",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/TLi19KlNIK7HFpUBEH8pOw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/17a2de6dcce6597620994883c6dcdcfa",
+          "is_local_nj": false,
+          "article_id": "ef720edd0368",
+          "summary": "Today marks the birthday of one of the best and most important ever Yankees.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Heikki\u2019s Garden of Flowers, Google, Ocean Observatories Initiative More: Friday ResearchBuzz, June 19, 2026",
+          "description": "NEW RESOURCES Spotted in my RSS feeds: Heikki\u2019s Garden of Flowers. From the About page: \u201cHeikki\u2019s Garden of Flowers aims to be a comprehensive catalogue of historical and contemporary pictorial letterpress works\u2026. [\u2026]",
+          "content": "NEW RESOURCES \r\nSpotted in my RSS feeds: Heikki\u2019s Garden of Flowers. From the About page: \u201cHeikki\u2019s Garden of Flowers aims to be a comprehensive catalogue of historical and contemporary pictorial let\u2026 [+6226 chars]",
+          "url": "https://researchbuzz.me/2026/06/19/heikkis-garden-of-flowers-google-ocean-observatories-initiative-more-friday-researchbuzz-june-19-2026/",
+          "source_name": "Researchbuzz.me",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T14:59:56Z",
+          "author": "ResearchBuzz",
+          "image_url": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvczAud3AuY29tXC9pXC9ibGFuay5qcGciLCJ0eHQiOiJSZXNlYXJjaEJ1enoiLCJ0ZW1wbGF0ZSI6ImhpZ2h3YXkiLCJmb250IjoiIiwiYmxvZ19pZCI6NDMyODc1Nn0.BjdcPIDlw4ZG0Ki13B-quwxnrzAxn9iB5rJXagRMNlcMQ",
+          "is_local_nj": false,
+          "article_id": "3143b4fc7533",
+          "summary": "NEW RESOURCES Spotted in my RSS feeds: Heikki\u2019s Garden of Flowers. From the About page: \u201cHeikki\u2019s Garden of Flowers aims to be a comprehensive catalogue of historical and contemporary pictorial letter",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "PC building\u2019s weird new reality: Your favorite old parts are back on the menu",
+          "description": "Your weekly edition of The Full Nerd has arrived, and there\u2019s a new face on the team: mine!\r\n\n\n\n\nHey there. My name is Alex, and I\u2019ll be your friendly Full Nerd newsletter delivery boy for the foreseeable future. Alaina and Adam were kind enough to welcome me\u2026",
+          "content": "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nBy Alex Wawro, Senio\u2026 [+11263 chars]",
+          "url": "https://www.pcworld.com/article/3168654/pc-buildings-weird-new-reality-your-favorite-old-parts-are-back-on-the-menu.html",
+          "source_name": "PCWorld",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T11:00:00Z",
+          "author": "Alex Wawro",
+          "image_url": "https://www.pcworld.com/wp-content/uploads/2026/06/set-sj-IWLAtKSqXW8-unsplash.jpg?quality=50&strip=all&w=1024",
+          "is_local_nj": false,
+          "article_id": "36edccdb9bcb",
+          "summary": "Your weekly edition of The Full Nerd has arrived, and there\u2019s a new face on the team: mine!\r\n\n\n\n\nHey there. My name is Alex, and I\u2019ll be your friendly Full Nerd newsletter delivery boy for the foresee",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sharing but not Caring",
+          "description": null,
+          "content": "Vor ein paar Wochen war ein Au\u00dfendienstmitarbeiter der Firma Share (oder auch einer Agentur, die Share im Portfolio hat) bei uns und hat die Produkte vorgestellt. Ich war etwas skeptisch, wollte ihm \u2026 [+2077 chars]",
+          "url": "https://www.shopblogger.de/blog/archives/30887-Sharing-but-not-Caring.html",
+          "source_name": "Shopblogger.de",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T09:52:00Z",
+          "author": "nospam@example.com (Bj\u00f6rn Harste)",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "870220fc3956",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u2018Alter-Ego\u2019: An Italian hospital\u2019s little robot carer",
+          "description": "Named \"Alter-Ego\", the 1.2-metre tall robot can stand in for a doctor working remotely, bring a patient a bottle of water or guide them to treatment.\nThe post \u2018Alter-Ego\u2019: An Italian hospital\u2019s little robot carer appeared first on Digital Journal.",
+          "content": "A robot with expressive eyebrows that is designed to perform basic tasks to free up healthcare workers is being given a trial run by a hospital in Milan.\r\nNamed \u201cAlter-Ego\u201d, the 1.2-metre tall robot \u2026 [+2434 chars]",
+          "url": "https://www.digitaljournal.com/article/alter-ego-an-italian-hospitals-little-robot-carer/",
+          "source_name": "Digital Journal",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T09:10:11Z",
+          "author": "AFP",
+          "image_url": "https://www.digitaljournal.com/wp-content/uploads/2026/06/a4bea86a9f59a8f07ee82e7d94530485bd0d3af6.jpg",
+          "is_local_nj": false,
+          "article_id": "d350ce9e9c4d",
+          "summary": "Named \"Alter-Ego\", the 1.2-metre tall robot can stand in for a doctor working remotely, bring a patient a bottle of water or guide them to treatment.\nThe post \u2018Alter-Ego\u2019: An Italian hospital\u2019s little",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Brain-computer interface trials are taking off",
+          "description": "This week, I covered the story of Casey Harrell\u2014a man with ALS who is \u201cthe first power user\u201d of a brain implant, according to the researchers who worked with him. Harrell is paralyzed and unable to speak coherently without the device. He has now spent almost \u2026",
+          "content": "Synchron, another BCI company, is currently testing its devices in trials in North America and Australia. Shanghai-based Neuracle has been trialing a BCI since November 2024, and it\u00a0recently obtained\u2026 [+2152 chars]",
+          "url": "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
+          "source_name": "MIT Technology Review",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T09:00:00Z",
+          "author": "Jessica Hamzelou",
+          "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/06/bci-brain2.jpg?resize=1200,600",
+          "is_local_nj": false,
+          "article_id": "e656cc78b0ea",
+          "summary": "This week, I covered the story of Casey Harrell\u2014a man with ALS who is \u201cthe first power user\u201d of a brain implant, according to the researchers who worked with him. Harrell is paralyzed and unable to sp",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "A brain-computer interface has, for the first time, restored fluent everyday speech to a person who had lost it \u2014 a man with ALS who had not spoken aloud in years until a small implant from the BrainGate clinical trial began translating his attempts to speak directly into computer-synthesised words, in a result researchers reported in June 2026",
+          "description": "Casey Harrell can now talk for twelve hours at a stretch. Two years ago, he could not talk at all. The ALS he was diagnosed with several years earlier had progressively destroyed the motor neurons controlling the muscles of his face and throat, leaving him wi\u2026",
+          "content": "Casey Harrell can now talk for twelve hours at a stretch. Two years ago, he could not talk at all. The ALS he was diagnosed with several years earlier had progressively destroyed the motor neurons co\u2026 [+7761 chars]",
+          "url": "https://spacedaily.com/d-a-brain-computer-interface-has-for-the-first-time-restored-fluent-everyday-speech-to-a-person-who-had-lost-it-a-man-with-als-who-had-not-spoken-aloud-in-years-until-a-small-implant-from-th/",
+          "source_name": "Space Daily",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T06:45:08Z",
+          "author": "Space Daily Editorial Team",
+          "image_url": "https://spacedaily.com/wp-content/uploads/2026/06/Posts-1600840-2026-06-19T122102.715.png",
+          "is_local_nj": false,
+          "article_id": "b620dd85d8cb",
+          "summary": "Casey Harrell can now talk for twelve hours at a stretch. Two years ago, he could not talk at all. The ALS he was diagnosed with several years earlier had progressively destroyed the motor neurons con",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "China approved the world\u2019s first commercial brain implant before Neuralink \u2014 and the key difference is that NEO\u2019s sensors rest on top of the brain\u2019s protective membrane rather than piercing the cortex itself",
+              "url": "https://spacedaily.com/n-china-approved-the-worlds-first-commercial-brain-implant-before-neuralink-and-the-key-difference-is-that-neos-sensors-rest-on-top-of-the-brains-protective-membrane-rather-than-piercing-th/",
+              "digest_date": "2026-06-07"
+            },
+            {
+              "title": "Eledon Announces Presentation of Updated Data from Investigator-Initiated Islet Transplant Trial of Tegoprubart in Patients with Type 1 Diabetes at American Diabetes Association (ADA) 2026 Scientific Sessions",
+              "url": "https://www.globenewswire.com/news-release/2026/06/04/3307113/0/en/Eledon-Announces-Presentation-of-Updated-Data-from-Investigator-Initiated-Islet-Transplant-Trial-of-Tegoprubart-in-Patients-with-Type-1-Diabetes-at-American-Diabetes-Association-AD.html",
+              "digest_date": "2026-06-07"
+            },
+            {
+              "title": "Jai Arrow travels overseas for MND treatment as actor Matt Nable, who lost his brother to the disease, shares emotional message",
+              "url": "https://www.dailymail.com/sport/nrl/article-15860119/Jai-Arrow-travels-overseas-MND-treatment-actor-Matt-Nable-lost-brother-disease-shares-emotional-message.html",
+              "digest_date": "2026-05-31"
+            }
+          ]
+        },
+        {
+          "title": "Results of Annual General Meeting",
+          "description": "Results of Annual General Meeting  Serabi Gold plc (AIM:SRB, TSX:SBI), the Brazilian-focused gold mining and development company, announces that at the...",
+          "content": "Results of Annual General Meeting\r\nSerabi Gold plc (AIM:SRB, TSX:SBI), the Brazilian-focused gold mining and development company, announces that at the Annual General Meeting of the Company held at 3\u2026 [+10182 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/06/19/3314611/0/en/Results-of-Annual-General-Meeting.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T06:00:00Z",
+          "author": "Serabi Gold plc",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/9be68406-a193-471a-bebc-3a6ef6d077c6",
+          "is_local_nj": false,
+          "article_id": "5a34897b42ad",
+          "summary": "Results of Annual General Meeting  Serabi Gold plc (AIM:SRB, TSX:SBI), the Brazilian-focused gold mining and development company, announces that at the...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Bulletin from the Annual General Meeting in BioArctic AB (publ)",
+              "url": "https://www.prnewswire.com/news-releases/bulletin-from-the-annual-general-meeting-in-bioarctic-ab-publ-302784835.html",
+              "digest_date": "2026-05-31"
+            },
+            {
+              "title": "Bulletin from the Annual General Meeting in BioArctic AB (publ)",
+              "url": "https://www.prnewswire.com/news-releases/bulletin-from-the-annual-general-meeting-in-bioarctic-ab-publ-302784827.html",
+              "digest_date": "2026-05-31"
+            },
+            {
+              "title": "Notice of Annual General Meeting",
+              "url": "https://financialpost.com/globe-newswire/notice-of-annual-general-meeting-4",
+              "digest_date": "2026-05-24"
+            }
+          ]
+        },
+        {
+          "title": "Regulation and function of specialized membrane protrusions in intercellular communication",
+          "description": "Tunnelling nanotubes, cytonemes and migrasomes are specialized membrane protrusions that mediate intercellular transfer of signalling molecules, organelles and other cargo. This Review discusses recent advances in their formation, architecture and transport f\u2026",
+          "content": "<li>Rustom, A., Saffrich, R., Markovic, I., Walther, P. &amp; Gerdes, H. H. Nanotubular highways for intercellular organelle transport. Science303, 10071010 (2004).\r\nArticle\u00a0\r\n CAS\u00a0\r\n PubMed\u00a0\r\nGoogle\u2026 [+44370 chars]",
+          "url": "https://www.nature.com/articles/s41580-026-00982-0",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-19T00:00:00Z",
+          "author": "Shiyu Liu, Christina A. Daly, Stacey K. Ogden, Chiara Zurzolo",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41580-026-00982-0/MediaObjects/41580_2026_982_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "248b8efd8a7c",
+          "summary": "Tunnelling nanotubes, cytonemes and migrasomes are specialized membrane protrusions that mediate intercellular transfer of signalling molecules, organelles and other cargo. This Review discusses recen",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Red Sox CEO addresses team\u2019s \u2018brutal and truly sort of unthinkable\u2019 trade deadline reality",
+          "description": "The Red Sox are in unfamiliar territory.",
+          "content": "The Red Sox are in unfamiliar territory.\u00a0\r\nCEO Sam Kennedy said Wednesday that despite high expectations entering the season, selling at the Aug. 3 trade deadline may be a reality if the team doesnt \u2026 [+2219 chars]",
+          "url": "https://nypost.com/2026/06/18/sports/sam-kennedy-addresses-red-sox-brutal-trade-deadline-reality/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-06-18T22:59:45Z",
+          "author": "Spencer Brod",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/06/newspress-collage-xdkzv954x-1781819634960.jpg?quality=75&strip=all&1781805292&w=1200",
+          "is_local_nj": false,
+          "article_id": "71d9e84cb6af",
+          "summary": "The Red Sox are in unfamiliar territory.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Aktuelle DVD- und Blu-ray-Tipps: Ein GoT-Prequel ohne Drachen: Das sind die DVD-Highlights der Woche",
+          "description": "\"A Knight of the Seven Kingdoms\", \"Nouvelle Vague\" und \"Return to Silent Hill\": Das sind die DVDs und Blu-rays der Woche.",
+          "content": "Kopiere den aktuellen Link\r\nZur Merkliste hinzuf\u00fcgen\r\n\"A Knight of the Seven Kingdoms\", \"Nouvelle Vague\" und \"Return to Silent Hill\": Das sind die DVDs und Blu-rays der Woche.\r\nWer beim Wort Westeros\u2026 [+4691 chars]",
+          "url": "https://www.stern.de/kultur/tv/ein-got-prequel-ohne-drachen--das-sind-die-dvd-highlights-der-woche-37568330.html",
+          "source_name": "STERN.de",
+          "source_type": "newsapi",
+          "published_at": "2026-06-18T22:00:07Z",
+          "author": "Elisa Eberle",
+          "image_url": "https://image.stern.de/37568326/t/E8/v1/w1440/r1.7778/-/-a-knight-of-the-seven-kingdoms---1-.jpg",
+          "is_local_nj": false,
+          "article_id": "2cd61425062e",
+          "summary": "\"A Knight of the Seven Kingdoms\", \"Nouvelle Vague\" und \"Return to Silent Hill\": Das sind die DVDs und Blu-rays der Woche.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Annual General Meeting Statement",
+          "description": "Annual General Meeting Statement  Serabi Gold plc (\u201cSerabi\u201d or the \u201cCompany\u201d) (AIM:SRB, TSX:SBI, OTCQX:SRBIF), the Brazilian focused gold mining and...",
+          "content": "Annual General Meeting Statement\r\nSerabi Gold plc (Serabi or the Company) (AIM:SRB, TSX:SBI, OTCQX:SRBIF), the Brazilian focused gold mining and development company, advises that a 3:00PM today (UK t\u2026 [+12180 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/06/18/3314565/0/en/Annual-General-Meeting-Statement.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-18T21:35:00Z",
+          "author": "Serabi Gold plc",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/9be68406-a193-471a-bebc-3a6ef6d077c6",
+          "is_local_nj": false,
+          "article_id": "aa9d708d5f48",
+          "summary": "Annual General Meeting Statement  Serabi Gold plc (\u201cSerabi\u201d or the \u201cCompany\u201d) (AIM:SRB, TSX:SBI, OTCQX:SRBIF), the Brazilian focused gold mining and...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Bulletin from the Annual General Meeting in BioArctic AB (publ)",
+              "url": "https://www.prnewswire.com/news-releases/bulletin-from-the-annual-general-meeting-in-bioarctic-ab-publ-302784835.html",
+              "digest_date": "2026-05-31"
+            },
+            {
+              "title": "Bulletin from the Annual General Meeting in BioArctic AB (publ)",
+              "url": "https://www.prnewswire.com/news-releases/bulletin-from-the-annual-general-meeting-in-bioarctic-ab-publ-302784827.html",
+              "digest_date": "2026-05-31"
+            },
+            {
+              "title": "Notice of Annual General Meeting",
+              "url": "https://financialpost.com/globe-newswire/notice-of-annual-general-meeting-4",
+              "digest_date": "2026-05-24"
+            }
+          ]
+        },
+        {
+          "title": "CervoMed Announces $10 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules",
+          "description": "BOSTON, June 18, 2026 (GLOBE NEWSWIRE) -- CervoMed Inc. (NASDAQ: CRVO), a clinical-stage biotechnology company developing treatments for age-related brain disorders (CervoMed or the Company), today announced that it has entered into definitive agreements for \u2026",
+          "content": "BOSTON, June 18, 2026 (GLOBE NEWSWIRE) -- CervoMed Inc. (NASDAQ: CRVO), a clinical-stage biotechnology company developing treatments for age-related brain disorders (CervoMed or the Company), today a\u2026 [+6160 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/06/18/3314430/0/en/CervoMed-Announces-10-Million-Registered-Direct-Offering-of-Common-Stock-Priced-At-The-Market-Under-Nasdaq-Rules.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-18T16:35:00Z",
+          "author": "Cervomed",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/edbbbc99-633a-4270-bb50-216336077fb9",
+          "is_local_nj": false,
+          "article_id": "1fdf1e71b873",
+          "summary": "BOSTON, June 18, 2026 (GLOBE NEWSWIRE) -- CervoMed Inc. (NASDAQ: CRVO), a clinical-stage biotechnology company developing treatments for age-related brain disorders (CervoMed or the Company), today an",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Brain Chip Implant Enables Paralyzed ALS Patient To Speak And Work Again",
+          "description": "Recent breakthroughs in neural engineering have bridged the gap between brain-computer interfaces and practical tools for daily life. A long-term study published in Nature reveals that a 47-year-old man paralyzed by amyotrophic lateral sclerosis (ALS) has suc\u2026",
+          "content": "Stay updated with the latest news and updates. Subscribe to our newsletter!\r\nSubscribe Now",
+          "url": "https://hothardware.com/news/brain-chip-implant-restores-speech-in-als-patient",
+          "source_name": "Hot Hardware",
+          "source_type": "newsapi",
+          "published_at": "2026-06-18T14:17:00Z",
+          "author": "Aaron Leong",
+          "image_url": "https://hothardware.com/contentimages/NewsItem/70899/content/16x9_2133x1200_highres-harrell-close.jpg",
+          "is_local_nj": false,
+          "article_id": "48b884be59b5",
+          "summary": "Recent breakthroughs in neural engineering have bridged the gap between brain-computer interfaces and practical tools for daily life. A long-term study published in Nature reveals that a 47-year-old m",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "9 Questions Dads Wish Their Kids Would Ask Them",
+          "description": "The best conversations start with the right question.",
+          "content": "Real means \"blessing\" not as a religious rite, but as a father's stamp of approval and wish for his child to live their best possible life. He'll always remember asking his own dad for one as an adul\u2026 [+1031 chars]",
+          "url": "https://time.com/article/2026/06/18/questions-to-ask-dad-father/",
+          "source_name": "Time",
+          "source_type": "newsapi",
+          "published_at": "2026-06-18T14:15:33Z",
+          "author": "Angela Haupt",
+          "image_url": "https://static.time.com/v3/assets/bltea6093859af6183b/blt53e9fe0687c58ce5/6a32ef6e880a73bbf0f23264/Fathers_Wish_You_Asked_These_Qs.png?branch=production&width=3840&quality=75&auto=webp&crop=16:9",
+          "is_local_nj": false,
+          "article_id": "a4c9aae67f4a",
+          "summary": "The best conversations start with the right question.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Greenland Mines (NASDAQ: GRML) Accelerates Sarfartoq Rare Earths Project Development with Updated S-K 1300 Resource Estimate Program",
+          "description": "Tetra Tech and GeoSim to integrate historic resource work, Neo-era drilling and new technical studies as Greenland Mines advances Sarfartoq toward an updated PEA and future development CHARLOTTE, N.C., June 18, 2026 /PRNewswire/ -- Greenland Mines Ltd (\"Green\u2026",
+          "content": "Tetra Tech and GeoSim to integrate historic resource work, Neo-era drilling and new technical studies as Greenland Mines advances Sarfartoq toward an updated PEA and future development\r\nCHARLOTTE, N.\u2026 [+10287 chars]",
+          "url": "https://www.prnewswire.com/news-releases/greenland-mines-nasdaq-grml-accelerates-sarfartoq-rare-earths-project-development-with-updated-s-k-1300-resource-estimate-program-302803739.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-18T12:30:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1812720/Greenland-Mines-Logo.jpg?id=OA2723223&p=facebook",
+          "is_local_nj": false,
+          "article_id": "9d5d15803357",
+          "summary": "Tetra Tech and GeoSim to integrate historic resource work, Neo-era drilling and new technical studies as Greenland Mines advances Sarfartoq toward an updated PEA and future development CHARLOTTE, N.C.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Greenland Mines Completes Site Visit to Sarfartoq Nd-Pr Rare Earth Magnet Project in Greenland; Prepares 2026 Field Program",
+              "url": "https://www.prnewswire.com/news-releases/greenland-mines-completes-site-visit-to-sarfartoq-nd-pr-rare-earth-magnet-project-in-greenland-prepares-2026-field-program-302790745.html",
+              "digest_date": "2026-06-07"
+            },
+            {
+              "title": "Greenland Mines Signs Definitive Agreement to Acquire the Sarfartoq Neodymium-Praseodymium Rare Earths Project in Greenland",
+              "url": "https://www.prnewswire.com/news-releases/greenland-mines-signs-definitive-agreement-to-acquire-the-sarfartoq-neodymium-praseodymium-rare-earths-project-in-greenland-302778314.html",
+              "digest_date": "2026-05-24"
+            },
+            {
+              "title": "Koryx Copper Announces Updated Mineral Resource Estimate for the Haib Copper Project, Southern Namibia",
+              "url": "https://www.globenewswire.com/news-release/2026/03/25/3262058/0/en/Koryx-Copper-Announces-Updated-Mineral-Resource-Estimate-for-the-Haib-Copper-Project-Southern-Namibia.html",
+              "digest_date": "2026-03-29"
+            }
+          ]
+        },
+        {
+          "title": "Endeavour Silver Intersects High-Grade Silver and Gold Mineralization at its Terronera Operation",
+          "description": "VANCOUVER, British Columbia, June 18, 2026 (GLOBE NEWSWIRE) -- Endeavour Silver Corp. (\u201cEndeavour\u201d or the \u201cCompany\u201d) (TSX: EDR, NYSE: EXK) is pleased to announce positive drill results from its exploration program at its newest mine, Terronera, located in Jal\u2026",
+          "content": "VANCOUVER, British Columbia, June 18, 2026 (GLOBE NEWSWIRE) -- Endeavour Silver Corp. (Endeavour or the Company) (TSX: EDR, NYSE: EXK) is pleased to announce positive drill results from its explorati\u2026 [+17788 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/06/18/3314030/0/en/Endeavour-Silver-Intersects-High-Grade-Silver-and-Gold-Mineralization-at-its-Terronera-Operation.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-06-18T10:50:00Z",
+          "author": "Endeavour Silver Corporation",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/449243c9-eefd-4017-94cb-d3990427e3e9",
+          "is_local_nj": false,
+          "article_id": "158b20bcd3e5",
+          "summary": "VANCOUVER, British Columbia, June 18, 2026 (GLOBE NEWSWIRE) -- Endeavour Silver Corp. (\u201cEndeavour\u201d or the \u201cCompany\u201d) (TSX: EDR, NYSE: EXK) is pleased to announce positive drill results from its explor",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ero Confirms High-Grade Continuity and Extends Known Mineralization at Furnas with Significant New Step-Out Intercepts",
+              "url": "https://financialpost.com/globe-newswire/ero-confirms-high-grade-continuity-and-extends-known-mineralization-at-furnas-with-significant-new-step-out-intercepts",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "Ero Confirms High-Grade Continuity and Extends Known Mineralization at Furnas with Significant New Step-Out Intercepts",
+              "url": "https://www.globenewswire.com/news-release/2026/06/10/3309531/0/en/Ero-Confirms-High-Grade-Continuity-and-Extends-Known-Mineralization-at-Furnas-with-Significant-New-Step-Out-Intercepts.html",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "LIFT Intersects 26 m at 1.29% Li2O at its BIG East pegmatite, Yellowknife Lithium Project, NWT",
+              "url": "https://www.globenewswire.com/news-release/2026/05/13/3293679/0/en/LIFT-Intersects-26-m-at-1-29-Li2O-at-its-BIG-East-pegmatite-Yellowknife-Lithium-Project-NWT.html",
+              "digest_date": "2026-05-17"
+            }
+          ]
+        },
+        {
+          "title": "\"Stardust\" von Willie Nelson",
+          "description": "Willie Nelson - \"Stardust\"",
+          "content": "laut.de-Kritik\r\nGegen jede Regel.\r\nReview von Dani Fromm\r\nHach! Songs, die den Test der Zeit schon in den 1970ern bestanden hatten, durch und durch vertraut, vom steten Gebrauch rundgeschliffen und g\u2026 [+12678 chars]",
+          "url": "https://laut.de/Willie-Nelson/Alben/Stardust-79912",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-06-18T08:17:06Z",
+          "author": "Dani Fromm",
+          "image_url": "https://laut.de/Willie-Nelson/Alben/Stardust-79912/willie-nelson-stardust-251701.jpg?ccee57",
+          "is_local_nj": false,
+          "article_id": "6d9ab4eb18c5",
+          "summary": "Willie Nelson - \"Stardust\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Brain implant allows ALS patient to return to full time work as an environmental advocate. This is the future we were promised [Cool]",
+          "description": "Brain implant allows ALS patient to return to full time work as an environmental advocate. This is the future we were promised",
+          "content": "<li>Links are submitted by members of the Fark community.\r\n</li><li>When community members submit a link, they also write a custom headline for the story.\r\n</li><li>Other Farkers comment on the links\u2026 [+177 chars]",
+          "url": "https://www.fark.com/comments/14102342/Brain-implant-allows-ALS-patient-to-return-to-full-time-work-as-an-environmental-advocate-This-is-future-we-were-promised",
+          "source_name": "Fark.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T23:50:05Z",
+          "author": null,
+          "image_url": "https://usrimg-full.fark.net/4/4F/fark_4FbSHKglirI2j8vd0x8u05N4C1U.jpg?AWSAccessKeyId=JO3ELGV4BGLFW7Y3EZXN&Expires=1782100800&Signature=CGM8qpmkK188Qi1nhX16dCzxfPU%3D",
+          "is_local_nj": false,
+          "article_id": "ecb621fe9922",
+          "summary": "Brain implant allows ALS patient to return to full time work as an environmental advocate. This is the future we were promised",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "China approved the world\u2019s first commercial brain implant before Neuralink \u2014 and the key difference is that NEO\u2019s sensors rest on top of the brain\u2019s protective membrane rather than piercing the cortex itself",
+              "url": "https://spacedaily.com/n-china-approved-the-worlds-first-commercial-brain-implant-before-neuralink-and-the-key-difference-is-that-neos-sensors-rest-on-top-of-the-brains-protective-membrane-rather-than-piercing-th/",
+              "digest_date": "2026-06-07"
+            }
+          ]
+        },
+        {
+          "title": "Apparently Being Medically Evacuated Isn't Jonathan Penner's Most Vivid Survivor Memory",
+          "description": "I wasn't expecting to here such an honest (and sweet) take.",
+          "content": "Jonathan Penner has one of those Survivor r\u00e9sum\u00e9s that would make you assume his most vivid memory involves pain, strategy or Jeff Probst calling for medical. The three-time player competed on some o\u2026 [+3809 chars]",
+          "url": "https://www.cinemablend.com/television/jonathan-penner-most-vivid-survivor-memory-wife-stacy-title-not-medical-evacuation",
+          "source_name": "CinemaBlend",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T17:08:41Z",
+          "author": "Ryan LaBee",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/D5SbwN5QyqiRk2MqvNxFob-2000-80.jpg",
+          "is_local_nj": false,
+          "article_id": "d1d9c4eb4df7",
+          "summary": "I wasn't expecting to here such an honest (and sweet) take.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Astros vs. Tigers Game Discussion: 6/17/2026",
+          "description": "TODAY\u2019S GAME: The Astros and Tigers will play the rubber game of their three-game series today in an afternoon matchup at Daikin Park. RHP Peter Lambert (5-4), who\u2019s won three straight decisions, will get the start for the Astros opposite the Tigers and RHP C\u2026",
+          "content": "TODAYS GAME: The Astros and Tigers will play the rubber game of their three-game series today in an afternoon matchup at Daikin Park.\r\nRHP Peter Lambert (5-4), whos won three straight decisions, will\u2026 [+5492 chars]",
+          "url": "https://www.crawfishboxes.com/houston-astros-analysis/75738/astros-vs-tigers-game-discussion-6-17-2026",
+          "source_name": "The Crawfish Boxes",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T16:42:41Z",
+          "author": "Adam Spolane",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/iRw_pYvuWV.XW3vBQfb8Aw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD0xODAwO2NmPXdlYnA-/https://media.zenfs.com/en/sb_nation_articles_115/811d7211f574eb1ed0ac96255be3967c",
+          "is_local_nj": false,
+          "article_id": "8507345eb9b6",
+          "summary": "TODAY\u2019S GAME: The Astros and Tigers will play the rubber game of their three-game series today in an afternoon matchup at Daikin Park. RHP Peter Lambert (5-4), who\u2019s won three straight decisions, will",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Astros vs. Pirates Game Thread: Game 62, 6/2/2026",
+              "url": "https://www.crawfishboxes.com/houston-astros-game-information/75345/astros-vs-pirates-game-thread-game-62-6-2-2026",
+              "digest_date": "2026-06-07"
+            },
+            {
+              "title": "Astros vs. Rangers Game Thread: Game 57, 5/27/2026",
+              "url": "https://www.crawfishboxes.com/houston-astros-game-information/75152/astros-vs-rangers-game-thread-game-57-5-27-2026",
+              "digest_date": "2026-05-31"
+            },
+            {
+              "title": "Astros vs. Cubs Game Thread: Game 52, 5/22/2026",
+              "url": "https://www.crawfishboxes.com/houston-astros-game-information/75014/astros-vs-cubs-game-thread-game-52-5-22-2026",
+              "digest_date": "2026-05-24"
+            }
+          ]
+        },
+        {
+          "title": "Deciphering cell type-specific causal genetic effects on brain imaging-derived phenotypes and disorders with single-cell Mendelian randomization",
+          "description": "Author summary Our understanding of how genes influence brain phenotypes at the cell type level remains limited. Although genome-wide association studies (GWASs) have identified numerous genetic variants associated with brain structure and disease, the majori\u2026",
+          "content": "Introduction\r\nRecent large-scale genome-wide association studies (GWASs) have identified thousands of genetic variants associated with brain-related complex phenotypes [1,2]. However, interpreting th\u2026 [+69725 chars]",
+          "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014422",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T14:00:00Z",
+          "author": "Anyi Yang, Xingzhong Zhao, Xing-Ming Zhao, Yucheng T. Yang",
+          "image_url": "https://journals.plos.org/ploscompbiol/article/figure/image?id=10.1371/journal.pcbi.1014422.g006&size=inline",
+          "is_local_nj": false,
+          "article_id": "f727f9d7ec32",
+          "summary": "Author summary Our understanding of how genes influence brain phenotypes at the cell type level remains limited. Although genome-wide association studies (GWASs) have identified numerous genetic varia",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "A science powerhouse bets on genetic therapy to beat brain disorders - NPR",
+              "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183577240",
+              "digest_date": "2026-06-07"
+            },
+            {
+              "title": "A science powerhouse bets on genetic therapy to beat brain disorders",
+              "url": "https://www.npr.org/2026/06/03/nx-s1-5837620/brain-health-accelerator-gene-therapy-alzheimer",
+              "digest_date": "2026-06-07"
+            }
+          ]
+        },
+        {
+          "title": "Neuralink finally has a real rival: Paradromics just put a brain chip in its first patient",
+          "description": "Neuralink has dominated the brain-chip story for two years. It now has a serious challenger with a patient of its own. Paradromics, an Austin neurotech firm, has implanted its Connexus brain-computer interface in the first participant of its FDA-approved clin\u2026",
+          "content": "Neuralink has dominated the brain-chip story for two years. It now has a serious challenger with a patient of its own.\r\nParadromics, an Austin neurotech firm, has implanted its Connexus brain-compute\u2026 [+2033 chars]",
+          "url": "https://thenextweb.com/news/paradromics-first-clinical-brain-chip-implant-speech/",
+          "source_name": "The Next Web",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T13:41:14Z",
+          "author": "Ana Maria Constantin",
+          "image_url": "https://media.thenextweb.com/2026/06/BCI-IMPLANT-BCI13115.avif",
+          "is_local_nj": false,
+          "article_id": "e4abe3c01021",
+          "summary": "Neuralink has dominated the brain-chip story for two years. It now has a serious challenger with a patient of its own. Paradromics, an Austin neurotech firm, has implanted its Connexus brain-computer ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "China approved the world\u2019s first commercial brain implant before Neuralink \u2014 and the key difference is that NEO\u2019s sensors rest on top of the brain\u2019s protective membrane rather than piercing the cortex itself",
+              "url": "https://spacedaily.com/n-china-approved-the-worlds-first-commercial-brain-implant-before-neuralink-and-the-key-difference-is-that-neos-sensors-rest-on-top-of-the-brains-protective-membrane-rather-than-piercing-th/",
+              "digest_date": "2026-06-07"
+            },
+            {
+              "title": "Tech company claims its new caps and beanies can read your mind and put it on a screen \u2014 no brain implant required",
+              "url": "https://nypost.com/2026/05/07/tech/tech-company-claims-its-new-caps-and-beanies-can-read-your-mind-and-put-it-on-a-screen-no-brain-implant-required/",
+              "digest_date": "2026-05-10"
+            },
+            {
+              "title": "Science Corp is preparing to place its first brain sensor in a human, betting biology will beat electrodes",
+              "url": "https://thenextweb.com/news/science-corp-biohybrid-brain-sensor-first-human-hodak-yale/",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Paradromics and University of Michigan Complete First Connexus\u00ae BCI Implantation for the FDA-Approved Connect-One Clinical Study",
+          "description": "The Connect-One Early Feasibility Study will evaluate the long-term use of the Connexus BCI to safely restore speech and enable computer control for people with severe motor impairment AUSTIN, Texas \u2014 Paradromics Inc., a neurotechnology company that has devel\u2026",
+          "content": "The Connect-One Early Feasibility Study will evaluate the long-term use of the Connexus BCI to safely restore speech and enable computer control for people with severe motor impairment\r\nTHIS CONTENT \u2026 [+6379 chars]",
+          "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/paradromics-and-university-of-michigan-complete-first-connexus-bci-implantation-for-the-fda-approved-connect-one-clinical-study",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T13:06:29Z",
+          "author": "Business Wire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/06/bw20260617963732_mm-2026-bci_implant-bci13115.jpeg",
+          "is_local_nj": false,
+          "article_id": "39a39412601a",
+          "summary": "The Connect-One Early Feasibility Study will evaluate the long-term use of the Connexus BCI to safely restore speech and enable computer control for people with severe motor impairment AUSTIN, Texas \u2014",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Neuralink competitor Paradromics just implanted its first brain-chip device. The next step is restoring speech.",
+          "description": "Paradromics CEO Matt Angle said the patient will start testing the device in the coming weeks with the goal of restoring her ability to communicate.",
+          "content": "A team of doctors from the University of Michigan implanted Paradromics' brain-chip device in a human patient for the first time in early June.University of Michigan and Paradromics\r\n<ul><li>Paradrom\u2026 [+5227 chars]",
+          "url": "https://www.businessinsider.com/paradromics-brain-chip-implant-first-human-patient-speech-restoration-bci-2026-6#article",
+          "source_name": "Business Insider",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T13:00:02Z",
+          "author": "Lloyd Lee",
+          "image_url": "https://i.insider.com/6a31f83c2bbd1d834ef24660?width=1200&format=jpeg",
+          "is_local_nj": false,
+          "article_id": "85fe213a0560",
+          "summary": "Paradromics CEO Matt Angle said the patient will start testing the device in the coming weeks with the goal of restoring her ability to communicate.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "China approved the world\u2019s first commercial brain implant before Neuralink \u2014 and the key difference is that NEO\u2019s sensors rest on top of the brain\u2019s protective membrane rather than piercing the cortex itself",
+              "url": "https://spacedaily.com/n-china-approved-the-worlds-first-commercial-brain-implant-before-neuralink-and-the-key-difference-is-that-neos-sensors-rest-on-top-of-the-brains-protective-membrane-rather-than-piercing-th/",
+              "digest_date": "2026-06-07"
+            },
+            {
+              "title": "Science Corp is preparing to place its first brain sensor in a human, betting biology will beat electrodes",
+              "url": "https://thenextweb.com/news/science-corp-biohybrid-brain-sensor-first-human-hodak-yale/",
+              "digest_date": "2026-04-19"
+            },
+            {
+              "title": "Max Hodak\u2019s Science Corp. is preparing to place its first sensor in a human brain | TechCrunch",
+              "url": "https://techcrunch.com/2026/04/14/max-hodaks-science-corp-is-preparing-to-place-its-first-sensor-in-a-human-brain/",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Copper Compound Cu(ATSM) Cleared 42% of Alzheimer's Toxic Proteins and Restored Memory in Lab \u2014 ACS Chemical Neuroscience June 2026",
+          "description": "Monash University: Cu(ATSM) increased brain's P-gp pumps 24%, cut amyloid-beta 42%, improved spatial memory 44% in Alzheimer's models. ACS Chemical Neuroscience, June 15, 2026.",
+          "content": "A copper-delivering compound has cleared 42% of the toxic proteins that drive Alzheimer's disease in laboratory models, restored the brain's primary waste-removal system, and improved spatial learnin\u2026 [+5259 chars]",
+          "url": "https://www.medicaldaily.com/copper-cuatsm-alzheimers-amyloid-42-percent-blood-brain-barrier-monash-2026-475673",
+          "source_name": "Medical Daily",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T12:33:57Z",
+          "author": "Dorothy Brooks",
+          "image_url": "https://d.medicaldaily.com/en/full/482749/alzheimers.jpg",
+          "is_local_nj": false,
+          "article_id": "087002fdc3df",
+          "summary": "Monash University: Cu(ATSM) increased brain's P-gp pumps 24%, cut amyloid-beta 42%, improved spatial memory 44% in Alzheimer's models. ACS Chemical Neuroscience, June 15, 2026.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The Download: a reality check for geoengineering and the science of interoception",
+          "description": "This is today\u2019s edition of The Download, our weekday newsletter that provides a daily dose of what\u2019s going on in the world of technology. Hacking the atmosphere: geoengineering gets a reality check Solar geoengineering, the controversial idea that we could de\u2026",
+          "content": "Ive combed the internet to find you todays most fun/important/scary/fascinating stories about technology.\r\n1 SpaceX is now valued higher than Amazon\u00a0Its market value hit $2.659 trillion yesterday. (A\u2026 [+1517 chars]",
+          "url": "https://www.technologyreview.com/2026/06/17/1139200/the-download-solar-geoengineering-interoception/",
+          "source_name": "MIT Technology Review",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T12:10:00Z",
+          "author": "Thomas Macaulay",
+          "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/06/TR_Geoengineering_r2_layers.jpg?resize=1200,600",
+          "is_local_nj": false,
+          "article_id": "1efc32363cba",
+          "summary": "This is today\u2019s edition of The Download, our weekday newsletter that provides a daily dose of what\u2019s going on in the world of technology. Hacking the atmosphere: geoengineering gets a reality check So",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Yankees\u2019 Budding Superstar Questions Braves\u2019 Matt Olson Amid Surge",
+          "description": "The New York Yankees\u2019 emerging ace probed the Atlanta Braves superstar and the slugger refused to answer in full.",
+          "content": "The Atlanta Braves have spent much of the season proving they belong among baseballs elite, and first baseman Matt Olson is one of the biggest reasons why.As the Braves continue their surge at the to\u2026 [+2691 chars]",
+          "url": "https://www.forbes.com/sites/peterchawaga/2026/06/17/yankees-budding-superstar-questions-braves-matt-olson-amid-surge/",
+          "source_name": "Forbes",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T11:30:00Z",
+          "author": "Peter Chawaga, Contributor, \n Peter Chawaga, Contributor\n https://www.forbes.com/sites/peterchawaga/",
+          "image_url": "https://imageio.forbes.com/specials-images/imageserve/6a31857c4e88d576f7ebdb83/0x0.jpg?format=jpg&crop=1443,812,x0,y0,safe&height=900&width=1600&fit=bounds",
+          "is_local_nj": false,
+          "article_id": "74f7b630d93d",
+          "summary": "The New York Yankees\u2019 emerging ace probed the Atlanta Braves superstar and the slugger refused to answer in full.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "6\u670820\u65e5\u300cWorld FSHD Day\u300d\u306b\u5408\u308f\u305b\u3001\u9854\u9762\u80a9\u7532\u4e0a\u8155\u578b\u7b4b\u30b8\u30b9\u30c8\u30ed\u30d5\u30a3\u30fc\u3068\u8a3a\u65ad\u3055\u308c\u305f\u4eba\u3068\u5bb6\u65cf\u306b\u5411\u3051\u305f\u65b0\u520a\u3092\u520a\u884c",
+          "description": "[multiply\u5408\u540c\u4f1a\u793e]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/185101/1/185101-1-9562d7d0fcca95c4fb56be4e6337456c-1734x907.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&amp...",
+          "content": "Cell HealingFSHDFSHD12026617Kindle\r\nFSHD: The First Book to Read After Diagnosis2026616Kindle\r\n620World FSHD DayFSHD\r\nFSHD\r\nFSHD\r\n1\r\n1FSHD\r\nFSHD\r\nFSHD\r\nFSHD1FSHD2D4Z4DUX4\r\nDUX4\r\nCell Healing\r\n3\r\nFSHD\u2026 [+304 chars]",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000185101.html",
+          "source_name": "Prtimes.jp",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T08:37:53Z",
+          "author": null,
+          "image_url": "https://prcdn.freetls.fastly.net/release_image/185101/1/185101-1-3134ef2e11cf9e86e1c387aa21c0f2f8-1749x2481.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+          "is_local_nj": false,
+          "article_id": "88007b5a80b2",
+          "summary": "[multiply\u5408\u540c\u4f1a\u793e]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/185101/1/185101-1-9562d7d0fcca95c4fb56be4e6337456c-1734x907.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&amp...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u6c83\u5c14\u592b\u54c8\u7279\u00b7\u4ea8\u514b\u66fc\u4e28\u8d39\u5e0c\u7279 - \u8c22\u6797 - \u9ed1\u683c\u5c14 (\u8bc4\u8bba: Buchstabe und Geist)",
+          "description": "Walt\u8bc4\u8bba: Buchstabe und Geist (https://book.douban.com/subject/38519286/)\n\u8bc4\u4ef7: \u529b\u8350\n\n{\"blocks\":[{\"key\":\"b26t4\",\"text\":\"\u8d39\u5e0c\u7279 - \u8c22\u6797 - \u9ed1\u683c\u5c14\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"l...",
+          "content": "- - \r\n\u00b7Wolfhart Henckmann\r\nDilthey1\r\n/\u00b72\r\n---\r\n\u00b7\u00b71762519-1814129\r\nS\u00e4mtliche WerkeSW\u00b7\u00b7Immanuel Hermann Fichte1796-18791845-1846SW345I. H. 1-23-56-8I. H. 1834-1835SW61801SWI. H. I. H. 183118627\r\n1902Ka\u2026 [+23243 chars]",
+          "url": "https://book.douban.com/review/17659267/",
+          "source_name": "Douban.com",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T08:34:51Z",
+          "author": "Walt",
+          "image_url": "https://img9.doubanio.com/view/subject/l/public/s35534855.jpg",
+          "is_local_nj": false,
+          "article_id": "6c4398743ed4",
+          "summary": "Walt\u8bc4\u8bba: Buchstabe und Geist (https://book.douban.com/subject/38519286/)\n\u8bc4\u4ef7: \u529b\u8350\n\n{\"blocks\":[{\"key\":\"b26t4\",\"text\":\"\u8d39\u5e0c\u7279 - \u8c22\u6797 - \u9ed1\u683c\u5c14\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"l...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Brain Implant Lets Man With Severe Paralysis Speak in His Own Voice Again",
+          "description": "He has a lot to say when given the opportunity.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+          "content": "A man with severe paralysis, who can no longer move almost any part of his body, can now 'speak' on his own terms, using an experimental brain implant.\r\nHis family can finally hear his voice again, a\u2026 [+5448 chars]",
+          "url": "https://www.sciencealert.com/brain-implant-lets-man-with-severe-paralysis-speak-in-his-own-voice-again",
+          "source_name": "ScienceAlert",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T08:00:00Z",
+          "author": "Carly Cassella",
+          "image_url": "https://www.sciencealert.com/images/2026/06/BrainImplant.jpg",
+          "is_local_nj": false,
+          "article_id": "8cb92d282ea7",
+          "summary": "He has a lot to say when given the opportunity.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "$1.99 | Brief Answers to the Big Questions (eBook) by Stephen Hawking",
+          "description": "Previous Frontpage Deal at $2.00 with 44 Deal Score and 12 comments.\n\nAvailable Retailers:Amazon [amazon.com] (Kindle eBook)\niBooks [apple.com]\nGoogle Play Store [google.com]\nKobo [kobo.com]\n\nAuthorSt",
+          "content": "Previous Frontpage Deal at $2.00 with 44 Deal Score and 12 comments.Available Retailers:\r\n<table><tr><td>Author</td><td>Stephen Hawking</td></tr><tr><td>Publisher</td><td>Bantam</td></tr><tr><td>Publ\u2026 [+2756 chars]",
+          "url": "https://slickdeals.net/f/19638939-1-99-brief-answers-to-the-big-questions-ebook-by-stephen-hawking",
+          "source_name": "Slickdeals.net",
+          "source_type": "newsapi",
+          "published_at": "2026-06-17T07:46:34Z",
+          "author": "phoinix",
+          "image_url": "https://slickdeals.net/attachment/1/1/7/1/5/2/7/450x450/20704212.thumb",
+          "is_local_nj": false,
+          "article_id": "ef83d25a8563",
+          "summary": "Previous Frontpage Deal at $2.00 with 44 Deal Score and 12 comments.\n\nAvailable Retailers:Amazon [amazon.com] (Kindle eBook)\niBooks [apple.com]\nGoogle Play Store [google.com]\nKobo [kobo.com]\n\nAuthorSt",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "I hope I inherited my dad's artistic brilliance. I fear I inherited his fatal disease",
+        "url": "https://www.cbc.ca/news/canada/manitoba/first-person-holly-harris-als-9.7233246",
+        "source": "CBC News",
+        "date": "2026-06-20T11:00:00Z"
+      },
+      {
+        "title": "\"Status Update Music\" von Leroy (Jane Remover)",
+        "url": "https://laut.de/Leroy-Jane-Remover/Alben/Status-Update-Music-127189",
+        "source": "Laut.de",
+        "date": "2026-06-20T10:40:14Z"
+      },
+      {
+        "title": "Yes, Your Cells May Age At Different Rates \u2014 What That Means For Longevity",
+        "url": "https://www.mindbodygreen.com/articles/your-cells-dont-all-age-at-the-same-rate-and-that-gap-may-predict-how-long-youll-live",
+        "source": "mindbodygreen.com",
+        "date": "2026-06-20T09:17:00Z"
+      },
+      {
+        "title": "'When I got the call, I thought it was a joke!': GIANFRANCO ZOLA on his 'unbelievable' Ryder Cup assignment, the 'very wild' celebrations after Team Europe's victory - and his favourite Chelsea memory",
+        "url": "https://www.dailymail.com/sport/football/article-15914285/gianfranco-zola-ryder-cup-chelsea.html",
+        "source": "Dailymail.com",
+        "date": "2026-06-20T07:03:36Z"
+      },
+      {
+        "title": "'Alter-Ego': An Italian hospital's little robot carer",
+        "url": "https://www.rte.ie/news/newslens/2026/0620/1579279-milan-hospital-robot/",
+        "source": "RTE",
+        "date": "2026-06-20T05:00:00Z"
+      },
+      {
+        "title": "WATCH: David Muir shares how son helped dad on retirement flight after ALS cut career short",
+        "url": "https://abcnews.com/video/134047331/",
+        "source": "Abcnews.com",
+        "date": "2026-06-20T00:34:00Z"
+      },
+      {
+        "title": "A Vancouver Cop Just Made Medical History. His Thoughts Can Now Control His iPhone.",
+        "url": "https://www.iphoneincanada.ca/2026/06/19/vancouver-police-sergeant-first-canadian-als-neuralink/",
+        "source": "iPhone in Canada",
+        "date": "2026-06-19T17:29:10Z"
+      },
+      {
+        "title": "China's brain chip breakthrough raises big questions",
+        "url": "https://www.foxnews.com/tech/chinas-brain-chip-breakthrough-raises-big-questions",
+        "source": "Fox News",
+        "date": "2026-06-19T16:30:26Z"
+      },
+      {
+        "title": "Yankees Birthday of the Day: Lou Gehrig",
+        "url": "https://www.pinstripealley.com/yankees-history-trivia/192707/yankees-history-lou-gehrig-birthday-june-19-streak-babe-ruth-cal-ripken-jr-als-speech",
+        "source": "Pinstripe Alley",
+        "date": "2026-06-19T15:30:00Z"
+      },
+      {
+        "title": "Heikki\u2019s Garden of Flowers, Google, Ocean Observatories Initiative More: Friday ResearchBuzz, June 19, 2026",
+        "url": "https://researchbuzz.me/2026/06/19/heikkis-garden-of-flowers-google-ocean-observatories-initiative-more-friday-researchbuzz-june-19-2026/",
+        "source": "Researchbuzz.me",
+        "date": "2026-06-19T14:59:56Z"
+      },
+      {
+        "title": "PC building\u2019s weird new reality: Your favorite old parts are back on the menu",
+        "url": "https://www.pcworld.com/article/3168654/pc-buildings-weird-new-reality-your-favorite-old-parts-are-back-on-the-menu.html",
+        "source": "PCWorld",
+        "date": "2026-06-19T11:00:00Z"
+      },
+      {
+        "title": "Sharing but not Caring",
+        "url": "https://www.shopblogger.de/blog/archives/30887-Sharing-but-not-Caring.html",
+        "source": "Shopblogger.de",
+        "date": "2026-06-19T09:52:00Z"
+      },
+      {
+        "title": "\u2018Alter-Ego\u2019: An Italian hospital\u2019s little robot carer",
+        "url": "https://www.digitaljournal.com/article/alter-ego-an-italian-hospitals-little-robot-carer/",
+        "source": "Digital Journal",
+        "date": "2026-06-19T09:10:11Z"
+      },
+      {
+        "title": "Brain-computer interface trials are taking off",
+        "url": "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
+        "source": "MIT Technology Review",
+        "date": "2026-06-19T09:00:00Z"
+      },
+      {
+        "title": "A brain-computer interface has, for the first time, restored fluent everyday speech to a person who had lost it \u2014 a man with ALS who had not spoken aloud in years until a small implant from the BrainGate clinical trial began translating his attempts to speak directly into computer-synthesised words, in a result researchers reported in June 2026",
+        "url": "https://spacedaily.com/d-a-brain-computer-interface-has-for-the-first-time-restored-fluent-everyday-speech-to-a-person-who-had-lost-it-a-man-with-als-who-had-not-spoken-aloud-in-years-until-a-small-implant-from-th/",
+        "source": "Space Daily",
+        "date": "2026-06-19T06:45:08Z"
+      },
+      {
+        "title": "Results of Annual General Meeting",
+        "url": "https://www.globenewswire.com/news-release/2026/06/19/3314611/0/en/Results-of-Annual-General-Meeting.html",
+        "source": "GlobeNewswire",
+        "date": "2026-06-19T06:00:00Z"
+      },
+      {
+        "title": "Regulation and function of specialized membrane protrusions in intercellular communication",
+        "url": "https://www.nature.com/articles/s41580-026-00982-0",
+        "source": "Nature.com",
+        "date": "2026-06-19T00:00:00Z"
+      },
+      {
+        "title": "Red Sox CEO addresses team\u2019s \u2018brutal and truly sort of unthinkable\u2019 trade deadline reality",
+        "url": "https://nypost.com/2026/06/18/sports/sam-kennedy-addresses-red-sox-brutal-trade-deadline-reality/",
+        "source": "New York Post",
+        "date": "2026-06-18T22:59:45Z"
+      },
+      {
+        "title": "Aktuelle DVD- und Blu-ray-Tipps: Ein GoT-Prequel ohne Drachen: Das sind die DVD-Highlights der Woche",
+        "url": "https://www.stern.de/kultur/tv/ein-got-prequel-ohne-drachen--das-sind-die-dvd-highlights-der-woche-37568330.html",
+        "source": "STERN.de",
+        "date": "2026-06-18T22:00:07Z"
+      },
+      {
+        "title": "Annual General Meeting Statement",
+        "url": "https://www.globenewswire.com/news-release/2026/06/18/3314565/0/en/Annual-General-Meeting-Statement.html",
+        "source": "GlobeNewswire",
+        "date": "2026-06-18T21:35:00Z"
+      },
+      {
+        "title": "CervoMed Announces $10 Million Registered Direct Offering of Common Stock Priced At-The-Market Under Nasdaq Rules",
+        "url": "https://www.globenewswire.com/news-release/2026/06/18/3314430/0/en/CervoMed-Announces-10-Million-Registered-Direct-Offering-of-Common-Stock-Priced-At-The-Market-Under-Nasdaq-Rules.html",
+        "source": "GlobeNewswire",
+        "date": "2026-06-18T16:35:00Z"
+      },
+      {
+        "title": "Brain Chip Implant Enables Paralyzed ALS Patient To Speak And Work Again",
+        "url": "https://hothardware.com/news/brain-chip-implant-restores-speech-in-als-patient",
+        "source": "Hot Hardware",
+        "date": "2026-06-18T14:17:00Z"
+      },
+      {
+        "title": "9 Questions Dads Wish Their Kids Would Ask Them",
+        "url": "https://time.com/article/2026/06/18/questions-to-ask-dad-father/",
+        "source": "Time",
+        "date": "2026-06-18T14:15:33Z"
+      },
+      {
+        "title": "Greenland Mines (NASDAQ: GRML) Accelerates Sarfartoq Rare Earths Project Development with Updated S-K 1300 Resource Estimate Program",
+        "url": "https://www.prnewswire.com/news-releases/greenland-mines-nasdaq-grml-accelerates-sarfartoq-rare-earths-project-development-with-updated-s-k-1300-resource-estimate-program-302803739.html",
+        "source": "PRNewswire",
+        "date": "2026-06-18T12:30:00Z"
+      },
+      {
+        "title": "Endeavour Silver Intersects High-Grade Silver and Gold Mineralization at its Terronera Operation",
+        "url": "https://www.globenewswire.com/news-release/2026/06/18/3314030/0/en/Endeavour-Silver-Intersects-High-Grade-Silver-and-Gold-Mineralization-at-its-Terronera-Operation.html",
+        "source": "GlobeNewswire",
+        "date": "2026-06-18T10:50:00Z"
+      },
+      {
+        "title": "\"Stardust\" von Willie Nelson",
+        "url": "https://laut.de/Willie-Nelson/Alben/Stardust-79912",
+        "source": "Laut.de",
+        "date": "2026-06-18T08:17:06Z"
+      },
+      {
+        "title": "Brain implant allows ALS patient to return to full time work as an environmental advocate. This is the future we were promised [Cool]",
+        "url": "https://www.fark.com/comments/14102342/Brain-implant-allows-ALS-patient-to-return-to-full-time-work-as-an-environmental-advocate-This-is-future-we-were-promised",
+        "source": "Fark.com",
+        "date": "2026-06-17T23:50:05Z"
+      },
+      {
+        "title": "Apparently Being Medically Evacuated Isn't Jonathan Penner's Most Vivid Survivor Memory",
+        "url": "https://www.cinemablend.com/television/jonathan-penner-most-vivid-survivor-memory-wife-stacy-title-not-medical-evacuation",
+        "source": "CinemaBlend",
+        "date": "2026-06-17T17:08:41Z"
+      },
+      {
+        "title": "Astros vs. Tigers Game Discussion: 6/17/2026",
+        "url": "https://www.crawfishboxes.com/houston-astros-analysis/75738/astros-vs-tigers-game-discussion-6-17-2026",
+        "source": "The Crawfish Boxes",
+        "date": "2026-06-17T16:42:41Z"
+      },
+      {
+        "title": "Deciphering cell type-specific causal genetic effects on brain imaging-derived phenotypes and disorders with single-cell Mendelian randomization",
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014422",
+        "source": "Plos.org",
+        "date": "2026-06-17T14:00:00Z"
+      },
+      {
+        "title": "Neuralink finally has a real rival: Paradromics just put a brain chip in its first patient",
+        "url": "https://thenextweb.com/news/paradromics-first-clinical-brain-chip-implant-speech/",
+        "source": "The Next Web",
+        "date": "2026-06-17T13:41:14Z"
+      },
+      {
+        "title": "Paradromics and University of Michigan Complete First Connexus\u00ae BCI Implantation for the FDA-Approved Connect-One Clinical Study",
+        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/paradromics-and-university-of-michigan-complete-first-connexus-bci-implantation-for-the-fda-approved-connect-one-clinical-study",
+        "source": "Financial Post",
+        "date": "2026-06-17T13:06:29Z"
+      },
+      {
+        "title": "Neuralink competitor Paradromics just implanted its first brain-chip device. The next step is restoring speech.",
+        "url": "https://www.businessinsider.com/paradromics-brain-chip-implant-first-human-patient-speech-restoration-bci-2026-6#article",
+        "source": "Business Insider",
+        "date": "2026-06-17T13:00:02Z"
+      },
+      {
+        "title": "Copper Compound Cu(ATSM) Cleared 42% of Alzheimer's Toxic Proteins and Restored Memory in Lab \u2014 ACS Chemical Neuroscience June 2026",
+        "url": "https://www.medicaldaily.com/copper-cuatsm-alzheimers-amyloid-42-percent-blood-brain-barrier-monash-2026-475673",
+        "source": "Medical Daily",
+        "date": "2026-06-17T12:33:57Z"
+      },
+      {
+        "title": "The Download: a reality check for geoengineering and the science of interoception",
+        "url": "https://www.technologyreview.com/2026/06/17/1139200/the-download-solar-geoengineering-interoception/",
+        "source": "MIT Technology Review",
+        "date": "2026-06-17T12:10:00Z"
+      },
+      {
+        "title": "Yankees\u2019 Budding Superstar Questions Braves\u2019 Matt Olson Amid Surge",
+        "url": "https://www.forbes.com/sites/peterchawaga/2026/06/17/yankees-budding-superstar-questions-braves-matt-olson-amid-surge/",
+        "source": "Forbes",
+        "date": "2026-06-17T11:30:00Z"
+      },
+      {
+        "title": "6\u670820\u65e5\u300cWorld FSHD Day\u300d\u306b\u5408\u308f\u305b\u3001\u9854\u9762\u80a9\u7532\u4e0a\u8155\u578b\u7b4b\u30b8\u30b9\u30c8\u30ed\u30d5\u30a3\u30fc\u3068\u8a3a\u65ad\u3055\u308c\u305f\u4eba\u3068\u5bb6\u65cf\u306b\u5411\u3051\u305f\u65b0\u520a\u3092\u520a\u884c",
+        "url": "https://prtimes.jp/main/html/rd/p/000000001.000185101.html",
+        "source": "Prtimes.jp",
+        "date": "2026-06-17T08:37:53Z"
+      },
+      {
+        "title": "\u6c83\u5c14\u592b\u54c8\u7279\u00b7\u4ea8\u514b\u66fc\u4e28\u8d39\u5e0c\u7279 - \u8c22\u6797 - \u9ed1\u683c\u5c14 (\u8bc4\u8bba: Buchstabe und Geist)",
+        "url": "https://book.douban.com/review/17659267/",
+        "source": "Douban.com",
+        "date": "2026-06-17T08:34:51Z"
+      },
+      {
+        "title": "Brain Implant Lets Man With Severe Paralysis Speak in His Own Voice Again",
+        "url": "https://www.sciencealert.com/brain-implant-lets-man-with-severe-paralysis-speak-in-his-own-voice-again",
+        "source": "ScienceAlert",
+        "date": "2026-06-17T08:00:00Z"
+      },
+      {
+        "title": "$1.99 | Brief Answers to the Big Questions (eBook) by Stephen Hawking",
+        "url": "https://slickdeals.net/f/19638939-1-99-brief-answers-to-the-big-questions-ebook-by-stephen-hawking",
+        "source": "Slickdeals.net",
+        "date": "2026-06-17T07:46:34Z"
+      }
+    ],
+    "generated_at": "2026-06-21T11:17:20.593112"
+  },
+  {
     "date": "2026-06-14",
     "week_of": "June 14, 2026",
     "digest_number": 25,
