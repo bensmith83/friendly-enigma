@@ -4,29 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seashore Cottage Finder</title>
-    <meta name="description" content="Scan a whole summer for open dates at Sun Retreats Seashore instead of checking one date at a time.">
+    <meta name="description" content="Scan a whole summer for open dates at Sun Retreats Seashore. Mark booked nights once; it computes every open stay for you.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🏖️ Seashore Cottage Finder</h1>
-            <p class="subtitle">Find open dates for a <strong>Premium Cottage (2&nbsp;Bedroom)</strong> at Sun Retreats Seashore &mdash; scan the whole summer instead of one date at a time.</p>
+            <p class="subtitle">Find open dates for a <strong>Premium Cottage (2&nbsp;Bedroom)</strong> at Sun Retreats Seashore &mdash; mark the booked nights once, and it lists every open stay for you.</p>
         </header>
 
         <div class="callout">
-            <p><strong>How this works.</strong> The resort's own booking page only lets you check one date range at a time, which makes hunting for vacancy painful. This tool builds a checklist of <em>every</em> stay window across the summer, gives you a one-click link straight into the booking page for each, and remembers which dates you found open &mdash; all saved in your browser.</p>
+            <p><strong>You don't click through hundreds of date combinations.</strong> The resort's booking calendar greys out nights that are already taken &mdash; a whole month at a glance. So you only do this: open the calendar (3 quick pages for the summer), <em>tick the booked nights</em> here, and this tool instantly computes <em>every</em> open stay that fits your trip length. Roughly a dozen clicks, not hundreds.</p>
             <details>
-                <summary>Why can't it just check availability automatically?</summary>
-                <p>The resort runs its booking through Campspot. Real-time availability lives behind a paid, authenticated API and bot protection, so a free page like this usually <em>cannot</em> read it directly from your browser (the request gets blocked by the site's security/CORS rules). The tool will still <em>attempt</em> a live check when you ask &mdash; but the dependable path is: open each window's link, glance at the result, and tick it off here. You can also <strong>teach it your booking link</strong> below so the one-click links land on the exact dates automatically.</p>
+                <summary>Why can't it read availability automatically?</summary>
+                <p>The resort books through Campspot, whose live availability sits behind a paid, authenticated API and bot protection. A free page like this can't reliably read it from your browser (cross-site security blocks it). But you can: the calendar shows booked nights visually, so marking them takes seconds.</p>
             </details>
         </div>
 
         <main>
             <!-- STEP 1: Settings -->
             <section class="card">
-                <h2><span class="step">1</span> Set your search</h2>
-
+                <h2><span class="step">1</span> Your trip preferences</h2>
                 <div class="grid">
                     <div class="field">
                         <label for="start-date">Earliest check-in</label>
@@ -41,18 +40,16 @@
                         <input type="number" id="guests" min="1" max="6" value="2">
                     </div>
                 </div>
-
                 <div class="field">
-                    <label>Stay length (nights)</label>
+                    <label>Stay length (nights) you'd accept</label>
                     <div class="chips" id="length-chips">
                         <label class="chip"><input type="checkbox" value="2" checked> 2</label>
                         <label class="chip"><input type="checkbox" value="3" checked> 3</label>
                         <label class="chip"><input type="checkbox" value="4" checked> 4</label>
                         <label class="chip"><input type="checkbox" value="7" checked> 7</label>
                     </div>
-                    <p class="hint">Pick any combination &mdash; "Flexible" means leave several checked.</p>
+                    <p class="hint">Check several &mdash; "flexible" just means leave more boxes ticked.</p>
                 </div>
-
                 <div class="field">
                     <label for="dow-filter">Check-in day</label>
                     <select id="dow-filter">
@@ -61,17 +58,16 @@
                         <option value="weekday">Weekdays only (Sun&ndash;Thu check-in)</option>
                     </select>
                 </div>
-
                 <div class="actions">
-                    <button id="generate-btn" class="btn btn-primary">Build my date checklist</button>
+                    <button id="build-btn" class="btn btn-primary">Build my availability calendar</button>
                     <button id="reset-btn" class="btn btn-ghost">Reset everything</button>
                 </div>
             </section>
 
-            <!-- STEP 2: Teach the link -->
+            <!-- STEP 2: Teach the link (optional) -->
             <section class="card">
-                <h2><span class="step">2</span> Teach it your booking link <span class="optional">optional, but recommended</span></h2>
-                <p>Go to the booking page once, pick <em>any</em> set of dates, and copy the URL from your browser's address bar. Paste it below and this tool will reuse its exact format so every link lands on the right dates. If you skip this, links open the booking page with a best-effort guess.</p>
+                <h2><span class="step">2</span> Teach it your booking link <span class="optional">optional</span></h2>
+                <p>Open the booking page once, pick any dates, and copy the URL from your address bar. Paste it below so the "Book ↗" links on your open-stay list land on the exact dates. Skip this and links open the booking page for you to set dates.</p>
                 <div class="field">
                     <textarea id="template-url" rows="3" placeholder="Paste a booking URL that already has dates in it, e.g. https://www.sunoutdoors.com/book/checkavailability/236/nj/sun-retreats-seashore?..."></textarea>
                 </div>
@@ -82,58 +78,47 @@
                 <p id="template-status" class="status-line"></p>
             </section>
 
-            <!-- STEP 3: Results -->
+            <!-- STEP 3: Mark the calendar -->
+            <section class="card" id="calendar-card" hidden>
+                <h2><span class="step">3</span> Mark the booked nights</h2>
+                <p>Open the booking calendar (button above), look for the greyed-out / unavailable nights, and click those same nights below to mark them <strong>Booked</strong>. Click again to cycle Free → Booked → Unknown. When you've marked everything you can see, hit <em>"Mark the rest as free."</em></p>
+                <div class="legend">
+                    <span class="swatch free"></span> Free
+                    <span class="swatch booked"></span> Booked
+                    <span class="swatch unknown"></span> Unknown (not yet checked)
+                </div>
+                <div class="actions">
+                    <button id="rest-free-btn" class="btn btn-secondary">Mark the rest as free</button>
+                    <button id="all-unknown-btn" class="btn btn-ghost">Clear all marks</button>
+                </div>
+                <div id="calendar" class="calendar"></div>
+            </section>
+
+            <!-- STEP 4: Open stays -->
             <section class="card" id="results-card" hidden>
                 <div class="results-head">
-                    <h2><span class="step">3</span> Your summer checklist</h2>
-                    <div class="results-tools">
-                        <label class="inline"><input type="checkbox" id="show-open-only"> Show only "Open" dates</label>
-                        <select id="filter-status" class="mini">
-                            <option value="all">All statuses</option>
-                            <option value="unknown">Not checked yet</option>
-                            <option value="open">Open</option>
-                            <option value="full">Full</option>
-                            <option value="maybe">Maybe</option>
-                        </select>
-                    </div>
+                    <h2><span class="step">4</span> Your open stays</h2>
+                    <label class="inline"><input type="checkbox" id="show-partial"> Also show stays with unchecked nights</label>
                 </div>
-
                 <div class="summary-bar" id="summary-bar"></div>
-
                 <div class="actions live-actions">
-                    <button id="check-all-btn" class="btn btn-secondary">⚡ Attempt live auto-check (experimental)</button>
-                    <button id="copy-open-btn" class="btn btn-ghost">Copy open dates</button>
-                    <button id="print-btn" class="btn btn-ghost">Print checklist</button>
+                    <button id="copy-btn" class="btn btn-ghost">Copy list</button>
+                    <button id="print-btn" class="btn btn-ghost">Print</button>
                 </div>
-                <p id="live-status" class="status-line"></p>
-
                 <div class="table-wrap">
                     <table id="results-table">
                         <thead>
-                            <tr>
-                                <th>Check-in</th>
-                                <th>Check-out</th>
-                                <th>Nights</th>
-                                <th>Open booking</th>
-                                <th>Status</th>
-                                <th>Notes</th>
-                            </tr>
+                            <tr><th>Check-in</th><th>Check-out</th><th>Nights</th><th>Status</th><th>Book</th></tr>
                         </thead>
                         <tbody id="results-body"></tbody>
                     </table>
                 </div>
             </section>
 
-            <!-- Advanced -->
             <section class="card">
                 <details>
-                    <summary><strong>Advanced</strong> &mdash; live-check settings (for the technically curious)</summary>
-                    <p class="hint">The live auto-check tries to fetch each booking link from your browser. Cross-site security usually blocks this. If you have a CORS proxy you trust, you can route requests through it. Leave blank to attempt a direct request.</p>
-                    <div class="field">
-                        <label for="proxy-url">CORS proxy prefix (optional)</label>
-                        <input type="text" id="proxy-url" placeholder="e.g. https://my-proxy.example/?url=">
-                    </div>
-                    <p class="hint">Your settings, learned link, and date statuses are stored only in this browser (localStorage). Nothing is sent anywhere except the booking links you open and any live-check requests you trigger.</p>
+                    <summary><strong>About & privacy</strong></summary>
+                    <p class="hint">Everything runs in your browser. Your preferences, learned link, and the nights you mark are saved only in this browser's localStorage &mdash; nothing is sent anywhere except the booking links you choose to open.</p>
                 </details>
             </section>
         </main>
