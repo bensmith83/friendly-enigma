@@ -226,6 +226,56 @@ input:focus, select:focus, textarea:focus {
 .inline { display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem; }
 .mini { width: auto; padding: 6px 10px; font-size: 0.85rem; }
 
+/* ---- Automated mode ---- */
+code {
+    background: #eef5f6;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.88em;
+    color: var(--danger-color);
+}
+ol.how { margin: 14px 0 14px 20px; }
+ol.how > li { margin-bottom: 14px; }
+
+.loader-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    margin-top: 10px;
+}
+.loader {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 14px;
+    background: #fbfdfd;
+}
+.loader strong { color: var(--primary-dark); }
+.loader p { font-size: 0.85rem; color: var(--text-muted); margin: 6px 0 10px; }
+
+.bookmarklet {
+    display: inline-block;
+    padding: 10px 16px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: grab;
+}
+.bookmarklet:active { cursor: grabbing; }
+
+.advanced { margin-top: 16px; }
+.advanced summary { cursor: pointer; font-weight: 600; color: var(--primary-dark); }
+#script-preview {
+    width: 100%;
+    margin-top: 10px;
+    font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+    font-size: 0.78rem;
+    background: #0f2933;
+    color: #d6f1ea;
+    border-color: #0f2933;
+}
+
 /* ---- Calendar ---- */
 .legend {
     display: flex;

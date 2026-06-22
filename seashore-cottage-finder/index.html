@@ -4,22 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seashore Cottage Finder</title>
-    <meta name="description" content="Scan a whole summer for open dates at Sun Retreats Seashore. Mark booked nights once; it computes every open stay for you.">
+    <meta name="description" content="Automatically scan a whole summer for an open cottage at Sun Retreats Seashore by replaying the booking site's own availability API in your browser.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🏖️ Seashore Cottage Finder</h1>
-            <p class="subtitle">Find open dates for a <strong>Premium Cottage (2&nbsp;Bedroom)</strong> at Sun Retreats Seashore &mdash; mark the booked nights once, and it lists every open stay for you.</p>
+            <p class="subtitle">Automatically scan a whole summer for an open <strong>Premium Cottage (2&nbsp;Bedroom)</strong> at Sun Retreats Seashore &mdash; the machine does the date-by-date checking, not you.</p>
         </header>
 
         <div class="callout">
-            <p><strong>You don't click through hundreds of date combinations.</strong> The resort's booking calendar greys out nights that are already taken &mdash; a whole month at a glance. So you only do this: open the calendar (3 quick pages for the summer), <em>tick the booked nights</em> here, and this tool instantly computes <em>every</em> open stay that fits your trip length. Roughly a dozen clicks, not hundreds.</p>
-            <details>
-                <summary>Why can't it read availability automatically?</summary>
-                <p>The resort books through Campspot, whose live availability sits behind a paid, authenticated API and bot protection. A free page like this can't reliably read it from your browser (cross-site security blocks it). But you can: the calendar shows booked nights visually, so marking them takes seconds.</p>
-            </details>
+            <p><strong>Yes, we can hit the site's own API &mdash; but only from inside your browser.</strong> The booking site sits behind Akamai bot protection, so a normal web page or a server gets blocked (<code>403 Access Denied</code>). The fix: a small script that runs <em>on the booking page itself</em>, where requests are same-origin and carry your real session &mdash; so they pass straight through to the exact availability API the site uses. It watches one search you do, learns the request, then replays it across the whole summer for you.</p>
         </div>
 
         <main>
@@ -50,81 +46,94 @@
                     </div>
                     <p class="hint">Check several &mdash; "flexible" just means leave more boxes ticked.</p>
                 </div>
-                <div class="field">
-                    <label for="dow-filter">Check-in day</label>
-                    <select id="dow-filter">
-                        <option value="any">Any day</option>
-                        <option value="weekend">Weekends only (Fri / Sat check-in)</option>
-                        <option value="weekday">Weekdays only (Sun&ndash;Thu check-in)</option>
-                    </select>
-                </div>
-                <div class="actions">
-                    <button id="build-btn" class="btn btn-primary">Build my availability calendar</button>
-                    <button id="reset-btn" class="btn btn-ghost">Reset everything</button>
+                <div class="grid">
+                    <div class="field">
+                        <label for="dow-filter">Check-in day</label>
+                        <select id="dow-filter">
+                            <option value="any">Any day</option>
+                            <option value="weekend">Weekends only (Fri / Sat)</option>
+                            <option value="weekday">Weekdays only (Sun&ndash;Thu)</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="unit-keyword">Unit keyword</label>
+                        <input type="text" id="unit-keyword" value="Premium Cottage">
+                        <p class="hint">Text that identifies your cottage in results.</p>
+                    </div>
                 </div>
             </section>
 
-            <!-- STEP 2: Teach the link (optional) -->
+            <!-- STEP 2: Automated checker -->
             <section class="card">
-                <h2><span class="step">2</span> Teach it your booking link <span class="optional">optional</span></h2>
-                <p>Open the booking page once, pick any dates, and copy the URL from your address bar. Paste it below so the "Book ↗" links on your open-stay list land on the exact dates. Skip this and links open the booking page for you to set dates.</p>
-                <div class="field">
-                    <textarea id="template-url" rows="3" placeholder="Paste a booking URL that already has dates in it, e.g. https://www.sunoutdoors.com/book/checkavailability/236/nj/sun-retreats-seashore?..."></textarea>
-                </div>
-                <div class="actions">
-                    <button id="learn-btn" class="btn btn-secondary">Learn this link</button>
-                    <a id="open-booking" class="btn btn-ghost" href="https://www.sunoutdoors.com/book/checkavailability/236/nj/sun-retreats-seashore" target="_blank" rel="noopener">Open booking page ↗</a>
-                </div>
-                <p id="template-status" class="status-line"></p>
+                <h2><span class="step">2</span> Run the automatic scan <span class="optional">recommended</span></h2>
+                <p>This is the hands-off way. The checker runs on the booking site and does every date lookup for you.</p>
+
+                <ol class="how">
+                    <li><a id="open-booking" href="https://www.sunoutdoors.com/book/checkavailability/236/nj/sun-retreats-seashore" target="_blank" rel="noopener"><strong>Open the booking page ↗</strong></a> and sign in / get to the cottage search.</li>
+                    <li>Load the checker onto that page &mdash; pick one:
+                        <div class="loader-options">
+                            <div class="loader">
+                                <strong>A. Bookmarklet (easiest)</strong>
+                                <p>Drag this to your bookmarks bar, then click it while on the booking page:</p>
+                                <a id="bookmarklet" class="bookmarklet" href="#">🏖️ Cottage Finder</a>
+                            </div>
+                            <div class="loader">
+                                <strong>B. Console paste</strong>
+                                <p>Open DevTools (F12) → Console, paste the script, press Enter:</p>
+                                <button id="copy-script" class="btn btn-secondary">Copy the checker script</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>A little <strong>🏖️ Cottage Finder</strong> panel appears. <strong>Do one normal availability search</strong> on the page (any dates) so it can learn the request.</li>
+                    <li>Press <strong>Run the summer scan</strong>. It lists every open stay and can copy them to your clipboard.</li>
+                </ol>
+                <p id="gen-status" class="status-line"></p>
+
+                <details class="advanced">
+                    <summary>See / tweak the generated script</summary>
+                    <p class="hint">This is the exact code, configured with your settings above. Re-copy after changing any preference. Throttle (ms between calls): <input type="number" id="throttle" value="450" min="150" max="3000" style="width:90px"></p>
+                    <textarea id="script-preview" rows="10" readonly spellcheck="false"></textarea>
+                </details>
             </section>
 
-            <!-- STEP 3: Mark the calendar -->
-            <section class="card" id="calendar-card" hidden>
-                <h2><span class="step">3</span> Mark the booked nights</h2>
-                <p>Open the booking calendar (button above), look for the greyed-out / unavailable nights, and click those same nights below to mark them <strong>Booked</strong>. Click again to cycle Free → Booked → Unknown. When you've marked everything you can see, hit <em>"Mark the rest as free."</em></p>
-                <div class="legend">
-                    <span class="swatch free"></span> Free
-                    <span class="swatch booked"></span> Booked
-                    <span class="swatch unknown"></span> Unknown (not yet checked)
-                </div>
-                <div class="actions">
-                    <button id="rest-free-btn" class="btn btn-secondary">Mark the rest as free</button>
-                    <button id="all-unknown-btn" class="btn btn-ghost">Clear all marks</button>
-                </div>
-                <div id="calendar" class="calendar"></div>
-            </section>
-
-            <!-- STEP 4: Open stays -->
-            <section class="card" id="results-card" hidden>
-                <div class="results-head">
-                    <h2><span class="step">4</span> Your open stays</h2>
-                    <label class="inline"><input type="checkbox" id="show-partial"> Also show stays with unchecked nights</label>
-                </div>
-                <div class="summary-bar" id="summary-bar"></div>
-                <div class="actions live-actions">
-                    <button id="copy-btn" class="btn btn-ghost">Copy list</button>
-                    <button id="print-btn" class="btn btn-ghost">Print</button>
-                </div>
-                <div class="table-wrap">
-                    <table id="results-table">
-                        <thead>
-                            <tr><th>Check-in</th><th>Check-out</th><th>Nights</th><th>Status</th><th>Book</th></tr>
-                        </thead>
-                        <tbody id="results-body"></tbody>
-                    </table>
-                </div>
+            <!-- STEP 3: Manual fallback -->
+            <section class="card">
+                <details id="manual-wrap">
+                    <summary><h2 style="display:inline"><span class="step">3</span> Manual fallback</h2> &mdash; if the auto-scan can't read the API</summary>
+                    <p>Pick dates on the booking site yourself and record what you find here; it computes every open stay from the nights you mark. <button id="build-btn" class="btn btn-ghost">Build calendar</button></p>
+                    <div id="manual-body" hidden>
+                        <div class="legend">
+                            <span class="swatch free"></span> Free
+                            <span class="swatch booked"></span> Booked
+                            <span class="swatch unknown"></span> Not checked
+                            <span class="hint">(click a night to cycle)</span>
+                        </div>
+                        <div class="actions">
+                            <button id="rest-free-btn" class="btn btn-ghost">Mark remaining free</button>
+                            <button id="all-unknown-btn" class="btn btn-ghost">Clear marks</button>
+                        </div>
+                        <div id="calendar" class="calendar"></div>
+                        <div class="summary-bar" id="summary-bar"></div>
+                        <div class="table-wrap">
+                            <table>
+                                <thead><tr><th>Check-in</th><th>Check-out</th><th>Nights</th><th>Status</th><th>Book</th></tr></thead>
+                                <tbody id="results-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </details>
             </section>
 
             <section class="card">
                 <details>
-                    <summary><strong>About & privacy</strong></summary>
-                    <p class="hint">Everything runs in your browser. Your preferences, learned link, and the nights you mark are saved only in this browser's localStorage &mdash; nothing is sent anywhere except the booking links you choose to open.</p>
+                    <summary><strong>Is this allowed? &amp; privacy</strong></summary>
+                    <p class="hint">The checker only replays the same availability searches you could do by hand, from your own logged-in browser, with a polite delay between calls &mdash; it reads availability, it does not book anything. Go easy on the throttle. Everything runs client-side; your settings and any marked nights are saved only in this browser. This is a personal planning aid and is not affiliated with Sun Outdoors, Sun Retreats, or Campspot &mdash; always confirm and book on the official site.</p>
                 </details>
             </section>
         </main>
 
         <footer>
-            <p>Not affiliated with Sun Outdoors, Sun Retreats, or Campspot. A personal planning aid &mdash; always confirm availability and book on the official site.</p>
+            <p>A personal planning aid. Always confirm availability and book on the official site.</p>
         </footer>
     </div>
     <script src="script.js"></script>
