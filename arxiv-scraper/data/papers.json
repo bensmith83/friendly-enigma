@@ -1,5 +1,26 @@
 [
   {
+    "id": "2606.20396v1",
+    "title": "Faking entanglement with imperceptible measurement deviations",
+    "summary": "Quantum entanglement is a central resource underpinning emerging quantum technologies, enabling capabilities beyond those of classical systems. Accurate verification of entanglement is therefore crucial. However, experimental schemes usually rely on the assumption that quantum measurements can be realized exactly. As the complexity of a quantum system grows, this assumption typically becomes increasingly unrealistic, therefore leading to a widening mismatch between theoretical models and experimental implementations. Here we demonstrate that arbitrarily small measurement errors, when adversarially encoded in the measurement apparatus, can lead to the false certification of high-dimensional entanglement in systems that are, in fact, separable. This is achieved by introducing explicit hacking attacks to measurement devices in well-established entanglement verification tests. We further experimentally demonstrate this effect using classical photonic states encoded in the spatial degree of freedom, spanning up to 61 dimensions with measurement fidelity errors as low as 0.23%. Our results uncover a fundamental vulnerability in current methods for high-dimensional entanglement detection, highlighting the susceptibility of complex quantum devices to small adversarial perturbations. The findings underscore the need for developing secure verification of quantum information that is robust to bounded discrepancies between theory and experiment.",
+    "published": "2026-06-18T15:49:58Z",
+    "link": "http://arxiv.org/abs/2606.20396v1",
+    "authors": [
+      "Jaime Moreno",
+      "Elna Svegborn",
+      "Simon Morelli",
+      "Markus Hiekkam\u00e4aki",
+      "Lea Kopf",
+      "Robert Fickler",
+      "Armin Tavakoli"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "ai_summary": "Quantum entanglement is a central resource underpinning emerging quantum technologies, enabling capabilities beyond those of classical systems. Accurate verification of entanglement is therefore crucial.",
+    "selected_date": "2026-06-22"
+  },
+  {
     "id": "2606.20408v1",
     "title": "LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness, safety-critical systems",
     "summary": "Large language model (LLM) agents are increasingly proposed as supervisory components for safety-critical systems, yet their robustness under sustained, adaptive adversarial pressure remains poorly characterized. We present NRT-Bench, a benchmark for multi-turn red-teaming of LLM agents acting as operators of a safety-critical system, instantiated in a simulated nuclear power plant control room. A five-role operator team, each backed by a configurable LLM, runs a plant governed by six critical safety functions (CSFs), while adversaries inject messages over four channels in bounded multi-turn sessions with per-turn feedback. Harm is an objective signal rather than LLM-judged text: a run terminates the moment any CSF is lost, attributed to the causing message. Evaluating four frontier operator models under a fixed-attack paired-replay protocol, we find that adaptive multi-turn attacks reliably push the operator team past a safety limit: across the four models, between 8.7% and 12.1% of attack sessions end with the plant losing a critical safety function. Although the four models look almost equally robust by this aggregate rate, their failures barely overlap: of $149$ sessions, none defeat all four models while a third defeat at least one, so vulnerabilities are nearly disjoint across models rather than nested. The effect of added defences is strongly model-dependent: the same guardrail stack or safety-advisor agent that lowers attack success for one model can raise it for another. We release the simulation venue, attack dataset, and replay tooling for reproducible safety evaluation of LLM agents.",
@@ -637,26 +658,5 @@
     ],
     "ai_summary": "Federated Learning enables collaborative model training across decentralized data sources without data transfer. Averaging-based FL is limited by the presence of non-IID data, which negatively impacts convergence speed and final model accuracy.",
     "selected_date": "2026-05-21"
-  },
-  {
-    "id": "2605.20174v1",
-    "title": "Multi-axis Analysis of Image Manipulation Localization",
-    "summary": "Advanced image editing software enables easy creation of highly convincing image manipulations, which has been made even more accessible in recent years due to advances in generative AI. Manipulated images, while often harmless, could spread misinformation, create false narratives, and influence people's opinions on important issues. Despite this growing threat, there is limited research on detecting advanced manipulations across different visual domains. Thus, we introduce Analysis Under Domain-shifts, qualIty, Type, and Size (AUDITS), a comprehensive benchmark designed for studying axes of analysis in image manipulation detection. AUDITS comprises over 530K images from two distinct sources (user and news photos). We curate our dataset to support analysis across multiple axes using recent diffusion-based inpaintings, spanning a diverse range of manipulation types and sizes. We conduct experiments under different types of domain shift to evaluate robustness of existing image manipulation detection methods. Our goal is to drive further research in this area by offering new insights that would help develop more reliable and generalizable image manipulation detection methods.",
-    "published": "2026-05-19T17:54:33Z",
-    "link": "http://arxiv.org/abs/2605.20174v1",
-    "authors": [
-      "Keanu Nichols",
-      "Divya Appapogu",
-      "Giscard Biamby",
-      "Dina Bashkirova",
-      "Anna Rohrbach",
-      "Bryan A. Plummer"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.LG"
-    ],
-    "ai_summary": "Advanced image editing software enables easy creation of highly convincing image manipulations, which has been made even more accessible in recent years due to advances in generative AI. Manipulated images, while often harmless, could spread misinformation, create false narratives, and influence people's opinions on important issues.",
-    "selected_date": "2026-05-20"
   }
 ]
