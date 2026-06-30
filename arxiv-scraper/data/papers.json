@@ -1,5 +1,28 @@
 [
   {
+    "id": "2606.30373v1",
+    "title": "Your Space is My Zone: Demystifying the Security Risks of AI-Powered Applications on Pre-Trained Model Hubs",
+    "summary": "AI-powered Applications (AI-Apps), hosted on platforms such as Hugging Face, are democratizing access to pre-trained models through online inference and fine-tuning services. While lowering AI adoption barriers, these platforms introduce an unexplored attack surface, as AI-Apps are often developed by untrusted parties with weak isolation and misconfigured security settings. In this paper, we present the first systematic security analysis of AI-Apps across three leading platforms. To structure our investigation, we map the AI-App lifecycle to established risk taxonomies (e.g., OWASP), identifying five threat categories and ten attack vectors ranging from generic web flaws to high-impact architectural issues. Our analysis reveals critical failures including broken access control, insecure resource reuse, insufficient input validation, and sensitive data exposure. Notably, we uncover three novel architectural vulnerabilities inherent to platform design and demonstrate how traditional issues (e.g., world-readable logs) are uniquely amplified in this ecosystem. To assess real-world impact, we develop an analysis framework Insightor and apply it to over 970,000 public AI-Apps. Alarmingly, we find thousands of apps leaking credentials, hundreds containing input injection vulnerabilities that allow arbitrary code execution, and tens harboring embedded backdoors -- indicating active exploitation. We have responsibly disclosed all findings to the affected platforms and developers.",
+    "published": "2026-06-29T14:34:43Z",
+    "link": "http://arxiv.org/abs/2606.30373v1",
+    "authors": [
+      "Yacong Gu",
+      "Lingyun Ying",
+      "Zidong Zhang",
+      "Yingyuan Pu",
+      "Xiaoxue Huang",
+      "Jiawei Zhou",
+      "Wenjie Zhu",
+      "Donghong Sun",
+      "Haixin Duan"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "AI-powered Applications (AI-Apps), hosted on platforms such as Hugging Face, are democratizing access to pre-trained models through online inference and fine-tuning services. While lowering AI adoption barriers, these platforms introduce an unexplored attack surface, as AI-Apps are often developed by untrusted parties with weak isolation and misconfigured security settings.",
+    "selected_date": "2026-06-30"
+  },
+  {
     "id": "2606.28270v1",
     "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
     "summary": "The transition from static chat bots to autonomous agents--equipped with persistent memory, tool-use protocols, and multi-agent collaboration--has fundamentally expanded the AI threat landscape. Current defense mechanisms, such as perimeter security and training-time alignment, remain external to the agent's active reasoning loop. Consequently, they fall short: a fully aligned agent remains highly vulnerable to runtime hijacking via memory poisoning, tool-chain manipulation, or multi-agent protocol attacks. To address this critical gap, we introduce the Agent-Native Immune System (ANIS), the first biologically inspired, endogenous defense architecture embedded directly within the agent's cognitive loop. Our framework presents four primary contributions. First, we design a six-layer Immune Tower (L0-L5), distinctly incorporating Barrier Immunity (L1) as a non-cognitive, physical-and-logical isolation layer. Second, we establish a unified taxonomy of Agent Viruses and Agent Vaccines, formalizing the critical distinction between superficial non-parametric defenses and robust parametric vaccines. Third, we conceptualize the Harness Triad--Meta, Self, and Auto--a self-monitoring, meta-cognitive automation backbone that drives Continual Immune Learning (CIL), enabling vaccines to dynamically adapt to novel threats. Finally, we establish a rigorous theoretical demarcation between model alignment and agent immunity: while alignment provides a static \"constitutional\" value foundation during training, ANIS serves as the dynamic \"law enforcement\" mechanism during runtime. We conclude by framing open challenges for the field, including immune protocol standardization, novel evaluation metrics such as the Autoimmunity Rate (false-positive intervention rate), and the co-evolutionary dynamics between pathogens and vaccines within collective intelligence ecosystems.",
@@ -643,26 +666,5 @@
     ],
     "ai_summary": "Modern open-world agents such as OpenClaw exhibit powerful cross-environment execution capabilities yet introduce broad new safety risk sources. Meanwhile, advanced frontier AI models drastically lower attack barriers, rendering current agent alignment frameworks inadequate for real-world deployment.",
     "selected_date": "2026-05-30"
-  },
-  {
-    "id": "2605.30203v1",
-    "title": "A Bayesian Approach to Membership Inference for Statistical Release",
-    "summary": "The membership inference problem for publicly released statistics from a private dataset is well-studied. When developing and formally analyzing attack strategies, however, the focus has been on attacks that model the population using only its marginals. In practice, these attacks can perform well on various populations, however most formal analysis is for populations that follow a product distribution. These strategies may fail to leverage useful information about the population that is important for understanding a realistic privacy threat.   In this work, we explore the impact of providing an attacker with additional information about the attribute dependency structure of the population, motivated by examples where multiple parties may have access to similarly structured data, for example the US Census and the IRS. To model this scenario, we re-frame the membership inference problem with respect to a population represented as a Bayesian network (BN). We develop a framework based on Bayesian decision-making which can incorporate prior information about the population to launch more effective, specialized attacks.   To evaluate our framework, we introduce a specific attack instantiation which computes the Bayesian posterior using a probabilistic program, and prove its equivalence to an optimal variant of the likelihood ratio test attack for two populations with strong attribute dependency. We implement our program in the Roulette probabilistic programming language and show experimentally that it outperforms the likelihood ratio test and inner product attacks on five commonly used BNs, where the population dependency structure is too complex for the existing attacks to be manually adapted.",
-    "published": "2026-05-28T16:42:04Z",
-    "link": "http://arxiv.org/abs/2605.30203v1",
-    "authors": [
-      "Lisa Oakley",
-      "Sam Stites",
-      "Cameron Moy",
-      "Steven Holtzen",
-      "Alina Oprea",
-      "Marco Gaboardi"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.PL"
-    ],
-    "ai_summary": "The membership inference problem for publicly released statistics from a private dataset is well-studied. When developing and formally analyzing attack strategies, however, the focus has been on attacks that model the population using only its marginals.",
-    "selected_date": "2026-05-29"
   }
 ]
