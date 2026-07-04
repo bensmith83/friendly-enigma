@@ -1,5 +1,24 @@
 [
   {
+    "id": "2607.02074v1",
+    "title": "Comprehensive Robustness Analysis of LiDAR-based 3D Object Detection in Autonomous Driving",
+    "summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested. Very few adversarial robustness studies exist for LiDAR-only 3D object detection and unfortunately, even they are limited to legacy models. Moreover, there is a systemic gap in the existing evaluation frameworks that rely simply on mAP ignoring other structural and predictive factors. To fill this gap, we propose a holistic framework that evaluates adversarial robustness using two structural factors (point cloud density and point cloud localization) and three predictive factors (misclassification, localization error, distance from ego). Using this framework, we perform an empirical study and critical analysis on recent and legacy state-of-the-art models using adversarial attacks specifically designed for LiDAR-based models. Our key finding is that high-capacity, voxel-based detectors are more susceptible to structured coordinate perturbations than pillar-based detectors. Additionally, non-anchor-based detectors demonstrate poor adversarial robustness, which necessitates rethinking model training techniques. Overall, our results demonstrate that recent models are as vulnerable to adversarial attacks as their predecessors. Therefore, we argue that there is a need to improve the evaluation benchmarks for 3D object detection that not only reward architectural modifications for improving detection accuracy, but also evaluate whether the design choices improve adversarial robustness.",
+    "published": "2026-07-02T12:13:49Z",
+    "link": "http://arxiv.org/abs/2607.02074v1",
+    "authors": [
+      "Adwait Chandorkar",
+      "Kai Krink",
+      "Yerdana Maulenbay",
+      "Hasan Tercan",
+      "Tobias Meisen"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested.",
+    "selected_date": "2026-07-04"
+  },
+  {
     "id": "2607.02187v1",
     "title": "Privacy-Preserving and Verifiable Approximate Distributed Coded Computing",
     "summary": "Distributed machine learning enables collaborative model training without centralizing data, but it also exposes learning processes to privacy leakage and malicious manipulation. Existing defenses typically address these threats in isolation and are often tailored to specific learning paradigms or model architectures, limiting their applicability in realistic deployments. In particular, federated learning and decentralized learning exhibit distinct adversarial surfaces that are rarely addressed within a unified framework. In this paper, we present a model-agnostic framework for adversary-resistant distributed learning that jointly addresses privacy preservation and malicious behavior across both federated and decentralized settings. Our approach combines paradigm-specific defense mechanisms with GPBACC, a privacy-enhancing coded computing technique applicable to arbitrary machine learning models. For federated learning, we integrate robust aggregation strategies to mitigate the impact of malicious participants, while for decentralized learning we employ approximate decode-and-compare and group testing techniques to enable lightweight verification and adversary isolation without relying on a trusted aggregator. Crucially, we evaluate the proposed framework through an explicit, attack-driven analysis. We implement representative privacy attacks and malicious behaviors, and empirically demonstrate that the combination of GPBACC with robust aggregation and verification mechanisms significantly reduces privacy leakage and improves resilience against active adversaries. These results suggest that privacy-enhancing coded computing, when combined with appropriate adversary-resistance strategies, provides a practical and deployable foundation for secure distributed machine learning.",
@@ -600,26 +619,5 @@
     ],
     "ai_summary": "Service discovery is essential in wireless communications. However, existing protocols provide limited privacy protection, leaking sensitive device information and opening routes to network attacks.",
     "selected_date": "2026-06-05"
-  },
-  {
-    "id": "2606.02196v1",
-    "title": "PyFEX: Uncovering Evasive Python-based Threats via Resilient and Exhaustive Path Exploration",
-    "summary": "The rapid expansion of the Python ecosystem has fueled two distinct but converging threats: adversaries increasingly target the software supply chain via the Python Package Index (PyPI), while also building evasive, cross-platform malicious binaries compiled from source code written in Python. Current program analysis techniques struggle to address this dual threat. Static analysis based tools are often blinded by runtime obfuscation and compiled bytecode, while dynamic analysis based ones are fragile, prone to evasion by environmental guardrails, and often terminates prematurely due to unsatisfied dependencies.   To overcome these limitations, we present PyFEX, a resilient forced-execution engine. PyFEX explores a program's behavioral space systematically by forcing execution across all conditional branches to bypass evasion checks. To address the fragility of dynamic execution, it introduces a novel resilient crash recovery mechanism that synthesizes dummy objects to satisfy failed operations at the runtime, allowing analysis to proceed past fatal errors, and employs path merging to mitigate path explosion. PyFEX further incorporates an automated entry identification mechanism that proactively discovers and invokes dormant functions, exposing malicious logic hidden within uncalled APIs. To demonstrate the efficacy of this engine, we built PyFEXScan, a proof-of-concept malware detector built on top of PyFEX. Evaluated against both known malicious PyPI packages and real-world compiled binaries, PyFEX exposes critical behaviors missed by the existing state-of-the-art tools. In a live deployment on PyPI, PyFEXScan discovered 212 previously unknown malicious packages accounting for over 91,648 downloads, underscoring the necessity of resilient, exhaustive analysis for securing the Python ecosystem.",
-    "published": "2026-06-01T12:51:21Z",
-    "link": "http://arxiv.org/abs/2606.02196v1",
-    "authors": [
-      "Meng Wang",
-      "Yue Ma",
-      "Majid Garoosi",
-      "Wenting Fan",
-      "Liwei Guo",
-      "Jianqiang Wang",
-      "Ali Abbasi"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "The rapid expansion of the Python ecosystem has fueled two distinct but converging threats: adversaries increasingly target the software supply chain via the Python Package Index (PyPI), while also building evasive, cross-platform malicious binaries compiled from source code written in Python. Current program analysis techniques struggle to address this dual threat.",
-    "selected_date": "2026-06-02"
   }
 ]
