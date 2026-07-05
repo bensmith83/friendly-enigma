@@ -16,6 +16,25 @@
       "cs.CV"
     ],
     "ai_summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested.",
+    "selected_date": "2026-07-05"
+  },
+  {
+    "id": "2607.02074v1",
+    "title": "Comprehensive Robustness Analysis of LiDAR-based 3D Object Detection in Autonomous Driving",
+    "summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested. Very few adversarial robustness studies exist for LiDAR-only 3D object detection and unfortunately, even they are limited to legacy models. Moreover, there is a systemic gap in the existing evaluation frameworks that rely simply on mAP ignoring other structural and predictive factors. To fill this gap, we propose a holistic framework that evaluates adversarial robustness using two structural factors (point cloud density and point cloud localization) and three predictive factors (misclassification, localization error, distance from ego). Using this framework, we perform an empirical study and critical analysis on recent and legacy state-of-the-art models using adversarial attacks specifically designed for LiDAR-based models. Our key finding is that high-capacity, voxel-based detectors are more susceptible to structured coordinate perturbations than pillar-based detectors. Additionally, non-anchor-based detectors demonstrate poor adversarial robustness, which necessitates rethinking model training techniques. Overall, our results demonstrate that recent models are as vulnerable to adversarial attacks as their predecessors. Therefore, we argue that there is a need to improve the evaluation benchmarks for 3D object detection that not only reward architectural modifications for improving detection accuracy, but also evaluate whether the design choices improve adversarial robustness.",
+    "published": "2026-07-02T12:13:49Z",
+    "link": "http://arxiv.org/abs/2607.02074v1",
+    "authors": [
+      "Adwait Chandorkar",
+      "Kai Krink",
+      "Yerdana Maulenbay",
+      "Hasan Tercan",
+      "Tobias Meisen"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested.",
     "selected_date": "2026-07-04"
   },
   {
@@ -597,27 +616,5 @@
     ],
     "ai_summary": "Whilst the vulnerability of graph neural networks (GNNs) to adversarial attacks poses a critical threat to graph representation learning, the understanding of the robust generalization behavior remains a fundamental challenge in the adversarial setting. Recently, PAC-Bayesian margin-based generalization analysis substantially advances this line of research by providing a flexible and data-dependent analytical framework.",
     "selected_date": "2026-06-06"
-  },
-  {
-    "id": "2606.05821v1",
-    "title": "PriSrv: Privacy-Enhanced and Highly Usable Service Discovery in Wireless Communications",
-    "summary": "Service discovery is essential in wireless communications. However, existing protocols provide limited privacy protection, leaking sensitive device information and opening routes to network attacks. This paper proposes a private service discovery protocol, called PriSrv, which enables both service providers and clients to specify fine-grained authentication policies before establishing connections. PriSrv achieves this via a dual-layer matching architecture: an outer layer filters mismatched entities using public attributes, while an inner layer handles mutual authentication using selectively disclosed private attributes. As a core component, we introduce the primitive of anonymous credential-based matchmaking encryption (ACME), which enables dual-layer matching in a single step to achieve bilateral policy control, selective attribute disclosure, and multi-show unlinkability. To instantiate ACME, we design a fast anonymous credential (FAC) scheme providing constant-size credentials and efficient verification. We demonstrate PriSrv's interoperability by integrating it with popular wireless frameworks including EAP, mDNS, BLE, and AirDrop. Detailed formal security proofs and extensive performance evaluations across desktop, laptop, smartphone, and Raspberry Pi platforms demonstrate that PriSrv provides enhanced privacy guarantees with high usability, achieving secure discovery in less than one second on mainstream mobile devices.",
-    "published": "2026-06-04T08:00:31Z",
-    "link": "http://arxiv.org/abs/2606.05821v1",
-    "authors": [
-      "Yang Yang",
-      "Robert H. Deng",
-      "Guomin Yang",
-      "Yingjiu Li",
-      "HweeHwa Pang",
-      "Minming Huang",
-      "Rui Shi",
-      "Jian Weng"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Service discovery is essential in wireless communications. However, existing protocols provide limited privacy protection, leaking sensitive device information and opening routes to network attacks.",
-    "selected_date": "2026-06-05"
   }
 ]
