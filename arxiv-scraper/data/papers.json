@@ -1,5 +1,23 @@
 [
   {
+    "id": "2607.01679v1",
+    "title": "Beyond Gradient-Based Attacks: Adversarial Robustness and Explainability Stability in Cybersecurity Classifiers",
+    "summary": "Adversarial attacks on cybersecurity classifiers pose a dual threat: degrading predictions and destabilising the SHAP-based explanations that security analysts rely on to understand and triage alerts. We extend our prior MLP conference study to Random Forest and XGBoost across four tabular security datasets (phishing URLs, UNSW-NB15, NF-ToN-IoT, HIKARI-2021), evaluating five attacks including three black-box methods applicable to non-differentiable tree models. We introduce the Explainability Stability Index (ESI), a scalar metric computed from TreeSHAP attribution drift under adversarial perturbation, reported on the same [0,1] scale as the Robustness Index (RI). A key finding is that gradient-based black-box attacks (ZOO) produce degenerate results against XGBoost (apparent RI ~0.98) due to piecewise-constant prediction surfaces, while score-based Square Attack reveals genuine vulnerability (RI ~0.36). These degenerate perturbations still drive substantial attribution drift: XGBoost ESI ~0.06-0.16 despite near-perfect ZOO robustness, versus 0.14-0.29 for RF, showing that prediction robustness and explanation stability are distinct axes requiring joint measurement. A two-axis framework (gradient dependence, query efficiency) explains the observed attack ranking and yields practical guidance for tree ensemble evaluation. A step-size ablation explains a counterintuitive PGD anomaly on z-score normalised tabular data.",
+    "published": "2026-07-02T04:10:58Z",
+    "link": "http://arxiv.org/abs/2607.01679v1",
+    "authors": [
+      "Mona Rajhans",
+      "Vishal Khawarey"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "ai_summary": "Adversarial attacks on cybersecurity classifiers pose a dual threat: degrading predictions and destabilising the SHAP-based explanations that security analysts rely on to understand and triage alerts. We extend our prior MLP conference study to Random Forest and XGBoost across four tabular security datasets (phishing URLs, UNSW-NB15, NF-ToN-IoT, HIKARI-2021), evaluating five attacks including three black-box methods applicable to non-differentiable tree models.",
+    "selected_date": "2026-07-06"
+  },
+  {
     "id": "2607.02074v1",
     "title": "Comprehensive Robustness Analysis of LiDAR-based 3D Object Detection in Autonomous Driving",
     "summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested. Very few adversarial robustness studies exist for LiDAR-only 3D object detection and unfortunately, even they are limited to legacy models. Moreover, there is a systemic gap in the existing evaluation frameworks that rely simply on mAP ignoring other structural and predictive factors. To fill this gap, we propose a holistic framework that evaluates adversarial robustness using two structural factors (point cloud density and point cloud localization) and three predictive factors (misclassification, localization error, distance from ego). Using this framework, we perform an empirical study and critical analysis on recent and legacy state-of-the-art models using adversarial attacks specifically designed for LiDAR-based models. Our key finding is that high-capacity, voxel-based detectors are more susceptible to structured coordinate perturbations than pillar-based detectors. Additionally, non-anchor-based detectors demonstrate poor adversarial robustness, which necessitates rethinking model training techniques. Overall, our results demonstrate that recent models are as vulnerable to adversarial attacks as their predecessors. Therefore, we argue that there is a need to improve the evaluation benchmarks for 3D object detection that not only reward architectural modifications for improving detection accuracy, but also evaluate whether the design choices improve adversarial robustness.",
@@ -597,24 +615,5 @@
     ],
     "ai_summary": "As chatbots increasingly influence daily decision-making, their potential to produce misleading responses poses substantial risks to users. This paper investigates a critical cognitive vulnerability in LLMs: their tendency to uncritically trust external context when presented with fabricated evidence bearing markers of credibility.",
     "selected_date": "2026-06-07"
-  },
-  {
-    "id": "2606.06293v1",
-    "title": "PAC-Bayesian Adversarially Robust Generalization for Message Passing Graph Neural Networks: A Sensitivity Analysis",
-    "summary": "Whilst the vulnerability of graph neural networks (GNNs) to adversarial attacks poses a critical threat to graph representation learning, the understanding of the robust generalization behavior remains a fundamental challenge in the adversarial setting. Recently, PAC-Bayesian margin-based generalization analysis substantially advances this line of research by providing a flexible and data-dependent analytical framework. However, existing robust analyses often rely on isotropic Gaussian posteriors and control weight perturbations in the full parameter space, which limits the ability to capture heterogeneous parameter sensitivity yet hinges on hidden-width-dependent complexity terms, resulting in not-tight-enough generalization bounds. In this paper, we extend a recently proposed sensitivity-aware PAC-Bayesian framework from deep neural networks to message passing GNNs (MPGNNs) and derive a tighter robust generalization bound in the adversarial setting. Specifically, we first quantify how sensitive the perturbations across different parameter blocks are to the network outputs by deriving the output Jacobians with respect to the weight parameters. Exploiting the fact that these Jacobian matrices have rank at most $K$ in $K$-class graph classification, we then construct Jacobian-aligned sensitivity matrices and use anisotropic Gaussian posteriors with optimized covariances to upper bound the KL divergence in a tight way. Notably, by refining the spectral-norm dependence on the learned weights and reducing the leading dimension factor from hidden-width-dependent terms to the number of classes $K$, our analysis yields much tighter robust generalization guarantees for MPGNNs, thereby guiding their designs to enhance adversarial robustness.",
-    "published": "2026-06-04T15:31:21Z",
-    "link": "http://arxiv.org/abs/2606.06293v1",
-    "authors": [
-      "Ziling Liang",
-      "Xinping Yi",
-      "Qingsong Wen",
-      "Shi Jin"
-    ],
-    "categories": [
-      "cs.LG",
-      "stat.ML"
-    ],
-    "ai_summary": "Whilst the vulnerability of graph neural networks (GNNs) to adversarial attacks poses a critical threat to graph representation learning, the understanding of the robust generalization behavior remains a fundamental challenge in the adversarial setting. Recently, PAC-Bayesian margin-based generalization analysis substantially advances this line of research by providing a flexible and data-dependent analytical framework.",
-    "selected_date": "2026-06-06"
   }
 ]
