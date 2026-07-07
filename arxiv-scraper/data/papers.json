@@ -1,5 +1,31 @@
 [
   {
+    "id": "2607.05393v1",
+    "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
+    "summary": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robust under strong class contamination, and provides calibrated uncertainty quantification. We combine simulated transient injections with a contaminated survey class and train a dual-network model using asymmetric co-teaching for classes with different label-noise levels. We evaluate performance on a benchmark subset and analyze the learned representation with latent-space visualization tools. For uncertainty quantification (UQ), we compare MC dropout and deep ensembles and propose a low-cost hybrid strategy that exploits the dual-network setting to improve calibration. We extend the evaluation to the light-curve domain to assess recovery of light-curve classes. The method achieves strong Real-Bogus performance on the labeled subset and remains stable under severe class contamination. It recovers transient light-curve classes with high fidelity, while single-source identification is limited by ambiguity in light-curve-derived labels. Our hybrid UQ approach achieves competitive calibration relative to more expensive ensemble baselines. Latent-space analyses indicate that uncertainty aligns with the decision boundary and reveal subclasses within the bogus population. Our results show that injection-driven, weakly supervised training can enable scalable and consistent Real-Bogus classification without human-labeled training data while providing calibrated uncertainties. The method is suited for transfer to forthcoming surveys by re-running the injection-based training pipeline.",
+    "published": "2026-07-06T17:59:58Z",
+    "link": "http://arxiv.org/abs/2607.05393v1",
+    "authors": [
+      "Rapha\u00ebl Bonnet-Guerrini",
+      "Bruno Sanchez",
+      "Dominique Fouchez",
+      "Benjamin Racine",
+      "Maya Guy",
+      "Mariam Sabalbal",
+      "Manal Yassine",
+      "Vincenzo Piuri"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.GA",
+      "astro-ph.HE",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "ai_summary": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent.",
+    "selected_date": "2026-07-07"
+  },
+  {
     "id": "2607.01679v1",
     "title": "Beyond Gradient-Based Attacks: Adversarial Robustness and Explainability Stability in Cybersecurity Classifiers",
     "summary": "Adversarial attacks on cybersecurity classifiers pose a dual threat: degrading predictions and destabilising the SHAP-based explanations that security analysts rely on to understand and triage alerts. We extend our prior MLP conference study to Random Forest and XGBoost across four tabular security datasets (phishing URLs, UNSW-NB15, NF-ToN-IoT, HIKARI-2021), evaluating five attacks including three black-box methods applicable to non-differentiable tree models. We introduce the Explainability Stability Index (ESI), a scalar metric computed from TreeSHAP attribution drift under adversarial perturbation, reported on the same [0,1] scale as the Robustness Index (RI). A key finding is that gradient-based black-box attacks (ZOO) produce degenerate results against XGBoost (apparent RI ~0.98) due to piecewise-constant prediction surfaces, while score-based Square Attack reveals genuine vulnerability (RI ~0.36). These degenerate perturbations still drive substantial attribution drift: XGBoost ESI ~0.06-0.16 despite near-perfect ZOO robustness, versus 0.14-0.29 for RF, showing that prediction robustness and explanation stability are distinct axes requiring joint measurement. A two-axis framework (gradient dependence, query efficiency) explains the observed attack ranking and yields practical guidance for tree ensemble evaluation. A step-size ablation explains a counterintuitive PGD anomaly on z-score normalised tabular data.",
@@ -594,26 +620,5 @@
     ],
     "ai_summary": "AI coding agents such as Claude Code and Gemini CLI increasingly extend themselves with third-party skills: markdown packages bundling natural-language instructions, executable scripts, and tool permissions. Because a skill is at once code and agent-facing instruction, it introduces a supply chain dependency whose risk is neither pure code nor pure prompt.",
     "selected_date": "2026-06-08"
-  },
-  {
-    "id": "2606.06244v1",
-    "title": "Steering LLM Viewpoints through Fabricated Evidence Injection",
-    "summary": "As chatbots increasingly influence daily decision-making, their potential to produce misleading responses poses substantial risks to users. This paper investigates a critical cognitive vulnerability in LLMs: their tendency to uncritically trust external context when presented with fabricated evidence bearing markers of credibility. We introduce Ghostwriter, a two-phase attack framework that first repackages misleading statements with fabricated rationales, then instruct target LLMs to incorporate these viewpoints when responding to relevant queries. Experiments on BBQ, ToxiGen, and our specialized dataset reveal that commercial LLMs without external safety classifiers remain highly vulnerable, while even frontier classifier-guarded models (e.g., GPT-5.4) reduce but do not eliminate the attack. Building on this, we explore multiple defense strategies, among which a tailored safety policy enables gpt-oss-safeguard to achieve 81% detection rate.",
-    "published": "2026-06-04T14:48:23Z",
-    "link": "http://arxiv.org/abs/2606.06244v1",
-    "authors": [
-      "Xi Yang",
-      "Chang Liu",
-      "Zhenglin Huang",
-      "Haoran Li",
-      "Weiming Zhang",
-      "Jian Weng",
-      "Yangqiu Song"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "As chatbots increasingly influence daily decision-making, their potential to produce misleading responses poses substantial risks to users. This paper investigates a critical cognitive vulnerability in LLMs: their tendency to uncritically trust external context when presented with fabricated evidence bearing markers of credibility.",
-    "selected_date": "2026-06-07"
   }
 ]
