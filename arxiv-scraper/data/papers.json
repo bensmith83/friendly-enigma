@@ -1,5 +1,28 @@
 [
   {
+    "id": "2607.06485v1",
+    "title": "AirflowAttack: Thermal-Airflow Adversarial Perturbations against Infrared Remote-Sensing Vision-Language Models",
+    "summary": "Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined. We present AirflowAttack, to our knowledge the first adversarial attack for IR remote-sensing VLMs and the first to weaponize thermal-airflow turbulence as the perturbation prior. A lightweight generator synthesizes a single input-agnostic perturbation regularized toward physically plausible airflow patterns. Optimized on one surrogate CLIP model, it attains a mean zero-shot scene-classification attack success rate (ASR, the fraction of samples whose top-1 class changes) of 48.5% across five diverse CLIP backbones, far exceeding four IR-specific physical baselines (27.7--37.0%). Applied to six state-of-the-art VLMs, it cuts scene-classification accuracy by up to 38.2% relative, yet paradoxically makes some models more confident in their IR analysis, confabulating the perturbation as genuine thermal evidence such as temperature gradients and convection. Ablations show the airflow prior raises physical plausibility at no measurable cost to attack success. Together with a benchmark spanning eleven models and four tasks, these findings expose critical vulnerabilities in the rapidly expanding IR VLM ecosystem.",
+    "published": "2026-07-07T16:46:46Z",
+    "link": "http://arxiv.org/abs/2607.06485v1",
+    "authors": [
+      "Cong Su",
+      "Jiaju Han",
+      "Xuemeng Sun",
+      "Chengyin Hu",
+      "Qike Zhang",
+      "Jiujiang Guo",
+      "Yiwei Wei",
+      "Jiahuan Long"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "ai_summary": "Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined. We present AirflowAttack, to our knowledge the first adversarial attack for IR remote-sensing VLMs and the first to weaponize thermal-airflow turbulence as the perturbation prior.",
+    "selected_date": "2026-07-08"
+  },
+  {
     "id": "2607.05393v1",
     "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
     "summary": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robust under strong class contamination, and provides calibrated uncertainty quantification. We combine simulated transient injections with a contaminated survey class and train a dual-network model using asymmetric co-teaching for classes with different label-noise levels. We evaluate performance on a benchmark subset and analyze the learned representation with latent-space visualization tools. For uncertainty quantification (UQ), we compare MC dropout and deep ensembles and propose a low-cost hybrid strategy that exploits the dual-network setting to improve calibration. We extend the evaluation to the light-curve domain to assess recovery of light-curve classes. The method achieves strong Real-Bogus performance on the labeled subset and remains stable under severe class contamination. It recovers transient light-curve classes with high fidelity, while single-source identification is limited by ambiguity in light-curve-derived labels. Our hybrid UQ approach achieves competitive calibration relative to more expensive ensemble baselines. Latent-space analyses indicate that uncertainty aligns with the decision boundary and reveal subclasses within the bogus population. Our results show that injection-driven, weakly supervised training can enable scalable and consistent Real-Bogus classification without human-labeled training data while providing calibrated uncertainties. The method is suited for transfer to forthcoming surveys by re-running the injection-based training pipeline.",
@@ -597,28 +620,5 @@
     ],
     "ai_summary": "Conventional one-hot encodings often yield poorly calibrated models, being overconfident under attack, and letting entropy-based detection algorithms fail. Previous image classification works have demonstrated that Hadamard-coded output representations can improve adversarial robustness.",
     "selected_date": "2026-06-09"
-  },
-  {
-    "id": "2606.07131v1",
-    "title": "MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills",
-    "summary": "AI coding agents such as Claude Code and Gemini CLI increasingly extend themselves with third-party skills: markdown packages bundling natural-language instructions, executable scripts, and tool permissions. Because a skill is at once code and agent-facing instruction, it introduces a supply chain dependency whose risk is neither pure code nor pure prompt. Detection tools have never been measured against verified ground truth spanning this hybrid space, leaving their effectiveness unknown and wild-only evaluations biased.   We present MalSkillBench, the first runtime-verified benchmark of malicious agent skills: 3,944 malicious skills labeled along a three-dimensional taxonomy of 108 cells. Of these, 3,214 come from a closed-loop Generate-Verify-Feedback pipeline admitting only samples whose malicious behavior fires inside a Docker sandbox under system-call monitoring and an LLM judge; we add 703 in-the-wild and 4,000 matched benign skills. Our measurements are consistent: code injection reaches 94.5% verification yield but prompt injection only 75.8%, the same fragility that later makes it hard to detect; the wild sample is narrow, dominated by one cryptocurrency-theft campaign (86.6% one behavior, 81% from two accounts) with a small but architecturally new tail attacking the agent control plane; the strongest skill-specific detector reaches 98.4% recall on code injection yet collapses on prompt-injection and agent-control attacks, and wild-only scoring swings the ranking by up to 66 recall points; supply-chain scanners and prompt-injection defenses each see only half of a skill, and no combination recovers the code-instruction relationship. Detecting malicious skills therefore requires reasoning jointly over task intent, code, and instructions. We release the dataset, pipeline, baselines, and results.",
-    "published": "2026-06-05T10:43:19Z",
-    "link": "http://arxiv.org/abs/2606.07131v1",
-    "authors": [
-      "Wenbo Guo",
-      "Wei Zeng",
-      "Chengwei Liu",
-      "Xiaojun Jia",
-      "Yijia Xu",
-      "Lei Tang",
-      "Yong Fang",
-      "Yang Liu"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.SE"
-    ],
-    "ai_summary": "AI coding agents such as Claude Code and Gemini CLI increasingly extend themselves with third-party skills: markdown packages bundling natural-language instructions, executable scripts, and tool permissions. Because a skill is at once code and agent-facing instruction, it introduces a supply chain dependency whose risk is neither pure code nor pure prompt.",
-    "selected_date": "2026-06-08"
   }
 ]
