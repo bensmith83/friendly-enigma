@@ -1,5 +1,1170 @@
 [
   {
+    "date": "2026-07-12",
+    "week_of": "July 12, 2026",
+    "digest_number": 28,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Watch: Titans legends' ALS Ice Bucket Challenge accepted",
+          "description": "Chris Johnson is reviving the ALS Ice Bucket Challenge to raise awareness following his recent diagnosis.",
+          "content": "Just a few days after sitting down with Michael Strahan and revealing his heartbreaking diagnosis of ALS, Tennessee Titans legend Chris Johnson took to social media in an attempt to bring back the AL\u2026 [+673 chars]",
+          "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/07/11/watch-tennessee-titans-legends-als-ice-bucket-challenge-accepted/90878870007/",
+          "source_name": "USA Today",
+          "source_type": "newsapi",
+          "published_at": "2026-07-11T09:07:28Z",
+          "author": "Mark Mihalko, Titans Wire",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/9c07cf7c5436e9bcbf67f8967d4fe2c429ea5a43f141a3a6fe4b51757c1c390c/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftennessee_titans_wire_usa_today_sports_articles_954%2Fee810f4c6f105bd5a2310ce8b2ab0f14",
+          "is_local_nj": false,
+          "article_id": "83acf48a065e",
+          "summary": "Chris Johnson is reviving the ALS Ice Bucket Challenge to raise awareness following his recent diagnosis.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "The Ice Bucket Challenge Is Back: ALS Association Giving Triples Following Chris Johnson's Diagnosis Announcement",
+              "url": "https://www.prnewswire.com/news-releases/the-ice-bucket-challenge-is-back-als-association-giving-triples-following-chris-johnsons-diagnosis-announcement-302817815.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Ice bucket challenge revived after Chris Johnson ALS diagnosis",
+              "url": "https://www.stltoday.com/sports/professional/nfl/article_6ed87457-0acf-51db-8898-c4e3d2baf594.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Marshawn Lynch, Edgerrin James bring back Ice Bucket Challenge to support Chris Johnson after ALS diagnosis",
+              "url": "https://sports.yahoo.com/nfl/article/marshawn-lynch-edgerrin-james-bring-back-ice-bucket-challenge-to-support-chris-johnson-after-als-diagnosis-124449536.html",
+              "digest_date": "2026-07-05"
+            }
+          ]
+        },
+        {
+          "title": "PC Games 08/26: Mit Coverstory zu Gothic Remake, Test zur Steam Machine, Preview zu Final Fantasy 7: Revelation u. v. m.",
+          "description": "Die PC Games 08/26 ist da! Mit gro\u00dfer Coverstory zu Gothic Remake, Previews zu Final Fantasy 7: Revelation und Halo: Campaign Evolved, Test zur Steam Machine, Early-Access-Check zu SpaceCraft u. v. m.",
+          "content": "F\u00fcr die letzte Ausgabe hat es ja knapp nicht gereicht, doch in der aktuellen Ausgabe ist es endlich da: das Remake von Gothic. Und da es f\u00fcr PC-Spieler aktuell wohl kaum ein gr\u00f6\u00dferes Thema gibt, ist \u2026 [+4507 chars]",
+          "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/Gothic-Remake-Steam-Machine-Test-Final-Fantasy-7-Revelation-1547643/",
+          "source_name": "PC Games",
+          "source_type": "newsapi",
+          "published_at": "2026-07-11T07:01:00Z",
+          "author": "Viktor Eippert",
+          "image_url": "https://www.pcgames.de/screenshots/original/2026/07/PCG_0826_Cover_Promo_layer_1920x1080-pc-games_artwork.jpg",
+          "is_local_nj": false,
+          "article_id": "421e858efa4e",
+          "summary": "Die PC Games 08/26 ist da! Mit gro\u00dfer Coverstory zu Gothic Remake, Previews zu Final Fantasy 7: Revelation und Halo: Campaign Evolved, Test zur Steam Machine, Early-Access-Check zu SpaceCraft u. v. m.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "PC Games 07/26: Mit Coverstory zu Assassin's Creed: Black Flag Resynced, Preview zu The Witcher 3: Songs of the Past u. v. m.",
+              "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/07-26-Assassins-Creed-Black-Flag-Resynced-1545210/",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "play5 06/26 mit Coverstory zu Metro 2039, Test zu Starfield, Vorschau zu Star Wars: Zero Company, Gothic Remake u. v. m.",
+              "url": "https://www.pcgames.de/play5-Brands-276955/News/06-26-Metro-2039-1529953/",
+              "digest_date": "2026-05-03"
+            }
+          ]
+        },
+        {
+          "title": "White Sox 20-Homer Slugger Makes Home Run Derby Decision After Being Named All-Star",
+          "description": "The Chicago White Sox continue to get outstanding news on rookie slugger Munetaka Murakami. In addition to his return from a hamstring injury, Murakami has been named an All-Star. He replaces Minnesota Twins superstar Byron Buxton.Murakami will join Miguel Va\u2026",
+          "content": "Munetaka Murakami will bring his game-breaking power swing to the Home Run Derby. Getty\r\nThe Chicago White Sox continue to get outstanding news on rookie slugger Munetaka Murakami. In addition to\u00a0his\u2026 [+3404 chars]",
+          "url": "https://heavy.com/sports/mlb/chicago-white-sox/munetaka-murakami-all-star-home-run-derby-decision/",
+          "source_name": "Heavy.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-11T03:16:54Z",
+          "author": "Michael McDermott",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/bixL6x.jra9ypfMh7SJ6Jw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzY7Y2Y9d2VicA--/https://media.zenfs.com/en/heavy_214/6afd105bb515ed6ed3dd792bef6929cd",
+          "is_local_nj": false,
+          "article_id": "7b478e9da299",
+          "summary": "The Chicago White Sox continue to get outstanding news on rookie slugger Munetaka Murakami. In addition to his return from a hamstring injury, Murakami has been named an All-Star. He replaces Minnesot",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Vladimir Guerrero Jr. Named American League LVP in 1st Half",
+          "description": "Toronto Blue Jays first baseman Vladimir Guerrero Jr. was named the Least Valuable Player in the American League in the first half.Guerrero, who is in the first year of his 14-year, $500 million contract extension with Toronto, has been arguably the most disa\u2026",
+          "content": "Toronto Blue Jays first baseman Vladimir Guerrero Jr. was named the Least Valuable Player in the American League in the first half.\r\nGuerrero, who is in the first year of his 14-year, $500 million co\u2026 [+2642 chars]",
+          "url": "https://heavy.com/sports/mlb/toronto-blue-jays/vladimir-guerrero-jr-american-league-lvp/",
+          "source_name": "Heavy.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T23:43:47Z",
+          "author": "Adam Martin",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/AZ0hfmIK5jtFR44.IUDyOA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzY7Y2Y9d2VicA--/https://media.zenfs.com/en/heavy_214/d540a5dd04c051cce1be8948a7648f30",
+          "is_local_nj": false,
+          "article_id": "f926487cf1c7",
+          "summary": "Toronto Blue Jays first baseman Vladimir Guerrero Jr. was named the Least Valuable Player in the American League in the first half.Guerrero, who is in the first year of his 14-year, $500 million contr",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Everything ALS founder provides insight on Chris Johnson diagnosis",
+          "description": "Former Tennessee Titans running back Chris Johnson was diagnosed with ALS. Titans Wire sat down with Everything ALS to gain insight into the disease.",
+          "content": "At the end of June, former Tennessee Titans running back Chris Johnson revealed that he has been diagnosed with Amyotrophic Lateral Sclerosis (ALS) at the age of 40.\r\nALS is a neurodegenerative disea\u2026 [+3802 chars]",
+          "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/07/10/everything-als-founder-provides-insight-on-chris-johnson-diagnosis/90874725007/",
+          "source_name": "USA Today",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T18:45:30Z",
+          "author": "Serena Burks, Titans Wire",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/9fb005aa2823d8a3cdc87ab952121e6cde577f49f90958d34a34dddf52105261/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftennessee_titans_wire_usa_today_sports_articles_954%2Fa587dee99049ee8dcb64b1231d6dbaac",
+          "is_local_nj": false,
+          "article_id": "cbaa8f471ff2",
+          "summary": "Former Tennessee Titans running back Chris Johnson was diagnosed with ALS. Titans Wire sat down with Everything ALS to gain insight into the disease.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ice bucket challenge revived after Chris Johnson ALS diagnosis",
+              "url": "https://www.stltoday.com/sports/professional/nfl/article_6ed87457-0acf-51db-8898-c4e3d2baf594.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Marshawn Lynch, Edgerrin James bring back Ice Bucket Challenge to support Chris Johnson after ALS diagnosis",
+              "url": "https://sports.yahoo.com/nfl/article/marshawn-lynch-edgerrin-james-bring-back-ice-bucket-challenge-to-support-chris-johnson-after-als-diagnosis-124449536.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Chris Johnson looks to revive Ice Bucket Challenge days after revealing ALS diagnosis",
+              "url": "https://sports.yahoo.com/articles/chris-johnson-looks-revive-ice-220153652.html",
+              "digest_date": "2026-07-05"
+            }
+          ]
+        },
+        {
+          "title": "Riots Explode in London, Netherlands After France Eliminates Morocco From World Cup",
+          "description": "In the Netherlands, rioters were heard shouting, \u201cHamas, Hamas, Jews to the gas!\"\nThe post Riots Explode in London, Netherlands After France Eliminates Morocco From World Cup first appeared on Le\u00b7gal In\u00b7sur\u00b7rec\u00b7tion.",
+          "content": "I\u2019m shocked it didn\u2019t happen in France.\r\nMuslims rioted in London and the Netherlands after France eliminated Morocco from the World Cup, 2-0, in the quarterfinals.\r\nThe Netherlands\r\nThe Netherlands \u2026 [+3889 chars]",
+          "url": "https://legalinsurrection.com/2026/07/riots-explode-in-london-netherlands-after-france-eliminates-morocco-from-world-cup/",
+          "source_name": "Legalinsurrection.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T18:00:32Z",
+          "author": "Mary Chastain",
+          "image_url": "https://legalinsurrection.com/wp-content/uploads/2026/07/London-Morocco-Riots.jpg",
+          "is_local_nj": false,
+          "article_id": "bafa74719f13",
+          "summary": "In the Netherlands, rioters were heard shouting, \u201cHamas, Hamas, Jews to the gas!\"\nThe post Riots Explode in London, Netherlands After France Eliminates Morocco From World Cup first appeared on Le\u00b7gal ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Saints QB Tyler Shough participates in revived 'ice bucket challenge'",
+          "description": "Tyler Shough accepted the Ice Bucket Challenge in support of ALS research and awareness after receiving a nomination from Saints legend Steve Gleason.",
+          "content": "Tyler Shough continues to make connections in New Orleans before his first full season as the Saints' starting quarterback. This time, it came through a cause that means a great deal to the organizat\u2026 [+1131 chars]",
+          "url": "https://saintswire.usatoday.com/story/sports/nfl/saints/2026/07/10/saints-tyler-shough-steve-gleason-chris-johnson-als-ice-bucket-challenge/90877156007/",
+          "source_name": "USA Today",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T17:30:39Z",
+          "author": "Arye Pulli, Saints Wire",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/7c599e153cb908a40cc5ce999df6257f726ba6941f00122cdc1d54e64bdec6c7/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnew_orleans_saints_wire_usa_today_sports_articles_211%2Ff49197eb1f63adf9697cd37db4e8f390",
+          "is_local_nj": false,
+          "article_id": "f018ee977770",
+          "summary": "Tyler Shough accepted the Ice Bucket Challenge in support of ALS research and awareness after receiving a nomination from Saints legend Steve Gleason.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "The viral 'Ice Bucket Challenge' for ALS awareness is back. Here's why",
+              "url": "https://www.usatoday.com/story/sports/nfl/2026/07/02/chris-johnson-als-ice-bucket-challenge/90780202007/",
+              "digest_date": "2026-07-05"
+            }
+          ]
+        },
+        {
+          "title": "Saints QB Tyler Shough takes Ice Bucket Challenge in support of ALS community",
+          "description": "The Saints quarterback was challenged by Steve Gleason earlier this week.",
+          "content": "Earlier this week, New Orleans Saints legend Steve Gleason and New Orleans author Brian Jeansonne took the Ice Bucket Challenge to show their support for former NFL RB Chris Johnson, who like Gleason\u2026 [+918 chars]",
+          "url": "https://www.canalstreetchronicles.com/new-orleans-saints-news/111640/saints-qb-tyler-shough-takes-ice-bucket-challenge-support-als-community-steve-gleason-nfl-chris-johnson",
+          "source_name": "Canal Street Chronicles",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T15:20:01Z",
+          "author": "Tina Howell",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/4ecfa75606205d41a7afb39093bdfc76bfe99c270a6d1212b48fbbe85b289457/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F1496bb32c7203e5fbe5845abf5396ce5",
+          "is_local_nj": false,
+          "article_id": "86c6f611a951",
+          "summary": "The Saints quarterback was challenged by Steve Gleason earlier this week.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "The Ice Bucket Challenge Is Back: ALS Association Giving Triples Following Chris Johnson's Diagnosis Announcement",
+              "url": "https://www.prnewswire.com/news-releases/the-ice-bucket-challenge-is-back-als-association-giving-triples-following-chris-johnsons-diagnosis-announcement-302817815.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Ice bucket challenge revived after Chris Johnson ALS diagnosis",
+              "url": "https://www.stltoday.com/sports/professional/nfl/article_6ed87457-0acf-51db-8898-c4e3d2baf594.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Marshawn Lynch, Edgerrin James bring back Ice Bucket Challenge to support Chris Johnson after ALS diagnosis",
+              "url": "https://sports.yahoo.com/nfl/article/marshawn-lynch-edgerrin-james-bring-back-ice-bucket-challenge-to-support-chris-johnson-after-als-diagnosis-124449536.html",
+              "digest_date": "2026-07-05"
+            }
+          ]
+        },
+        {
+          "title": "Impact of vagus nerve cross-sectional area on electrocardiogram parameters in community-dwelling older adults: The YAHABA study",
+          "description": "Objectives The aim of this study was to investigate the association between vagus nerve cross-sectional area (VN-CSA) using carotid ultrasonography and electrocardiogram (ECG) parameters in community-dwelling older adults, thereby clarifying the influence of \u2026",
+          "content": "Citation: Onodera N, Oura K, Akasaka H, Ishizuka N, Fujiwara T, Itabashi R, et al. (2026) Impact of vagus nerve cross-sectional area on electrocardiogram parameters in community-dwelling older adults\u2026 [+32002 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353473",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T14:00:00Z",
+          "author": "Nao Onodera, Kazumasa Oura, Hiroshi Akasaka, Naoki Ishizuka, Tohru Fujiwara, Ryo Itabashi, Tetsuya Maeda",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0353473.g003&size=inline",
+          "is_local_nj": false,
+          "article_id": "71a8b8bb9d72",
+          "summary": "Objectives The aim of this study was to investigate the association between vagus nerve cross-sectional area (VN-CSA) using carotid ultrasonography and electrocardiogram (ECG) parameters in community-",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Biotech Division of Greenland Mines Announces Australian Patent Grant for Klotho Gene Therapy Technology for Treatment of Neuromuscular Diseases",
+          "description": "NEW YORK, July 10, 2026 (GLOBE NEWSWIRE) -- via IBN -- Greenland Mines Ltd (Nasdaq: GRML) (\"Greenland Mines\" or the \"Company\") today announced that IP Australia has granted Australian Patent No. 2023252508, entitled \"Treatment of Neuromuscular Diseases via Ge\u2026",
+          "content": "NEW YORK, July 10, 2026 (GLOBE NEWSWIRE) -- via IBN -- Greenland Mines Ltd (Nasdaq: GRML) (\"Greenland Mines\" or the \"Company\") today announced that IP Australia has granted Australian Patent No. 2023\u2026 [+4769 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/07/10/3325439/0/en/Biotech-Division-of-Greenland-Mines-Announces-Australian-Patent-Grant-for-Klotho-Gene-Therapy-Technology-for-Treatment-of-Neuromuscular-Diseases.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T12:00:00Z",
+          "author": "Greenland Mines Ltd",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/bcdd65c8-9254-4c7c-b328-b32ccacefcbc",
+          "is_local_nj": false,
+          "article_id": "9a0f402fabf2",
+          "summary": "NEW YORK, July 10, 2026 (GLOBE NEWSWIRE) -- via IBN -- Greenland Mines Ltd (Nasdaq: GRML) (\"Greenland Mines\" or the \"Company\") today announced that IP Australia has granted Australian Patent No. 20232",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Altius Minerals Corporation Increases Ownership Interest to 50% in Great Bay Renewables in Partnership with Northampton Capital Partners",
+          "description": "ST. JOHN\u2019S, Newfoundland and Labrador \u2014 Altius Minerals Corporation (TSX: ALS) (OTCQX: ATUSF) (\u201cAltius\u201d) is pleased to announce the signing of a share purchase agreement with Northampton Capital Partners (\u201cNorthampton\u201d) and certain funds managed by affiliates\u2026",
+          "content": "THIS CONTENT IS RESERVED FOR SUBSCRIBERS ONLY\r\nSubscribe now to read the latest news in your city and across Canada.\r\n<ul><li>Exclusive articles from Barbara Shecter, Joe O'Connor, Gabriel Friedman, \u2026 [+8592 chars]",
+          "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-minerals-corporation-increases-ownership-interest-to-50-in-great-bay-renewables-in-partnership-with-northampton-capital-partners",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T11:08:45Z",
+          "author": "Business Wire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "9a116c69b0f4",
+          "summary": "ST. JOHN\u2019S, Newfoundland and Labrador \u2014 Altius Minerals Corporation (TSX: ALS) (OTCQX: ATUSF) (\u201cAltius\u201d) is pleased to announce the signing of a share purchase agreement with Northampton Capital Partn",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Alone Together\" von Show Me The Body",
+          "description": "Show Me The Body - \"Alone Together\"",
+          "content": "laut.de-Kritik\r\nPost-Hardcore ohne Gitarre.\r\nReview von Steffen Eggert\r\nPost-Hardcore ohne Gitarre? Schwer vorstellbar. Vor allem, wenn man das sonst dominierende Instrument durch ein Banjo ersetzt. \u2026 [+5094 chars]",
+          "url": "https://laut.de/Show-Me-The-Body/Alben/Alone-Together-127239",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T10:35:58Z",
+          "author": "Steffen Eggert",
+          "image_url": "https://laut.de/Show-Me-The-Body/Alben/Alone-Together-127239/show-me-the-body-alone-together-252514.jpg?5c4815",
+          "is_local_nj": false,
+          "article_id": "5c092866a962",
+          "summary": "Show Me The Body - \"Alone Together\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Durbin's 2-run homer lifts the surging Red Sox past the White Sox for a 6th straight win",
+          "description": "Caleb Durbin hit a two-run homer to help the surging Boston Red Sox top the Chicago White Sox 2-1 on Thursday for their sixth consecutive victory. Boston finished with just four hits, but Patrick Sandoval and four relievers shut down Chicago while finishing a\u2026",
+          "content": "CHICAGO (AP) Caleb Durbin hit a two-run homer to help the surging Boston Red Sox top the Chicago White Sox 2-1 on Thursday for their sixth consecutive victory.\r\nBoston finished with just four hits, b\u2026 [+9609 chars]",
+          "url": "https://sports.yahoo.com/articles/durbins-2-run-homer-lifts-025836459.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T02:58:36Z",
+          "author": "The Associated Press",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/1n9uecxll5WY46JF_NUHBw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/8316fdf9bc580235f7d11ee37688aab2",
+          "is_local_nj": false,
+          "article_id": "7d87dea8ef8c",
+          "summary": "Caleb Durbin hit a two-run homer to help the surging Boston Red Sox top the Chicago White Sox 2-1 on Thursday for their sixth consecutive victory. Boston finished with just four hits, but Patrick Sand",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "New study outlines terrifying health risks NFL players are facing in grim reality check for football",
+          "description": "New research sheds further light on the dangers and risks of playing full-contact American football professionally.",
+          "content": "New research sheds further light on the dangers and risks of playing full-contact American football professionally.\r\nA new study conducted by the Concussion &amp; CTE Foundation in conjunction with M\u2026 [+3141 chars]",
+          "url": "https://www.dailymail.com/sport/nfl/article-15963265/nfl-players-neurodegenerative-disease-risk-study.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-10T00:35:02Z",
+          "author": "Jake Fenner",
+          "image_url": "https://i.dailymail.com/1s/2026/07/10/01/109924251-0-image-a-30_1783643234766.jpg",
+          "is_local_nj": false,
+          "article_id": "e6d9c1cf8cac",
+          "summary": "New research sheds further light on the dangers and risks of playing full-contact American football professionally.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Dollar Falls as Stocks Rally and Crude Oil Retreats",
+          "description": "The dollar index (DXY00 ) fell by -0.08% on Thursday. The dollar moved lower on Thursday as strength in stocks reduced liquidity demand for the currency. Als...",
+          "content": "A U_S_ banknote that is digitally warped by Ruslan Lytvyn via Shutterstock\r\nThe dollar index (DXY00) fell by -0.08% on Thursday. \u00a0The dollar moved lower on Thursday as strength in stocks reduced liqu\u2026 [+4832 chars]",
+          "url": "https://www.barchart.com/story/news/3211804/dollar-falls-as-stocks-rally-and-crude-oil-retreats",
+          "source_name": "Barchart.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T19:39:13Z",
+          "author": "Rich Asplund",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/09551EA98F0DE90E71AF98398BDA71D2F4E8D7219B024041C92F72701E65ECB8/subgraphmysterio/resizefill_w1200_h510;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F9e2afe196d03d0bbcb07e335b49a5038",
+          "is_local_nj": false,
+          "article_id": "e81139f3f9d3",
+          "summary": "The dollar index (DXY00 ) fell by -0.08% on Thursday. The dollar moved lower on Thursday as strength in stocks reduced liquidity demand for the currency. Als...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "49ers Training Camp Open Practices Start July 26; Four Things You Need to Know",
+          "description": "Everything you need to know about attending 49ers Training Camp presented by Visa this summer, including ticket details, key dates, and what to expect at open practices.",
+          "content": "Football is back! The San Francisco 49ers are inviting the Faithful to get an up-close look at the team as they prepare for the 2026 season. The team will host 11 open practices of 49ers Training Cam\u2026 [+3287 chars]",
+          "url": "https://www.49ers.com/news/49ers-training-camp-open-practices-start-july-26-four-things-you-need-to-know",
+          "source_name": "49ers.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T19:01:27Z",
+          "author": "Briana Jeannel",
+          "image_url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/xblusesmj0d4eamafncn",
+          "is_local_nj": false,
+          "article_id": "6ef341c8eebe",
+          "summary": "Everything you need to know about attending 49ers Training Camp presented by Visa this summer, including ticket details, key dates, and what to expect at open practices.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "NFL icon Steve Gleason shows support for fellow ALS sufferer Chris Johnson with 'butt naked' Ice Bucket Challenge as he continues to defy the odds",
+          "description": "After the 'ALS Ice Bucket Challenge' re-surfaced after a stunning revelation by former Tennessee Titans running back Chris Johnson, a fellow sufferer of the disease joined in the occasion.",
+          "content": "After the 'ALS Ice Bucket Challenge' has re-surfaced following a stunning revelation by former Tennessee Titans running back Chris Johnson, a fellow sufferer of the disease joined in the occasion.\r\nJ\u2026 [+2273 chars]",
+          "url": "https://www.dailymail.com/sport/nfl/article-15964349/steve-gleason-chris-johnson-als-ice-bucket-challenge.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T17:10:28Z",
+          "author": "Jake Fenner",
+          "image_url": "https://i.dailymail.com/1s/2026/07/09/18/109915573-0-image-m-11_1783616609801.jpg",
+          "is_local_nj": false,
+          "article_id": "ff960489ea2f",
+          "summary": "After the 'ALS Ice Bucket Challenge' re-surfaced after a stunning revelation by former Tennessee Titans running back Chris Johnson, a fellow sufferer of the disease joined in the occasion.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "The Ice Bucket Challenge Is Back: ALS Association Giving Triples Following Chris Johnson's Diagnosis Announcement",
+              "url": "https://www.prnewswire.com/news-releases/the-ice-bucket-challenge-is-back-als-association-giving-triples-following-chris-johnsons-diagnosis-announcement-302817815.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Ice bucket challenge revived after Chris Johnson ALS diagnosis",
+              "url": "https://www.stltoday.com/sports/professional/nfl/article_6ed87457-0acf-51db-8898-c4e3d2baf594.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Michael Strahan slammed over NFL legend Chris Johnson's ALS interview... as viewers claim he failed to ask the most important question",
+              "url": "https://www.dailymail.com/sport/nfl/article-15949939/michael-strahan-chris-johnson-als-interview.html",
+              "digest_date": "2026-07-05"
+            }
+          ]
+        },
+        {
+          "title": "American: Los Angeles \u2013 Charleston, South Carolina (and vice versa). $198 (Basic Economy) / $308 (Regular Economy). Roundtrip, including all Taxes",
+          "description": "A good sale to / from Charleston. Pricing will vary slightly depending on routing.The $308 fare is the regular fare which allows advance seat assignments and a normal size carry-onAmerican als",
+          "content": "A good sale to / from Charleston. Pricing will vary slightly depending on routing.\r\nThe $308 fare is the regular fare which allows advance seat assignments and a normal size carry-on\r\nAmerican also h\u2026 [+4592 chars]",
+          "url": "https://www.theflightdeal.com/2026/07/09/american-los-angeles-charleston-south-carolina-and-vice-versa-198-basic-economy-308-regular-economy-roundtrip-including-all-taxes-2/",
+          "source_name": "Theflightdeal.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T16:53:55Z",
+          "author": "The Flight Deal",
+          "image_url": "https://www.theflightdeal.com/wp-content/uploads/2014/08/charleston_south_carolina_rainbow_row-640x390.jpg",
+          "is_local_nj": false,
+          "article_id": "391fc4976626",
+          "summary": "A good sale to / from Charleston. Pricing will vary slightly depending on routing.The $308 fare is the regular fare which allows advance seat assignments and a normal size carry-onAmerican als",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "American: Los Angeles \u2013 Charleston, South Carolina (and vice versa). $198 (Basic Economy) / $308 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/06/10/american-los-angeles-charleston-south-carolina-and-vice-versa-198-basic-economy-308-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "jetBlue: San Francisco \u2013 Boston (and vice versa). $245 (Basic Economy) / $355 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/06/10/jetblue-san-francisco-boston-and-vice-versa-245-basic-economy-355-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "United: Washington D.C. \u2013 Liberia, Costa Rica. $292 (Basic Economy) / $412 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/05/21/united-washington-d-c-liberia-costa-rica-292-basic-economy-412-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-05-24"
+            }
+          ]
+        },
+        {
+          "title": "Army\u2019s mega drone push: TASL, Nibe lead \u20b91,600 cr race; new propulsion tender next",
+          "description": "Indian Army seeks 840 loitering munitions, with TASL and Nibe leading \u20b91,600 crore tender for enhanced drone capabilities.",
+          "content": "With drones dominating the modern warfare, Indian army is in the process of acquiring different kinds of unmanned aerial vehicles through tenders to augment combat capabilities.\r\nWhile Tata Advanced \u2026 [+2258 chars]",
+          "url": "https://www.thehindubusinessline.com/companies/armys-mega-drone-push-tasl-nibe-lead-1600-cr-race-new-propulsion-tender-next/article71202772.ece",
+          "source_name": "BusinessLine",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T15:30:25Z",
+          "author": "BL New Delhi Bureau",
+          "image_url": "https://bl-i.thgim.com/public/incoming/j6ft0z/article71202911.ece/alternates/LANDSCAPE_1200/uav.jpg",
+          "is_local_nj": false,
+          "article_id": "16c78aade8bf",
+          "summary": "Indian Army seeks 840 loitering munitions, with TASL and Nibe leading \u20b91,600 crore tender for enhanced drone capabilities.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Highly frequent undesired insertional mutagenesis during Drosophila genome editing",
+          "description": "Author summary CRISPR gene-editing technology allows researchers to make precise modifications to genomic DNA. In Drosophila, a cornerstone model organism in genetics, we and others use CRISPR to introduce targeted breaks into the genome alongside a molecular\u2026",
+          "content": "Abstract\r\nCRISPR/Cas9 based genome editing employing Homology Directed Repair (HDR) from template vector sequences is a widely used technique to enable precise insertions, deletions or modifications \u2026 [+52136 chars]",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012192",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T14:00:00Z",
+          "author": "Emma K\u00e4llstig, Evelyne Ruchti, Medha Raman, Jamshid Asadzadeh, Bernard L. Schneider, Brian D. McCabe",
+          "image_url": "https://journals.plos.org/plosgenetics/article/figure/image?id=10.1371/journal.pgen.1012192.strk&size=inline",
+          "is_local_nj": false,
+          "article_id": "fad6f9d11e26",
+          "summary": "Author summary CRISPR gene-editing technology allows researchers to make precise modifications to genomic DNA. In Drosophila, a cornerstone model organism in genetics, we and others use CRISPR to intr",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Chris Johnson\u2019s ALS revelation a reminder of grace needed for Black athletes",
+          "description": "Chris Johnson\u2019s stillness is so powerful that it numbs me. His eyes are doing all the talking for him. You have likely heard by now that Johnson, nicknamed \u201cCJ2K\u201d after running for more than 2,000 yards with the Tennessee Titans in 2009, has been diagnosed wi\u2026",
+          "content": "Chris Johnsons stillness is so powerful that it numbs me. \r\nHis eyes are doing all the talking for him. You have likely heard by now that Johnson, nicknamed CJ2K after running for more than 2,000 yar\u2026 [+6340 chars]",
+          "url": "https://andscape.com/features/chris-johnson-als-diagnosis-michael-strahan-interview-nfl/",
+          "source_name": "Andscape.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T13:20:00Z",
+          "author": "Ken Makin, \nKen Makin\nhttps://andscape.com/contributors/ken-makin/",
+          "image_url": "https://andscape.com/wp-content/uploads/2026/07/GettyImages-92486243-e1783455460744.jpg",
+          "is_local_nj": false,
+          "article_id": "7f32f1d52bfb",
+          "summary": "Chris Johnson\u2019s stillness is so powerful that it numbs me. His eyes are doing all the talking for him. You have likely heard by now that Johnson, nicknamed \u201cCJ2K\u201d after running for more than 2,000 yar",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Quote of the day by Stephen Hawking: 'My goal is simple. It is a complete understanding of the universe, why it is...' What this thought reveals about curiosity, purpose & never-ending search for knowledge",
+          "description": "Quote of the day by Stephen Hawking: Stephen Hawking's profound quote reflects humanity's enduring quest to understand the universe and our place within it. His words inspire readers to embrace curiosity, seek deeper knowledge and ask meaningful questions abo\u2026",
+          "content": "Stephen Hawking was one of the greatest scientific minds of the modern era, yet his words often resonated far beyond the world of physics. His famous quote, \"My goal is simple. It is a complete under\u2026 [+5192 chars]",
+          "url": "https://economictimes.indiatimes.com/news/new-updates/quote-of-the-day-by-stephen-hawking-my-goal-is-simple-it-is-a-complete-understanding-of-the-universe-why-it-is-what-this-thought-reveals-about-curiosity-purpose-never-ending-search-for-knowledge/articleshow/132286708.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T12:26:31Z",
+          "author": "ET Online",
+          "image_url": "https://img.etimg.com/thumb/msid-132286718,width-1200,height-630,imgsize-33912,overlay-economictimes/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "a78561845022",
+          "summary": "Quote of the day by Stephen Hawking: Stephen Hawking's profound quote reflects humanity's enduring quest to understand the universe and our place within it. His words inspire readers to embrace curios",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Quote of the day by Stephen Hawking: 'When the going gets tough, the tough...' Life lessons on hardships, success and human nature by popular English theoretical physicist",
+              "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-when-the-going-gets-tough-the-tough-life-lessons-on-hardships-success-and-human-nature-by-popular-english-theoretical-physicist/articleshow/131644225.cms",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "Who is Chad Dallas? What to know about Blue Jays' pitcher making MLB debut",
+              "url": "https://www.sportingnews.com/us/mlb/toronto-blue-jays/news/who-chad-dallas-blue-jays-pitcher-mlb-debut/577eb537d38a9b85592700d0",
+              "digest_date": "2026-06-07"
+            },
+            {
+              "title": "Quote of the Day by renowned physicist Stephen Hawking: 'Life would be tragic if...'- The greatest physicist's most powerful quote was not about science, rather about finding humor in human struggle",
+              "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-renowned-physicist-stephen-hawking-life-would-be-tragic-if-the-greatest-physicists-most-powerful-quote-was-not-about-science-rather-about-finding-humor-in-human-struggle/articleshow/131250594.cms",
+              "digest_date": "2026-05-24"
+            }
+          ]
+        },
+        {
+          "title": "\"Sowas Von Egal 3 (German Synth Wave Underground 1981-1986)\" von Various Artists",
+          "description": "Various Artists - \"Sowas Von Egal 3 (German Synth Wave Underground 1981-1986)\"",
+          "content": "laut.de-Kritik\r\n\"Die Entarteten greifen an\": Cold-War-Vibes f\u00fcrs Jetzt.\r\nReview von Michael Schuh\r\n2018 erschien der Auftakt der Reihe \"Sowas Von Egal (German Synth Wave Underground 19801985)\". Seith\u2026 [+2466 chars]",
+          "url": "https://laut.de/Various-Artists/Alben/Sowas-Von-Egal-3-German-Synth-Wave-Underground-1981-1986-127238",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T11:38:13Z",
+          "author": "Michael Schuh",
+          "image_url": "https://laut.de/Various-Artists/Alben/Sowas-Von-Egal-3-German-Synth-Wave-Underground-1981-1986-127238/various-artists-sowas-von-egal-3-german-synth-wave-underground-1981-1986-252443.jpg?2c3f3b",
+          "is_local_nj": false,
+          "article_id": "244fa87b316f",
+          "summary": "Various Artists - \"Sowas Von Egal 3 (German Synth Wave Underground 1981-1986)\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "CervoMed Announces Completion of Enrollment in Phase 2 Study of Neflamapimod for Nonfluent Variant Primary Progressive Aphasia, a Type of Frontotemporal Dementia",
+          "description": "Interim biomarker data accepted for presentation at the 19th Clinical Trials on Alzheimer's Disease (CTAD) conference  Recent peer-reviewed data published...",
+          "content": "Interim biomarker data accepted for presentation at the 19th Clinical Trials on Alzheimer's Disease (CTAD) conference\r\nRecent peer-reviewed data published in Nature Neuroscience demonstrate relevance\u2026 [+10779 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/07/09/3324708/0/en/CervoMed-Announces-Completion-of-Enrollment-in-Phase-2-Study-of-Neflamapimod-for-Nonfluent-Variant-Primary-Progressive-Aphasia-a-Type-of-Frontotemporal-Dementia.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T11:30:00Z",
+          "author": "Cervomed",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/edbbbc99-633a-4270-bb50-216336077fb9",
+          "is_local_nj": false,
+          "article_id": "1da1eddc1141",
+          "summary": "Interim biomarker data accepted for presentation at the 19th Clinical Trials on Alzheimer's Disease (CTAD) conference  Recent peer-reviewed data published...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "CervoMed Announces Private Placement Financing and Plan to Focus on Strategic Partnering to Advance Neflamapimod into Phase 3 for Dementia with Lewy Bodies",
+              "url": "https://www.globenewswire.com/news-release/2026/06/10/3309601/0/en/CervoMed-Announces-Private-Placement-Financing-and-Plan-to-Focus-on-Strategic-Partnering-to-Advance-Neflamapimod-into-Phase-3-for-Dementia-with-Lewy-Bodies.html",
+              "digest_date": "2026-06-14"
+            }
+          ]
+        },
+        {
+          "title": "NexGold Intersects 12.06 g/t Gold over 6.0 Metres and 3.84 g/t Gold over 18.0 Metres During Infill Drill Program at Goldboro",
+          "description": "TORONTO, July 09, 2026 (GLOBE NEWSWIRE) -- NexGold Mining Corp.\u00a0(TSXV: NEXG; OTCQX: NXGCF) (\u201cNexGold\u201d or the \u201cCompany\u201d) is pleased to report additional assay results from its ongoing Reverse Circulation (\u201cRC\u201d) infill drill program (the \u201cRC Infill Drill Progra\u2026",
+          "content": "TORONTO, July 09, 2026 (GLOBE NEWSWIRE) -- NexGold Mining Corp.\u00a0(TSXV: NEXG;OTCQX: NXGCF) (NexGold or the Company) is pleased to report additional assay results from its ongoing Reverse Circulation (\u2026 [+36842 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/07/09/3324663/0/en/NexGold-Intersects-12-06-g-t-Gold-over-6-0-Metres-and-3-84-g-t-Gold-over-18-0-Metres-During-Infill-Drill-Program-at-Goldboro.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T11:00:00Z",
+          "author": "NexGold Mining Corp.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/1a6b58bc-a397-4dd5-b132-7d5a72104d61",
+          "is_local_nj": false,
+          "article_id": "fecb31cd7e96",
+          "summary": "TORONTO, July 09, 2026 (GLOBE NEWSWIRE) -- NexGold Mining Corp.\u00a0(TSXV: NEXG; OTCQX: NXGCF) (\u201cNexGold\u201d or the \u201cCompany\u201d) is pleased to report additional assay results from its ongoing Reverse Circulati",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Refined Energy Announces Final Results for Winter 2026 Drill Program at Dufferin West",
+              "url": "https://www.globenewswire.com/news-release/2026/07/03/3321983/0/en/Refined-Energy-Announces-Final-Results-for-Winter-2026-Drill-Program-at-Dufferin-West.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Endeavour Silver Intersects High-Grade Silver and Gold Mineralization at its Terronera Operation",
+              "url": "https://www.globenewswire.com/news-release/2026/06/18/3314030/0/en/Endeavour-Silver-Intersects-High-Grade-Silver-and-Gold-Mineralization-at-its-Terronera-Operation.html",
+              "digest_date": "2026-06-21"
+            },
+            {
+              "title": "Hemlo Mining Corp. Intersects 16.1 g/t Au over 8.1 Metres in Newly Interpreted South-Rim Zone Adjacent to Active Mining in C-Zone",
+              "url": "https://www.prnewswire.com/news-releases/hemlo-mining-corp-intersects-16-1-gt-au-over-8-1-metres-in-newly-interpreted-south-rim-zone-adjacent-to-active-mining-in-c-zone-302771752.html",
+              "digest_date": "2026-05-17"
+            }
+          ]
+        },
+        {
+          "title": "Zacatecas Silver Announces Completion of Phase Two Sampling at Oso Negro, Sonora",
+          "description": "VANCOUVER, British Columbia, July 09, 2026 (GLOBE NEWSWIRE) -- Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (\u201cZacatecas Silver\u201d or the \u201cCompany\u201d)\u00a0is pleased to announce that a second phase of rock chip grab sampling and vein mapping has been c\u2026",
+          "content": "VANCOUVER, British Columbia, July 09, 2026 (GLOBE NEWSWIRE) -- Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (Zacatecas Silver or the Company)\u00a0is pleased to announce that a second phas\u2026 [+8945 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/07/09/3324644/0/en/Zacatecas-Silver-Announces-Completion-of-Phase-Two-Sampling-at-Oso-Negro-Sonora.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T10:30:00Z",
+          "author": "Zacatecas Silver Corp.",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/3a046186-3a37-45aa-ba2e-55b84e472c27",
+          "is_local_nj": false,
+          "article_id": "11f7f0fcc252",
+          "summary": "VANCOUVER, British Columbia, July 09, 2026 (GLOBE NEWSWIRE) -- Zacatecas Silver Corp. (TSXV: ZAC | OTCQB: ZCTSF | FRA: 7TV) (\u201cZacatecas Silver\u201d or the \u201cCompany\u201d)\u00a0is pleased to announce that a second p",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Zacatecas Silver Completes Surface Sampling and Mapping Program at Oso Negro Project, Sonora, Mexico",
+              "url": "https://www.globenewswire.com/news-release/2026/04/16/3275144/0/en/Zacatecas-Silver-Completes-Surface-Sampling-and-Mapping-Program-at-Oso-Negro-Project-Sonora-Mexico.html",
+              "digest_date": "2026-04-19"
+            }
+          ]
+        },
+        {
+          "title": "Alchemab lands \u00a325m from British Business Bank in record life sciences bet",
+          "description": "Cambridge biotech Alchemab Therapeutics has extended its Series A round with a \u00a325 million ($34 million) investment from the British Business Bank, which the company says is the state-owned lender\u2019s largest backing of a life sciences company to date. The mone\u2026",
+          "content": "Cambridge biotech Alchemab Therapeutics has extended its Series A round with a \u00a325 million ($34 million) investment from the British Business Bank, which the company says is the state-owned lenders l\u2026 [+4152 chars]",
+          "url": "https://thenextweb.com/news/alchemab-british-business-bank-investment/",
+          "source_name": "The Next Web",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T08:15:30Z",
+          "author": "Cristian Dina",
+          "image_url": "https://media.thenextweb.com/2026/07/Alchemab-Therapeutics.avif",
+          "is_local_nj": false,
+          "article_id": "1a6bdf49075c",
+          "summary": "Cambridge biotech Alchemab Therapeutics has extended its Series A round with a \u00a325 million ($34 million) investment from the British Business Bank, which the company says is the state-owned lender\u2019s l",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Democracy as protection in conflict zones: the case of the civic-driven governance of the Idlib Health Directorate",
+          "description": "Alkhalil, M. & Turkmani, R. ORCID logo (2026). Democracy as protection in conflict zones: the case of the civic-driven governance of the Idlib Health Directorate. (LSE Middle East Centre Paper Series 107). LSE Middle East Centre. https://doi.org/10.21953/rese\u2026",
+          "content": "In areas of limited statehood (ALS), communities and civic actors often develop innovative governance methods to maintain essential services. This paper examines the formation of the Idlib Health Dir\u2026 [+1515 chars]",
+          "url": "https://researchonline.lse.ac.uk/id/eprint/140162/",
+          "source_name": "Lse.ac.uk",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T07:04:01Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "6e7736e52b34",
+          "summary": "Alkhalil, M. & Turkmani, R. ORCID logo (2026). Democracy as protection in conflict zones: the case of the civic-driven governance of the Idlib Health Directorate. (LSE Middle East Centre Paper Series ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "DEFION Security lanceert agentic security services en versterkt leiderschap voor AI-gedreven groeifase",
+          "description": "DEFION Security, het cybersecuritybedrijf gespecialiseerd in pentesting en managed detection en response, introduceert de DEFION Pentest Agent. Deze AI-agent identificeert [\u2026]",
+          "content": "DEFION Security, het cybersecuritybedrijf gespecialiseerd in pentesting en managed detection en response, introduceert de DEFION Pentest Agent. Deze AI-agent identificeert kwetsbaarheden in applicati\u2026 [+4321 chars]",
+          "url": "https://www.emerce.nl/wire/defion-security-lanceert-agentic-security-services-versterkt-leiderschap-aigedreven-groeifase",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T05:14:12Z",
+          "author": "DEFION",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/07/Hartger-Ruijs_CEO-DEFION-1024.jpeg",
+          "is_local_nj": false,
+          "article_id": "1320c498c772",
+          "summary": "DEFION Security, het cybersecuritybedrijf gespecialiseerd in pentesting en managed detection en response, introduceert de DEFION Pentest Agent. Deze AI-agent identificeert [\u2026]",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u65e5\u5e38\u751f\u6d3b\u3059\u3089\u56f0\u96e3\u306b\u306a\u308b\u6162\u6027\u75b2\u52b4\u75c7\u5019\u7fa4\u304c\u8133\u306e\u8001\u5ec3\u7269\u9664\u53bb\u30b7\u30b9\u30c6\u30e0\u3068\u95a2\u9023\u3057\u3066\u3044\u308b\u53ef\u80fd\u6027",
+          "description": "\u6162\u6027\u75b2\u52b4\u75c7\u5019\u7fa4(CFS)\u306f\u9577\u671f\u306b\u308f\u305f\u308b\u6975\u5ea6\u306e\u8eab\u4f53\u7684\u75b2\u52b4\u3001\u60c5\u5831\u51e6\u7406\u3084\u8a18\u61b6\u3068\u8a00\u3063\u305f\u8a8d\u77e5\u6a5f\u80fd\u306e\u4f4e\u4e0b\u3001\u982d\u75db\u3084\u95a2\u7bc0\u306e\u75db\u307f\u3001\u7761\u7720\u969c\u5bb3\u3068\u3044\u3063\u305f\u75c7\u72b6\u304c\u73fe\u308c\u308b\u75c5\u6c17\u3067\u3059\u3002\u305d\u3093\u306a\u6162\u6027\u75b2\u52b4\u75c7\u5019\u7fa4\u304c\u8133\u306e\u8001\u5ec3\u7269\u9664\u53bb\u30b7\u30b9\u30c6\u30e0\u3068\u95a2\u9023\u3057\u3066\u3044\u308b\u53ef\u80fd\u6027\u304c\u3042\u308b\u3068\u3001\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u7814\u7a76\u30c1\u30fc\u30e0\u304c\u5831\u544a\u3057\u307e\u3057\u305f\u3002Frontiers | Disrupted glymphatic function and its relationship with sleep and cognitive impairment in ME/CFS assessed via DTI-\u2026",
+          "content": "(CFS)\r\nFrontiers | Disrupted glymphatic function and its relationship with sleep and cognitive impairment in ME/CFS assessed via DTI-ALPS\r\nhttps://www.frontiersin.org/journals/neuroscience/articles/1\u2026 [+449 chars]",
+          "url": "https://news.livedoor.com/article/detail/31781244/",
+          "source_name": "Livedoor.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T03:30:00Z",
+          "author": "GIGAZINE\uff08\u30ae\u30ac\u30b8\u30f3\uff09",
+          "image_url": "https://image.news.livedoor.com/newsimage/stf/4/3/431d5_88_343020a8e2ecffb29885db7d1b50ce79.jpg",
+          "is_local_nj": false,
+          "article_id": "079dbc417811",
+          "summary": "\u6162\u6027\u75b2\u52b4\u75c7\u5019\u7fa4(CFS)\u306f\u9577\u671f\u306b\u308f\u305f\u308b\u6975\u5ea6\u306e\u8eab\u4f53\u7684\u75b2\u52b4\u3001\u60c5\u5831\u51e6\u7406\u3084\u8a18\u61b6\u3068\u8a00\u3063\u305f\u8a8d\u77e5\u6a5f\u80fd\u306e\u4f4e\u4e0b\u3001\u982d\u75db\u3084\u95a2\u7bc0\u306e\u75db\u307f\u3001\u7761\u7720\u969c\u5bb3\u3068\u3044\u3063\u305f\u75c7\u72b6\u304c\u73fe\u308c\u308b\u75c5\u6c17\u3067\u3059\u3002\u305d\u3093\u306a\u6162\u6027\u75b2\u52b4\u75c7\u5019\u7fa4\u304c\u8133\u306e\u8001\u5ec3\u7269\u9664\u53bb\u30b7\u30b9\u30c6\u30e0\u3068\u95a2\u9023\u3057\u3066\u3044\u308b\u53ef\u80fd\u6027\u304c\u3042\u308b\u3068\u3001\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u7814\u7a76\u30c1\u30fc\u30e0\u304c\u5831\u544a\u3057\u307e\u3057\u305f\u3002Frontiers | Disrupted glymphatic function and its relationship with",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Human embryonic stem cell-derived dopaminergic cells for Parkinson\u2019s disease: a phase 1/2 open-label trial",
+          "description": "A phase 1/2 trial of an off-the-shelf stem cell-derived dopaminergic progenitor therapy demonstrated a favorable 12-month safety profile, with no graft-related adverse events, dyskinesias or tumor formation, although risks were associated with the immunosuppr\u2026",
+          "content": "Trial design\r\nThis is an open-label, multicenter, first-in-human, single-arm, dose-escalation trial that investigates the safety, tolerability and feasibility of bilateral intraputaminal transplantat\u2026 [+14646 chars]",
+          "url": "https://www.nature.com/articles/s41591-026-04525-0",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-09T00:00:00Z",
+          "author": "G. Paul, H. Bjartmarz, A. Kirkeby, J. Nelander, R. Smith, S. Kayhanian, A. Evans, B. Harry, E. Cutting, S. Fazal, N. P. Lao-Kaim, T. van Vliet, S. Ull\u00e9n, I. Grubor, O. Hansson, P. Piccini, O. Lindvall, A. Bj\u00f6rklund, H. Widner, M. Parmar, R. A. Barker",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41591-026-04525-0/MediaObjects/41591_2026_4525_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "80c4474aaa98",
+          "summary": "A phase 1/2 trial of an off-the-shelf stem cell-derived dopaminergic progenitor therapy demonstrated a favorable 12-month safety profile, with no graft-related adverse events, dyskinesias or tumor for",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Predators star Filip Forsberg dedicates annual hockey clinic proceeds to ALS research in honor of Titans legend Chris Johnson",
+          "description": "One Nashville sports icon has made a really fantastic commitment to ALS research in the name of another Nashville sports icon. See what Filip Forsberg is doing in honor of Chris Johnson and how you can get involved:",
+          "content": "If you click 'Accept all', we and our partners, including 249 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us\u2026 [+1046 chars]",
+          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6fbcdff6-4e2a-4665-b7d2-f76b2635cd95",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-07-08T23:33:04Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "a91a841fed68",
+          "summary": "One Nashville sports icon has made a really fantastic commitment to ALS research in the name of another Nashville sports icon. See what Filip Forsberg is doing in honor of Chris Johnson and how you ca",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Tennessee Titans legend Chris Johnson's ALS diagnosis puts spotlight on disease's alarming connection to NFL players, CTE and other neurological diseases",
+              "url": "https://atozsports.com/nfl/tennessee-titans-news/tennessee-titans-legend-chris-johnsons-als-diagnosis-spotlight-alarming-connection-nfl-players-cte-neurological-diseases/",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Saints legend Steve Gleason shows support for Chris Johnson following ALS diagnosis",
+              "url": "https://www.canalstreetchronicles.com/new-orleans-saints-news/111398/steve-gleason-shows-support-for-chris-johnson-following-als-diagnosis",
+              "digest_date": "2026-07-05"
+            }
+          ]
+        },
+        {
+          "title": "Osisko Development Extends Gold Mineralization at Cariboo Gold Project Beyond 700 m Vertical Depth in Previously Untested Areas; Intercepts Include 13.19 g/t Gold Over 3.60 m at 596 m Vertical Depth and 28.90 g/t Gold Over 0.50 m at 718 m Vertical Depth",
+          "description": "HIGHLIGHTS 8,971 m of new surface exploration drilling designed to test near mine potential at depth and in under-drilled gap zones between defined deposit footprints. Approximately 65% of drilling transected areas outside the Cariboo Gold deposit. Highlight \u2026",
+          "content": "All drill core samples are submitted to ALS Geochemistrys analytical facility in North Vancouver, British Columbia for preparation and analysis. The ALS facility is accredited to the ISO/IEC 17025 st\u2026 [+8493 chars]",
+          "url": "https://financialpost.com/globe-newswire/osisko-development-extends-gold-mineralization-at-cariboo-gold-project-beyond-700-m-vertical-depth-in-previously-untested-areas-intercepts-include-13-19-g-t-gold-over-3-60-m-at-596-m-vertical-depth-a",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-07-08T21:19:27Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/figure-1-14.jpeg",
+          "is_local_nj": false,
+          "article_id": "82285b9ecb3c",
+          "summary": "HIGHLIGHTS 8,971 m of new surface exploration drilling designed to test near mine potential at depth and in under-drilled gap zones between defined deposit footprints. Approximately 65% of drilling tr",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Endeavour Silver Intersects High-Grade Silver and Gold Mineralization at its Terronera Operation",
+              "url": "https://www.globenewswire.com/news-release/2026/06/18/3314030/0/en/Endeavour-Silver-Intersects-High-Grade-Silver-and-Gold-Mineralization-at-its-Terronera-Operation.html",
+              "digest_date": "2026-06-21"
+            },
+            {
+              "title": "Ero Confirms High-Grade Continuity and Extends Known Mineralization at Furnas with Significant New Step-Out Intercepts",
+              "url": "https://financialpost.com/globe-newswire/ero-confirms-high-grade-continuity-and-extends-known-mineralization-at-furnas-with-significant-new-step-out-intercepts",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "Ero Confirms High-Grade Continuity and Extends Known Mineralization at Furnas with Significant New Step-Out Intercepts",
+              "url": "https://www.globenewswire.com/news-release/2026/06/10/3309531/0/en/Ero-Confirms-High-Grade-Continuity-and-Extends-Known-Mineralization-at-Furnas-with-Significant-New-Step-Out-Intercepts.html",
+              "digest_date": "2026-06-14"
+            }
+          ]
+        },
+        {
+          "title": "Osisko Development Extends Gold Mineralization at Cariboo Gold Project Beyond 700 m Vertical Depth in Previously Untested Areas; Intercepts Include 13.19 g/t Gold Over 3.60 m at 596 m Vertical Depth and 28.90 g/t Gold Over 0.50 m at 718 m Vertical Depth",
+          "description": "HIGHLIGHTS  8,971 m of new surface exploration drilling designed to test near mine potential at depth and in under-drilled gap zones between defined...",
+          "content": "HIGHLIGHTS\r\n<ul><li>8,971 m of new surface exploration drilling designed to test near mine potential at depth and in under-drilled gap zones between defined deposit footprints. Approximately 65% of d\u2026 [+61856 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/07/08/3324482/0/en/Osisko-Development-Extends-Gold-Mineralization-at-Cariboo-Gold-Project-Beyond-700-m-Vertical-Depth-in-Previously-Untested-Areas-Intercepts-Include-13-19-g-t-Gold-Over-3-60-m-at-596.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-07-08T21:15:00Z",
+          "author": "Osisko Development Corp",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/4eeeff64-1f84-49a7-8179-5ac9fde4dabb",
+          "is_local_nj": false,
+          "article_id": "5425b0f2a7c0",
+          "summary": "HIGHLIGHTS  8,971 m of new surface exploration drilling designed to test near mine potential at depth and in under-drilled gap zones between defined...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Endeavour Silver Intersects High-Grade Silver and Gold Mineralization at its Terronera Operation",
+              "url": "https://www.globenewswire.com/news-release/2026/06/18/3314030/0/en/Endeavour-Silver-Intersects-High-Grade-Silver-and-Gold-Mineralization-at-its-Terronera-Operation.html",
+              "digest_date": "2026-06-21"
+            },
+            {
+              "title": "Ero Confirms High-Grade Continuity and Extends Known Mineralization at Furnas with Significant New Step-Out Intercepts",
+              "url": "https://financialpost.com/globe-newswire/ero-confirms-high-grade-continuity-and-extends-known-mineralization-at-furnas-with-significant-new-step-out-intercepts",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "Ero Confirms High-Grade Continuity and Extends Known Mineralization at Furnas with Significant New Step-Out Intercepts",
+              "url": "https://www.globenewswire.com/news-release/2026/06/10/3309531/0/en/Ero-Confirms-High-Grade-Continuity-and-Extends-Known-Mineralization-at-Furnas-with-Significant-New-Step-Out-Intercepts.html",
+              "digest_date": "2026-06-14"
+            }
+          ]
+        },
+        {
+          "title": "Former Mansfield High football standout is heading to the CFL",
+          "description": "After five years in Michigan, former Mansfield High football star TJ Guy is looking to \"faites du bruit\" with the reigning CFL East Division champs.",
+          "content": "A former Mansfield High football standout is taking his talents up north to La Belle Province.\r\nOn Monday, July 6, the CFL's Montreal Alouettes announced the signing of defensive lineman TJ Guy via a\u2026 [+2470 chars]",
+          "url": "https://www.enterprisenews.com/story/sports/pro/2026/07/08/former-mansfield-high-school-football-michigan-edge-tj-guy-signs-with-montreal-alouettes-cfl/90852177007/",
+          "source_name": "Enterprise News",
+          "source_type": "newsapi",
+          "published_at": "2026-07-08T21:04:33Z",
+          "author": "Cameron Merritt, The Taunton Daily Gazette",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/850db51bf0871764f2e1cfdbd3c8fc7e7018f8b557204c816de827deb6688ddf/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe-enterprise%2F0318675e3d87e8c9ff7ac8f437c4db48",
+          "is_local_nj": false,
+          "article_id": "215dc52fbe52",
+          "summary": "After five years in Michigan, former Mansfield High football star TJ Guy is looking to \"faites du bruit\" with the reigning CFL East Division champs.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Scientists Discover a Potential Driver of Chronic Fatigue Syndrome Hiding Deep in The Brain",
+          "description": "Treasure in the trash.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+          "content": "Our understanding of the human brain is experiencing a watershed moment.\r\nThe sewerage gates are open.\r\nIn 2024, scientists discovered the first direct evidence of an internal 'waste disposal system'\u2026 [+5842 chars]",
+          "url": "https://www.sciencealert.com/scientists-discover-a-potential-driver-of-chronic-fatigue-syndrome-hiding-deep-in-the-brain",
+          "source_name": "ScienceAlert",
+          "source_type": "newsapi",
+          "published_at": "2026-07-08T21:00:00Z",
+          "author": "Carly Cassella",
+          "image_url": "https://www.sciencealert.com/images/2026/07/CFSBrain.jpg",
+          "is_local_nj": false,
+          "article_id": "49ac3f8f4e8f",
+          "summary": "Treasure in the trash.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Chris Johnson's wife shares devastating video showing how quickly ALS has ravaged the NFL great",
+          "description": "Johnson, the 2009 NFL Offensive Player of the Year, rocked the sporting world when he made the devastating announcement during an interview with Michael Strahan.",
+          "content": "The wife of former NFL running back Chris Johnson has shared a heartbreaking video on social media one week after he revealed he has ALS.\r\nJohnson, the 2009 NFL Offensive Player of the Year, rocked t\u2026 [+4626 chars]",
+          "url": "https://www.dailymail.com/sport/nfl/article-15963417/nfl-chris-johnson-wife-als-video.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-08T20:43:54Z",
+          "author": "Oliver Salt",
+          "image_url": "https://i.dailymail.com/1s/2026/07/08/20/109890441-0-image-m-47_1783540164316.jpg",
+          "is_local_nj": false,
+          "article_id": "f93a3bc5cd71",
+          "summary": "Johnson, the 2009 NFL Offensive Player of the Year, rocked the sporting world when he made the devastating announcement during an interview with Michael Strahan.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Tennessee Titans legend Chris Johnson's ALS diagnosis puts spotlight on disease's alarming connection to NFL players, CTE and other neurological diseases",
+              "url": "https://atozsports.com/nfl/tennessee-titans-news/tennessee-titans-legend-chris-johnsons-als-diagnosis-spotlight-alarming-connection-nfl-players-cte-neurological-diseases/",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "Michael Strahan slammed over NFL legend Chris Johnson's ALS interview... as viewers claim he failed to ask the most important question",
+              "url": "https://www.dailymail.com/sport/nfl/article-15949939/michael-strahan-chris-johnson-als-interview.html",
+              "digest_date": "2026-07-05"
+            }
+          ]
+        },
+        {
+          "title": "NFL players 4 times more likely to die of brain disease, study finds",
+          "description": "Despite living longer overall, research suggests that the group's neurodegenerative mortality risk is dramatically elevated.",
+          "content": "A new study found that National Football League players are four times likelier to die due to neurodegenerative disease than the general population. The cohort study of nearly 20,000 NFL players reve\u2026 [+6017 chars]",
+          "url": "https://news.harvard.edu/gazette/story/2026/07/nfl-players-4-times-more-likely-to-die-of-brain-disease-study-finds/",
+          "source_name": "Harvard School of Engineering and Applied Sciences",
+          "source_type": "newsapi",
+          "published_at": "2026-07-08T20:23:21Z",
+          "author": "gazettebeckycoleman",
+          "image_url": "https://news.harvard.edu/wp-content/uploads/2026/07/nfl-mortality.jpg",
+          "is_local_nj": false,
+          "article_id": "3ab4b9b875e2",
+          "summary": "Despite living longer overall, research suggests that the group's neurodegenerative mortality risk is dramatically elevated.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Quote of the day by Stephen Hawking: 'Doing a job right the first time gets the job done. Doing the job wrong fourteen times...' Life lessons on workplace culture, productivity, perfection, work ethic, learning and career value",
+          "description": "Quote of the day by Stephen Hawking reminds people that mistakes, persistence and learning are part of every career. The quote uses humor to explain workplace culture and raises questions about productivity, perfection, work ethic and career value. It encoura\u2026",
+          "content": "Quote of the day by Stephen Hawkingcontinues to inspire discussions about work, productivity, learning and career value. His words, \"Doing a job right the first time gets the job done. Doing the job \u2026 [+6461 chars]",
+          "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-doing-a-job-right-the-first-time-gets-the-job-done-doing-the-job-wrong-fourteen-times-life-lessons-on-workplace-culture-productivity-perfection-work-ethic-learning-and-career-value/articleshow/132271953.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-07-08T19:43:23Z",
+          "author": "Gandharv Walia",
+          "image_url": "https://img.etimg.com/thumb/msid-132272228,width-1200,height-630,imgsize-39978,overlay-economictimes/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "c6c79dbc8b4e",
+          "summary": "Quote of the day by Stephen Hawking reminds people that mistakes, persistence and learning are part of every career. The quote uses humor to explain workplace culture and raises questions about produc",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Quote of the day by Stephen Hawking: 'When the going gets tough, the tough...' Life lessons on hardships, success and human nature by popular English theoretical physicist",
+              "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-when-the-going-gets-tough-the-tough-life-lessons-on-hardships-success-and-human-nature-by-popular-english-theoretical-physicist/articleshow/131644225.cms",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "Quote of the Day by renowned physicist Stephen Hawking: 'Life would be tragic if...'- The greatest physicist's most powerful quote was not about science, rather about finding humor in human struggle",
+              "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-renowned-physicist-stephen-hawking-life-would-be-tragic-if-the-greatest-physicists-most-powerful-quote-was-not-about-science-rather-about-finding-humor-in-human-struggle/articleshow/131250594.cms",
+              "digest_date": "2026-05-24"
+            },
+            {
+              "title": "Quote of the Day by Stephen Hawking: \u201cThe past, like the future, is indefinite and exists only as a spectrum of possibilities\u201d \u2014 Why nothing in life is constant and how the legendary physicist reshaped our understanding of time, reality and memory",
+              "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-the-past-like-the-future-is-indefinite-and-exists-only-as-a-spectrum-of-possibilities-why-nothing-in-life-is-constant-and-how-the-legendary-physicist-reshaped-our-understanding-of-time-reality-and-memory/articleshow/130910873.cms",
+              "digest_date": "2026-05-10"
+            }
+          ]
+        },
+        {
+          "title": "Fake Mitch McConnell hospital image spreads as questions surround his health",
+          "description": "While the Kentucky senator's hospital stay has been shrouded in mystery, an image spreading online doesn't offer proof of his condition.",
+          "content": "Claim:\r\nAn image authentically shows Kentucky Sen. Mitch McConnell in the hospital.\r\nIn early July 2026, as Kentucky Sen. Mitch McConnell remained hospitalized for undisclosed health issues, an image\u2026 [+6956 chars]",
+          "url": "https://www.snopes.com//fact-check/mitch-mcconnell-hospital-image/",
+          "source_name": "Snopes.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-08T19:27:00Z",
+          "author": "Laerke Christensen",
+          "image_url": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2026/07/mitch_mcconnell_hospital_image_fake.png",
+          "is_local_nj": false,
+          "article_id": "e6321e189c20",
+          "summary": "While the Kentucky senator's hospital stay has been shrouded in mystery, an image spreading online doesn't offer proof of his condition.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Mitch McConnell remains hospitalized but \u2018continues to improve\u2019 after health scare",
+              "url": "https://nypost.com/2026/07/02/us-news/mitch-mcconnell-remains-hospitalized-but-continues-to-improve-after-health-scare/",
+              "digest_date": "2026-07-05"
+            }
+          ]
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Watch: Titans legends' ALS Ice Bucket Challenge accepted",
+        "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/07/11/watch-tennessee-titans-legends-als-ice-bucket-challenge-accepted/90878870007/",
+        "source": "USA Today",
+        "date": "2026-07-11T09:07:28Z"
+      },
+      {
+        "title": "PC Games 08/26: Mit Coverstory zu Gothic Remake, Test zur Steam Machine, Preview zu Final Fantasy 7: Revelation u. v. m.",
+        "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/Gothic-Remake-Steam-Machine-Test-Final-Fantasy-7-Revelation-1547643/",
+        "source": "PC Games",
+        "date": "2026-07-11T07:01:00Z"
+      },
+      {
+        "title": "White Sox 20-Homer Slugger Makes Home Run Derby Decision After Being Named All-Star",
+        "url": "https://heavy.com/sports/mlb/chicago-white-sox/munetaka-murakami-all-star-home-run-derby-decision/",
+        "source": "Heavy.com",
+        "date": "2026-07-11T03:16:54Z"
+      },
+      {
+        "title": "Vladimir Guerrero Jr. Named American League LVP in 1st Half",
+        "url": "https://heavy.com/sports/mlb/toronto-blue-jays/vladimir-guerrero-jr-american-league-lvp/",
+        "source": "Heavy.com",
+        "date": "2026-07-10T23:43:47Z"
+      },
+      {
+        "title": "Everything ALS founder provides insight on Chris Johnson diagnosis",
+        "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/07/10/everything-als-founder-provides-insight-on-chris-johnson-diagnosis/90874725007/",
+        "source": "USA Today",
+        "date": "2026-07-10T18:45:30Z"
+      },
+      {
+        "title": "Riots Explode in London, Netherlands After France Eliminates Morocco From World Cup",
+        "url": "https://legalinsurrection.com/2026/07/riots-explode-in-london-netherlands-after-france-eliminates-morocco-from-world-cup/",
+        "source": "Legalinsurrection.com",
+        "date": "2026-07-10T18:00:32Z"
+      },
+      {
+        "title": "Saints QB Tyler Shough participates in revived 'ice bucket challenge'",
+        "url": "https://saintswire.usatoday.com/story/sports/nfl/saints/2026/07/10/saints-tyler-shough-steve-gleason-chris-johnson-als-ice-bucket-challenge/90877156007/",
+        "source": "USA Today",
+        "date": "2026-07-10T17:30:39Z"
+      },
+      {
+        "title": "Saints QB Tyler Shough takes Ice Bucket Challenge in support of ALS community",
+        "url": "https://www.canalstreetchronicles.com/new-orleans-saints-news/111640/saints-qb-tyler-shough-takes-ice-bucket-challenge-support-als-community-steve-gleason-nfl-chris-johnson",
+        "source": "Canal Street Chronicles",
+        "date": "2026-07-10T15:20:01Z"
+      },
+      {
+        "title": "Impact of vagus nerve cross-sectional area on electrocardiogram parameters in community-dwelling older adults: The YAHABA study",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353473",
+        "source": "Plos.org",
+        "date": "2026-07-10T14:00:00Z"
+      },
+      {
+        "title": "Biotech Division of Greenland Mines Announces Australian Patent Grant for Klotho Gene Therapy Technology for Treatment of Neuromuscular Diseases",
+        "url": "https://www.globenewswire.com/news-release/2026/07/10/3325439/0/en/Biotech-Division-of-Greenland-Mines-Announces-Australian-Patent-Grant-for-Klotho-Gene-Therapy-Technology-for-Treatment-of-Neuromuscular-Diseases.html",
+        "source": "GlobeNewswire",
+        "date": "2026-07-10T12:00:00Z"
+      },
+      {
+        "title": "Altius Minerals Corporation Increases Ownership Interest to 50% in Great Bay Renewables in Partnership with Northampton Capital Partners",
+        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-minerals-corporation-increases-ownership-interest-to-50-in-great-bay-renewables-in-partnership-with-northampton-capital-partners",
+        "source": "Financial Post",
+        "date": "2026-07-10T11:08:45Z"
+      },
+      {
+        "title": "\"Alone Together\" von Show Me The Body",
+        "url": "https://laut.de/Show-Me-The-Body/Alben/Alone-Together-127239",
+        "source": "Laut.de",
+        "date": "2026-07-10T10:35:58Z"
+      },
+      {
+        "title": "Durbin's 2-run homer lifts the surging Red Sox past the White Sox for a 6th straight win",
+        "url": "https://sports.yahoo.com/articles/durbins-2-run-homer-lifts-025836459.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-07-10T02:58:36Z"
+      },
+      {
+        "title": "New study outlines terrifying health risks NFL players are facing in grim reality check for football",
+        "url": "https://www.dailymail.com/sport/nfl/article-15963265/nfl-players-neurodegenerative-disease-risk-study.html",
+        "source": "Dailymail.com",
+        "date": "2026-07-10T00:35:02Z"
+      },
+      {
+        "title": "Dollar Falls as Stocks Rally and Crude Oil Retreats",
+        "url": "https://www.barchart.com/story/news/3211804/dollar-falls-as-stocks-rally-and-crude-oil-retreats",
+        "source": "Barchart.com",
+        "date": "2026-07-09T19:39:13Z"
+      },
+      {
+        "title": "49ers Training Camp Open Practices Start July 26; Four Things You Need to Know",
+        "url": "https://www.49ers.com/news/49ers-training-camp-open-practices-start-july-26-four-things-you-need-to-know",
+        "source": "49ers.com",
+        "date": "2026-07-09T19:01:27Z"
+      },
+      {
+        "title": "NFL icon Steve Gleason shows support for fellow ALS sufferer Chris Johnson with 'butt naked' Ice Bucket Challenge as he continues to defy the odds",
+        "url": "https://www.dailymail.com/sport/nfl/article-15964349/steve-gleason-chris-johnson-als-ice-bucket-challenge.html",
+        "source": "Dailymail.com",
+        "date": "2026-07-09T17:10:28Z"
+      },
+      {
+        "title": "American: Los Angeles \u2013 Charleston, South Carolina (and vice versa). $198 (Basic Economy) / $308 (Regular Economy). Roundtrip, including all Taxes",
+        "url": "https://www.theflightdeal.com/2026/07/09/american-los-angeles-charleston-south-carolina-and-vice-versa-198-basic-economy-308-regular-economy-roundtrip-including-all-taxes-2/",
+        "source": "Theflightdeal.com",
+        "date": "2026-07-09T16:53:55Z"
+      },
+      {
+        "title": "Army\u2019s mega drone push: TASL, Nibe lead \u20b91,600 cr race; new propulsion tender next",
+        "url": "https://www.thehindubusinessline.com/companies/armys-mega-drone-push-tasl-nibe-lead-1600-cr-race-new-propulsion-tender-next/article71202772.ece",
+        "source": "BusinessLine",
+        "date": "2026-07-09T15:30:25Z"
+      },
+      {
+        "title": "Highly frequent undesired insertional mutagenesis during Drosophila genome editing",
+        "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012192",
+        "source": "Plos.org",
+        "date": "2026-07-09T14:00:00Z"
+      },
+      {
+        "title": "Chris Johnson\u2019s ALS revelation a reminder of grace needed for Black athletes",
+        "url": "https://andscape.com/features/chris-johnson-als-diagnosis-michael-strahan-interview-nfl/",
+        "source": "Andscape.com",
+        "date": "2026-07-09T13:20:00Z"
+      },
+      {
+        "title": "Quote of the day by Stephen Hawking: 'My goal is simple. It is a complete understanding of the universe, why it is...' What this thought reveals about curiosity, purpose & never-ending search for knowledge",
+        "url": "https://economictimes.indiatimes.com/news/new-updates/quote-of-the-day-by-stephen-hawking-my-goal-is-simple-it-is-a-complete-understanding-of-the-universe-why-it-is-what-this-thought-reveals-about-curiosity-purpose-never-ending-search-for-knowledge/articleshow/132286708.cms",
+        "source": "The Times of India",
+        "date": "2026-07-09T12:26:31Z"
+      },
+      {
+        "title": "\"Sowas Von Egal 3 (German Synth Wave Underground 1981-1986)\" von Various Artists",
+        "url": "https://laut.de/Various-Artists/Alben/Sowas-Von-Egal-3-German-Synth-Wave-Underground-1981-1986-127238",
+        "source": "Laut.de",
+        "date": "2026-07-09T11:38:13Z"
+      },
+      {
+        "title": "CervoMed Announces Completion of Enrollment in Phase 2 Study of Neflamapimod for Nonfluent Variant Primary Progressive Aphasia, a Type of Frontotemporal Dementia",
+        "url": "https://www.globenewswire.com/news-release/2026/07/09/3324708/0/en/CervoMed-Announces-Completion-of-Enrollment-in-Phase-2-Study-of-Neflamapimod-for-Nonfluent-Variant-Primary-Progressive-Aphasia-a-Type-of-Frontotemporal-Dementia.html",
+        "source": "GlobeNewswire",
+        "date": "2026-07-09T11:30:00Z"
+      },
+      {
+        "title": "NexGold Intersects 12.06 g/t Gold over 6.0 Metres and 3.84 g/t Gold over 18.0 Metres During Infill Drill Program at Goldboro",
+        "url": "https://www.globenewswire.com/news-release/2026/07/09/3324663/0/en/NexGold-Intersects-12-06-g-t-Gold-over-6-0-Metres-and-3-84-g-t-Gold-over-18-0-Metres-During-Infill-Drill-Program-at-Goldboro.html",
+        "source": "GlobeNewswire",
+        "date": "2026-07-09T11:00:00Z"
+      },
+      {
+        "title": "Zacatecas Silver Announces Completion of Phase Two Sampling at Oso Negro, Sonora",
+        "url": "https://www.globenewswire.com/news-release/2026/07/09/3324644/0/en/Zacatecas-Silver-Announces-Completion-of-Phase-Two-Sampling-at-Oso-Negro-Sonora.html",
+        "source": "GlobeNewswire",
+        "date": "2026-07-09T10:30:00Z"
+      },
+      {
+        "title": "Alchemab lands \u00a325m from British Business Bank in record life sciences bet",
+        "url": "https://thenextweb.com/news/alchemab-british-business-bank-investment/",
+        "source": "The Next Web",
+        "date": "2026-07-09T08:15:30Z"
+      },
+      {
+        "title": "Democracy as protection in conflict zones: the case of the civic-driven governance of the Idlib Health Directorate",
+        "url": "https://researchonline.lse.ac.uk/id/eprint/140162/",
+        "source": "Lse.ac.uk",
+        "date": "2026-07-09T07:04:01Z"
+      },
+      {
+        "title": "DEFION Security lanceert agentic security services en versterkt leiderschap voor AI-gedreven groeifase",
+        "url": "https://www.emerce.nl/wire/defion-security-lanceert-agentic-security-services-versterkt-leiderschap-aigedreven-groeifase",
+        "source": "Emerce.nl",
+        "date": "2026-07-09T05:14:12Z"
+      },
+      {
+        "title": "\u65e5\u5e38\u751f\u6d3b\u3059\u3089\u56f0\u96e3\u306b\u306a\u308b\u6162\u6027\u75b2\u52b4\u75c7\u5019\u7fa4\u304c\u8133\u306e\u8001\u5ec3\u7269\u9664\u53bb\u30b7\u30b9\u30c6\u30e0\u3068\u95a2\u9023\u3057\u3066\u3044\u308b\u53ef\u80fd\u6027",
+        "url": "https://news.livedoor.com/article/detail/31781244/",
+        "source": "Livedoor.com",
+        "date": "2026-07-09T03:30:00Z"
+      },
+      {
+        "title": "Human embryonic stem cell-derived dopaminergic cells for Parkinson\u2019s disease: a phase 1/2 open-label trial",
+        "url": "https://www.nature.com/articles/s41591-026-04525-0",
+        "source": "Nature.com",
+        "date": "2026-07-09T00:00:00Z"
+      },
+      {
+        "title": "Predators star Filip Forsberg dedicates annual hockey clinic proceeds to ALS research in honor of Titans legend Chris Johnson",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6fbcdff6-4e2a-4665-b7d2-f76b2635cd95",
+        "source": "Yahoo Entertainment",
+        "date": "2026-07-08T23:33:04Z"
+      },
+      {
+        "title": "Osisko Development Extends Gold Mineralization at Cariboo Gold Project Beyond 700 m Vertical Depth in Previously Untested Areas; Intercepts Include 13.19 g/t Gold Over 3.60 m at 596 m Vertical Depth and 28.90 g/t Gold Over 0.50 m at 718 m Vertical Depth",
+        "url": "https://financialpost.com/globe-newswire/osisko-development-extends-gold-mineralization-at-cariboo-gold-project-beyond-700-m-vertical-depth-in-previously-untested-areas-intercepts-include-13-19-g-t-gold-over-3-60-m-at-596-m-vertical-depth-a",
+        "source": "Financial Post",
+        "date": "2026-07-08T21:19:27Z"
+      },
+      {
+        "title": "Osisko Development Extends Gold Mineralization at Cariboo Gold Project Beyond 700 m Vertical Depth in Previously Untested Areas; Intercepts Include 13.19 g/t Gold Over 3.60 m at 596 m Vertical Depth and 28.90 g/t Gold Over 0.50 m at 718 m Vertical Depth",
+        "url": "https://www.globenewswire.com/news-release/2026/07/08/3324482/0/en/Osisko-Development-Extends-Gold-Mineralization-at-Cariboo-Gold-Project-Beyond-700-m-Vertical-Depth-in-Previously-Untested-Areas-Intercepts-Include-13-19-g-t-Gold-Over-3-60-m-at-596.html",
+        "source": "GlobeNewswire",
+        "date": "2026-07-08T21:15:00Z"
+      },
+      {
+        "title": "Former Mansfield High football standout is heading to the CFL",
+        "url": "https://www.enterprisenews.com/story/sports/pro/2026/07/08/former-mansfield-high-school-football-michigan-edge-tj-guy-signs-with-montreal-alouettes-cfl/90852177007/",
+        "source": "Enterprise News",
+        "date": "2026-07-08T21:04:33Z"
+      },
+      {
+        "title": "Scientists Discover a Potential Driver of Chronic Fatigue Syndrome Hiding Deep in The Brain",
+        "url": "https://www.sciencealert.com/scientists-discover-a-potential-driver-of-chronic-fatigue-syndrome-hiding-deep-in-the-brain",
+        "source": "ScienceAlert",
+        "date": "2026-07-08T21:00:00Z"
+      },
+      {
+        "title": "Chris Johnson's wife shares devastating video showing how quickly ALS has ravaged the NFL great",
+        "url": "https://www.dailymail.com/sport/nfl/article-15963417/nfl-chris-johnson-wife-als-video.html",
+        "source": "Dailymail.com",
+        "date": "2026-07-08T20:43:54Z"
+      },
+      {
+        "title": "NFL players 4 times more likely to die of brain disease, study finds",
+        "url": "https://news.harvard.edu/gazette/story/2026/07/nfl-players-4-times-more-likely-to-die-of-brain-disease-study-finds/",
+        "source": "Harvard School of Engineering and Applied Sciences",
+        "date": "2026-07-08T20:23:21Z"
+      },
+      {
+        "title": "Quote of the day by Stephen Hawking: 'Doing a job right the first time gets the job done. Doing the job wrong fourteen times...' Life lessons on workplace culture, productivity, perfection, work ethic, learning and career value",
+        "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-doing-a-job-right-the-first-time-gets-the-job-done-doing-the-job-wrong-fourteen-times-life-lessons-on-workplace-culture-productivity-perfection-work-ethic-learning-and-career-value/articleshow/132271953.cms",
+        "source": "The Times of India",
+        "date": "2026-07-08T19:43:23Z"
+      },
+      {
+        "title": "Fake Mitch McConnell hospital image spreads as questions surround his health",
+        "url": "https://www.snopes.com//fact-check/mitch-mcconnell-hospital-image/",
+        "source": "Snopes.com",
+        "date": "2026-07-08T19:27:00Z"
+      }
+    ],
+    "generated_at": "2026-07-12T09:51:57.137871"
+  },
+  {
     "date": "2026-07-05",
     "week_of": "July 05, 2026",
     "digest_number": 27,
