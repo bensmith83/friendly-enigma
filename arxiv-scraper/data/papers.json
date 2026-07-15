@@ -1,5 +1,21 @@
 [
   {
+    "id": "2607.12987v1",
+    "title": "Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification",
+    "summary": "Accurate dermatological diagnosis naturally necessitates equitable performance across diverse populations, yet a systematic lack of expertly annotated images, especially for underrepresented skin tones and rare diseases, impedes progress toward measurably fair methods. We introduce cgDDI (Controllable Generation of Diverse Dermatological Imagery), a hybrid framework that (1) synthesizes realistic healthy skin samples without disturbing other input properties, (2) maps single-sample rare lesions onto novel skin-tones and locations non-parametrically, and (3) allows for efficient parametric generation with as few as 10 training samples. The framework supports both human and automated segmentation masking, enabling scalability to datasets without pre-made lesion masks. We grow a 656-image dataset by more than 400x and validate across two datasets: biopsy-confirmed Diverse Dermatology Images (DDI) and expert-verified Fitzpatrick17k (F17k). On the DDI benchmark, we achieve malignancy classification accuracy of 86.4% under synthetic-only training and 90.9% state-of-the-art performance with real data fine-tuning, alongside leading fairness metrics. Cross-dataset experiments show +13.9% accuracy improvements on unseen F17k data despite minimal disease overlap. We openly release 266k+ synthetic images, code, and generative models to further support fairness research at https://github.com/hectorcarrion/ControllableGenDDI.",
+    "published": "2026-07-14T17:32:13Z",
+    "link": "http://arxiv.org/abs/2607.12987v1",
+    "authors": [
+      "H\u00e9ctor Carri\u00f3n",
+      "Narges Norouzi"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Accurate dermatological diagnosis naturally necessitates equitable performance across diverse populations, yet a systematic lack of expertly annotated images, especially for underrepresented skin tones and rare diseases, impedes progress toward measurably fair methods. We introduce cgDDI (Controllable Generation of Diverse Dermatological Imagery), a hybrid framework that (1) synthesizes realistic healthy skin samples without disturbing other input properties, (2) maps single-sample rare lesions onto novel skin-tones and locations non-parametrically, and (3) allows for efficient parametric generation with as few as 10 training samples.",
+    "selected_date": "2026-07-15"
+  },
+  {
     "id": "2607.11843v1",
     "title": "Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks",
     "summary": "Quantum Neural Networks (QNNs) are a promising framework for quantum machine learning on near-term quantum devices, but their security risks remain insufficiently understood. Studies have shown that QNNs are vulnerable to backdoor attacks, yet existing quantum backdoors mostly rely on a fixed trigger shared by all poisoned inputs. This fixed-trigger design is a major weakness because many defenses detect or weaken the repeated patterns such triggers leave in data representations. Although input-aware dynamic backdoors have been studied in classical neural networks, transferring them to QNNs is difficult because quantum learning introduces new obstacles. In particular, measurement compresses the post-ansatz quantum state into a limited classical output, weakening supervision for a trigger generator, while individual density matrices fluctuate with the input and make per-sample contrastive learning unstable. To address these challenges, we propose Q-DIBA, the first input-aware dynamic backdoor attack for QNNs. Q-DIBA jointly trains a classical trigger generator and a victim QNN through a three-mode mini-batch strategy that supports clean behavior, attack activation, and trigger specificity. To provide stable quantum-level supervision, Q-DIBA introduces an ensemble density contrastive loss that operates on post-ansatz quantum states before measurement and contrasts mode-averaged density matrices rather than individual samples. Experiments on MNIST and Fashion-MNIST across multiple QNN architectures show that Q-DIBA achieves high clean accuracy, strong attack success, and high cross-trigger accuracy, demonstrating effectiveness, stealthiness, and input specificity. The attack also remains resilient against defenses including visual inspection, spectral-signature detection, and fine-tuning, suggesting that input-aware quantum backdoors are an important threat to secure QNN deployment.",
@@ -600,25 +616,5 @@
     ],
     "ai_summary": "World models are widely used in robotic and agentic engineering control systems due to their ability to learn latent dynamics for planning and decision-making. As these systems are increasingly deployed in safety-critical settings, understanding their robustness under adversarial conditions has become essential.",
     "selected_date": "2026-06-16"
-  },
-  {
-    "id": "2606.14504v1",
-    "title": "Scratched Lenses, Shifted Depth: Passive Camera-Side Optical Attacks",
-    "summary": "Physical adversarial attacks on vision systems are typically studied through scene manipulation, such as adversarial patches or projections, where the adversary controls what the camera observes. Camera-side attacks using stickers or auxiliary optics have also been explored, but they treat attacks as image-space perturbations from designed patterns. This misses how physical imperfections interact with scene-dependent lighting and optics. We identify a threat: passive lens-side damage that is persistent yet trigger-conditioned, producing optical artifacts that bias geometric inference under particular visual conditions.   We instantiate this threat through Scratch-induced Lens Adversarial Streak Hijacking SLASH, a physical-world attack caused by small scratches on a camera lens or protective cover. Scratches interact with bright light sources and specular reflections to create structured streak artifacts that distort depth cues. Since the perturbation is fixed in the optical path but triggered by the scene, it is both persistent and selective. We formulate the attack in optical space, model the scratch pattern as a trigger-conditioned optical channel, and optimize one fixed configuration across diverse viewing conditions. We evaluate SLASH on monocular depth estimation and monocular 3D object detection in digital and real-world settings. Under the fixed-scratch constraint, directional depth shifts reach up to 32% relative error for monocular depth estimation, with consistent effects on monocular 3D object detection. Physical experiments confirm transfer to real camera recordings, inducing depth shifts above the model's natural prediction baseline. These findings reveal an attack surface where benign-looking hardware imperfections act as latent, scene-triggered adversarial mechanisms, challenging assumptions about physical robustness and motivating defenses for secure vision systems.",
-    "published": "2026-06-12T14:34:53Z",
-    "link": "http://arxiv.org/abs/2606.14504v1",
-    "authors": [
-      "Qinlin He",
-      "Zeming Zhuang",
-      "Yongji Wu",
-      "Lan Zhang",
-      " Xiaoyong",
-      " Yuan"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Physical adversarial attacks on vision systems are typically studied through scene manipulation, such as adversarial patches or projections, where the adversary controls what the camera observes. Camera-side attacks using stickers or auxiliary optics have also been explored, but they treat attacks as image-space perturbations from designed patterns.",
-    "selected_date": "2026-06-15"
   }
 ]
