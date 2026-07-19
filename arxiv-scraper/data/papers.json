@@ -1,5 +1,28 @@
 [
   {
+    "id": "2607.14651v1",
+    "title": "MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents",
+    "summary": "Persistent external memory enhances agent continuity but introduces persistent security vulnerabilities: adversarial content can be injected via standard interaction channels, retained across turns, and later distort downstream behavior. To address this challenge, we propose MemPoison, a comprehensive benchmark and analysis framework featuring 1227 hand-validated cases across four attack types, three injection channels, and three representative memory substrates, evaluated on seven open-weight and three closed-weight model families. We introduce a three-tier taxonomy: (L1) direct single-record corruption, (L2) compositional multi-record corruption and (L3) context-triggered dormant corruption. Our evaluations reveal a distinct defense frontier: while baseline write-time defenses, such as consistency checks, substantially suppress direct L1 attacks, they fail to reliably suppress L2 and L3 attacks. Through mechanistic influence decomposition (MID), we demonstrate structural blind spots in write-time defenses, which admit seemingly benign records that later become harmful through joint retrieval composition or trigger-conditioned activation. Our findings advocate for shifting from static filtering to adaptive, context-sensitive memory defense strategies.",
+    "published": "2026-07-16T07:19:33Z",
+    "link": "http://arxiv.org/abs/2607.14651v1",
+    "authors": [
+      "Jifeng Gao",
+      "Kang Xia",
+      "Yi Zhang",
+      "Xiaobin Hong",
+      "Mingkai Lin",
+      "Xingshen Wei",
+      "Wenzhong Li",
+      "Sanglu Lu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Persistent external memory enhances agent continuity but introduces persistent security vulnerabilities: adversarial content can be injected via standard interaction channels, retained across turns, and later distort downstream behavior. To address this challenge, we propose MemPoison, a comprehensive benchmark and analysis framework featuring 1227 hand-validated cases across four attack types, three injection channels, and three representative memory substrates, evaluated on seven open-weight and three closed-weight model families.",
+    "selected_date": "2026-07-19"
+  },
+  {
     "id": "2607.14945v1",
     "title": "Introspective Attention Modulation for Safe Text-to-Image Generation",
     "summary": "State-of-the-art flow based text-to-image (T2I) models exhibit remarkable generative abilities but remain vulnerable to producing unsafe content. Prior safety efforts range from concept erasure and prompt filtering to classifier-based gating. However, simple techniques like parameter efficient adaptations of the models easily bypass such guardrails. We introduce a unique principled approach that achieves safety by regulating the model's attention dynamics through inference-time introspection, exhibiting intrinsic robustness. Our method analyzes and rebalances attention activations throughout image synthesis, steering generations away from unsafe concepts while preserving semantic alignment. This introspective control ensures safety of deployed models. Across standard and adversarial safety benchmarks, our approach achieves remarkable safety scores while maintaining or even improving alignment and perceptual quality. Our results reveal that attention-space regulation offers a considerably more promising path to safer diffusion transformer based image generation than the existing concept erasing mechanism.Our code can be accessed at https://basim-azam.github.io/iam/",
@@ -587,24 +610,5 @@
     ],
     "ai_summary": "Quantum entanglement is a central resource underpinning emerging quantum technologies, enabling capabilities beyond those of classical systems. Accurate verification of entanglement is therefore crucial.",
     "selected_date": "2026-06-20"
-  },
-  {
-    "id": "2606.20415v1",
-    "title": "Pseudo-Feature Padding: A Lightweight Defense Against False Data Injection in Power Grids",
-    "summary": "Deep Neural Networks DNNs have achieved remarkable accuracy in various tasks including their application in CyberPhysical Systems CPS for detecting False Data Injection Attacks FDIA during critical operations However the unique infrastructure of CPS makes DNNs vulnerable to exploitation by attackers aiming to evade detection Additionally the distinct nature of CPS presents challenges for conventional defense mechanisms against FDIA This paper proposes an innovative defense framework that strengthens DNNs against such attacks by introducing an additional input layer that performs padding in the input samples using pseudofeature values derived from the inputs statistical distribution This padding increases the input dimensionality in a randomized and dataaware manner making adversarial attacks computationally infeasible due to the nontransferable nature of crafted perturbations and the unpredictability of the padded structure Our method is lightweight modelagnostic and requires no modifications to the core architecture making it highly deployable in realworld CPS settings We evaluated our framework on critical power grid applications such as state estimation using the IEEE 14bus 30bus 118bus and 300bus systems Experiments under adversarial settings demonstrate that our padding strategy significantly improves model robustness with negligible impact on performance and effectively mitigates attacks that would otherwise bypass conventional defenses",
-    "published": "2026-06-18T16:01:39Z",
-    "link": "http://arxiv.org/abs/2606.20415v1",
-    "authors": [
-      "Farhin Farhad Riya",
-      "Shahinul Hoque",
-      "Yingyuan Yang",
-      "Jinyuan Sun",
-      "Kevin Tomsovic"
-    ],
-    "categories": [
-      "cs.LG"
-    ],
-    "ai_summary": "Deep Neural Networks DNNs have achieved remarkable accuracy in various tasks including their application in CyberPhysical Systems CPS for detecting Fa...",
-    "selected_date": "2026-06-19"
   }
 ]
