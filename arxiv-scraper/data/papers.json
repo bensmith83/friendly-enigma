@@ -1,5 +1,26 @@
 [
   {
+    "id": "2607.19069v1",
+    "title": "Delineate Anything v2: A Global Foundation Model for Field Delineation",
+    "summary": "Accurate agricultural field boundary delineation at large scale is a foundational task for food security, supply chain transparency, and carbon accounting. While vision foundation models like SAM show remarkable zero-shot capabilities, they frequently fail in geospatial domains due to topological complexity, cropland texturing patterns, and a lack of physical scale awareness. In this work, we introduce Delineate Anything v2, a globally scalable foundation model designed specifically for wide-area field boundary mapping. We construct FBIS-73M, a 73-million-instance multi-resolution dataset spanning 61 countries. To address the pervasive issue of multi-field administrative parcel merging, we introduce a resolution-specific data curation pipeline that leverages topological image-space adaptation to homogenize merged parcels and strengthen weak physical boundaries. Furthermore, we establish a novel, manually curated evaluation benchmark covering 100 countries to assess independent zero-shot generalization. Our results show that Delineate Anything v2 surpasses the current state-of-the-art, including the Delineate Anything framework, by 0.284 mAP@0.5 (+103.3% relative gain), while maintaining execution speeds suitable for rapid national- and global-scale deployment, as demonstrated by nationwide mapping of Ukraine (603,000 km^2) in 5.4 hours on a consumer-grade workstation. Code, pre-trained weights, the FBIS-73M dataset, and ready-to-use national-scale vector boundary products are publicly available at https://github.com/Lavreniuk/Delineate-Anything.",
+    "published": "2026-07-21T12:59:45Z",
+    "link": "http://arxiv.org/abs/2607.19069v1",
+    "authors": [
+      "Mykola Lavreniuk",
+      "Nataliia Kussul",
+      "Andrii Shelestov",
+      "Yevhenii Salii",
+      "Volodymyr Kuzin",
+      "Charlotte Julia Li-Xing Wang",
+      "Zoltan Szantoi"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Accurate agricultural field boundary delineation at large scale is a foundational task for food security, supply chain transparency, and carbon accounting. While vision foundation models like SAM show remarkable zero-shot capabilities, they frequently fail in geospatial domains due to topological complexity, cropland texturing patterns, and a lack of physical scale awareness.",
+    "selected_date": "2026-07-22"
+  },
+  {
     "id": "2607.17535v1",
     "title": "Salience Induction against Multi-Hop RAG Agents: Threat and Defense",
     "summary": "Agentic retrieval-augmented generation (RAG) systems increasingly retrieve external evidence and orchestrate tools for knowledge-intensive applications. In Multi-Hop question answering, agents chain facts across documents. Existing defenses focus on content poisoning, which injects false facts, and prompt injection, which embeds directives. We identify a third attack surface: the salience channel, through which fact position, emphasis, framing, and semantic proximity can redirect reasoning even when all retrieved claims are true and no instructions are present. We formalize Salience Induction as truth-preserving edits that redirect Multi-Hop attribute binding while leaving the retrieval trace semantically intact. We define six Salience-Editing operator classes and build an iterative proposer-verifier pipeline under factual and stealth constraints. We also introduce SalientWiki-MH, a decoy-annotated Multi-Hop benchmark. Evaluations across five frontier model families (GPT, Claude, Gemini, DeepSeek, and Qwen) and three agent architectures (ReAct, Reflexion, and tool-calling) show broad generalization. Under a 30% edit budget, Salience Induction achieves an 83.3% attack success rate; the strongest evaluated baseline defense leaves 75.7% post-defense ASR. Untargeted rewriting further reduces attacks only by degrading neutral task success. Our lightweight input-side defense, Salience Normalization, reduces attack success to 15.3% under standard attacks and 23.6% under an adaptive attack. These results show that truthfulness and instruction filtering alone are insufficient: robust agentic RAG also requires defenses against salience-relevance decoupling.",
@@ -586,26 +607,5 @@
     ],
     "ai_summary": "Device-side Large Language Models (LLMs) have grown explosively, offering stronger privacy and higher availability than their cloud-side counterparts. During LLM inference, both the model weights and the user data are valuable, and attackers may compromise the OS kernel to steal them.",
     "selected_date": "2026-06-23"
-  },
-  {
-    "id": "2606.20396v1",
-    "title": "Faking entanglement with imperceptible measurement deviations",
-    "summary": "Quantum entanglement is a central resource underpinning emerging quantum technologies, enabling capabilities beyond those of classical systems. Accurate verification of entanglement is therefore crucial. However, experimental schemes usually rely on the assumption that quantum measurements can be realized exactly. As the complexity of a quantum system grows, this assumption typically becomes increasingly unrealistic, therefore leading to a widening mismatch between theoretical models and experimental implementations. Here we demonstrate that arbitrarily small measurement errors, when adversarially encoded in the measurement apparatus, can lead to the false certification of high-dimensional entanglement in systems that are, in fact, separable. This is achieved by introducing explicit hacking attacks to measurement devices in well-established entanglement verification tests. We further experimentally demonstrate this effect using classical photonic states encoded in the spatial degree of freedom, spanning up to 61 dimensions with measurement fidelity errors as low as 0.23%. Our results uncover a fundamental vulnerability in current methods for high-dimensional entanglement detection, highlighting the susceptibility of complex quantum devices to small adversarial perturbations. The findings underscore the need for developing secure verification of quantum information that is robust to bounded discrepancies between theory and experiment.",
-    "published": "2026-06-18T15:49:58Z",
-    "link": "http://arxiv.org/abs/2606.20396v1",
-    "authors": [
-      "Jaime Moreno",
-      "Elna Svegborn",
-      "Simon Morelli",
-      "Markus Hiekkam\u00e4aki",
-      "Lea Kopf",
-      "Robert Fickler",
-      "Armin Tavakoli"
-    ],
-    "categories": [
-      "quant-ph"
-    ],
-    "ai_summary": "Quantum entanglement is a central resource underpinning emerging quantum technologies, enabling capabilities beyond those of classical systems. Accurate verification of entanglement is therefore crucial.",
-    "selected_date": "2026-06-22"
   }
 ]
