@@ -1,5 +1,27 @@
 [
   {
+    "id": "2607.20730v1",
+    "title": "GPE: Evaluating Robust Evidence Aggregation for Fact Verification under Controllable GEO-Style Poisoning",
+    "summary": "Large language models increasingly use search tools to retrieve up-to-date information, introducing a new attack surface in which retrieved documents can be manipulated. This risk is amplified by the development of generative engine optimization, which can make selected content more likely to be retrieved, cited, and adopted by models. Existing fact-verification benchmarks and evaluation frameworks do not provide the controlled evidence environments needed to assess robustness against GEO poisoning. We therefore propose GPE, which consists of a multi-domain fact-verification benchmark and an evaluation framework for controlling evidence sources and poisoning ratios. Experiments across multiple verification methods and poisoning attacks demonstrate that GPE exposes robustness degradation and efficiency trade-offs that cannot be observed through clean evaluation alone, confirming the need to evaluate fact verification under adversarial evidence environments.",
+    "published": "2026-07-22T21:04:51Z",
+    "link": "http://arxiv.org/abs/2607.20730v1",
+    "authors": [
+      "Zhaoqi Wang",
+      "Zijian Zhang",
+      "Xiaomei Yuan",
+      "Pengtao Kou",
+      "Jiamou Liu",
+      "Zhen Li",
+      "Liehuang Zhu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Large language models increasingly use search tools to retrieve up-to-date information, introducing a new attack surface in which retrieved documents can be manipulated. This risk is amplified by the development of generative engine optimization, which can make selected content more likely to be retrieved, cited, and adopted by models.",
+    "selected_date": "2026-07-25"
+  },
+  {
     "id": "2607.20832v1",
     "title": "Beyond Heavy Log Curation: Perplexity-Based APT Detection via Unsupervised, Context-Augmented Language Models",
     "summary": "Advanced Persistent Threats (APTs) remain difficult to detect because only a small fraction of events in large-scale logs are attack-related, and investigation is expensive and hard to scale. Prior machine-learning approaches can reduce analyst workload, but they often rely on heavily curated training data and sophisticated preprocessing pipelines. Building and maintaining such pipelines require substantial domain expertise and engineering cost. Motivated by insights from a study of a strong APT detection baseline, we propose CAPTAIN (Context-Augmented Perplexity-based Threat Activity log detectIoN), a perplexity-based detector that leverages general, pre-trained language models with minimal, domain-agnostic preprocessing, enabling robust scoring of long, minimally processed log entries. CAPTAIN encodes recent history with an encoder model and a Q-Former-style bridge, then injects the compact context tokens into the decoder input so that perplexity reflects temporal context. To improve stability, CAPTAIN additionally applies smoothing filters to the perplexity time series. Across APT-oriented benchmarks, CAPTAIN competes with strong existing baselines and remains robust under substantially less curated inputs, that reduces the development and operational cost of advanced log preprocessing.",
@@ -589,24 +611,5 @@
     ],
     "ai_summary": "With a profusion of jailbreaks for LLMs now widely known, a growing concern is that non-expert malicious actors (\"the average Jane\") could elicit actionable responses to malicious requests. In this work, we examine whether this concern is justified.",
     "selected_date": "2026-06-26"
-  },
-  {
-    "id": "2606.25734v1",
-    "title": "Shoot the Honey, Cloak the Player: Towards Zero-Runtime-Overhead Proactive Defense and Detection for Visual Game Cheating",
-    "summary": "Visual aimbots have emerged as a serious cheating threat in first-person shooter (FPS) games, as they evade existing anti-cheat defenses by operating only on rendered frames rather than game memory. However, existing defenses fail to provide an end-to-end solution: post-hoc behavior detectors cannot protect match integrity in real time and are increasingly fragile against human-mimicking aimbots, while proactive runtime defenses often lack accountability, incur substantial overhead, or require intrusive system integration.   We present AimTrap, the first end-to-end defense against visual aimbots that combines real-time protection with post-game detection using two adversarial texture mechanisms. Adversarial Camouflage Textures (ACT) hide real players from aimbots, while Adversarial Honeypot Textures (AHT) lure aimbots into locking onto fake targets, yielding strong evidence of cheating. To make this practical, AimTrap integrates differentiable rendering with Expectation over Renderings for robust 3D texture synthesis, secure texture management, and a novel honeypot-interaction trajectory analysis pipeline for accurate cheating attribution.   In real-game evaluation against a state-of-the-art visual aimbot, ACT achieves 85.1% defense success, AHT achieves 96.9%. Compared with prior baselines, AimTrap attains extremely low false-positive rates, while incurring negligible runtime overhead. These results show that AimTrap provides a practical and effective end-to-end defense against visual aimbots.",
-    "published": "2026-06-24T12:00:10Z",
-    "link": "http://arxiv.org/abs/2606.25734v1",
-    "authors": [
-      "Jianing Wang",
-      "Chuqi Zhang",
-      "Yuancheng Jiang",
-      "Adil Ahmad",
-      "Shanqing Guo"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Visual aimbots have emerged as a serious cheating threat in first-person shooter (FPS) games, as they evade existing anti-cheat defenses by operating only on rendered frames rather than game memory. However, existing defenses fail to provide an end-to-end solution: post-hoc behavior detectors cannot protect match integrity in real time and are increasingly fragile against human-mimicking aimbots, while proactive runtime defenses often lack accountability, incur substantial overhead, or require intrusive system integration.",
-    "selected_date": "2026-06-25"
   }
 ]
