@@ -1,5 +1,1083 @@
 [
   {
+    "date": "2026-07-26",
+    "week_of": "July 26, 2026",
+    "digest_number": 30,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Broadway Will Sing for Aaron Lazar in New Jersey Benefit Concert - Playbill",
+          "description": "Broadway Will Sing for Aaron Lazar in New Jersey Benefit Concert&nbsp;&nbsp;Playbill",
+          "content": "",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNTZZUnBWbElqaXFGaWRlMFZDU3pCbnZ2MjBJdjZxdDVYR0hUSjhUMnNodm9BNlN6UncxS2ZJMGlpUkRVZlVJNGZlMUFITGxMeE5KbldoRnMxYm5kWThnQ1haVFlIYTQyZUp3bHFMY0V0UU1tbFd3bmFNR1c1LWo4V0ZmWDBtdFNnVHNzaEwzTndGb2tQUEFlQQ?oc=5",
+          "source_name": "Google News (\"New Jersey\" ALS...)",
+          "source_type": "rss",
+          "published_at": "2026-07-20T15:32:00",
+          "author": "",
+          "image_url": "",
+          "is_local_nj": true,
+          "category_hint": null,
+          "article_id": "18a009921027",
+          "summary": "Broadway Will Sing for Aaron Lazar in New Jersey Benefit Concert&nbsp;&nbsp;Playbill",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Cowboy Al's Wild West Museum in Litchfield - News12 | New Jersey",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hNFREMUlaT19PdnFRcllZa1NZTVJCTkVzZXROa3RvX1gwRnZSX2J1VDVScjdldHVmalRzMnF6dDZXU2xJTVlTTGRCdk85cWNacERKWkQ0WjR4R2pNZWYwVEZBRlp3Tmpsck9iT3hNLWwyanFnMHUtdFJB?oc=5",
+              "digest_date": "2026-05-03"
+            },
+            {
+              "title": "New Mexico United releases new jersey to raise money for ALS research - MSN",
+              "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPVGlEYTBFQ05HRlY5cmVaWDRkdWZ0eHlnNXRwVnNKUDFocjRGMi16VC1LQW12QXJsdUpQcTVkX2xwZWx4UVRwclB0Rm5xNVk0UC1XQUoxUHgzX0RyRTZxWnFjdnMxbDI1N09WRGxWR1QwbHNXZWFGVU9VVmFEUUtwdHktNnVfd1JqN1lxc3Q1bHNqZnlpS0UxSmttVnVweS0zczFJN0JuZThhVUVzU3VNcDJ5SGlzc3BhcUV6dkNYbVdEbjVxaF9aOXZaZERxT3hyUFNwVU5JZUt4MG1waVkzSWN5cXFsSFhIZWs4YXdsTG5qOFEwZmJ0SmhFMUZNNUZYRjROYzFhZXJjdUR1Y3JsMjF0MGVYbVhWa3hGZTFCWXZEZGIxT3E3MWI4UkdKLUE3cUxuaVNrWVk1MEh3UHVSVHpnSGRKdVRCT0U3MUtHclNsQ0FvUWE0Nkh2eDc1cXJHNGlndGdnSXBUMjUwd1VF?oc=5",
+              "digest_date": "2026-04-26"
+            }
+          ]
+        },
+        {
+          "title": "Nvidia und SK Group starten KI-Initiative",
+          "description": null,
+          "content": "Nvidia und die s\u00fcdkoreanische SK Group haben gestern eine mehr als 500 Milliarden Dollar (439,48 Mrd. Euro) schwere KI-Initiative f\u00fcr gro\u00dfe KI-Rechenzentren und Speicher der n\u00e4chsten Generation vorge\u2026 [+614 chars]",
+          "url": "https://orf.at/stories/3437225/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-07-25T06:01:48Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "22435e456a52",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane called \u2018Euphoria\u2019 his most \u2018profound\u2019 career experience in new special",
+          "description": "The late star appeared in the documentary special, \u201cEuphoria: A Look Back,\u201d which aired Friday.",
+          "content": "Eric Dane believed that Euphoria was the most profound experience of his career.\u00a0\r\nDane appeared in the documentary special, Euphoria: A Look Back, in interview footage recorded before his death.\u00a0\r\nI\u2026 [+3402 chars]",
+          "url": "https://pagesix.com/2026/07/24/entertainment/eric-dane-called-euphoria-his-most-profound-work-amid-als-battle/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-07-25T03:28:53Z",
+          "author": "Lauren Sarner",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/07/eric.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "534b18869930",
+          "summary": "The late star appeared in the documentary special, \u201cEuphoria: A Look Back,\u201d which aired Friday.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "See Eric Dane Campaign for ALS Awareness in New Documentary Short",
+              "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/eric-dane-ring-every-bell-als-documentary-1235566582/",
+              "digest_date": "2026-05-24"
+            },
+            {
+              "title": "Before His Death, Eric Dane Said ALS Was \u2018A Hard Thing\u2019 For Him and His Loved Ones to Live With",
+              "url": "https://www.today.com/health/news/eric-dane-gets-emotional-talking-living-als-ring-every-bell-clip-rcna345385",
+              "digest_date": "2026-05-17"
+            },
+            {
+              "title": "Rebecca Gayheart shares new tribute to Eric Dane 2 months after his tragic death",
+              "url": "https://pagesix.com/2026/05/08/celebrity-news/rebecca-gayheart-shares-new-tribute-to-eric-dane-2-months-after-his-tragic-death/",
+              "digest_date": "2026-05-10"
+            }
+          ]
+        },
+        {
+          "title": "WATCH: Red Sox Prospect Justin Gonzales Slaps Opponent, Gets Ejected After Teams Engage In Massive Brawl",
+          "description": "Boston Red Sox prospect Justin Gonzales was ejected on Wednesday night following his home run for High-A Greenville. Gonzales crushed a mammoth home run against the Hub City Spartanburgers.",
+          "content": "Boston Red Sox prospect Justin Gonzales was ejected on Wednesday night following his home run for High-A Greenville.\r\nGonzales crushed a mammoth home run against the Hub City Spartanburgers. He was r\u2026 [+2681 chars]",
+          "url": "https://collegefootballnetwork.com/baseball/red-sox-justin-gonzales-slaps-ejected-teams-massive-brawl/?utm_medium=rss&amp;utm_source=nordot",
+          "source_name": "Collegefootballnetwork.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-24T18:41:18Z",
+          "author": "Krutik Jain",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/RlGe7nkoD2Y1hpECIu2bqA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/college_football_network_979/877f5e654e9d79cd57d2b0c7ee65a1ef",
+          "is_local_nj": false,
+          "article_id": "3714de78d296",
+          "summary": "Boston Red Sox prospect Justin Gonzales was ejected on Wednesday night following his home run for High-A Greenville. Gonzales crushed a mammoth home run against the Hub City Spartanburgers.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "AI is reshaping biotech from discovery to clinical success: 9 Insights from the cutting edge",
+          "description": "AI is rapidly moving from the edges of biotech into its core, reshaping how companies discover, design and de-risk new medicines. After years of investment and impressive laboratory breakthroughs, the industry is now focused on what it takes to turn computati\u2026",
+          "content": "AI is rapidly moving from the edges of biotech into its core, reshaping how companies discover, design and de-risk new medicines. After years of investment and impressive laboratory breakthroughs, th\u2026 [+8575 chars]",
+          "url": "https://siliconangle.com/2026/07/24/biotech-companies-reshaped-ai-aiinbio/",
+          "source_name": "SiliconANGLE News",
+          "source_type": "newsapi",
+          "published_at": "2026-07-24T17:27:33Z",
+          "author": "Jonathan Anthony",
+          "image_url": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/07/original.jpeg",
+          "is_local_nj": false,
+          "article_id": "340998b4bfb6",
+          "summary": "AI is rapidly moving from the edges of biotech into its core, reshaping how companies discover, design and de-risk new medicines. After years of investment and impressive laboratory breakthroughs, the",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Health department to procure 720 new ambulances in a month: Officials",
+          "description": "Jharkhand health department to procure 720 new ambulances in a month, including 50 ALS, 270 BLS and 400 patient transport vehicles for CHCs/PHCs.",
+          "content": "<ul><li>News</li>\r\n<li>Health department to procure 720 new ambulances in a month: Officials</li></ul>\r\nFollow Us On Social Media\r\nPreparing for NEET? AIR 9 Gaurav Singh says consistency matters more\u2026 [+1600 chars]",
+          "url": "https://timesofindia.indiatimes.com/city/ranchi/health-department-to-procure-720-new-ambulances-in-a-month-officials/articleshow/132606479.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-07-24T12:58:21Z",
+          "author": "Dhrubajyoti Malakar",
+          "image_url": "https://static.toiimg.com/thumb/msid-132606478,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "180ae8a14a26",
+          "summary": "Jharkhand health department to procure 720 new ambulances in a month, including 50 ALS, 270 BLS and 400 patient transport vehicles for CHCs/PHCs.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "[vim-security] Arbitrary Code Execution via Shell Keyword Lookup in Vim",
+          "description": "Posted by Christian Brabandt on Jul 24Arbitrary Code Execution via Shell Keyword Lookup in Vim \n===================================================================\n\nDate: 23.07.2026\nSeverity: Medium\nCVE: *requested, not yet assigned*\nCWE: Improper Neutralizat\u2026",
+          "content": "oss-sec\r\nmailing list archives\r\nFrom: Christian Brabandt &lt;cb () 256bit org&gt;Date: Thu, 23 Jul 2026 23:31:03 +0200\r\nArbitrary Code Execution via Shell Keyword Lookup in Vim &lt; 9.2.0839\r\n=======\u2026 [+3461 chars]",
+          "url": "https://seclists.org/oss-sec/2026/q3/245",
+          "source_name": "Seclists.org",
+          "source_type": "newsapi",
+          "published_at": "2026-07-24T12:47:24Z",
+          "author": null,
+          "image_url": "https://seclists.org/images/oss-sec-img.png",
+          "is_local_nj": false,
+          "article_id": "4bffd8a0b93c",
+          "summary": "Posted by Christian Brabandt on Jul 24Arbitrary Code Execution via Shell Keyword Lookup in Vim \n===================================================================\n\nDate: 23.07.2026\nSeverity: Medium\nC",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "sigpathmatrix added to PyPI",
+          "description": "The default prior biological knowledge using in sigPrimedNet network",
+          "content": "sigpathmatrix: SIGnaling PATHway/circuit MATRIX generator\r\nsigpathmatrix is a Python package that collects and exports signaling pathway and circuit information. This package contains helper function\u2026 [+7551 chars]",
+          "url": "https://pypi.org/project/sigpathmatrix/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-07-24T09:44:53Z",
+          "author": "pgundogdu@barcelonabeta.org",
+          "image_url": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+          "is_local_nj": false,
+          "article_id": "49dabd333d3e",
+          "summary": "The default prior biological knowledge using in sigPrimedNet network",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The Spotify-Kalshi issue shows that music\u2019s fraud systems work (Guest column)",
+          "description": "The initial reaction to the Spotify-Kalshi controversy over Malcolm Todd\u2019s \u201cEarrings\u201d is easy to understand. \u201cMusic prediction markets are dangerous. Streaming charts can be gamed. Shut the whole thing down before it gets worse!\u201d Nobody in music should dismis\u2026",
+          "content": "Guest column: Music Ally publishes guest columns voicing the opinions of notable authors, or advancing specific perspectives on important issues. These are chosen at the Editorial teams discretion, a\u2026 [+6056 chars]",
+          "url": "https://musically.com/2026/07/24/the-spotify-kalshi-issue-shows-that-musics-fraud-systems-work-guest-column/",
+          "source_name": "Music Ally",
+          "source_type": "newsapi",
+          "published_at": "2026-07-24T09:17:43Z",
+          "author": "By Jeff Sloan, Founder & CEO of FanLabel",
+          "image_url": "https://musically.com/wp-content/uploads/2026/04/Kalshi-Music-1.png",
+          "is_local_nj": false,
+          "article_id": "87af6fca1723",
+          "summary": "The initial reaction to the Spotify-Kalshi controversy over Malcolm Todd\u2019s \u201cEarrings\u201d is easy to understand. \u201cMusic prediction markets are dangerous. Streaming charts can be gamed. Shut the whole thin",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Mitochondrial tRNA biogenesis, modifications and disease relevance",
+          "description": "Mitochondrial tRNA (mt-tRNA) biogenesis has evolved to support a degenerate mt-tRNA structure and a simplified genetic code. Liu and colleagues provide a fascinating overview of mt-tRNA biology, discuss how mt-tRNA-associated perturbations directly cause dise\u2026",
+          "content": "<li>Gray, M. W., Burger, G. &amp; Lang, B. F. The origin and early evolution of mitochondria. Genome Biol.2, Reviews1018 (2001).\r\nArticle\u00a0\r\n PubMed Central\u00a0\r\nGoogle Scholar\u00a0\r\n</li><li>Shutt, T. E. &a\u2026 [+61101 chars]",
+          "url": "https://www.nature.com/articles/s41580-026-00999-5",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-24T00:00:00Z",
+          "author": "Wen-Yu Zhu, Ilias Skeparnias, Athanasios-Nasir Shaukat, Jinwei Zhang, Ru-Juan Liu",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41580-026-00999-5/MediaObjects/41580_2026_999_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "f02c17952d4b",
+          "summary": "Mitochondrial tRNA (mt-tRNA) biogenesis has evolved to support a degenerate mt-tRNA structure and a simplified genetic code. Liu and colleagues provide a fascinating overview of mt-tRNA biology, discu",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Certain Habits May Help Reduce Risk Of ALS, New Research Indicates",
+          "description": "A large-scale study found early waking schedules and getting regular physical activity were both associated with a reduced risk of developing ALS.",
+          "content": "Amyotrophic lateral sclerosis (ALS), sometimes called Lou Gehrig's disease is a fatal, progressive neurodegenerative disease that affects nerve cells in the brain and spinal cordleading to the progre\u2026 [+5131 chars]",
+          "url": "https://www.mindbodygreen.com/articles/researchers-identify-2-habits-associated-with-lower-als-risk-alexandra-engler",
+          "source_name": "mindbodygreen.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T21:07:00Z",
+          "author": "https://www.mindbodygreen.com/wc/alexandra-engler",
+          "image_url": "https://mindbodygreen-res.cloudinary.com/image/upload/c_crop,x_0,y_0,w_2000,h_1334/c_fill,w_2000,h_1200,g_auto,fl_lossy,f_jpg/org/1772209539026_kzo7i8b7ao.jpg",
+          "is_local_nj": false,
+          "article_id": "69484fd9b327",
+          "summary": "A large-scale study found early waking schedules and getting regular physical activity were both associated with a reduced risk of developing ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Voicepilled Vibe Coders Are Drooling Over This Touchpad You Control With Your Tongue",
+          "description": "Please just let the accessibility devices be for those who need them.",
+          "content": "Artificial intelligence has always had the capacity to present a meaningful improvement in accessibility for people with disabilities. Unfortunately, accessibility devices usually aren\u2019t thought to h\u2026 [+3604 chars]",
+          "url": "https://gizmodo.com/vibe-coders-ai-augmental-mouthpad-keyboard-mouse-2000789866",
+          "source_name": "Gizmodo.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T19:00:24Z",
+          "author": "AJ Dellinger",
+          "image_url": "https://gizmodo.com/app/uploads/2026/07/mouthpad-hero-7-1200x675.jpg",
+          "is_local_nj": false,
+          "article_id": "1cab687a472c",
+          "summary": "Please just let the accessibility devices be for those who need them.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The Red Sox Have Risen From the Dead To Join the Wild Card Race",
+          "description": "A 20-3 run, including a franchise record-tying 15-game winning streak, has given new life to what was recently a last-place team.",
+          "content": "Eric Canha-Imagn Images\r\nFour weeks ago, the 2026 Red Sox appeared to be dead and buried. At 32-46, the team not only owned the AL\u2019s worst record, but also the franchise\u2019s worst record through 78 gam\u2026 [+18226 chars]",
+          "url": "https://blogs.fangraphs.com/the-red-sox-have-risen-from-the-dead-to-join-the-wild-card-race/",
+          "source_name": "Fangraphs.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T18:00:23Z",
+          "author": "Jay Jaffe",
+          "image_url": "https://blogs.fangraphs.com/wp-content/uploads/2026/07/Caleb-Durbin-Red-Sox.jpg",
+          "is_local_nj": false,
+          "article_id": "240781aff07c",
+          "summary": "A 20-3 run, including a franchise record-tying 15-game winning streak, has given new life to what was recently a last-place team.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "90 Day Fianc\u00e9's Sumit May Finally Be Coming To The United States With Jenny, But There's A Catch",
+          "description": "This feels like a long time coming.",
+          "content": "After years of being featured on 90 Day Fianc\u00e9, Sumit Singh is finally coming to the United States with Jenny. It appears they'll try to move back to her home country so she can continue treatment fo\u2026 [+3410 chars]",
+          "url": "https://www.cinemablend.com/television/90-day-fiance-sumit-may-finally-come-to-united-states-with-jenny-als-visa",
+          "source_name": "CinemaBlend",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T16:33:38Z",
+          "author": "mick.joest@CinemaBlend.com (Mick Joest) , Mick Joest",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/mdWDx72hK4raXEVMfLwxJS-2000-80.jpg",
+          "is_local_nj": false,
+          "article_id": "b89bd9464f38",
+          "summary": "This feels like a long time coming.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "When 90 Day Fianc\u00e9's Jenny Slatten Will Return To The Franchise",
+              "url": "https://www.cinemablend.com/television/when-90-day-fiance-jenny-slatten-will-return-franchise",
+              "digest_date": "2026-05-24"
+            }
+          ]
+        },
+        {
+          "title": "German Word of the Day: Pantoffelheld",
+          "description": "Because sometimes women wear the trousers, and men wear the slippers. Yes, even in Germany.",
+          "content": "Because sometimes women wear the trousers, and men wear the slippers. Yes, even in Germany.\r\n Why do I need to know Pantoffelheld?\r\nBecause its one of those perfect German words that splices two noun\u2026 [+2624 chars]",
+          "url": "https://www.thelocal.de/20260723/german-word-of-the-day-pantoffelheld",
+          "source_name": "The Local Germany",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T14:02:09Z",
+          "author": "The Local",
+          "image_url": "https://assets.thelocal.com/cdn-cgi/rs:fit:1200/quality:75/plain/https://apiwp.thelocal.com/wp-content/uploads/2026/07/watermarks-logo-pantoffelheld.jpg@webp",
+          "is_local_nj": false,
+          "article_id": "6a25f9f26feb",
+          "summary": "Because sometimes women wear the trousers, and men wear the slippers. Yes, even in Germany.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "German word of the day: Sommerm\u00e4rchen",
+              "url": "https://www.thelocal.de/20260610/german-word-of-the-day-sommermarchen",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "German word of the day: Aussteiger",
+              "url": "https://www.thelocal.de/20260422/german-word-of-the-day-aussteiger",
+              "digest_date": "2026-04-26"
+            }
+          ]
+        },
+        {
+          "title": "Greenland Mines Announces Limited-Duration Stockholder Rights Plan Intended to Protect Shareholder Value",
+          "description": "CHARLOTTE, N.C., July 23, 2026 (GLOBE NEWSWIRE) \u2014 via IBN \u2013 Greenland Mines Ltd (Nasdaq: GRML) (\u201cGreenland Mines\u201d or the \u201cCompany\u201d) announces that its Board of Directors has approved the adoption of a limited-duration stockholder rights plan, effective July 2\u2026",
+          "content": "The Board may, at its option, exchange each right (other than rights owned by an acquiring person that have become void), in whole or in part, at an exchange ratio of one common share per outstanding\u2026 [+3603 chars]",
+          "url": "https://financialpost.com/globe-newswire/greenland-mines-announces-limited-duration-stockholder-rights-plan-intended-to-protect-shareholder-value",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T13:02:03Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "56444d2c1897",
+          "summary": "CHARLOTTE, N.C., July 23, 2026 (GLOBE NEWSWIRE) \u2014 via IBN \u2013 Greenland Mines Ltd (Nasdaq: GRML) (\u201cGreenland Mines\u201d or the \u201cCompany\u201d) announces that its Board of Directors has approved the adoption of a",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Biotech Division of Greenland Mines Announces Australian Patent Grant for Klotho Gene Therapy Technology for Treatment of Neuromuscular Diseases",
+              "url": "https://www.globenewswire.com/news-release/2026/07/10/3325439/0/en/Biotech-Division-of-Greenland-Mines-Announces-Australian-Patent-Grant-for-Klotho-Gene-Therapy-Technology-for-Treatment-of-Neuromuscular-Diseases.html",
+              "digest_date": "2026-07-12"
+            }
+          ]
+        },
+        {
+          "title": "Troilus Drills 1.10 g/t AuEq Over 103 m as Z87 Optimization Program Continues to Strengthen Mine Planning",
+          "description": "*1.10 G/T AUEQ (0.98 G/T AU, 0.54 G/T AG, 0.07 % CU) OVER 103 M MONTREAL, July 23, 2026 (GLOBE NEWSWIRE) \u2014 Troilus Mining Corp. (\u201cTroilus\u201d or the \u201cCompany\u201d) (TSX: TLG; OTCQX: CHXMF; FSE: CM5), is pleased to announce the third batch of results from the Z87 opt\u2026",
+          "content": "* AuEq = \u00a0Au grade + 1.5628 * Cu grade + 0.0128 * Ag grade\r\nQuality Assurance and Control \r\nDuring the drill program, one meter assay samples were taken from NQ core and sawed in half. One-half was s\u2026 [+7380 chars]",
+          "url": "https://financialpost.com/globe-newswire/troilus-drills-1-10-g-t-aueq-over-103-m-as-z87-optimization-program-continues-to-strengthen-mine-planning",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T11:02:51Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/figure-1-32.jpeg",
+          "is_local_nj": false,
+          "article_id": "8a5c7a7e0c51",
+          "summary": "*1.10 G/T AUEQ (0.98 G/T AU, 0.54 G/T AG, 0.07 % CU) OVER 103 M MONTREAL, July 23, 2026 (GLOBE NEWSWIRE) \u2014 Troilus Mining Corp. (\u201cTroilus\u201d or the \u201cCompany\u201d) (TSX: TLG; OTCQX: CHXMF; FSE: CM5), is plea",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NexGold Intersects 12.06 g/t Gold over 6.0 Metres and 3.84 g/t Gold over 18.0 Metres During Infill Drill Program at Goldboro",
+              "url": "https://www.globenewswire.com/news-release/2026/07/09/3324663/0/en/NexGold-Intersects-12-06-g-t-Gold-over-6-0-Metres-and-3-84-g-t-Gold-over-18-0-Metres-During-Infill-Drill-Program-at-Goldboro.html",
+              "digest_date": "2026-07-12"
+            },
+            {
+              "title": "Osisko Development Extends Gold Mineralization at Cariboo Gold Project Beyond 700 m Vertical Depth in Previously Untested Areas; Intercepts Include 13.19 g/t Gold Over 3.60 m at 596 m Vertical Depth and 28.90 g/t Gold Over 0.50 m at 718 m Vertical Depth",
+              "url": "https://financialpost.com/globe-newswire/osisko-development-extends-gold-mineralization-at-cariboo-gold-project-beyond-700-m-vertical-depth-in-previously-untested-areas-intercepts-include-13-19-g-t-gold-over-3-60-m-at-596-m-vertical-depth-a",
+              "digest_date": "2026-07-12"
+            },
+            {
+              "title": "Osisko Development Extends Gold Mineralization at Cariboo Gold Project Beyond 700 m Vertical Depth in Previously Untested Areas; Intercepts Include 13.19 g/t Gold Over 3.60 m at 596 m Vertical Depth and 28.90 g/t Gold Over 0.50 m at 718 m Vertical Depth",
+              "url": "https://www.globenewswire.com/news-release/2026/07/08/3324482/0/en/Osisko-Development-Extends-Gold-Mineralization-at-Cariboo-Gold-Project-Beyond-700-m-Vertical-Depth-in-Previously-Untested-Areas-Intercepts-Include-13-19-g-t-Gold-Over-3-60-m-at-596.html",
+              "digest_date": "2026-07-12"
+            }
+          ]
+        },
+        {
+          "title": "Osisko Intersects 320 Metres Averaging 0.38% Cu at Gasp\u00e9",
+          "description": "MONTREAL, July 23, 2026 (GLOBE NEWSWIRE) \u2014 Osisko Metals Incorporated (the \u201cCompany\u201d or \u201cOsisko Metals\u201d) \u00a0(TSX: OM; OTCQX: OMZNF; FRANKFURT: 0B51) is pleased to announce new results from the 2026 drill program at the Gasp\u00e9 Copper Project, located in the Gasp\u00e9\u2026",
+          "content": "Qualified Person\r\nThe scientific and technical content of this news release has been reviewed and approved by Mr. Bernard-Olivier Martel, P. Geo. (OGQ 492), an independent qualified person as defined\u2026 [+5032 chars]",
+          "url": "https://financialpost.com/globe-newswire/osisko-intersects-320-metres-averaging-0-38-cu-at-gaspe",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T10:04:27Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/figure-1-plan-view.jpeg",
+          "is_local_nj": false,
+          "article_id": "d178a60caaa0",
+          "summary": "MONTREAL, July 23, 2026 (GLOBE NEWSWIRE) \u2014 Osisko Metals Incorporated (the \u201cCompany\u201d or \u201cOsisko Metals\u201d) \u00a0(TSX: OM; OTCQX: OMZNF; FRANKFURT: 0B51) is pleased to announce new results from the 2026 dril",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NexGold Intersects 12.06 g/t Gold over 6.0 Metres and 3.84 g/t Gold over 18.0 Metres During Infill Drill Program at Goldboro",
+              "url": "https://www.globenewswire.com/news-release/2026/07/09/3324663/0/en/NexGold-Intersects-12-06-g-t-Gold-over-6-0-Metres-and-3-84-g-t-Gold-over-18-0-Metres-During-Infill-Drill-Program-at-Goldboro.html",
+              "digest_date": "2026-07-12"
+            },
+            {
+              "title": "NIOB Intersects 211+ Metres of Cumulative Pegmatite with Encouraging Nb-REE Exploration Indicators at Seigneurie; Assays Pending",
+              "url": "https://www.globenewswire.com/news-release/2026/04/29/3283661/0/en/NIOB-Intersects-211-Metres-of-Cumulative-Pegmatite-with-Encouraging-Nb-REE-Exploration-Indicators-at-Seigneurie-Assays-Pending.html",
+              "digest_date": "2026-05-03"
+            }
+          ]
+        },
+        {
+          "title": "Osisko Intersects 320 Metres Averaging 0.38% Cu at Gasp\u00e9",
+          "description": "Osisko Metals announces new results from the 2026 drill program at the Gasp\u00e9 Copper Project, located in the Gasp\u00e9 Peninsula of Eastern Qu\u00e9bec....",
+          "content": "MONTREAL, July 23, 2026 (GLOBE NEWSWIRE) -- Osisko Metals Incorporated (the Company or Osisko Metals) \u00a0(TSX: OM; OTCQX: OMZNF; FRANKFURT: 0B51) is pleased to announce new results from the 2026 drill \u2026 [+24837 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/07/23/3331945/0/en/Osisko-Intersects-320-Metres-Averaging-0-38-Cu-at-Gasp%C3%A9.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T10:00:00Z",
+          "author": "Osisko Metals Incorporated",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/2e006c29-afa9-49ed-99ab-4ea379df72ad",
+          "is_local_nj": false,
+          "article_id": "ea6d3867e605",
+          "summary": "Osisko Metals announces new results from the 2026 drill program at the Gasp\u00e9 Copper Project, located in the Gasp\u00e9 Peninsula of Eastern Qu\u00e9bec....",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NexGold Intersects 12.06 g/t Gold over 6.0 Metres and 3.84 g/t Gold over 18.0 Metres During Infill Drill Program at Goldboro",
+              "url": "https://www.globenewswire.com/news-release/2026/07/09/3324663/0/en/NexGold-Intersects-12-06-g-t-Gold-over-6-0-Metres-and-3-84-g-t-Gold-over-18-0-Metres-During-Infill-Drill-Program-at-Goldboro.html",
+              "digest_date": "2026-07-12"
+            },
+            {
+              "title": "NIOB Intersects 211+ Metres of Cumulative Pegmatite with Encouraging Nb-REE Exploration Indicators at Seigneurie; Assays Pending",
+              "url": "https://www.globenewswire.com/news-release/2026/04/29/3283661/0/en/NIOB-Intersects-211-Metres-of-Cumulative-Pegmatite-with-Encouraging-Nb-REE-Exploration-Indicators-at-Seigneurie-Assays-Pending.html",
+              "digest_date": "2026-05-03"
+            }
+          ]
+        },
+        {
+          "title": "Vultr en AMD ondersteunen AI-project TESSERA van University of Cambridge voor grootschalige milieumonitoring",
+          "description": "Vultr, \u2019s werelds grootste particuliere cloudinfrastructuurprovider, en AMD, leverancier van high-performance en AI-computing, ondersteunen de Energy & Environment Group van [\u2026]",
+          "content": "Vultr, s werelds grootste particuliere cloudinfrastructuurprovider, en AMD, leverancier van high-performance en AI-computing, ondersteunen de Energy &amp; Environment Group van de University of Cambr\u2026 [+4511 chars]",
+          "url": "https://www.emerce.nl/wire/vultr-amd-ondersteunen-aiproject-tessera-university-cambridge-grootschalige-milieumonitoring",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T09:01:41Z",
+          "author": "Vultr",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/07/tessera-embeddings-1024x660.png",
+          "is_local_nj": false,
+          "article_id": "f4e20eec9cfd",
+          "summary": "Vultr, \u2019s werelds grootste particuliere cloudinfrastructuurprovider, en AMD, leverancier van high-performance en AI-computing, ondersteunen de Energy & Environment Group van [\u2026]",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Yankees news: Jos\u00e9 Caballero sparked pitch clock rule interpretation",
+          "description": "Caballero targeted by MLB; Fried\u2019s strong return from IL; Trade deadline news; Powell to star in new Gehrig film",
+          "content": "Associated Press | Ronald Blum: Jos\u00e9 Caballeros at-bat routine has been a source of conversation between the Yankees and Major League Baseball. Apparently, the league has joined other teams in growin\u2026 [+2908 chars]",
+          "url": "https://www.pinstripealley.com/yankees-news/198696/yankees-news-lou-gehrig-glen-powell-caballero-pitch-clock-rule-change-fried-return-injured-list-trade-deadline",
+          "source_name": "Pinstripe Alley",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T09:00:00Z",
+          "author": "Kunj Shah",
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/nNhZFhlehjI4GqaiqC4mhg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/bc8717f33996ce689db7cb5a3c653e62",
+          "is_local_nj": false,
+          "article_id": "ef7cdb29e041",
+          "summary": "Caballero targeted by MLB; Fried\u2019s strong return from IL; Trade deadline news; Powell to star in new Gehrig film",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Reach Out with Your Fitness Questions and Ideas",
+          "description": "Reach Out with Your Fitness Questions and Ideascongresodelamujer.com",
+          "content": "Stand:\r\n8:57 Uhr\r\nWas als Debatte \u00fcber Kredite und Inflation beginnen sollte, endete im totalen Chaos. Dieter Nuhr warf der\r\n Deutschen Bank vor, eine Methode zu verschweigen, mit der normale Mensche\u2026 [+7596 chars]",
+          "url": "https://congresodelamujer.com/contact/",
+          "source_name": "Congresodelamujer.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T06:21:47Z",
+          "author": null,
+          "image_url": "https://i.postimg.cc/qRTfcd1t/Dl85Z.jpg",
+          "is_local_nj": false,
+          "article_id": "7d4d3b933466",
+          "summary": "Reach Out with Your Fitness Questions and Ideascongresodelamujer.com",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Reports Q2-2026 Production & Operational Highlights",
+          "description": "Reports Q2-2026 Production & Operational Highlights  Serabi Gold plc (\u201cSerabi\u201d or the \u201cCompany\u201d) (AIM: SRB, TSX: SBI, OTCQX: SRBIF), the Brazilian...",
+          "content": "Reports Q2-2026 Production &amp; Operational Highlights\r\nSerabi Gold plc (Serabi or the Company) (AIM: SRB, TSX: SBI, OTCQX: SRBIF), the Brazilian focused gold mining and development company, is plea\u2026 [+17053 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/07/23/3331858/0/en/Reports-Q2-2026-Production-Operational-Highlights.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T05:00:00Z",
+          "author": "Serabi Gold plc",
+          "image_url": "https://ml-eu.globenewswire.com/Resource/Download/9be68406-a193-471a-bebc-3a6ef6d077c6",
+          "is_local_nj": false,
+          "article_id": "40f06f09ef55",
+          "summary": "Reports Q2-2026 Production & Operational Highlights  Serabi Gold plc (\u201cSerabi\u201d or the \u201cCompany\u201d) (AIM: SRB, TSX: SBI, OTCQX: SRBIF), the Brazilian...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Glen Powell steps up to play baseball\u2019s \u2018luckiest man\u2019 in Richard Linklater reunion",
+          "description": "The Hit Man collaborators are reuniting for a Universal Pictures biopic charting the life, career and enduring legacy of baseball icon Lou Gehrig, with Powell also serving as a producer.",
+          "content": "Glen Powell is set to portray baseball great Lou Gehrig in a new feature directed by Richard Linklater.\r\nReuniting the filmmaker and actor, 37, for the third time as Universal Pictures brings the lif\u2026 [+2911 chars]",
+          "url": "https://www.perthnow.com.au/entertainment/movies/glen-powell-steps-up-to-play-baseballs-luckiest-man-in-richard-linklater-reunion-c-22615352",
+          "source_name": "PerthNow",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T04:37:48Z",
+          "author": "Perthnow",
+          "image_url": "https://images.perthnow.com.au/publication/C-22615352/b9f9bee885478984db1d9aabdb1c7984e4820152-16x9-x0y192w2048h1152.jpg?imwidth=1200",
+          "is_local_nj": false,
+          "article_id": "b066b3fb96f5",
+          "summary": "The Hit Man collaborators are reuniting for a Universal Pictures biopic charting the life, career and enduring legacy of baseball icon Lou Gehrig, with Powell also serving as a producer.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u201890 Day Fiance' Star Jenny's Daughter Shares Update on Sumit\u2019s Visa Amid ALS",
+          "description": "Jenny Slatten\u2019s daughter Christina is giving fans an update on stepdad Sumit Singh\u2019s visa application process amid the 90 Day Fianc\u00e9 star\u2019s public ALS battle. \u201cI wanted to let you guys know that we have started the visa process for Sumit to come to the U.S. [\u2026",
+          "content": "Jenny Slatten\u2019s daughter Christina is giving fans an update on stepdad Sumit Singh\u2019s visa application process amid the 90 Day Fianc\u00e9 star\u2019s public ALS battle.\r\n\u201cI wanted to let you guys know that we \u2026 [+2225 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/90-day-fiances-jennys-daughter-shares-update-on-sumits-visa/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-07-23T01:06:12Z",
+          "author": "Kaitlin Simpson",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/07/90-Day-Fiances-Jennys-Daughter-Shares-Update-on-Sumits-Visa.jpg?crop=0px%2C454px%2C1170px%2C614px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "3436b474b2b5",
+          "summary": "Jenny Slatten\u2019s daughter Christina is giving fans an update on stepdad Sumit Singh\u2019s visa application process amid the 90 Day Fianc\u00e9 star\u2019s public ALS battle. \u201cI wanted to let you guys know that we ha",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "\u201890 Day Fianc\u00e9\u2019 star Jenny Slatten gives update on ALS progression after announcing diagnosis",
+              "url": "https://pagesix.com/2026/05/20/celebrity-news/90-day-fiance-star-jenny-slatten-gives-update-on-als-progression-after-announcing-diagnosis/",
+              "digest_date": "2026-05-24"
+            }
+          ]
+        },
+        {
+          "title": "ALS Network Applauds House Passage of ACT for ALS Reauthorization Act",
+          "description": "House approval marks a major milestone; ALS Network urges the Senate to act before September expiration LOS ANGELES, July 22, 2026 /PRNewswire/ -- The ALS Network today applauded the U.S. House of Representatives for passing the Accelerating Access to Critica\u2026",
+          "content": "House approval marks a major milestone; ALS Network urges the Senate to act before September expiration\r\nLOS ANGELES, July 22, 2026 /PRNewswire/ -- The ALS Network today applauded the U.S. House of R\u2026 [+3090 chars]",
+          "url": "https://www.prnewswire.com/news-releases/als-network-applauds-house-passage-of-act-for-als-reauthorization-act-302832638.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T21:42:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1624921/ALS-Network-Logo.jpg?id=OA2769626&p=facebook",
+          "is_local_nj": false,
+          "article_id": "dce23c4467bd",
+          "summary": "House approval marks a major milestone; ALS Network urges the Senate to act before September expiration LOS ANGELES, July 22, 2026 /PRNewswire/ -- The ALS Network today applauded the U.S. House of Rep",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Glen Powell Plays Lou Gehrig For Linklater",
+          "description": "Ten years after working together on college baseball film \u201cEverybody Wants Some!,\u201d actor Glen Powell and filmmaker Richard Linklater are re-teaming for a different kind of pitch hit. Powell will play iconic New York Yankee player Lou Gehrig in a new and curre\u2026",
+          "content": "Ten years after working together on college baseball film Everybody Wants Some!, actor Glen Powell and filmmaker Richard Linklater are re-teaming for a different kind of pitch hit.\r\nPowell will play \u2026 [+765 chars]",
+          "url": "https://www.darkhorizons.com/glen-powell-plays-lou-gehrig-for-linklater/",
+          "source_name": "Dark Horizons",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T20:40:03Z",
+          "author": "Garth Franklin",
+          "image_url": "https://cdndark.darkhorizons.com/wp-content/uploads/2026/04/first-poster-apatow-powells-comeback-king.jpg",
+          "is_local_nj": false,
+          "article_id": "84ca61083fbc",
+          "summary": "Ten years after working together on college baseball film \u201cEverybody Wants Some!,\u201d actor Glen Powell and filmmaker Richard Linklater are re-teaming for a different kind of pitch hit. Powell will play ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Glen Powell To Star As Lou Gehrig In New Richard Linklater Film",
+          "description": "Glen Powell will play New York Yankees icon Lou Gehrig in a new film from director Richard Linklater. Universal is releasing the film, which Simon Rich will write, according to Deadline. Lorne Michaels is on board to produce. No word on how much of his life t\u2026",
+          "content": "Posted in: Movies, Universal | Tagged: Glen Powell, lou gehrig, richard linklater\r\nGlen Powell is set to star as New York Yankees icon Lou Gehrig in a new film from director Richard Linklater.\r\nArtic\u2026 [+2471 chars]",
+          "url": "https://bleedingcool.com/movies/glen-powell-to-star-as-lou-gehrig-in-new-richard-linklater-film/",
+          "source_name": "Bleeding Cool News",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T20:02:10Z",
+          "author": "Jeremy Konrad",
+          "image_url": "https://bleedingcool.com/wp-content/uploads/2026/03/shutterstock_2699081001-2000x1125.jpg",
+          "is_local_nj": false,
+          "article_id": "ef27e2a06eee",
+          "summary": "Glen Powell will play New York Yankees icon Lou Gehrig in a new film from director Richard Linklater. Universal is releasing the film, which Simon Rich will write, according to Deadline. Lorne Michael",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Richard Linklater Is Fulfilling More Baseball Dreams by Casting Glen Powell as Lou Gehrig",
+          "description": "The untitled film is set at Universal Pictures and has Simon Rich (\"Artificial\") writing the screenplay.",
+          "content": "Richard Linklater loves his baseball maybe more than any filmmaker not named Ken Burns. After directing his \u201cBad News Bears\u201d remake, the baseball documentary \u201cInning by Inning: A Portrait of a Coach,\u2026 [+2952 chars]",
+          "url": "https://www.indiewire.com/news/breaking-news/richard-linklater-glen-powell-lou-gehrig-film-1235206631/",
+          "source_name": "IndieWire",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T19:30:00Z",
+          "author": "Brian Welk",
+          "image_url": "https://www.indiewire.com/wp-content/uploads/2026/07/P115V9WI.jpg?w=650",
+          "is_local_nj": false,
+          "article_id": "041f596fb4d9",
+          "summary": "The untitled film is set at Universal Pictures and has Simon Rich (\"Artificial\") writing the screenplay.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Quote of the Day by Stephen Hawking: \u201cThe past, like the future, is indefinite and exists only as a spectrum of possibilities\u201d \u2014 Why nothing in life is constant and how the legendary physicist reshaped our understanding of time, reality and memory",
+              "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-the-past-like-the-future-is-indefinite-and-exists-only-as-a-spectrum-of-possibilities-why-nothing-in-life-is-constant-and-how-the-legendary-physicist-reshaped-our-understanding-of-time-reality-and-memory/articleshow/130910873.cms",
+              "digest_date": "2026-05-10"
+            }
+          ]
+        },
+        {
+          "title": "Glen Powell to Star in Lou Gehrig Biopic Directed by Richard Linklater",
+          "description": "Saturday Night Live head honcho Lorne Michaels, a lifelong Yankees fan, will produce the project.\nGlen Powell to Star in Lou Gehrig Biopic Directed by Richard Linklater\nEddie Fu",
+          "content": "Glen Powell is set to take on the role of New York Yankees great Lou Gehrig. The currently untitled film will see him reunite with Richard Linklater after they made the college baseball comedy Everyb\u2026 [+1513 chars]",
+          "url": "https://consequence.net/2026/07/glen-powell-lou-gehrig-biopic-richard-linklater/",
+          "source_name": "Consequence.net",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T19:29:53Z",
+          "author": "Eddie Fu",
+          "image_url": "https://consequence.net/wp-content/uploads/2026/07/Glenn-Powell-photo-by-Fred-Duval-Shutterstock-Lou-Gehrig-biopic.jpg",
+          "is_local_nj": false,
+          "article_id": "61626e807a65",
+          "summary": "Saturday Night Live head honcho Lorne Michaels, a lifelong Yankees fan, will produce the project.\nGlen Powell to Star in Lou Gehrig Biopic Directed by Richard Linklater\nEddie Fu",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Glen Powell and Richard Linklater Reteam for Lou Gehrig Biopic at Universal",
+          "description": "Simon Rich will write the project and Lorne Michaels will produce\nThe post Glen Powell and Richard Linklater Reteam for Lou Gehrig Biopic at Universal appeared first on TheWrap.",
+          "content": "Glen Powell and Richard Linklater are reuniting, this time for a biopic of one of the most famous baseball players of all time.\r\nPowell will star as New York Yankee Lou Gehrig in Linklaters biopic, w\u2026 [+1694 chars]",
+          "url": "https://www.thewrap.com/creative-content/movies/glen-powell-richard-linklater-lou-gehrig-biopic-universal/",
+          "source_name": "TheWrap",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T17:34:02Z",
+          "author": "Drew Taylor",
+          "image_url": "https://www.thewrap.com/wp-content/uploads/2024/01/glenn-powell-richard-linklater-hit-man-sundance-2024.jpg",
+          "is_local_nj": false,
+          "article_id": "03332a846811",
+          "summary": "Simon Rich will write the project and Lorne Michaels will produce\nThe post Glen Powell and Richard Linklater Reteam for Lou Gehrig Biopic at Universal appeared first on TheWrap.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Glen Powell to Lead Lou Gehrig Movie From Richard Linklater, Michaels",
+          "description": "Simon Rich is penning the script for the Universal feature that will focus on the late Yankees legend.",
+          "content": "Glen Powell is gearing up to feel like the luckiest man alive. \r\nPowell is set to star in Universal Pictures\u2019 movie about Lou Gehrig that Richard Linklater is attached to direct, The Hollywood Report\u2026 [+1321 chars]",
+          "url": "http://www.hollywoodreporter.com/movies/movie-news/glen-powell-lou-gehrig-richard-linklater-lorne-michaels-1236654085/",
+          "source_name": "Hollywood Reporter",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T17:17:00Z",
+          "author": "Ryan Gajewski",
+          "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/07/Glen-Powell-and-Lou-Gehrig-Split-Getty-H-2026.jpg?w=1296&h=730&crop=1",
+          "is_local_nj": false,
+          "article_id": "c26ccccd735a",
+          "summary": "Simon Rich is penning the script for the Universal feature that will focus on the late Yankees legend.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Glen Powell, Richard Linklater Teaming Up for Lou Gehrig Biopic, Lorne Michaels Producing",
+          "description": "Richard Linklater and Glen Powell are re-teaming to take on the Pride of the Yankees. The pair, who previously collaborated on \u201cHit Man\u201d and \u201cEverybody Wants Some,\u201d will join forces on an\u00a0untitled\u00a0Lou Gehrig\u00a0film for\u00a0Universal Pictures.\u00a0 Gehrig is a Hall of F\u2026",
+          "content": "Richard Linklater and Glen Powell are re-teaming to take on the Pride of the Yankees. The pair, who previously collaborated on \u201cHit Man\u201d and \u201cEverybody Wants Some,\u201d will join forces on an\u00a0untitled\u00a0Lo\u2026 [+1768 chars]",
+          "url": "https://variety.com/2026/film/news/glen-powell-richard-linklater-lou-gehrig-biopic-lorne-michaels-1236818235/",
+          "source_name": "Variety",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T16:43:15Z",
+          "author": "Varietybrentlang",
+          "image_url": "https://variety.com/wp-content/uploads/2026/07/Glen-Powell-Lou-Gherig.jpg?crop=0px%2C0px%2C1000px%2C562px&resize=1000%2C563",
+          "is_local_nj": false,
+          "article_id": "52199b4526f5",
+          "summary": "Richard Linklater and Glen Powell are re-teaming to take on the Pride of the Yankees. The pair, who previously collaborated on \u201cHit Man\u201d and \u201cEverybody Wants Some,\u201d will join forces on an\u00a0untitled\u00a0Lou",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Glen Powell And Richard Linklater Reunite For Lou Gehrig Film At Universal; Lorne Michaels To Produce",
+          "description": "EXCLUSIVE: After hitting a home run with their 2016 college baseball pic Everybody Wants Some!, Glen Powell and Richard Linklater are ready to take the mound again for an untitled Lou Gehrig film at Universal. Powell will play the iconic New York Yankee, with\u2026",
+          "content": "EXCLUSIVE: After hitting a home run with their 2016 college baseball pic Everybody Wants Some!, Glen Powell and Richard Linklater are ready to take the mound again for an untitled Lou Gehrig film at \u2026 [+3715 chars]",
+          "url": "http://deadline.com/2026/07/glen-powell-lou-gehrig-movie-richard-linklater-1236999778/",
+          "source_name": "Deadline",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T16:15:00Z",
+          "author": "Justin Kroll",
+          "image_url": "https://deadline.com/wp-content/uploads/2026/07/Richard-Linklater-Lou-Gehrig-and-Glen-Powell.jpg?w=1024",
+          "is_local_nj": false,
+          "article_id": "3c6ea4fbee66",
+          "summary": "EXCLUSIVE: After hitting a home run with their 2016 college baseball pic Everybody Wants Some!, Glen Powell and Richard Linklater are ready to take the mound again for an untitled Lou Gehrig film at U",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "AMD will Milliarden in Anthropic investieren",
+          "description": null,
+          "content": "Der US-Chiphersteller AMD hat eine Kapitalbeteiligung von bis zu f\u00fcnf Milliarden Dollar (rund 4,4 Milliarden Euro) bei dem KI-Unternehmen Anthropic angek\u00fcndigt.\r\nDas sieht eine Partnerschaft vor, die\u2026 [+835 chars]",
+          "url": "https://orf.at/stories/3436977/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T15:58:13Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "217121afd308",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Norwood Financial Q2 Earnings Call Highlights",
+          "description": "Norwood Financial (NASDAQ:NWFL) reported record second-quarter 2026 earnings and said it has completed the integration of Presence Bank, while management als...",
+          "content": "Key Points\r\n<ul><li>Interested in Norwood Financial Corp.? Here are five stocks we like better.\r\n</li><li>Norwood Financial posted record Q2 2026 results, with net income of $9.3 million, or $0.86 pe\u2026 [+9423 chars]",
+          "url": "https://www.marketbeat.com/instant-alerts/norwood-financial-q2-earnings-call-highlights-2026-07-22/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+          "source_name": "MarketBeat",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T15:06:46Z",
+          "author": "MarketBeat",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/0F2F581AAB01E50E618F3A578554F284920B6D6D1FA9602E0B832A0F45751656/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F7a5dad8ec1390ea0e0ae5923decfb37a",
+          "is_local_nj": false,
+          "article_id": "77feb692b1ed",
+          "summary": "Norwood Financial (NASDAQ:NWFL) reported record second-quarter 2026 earnings and said it has completed the integration of Presence Bank, while management als...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sufferers of cruel neurological condition that sees the body shut down - as well as TWO sets of heartbroken parents who've already lost a son each to the disease and\u00a0 now fight for their other sons' lives - BEG the State to act 'before it's too late'",
+          "description": "'There are 200 of us begging for our lives.' A new drug is shown to slow progression of Friedreich's Ataxia. But after 700 days, why is the State is still undecided on helping desperate families...",
+          "content": "When Emily Felix was 12, she thought the biggest thing she had to worry about was starting secondary school.\u00a0\r\nInstead, after months of losing her balance and falling over, she was told she had Fried\u2026 [+12814 chars]",
+          "url": "https://www.dailymail.com/news/article-15986117/Sufferers-cruel-neurological-condition-sees-body-shut-TWO-sets-heartbroken-parents-whove-lost-son-disease-fight-sons-lives-State-act-late.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T15:01:48Z",
+          "author": "Lisa Brady",
+          "image_url": "https://i.dailymail.com/1s/2026/07/17/19/110084117-0-image-m-66_1784314263464.jpg",
+          "is_local_nj": false,
+          "article_id": "0bb51d92f6e0",
+          "summary": "'There are 200 of us begging for our lives.' A new drug is shown to slow progression of Friedreich's Ataxia. But after 700 days, why is the State is still undecided on helping desperate families...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Inside the family tragedy that triggered a shocking midnight home invasion - where a terrified elderly couple were allegedly stabbed before they gunned down accused attacker",
+              "url": "https://www.dailymail.com/news/article-15875787/torrington-home-invasion-elderly-couple-stabbed.html",
+              "digest_date": "2026-06-07"
+            }
+          ]
+        },
+        {
+          "title": "SA and SS personnel files: What these documents reveal about the Nazi perpetrators",
+          "description": "Die ZEIT has published millions of SA and SS personnel files, ending a decades-long struggle. Why this corrective to Nazi history is only now available to everyone.",
+          "content": "Schlie\u00dfen\r\nArtikelzusammenfassung\r\nEin Archivkeller im Berliner Grunewald wird zur B\u00fchne einer sp\u00e4ten, digitalen R\u00fcckkehr der NS-Vergangenheit. Der Text zeichnet nach, wie die USA nach 1945 Millionen\u2026 [+1553 chars]",
+          "url": "https://www.zeit.de/wissenschaft/geschichte/2026-07/sa-ss-personnel-files-berlin-federal-archives-wehrmacht-holocaust-english",
+          "source_name": "Die Zeit",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T14:10:45Z",
+          "author": "DIE ZEIT: Geschichte - Christian Staas",
+          "image_url": "https://img.zeit.de/2026/31/sauberkeit-des-anzugs-gut-bild-4/wide__1300x731",
+          "is_local_nj": false,
+          "article_id": "f9f988f413dc",
+          "summary": "Die ZEIT has published millions of SA and SS personnel files, ending a decades-long struggle. Why this corrective to Nazi history is only now available to everyone.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Nazi Files: Search for family members in the SA and SS personnel files",
+          "description": "The SA and SS murdered in the name of Nazi ideology. For the first time, DIE ZEIT digitised hundreds of thousands of files: search CVs, letters, and character references.",
+          "content": "Schlie\u00dfen\r\nArtikelzusammenfassung\r\nDiese Akten \u00f6ffnen ein d\u00fcsteres Archivfenster auf SA und SS. Der Text beginnt bei den Dokumenten selbst von Aufnahmeantr\u00e4gen, Lebensl\u00e4ufen und Strafregisterausz\u00fcgen\u2026 [+1405 chars]",
+          "url": "https://www.zeit.de/wissenschaft/geschichte/2026-07/files-ss-sa-nazi-party-history-family-search",
+          "source_name": "Die Zeit",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T14:10:25Z",
+          "author": "DIE ZEIT: Geschichte - Gregor Aisch, Jakob Bauer, Paul Blickle, Max Boenke, Matthias Giordano, Andreas Loos, Selina Rudolph, Juliane Sch\u00e4uble, Nico Scordialo, Shairal Sharma, Christian Staas, Julian Stahnke, Sven Stockrahm, Benja Zehr",
+          "image_url": "https://img.zeit.de/wissenschaft/geschichte/2026-07/akten-ss-sa-nationalsozialismus-familienmitglieder-suche-bild-9/wide__1300x731",
+          "is_local_nj": false,
+          "article_id": "775dac0ed699",
+          "summary": "The SA and SS murdered in the name of Nazi ideology. For the first time, DIE ZEIT digitised hundreds of thousands of files: search CVs, letters, and character references.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Tactical Resources announces exchange ratio for business combination",
+          "description": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investors, professional money managers, active traders, and corpor\u2026",
+          "content": "Sign up for freeSign inStart 7 day free trial\r\n\u00a9 2026 The Fly Inc.\r\nThe Fly Cast\r\nPlay\r\n\u00a9\r\nThe Fly | PLMJ\r\nKairos Pharma announces collaboration with Bayer to enhance XOFIGO\r\nRead More\r\nIntuit launch\u2026 [+1841 chars]",
+          "url": "https://www.thefly.com/PLMJ",
+          "source_name": "Thefly.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T12:38:21Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "349f037b6268",
+          "summary": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investo",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Kensington Capital Acquisition, Nth Cycle announce business combination",
+          "description": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investors, professional money managers, active traders, and corpor\u2026",
+          "content": "Sign up for freeSign inStart 7 day free trial\r\n\u00a9 2026 The Fly Inc.\r\nThe Fly Cast\r\nPlay\r\n\u00a9\r\nThe Fly | KCAC\r\nIntuit launches Intuit Business Credit Card\r\nRead More\r\nTactical Resources announces exchang\u2026 [+1833 chars]",
+          "url": "https://www.thefly.com/KCAC",
+          "source_name": "Thefly.com",
+          "source_type": "newsapi",
+          "published_at": "2026-07-22T12:32:48Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "2249baa491b5",
+          "summary": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investo",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 41,
+    "references": [
+      {
+        "title": "Broadway Will Sing for Aaron Lazar in New Jersey Benefit Concert - Playbill",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNTZZUnBWbElqaXFGaWRlMFZDU3pCbnZ2MjBJdjZxdDVYR0hUSjhUMnNodm9BNlN6UncxS2ZJMGlpUkRVZlVJNGZlMUFITGxMeE5KbldoRnMxYm5kWThnQ1haVFlIYTQyZUp3bHFMY0V0UU1tbFd3bmFNR1c1LWo4V0ZmWDBtdFNnVHNzaEwzTndGb2tQUEFlQQ?oc=5",
+        "source": "Google News (\"New Jersey\" ALS...)",
+        "date": "2026-07-20T15:32:00"
+      },
+      {
+        "title": "Nvidia und SK Group starten KI-Initiative",
+        "url": "https://orf.at/stories/3437225/",
+        "source": "Orf.at",
+        "date": "2026-07-25T06:01:48Z"
+      },
+      {
+        "title": "Eric Dane called \u2018Euphoria\u2019 his most \u2018profound\u2019 career experience in new special",
+        "url": "https://pagesix.com/2026/07/24/entertainment/eric-dane-called-euphoria-his-most-profound-work-amid-als-battle/",
+        "source": "Page Six",
+        "date": "2026-07-25T03:28:53Z"
+      },
+      {
+        "title": "WATCH: Red Sox Prospect Justin Gonzales Slaps Opponent, Gets Ejected After Teams Engage In Massive Brawl",
+        "url": "https://collegefootballnetwork.com/baseball/red-sox-justin-gonzales-slaps-ejected-teams-massive-brawl/?utm_medium=rss&amp;utm_source=nordot",
+        "source": "Collegefootballnetwork.com",
+        "date": "2026-07-24T18:41:18Z"
+      },
+      {
+        "title": "AI is reshaping biotech from discovery to clinical success: 9 Insights from the cutting edge",
+        "url": "https://siliconangle.com/2026/07/24/biotech-companies-reshaped-ai-aiinbio/",
+        "source": "SiliconANGLE News",
+        "date": "2026-07-24T17:27:33Z"
+      },
+      {
+        "title": "Health department to procure 720 new ambulances in a month: Officials",
+        "url": "https://timesofindia.indiatimes.com/city/ranchi/health-department-to-procure-720-new-ambulances-in-a-month-officials/articleshow/132606479.cms",
+        "source": "The Times of India",
+        "date": "2026-07-24T12:58:21Z"
+      },
+      {
+        "title": "[vim-security] Arbitrary Code Execution via Shell Keyword Lookup in Vim",
+        "url": "https://seclists.org/oss-sec/2026/q3/245",
+        "source": "Seclists.org",
+        "date": "2026-07-24T12:47:24Z"
+      },
+      {
+        "title": "sigpathmatrix added to PyPI",
+        "url": "https://pypi.org/project/sigpathmatrix/",
+        "source": "Pypi.org",
+        "date": "2026-07-24T09:44:53Z"
+      },
+      {
+        "title": "The Spotify-Kalshi issue shows that music\u2019s fraud systems work (Guest column)",
+        "url": "https://musically.com/2026/07/24/the-spotify-kalshi-issue-shows-that-musics-fraud-systems-work-guest-column/",
+        "source": "Music Ally",
+        "date": "2026-07-24T09:17:43Z"
+      },
+      {
+        "title": "Mitochondrial tRNA biogenesis, modifications and disease relevance",
+        "url": "https://www.nature.com/articles/s41580-026-00999-5",
+        "source": "Nature.com",
+        "date": "2026-07-24T00:00:00Z"
+      },
+      {
+        "title": "Certain Habits May Help Reduce Risk Of ALS, New Research Indicates",
+        "url": "https://www.mindbodygreen.com/articles/researchers-identify-2-habits-associated-with-lower-als-risk-alexandra-engler",
+        "source": "mindbodygreen.com",
+        "date": "2026-07-23T21:07:00Z"
+      },
+      {
+        "title": "Voicepilled Vibe Coders Are Drooling Over This Touchpad You Control With Your Tongue",
+        "url": "https://gizmodo.com/vibe-coders-ai-augmental-mouthpad-keyboard-mouse-2000789866",
+        "source": "Gizmodo.com",
+        "date": "2026-07-23T19:00:24Z"
+      },
+      {
+        "title": "The Red Sox Have Risen From the Dead To Join the Wild Card Race",
+        "url": "https://blogs.fangraphs.com/the-red-sox-have-risen-from-the-dead-to-join-the-wild-card-race/",
+        "source": "Fangraphs.com",
+        "date": "2026-07-23T18:00:23Z"
+      },
+      {
+        "title": "90 Day Fianc\u00e9's Sumit May Finally Be Coming To The United States With Jenny, But There's A Catch",
+        "url": "https://www.cinemablend.com/television/90-day-fiance-sumit-may-finally-come-to-united-states-with-jenny-als-visa",
+        "source": "CinemaBlend",
+        "date": "2026-07-23T16:33:38Z"
+      },
+      {
+        "title": "German Word of the Day: Pantoffelheld",
+        "url": "https://www.thelocal.de/20260723/german-word-of-the-day-pantoffelheld",
+        "source": "The Local Germany",
+        "date": "2026-07-23T14:02:09Z"
+      },
+      {
+        "title": "Greenland Mines Announces Limited-Duration Stockholder Rights Plan Intended to Protect Shareholder Value",
+        "url": "https://financialpost.com/globe-newswire/greenland-mines-announces-limited-duration-stockholder-rights-plan-intended-to-protect-shareholder-value",
+        "source": "Financial Post",
+        "date": "2026-07-23T13:02:03Z"
+      },
+      {
+        "title": "Troilus Drills 1.10 g/t AuEq Over 103 m as Z87 Optimization Program Continues to Strengthen Mine Planning",
+        "url": "https://financialpost.com/globe-newswire/troilus-drills-1-10-g-t-aueq-over-103-m-as-z87-optimization-program-continues-to-strengthen-mine-planning",
+        "source": "Financial Post",
+        "date": "2026-07-23T11:02:51Z"
+      },
+      {
+        "title": "Osisko Intersects 320 Metres Averaging 0.38% Cu at Gasp\u00e9",
+        "url": "https://financialpost.com/globe-newswire/osisko-intersects-320-metres-averaging-0-38-cu-at-gaspe",
+        "source": "Financial Post",
+        "date": "2026-07-23T10:04:27Z"
+      },
+      {
+        "title": "Osisko Intersects 320 Metres Averaging 0.38% Cu at Gasp\u00e9",
+        "url": "https://www.globenewswire.com/news-release/2026/07/23/3331945/0/en/Osisko-Intersects-320-Metres-Averaging-0-38-Cu-at-Gasp%C3%A9.html",
+        "source": "GlobeNewswire",
+        "date": "2026-07-23T10:00:00Z"
+      },
+      {
+        "title": "Vultr en AMD ondersteunen AI-project TESSERA van University of Cambridge voor grootschalige milieumonitoring",
+        "url": "https://www.emerce.nl/wire/vultr-amd-ondersteunen-aiproject-tessera-university-cambridge-grootschalige-milieumonitoring",
+        "source": "Emerce.nl",
+        "date": "2026-07-23T09:01:41Z"
+      },
+      {
+        "title": "Yankees news: Jos\u00e9 Caballero sparked pitch clock rule interpretation",
+        "url": "https://www.pinstripealley.com/yankees-news/198696/yankees-news-lou-gehrig-glen-powell-caballero-pitch-clock-rule-change-fried-return-injured-list-trade-deadline",
+        "source": "Pinstripe Alley",
+        "date": "2026-07-23T09:00:00Z"
+      },
+      {
+        "title": "Reach Out with Your Fitness Questions and Ideas",
+        "url": "https://congresodelamujer.com/contact/",
+        "source": "Congresodelamujer.com",
+        "date": "2026-07-23T06:21:47Z"
+      },
+      {
+        "title": "Reports Q2-2026 Production & Operational Highlights",
+        "url": "https://www.globenewswire.com/news-release/2026/07/23/3331858/0/en/Reports-Q2-2026-Production-Operational-Highlights.html",
+        "source": "GlobeNewswire",
+        "date": "2026-07-23T05:00:00Z"
+      },
+      {
+        "title": "Glen Powell steps up to play baseball\u2019s \u2018luckiest man\u2019 in Richard Linklater reunion",
+        "url": "https://www.perthnow.com.au/entertainment/movies/glen-powell-steps-up-to-play-baseballs-luckiest-man-in-richard-linklater-reunion-c-22615352",
+        "source": "PerthNow",
+        "date": "2026-07-23T04:37:48Z"
+      },
+      {
+        "title": "\u201890 Day Fiance' Star Jenny's Daughter Shares Update on Sumit\u2019s Visa Amid ALS",
+        "url": "https://www.usmagazine.com/celebrity-news/news/90-day-fiances-jennys-daughter-shares-update-on-sumits-visa/",
+        "source": "Us Weekly",
+        "date": "2026-07-23T01:06:12Z"
+      },
+      {
+        "title": "ALS Network Applauds House Passage of ACT for ALS Reauthorization Act",
+        "url": "https://www.prnewswire.com/news-releases/als-network-applauds-house-passage-of-act-for-als-reauthorization-act-302832638.html",
+        "source": "PRNewswire",
+        "date": "2026-07-22T21:42:00Z"
+      },
+      {
+        "title": "Glen Powell Plays Lou Gehrig For Linklater",
+        "url": "https://www.darkhorizons.com/glen-powell-plays-lou-gehrig-for-linklater/",
+        "source": "Dark Horizons",
+        "date": "2026-07-22T20:40:03Z"
+      },
+      {
+        "title": "Glen Powell To Star As Lou Gehrig In New Richard Linklater Film",
+        "url": "https://bleedingcool.com/movies/glen-powell-to-star-as-lou-gehrig-in-new-richard-linklater-film/",
+        "source": "Bleeding Cool News",
+        "date": "2026-07-22T20:02:10Z"
+      },
+      {
+        "title": "Richard Linklater Is Fulfilling More Baseball Dreams by Casting Glen Powell as Lou Gehrig",
+        "url": "https://www.indiewire.com/news/breaking-news/richard-linklater-glen-powell-lou-gehrig-film-1235206631/",
+        "source": "IndieWire",
+        "date": "2026-07-22T19:30:00Z"
+      },
+      {
+        "title": "Glen Powell to Star in Lou Gehrig Biopic Directed by Richard Linklater",
+        "url": "https://consequence.net/2026/07/glen-powell-lou-gehrig-biopic-richard-linklater/",
+        "source": "Consequence.net",
+        "date": "2026-07-22T19:29:53Z"
+      },
+      {
+        "title": "Glen Powell and Richard Linklater Reteam for Lou Gehrig Biopic at Universal",
+        "url": "https://www.thewrap.com/creative-content/movies/glen-powell-richard-linklater-lou-gehrig-biopic-universal/",
+        "source": "TheWrap",
+        "date": "2026-07-22T17:34:02Z"
+      },
+      {
+        "title": "Glen Powell to Lead Lou Gehrig Movie From Richard Linklater, Michaels",
+        "url": "http://www.hollywoodreporter.com/movies/movie-news/glen-powell-lou-gehrig-richard-linklater-lorne-michaels-1236654085/",
+        "source": "Hollywood Reporter",
+        "date": "2026-07-22T17:17:00Z"
+      },
+      {
+        "title": "Glen Powell, Richard Linklater Teaming Up for Lou Gehrig Biopic, Lorne Michaels Producing",
+        "url": "https://variety.com/2026/film/news/glen-powell-richard-linklater-lou-gehrig-biopic-lorne-michaels-1236818235/",
+        "source": "Variety",
+        "date": "2026-07-22T16:43:15Z"
+      },
+      {
+        "title": "Glen Powell And Richard Linklater Reunite For Lou Gehrig Film At Universal; Lorne Michaels To Produce",
+        "url": "http://deadline.com/2026/07/glen-powell-lou-gehrig-movie-richard-linklater-1236999778/",
+        "source": "Deadline",
+        "date": "2026-07-22T16:15:00Z"
+      },
+      {
+        "title": "AMD will Milliarden in Anthropic investieren",
+        "url": "https://orf.at/stories/3436977/",
+        "source": "Orf.at",
+        "date": "2026-07-22T15:58:13Z"
+      },
+      {
+        "title": "Norwood Financial Q2 Earnings Call Highlights",
+        "url": "https://www.marketbeat.com/instant-alerts/norwood-financial-q2-earnings-call-highlights-2026-07-22/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+        "source": "MarketBeat",
+        "date": "2026-07-22T15:06:46Z"
+      },
+      {
+        "title": "Sufferers of cruel neurological condition that sees the body shut down - as well as TWO sets of heartbroken parents who've already lost a son each to the disease and\u00a0 now fight for their other sons' lives - BEG the State to act 'before it's too late'",
+        "url": "https://www.dailymail.com/news/article-15986117/Sufferers-cruel-neurological-condition-sees-body-shut-TWO-sets-heartbroken-parents-whove-lost-son-disease-fight-sons-lives-State-act-late.html",
+        "source": "Dailymail.com",
+        "date": "2026-07-22T15:01:48Z"
+      },
+      {
+        "title": "SA and SS personnel files: What these documents reveal about the Nazi perpetrators",
+        "url": "https://www.zeit.de/wissenschaft/geschichte/2026-07/sa-ss-personnel-files-berlin-federal-archives-wehrmacht-holocaust-english",
+        "source": "Die Zeit",
+        "date": "2026-07-22T14:10:45Z"
+      },
+      {
+        "title": "Nazi Files: Search for family members in the SA and SS personnel files",
+        "url": "https://www.zeit.de/wissenschaft/geschichte/2026-07/files-ss-sa-nazi-party-history-family-search",
+        "source": "Die Zeit",
+        "date": "2026-07-22T14:10:25Z"
+      },
+      {
+        "title": "Tactical Resources announces exchange ratio for business combination",
+        "url": "https://www.thefly.com/PLMJ",
+        "source": "Thefly.com",
+        "date": "2026-07-22T12:38:21Z"
+      },
+      {
+        "title": "Kensington Capital Acquisition, Nth Cycle announce business combination",
+        "url": "https://www.thefly.com/KCAC",
+        "source": "Thefly.com",
+        "date": "2026-07-22T12:32:48Z"
+      }
+    ],
+    "generated_at": "2026-07-26T10:03:09.342927"
+  },
+  {
     "date": "2026-07-19",
     "week_of": "July 19, 2026",
     "digest_number": 29,
