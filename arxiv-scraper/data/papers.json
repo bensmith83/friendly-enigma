@@ -1,5 +1,24 @@
 [
   {
+    "id": "2607.28075v1",
+    "title": "Temporal Poisoning: Clean-Label Backdoors via Event Redistribution in SNNs",
+    "summary": "Backdoor attacks on Spiking Neural Networks (SNNs) have primarily assumed dirty-label poisoning, in which triggered training samples are relabeled to an attacker-selected class. We study clean-label temporal poisoning, where a fixed timestamp transformation is applied only to the target-class training streams, leaving their labels unchanged. The transformation preserves the per-pixel, per-polarity event count exactly, making clean and triggered samples identical after temporal aggregation while altering the sequence processed by the SNN. Across three neuromorphic datasets and both convolutional and transformer-based victims, the attack reaches an ASR of 1.00 in the strongest configurations. We analyze the attack through poison-budget and trigger-shape ablations and evaluate established backdoor defenses adapted to spiking models. Defenses that collapse the time axis before inspection are blind by construction, while feature-space methods detect the poison only in selected settings. Our model-free detector, based on per-step event mass, detects the evaluated temporal transformations, demonstrating both the limitation of rate-collapsed defenses and the boundary of the attack's stealth. To our knowledge, this is the first clean-label backdoor attack evaluated on SNNs and neuromorphic event data.",
+    "published": "2026-07-30T11:49:28Z",
+    "link": "http://arxiv.org/abs/2607.28075v1",
+    "authors": [
+      "Roberto Ria\u00f1o",
+      "Gorka Abad",
+      "Stjepan Picek",
+      "Aitor Urbieta"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Backdoor attacks on Spiking Neural Networks (SNNs) have primarily assumed dirty-label poisoning, in which triggered training samples are relabeled to an attacker-selected class. We study clean-label temporal poisoning, where a fixed timestamp transformation is applied only to the target-class training streams, leaving their labels unchanged.",
+    "selected_date": "2026-08-01"
+  },
+  {
     "id": "2607.27990v1",
     "title": "Driving up Inference Energy on SNNs: Per-Sample and Universal Sponge Attacks",
     "summary": "Spiking Neural Networks (SNNs) communicate through sparse binary spike events rather than dense activations, enabling energy-efficient inference on neuromorphic hardware and motivating their use in always-on, battery-powered edge systems. We show that this same efficiency advantage creates a distinct security risk: sponge attacks can increase inference-time spike activity and synaptic workload, inflating energy consumption while remaining difficult to detect through correctness-based monitoring alone. Prior input-space efficiency attacks on SNNs have focused on per-sample optimization, primarily in rate-coded settings. We extend this threat to native event-based binary inputs and study two attack models. First, we develop a per-sample sponge attack that crafts a custom adversarial spike train for each input via gradient-based optimization. This attack increases per-inference SynOps by 1.5-2.6x on three SNN models for the NMNIST, SHD, and IBM DVS Gesture datasets, while preserving the predicted class on at least 98% of evaluated samples. Second, to the best of our knowledge, we introduce the first universal sponge attack for native event-based SNN inputs: a fixed binary perturbation computed offline and applied via XOR to all subsequent inputs. Although weaker, it still inflates SynOps by 1.09-1.24x across all three datasets and represents a more realistic deployment threat because it requires no per-input optimization. Mapping SynOp inflation to estimated Loihi-1 energy yields per-inference overheads from 14 $\u03bc$J to 13.24 mJ. These results show that native event-based SNNs are vulnerable to practical input-space efficiency attacks, and that reusable universal perturbations can accumulate into meaningful battery drain in continuously deployed edge systems.",
@@ -587,24 +606,5 @@
     ],
     "ai_summary": "Distributed machine learning enables collaborative model training without centralizing data, but it also exposes learning processes to privacy leakage and malicious manipulation. Existing defenses typically address these threats in isolation and are often tailored to specific learning paradigms or model architectures, limiting their applicability in realistic deployments.",
     "selected_date": "2026-07-03"
-  },
-  {
-    "id": "2607.00440v1",
-    "title": "Minos: A Multi-Agent Collaborative Framework for Provenance-Based Backward Tracking",
-    "summary": "Sophisticated cyber attacks, particularly Advanced Persistent Threats (APTs), require effective post-intrusion forensic analysis. Provenance-based backward tracking reconstructs attack scenarios by tracing causality from security alerts, but existing methods rely on low-level statistical features and rigid traversal strategies, limiting their ability to capture high-level adversarial intent and suffering from dependency explosion. We present Minos, a multi-agent framework that formulates backward tracking as an LLM-driven reasoning process. Minos adopts a two-tiered architecture: for event-level analysis, it combines hierarchical context management, retrieval-augmented reasoning with citation verification, and adversarial deliberation to improve reasoning quality; for graph exploration, it coordinates four specialized agents under a finite state machine (FSM), replacing exhaustive traversal with hypothesis-guided reasoning and count-first query protocols to efficiently prune the search space. Experiments on 14 attack scenarios across five public datasets show that Minos achieves an average recall of 0.92 and precision of 0.64, significantly outperforming state-of-the-art baselines while producing attack subgraphs that are 49% more compact. Moreover, Minos generates interpretable reasoning throughout the tracking process, facilitating forensic auditing and system refinement. These results demonstrate the effectiveness of LLM-driven reasoning for automated provenance-based backward tracking.",
-    "published": "2026-07-01T04:53:10Z",
-    "link": "http://arxiv.org/abs/2607.00440v1",
-    "authors": [
-      "Jiahui Wang",
-      "Zhenyuan Li",
-      "Zhengkai Wang",
-      "Xiangmin Shen",
-      "Fan Zhang"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Sophisticated cyber attacks, particularly Advanced Persistent Threats (APTs), require effective post-intrusion forensic analysis. Provenance-based backward tracking reconstructs attack scenarios by tracing causality from security alerts, but existing methods rely on low-level statistical features and rigid traversal strategies, limiting their ability to capture high-level adversarial intent and suffering from dependency explosion.",
-    "selected_date": "2026-07-02"
   }
 ]
