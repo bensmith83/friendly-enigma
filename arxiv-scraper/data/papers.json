@@ -1,5 +1,26 @@
 [
   {
+    "id": "2607.28226v1",
+    "title": "Security of World-Model-Based Embodied AI: A Lifecycle of Threats, Defenses, and Evaluation",
+    "summary": "World models give embodied AI a predictive core: they compress observations into states, simulate action-conditioned futures, and enable planning beyond reactive control. This predictive layer, however, opens a new security boundary-compromise can propagate from data, sensors, prompts, or feedback into physical action. Rather than treating world models as an isolated component, this survey traces threats across their entire lifecycle-from data construction and representation learning, through state grounding and imagination, to trajectory evaluation, execution, and long-term adaptation via memory and tools. We show that familiar attack families: poisoning, backdoors, adversarial examples, sensor spoofing, prompt injection, trajectory manipulation, and supply-chain attacks take on distinct meanings when they corrupt world states, learned dynamics, affordance estimates, or safety costs. We also highlight a duality: world models can serve as runtime safety shields, yet when compromised or over-trusted they generate predictive safety illusions. The survey offers a lifecycle taxonomy, maps existing attacks to world-model security properties, outlines evaluation protocols for safety failures, and structures defenses across provenance, robust grounding, uncertainty-aware prediction, trajectory gating, feedback auditing, and deployment assurance.",
+    "published": "2026-07-30T13:58:33Z",
+    "link": "http://arxiv.org/abs/2607.28226v1",
+    "authors": [
+      "Fazhong Liu",
+      "Zhuoyan Chen",
+      "Haozhen Tan",
+      "Yan Meng",
+      "Guoxing Chen",
+      "Haojin Zhu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "World models give embodied AI a predictive core: they compress observations into states, simulate action-conditioned futures, and enable planning beyond reactive control. This predictive layer, however, opens a new security boundary-compromise can propagate from data, sensors, prompts, or feedback into physical action.",
+    "selected_date": "2026-08-02"
+  },
+  {
     "id": "2607.28075v1",
     "title": "Temporal Poisoning: Clean-Label Backdoors via Event Redistribution in SNNs",
     "summary": "Backdoor attacks on Spiking Neural Networks (SNNs) have primarily assumed dirty-label poisoning, in which triggered training samples are relabeled to an attacker-selected class. We study clean-label temporal poisoning, where a fixed timestamp transformation is applied only to the target-class training streams, leaving their labels unchanged. The transformation preserves the per-pixel, per-polarity event count exactly, making clean and triggered samples identical after temporal aggregation while altering the sequence processed by the SNN. Across three neuromorphic datasets and both convolutional and transformer-based victims, the attack reaches an ASR of 1.00 in the strongest configurations. We analyze the attack through poison-budget and trigger-shape ablations and evaluate established backdoor defenses adapted to spiking models. Defenses that collapse the time axis before inspection are blind by construction, while feature-space methods detect the poison only in selected settings. Our model-free detector, based on per-step event mass, detects the evaluated temporal transformations, demonstrating both the limitation of rate-collapsed defenses and the boundary of the attack's stealth. To our knowledge, this is the first clean-label backdoor attack evaluated on SNNs and neuromorphic event data.",
@@ -587,24 +608,5 @@
     ],
     "ai_summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested.",
     "selected_date": "2026-07-04"
-  },
-  {
-    "id": "2607.02187v1",
-    "title": "Privacy-Preserving and Verifiable Approximate Distributed Coded Computing",
-    "summary": "Distributed machine learning enables collaborative model training without centralizing data, but it also exposes learning processes to privacy leakage and malicious manipulation. Existing defenses typically address these threats in isolation and are often tailored to specific learning paradigms or model architectures, limiting their applicability in realistic deployments. In particular, federated learning and decentralized learning exhibit distinct adversarial surfaces that are rarely addressed within a unified framework. In this paper, we present a model-agnostic framework for adversary-resistant distributed learning that jointly addresses privacy preservation and malicious behavior across both federated and decentralized settings. Our approach combines paradigm-specific defense mechanisms with GPBACC, a privacy-enhancing coded computing technique applicable to arbitrary machine learning models. For federated learning, we integrate robust aggregation strategies to mitigate the impact of malicious participants, while for decentralized learning we employ approximate decode-and-compare and group testing techniques to enable lightweight verification and adversary isolation without relying on a trusted aggregator. Crucially, we evaluate the proposed framework through an explicit, attack-driven analysis. We implement representative privacy attacks and malicious behaviors, and empirically demonstrate that the combination of GPBACC with robust aggregation and verification mechanisms significantly reduces privacy leakage and improves resilience against active adversaries. These results suggest that privacy-enhancing coded computing, when combined with appropriate adversary-resistance strategies, provides a practical and deployable foundation for secure distributed machine learning.",
-    "published": "2026-07-02T13:57:32Z",
-    "link": "http://arxiv.org/abs/2607.02187v1",
-    "authors": [
-      "Xavier Mart\u00ednez-Lua\u00f1a",
-      "Alba Gude-Santos",
-      "Manuel Fern\u00e1ndez-Veiga",
-      "Rebeca P. D\u00edaz-Redondo"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CR"
-    ],
-    "ai_summary": "Distributed machine learning enables collaborative model training without centralizing data, but it also exposes learning processes to privacy leakage and malicious manipulation. Existing defenses typically address these threats in isolation and are often tailored to specific learning paradigms or model architectures, limiting their applicability in realistic deployments.",
-    "selected_date": "2026-07-03"
   }
 ]
