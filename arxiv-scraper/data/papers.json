@@ -1,5 +1,27 @@
 [
   {
+    "id": "2608.02585v1",
+    "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+    "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning. We introduce GradCuit (gradient through circuit), which inserts optimizable latent states at a selected Transformer layer between the hidden representations of the prompt and the generated continuation. Causal self-attention provides every continuation-token log-probability with a differentiable path to every preceding latent state through the remaining Transformer blocks, enabling reward-weighted gradients from the entire continuation to be assigned directly to the latents. Across five instruction-tuned backbones, three reasoning benchmarks, and two answer formats, GradCuit achieves an average accuracy of 64.5%, outperforming chain-of-thought prompting by 6.6 percentage points and the strongest competing method by 2.4 points. GradCuit also demonstrates greater robustness: across seven learning-rate settings, it consistently outperforms LatentSeek while reducing the standard deviation of accuracy from 1.53 to 0.82, and even its random-walk variant remains competitive with LatentSeek. For interpretability, token-level gradient attribution reveals that latent influence concentrates on reasoning-connector tokens, while layer analysis identifies early-to-middle Transformer layers as the most effective optimization space. By directly optimizing internal reasoning from outcome feedback, GradCuit opens a new axis of robust and interpretable test-time scaling, where LLMs adapt how they reason rather than merely regenerate, sample, or rerank outputs.",
+    "published": "2026-08-03T17:55:24Z",
+    "link": "http://arxiv.org/abs/2608.02585v1",
+    "authors": [
+      "Zhaoxin Yu",
+      "Qi Shen",
+      "Hengli Li",
+      "Zhaowei Zhang",
+      "Song-Chun Zhu",
+      "Chi Zhang",
+      "Zilong Zheng"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "ai_summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning.",
+    "selected_date": "2026-08-04"
+  },
+  {
     "id": "2607.28944v1",
     "title": "A Biometric Sensor Network to Enable Real-Time Measurement of Individual Student Engagement in STEM Lecture Environments",
     "summary": "Student engagement (SE) is a critical predictor of academic performance and retention in STEM education, yet existing measurement approaches are often intrusive, manually intensive, or unsuitable for real-time classroom use. This thesis proposes a novel $\\textit{Biometric Sensor Network}$ (BSN) designed to enable real-time measurement and continuous tracking of individual student engagement in STEM classroom environments. The system enables capturing of behavioral, emotional, and cognitive indicators through camera-based sensing while preserving ethical and privacy constraints.   To measure these indicators unobtrusively and ethically, we propose a BSN composed of $\\textit{Student Processing Units}$ (SPUs) that function as distributed sensing nodes. The network is explicitly designed to satisfy five objectives: it must be $\\textbf{non-intrusive}, \\textbf{non-invasive}, \\textbf{non-stigmatizing}, \\textbf{real-time}$, and $\\textbf{automatic}$, while ensuring rigorous protection of student data security and privacy.   Each SPU supports two operational modes: (i) a $\\textit{dataset-collection mode}$, in which raw student video is temporarily recorded to construct a private SE dataset for model training and validation, and (ii) an $\\textit{analysis mode}$, in which the SPU performs real-time inference on 10-second video segments without storing or transmitting raw frames. In this analysis role, each SPU enables fully on-device processing---including face detection, gaze estimation, and affective analysis---ensuring that no identifiable video data leaves the device. A secure backend infrastructure manages device authentication, session orchestration, and encrypted data ingestion. The full system integrates hardware design, computer-vision pipelines, wireless networking, security protocols, and session-level data management.",
@@ -588,24 +610,5 @@
     ],
     "ai_summary": "Adversarial attacks on cybersecurity classifiers pose a dual threat: degrading predictions and destabilising the SHAP-based explanations that security analysts rely on to understand and triage alerts. We extend our prior MLP conference study to Random Forest and XGBoost across four tabular security datasets (phishing URLs, UNSW-NB15, NF-ToN-IoT, HIKARI-2021), evaluating five attacks including three black-box methods applicable to non-differentiable tree models.",
     "selected_date": "2026-07-06"
-  },
-  {
-    "id": "2607.02074v1",
-    "title": "Comprehensive Robustness Analysis of LiDAR-based 3D Object Detection in Autonomous Driving",
-    "summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested. Very few adversarial robustness studies exist for LiDAR-only 3D object detection and unfortunately, even they are limited to legacy models. Moreover, there is a systemic gap in the existing evaluation frameworks that rely simply on mAP ignoring other structural and predictive factors. To fill this gap, we propose a holistic framework that evaluates adversarial robustness using two structural factors (point cloud density and point cloud localization) and three predictive factors (misclassification, localization error, distance from ego). Using this framework, we perform an empirical study and critical analysis on recent and legacy state-of-the-art models using adversarial attacks specifically designed for LiDAR-based models. Our key finding is that high-capacity, voxel-based detectors are more susceptible to structured coordinate perturbations than pillar-based detectors. Additionally, non-anchor-based detectors demonstrate poor adversarial robustness, which necessitates rethinking model training techniques. Overall, our results demonstrate that recent models are as vulnerable to adversarial attacks as their predecessors. Therefore, we argue that there is a need to improve the evaluation benchmarks for 3D object detection that not only reward architectural modifications for improving detection accuracy, but also evaluate whether the design choices improve adversarial robustness.",
-    "published": "2026-07-02T12:13:49Z",
-    "link": "http://arxiv.org/abs/2607.02074v1",
-    "authors": [
-      "Adwait Chandorkar",
-      "Kai Krink",
-      "Yerdana Maulenbay",
-      "Hasan Tercan",
-      "Tobias Meisen"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Recent advancements in LiDAR-only 3D object detection have demonstrated improved detection accuracy over benchmark datasets. However, the adversarial robustness of these models remains untested.",
-    "selected_date": "2026-07-05"
   }
 ]
