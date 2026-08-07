@@ -1,5 +1,25 @@
 [
   {
+    "id": "2608.06211v1",
+    "title": "Reversible Unlearnable Examples: Towards the Copyright Protection in Deep Learning Era",
+    "summary": "Significant advancements in deep learning have been made possible by the utilization of large datasets, underscoring the critical importance of copyright protection. Adding meticulously designed perturbations to examples, making them unlearnable has become a crucial approach for safeguarding data copyright. Existing methods for creating unlearnable examples overlook the risk of data leakage, which can threaten data ownership. Thus, copyright protection in deep learning faces two main threats: illegal model training and malicious data leakage. We investigate that these two threats cannot be solved by straightforwardly combining existing availability attacks and watermarking techniques as their negative interaction effects. Therefore, in this paper, we propose a novel copyright protection mechanism for the aforementioned security concerns. Considering that the prevention of unauthorized model training requires powerful generalizability of unlearnable perturbations, we generate perturbations to induce the model to learn uncorrelated features of input images. It works by minimizing the mutual information of the input and output of the model. On the other hand, to eliminate the side impact of unlearnable perturbations on the watermark extraction, we design a dual extraction strategy by using two distinct watermark extractors. Extensive experiments on the image datasets {ImageNet, CIFAR10, and Pets} show that our proposed method could provide comprehensive copyright protection to images. The code is available at {https://github.com/Yeah21/ReversibleUnlearnableExamples}.",
+    "published": "2026-08-06T16:04:05Z",
+    "link": "http://arxiv.org/abs/2608.06211v1",
+    "authors": [
+      "Binze Wang",
+      "Jinyu Tian",
+      "Xingrun Wang",
+      "Xiaochen Yuan",
+      "Jianqing Li"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CV"
+    ],
+    "ai_summary": "Significant advancements in deep learning have been made possible by the utilization of large datasets, underscoring the critical importance of copyright protection. Adding meticulously designed perturbations to examples, making them unlearnable has become a crucial approach for safeguarding data copyright.",
+    "selected_date": "2026-08-07"
+  },
+  {
     "id": "2608.05115v1",
     "title": "Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition",
     "summary": "Can computer vision help make classrooms safer? In this pilot study, we investigate privacy-aware and computationally efficient classroom incident recognition from CCTV-style observations. This setting remains underexplored, with limited benchmarks and few methods designed for the privacy, efficiency, and generalization demands of real-world deployment. We introduce a novel hybrid benchmark combining generative CCTV-style videos with real-world classroom pose data, and propose a lightweight, but robust motion-reasoning framework motivated by the observation that many incidents differ more in motion direction, speed, acceleration, and intensity than in pose alone. To that end, our method first constructs hierarchical kinematic representations of human actions. Our method then distills hierarchical, multi-order kinematic reasoning from a large teacher into a much smaller single-order student, enabling efficient per-person inference while preserving expressive motion understanding. Experiments show that our model outperforms substantially larger baselines at less than one-tenth of their computational cost, while also demonstrating stronger out-of-domain motion reasoning and zero-shot synthetic-to-real generalization. We will publicly release the benchmark, codebase, and supporting tools to facilitate further research in privacy-aware classroom safety.",
@@ -590,28 +610,5 @@
     ],
     "ai_summary": "One-shot federated learning (OSFL) addresses the communication overhead of federated learning by limiting training to a single round, but doing so without sacrificing model quality is non-trivial, particularly when client data distributions diverge. Recent work has addressed this challenge by aggregating client knowledge on the server through the construction of transferable synthetic datasets or distillates.",
     "selected_date": "2026-07-09"
-  },
-  {
-    "id": "2607.06485v1",
-    "title": "AirflowAttack: Thermal-Airflow Adversarial Perturbations against Infrared Remote-Sensing Vision-Language Models",
-    "summary": "Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined. We present AirflowAttack, to our knowledge the first adversarial attack for IR remote-sensing VLMs and the first to weaponize thermal-airflow turbulence as the perturbation prior. A lightweight generator synthesizes a single input-agnostic perturbation regularized toward physically plausible airflow patterns. Optimized on one surrogate CLIP model, it attains a mean zero-shot scene-classification attack success rate (ASR, the fraction of samples whose top-1 class changes) of 48.5% across five diverse CLIP backbones, far exceeding four IR-specific physical baselines (27.7--37.0%). Applied to six state-of-the-art VLMs, it cuts scene-classification accuracy by up to 38.2% relative, yet paradoxically makes some models more confident in their IR analysis, confabulating the perturbation as genuine thermal evidence such as temperature gradients and convection. Ablations show the airflow prior raises physical plausibility at no measurable cost to attack success. Together with a benchmark spanning eleven models and four tasks, these findings expose critical vulnerabilities in the rapidly expanding IR VLM ecosystem.",
-    "published": "2026-07-07T16:46:46Z",
-    "link": "http://arxiv.org/abs/2607.06485v1",
-    "authors": [
-      "Cong Su",
-      "Jiaju Han",
-      "Xuemeng Sun",
-      "Chengyin Hu",
-      "Qike Zhang",
-      "Jiujiang Guo",
-      "Yiwei Wei",
-      "Jiahuan Long"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "ai_summary": "Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined. We present AirflowAttack, to our knowledge the first adversarial attack for IR remote-sensing VLMs and the first to weaponize thermal-airflow turbulence as the perturbation prior.",
-    "selected_date": "2026-07-08"
   }
 ]
