@@ -1,5 +1,29 @@
 [
   {
+    "id": "2608.06862v1",
+    "title": "SynChain: Inducing Computer-Use Agent Systems to Construct Their Own Attack Chains",
+    "summary": "Computer-use agents~(CUAs) have transformed large language models into persistent execution systems capable of generating, storing, and reusing artifacts like skills and memory entries. However, existing security defenses largely treat attacks as externally triggered or temporally bounded, leaving a critical gap in addressing how compromise can propagate internally through an agent's own persistent state. We reveal that malicious influence can be covertly embedded into the structural redundancies of autonomously synthesized artifacts, allowing it to survive internal state updates and bypass standard vetting mechanisms. To formalize this threat, we introduce SynChain, a self-synthesized attack paradigm utilizing persistence-aware directed supervised fine-tuning to induce agents to create poisoned yet benign-looking artifacts. To systematically evaluate this propagation, we construct CUAChain, a dataset comprising 30 benign task chains and three attack objectives. SynChain enables dormant payloads to seamlessly reactivate in future workflows as trusted context, operating entirely without new malicious exogenous inputs. Extensive experiments on OpenClaw, Codex, and Claude Code under four defense settings demonstrate that SynChain achieves high attack success and outperforms adapted baselines, proving that securing CUAs requires provenance-aware reasoning over cross-task execution trajectories.",
+    "published": "2026-08-07T06:39:51Z",
+    "link": "http://arxiv.org/abs/2608.06862v1",
+    "authors": [
+      "Fuyao Zhang",
+      "Jiaming Zhang",
+      "Che Wang",
+      "Boyang Chen",
+      "Yurong Hao",
+      "Xiongtao Sun",
+      "Guowei Guan",
+      "Blaise Delattre",
+      "Yang Cao",
+      "Wei Yang Bryan Lim"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Computer-use agents~(CUAs) have transformed large language models into persistent execution systems capable of generating, storing, and reusing artifacts like skills and memory entries. However, existing security defenses largely treat attacks as externally triggered or temporally bounded, leaving a critical gap in addressing how compromise can propagate internally through an agent's own persistent state.",
+    "selected_date": "2026-08-10"
+  },
+  {
     "id": "2608.05983v1",
     "title": "Universal Concept Disruption for SAM3 Image Segmentation",
     "summary": "SAM3 extends promptable segmentation from geometry-driven mask prediction to open-vocabulary concept segmentation, where a text-conditioned grounding model decides whether a concept is present and segments all matching instances. While this presence-gated design improves concept-level prediction, its adversarial robustness remains unexplored. In this paper, we introduce Universal Concept Disruption (UCD), the first universal cross-concept adversarial attack tailored to SAM3 image segmentation. UCD learns a single bounded image perturbation from (image, noun-phrase) pairs and attacks SAM3 as an integrated concept-grounding system. It jointly disrupts the text-conditioned input path, maximizes divergence in prompt-shared visual features, suppresses the final presence-gated concept scores, and corrupts the spatial validity of retained masks through area collapse and clean-mask Dice disruption. Across SACo-Gold, LVIS, RefCOCO, PhraseCut, and OpenImages datasets, UCD consistently outperforms all baselines under a matched evaluation protocol, reducing average mask AP from 59.43 to 18.73 and average cgF1 from 50.32 to 20.49. The learned perturbation also transfers to SAM3.1 and to SAM3 video inference without re-optimization, while prompt ensembling, lightweight head fine-tuning, and temporal filtering provide limited recovery.",
@@ -584,26 +608,5 @@
     ],
     "ai_summary": "Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory prediction, and visual question answering. However, evaluating whether these models can reliably reason about safety-critical incidents remains challenging.",
     "selected_date": "2026-07-12"
-  },
-  {
-    "id": "2607.08770v1",
-    "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
-    "summary": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autoregressive Unrolling and Adaptive Context Switching to mitigate temporal drift in extremely long sequences. We also propose Reencoding Alignment with Cross Residual Correction to ensure precise bidirectional consistency during frame interpolation. Furthermore, Event Voxel Density Augmentation ensures robustness across varying sensor resolutions. Extensive experiments on real-world benchmarks demonstrate that LongE2V outperforms state-of-the-art methods across all three tasks, exhibiting exceptional temporal coherence and zero-shot generalization. Project page: https://cdfan0627.github.io/LongE2V-page/",
-    "published": "2026-07-09T17:59:52Z",
-    "link": "http://arxiv.org/abs/2607.08770v1",
-    "authors": [
-      "Cheng-De Fan",
-      "Chun-Wei Tuan Mu",
-      "Chen-Wei Chang",
-      "Chin-Yang Lin",
-      "Kun-Ru Wu",
-      "Yu-Chee Tseng",
-      "Yu-Lun Liu"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability.",
-    "selected_date": "2026-07-11"
   }
 ]
