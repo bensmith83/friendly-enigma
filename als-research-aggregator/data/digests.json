@@ -1,5 +1,1234 @@
 [
   {
+    "date": "2026-08-16",
+    "week_of": "August 16, 2026",
+    "digest_number": 33,
+    "weekly_summary": "This week's ALS news includes a significant local development for New Jersey: a new ALS treatment clinic has opened in South Jersey with grant support, providing direct access to specialized care for patients and families in your region. This is an important resource to be aware of if you need local treatment options.\n\nOn the research and treatment development front, several biotech companies advancing neurodegenerative disease therapies reported progress. BrainStorm Cell Therapeutics and NeuroSense Therapeutics, both developing treatments for diseases like ALS, released financial updates and corporate developments indicating ongoing clinical progress. Additionally, recent scientific studies continue to deepen our understanding of cellular processes involved in neurodegenerative diseases, such as mitochondrial recycling and neuroinflammation.\n\nThe week also brought attention to the human side of ALS, including stories about young caregivers and healthcare disparities in specific populations, reminding us of the broader impact of the disease beyond medical treatment. For New Jersey families, the new local treatment clinic represents a tangible advancement in accessible care options.",
+    "highlights": [
+      {
+        "article": {
+          "title": "New ALS treatment clinic opens in South Jersey with grant - Press of Atlantic City",
+          "description": "New ALS treatment clinic opens in South Jersey with grant&nbsp;&nbsp;Press of Atlantic City",
+          "content": "",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVTA1QXJyamJTZ0NTcnZqLW54ZWZ4b2lvdkpmQ205MU8yZV94R3pCZGhPUS1yX3hNXzVCRnlMWVlFa0Qyb1dnVFpndjVtNFh4VmVZem1iV1d3bmR3UmEyQ2Z6VU4wNE1qOXVWM0FMTHhTeHJlbkRBOEkwSU9NTTlWTnIwMXdob2FYb1FRUHc3V045bFUwYUZZZ2RjWFVLWHFMNHZF?oc=5",
+          "source_name": "Google News (\"New Jersey\" ALS...)",
+          "source_type": "rss",
+          "published_at": "2026-08-14T11:44:00",
+          "author": "",
+          "image_url": "",
+          "is_local_nj": true,
+          "category_hint": null,
+          "article_id": "45da8c7ff0ae"
+        },
+        "why_important": "This is the most directly relevant article for New Jersey residents. A new dedicated ALS treatment clinic has opened in South Jersey with grant funding, providing local access to specialized care and treatments. This is a significant resource development for patients and families in the region."
+      },
+      {
+        "article": {
+          "title": "BrainStorm Cell Therapeutics Announces Second Quarter 2026 Financial Results and Provides Corporate Update",
+          "description": "NEW YORK, Aug. 14, 2026 /PRNewswire/ -- BrainStorm Cell Therapeutics Inc. (OTCQB: BCLI), a leading developer of adult stem cell therapeutics for neurodegenerative diseases, today announced financial results for the second quarter ended June 30, 2026, and prov\u2026",
+          "content": "NEW YORK, Aug. 14, 2026 /PRNewswire/ -- BrainStorm Cell Therapeutics Inc. (OTCQB: BCLI), a leading developer of adult stem cell therapeutics for neurodegenerative diseases, today announced financial \u2026 [+17635 chars]",
+          "url": "https://www.prnewswire.com/news-releases/brainstorm-cell-therapeutics-announces-second-quarter-2026-financial-results-and-provides-corporate-update-302852017.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T20:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1206976/BrainStorm-Logo.jpg?id=OA2887654&p=facebook",
+          "is_local_nj": false,
+          "article_id": "0bcf06d4d6dd"
+        },
+        "why_important": "BrainStorm Cell Therapeutics is actively advancing stem cell therapies for neurodegenerative diseases. As a clinical-stage company, their progress reports indicate movement toward potential ALS treatments, making their financial and development updates important for tracking treatment pipeline advances."
+      },
+      {
+        "article": {
+          "title": "NeuroSense Issues CEO Letter to Shareholders",
+          "description": "CAMBRIDGE, Mass., Aug. 13, 2026 /PRNewswire/ -- NeuroSense Therapeutics Ltd. (NASDAQ: NRSN) (\"NeuroSense\"), a late-stage clinical biotechnology company focused on developing disease-modifying treatments for neurodegenerative diseases, today releases a letter \u2026",
+          "content": "CAMBRIDGE, Mass., Aug. 13, 2026 /PRNewswire/ --\u00a0NeuroSense Therapeutics Ltd.\u00a0(NASDAQ: NRSN) (\"NeuroSense\"), a late-stage clinical biotechnology company focused on developing disease-modifying treatme\u2026 [+11303 chars]",
+          "url": "https://www.prnewswire.com/news-releases/neurosense-issues-ceo-letter-to-shareholders-302850917.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-08-13T13:30:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/1707291/NeuroSense_Therapeutics_Logo.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "95661f888999"
+        },
+        "why_important": "NeuroSense Therapeutics is a late-stage clinical biotechnology company developing disease-modifying treatments specifically for neurodegenerative diseases. CEO communications typically signal important clinical or strategic developments that could impact ALS treatment options."
+      },
+      {
+        "article": {
+          "title": "Love Island's\u00a0Simba Kudyiwa reveals he became a carer aged 10 for his disabled mum who can't speak - and he fell in love with nurse Angelista Gunda because of her empathy",
+          "description": "Simba, 25, appeared on Friday's Good Morning Britain where he revealed he became a carer after his mother was diagnosed with Motor Neurone Disease (MND/ALS).",
+          "content": "The NHS describes motor neurone disease (MND) as: 'An uncommon condition that affects the brain and nerves. It causes weakness that gets worse over time.'\r\nThe weakness is caused by the deterioration\u2026 [+2827 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16052295/Love-Island-Simba-Kudyiwa-care-disabled-mum-Angelista-Gunda-empathy.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T09:46:40Z",
+          "author": "Rebecca Lawrence",
+          "image_url": "https://i.dailymail.com/1s/2026/08/14/10/110635443-0-image-m-29_1786700744894.jpg",
+          "is_local_nj": false,
+          "article_id": "53864108e262"
+        },
+        "why_important": "This story highlights the often-overlooked impact of ALS on young caregivers. Simba Kudyiwa's experience as a child caregiver for his mother with MND/ALS brings attention to caregiver support and resources, which is crucial for families dealing with the disease."
+      },
+      {
+        "article": {
+          "title": "Gasping for air",
+          "description": "This story was co-published with the Chicago Reporter. Gary Sams could hardly breathe. He had begun experiencing early symptoms of rapidly progressing amyotrophic lateral sclerosis (ALS), a progressive and fatal neurological disease, in April 2024. By June 20\u2026",
+          "content": "This story was co-published with the Chicago Reporter.\r\nGary Sams could hardly breathe. He had begun experiencing early symptoms of rapidly progressing amyotrophic lateral sclerosis (ALS), a progress\u2026 [+15544 chars]",
+          "url": "https://chicagoreader.com/city-life/als-healthcare-prison/",
+          "source_name": "Chicago Reader",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T13:00:00Z",
+          "author": "Sara Cooper",
+          "image_url": "https://i0.wp.com/chicagoreader.com/wp-content/uploads/2026/08/DSC_0001-scaled.jpg?fit=2560%2C1707&ssl=1",
+          "is_local_nj": false,
+          "article_id": "c44c720a7922"
+        },
+        "why_important": "This investigative piece addresses the healthcare challenges faced by ALS patients in prison settings, an underrepresented population. Understanding these disparities in care access is important for advocacy and identifying systemic gaps in ALS patient support."
+      }
+    ],
+    "categories": {
+      "research": [
+        {
+          "title": "Regulation and roles of mammalian mitophagy",
+          "description": "Mitophagy contributes to cellular homeostasis through the recycling of damaged mitochondria and precise control of mitochondrial numbers. In this Review, Martens and Ganley summarize the molecular mechanisms involved in mitophagy pathways, mitophagy regulatio\u2026",
+          "content": "<li>Suomalainen, A. &amp; Nunnari, J. Mitochondria at the crossroads of health and disease. Cell187, 26012627 (2024).\r\nArticle\u00a0\r\n CAS\u00a0\r\n PubMed\u00a0\r\nGoogle Scholar\u00a0\r\n</li><li>Bock, F. J. &amp; Tait, S. \u2026 [+55664 chars]",
+          "url": "https://www.nature.com/articles/s41580-026-01012-9",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T00:00:00Z",
+          "author": "Sascha Martens, Ian G. Ganley",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41580-026-01012-9/MediaObjects/41580_2026_1012_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "6303b03afd91",
+          "summary": "A Nature review article by Martens and Ganley examines the molecular mechanisms of mitophagy, the cellular process of recycling damaged mitochondria. This research is relevant to understanding cellular processes that may be dysfunctional in neurodegenerative diseases like ALS.",
+          "importance": 3,
+          "key_entities": [
+            "mitophagy",
+            "mitochondrial recycling",
+            "cellular homeostasis"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Your Astrocytes Have Their Own Birthday, and for Some People It Decides Whether APOE4 Becomes Alzheimer's",
+          "description": "A Stanford-led study built aging clocks for 40+ cell types from blood. Youthful astrocytes tracked with far lower Alzheimer's risk.",
+          "content": "Your driver's license records one age. A machine learning model trained on more than 7,000 blood proteins can now estimate more than 40 others, one for each cell type it can detect, and they do not a\u2026 [+6606 chars]",
+          "url": "https://www.medicaldaily.com/cell-type-aging-clocks-astrocytes-apoe4-477184",
+          "source_name": "Medical Daily",
+          "source_type": "newsapi",
+          "published_at": "2026-08-12T03:06:04Z",
+          "author": "Amelia Palmer",
+          "image_url": "https://d.medicaldaily.com/en/full/484358/surprised-patient-reacts-researchers-examine-his-blood.png",
+          "is_local_nj": false,
+          "article_id": "bd14d9b8efed",
+          "summary": "A Stanford-led study developed aging clocks for 40+ cell types and found that youthful astrocytes correlate with lower Alzheimer's disease risk, advancing understanding of cellular aging in neurodegenerative diseases.",
+          "importance": 3,
+          "key_entities": [
+            "Stanford",
+            "astrocytes",
+            "Alzheimer's disease",
+            "cellular aging"
+          ],
+          "related_previous": [
+            {
+              "title": "AI Gives People Back Their Own Voice: Chen Institute and Science Prize Honors Neuroscientist Sergey Stavisky",
+              "url": "https://www.prnewswire.com/news-releases/ai-gives-people-back-their-own-voice-chen-institute-and-science-prize-honors-neuroscientist-sergey-stavisky-302827712.html",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "Plasticity of human microglia and brain perivascular macrophages in aging and Alzheimer\u2019s disease",
+          "description": "Molecular profiling of myeloid cells from the prefrontal cortex of 1,607 donors with varying degrees of Alzheimer\u2019s disease neuropathology delineates distinct myeloid subtypes and identifies changes associated with aging and disease progression.",
+          "content": "<li>Long, J. M. &amp; Holtzman, D. M. Alzheimer disease: an update on pathobiology and treatment strategies. Cell179, 312339 (2019).\r\nArticle\u00a0\r\n CAS\u00a0\r\n PubMed\u00a0\r\n PubMed Central\u00a0\r\nGoogle Scholar\u00a0\r\n</l\u2026 [+21323 chars]",
+          "url": "https://www.nature.com/articles/s41588-026-02716-6",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-11T00:00:00Z",
+          "author": "Donghoon Lee, James M. Vicari, Christian Porras, Collin Spencer, Milos Pjanic, Xinyi Wang, Seon Kinrot, Philipp Weiler, Roman Kosoy, Jaroslav Bendl, Prashant N M, Konstantina Psychogyiou, Periklis Malakates, Evelyn Hennigan, Jennifer Monteiro Fortes, Shiwei Zheng, Karen Therrien, Deepika Mathur, Steven P. Kleopoulos, Zhiping Shao, Stathis Argyriou, Marcela Alvia, Clara Casey, Aram Hong, Kristin G. Beaumont, Robert Sebra, Christopher P. Kellner, David A. Bennett, Guo-Cheng Yuan, Georgios Voloudakis, Fabian J. Theis, Vahram Haroutunian, Gabriel E. Hoffman, John F. Fullard, Panos Roussos",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41588-026-02716-6/MediaObjects/41588_2026_2716_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "cad6080ced66",
+          "summary": "A Nature study profiled myeloid cells from 1,607 donors to identify distinct cell subtypes and changes associated with aging and Alzheimer's disease progression, relevant to understanding neuroinflammation in neurodegenerative diseases.",
+          "importance": 3,
+          "key_entities": [
+            "microglia",
+            "Alzheimer's disease",
+            "neuroinflammation",
+            "cell profiling"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "ProMIS Neurosciences Announces Second Quarter 2026 Financial Results and Provides Corporate Highlights",
+          "description": "Announced positive blinded six-month interim safety and biomarker results from PRECISE-AD, the Company\u2019s Phase 1b trial of PMN310 in patients with early Alzheimer\u2019s disease (AD), including zero cases of amyloid-related imaging abnormalities-edema (ARIA-E) acr\u2026",
+          "content": "<ul><li>Cash Position: As of June 30, 2026, the Companys cash and short-term investments were $53.4 million, compared to $6.1 million as of December 31, 2025. The increase primarily reflects $70.1 mi\u2026 [+6674 chars]",
+          "url": "https://financialpost.com/globe-newswire/promis-neurosciences-announces-second-quarter-2026-financial-results-and-provides-corporate-highlights",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-08-13T20:01:13Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "d32a572925fc",
+          "summary": "ProMIS Neurosciences announced Q2 2026 financial results and positive interim safety results from their Phase 1b trial of PMN310 for Alzheimer's disease, with findings of zero ARIA-E cases relevant to neurodegenerative disease research.",
+          "importance": 2,
+          "key_entities": [
+            "ProMIS Neurosciences",
+            "PMN310",
+            "Alzheimer's disease",
+            "Phase 1b trial"
+          ],
+          "related_previous": [
+            {
+              "title": "Refined Energy Announces Final Results for Winter 2026 Drill Program at Dufferin West",
+              "url": "https://www.globenewswire.com/news-release/2026/07/03/3321983/0/en/Refined-Energy-Announces-Final-Results-for-Winter-2026-Drill-Program-at-Dufferin-West.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "BrainStorm Cell Therapeutics Announces First Quarter 2026 Financial Results and Provides Corporate Update",
+              "url": "https://www.prnewswire.com/news-releases/brainstorm-cell-therapeutics-announces-first-quarter-2026-financial-results-and-provides-corporate-update-302773613.html",
+              "digest_date": "2026-05-17"
+            },
+            {
+              "title": "ORYZON Reports Financial Results and Corporate Update for Quarter Ended March 31st, 2026",
+              "url": "https://www.globenewswire.com/news-release/2026/05/14/3295170/0/en/ORYZON-Reports-Financial-Results-and-Corporate-Update-for-Quarter-Ended-March-31st-2026.html",
+              "digest_date": "2026-05-17"
+            }
+          ]
+        },
+        {
+          "title": "Oren Nahari, veteran journalist who brought the world to Israeli audiences, dies at 70",
+          "description": "Nahari, who reported on some of the world's defining events from the late 1980s onward, died of ALS. In his final interview, he warned of processes underway in Israel: 'Relying on God as a work plan has not proven itself throughout history'",
+          "content": "Nahari, who reported on some of the world's defining events from the late 1980s onward, died of ALS. In his final interview, he warned of processes underway in Israel: 'Relying on God as a work plan \u2026 [+40 chars]",
+          "url": "https://www.haaretz.com/israel-news/2026-08-13/ty-article/.premium/oren-nahari-veteran-journalist-who-brought-the-world-to-israel-dies-at-70/0000019f-f9e2-de80-ab9f-fbeb3dd70000",
+          "source_name": "Haaretz",
+          "source_type": "newsapi",
+          "published_at": "2026-08-13T07:03:25Z",
+          "author": "Ido David Cohen",
+          "image_url": "https://img.haarets.co.il/bs/0000019f-f9e2-de80-ab9f-fbeb3dd70000/2b/f0/fc9ac0e7ff15b8ac79f9cf71adff/992717835.jpg?precrop=2200,1279,x0,y93&width=1200&height=630&cmsprod",
+          "is_local_nj": false,
+          "article_id": "7c899130732c",
+          "summary": "Israeli veteran journalist Oren Nahari, who reported on major world events since the late 1980s, died of ALS at age 70. In his final interview, he discussed societal concerns, highlighting the impact of ALS on public figures and awareness.",
+          "importance": 2,
+          "key_entities": [
+            "Oren Nahari",
+            "ALS death",
+            "journalist",
+            "disease awareness"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "A Day in May review: A celebration of a joyful referendum with a bitter aftertaste",
+          "description": "Television: A poignant look back at the 2015 marriage equality referendum \u2013 and a heartfelt homage to journalist-turned-LGBTQ rights campaigner Charlie Bird",
+          "content": "Colin Murphys A Day in May (RT\u00c9 One, Wednesday, 9.35pm) is a thoughtful and poignant look back at the 2015 marriage equality referendum and a heartfelt homage to journalist-turned-LGBTQ rights campai\u2026 [+3275 chars]",
+          "url": "https://www.irishtimes.com/culture/tv-radio/2026/08/12/a-day-in-may-review-a-celebration-of-a-joyful-referendum-with-a-bitter-aftertaste/",
+          "source_name": "The Irish Times",
+          "source_type": "newsapi",
+          "published_at": "2026-08-12T16:30:00Z",
+          "author": "Ed Power",
+          "image_url": "https://www.irishtimes.com/resizer/v2/MZF3WPZQFVOTNGJMOBOAY2CMYE.jpg?smart=true&auth=0e754455053fbfc7f7fc20eb7195601ea39123ecaaed49e1d1ce5e11ba68e214&width=1200&height=630",
+          "is_local_nj": false,
+          "article_id": "862a790afc1d",
+          "summary": "Article about Irish television review featuring journalist Charlie Bird. While Bird is known to be an ALS advocate, this article reviews a documentary about a 2015 referendum, not specifically about ALS.",
+          "importance": 2,
+          "key_entities": [
+            "Charlie Bird",
+            "ALS awareness"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Would you trust your boss with data about your brain? California moves to regulate neurotech",
+          "description": "Brain sensors are advancing, and California companies, lawmakers and unions are jockeying to shape how the resulting data can be used.",
+          "content": "This story was originally published by CalMatters. Sign up for their newsletters.\r\nBrain sensors and implants are giving people the ability to control computers, robots and wheelchairs without moving\u2026 [+12375 chars]",
+          "url": "https://www.kpbs.org/news/science-technology/2026/08/10/would-you-trust-your-boss-with-data-about-your-brain-california-moves-to-regulate-neurotech",
+          "source_name": "KPBS",
+          "source_type": "newsapi",
+          "published_at": "2026-08-11T01:12:16Z",
+          "author": "Khari Johnson",
+          "image_url": "https://cdn.kpbs.org/dims4/default/90c887f/2147483647/strip/true/crop/2000x1050+0+142/resize/1200x630!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F54%2F1a%2Ff4e057e74383b3d57a1e3c47a3db%2Fneural-data-privacy-ah-cm-01.webp",
+          "is_local_nj": false,
+          "article_id": "00c118438856",
+          "summary": "Article about California neurotech regulation. While related to brain technology, not specifically about ALS.",
+          "importance": 2,
+          "key_entities": [
+            "neurotech",
+            "brain data privacy"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "PC Games 09/26: Mit Coverstory zu Total War: Warhammer 40k, Preview zu Dawn of War 4 u. v. m.",
+          "description": "Die PC Games 09/26 ist da! Mit Coverstory zu Total War: Warhammer 40k, Previews zu Dawn of War 4, Alien: Isolation 2, The Blood of Dawnwalker, Tests zu AC: Black Flag Resynced, Palworld, Corsair Cove u. v. m.",
+          "content": "Warhammer-Fans haben es aktuell richtig gut mit Rogue Trader wird aktuell ein richtig gutes RPG weiterversorgt, k\u00fcrzlich gabs einen ganzen Schwung Retro-Releases \u00fcber Steam, f\u00fcr Tabletop-Spieler ging\u2026 [+4624 chars]",
+          "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/Ausgabe-09-26-Total-War-Warhammer-40k-1551234/",
+          "source_name": "PC Games",
+          "source_type": "newsapi",
+          "published_at": "2026-08-15T07:00:00Z",
+          "author": "Sascha Lohm\u00fcller",
+          "image_url": "https://www.pcgames.de/screenshots/original/2026/08/PCG_0926_Cover_Promo_layer_1920x1080-pc-games_artwork.jpg",
+          "is_local_nj": false,
+          "article_id": "f5ac42947265",
+          "summary": "Article about PC Games magazine issue covering video games. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "PC Games 08/26: Mit Coverstory zu Gothic Remake, Test zur Steam Machine, Preview zu Final Fantasy 7: Revelation u. v. m.",
+              "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/Gothic-Remake-Steam-Machine-Test-Final-Fantasy-7-Revelation-1547643/",
+              "digest_date": "2026-07-12"
+            },
+            {
+              "title": "PC Games 07/26: Mit Coverstory zu Assassin's Creed: Black Flag Resynced, Preview zu The Witcher 3: Songs of the Past u. v. m.",
+              "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/07-26-Assassins-Creed-Black-Flag-Resynced-1545210/",
+              "digest_date": "2026-06-14"
+            }
+          ]
+        },
+        {
+          "title": "FDA\u2019s quiet retreat: The chlorine dioxide warning pages have vanished",
+          "description": "The FDA quietly deleted its warning pages on chlorine dioxide, effectively admitting its prior safety claims were part of a deceptive campaign to protect Big Pharma profits, and now critics can no longer cite the agency as an authority against this molecule. \u2026",
+          "content": "<ul><li>The FDA quietly deleted its warning pages on chlorine dioxide, effectively admitting its prior safety claims were part of a deceptive campaign to protect Big Pharma profits, and now critics c\u2026 [+6490 chars]",
+          "url": "https://www.naturalnews.com/2026-08-15-fda-retreat-chlorine-dioxide-warning-pages-vanished.html",
+          "source_name": "Naturalnews.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-15T06:00:00Z",
+          "author": "Patrick Lewis",
+          "image_url": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/08/FDA.png",
+          "is_local_nj": false,
+          "article_id": "9675d908dffa",
+          "summary": "Article about FDA chlorine dioxide warnings. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Indian govt says buyers must lift sugar within 7 days, seeks bulk sales data by Aug 20",
+          "description": "Certain mills are holding stocks of sugar in excess of the quantities reported or selling less sugar than the allocated monthly quota, Food Ministry says in a new order aimed at tackling surge in prices",
+          "content": "The Indian government on Friday asked sugar mills to ensure that buyers lift stocks within seven days after sales/ It said a new Order, issued by the Food Ministry, with immediate effect will be vali\u2026 [+4908 chars]",
+          "url": "https://www.thehindubusinessline.com/economy/agri-business/indian-govt-says-buyers-must-lift-sugar-within-7-days-seeks-bulk-sales-data-by-aug-20/article71345945.ece",
+          "source_name": "BusinessLine",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T16:18:11Z",
+          "author": "Prabhudatta  Mishra",
+          "image_url": "https://bl-i.thgim.com/public/incoming/6pa4mh/article71346912.ece/alternates/LANDSCAPE_1200/Indian-govt-shoGKRGD0C5S.4.jpg.jpg",
+          "is_local_nj": false,
+          "article_id": "ea6c2f2485b2",
+          "summary": "Article about Indian sugar market regulations. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Simoncic mit starkem WM-Deb\u00fct im GP Special",
+          "description": null,
+          "content": "Felicita Simoncic hat am Freitag in Aachen ein gutes WM-Deb\u00fct im Grand Prix Special der Dressur gegeben. Die erst 21-j\u00e4hrige Wienerin zeigte als Er\u00f6ffnungsreiterin und J\u00fcngste im Top-30-Feld mit Four\u2026 [+663 chars]",
+          "url": "https://sport.orf.at/stories/3161297/",
+          "source_name": "Sport.orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T16:05:50Z",
+          "author": "ORF.at",
+          "image_url": "https://sport.orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-sport.png",
+          "is_local_nj": false,
+          "article_id": "a2c767b66b96",
+          "summary": "Article about equestrian sports competition. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "25 Jahre \u201eThe Fast and the Furious\u201c",
+          "description": "Verlosung\n\n \n\n \n \n\n\n\r\n\n \n Universal Pictures International Germany\r\n\n \n The Fast and the Furious (2001) von Rob Cohen\r\n\n \n \n\n\n\nDas Original zur\u00fcck im Kino",
+          "content": "F\u00fcr die Familie! Schon lange warten wir gespannt auf den elften und wom\u00f6glich letzten Film der Blockbusterreihe Fast &amp; Furious. Inzwischen gibt es endlich einen Starttermin im Jahr 2028. Das ist \u2026 [+689 chars]",
+          "url": "https://www.kino-zeit.de/verlosungen/25-jahre-the-fast-and-the-furious",
+          "source_name": "Kino-zeit.de",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T10:00:00Z",
+          "author": "Mathis Raabe",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "1ecfe97df1f9",
+          "summary": "Article about movie theater promotion for Fast and the Furious. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Record-breaking climber Jake Whisenant's grieving fiancee says 'world has cruelly betrayed her' after his tragic death as she breaks silence on 'cataclysmic loss'",
+          "description": "The 30-year-old Whisenant, famed for scaling Yosemite's iconic El Capitan in record time, died on August 3 during an accident in the Sierra Nevada in the western United States.",
+          "content": "The heartbroken fiancee of record-breaking climber\u00a0Jake Whisenant has broken her silence on the death of the 'love of her life' in an emotional tribute.\u00a0\r\nThe 30-year-old Whisenant, famed for scaling\u2026 [+6633 chars]",
+          "url": "https://www.dailymail.com/sport/othersports/article-16051767/jake-whisenant-fiancee-death-sierra-nevada.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T04:33:11Z",
+          "author": "Isabel Baldwin",
+          "image_url": "https://i.dailymail.com/1s/2026/08/14/05/110630481-0-image-m-20_1786681869698.jpg",
+          "is_local_nj": false,
+          "article_id": "c2ecca0d43d1",
+          "summary": "Article about a mountain climber's death in an accident. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "watchOS 27 nimmt der Digital Crown ihren Doppelklick",
+          "description": "Previously, a double press of the Digital Crown would surface your currently open apps, allowing you to switch between them or close them. Now, a double press does the same thing as a single press: opening the new dynamic app grid. I used the App Switcher inf\u2026",
+          "content": "Previously, a double press of the Digital Crown would surface your currently open apps, allowing you to switch between them or close them. Now, a double press does the same thing as a single press: o\u2026 [+1001 chars]",
+          "url": "https://www.iphoneblog.de/2026/08/13/watchos-27-nimmt-der-digital-crown-ihren-doppelklick/",
+          "source_name": "Iphoneblog.de",
+          "source_type": "newsapi",
+          "published_at": "2026-08-13T18:17:00Z",
+          "author": "Alex Olma",
+          "image_url": "https://www.iphoneblog.de/wp-content/uploads/2026/08/image-13.8.2026-21.08.png",
+          "is_local_nj": false,
+          "article_id": "0e49a3cb15d2",
+          "summary": "Article about Apple watchOS 27 software update. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Record-breaking Yosemite climber\u2019s fianc\u00e9e pens truly heartbreaking obituary after he fell to his death off mountain",
+          "description": "The grieving fianc\u00e9e of a famed Yosemite speed climber wrote a heart-wrenching obituary after his death earlier this month.",
+          "content": "The grieving fianc\u00e9e of a famed Yosemite speed climber wrote a heart-wrenching obituary after his death earlier this month.\r\nEmma London, who was engaged 30-year-old climber Jake Whisenant, penned a \u2026 [+3875 chars]",
+          "url": "https://nypost.com/2026/08/13/us-news/fiancee-pens-obit-for-yosemite-mountain-climber-who-fell-to-his-death/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-08-13T14:48:50Z",
+          "author": "Ross O'Keefe",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/08/137287893.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "b462f9b50d80",
+          "summary": "Article about mountain climber's obituary. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "DTM calendar 2027 announced: No internationalization for now, clashes with WEC",
+          "description": "The DTM has presented the calendar for the 2027 season: how Formula 1's exit from Zandvoort will have an impact and which clashes there are with other series",
+          "content": "The DTM has officially presented its calendar for the 2027 season - and it does so without a ninth race weekend on international soil, with which series organizer ADAC had actually wanted to expand t\u2026 [+4870 chars]",
+          "url": "https://www.motorsport.com/dtm/news/2027-dtm-calendar-official-no-internationalization-for-now-wec-clashes/10846128/",
+          "source_name": "Motorsport.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-13T12:28:02Z",
+          "author": "Sven Haidinger",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/0f2c530718380dd949576a14d8856de474f10d7bba0111d7a256c6adc4f0cbe8/lightyear_networkapi/resizefill_w800_h533%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotorsport_articles_445%2F9cdd5371004062c66c64bb219421a5a6.jpg",
+          "is_local_nj": false,
+          "article_id": "4066390200cb",
+          "summary": "Article about racing season calendar. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sarah Trott Reintroduces Herself Beyond Reality TV with \"From Here to Where\"",
+          "description": "PHOENIX, Aug. 12, 2026 /PRNewswire/ -- Former broadcast journalist and The Bachelor alum Sarah Trott is stepping into her next chapter as a travel host with From Here to Where, a weekly YouTube series offering rare access to the world's most extraordinary exp\u2026",
+          "content": "PHOENIX, Aug. 12, 2026 /PRNewswire/ -- Former broadcast journalist and The Bachelor alum Sarah Trott is stepping into her next chapter as a travel host with From Here to Where, a weekly YouTube serie\u2026 [+2184 chars]",
+          "url": "https://www.prnewswire.com/news-releases/sarah-trott-reintroduces-herself-beyond-reality-tv-with-from-here-to-where-302850093.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-08-12T19:51:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "924db7cab662",
+          "summary": "Article about travel show host rebranding. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "American: Los Angeles \u2013 Charleston, South Carolina (and vice versa). $204 (Basic Economy) / $374 (Regular Economy). Roundtrip, including all Taxes",
+          "description": "A good sale to / from Charleston. Pricing will vary slightly depending on routing.The $374 fare is the regular fare which allows advance seat assignments and a normal size carry-onAmerican als",
+          "content": "A good sale to / from Charleston. Pricing will vary slightly depending on routing.\r\nThe $374 fare is the regular fare which allows advance seat assignments and a normal size carry-on\r\nAmerican also h\u2026 [+4602 chars]",
+          "url": "https://www.theflightdeal.com/2026/08/12/american-los-angeles-charleston-south-carolina-and-vice-versa-204-basic-economy-374-regular-economy-roundtrip-including-all-taxes/",
+          "source_name": "Theflightdeal.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-12T18:28:00Z",
+          "author": "The Flight Deal",
+          "image_url": "https://www.theflightdeal.com/wp-content/uploads/2014/08/charleston_south_carolina_rainbow_row-640x390.jpg",
+          "is_local_nj": false,
+          "article_id": "4c224247f059",
+          "summary": "Article about airline ticket promotions. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "American: Los Angeles \u2013 Charleston, South Carolina (and vice versa). $198 (Basic Economy) / $308 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/07/09/american-los-angeles-charleston-south-carolina-and-vice-versa-198-basic-economy-308-regular-economy-roundtrip-including-all-taxes-2/",
+              "digest_date": "2026-07-12"
+            },
+            {
+              "title": "American: Los Angeles \u2013 Charleston, South Carolina (and vice versa). $198 (Basic Economy) / $308 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/06/10/american-los-angeles-charleston-south-carolina-and-vice-versa-198-basic-economy-308-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-06-14"
+            },
+            {
+              "title": "jetBlue: San Francisco \u2013 Boston (and vice versa). $245 (Basic Economy) / $355 (Regular Economy). Roundtrip, including all Taxes",
+              "url": "https://www.theflightdeal.com/2026/06/10/jetblue-san-francisco-boston-and-vice-versa-245-basic-economy-355-regular-economy-roundtrip-including-all-taxes/",
+              "digest_date": "2026-06-14"
+            }
+          ]
+        },
+        {
+          "title": "12. August: World Elephant Day",
+          "description": null,
+          "content": "Heute ist \u00fcbrigens der World Elephant Day. Als Spezies sind uns Menschen die Elefanten zwar nicht besonders verwandt, doch zeigen Elefanten viele Eigenschaften, die wir Menschen von uns selbst kennen\u2026 [+701 chars]",
+          "url": "https://www.shopblogger.de/blog/archives/31087-12.-August-World-Elephant-Day.html",
+          "source_name": "Shopblogger.de",
+          "source_type": "newsapi",
+          "published_at": "2026-08-12T15:00:00Z",
+          "author": "nospam@example.com (Bj\u00f6rn Harste)",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "5a05b93c62ea",
+          "summary": "Article about World Elephant Day. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Florida\u2019s youngest mayor accused of assaulting a female veteran with campaign sign",
+          "description": "Depew has previously been accused of underage drinking and using the N-word while rapping along to songs.",
+          "content": "Floridas youngest mayor has been accused of assaulting one of his rival supporters with a campaign sign \u2014 an allegation he is dismissing as \u201ctotally unfounded political\u201d mud-slinging.\r\nEdgewater mayo\u2026 [+3083 chars]",
+          "url": "https://nypost.com/2026/08/12/us-news/floridas-youngest-mayor-diezel-depew-accused-of-assaulting-rival-with-campaign-sign/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-08-12T14:37:00Z",
+          "author": "Chris Bradford",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/08/137161798.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "6e81c583225c",
+          "summary": "Article about Florida political incident. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Alexandria Ocasio-Cortez split from her longtime fiance & decided to freeze her eggs",
+          "description": "A few days ago, Rep. Alexandria Ocasio-Cortez announced that she was starting the process of freezing her eggs. AOC is 36 years old, and there has been a lot of commentary about all of it. Commentary about \u201cwhy did she wait until now to freeze her eggs\u201d and \u201c\u2026",
+          "content": "A few days ago, Rep. Alexandria Ocasio-Cortez announced that she was starting the process of freezing her eggs. AOC is 36 years old, and there has been a lot of commentary about all of it. Commentary\u2026 [+4716 chars]",
+          "url": "https://www.celebitchy.com/991149/alexandria_ocasio-cortez_split_from_her_longtime_fiance_decided_to_freeze_her_eggs/",
+          "source_name": "Celebitchy.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-12T11:45:36Z",
+          "author": "Kaiser",
+          "image_url": "https://www.celebitchy.com/wp-content/uploads/2026/08/aa-avalon-1075436099.jpg",
+          "is_local_nj": false,
+          "article_id": "6f57987eca4f",
+          "summary": "Article about politician's personal life decisions. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Iriga: 18 PDLs complete basic education through ALS in Legazpi Jail",
+          "description": "Eighteen persons deprived of liberty (PDLs) at the Legazpi City Jail completed basic education through the Department of Education\u2019s (DepEd) Alternative Learning System (ALS) during the facility\u2019s 4th ALS Graduation and Completion Rites on Thursday, Aug. 6. T\u2026",
+          "content": "Eighteen persons deprived of liberty (PDLs) at the Legazpi City Jail completed basic education through the Department of Educations (DepEd) Alternative Learning System (ALS) during the facilitys 4th \u2026 [+1908 chars]",
+          "url": "https://rpnradio.com/iriga-18-pdls-complete-basic-education-through-als-in-legazpi-jail/",
+          "source_name": "Rpnradio.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-12T08:17:50Z",
+          "author": "RPN News",
+          "image_url": "https://rpnradio.com/wp-content/uploads/2026/08/AUG-12-2026-NEWS-1.jpg",
+          "is_local_nj": false,
+          "article_id": "fc9591ec1f93",
+          "summary": "Article about prison education program using 'ALS' (Alternative Learning System), which is an educational acronym unrelated to amyotrophic lateral sclerosis.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Cascading continental-scale floods across Europe in 1342\u20131343",
+          "description": "Tracing cascading continental-scale medieval megafloods across Europe indicates that current flood management is unprepared for such sequences, highlighting the urgent need for proactive flood risk management strategies that account for unusual series of extr\u2026",
+          "content": "<li>Bertola, M. et al. Megafloods in Europe can be anticipated from observations in hydrologically similar catchments. Nat. Geosci.16, 982988 (2023).\r\nArticle\u00a0\r\n ADS\u00a0\r\n CAS\u00a0\r\nGoogle Scholar\u00a0\r\n</li><l\u2026 [+70582 chars]",
+          "url": "https://www.nature.com/articles/s41586-026-10888-8",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-12T00:00:00Z",
+          "author": "Andrea Kiss, Alberto Viglione, Mariano Barriendos, Silvia Enzi, Martin Bauch, Kris Decker, Nicolas Maughan, Dag Rets\u00f6, Astrid Ogilvie, Miriam Bertola, Tim Soens, Libor Elleder, Rudolf Br\u00e1zdil, Kathleen Pribyl, Juraj Parajka, Ioannis Telelis, In\u00eas Amorim, Josep Barriendos, Oliver B\u00f6hm, Gerardo Benito, Chiara Bertolin, Dario Camuffo, Denis Coeur, Gaston Demar\u00e9e, Radoslaw Doktor, Markus Dotterweich, R\u00fcdiger Glaser, J\u00fcrgen Komma, Neil Macdonald, Hrvoje Petri\u0107, Christian Rohr, Petra Schmocker-Fackel, Lothar Schulte, Willem H. J. Toonen, Oliver Wetter, G\u00fcnter Bl\u00f6schl",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-10888-8/MediaObjects/41586_2026_10888_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "1abf40510dad",
+          "summary": "Article about historical flood patterns in Europe. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "De BIP-110 fork van Bitcoin loopt 300 blokken achter op BTC en ligt zes jaar verwijderd van zelfherstel",
+          "description": "The breakaway chain has produced two blocks since splitting off on Saturday. Bitcoin has produced more than 300 in the same stretch.",
+          "content": "Het kan het mijnproces ook niet eenvoudiger maken zonder eerst 2.016 blokken te voltooien op het huidige tempo. Een live monitor schat nu dat de aanpassing over 6,3 jaar plaatsvindt, tegenover 350 da\u2026 [+1291 chars]",
+          "url": "https://www.coindesk.com/nl/tech/2026/08/11/bitcoin-s-bip-110-fork-is-300-blocks-behind-btc-and-six-years-from-fixing-itself",
+          "source_name": "CoinDesk",
+          "source_type": "newsapi",
+          "published_at": "2026-08-11T22:13:18Z",
+          "author": "Shaurya Malwa",
+          "image_url": "https://cdn.sanity.io/images/s3y3vcno/production/ed1f70c8a29fed6e347f5464e05c5fef6c0c998b-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+          "is_local_nj": false,
+          "article_id": "3538ad0a5850",
+          "summary": "Article about Bitcoin cryptocurrency fork. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Anti-Social Media",
+          "description": "[prompt: create a viral hero image that shows what I mean. Or, don\u2019t] Currently I am on a half diet of social media as I am still locked out of X and by now I really don\u2019t mind any more. Social media is dead and has been weaponised into a distraction, propaga\u2026",
+          "content": "[prompt: create a viral hero image that shows what I mean. Or, don\u2019t]\r\nCurrently I am on a half diet of social media as I am still locked out of X and by now I really don\u2019t mind any more. Social medi\u2026 [+6620 chars]",
+          "url": "https://christianheilmann.com/2026/08/11/anti-social-media/",
+          "source_name": "Christianheilmann.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-11T18:10:43Z",
+          "author": "Chris Heilmann",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "3aacbb808e5e",
+          "summary": "Article about social media commentary. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Googling a headache rarely settles anything \u2014 a Microsoft study found it escalates common symptoms into fear of rare diseases, and of the quarter of searchers it pushed into a doctor\u2019s appointment, most turned out not to need one",
+          "description": "The algorithm knows your symptom is probably nothing\u2014but it's going to convince you otherwise anyway.\nThe post Googling a headache rarely settles anything \u2014 a Microsoft study found it escalates common symptoms into fear of rare diseases, and of the quarter of\u2026",
+          "content": "Search for a headache for long enough and the results start to mention brain tumours. Search for a persistent cough and lung cancer turns up somewhere on the first page. The pattern shows up on every\u2026 [+6547 chars]",
+          "url": "https://spacedaily.com/n-googling-a-headache-doesnt-calm-most-people-down-a-microsoft-study-found-it-escalates-common-symptoms-into-fear-of-rare-diseases/",
+          "source_name": "Space Daily",
+          "source_type": "newsapi",
+          "published_at": "2026-08-11T18:00:47Z",
+          "author": "Human Element",
+          "image_url": "https://spacedaily.com/wp-content/uploads/2026/08/Googling-a-headache-.png",
+          "is_local_nj": false,
+          "article_id": "2ca073e3331b",
+          "summary": "Article about health anxiety from online symptom searches. While tangentially related to health information seeking, not specifically about ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "A brain-computer interface has, for the first time, restored fluent everyday speech to a person who had lost it \u2014 a man with ALS who had not spoken aloud in years until a small implant from the BrainGate clinical trial began translating his attempts to speak directly into computer-synthesised words, in a result researchers reported in June 2026",
+              "url": "https://spacedaily.com/d-a-brain-computer-interface-has-for-the-first-time-restored-fluent-everyday-speech-to-a-person-who-had-lost-it-a-man-with-als-who-had-not-spoken-aloud-in-years-until-a-small-implant-from-th/",
+              "digest_date": "2026-06-21"
+            }
+          ]
+        },
+        {
+          "title": "lightfall 0.2.1",
+          "description": "Lightfall - control system for the ALS facility",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/lightfall/0.2.1/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-08-11T16:28:18Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "26dcb1957440",
+          "summary": "Article about software package 'lightfall' - a control system for 'ALS facility' (Advanced Light Source, a physics research facility). Not relevant to amyotrophic lateral sclerosis.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Short-term risk of falls among initiators of controlled-release tapentadol versus oxycodone in New South Wales between 2014 and 2020: A population-based retrospective cohort study",
+          "description": "In a population-based retrospective cohort study, Ximena Camacho and colleagues investigate the short-term risk of falls resulting in emergency department presentations, hospital admissions, or death, following initiation of tapentadol compared to initiation \u2026",
+          "content": "Abstract\r\nBackground\r\nClinical trials comparing sustained-release (SR) tapentadol with controlled-release (CR) oxycodone have suggested that tapentadol (SR) may be associated with fewer nervous syste\u2026 [+52014 chars]",
+          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004950",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-08-11T14:00:00Z",
+          "author": "Ximena Camacho, Andrea L. Schaffer, Jonathan Brett, Ria Hopkins, Natasa Gisev, Steven Marsh, Kristian B. Filion, Nicole Pratt, David Henry, Sallie-Anne Pearson",
+          "image_url": "https://journals.plos.org/plosmedicine/article/figure/image?id=10.1371/journal.pmed.1004950.g001&size=inline",
+          "is_local_nj": false,
+          "article_id": "fe791b314f44",
+          "summary": "Article about pain medication safety and fall risk in New South Wales. Not specifically about ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Drilling Begins at One of the Largest Undeveloped Palladium-Gold-Platinum Deposits",
+          "description": "Issued on behalf of Greenland Mines Ltd VANCOUVER, British Columbia, Aug. 11, 2026 (GLOBE NEWSWIRE) \u2014 American News Group News Commentary \u2013 The platinum group metals have spent 2026 doing something they had not done in years: rising on structural scarcity rat\u2026",
+          "content": "One more thing worth knowing about this ticker.Greenland Mines operates two divisions rather than one. The Mining division covers Skaergaard and, subject to closing of a previously announced transact\u2026 [+3708 chars]",
+          "url": "https://financialpost.com/globe-newswire/drilling-begins-at-one-of-the-largest-undeveloped-palladium-gold-platinum-deposits",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-08-11T13:48:58Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "e66fce5a988c",
+          "summary": "Article about mining operations and mineral deposits. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Bundesliga 2026/27 Tactical Previews\u00a0|\u00a01. FC Union Berlin",
+          "description": "We\u2019ll kick off our Get German Football News 2026/27 Bundesliga tactical previews this season with the very same club that led the pack last season. What\u2019s new in the German capital\u2019s K\u00f6penick q...",
+          "content": "We'll kick off our Get German Football News 2026/27 Bundesliga tactical previews this season with the very same club that led the pack last season. What's new in the German capital's K\u00f6penick quarter\u2026 [+18387 chars]",
+          "url": "https://www.getfootballnewsgermany.com/2026/bundesliga-union-berlin-preview-26/",
+          "source_name": "Getfootballnewsgermany.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-10T23:20:00Z",
+          "author": "Get German Football News",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/9c5fcc01fe63972fdeb7c19780eff057e590544a3d6261ae40d713badcf8cbb7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fget_german_football_news_articles_128%2Fdb08145c7c0702e3dc3bf033903081c7",
+          "is_local_nj": false,
+          "article_id": "6d55cbfa5c1a",
+          "summary": "Article about German soccer league analysis. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Fortuna acquires highly prospective Bambadji Project in Senegal from Barrick and IAMGOLD",
+          "description": "VANCOUVER, British Columbia, Aug. 10, 2026 (GLOBE NEWSWIRE) \u2014 Fortuna Mining Corp. (NYSE: FSM | TSX: FVI) is pleased to announce the acquisition of the 190 km\u00b2 Bambadji advanced gold exploration project in Senegal, through the purchase of certain Senegalese s\u2026",
+          "content": "Since 2016, RC and DD samples were transported by company vehicle or commercial courier to SGS Laboratories in Mali (Bamako) or ALS Kedougou/Ouagadougou. Routine gold analysis using a 50-gram charge \u2026 [+7753 chars]",
+          "url": "https://financialpost.com/globe-newswire/fortuna-acquires-highly-prospective-bambadji-project-in-senegal-from-barrick-and-iamgold",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-08-10T21:31:11Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/08/figure-1-9.png",
+          "is_local_nj": false,
+          "article_id": "ddca957a7a06",
+          "summary": "Article about mining company acquisition in Senegal. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "lightfall 0.2.0",
+          "description": "Lightfall - control system for the ALS facility",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/lightfall/0.2.0/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-08-10T21:26:36Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "559c03caaaf3",
+          "summary": "Article about software package update - same as Article 30, unrelated to amyotrophic lateral sclerosis.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Altius Reports Q2 2026 Attributable Royalty Revenue of $30.0M and Adjusted Earnings(1) of $7.6M",
+          "description": "All table references in thousands of Canadian dollars, except per share amounts, unless otherwise indicated ST. JOHN\u2019S, Newfoundland and Labrador \u2014 Altius Minerals Corporation (TSX: ALS; OTCQX: ATUSF) (\u201cAltius\u201d or the \u201cCorporation\u201d) reports its second quarter\u2026",
+          "content": "<ul><li>On July 21, 2026 the Corporation completed a bought deal public offering of 3 million common shares of the Corporation (the Common Shares) at a price of $60.50 per Common Share (the Issue Pri\u2026 [+7832 chars]",
+          "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-reports-q2-2026-attributable-royalty-revenue-of-30-0m-and-adjusted-earnings1-of-7-6m",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-08-10T21:06:15Z",
+          "author": "Business Wire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "b0306dc5aa92",
+          "summary": "Article about mining company financial results for Altius Minerals Corporation (ticker: ALS). Not relevant to amyotrophic lateral sclerosis.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Altius Reports Voting Results From its May 13, 2026 Annual and Special Meeting",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-reports-voting-results-from-its-may-13-2026-annual-and-special-meeting",
+              "digest_date": "2026-05-17"
+            },
+            {
+              "title": "Altius Reports Q1 2026 Attributable Royalty Revenue of $26.8M and Adjusted Earnings(1) of $5.4M",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-reports-q1-2026-attributable-royalty-revenue-of-26-8m-and-adjusted-earnings1-of-5-4m",
+              "digest_date": "2026-05-17"
+            }
+          ]
+        },
+        {
+          "title": "FanGraphs Power Rankings: August 3\u20139",
+          "description": "The Dodgers drop out of the top five in this week's FanGraphs Power Rankings.",
+          "content": "Even as teams have settled into their new normal following all the activity surrounding the trade deadline, the standings havent become any clearer with two months of the regular season left to play.\u2026 [+22487 chars]",
+          "url": "https://blogs.fangraphs.com/fangraphs-power-rankings-august-3-9/",
+          "source_name": "Fangraphs.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-10T17:45:57Z",
+          "author": "Jake Mailhot",
+          "image_url": "https://blogs.fangraphs.com/wp-content/uploads/2026/08/Power-Rankings-August-10.jpg",
+          "is_local_nj": false,
+          "article_id": "d792d2cb1d6c",
+          "summary": "Article about baseball power rankings. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "15k-Mile 2017 Ferrari 488 Spider",
+          "description": "This 2017 Ferrari 488 Spider is finished in Bianvo Avus over Rosso Ferrari leather and is powered by a twin-turbocharged 3.9-liter V8 paired with a seven-speed F1 dual-clutch automatic transaxle. Features include a power-retractable hardtop, as well as a fact\u2026",
+          "content": "This 2017 Ferrari 488 Spider is finished in Bianvo Avus over Rosso Ferrari leather and is powered by a twin-turbocharged 3.9-liter V8 paired with a seven-speed F1 dual-clutch automatic transaxle. Fea\u2026 [+2533 chars]",
+          "url": "https://bringatrailer.com/listing/2017-ferrari-488-spider-36/",
+          "source_name": "Bringatrailer.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-10T12:35:13Z",
+          "author": "bringatrailer",
+          "image_url": "https://bringatrailer.com/wp-content/uploads/2026/07/IMG_1677-scaled-copy-2026-07-17-k91-24440.jpg",
+          "is_local_nj": false,
+          "article_id": "cfa4f0749b0d",
+          "summary": "Article about vintage Ferrari automobile listing. Not relevant to ALS.",
+          "importance": 1,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [
+        {
+          "title": "BrainStorm Cell Therapeutics Announces Second Quarter 2026 Financial Results and Provides Corporate Update",
+          "description": "NEW YORK, Aug. 14, 2026 /PRNewswire/ -- BrainStorm Cell Therapeutics Inc. (OTCQB: BCLI), a leading developer of adult stem cell therapeutics for neurodegenerative diseases, today announced financial results for the second quarter ended June 30, 2026, and prov\u2026",
+          "content": "NEW YORK, Aug. 14, 2026 /PRNewswire/ -- BrainStorm Cell Therapeutics Inc. (OTCQB: BCLI), a leading developer of adult stem cell therapeutics for neurodegenerative diseases, today announced financial \u2026 [+17635 chars]",
+          "url": "https://www.prnewswire.com/news-releases/brainstorm-cell-therapeutics-announces-second-quarter-2026-financial-results-and-provides-corporate-update-302852017.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T20:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1206976/BrainStorm-Logo.jpg?id=OA2887654&p=facebook",
+          "is_local_nj": false,
+          "article_id": "0bcf06d4d6dd",
+          "summary": "BrainStorm Cell Therapeutics, a developer of adult stem cell therapeutics for neurodegenerative diseases including ALS, reported its Q2 2026 financial results and provided a corporate update on treatment development.",
+          "importance": 4,
+          "key_entities": [
+            "BrainStorm Cell Therapeutics",
+            "stem cell therapeutics",
+            "neurodegenerative diseases"
+          ],
+          "related_previous": [
+            {
+              "title": "Refined Energy Announces Final Results for Winter 2026 Drill Program at Dufferin West",
+              "url": "https://www.globenewswire.com/news-release/2026/07/03/3321983/0/en/Refined-Energy-Announces-Final-Results-for-Winter-2026-Drill-Program-at-Dufferin-West.html",
+              "digest_date": "2026-07-05"
+            },
+            {
+              "title": "BrainStorm Cell Therapeutics Appoints Former FDA Associate Commissioner Peter J. Pitts to Board of Directors",
+              "url": "https://www.prnewswire.com/news-releases/brainstorm-cell-therapeutics-appoints-former-fda-associate-commissioner-peter-j-pitts-to-board-of-directors-302784278.html",
+              "digest_date": "2026-05-31"
+            },
+            {
+              "title": "BrainStorm Cell Therapeutics Announces First Quarter 2026 Financial Results and Provides Corporate Update",
+              "url": "https://www.prnewswire.com/news-releases/brainstorm-cell-therapeutics-announces-first-quarter-2026-financial-results-and-provides-corporate-update-302773613.html",
+              "digest_date": "2026-05-17"
+            }
+          ]
+        },
+        {
+          "title": "NeuroSense Issues CEO Letter to Shareholders",
+          "description": "CAMBRIDGE, Mass., Aug. 13, 2026 /PRNewswire/ -- NeuroSense Therapeutics Ltd. (NASDAQ: NRSN) (\"NeuroSense\"), a late-stage clinical biotechnology company focused on developing disease-modifying treatments for neurodegenerative diseases, today releases a letter \u2026",
+          "content": "CAMBRIDGE, Mass., Aug. 13, 2026 /PRNewswire/ --\u00a0NeuroSense Therapeutics Ltd.\u00a0(NASDAQ: NRSN) (\"NeuroSense\"), a late-stage clinical biotechnology company focused on developing disease-modifying treatme\u2026 [+11303 chars]",
+          "url": "https://www.prnewswire.com/news-releases/neurosense-issues-ceo-letter-to-shareholders-302850917.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-08-13T13:30:00Z",
+          "author": null,
+          "image_url": "https://mma.prnewswire.com/media/1707291/NeuroSense_Therapeutics_Logo.jpg?p=facebook",
+          "is_local_nj": false,
+          "article_id": "95661f888999",
+          "summary": "NeuroSense Therapeutics, a late-stage clinical biotechnology company focused on developing disease-modifying treatments for neurodegenerative diseases including ALS, issued a CEO letter to shareholders regarding company developments.",
+          "importance": 4,
+          "key_entities": [
+            "NeuroSense Therapeutics",
+            "neurodegenerative diseases",
+            "disease-modifying treatments"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "CervoMed Reports Second Quarter 2026 Financial Results and Provides Corporate Updates",
+          "description": "Prioritizing strategic partnership to advance neflamapimod into Phase 3 for the treatment of dementia with Lewy bodies (DLB)  Neflamapimod awarded...",
+          "content": "Prioritizing strategic partnership to advance neflamapimod into Phase 3 for the treatment of dementia with Lewy bodies (DLB)\r\nNeflamapimod awarded Innovation Passport Designation under the United Kin\u2026 [+17357 chars]",
+          "url": "https://www.globenewswire.com/news-release/2026/08/10/3341723/0/en/cervomed-reports-second-quarter-2026-financial-results-and-provides-corporate-updates.html",
+          "source_name": "GlobeNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-08-10T11:30:00Z",
+          "author": "Cervomed",
+          "image_url": "https://ml.globenewswire.com/Resource/Download/edbbbc99-633a-4270-bb50-216336077fb9",
+          "is_local_nj": false,
+          "article_id": "5a3bba8c09d2",
+          "summary": "CervoMed reported Q2 2026 financial results and announced focus on advancing neflamapimod into Phase 3 testing for treatment of dementia with Lewy bodies, a neurodegenerative condition.",
+          "importance": 3,
+          "key_entities": [
+            "CervoMed",
+            "neflamapimod",
+            "dementia with Lewy bodies",
+            "Phase 3"
+          ],
+          "related_previous": [
+            {
+              "title": "BrainStorm Cell Therapeutics Announces First Quarter 2026 Financial Results and Provides Corporate Update",
+              "url": "https://www.prnewswire.com/news-releases/brainstorm-cell-therapeutics-announces-first-quarter-2026-financial-results-and-provides-corporate-update-302773613.html",
+              "digest_date": "2026-05-17"
+            },
+            {
+              "title": "ORYZON Reports Financial Results and Corporate Update for Quarter Ended March 31st, 2026",
+              "url": "https://www.globenewswire.com/news-release/2026/05/14/3295170/0/en/ORYZON-Reports-Financial-Results-and-Corporate-Update-for-Quarter-Ended-March-31st-2026.html",
+              "digest_date": "2026-05-17"
+            },
+            {
+              "title": "Altius Reports Voting Results From its May 13, 2026 Annual and Special Meeting",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-reports-voting-results-from-its-may-13-2026-annual-and-special-meeting",
+              "digest_date": "2026-05-17"
+            }
+          ]
+        }
+      ],
+      "cure": [],
+      "grants": [],
+      "assistance": [
+        {
+          "title": "Gasping for air",
+          "description": "This story was co-published with the Chicago Reporter. Gary Sams could hardly breathe. He had begun experiencing early symptoms of rapidly progressing amyotrophic lateral sclerosis (ALS), a progressive and fatal neurological disease, in April 2024. By June 20\u2026",
+          "content": "This story was co-published with the Chicago Reporter.\r\nGary Sams could hardly breathe. He had begun experiencing early symptoms of rapidly progressing amyotrophic lateral sclerosis (ALS), a progress\u2026 [+15544 chars]",
+          "url": "https://chicagoreader.com/city-life/als-healthcare-prison/",
+          "source_name": "Chicago Reader",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T13:00:00Z",
+          "author": "Sara Cooper",
+          "image_url": "https://i0.wp.com/chicagoreader.com/wp-content/uploads/2026/08/DSC_0001-scaled.jpg?fit=2560%2C1707&ssl=1",
+          "is_local_nj": false,
+          "article_id": "c44c720a7922",
+          "summary": "This story, co-published with the Chicago Reporter, chronicles the experience of Gary Sams who developed rapidly progressing ALS beginning in April 2024 and explores healthcare challenges for ALS patients in prison settings.",
+          "importance": 3,
+          "key_entities": [
+            "Gary Sams",
+            "ALS patient",
+            "healthcare access",
+            "prison healthcare"
+          ],
+          "related_previous": []
+        },
+        {
+          "title": "Love Island's\u00a0Simba Kudyiwa reveals he became a carer aged 10 for his disabled mum who can't speak - and he fell in love with nurse Angelista Gunda because of her empathy",
+          "description": "Simba, 25, appeared on Friday's Good Morning Britain where he revealed he became a carer after his mother was diagnosed with Motor Neurone Disease (MND/ALS).",
+          "content": "The NHS describes motor neurone disease (MND) as: 'An uncommon condition that affects the brain and nerves. It causes weakness that gets worse over time.'\r\nThe weakness is caused by the deterioration\u2026 [+2827 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16052295/Love-Island-Simba-Kudyiwa-care-disabled-mum-Angelista-Gunda-empathy.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-08-14T09:46:40Z",
+          "author": "Rebecca Lawrence",
+          "image_url": "https://i.dailymail.com/1s/2026/08/14/10/110635443-0-image-m-29_1786700744894.jpg",
+          "is_local_nj": false,
+          "article_id": "53864108e262",
+          "summary": "Love Island contestant Simba Kudyiwa revealed that he became a caregiver at age 10 for his mother who was diagnosed with Motor Neurone Disease (MND/ALS) and cannot speak, highlighting the experiences of young caregivers.",
+          "importance": 3,
+          "key_entities": [
+            "Simba Kudyiwa",
+            "caregiver",
+            "Motor Neurone Disease",
+            "MND/ALS"
+          ],
+          "related_previous": [
+            {
+              "title": "A brain-computer interface has, for the first time, restored fluent everyday speech to a person who had lost it \u2014 a man with ALS who had not spoken aloud in years until a small implant from the BrainGate clinical trial began translating his attempts to speak directly into computer-synthesised words, in a result researchers reported in June 2026",
+              "url": "https://spacedaily.com/d-a-brain-computer-interface-has-for-the-first-time-restored-fluent-everyday-speech-to-a-person-who-had-lost-it-a-man-with-als-who-had-not-spoken-aloud-in-years-until-a-small-implant-from-th/",
+              "digest_date": "2026-06-21"
+            },
+            {
+              "title": "Rafa Nadal, 40, reveals whether he will follow Serena Williams into making stunning return to tennis after US superstar's shock comeback aged 44",
+              "url": "https://www.dailymail.com/sport/tennis/article-15889487/Rafel-Nadal-Serena-Williams-Comeback.html",
+              "digest_date": "2026-06-14"
+            }
+          ]
+        }
+      ],
+      "local": [
+        {
+          "title": "New ALS treatment clinic opens in South Jersey with grant - Press of Atlantic City",
+          "description": "New ALS treatment clinic opens in South Jersey with grant&nbsp;&nbsp;Press of Atlantic City",
+          "content": "",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVTA1QXJyamJTZ0NTcnZqLW54ZWZ4b2lvdkpmQ205MU8yZV94R3pCZGhPUS1yX3hNXzVCRnlMWVlFa0Qyb1dnVFpndjVtNFh4VmVZem1iV1d3bmR3UmEyQ2Z6VU4wNE1qOXVWM0FMTHhTeHJlbkRBOEkwSU9NTTlWTnIwMXdob2FYb1FRUHc3V045bFUwYUZZZ2RjWFVLWHFMNHZF?oc=5",
+          "source_name": "Google News (\"New Jersey\" ALS...)",
+          "source_type": "rss",
+          "published_at": "2026-08-14T11:44:00",
+          "author": "",
+          "image_url": "",
+          "is_local_nj": true,
+          "category_hint": null,
+          "article_id": "45da8c7ff0ae",
+          "summary": "A new ALS treatment clinic has opened in South Jersey with the support of a grant. This facility will provide specialized care and treatment options for ALS patients in the region.",
+          "importance": 5,
+          "key_entities": [
+            "South Jersey",
+            "ALS treatment clinic",
+            "grant funding"
+          ],
+          "related_previous": [
+            {
+              "title": "Broadway Will Sing for Aaron Lazar in New Jersey Benefit Concert - Playbill",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNTZZUnBWbElqaXFGaWRlMFZDU3pCbnZ2MjBJdjZxdDVYR0hUSjhUMnNodm9BNlN6UncxS2ZJMGlpUkRVZlVJNGZlMUFITGxMeE5KbldoRnMxYm5kWThnQ1haVFlIYTQyZUp3bHFMY0V0UU1tbFd3bmFNR1c1LWo4V0ZmWDBtdFNnVHNzaEwzTndGb2tQUEFlQQ?oc=5",
+              "digest_date": "2026-07-26"
+            }
+          ]
+        }
+      ]
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 41,
+    "references": [
+      {
+        "title": "New ALS treatment clinic opens in South Jersey with grant - Press of Atlantic City",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVTA1QXJyamJTZ0NTcnZqLW54ZWZ4b2lvdkpmQ205MU8yZV94R3pCZGhPUS1yX3hNXzVCRnlMWVlFa0Qyb1dnVFpndjVtNFh4VmVZem1iV1d3bmR3UmEyQ2Z6VU4wNE1qOXVWM0FMTHhTeHJlbkRBOEkwSU9NTTlWTnIwMXdob2FYb1FRUHc3V045bFUwYUZZZ2RjWFVLWHFMNHZF?oc=5",
+        "source": "Google News (\"New Jersey\" ALS...)",
+        "date": "2026-08-14T11:44:00"
+      },
+      {
+        "title": "PC Games 09/26: Mit Coverstory zu Total War: Warhammer 40k, Preview zu Dawn of War 4 u. v. m.",
+        "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/Ausgabe-09-26-Total-War-Warhammer-40k-1551234/",
+        "source": "PC Games",
+        "date": "2026-08-15T07:00:00Z"
+      },
+      {
+        "title": "FDA\u2019s quiet retreat: The chlorine dioxide warning pages have vanished",
+        "url": "https://www.naturalnews.com/2026-08-15-fda-retreat-chlorine-dioxide-warning-pages-vanished.html",
+        "source": "Naturalnews.com",
+        "date": "2026-08-15T06:00:00Z"
+      },
+      {
+        "title": "BrainStorm Cell Therapeutics Announces Second Quarter 2026 Financial Results and Provides Corporate Update",
+        "url": "https://www.prnewswire.com/news-releases/brainstorm-cell-therapeutics-announces-second-quarter-2026-financial-results-and-provides-corporate-update-302852017.html",
+        "source": "PRNewswire",
+        "date": "2026-08-14T20:00:00Z"
+      },
+      {
+        "title": "Indian govt says buyers must lift sugar within 7 days, seeks bulk sales data by Aug 20",
+        "url": "https://www.thehindubusinessline.com/economy/agri-business/indian-govt-says-buyers-must-lift-sugar-within-7-days-seeks-bulk-sales-data-by-aug-20/article71345945.ece",
+        "source": "BusinessLine",
+        "date": "2026-08-14T16:18:11Z"
+      },
+      {
+        "title": "Simoncic mit starkem WM-Deb\u00fct im GP Special",
+        "url": "https://sport.orf.at/stories/3161297/",
+        "source": "Sport.orf.at",
+        "date": "2026-08-14T16:05:50Z"
+      },
+      {
+        "title": "Gasping for air",
+        "url": "https://chicagoreader.com/city-life/als-healthcare-prison/",
+        "source": "Chicago Reader",
+        "date": "2026-08-14T13:00:00Z"
+      },
+      {
+        "title": "25 Jahre \u201eThe Fast and the Furious\u201c",
+        "url": "https://www.kino-zeit.de/verlosungen/25-jahre-the-fast-and-the-furious",
+        "source": "Kino-zeit.de",
+        "date": "2026-08-14T10:00:00Z"
+      },
+      {
+        "title": "Love Island's\u00a0Simba Kudyiwa reveals he became a carer aged 10 for his disabled mum who can't speak - and he fell in love with nurse Angelista Gunda because of her empathy",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16052295/Love-Island-Simba-Kudyiwa-care-disabled-mum-Angelista-Gunda-empathy.html",
+        "source": "Dailymail.com",
+        "date": "2026-08-14T09:46:40Z"
+      },
+      {
+        "title": "Record-breaking climber Jake Whisenant's grieving fiancee says 'world has cruelly betrayed her' after his tragic death as she breaks silence on 'cataclysmic loss'",
+        "url": "https://www.dailymail.com/sport/othersports/article-16051767/jake-whisenant-fiancee-death-sierra-nevada.html",
+        "source": "Dailymail.com",
+        "date": "2026-08-14T04:33:11Z"
+      },
+      {
+        "title": "Regulation and roles of mammalian mitophagy",
+        "url": "https://www.nature.com/articles/s41580-026-01012-9",
+        "source": "Nature.com",
+        "date": "2026-08-14T00:00:00Z"
+      },
+      {
+        "title": "ProMIS Neurosciences Announces Second Quarter 2026 Financial Results and Provides Corporate Highlights",
+        "url": "https://financialpost.com/globe-newswire/promis-neurosciences-announces-second-quarter-2026-financial-results-and-provides-corporate-highlights",
+        "source": "Financial Post",
+        "date": "2026-08-13T20:01:13Z"
+      },
+      {
+        "title": "watchOS 27 nimmt der Digital Crown ihren Doppelklick",
+        "url": "https://www.iphoneblog.de/2026/08/13/watchos-27-nimmt-der-digital-crown-ihren-doppelklick/",
+        "source": "Iphoneblog.de",
+        "date": "2026-08-13T18:17:00Z"
+      },
+      {
+        "title": "Record-breaking Yosemite climber\u2019s fianc\u00e9e pens truly heartbreaking obituary after he fell to his death off mountain",
+        "url": "https://nypost.com/2026/08/13/us-news/fiancee-pens-obit-for-yosemite-mountain-climber-who-fell-to-his-death/",
+        "source": "New York Post",
+        "date": "2026-08-13T14:48:50Z"
+      },
+      {
+        "title": "NeuroSense Issues CEO Letter to Shareholders",
+        "url": "https://www.prnewswire.com/news-releases/neurosense-issues-ceo-letter-to-shareholders-302850917.html",
+        "source": "PRNewswire",
+        "date": "2026-08-13T13:30:00Z"
+      },
+      {
+        "title": "DTM calendar 2027 announced: No internationalization for now, clashes with WEC",
+        "url": "https://www.motorsport.com/dtm/news/2027-dtm-calendar-official-no-internationalization-for-now-wec-clashes/10846128/",
+        "source": "Motorsport.com",
+        "date": "2026-08-13T12:28:02Z"
+      },
+      {
+        "title": "Oren Nahari, veteran journalist who brought the world to Israeli audiences, dies at 70",
+        "url": "https://www.haaretz.com/israel-news/2026-08-13/ty-article/.premium/oren-nahari-veteran-journalist-who-brought-the-world-to-israel-dies-at-70/0000019f-f9e2-de80-ab9f-fbeb3dd70000",
+        "source": "Haaretz",
+        "date": "2026-08-13T07:03:25Z"
+      },
+      {
+        "title": "Sarah Trott Reintroduces Herself Beyond Reality TV with \"From Here to Where\"",
+        "url": "https://www.prnewswire.com/news-releases/sarah-trott-reintroduces-herself-beyond-reality-tv-with-from-here-to-where-302850093.html",
+        "source": "PRNewswire",
+        "date": "2026-08-12T19:51:00Z"
+      },
+      {
+        "title": "American: Los Angeles \u2013 Charleston, South Carolina (and vice versa). $204 (Basic Economy) / $374 (Regular Economy). Roundtrip, including all Taxes",
+        "url": "https://www.theflightdeal.com/2026/08/12/american-los-angeles-charleston-south-carolina-and-vice-versa-204-basic-economy-374-regular-economy-roundtrip-including-all-taxes/",
+        "source": "Theflightdeal.com",
+        "date": "2026-08-12T18:28:00Z"
+      },
+      {
+        "title": "A Day in May review: A celebration of a joyful referendum with a bitter aftertaste",
+        "url": "https://www.irishtimes.com/culture/tv-radio/2026/08/12/a-day-in-may-review-a-celebration-of-a-joyful-referendum-with-a-bitter-aftertaste/",
+        "source": "The Irish Times",
+        "date": "2026-08-12T16:30:00Z"
+      },
+      {
+        "title": "12. August: World Elephant Day",
+        "url": "https://www.shopblogger.de/blog/archives/31087-12.-August-World-Elephant-Day.html",
+        "source": "Shopblogger.de",
+        "date": "2026-08-12T15:00:00Z"
+      },
+      {
+        "title": "Florida\u2019s youngest mayor accused of assaulting a female veteran with campaign sign",
+        "url": "https://nypost.com/2026/08/12/us-news/floridas-youngest-mayor-diezel-depew-accused-of-assaulting-rival-with-campaign-sign/",
+        "source": "New York Post",
+        "date": "2026-08-12T14:37:00Z"
+      },
+      {
+        "title": "Alexandria Ocasio-Cortez split from her longtime fiance & decided to freeze her eggs",
+        "url": "https://www.celebitchy.com/991149/alexandria_ocasio-cortez_split_from_her_longtime_fiance_decided_to_freeze_her_eggs/",
+        "source": "Celebitchy.com",
+        "date": "2026-08-12T11:45:36Z"
+      },
+      {
+        "title": "Iriga: 18 PDLs complete basic education through ALS in Legazpi Jail",
+        "url": "https://rpnradio.com/iriga-18-pdls-complete-basic-education-through-als-in-legazpi-jail/",
+        "source": "Rpnradio.com",
+        "date": "2026-08-12T08:17:50Z"
+      },
+      {
+        "title": "Your Astrocytes Have Their Own Birthday, and for Some People It Decides Whether APOE4 Becomes Alzheimer's",
+        "url": "https://www.medicaldaily.com/cell-type-aging-clocks-astrocytes-apoe4-477184",
+        "source": "Medical Daily",
+        "date": "2026-08-12T03:06:04Z"
+      },
+      {
+        "title": "Cascading continental-scale floods across Europe in 1342\u20131343",
+        "url": "https://www.nature.com/articles/s41586-026-10888-8",
+        "source": "Nature.com",
+        "date": "2026-08-12T00:00:00Z"
+      },
+      {
+        "title": "De BIP-110 fork van Bitcoin loopt 300 blokken achter op BTC en ligt zes jaar verwijderd van zelfherstel",
+        "url": "https://www.coindesk.com/nl/tech/2026/08/11/bitcoin-s-bip-110-fork-is-300-blocks-behind-btc-and-six-years-from-fixing-itself",
+        "source": "CoinDesk",
+        "date": "2026-08-11T22:13:18Z"
+      },
+      {
+        "title": "Anti-Social Media",
+        "url": "https://christianheilmann.com/2026/08/11/anti-social-media/",
+        "source": "Christianheilmann.com",
+        "date": "2026-08-11T18:10:43Z"
+      },
+      {
+        "title": "Googling a headache rarely settles anything \u2014 a Microsoft study found it escalates common symptoms into fear of rare diseases, and of the quarter of searchers it pushed into a doctor\u2019s appointment, most turned out not to need one",
+        "url": "https://spacedaily.com/n-googling-a-headache-doesnt-calm-most-people-down-a-microsoft-study-found-it-escalates-common-symptoms-into-fear-of-rare-diseases/",
+        "source": "Space Daily",
+        "date": "2026-08-11T18:00:47Z"
+      },
+      {
+        "title": "lightfall 0.2.1",
+        "url": "https://pypi.org/project/lightfall/0.2.1/",
+        "source": "Pypi.org",
+        "date": "2026-08-11T16:28:18Z"
+      },
+      {
+        "title": "Short-term risk of falls among initiators of controlled-release tapentadol versus oxycodone in New South Wales between 2014 and 2020: A population-based retrospective cohort study",
+        "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004950",
+        "source": "Plos.org",
+        "date": "2026-08-11T14:00:00Z"
+      },
+      {
+        "title": "Drilling Begins at One of the Largest Undeveloped Palladium-Gold-Platinum Deposits",
+        "url": "https://financialpost.com/globe-newswire/drilling-begins-at-one-of-the-largest-undeveloped-palladium-gold-platinum-deposits",
+        "source": "Financial Post",
+        "date": "2026-08-11T13:48:58Z"
+      },
+      {
+        "title": "Would you trust your boss with data about your brain? California moves to regulate neurotech",
+        "url": "https://www.kpbs.org/news/science-technology/2026/08/10/would-you-trust-your-boss-with-data-about-your-brain-california-moves-to-regulate-neurotech",
+        "source": "KPBS",
+        "date": "2026-08-11T01:12:16Z"
+      },
+      {
+        "title": "Plasticity of human microglia and brain perivascular macrophages in aging and Alzheimer\u2019s disease",
+        "url": "https://www.nature.com/articles/s41588-026-02716-6",
+        "source": "Nature.com",
+        "date": "2026-08-11T00:00:00Z"
+      },
+      {
+        "title": "Bundesliga 2026/27 Tactical Previews\u00a0|\u00a01. FC Union Berlin",
+        "url": "https://www.getfootballnewsgermany.com/2026/bundesliga-union-berlin-preview-26/",
+        "source": "Getfootballnewsgermany.com",
+        "date": "2026-08-10T23:20:00Z"
+      },
+      {
+        "title": "Fortuna acquires highly prospective Bambadji Project in Senegal from Barrick and IAMGOLD",
+        "url": "https://financialpost.com/globe-newswire/fortuna-acquires-highly-prospective-bambadji-project-in-senegal-from-barrick-and-iamgold",
+        "source": "Financial Post",
+        "date": "2026-08-10T21:31:11Z"
+      },
+      {
+        "title": "lightfall 0.2.0",
+        "url": "https://pypi.org/project/lightfall/0.2.0/",
+        "source": "Pypi.org",
+        "date": "2026-08-10T21:26:36Z"
+      },
+      {
+        "title": "Altius Reports Q2 2026 Attributable Royalty Revenue of $30.0M and Adjusted Earnings(1) of $7.6M",
+        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/altius-reports-q2-2026-attributable-royalty-revenue-of-30-0m-and-adjusted-earnings1-of-7-6m",
+        "source": "Financial Post",
+        "date": "2026-08-10T21:06:15Z"
+      },
+      {
+        "title": "FanGraphs Power Rankings: August 3\u20139",
+        "url": "https://blogs.fangraphs.com/fangraphs-power-rankings-august-3-9/",
+        "source": "Fangraphs.com",
+        "date": "2026-08-10T17:45:57Z"
+      },
+      {
+        "title": "15k-Mile 2017 Ferrari 488 Spider",
+        "url": "https://bringatrailer.com/listing/2017-ferrari-488-spider-36/",
+        "source": "Bringatrailer.com",
+        "date": "2026-08-10T12:35:13Z"
+      },
+      {
+        "title": "CervoMed Reports Second Quarter 2026 Financial Results and Provides Corporate Updates",
+        "url": "https://www.globenewswire.com/news-release/2026/08/10/3341723/0/en/cervomed-reports-second-quarter-2026-financial-results-and-provides-corporate-updates.html",
+        "source": "GlobeNewswire",
+        "date": "2026-08-10T11:30:00Z"
+      }
+    ],
+    "generated_at": "2026-08-16T08:30:10.167039"
+  },
+  {
     "date": "2026-08-09",
     "week_of": "August 09, 2026",
     "digest_number": 32,
