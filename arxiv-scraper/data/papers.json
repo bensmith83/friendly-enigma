@@ -1,5 +1,24 @@
 [
   {
+    "id": "2608.16769v1",
+    "title": "A Deployment-Oriented and Resource-Efficient Neuro-Symbolic Framework for Explainable DDoS Detection in Operational Technology Networks",
+    "summary": "Operational technology (OT) environments, including programmable logic controllers (PLCs), industrial control systems (ICS), and supervisory control and data acquisition (SCADA) systems, are increasingly targeted by distributed denial-of-service (DDoS) attacks. This paper presents a neuro-symbolic framework specifically designed for robust DDoS detection in these resource-constrained environments. The framework fuses a gated recurrent unit (GRU) neural network with a shallow decision tree as a symbolic component. The symbolic component alone provides a compact, interpretable rule set, while the fusion combines the strengths of both paradigms. The hybrid model is evaluated on three real-world benchmark DDoS datasets: CIC-DDoS2019, Edge-IIoTset, and CICIoT23. A unified comprehensive preprocessing pipeline including label mapping, numerical feature selection, robust scaling, and class balancing is applied. The fusion weight alpha and decision threshold are jointly optimised on validation data to maximise F1-score. The hybrid model attains 99.04% accuracy (MCC 0.97) on CIC-DDoS2019 and 98.61% accuracy (MCC 0.76) on CICIoT23, in both cases reducing the FNR below that of the pure-neural and pure-symbolic baselines; on the linearly separable Edge-IIoTset the shallow decision tree alone already reaches 100%, so this benchmark validates the preprocessing pipeline rather than the fusion. The principal gain of the fusion is a lower FNR at a controlled false-positive cost, which matters in operational technology, where a missed attack is more damaging than a false alarm. Model-only inference latency is sub-millisecond (0.58-0.79 milliseconds per sample) on a standard central processing unit; including on-device flow-feature extraction, the end-to-end path remains within a single-digit-millisecond budget, which is compatible with OT control-loop timing.",
+    "published": "2026-08-17T16:18:15Z",
+    "link": "http://arxiv.org/abs/2608.16769v1",
+    "authors": [
+      "Mikiyas Alemayehu",
+      "Mohamed Chahine Ghanem",
+      "Hamza Kheddar",
+      "Aohan Li",
+      "J. J. Garcia-Luna-Aceves"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Operational technology (OT) environments, including programmable logic controllers (PLCs), industrial control systems (ICS), and supervisory control and data acquisition (SCADA) systems, are increasingly targeted by distributed denial-of-service (DDoS) attacks. This paper presents a neuro-symbolic framework specifically designed for robust DDoS detection in these resource-constrained environments.",
+    "selected_date": "2026-08-18"
+  },
+  {
     "id": "2608.14418v1",
     "title": "STINER: Automated Extraction of Strategic Cyber Threat Intelligence from X",
     "summary": "Strategic Cyber Threat Intelligence (CTI) focuses on high-level insights, such as identifying targeted industries, attributing attacks to specific ransomware groups, and assessing the scale of data loss. Today, X (formerly Twitter) has become the fastest source for this intelligence, often hosting real-time breach announcements days before formal vendor reports. Converting this raw chatter into actionable intelligence requires navigating a complex linguistic landscape. Conventional Named Entity Recognition (NER) models struggle to parse the informal and highly irregular dialect of social media, creating a blind spot for automated defense systems. To address this challenge, we introduce STINER, a taxonomy and expert-annotated corpus for extracting strategic intelligence from social media streams. We construct a high-quality, expert-annotated dataset of 2,100 real-world alerts and propose a granular taxonomy of eight entity types centered on strategic pivots such as Threat Actor, Sector, and Location. We benchmark nine models across 12 evaluated configurations, spanning general-purpose and domain-adapted encoders, open-schema extraction, and generative LLMs in both zero-shot and fine-tuned settings. Domain-adapted encoders such as DarkBERT reach a strict F1-score of 89.33%, outperforming both general-purpose baselines and fine-tuned Large Language Models, which additionally incur substantially higher inference latency. Leveraging STINER-DarkBERT, we conduct a European threat landscape analysis for H1 2025. Our results align with official reporting on major targets while highlighting the distinct visibility profile of attacks in Spain, and illustrate how social-media-driven extraction can surface early signals of the SafePay ransomware campaign prior to its retrospective characterization in vendor threat landscape reports.",
@@ -617,22 +636,5 @@
     ],
     "ai_summary": "Persistent external memory enhances agent continuity but introduces persistent security vulnerabilities: adversarial content can be injected via standard interaction channels, retained across turns, and later distort downstream behavior. To address this challenge, we propose MemPoison, a comprehensive benchmark and analysis framework featuring 1227 hand-validated cases across four attack types, three injection channels, and three representative memory substrates, evaluated on seven open-weight and three closed-weight model families.",
     "selected_date": "2026-07-19"
-  },
-  {
-    "id": "2607.14945v1",
-    "title": "Introspective Attention Modulation for Safe Text-to-Image Generation",
-    "summary": "State-of-the-art flow based text-to-image (T2I) models exhibit remarkable generative abilities but remain vulnerable to producing unsafe content. Prior safety efforts range from concept erasure and prompt filtering to classifier-based gating. However, simple techniques like parameter efficient adaptations of the models easily bypass such guardrails. We introduce a unique principled approach that achieves safety by regulating the model's attention dynamics through inference-time introspection, exhibiting intrinsic robustness. Our method analyzes and rebalances attention activations throughout image synthesis, steering generations away from unsafe concepts while preserving semantic alignment. This introspective control ensures safety of deployed models. Across standard and adversarial safety benchmarks, our approach achieves remarkable safety scores while maintaining or even improving alignment and perceptual quality. Our results reveal that attention-space regulation offers a considerably more promising path to safer diffusion transformer based image generation than the existing concept erasing mechanism.Our code can be accessed at https://basim-azam.github.io/iam/",
-    "published": "2026-07-16T12:53:45Z",
-    "link": "http://arxiv.org/abs/2607.14945v1",
-    "authors": [
-      "Basim Azam",
-      "Hossein Rahmani",
-      "Naveed Akhtar"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "State-of-the-art flow based text-to-image (T2I) models exhibit remarkable generative abilities but remain vulnerable to producing unsafe content. Prior safety efforts range from concept erasure and prompt filtering to classifier-based gating.",
-    "selected_date": "2026-07-18"
   }
 ]
