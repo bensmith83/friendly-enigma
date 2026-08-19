@@ -1,5 +1,22 @@
 [
   {
+    "id": "2608.18026v1",
+    "title": "TabNSM: Neural Sparse Mixer for Tabular Regression",
+    "summary": "Large-scale, high-dimensional tabular regression remains challenging: tree-based models are robust but lack end-to-end representation learning, while deep models enable flexible feature learning but often incur costly interaction modeling and sensitivity to noisy or redundant features. We propose TabNSM, a scalable regression framework that extends our earlier sparse-attention and mixer architectures. At its core, the Adaptive Sparse Interaction Module (ASIM) integrates foreground feature discovery, sparse local interaction encoding, and Feature-Token Mixing, providing near-linear complexity under fixed sparse configurations. For regression, TabNSM introduces three complementary components: a Multi-Stage Regression Head for progressive prediction refinement; GridLoss, an ordinal-aware soft-binning objective that incorporates target structure into representation learning; and RISE (Reweighted Instance Sampling by Error), a difficulty-aware sampling strategy based on loss-quantile bins. Across nine real-world regression benchmarks, TabNSM delivers strong predictive performance and practical scalability, with particularly consistent gains on high-dimensional and heterogeneous datasets. These results demonstrate that selective interaction modeling, structured regression supervision, and difficulty-aware sampling provide an effective and scalable approach to deep tabular regression.",
+    "published": "2026-08-18T17:22:49Z",
+    "link": "http://arxiv.org/abs/2608.18026v1",
+    "authors": [
+      "Ali Eslamian",
+      "Qiang Cheng"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CE"
+    ],
+    "ai_summary": "Large-scale, high-dimensional tabular regression remains challenging: tree-based models are robust but lack end-to-end representation learning, while deep models enable flexible feature learning but often incur costly interaction modeling and sensitivity to noisy or redundant features. We propose TabNSM, a scalable regression framework that extends our earlier sparse-attention and mixer architectures.",
+    "selected_date": "2026-08-19"
+  },
+  {
     "id": "2608.16769v1",
     "title": "A Deployment-Oriented and Resource-Efficient Neuro-Symbolic Framework for Explainable DDoS Detection in Operational Technology Networks",
     "summary": "Operational technology (OT) environments, including programmable logic controllers (PLCs), industrial control systems (ICS), and supervisory control and data acquisition (SCADA) systems, are increasingly targeted by distributed denial-of-service (DDoS) attacks. This paper presents a neuro-symbolic framework specifically designed for robust DDoS detection in these resource-constrained environments. The framework fuses a gated recurrent unit (GRU) neural network with a shallow decision tree as a symbolic component. The symbolic component alone provides a compact, interpretable rule set, while the fusion combines the strengths of both paradigms. The hybrid model is evaluated on three real-world benchmark DDoS datasets: CIC-DDoS2019, Edge-IIoTset, and CICIoT23. A unified comprehensive preprocessing pipeline including label mapping, numerical feature selection, robust scaling, and class balancing is applied. The fusion weight alpha and decision threshold are jointly optimised on validation data to maximise F1-score. The hybrid model attains 99.04% accuracy (MCC 0.97) on CIC-DDoS2019 and 98.61% accuracy (MCC 0.76) on CICIoT23, in both cases reducing the FNR below that of the pure-neural and pure-symbolic baselines; on the linearly separable Edge-IIoTset the shallow decision tree alone already reaches 100%, so this benchmark validates the preprocessing pipeline rather than the fusion. The principal gain of the fusion is a lower FNR at a controlled false-positive cost, which matters in operational technology, where a missed attack is more damaging than a false alarm. Model-only inference latency is sub-millisecond (0.58-0.79 milliseconds per sample) on a standard central processing unit; including on-device flow-feature extraction, the end-to-end path remains within a single-digit-millisecond budget, which is compatible with OT control-loop timing.",
@@ -613,28 +630,5 @@
     ],
     "ai_summary": "Attacks on general computer vision algorithms are often relegated to the digital domain, with the optimization performed purely in the digital world and then translated to physical mediums for implementation. In the field of biometrics, including facial recognition, physical presentation attacks targeting biometric sensors are dominant and present significant opportunity and risk.",
     "selected_date": "2026-07-20"
-  },
-  {
-    "id": "2607.14651v1",
-    "title": "MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents",
-    "summary": "Persistent external memory enhances agent continuity but introduces persistent security vulnerabilities: adversarial content can be injected via standard interaction channels, retained across turns, and later distort downstream behavior. To address this challenge, we propose MemPoison, a comprehensive benchmark and analysis framework featuring 1227 hand-validated cases across four attack types, three injection channels, and three representative memory substrates, evaluated on seven open-weight and three closed-weight model families. We introduce a three-tier taxonomy: (L1) direct single-record corruption, (L2) compositional multi-record corruption and (L3) context-triggered dormant corruption. Our evaluations reveal a distinct defense frontier: while baseline write-time defenses, such as consistency checks, substantially suppress direct L1 attacks, they fail to reliably suppress L2 and L3 attacks. Through mechanistic influence decomposition (MID), we demonstrate structural blind spots in write-time defenses, which admit seemingly benign records that later become harmful through joint retrieval composition or trigger-conditioned activation. Our findings advocate for shifting from static filtering to adaptive, context-sensitive memory defense strategies.",
-    "published": "2026-07-16T07:19:33Z",
-    "link": "http://arxiv.org/abs/2607.14651v1",
-    "authors": [
-      "Jifeng Gao",
-      "Kang Xia",
-      "Yi Zhang",
-      "Xiaobin Hong",
-      "Mingkai Lin",
-      "Xingshen Wei",
-      "Wenzhong Li",
-      "Sanglu Lu"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "ai_summary": "Persistent external memory enhances agent continuity but introduces persistent security vulnerabilities: adversarial content can be injected via standard interaction channels, retained across turns, and later distort downstream behavior. To address this challenge, we propose MemPoison, a comprehensive benchmark and analysis framework featuring 1227 hand-validated cases across four attack types, three injection channels, and three representative memory substrates, evaluated on seven open-weight and three closed-weight model families.",
-    "selected_date": "2026-07-19"
   }
 ]
