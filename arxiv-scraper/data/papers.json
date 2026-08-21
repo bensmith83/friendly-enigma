@@ -1,5 +1,27 @@
 [
   {
+    "id": "2608.20160v1",
+    "title": "Chameleon: Robust Defense Against Tor Website Fingerprinting via Many-to-Many Traffic Morphing",
+    "summary": "Website fingerprinting (WF) attacks can infer users' browsing activities from encrypted Tor traffic by exploiting side-channel features. Although many WF defenses have been proposed, we find that most existing defenses create learnable web trace mapping features. We further show that robustness against adversarial training does not necessarily imply robustness against defense-aware autoencoder (DAAE)-based attacks.   To address these limitations, we present Chameleon, a robust WF defense based on many-to-many randomized traffic morphing. Chameleon selects morphing candidates with high intra-class diversity and low inter-class disparity. Chameleon randomly maps each webpage trace to multiple candidates, and allows different webpages to share morphing targets, thereby increasing adversarial uncertainty. For practical Tor deployment, Chameleon introduces a radix-trie-based synchronization mechanism that enables pluggable transport (PT) endpoints to identify consistent morphing traces using packet-direction prefixes, together with trace mutation and normalized prefix matching to reduce overhead. We evaluate Chameleon against six state-of-the-art defenses and five WF attacks on three public datasets in closed- and open-world settings. Compared with Adaptive Tamaraw, Chameleon reduces adversarial-training-based attack accuracy by up to 36.74% while reducing bandwidth and time overhead by 34.12% and 60.38%, respectively. Under DAAE-based RF attacks on GTT23, Chameleon limits attack performance to 35.19% F1-score while Adaptive Tamaraw only limits it to 88.22% F1-score. In the real-world PT bridge evaluation, Chameleon substantially reduces the effectiveness of strong WF attacks while incurring only 16.25% time overhead.",
+    "published": "2026-08-20T15:16:37Z",
+    "link": "http://arxiv.org/abs/2608.20160v1",
+    "authors": [
+      "Yuwen Cui",
+      "Kai Wei",
+      "Kehan Shen",
+      "Ning Wang",
+      "Zhuo Lu",
+      "Yao Liu",
+      "Guangjing Wang"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CY"
+    ],
+    "ai_summary": "Website fingerprinting (WF) attacks can infer users' browsing activities from encrypted Tor traffic by exploiting side-channel features. Although many WF defenses have been proposed, we find that most existing defenses create learnable web trace mapping features.",
+    "selected_date": "2026-08-21"
+  },
+  {
     "id": "2608.19052v1",
     "title": "Malformer: A Multi-Modal Malware Detector Using Transformers",
     "summary": "Traditional malware detection systems that rely on a single representation of malware often fail to identify novel threats. These representations of malware binaries, also known as modalities, do not provide the models with sufficient information to discriminate among all samples. Additionally, individual representations introduce new failure modes, with some modality extraction being dependent upon the success of disassembling. Past works have integrated either additional modalities or more discriminative representations for classification. In this work, we present Malformer, a quadrimodal malware detection model that incorporates text, image, graph, and audio representations of Windows executables. We demonstrate that multimodal transformer fusion can enhance the performance of Windows malware detectors over that of unimodal and bimodal detectors. Malformer employs a combination of two RoBERTa encoders paired with a modified Vision Transformer for image data, WavLM for audio data, and an adaptive loss-weighting scheme to fuse modality-specific representations. Evaluated on a dataset of 201,549 binary samples, Malformer achieved 98.3% accuracy and an F1 score of 0.9833, outperforming both unimodal baselines and bimodal detectors by 4.6-17.6 percentage points. Malformer demonstrates that multimodal fusion provides a promising foundation for countering the growing scale of malware threats, equipping defenders with generalized and resilient detection capabilities.",
@@ -612,25 +634,5 @@
     ],
     "ai_summary": "Accurate agricultural field boundary delineation at large scale is a foundational task for food security, supply chain transparency, and carbon accounting. While vision foundation models like SAM show remarkable zero-shot capabilities, they frequently fail in geospatial domains due to topological complexity, cropland texturing patterns, and a lack of physical scale awareness.",
     "selected_date": "2026-07-22"
-  },
-  {
-    "id": "2607.17535v1",
-    "title": "Salience Induction against Multi-Hop RAG Agents: Threat and Defense",
-    "summary": "Agentic retrieval-augmented generation (RAG) systems increasingly retrieve external evidence and orchestrate tools for knowledge-intensive applications. In Multi-Hop question answering, agents chain facts across documents. Existing defenses focus on content poisoning, which injects false facts, and prompt injection, which embeds directives. We identify a third attack surface: the salience channel, through which fact position, emphasis, framing, and semantic proximity can redirect reasoning even when all retrieved claims are true and no instructions are present. We formalize Salience Induction as truth-preserving edits that redirect Multi-Hop attribute binding while leaving the retrieval trace semantically intact. We define six Salience-Editing operator classes and build an iterative proposer-verifier pipeline under factual and stealth constraints. We also introduce SalientWiki-MH, a decoy-annotated Multi-Hop benchmark. Evaluations across five frontier model families (GPT, Claude, Gemini, DeepSeek, and Qwen) and three agent architectures (ReAct, Reflexion, and tool-calling) show broad generalization. Under a 30% edit budget, Salience Induction achieves an 83.3% attack success rate; the strongest evaluated baseline defense leaves 75.7% post-defense ASR. Untargeted rewriting further reduces attacks only by degrading neutral task success. Our lightweight input-side defense, Salience Normalization, reduces attack success to 15.3% under standard attacks and 23.6% under an adaptive attack. These results show that truthfulness and instruction filtering alone are insufficient: robust agentic RAG also requires defenses against salience-relevance decoupling.",
-    "published": "2026-07-20T04:27:50Z",
-    "link": "http://arxiv.org/abs/2607.17535v1",
-    "authors": [
-      "Xingfu Zhou",
-      "Pengfei Wang",
-      "Yuan Zhou",
-      "Wei Xie",
-      "Xu Zhou"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.CL"
-    ],
-    "ai_summary": "Agentic retrieval-augmented generation (RAG) systems increasingly retrieve external evidence and orchestrate tools for knowledge-intensive applications. In Multi-Hop question answering, agents chain facts across documents.",
-    "selected_date": "2026-07-21"
   }
 ]
