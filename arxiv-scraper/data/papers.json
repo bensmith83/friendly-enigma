@@ -1,5 +1,24 @@
 [
   {
+    "id": "2608.19534v1",
+    "title": "AEGIS: Attention-Embedding Gradient Isolation Shield - Triple-Channel Gradient Masking for Privacy-Preserving Federated LLM Fine-Tuning",
+    "summary": "Gradient inversion attacks recover private training text from gradients shared in federated learning, posing a serious threat to collaborative model training. Through our analysis of transformer gradient structure, we identify three channels through which private token information leaks: the attention output projection gradient exposes a low-rank subspace that encodes input embeddings (Channel 1), the embedding gradient's row-norm sparsity directly reveals which tokens are present (Channel 2), and the MLP expansion gradient carries a recoverable subspace signal analogous to Channel 1 (Channel 3). State-of-the-art attacks exploit these channels analytically to achieve near-exact token recovery in seconds. Existing defences address at most one channel and either degrade model utility or leave the remaining structural signals intact.   We introduce AEGIS (Attention-Embedding Gradient Isolation Shield), a lightweight defence that closes all three analytical channels with three backward-path operations requiring no architectural changes: freezing attention projection parameters eliminates Channel 1 by construction, calibrated noise injection into the embedding gradient destroys Channel 2's token-presence signal, and analogous per-block noise injection into the MLP expansion gradient masks Channel 3. The same masked gradient drives both the local optimiser step and the server export, so no clean signal is retained on either side.   Evaluated across 11 models and six datasets, AEGIS reduces token recovery rates to near zero against a range of gradient inversion attacks, both analytical and optimisation-based, while preserving or improving model utility. We provide formal guarantees for Channels 1 and 2 and validate the full defence empirically against adaptive adversaries with complete knowledge of the mechanism.",
+    "published": "2026-08-20T01:12:56Z",
+    "link": "http://arxiv.org/abs/2608.19534v1",
+    "authors": [
+      "Ye Tao",
+      "Hong Shen",
+      "Hui Tian",
+      "Xin Wang",
+      "Can Wang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Gradient inversion attacks recover private training text from gradients shared in federated learning, posing a serious threat to collaborative model training. Through our analysis of transformer gradient structure, we identify three channels through which private token information leaks: the attention output projection gradient exposes a low-rank subspace that encodes input embeddings (Channel 1), the embedding gradient's row-norm sparsity directly reveals which tokens are present (Channel 2), and the MLP expansion gradient carries a recoverable subspace signal analogous to Channel 1 (Channel 3).",
+    "selected_date": "2026-08-22"
+  },
+  {
     "id": "2608.20160v1",
     "title": "Chameleon: Robust Defense Against Tor Website Fingerprinting via Many-to-Many Traffic Morphing",
     "summary": "Website fingerprinting (WF) attacks can infer users' browsing activities from encrypted Tor traffic by exploiting side-channel features. Although many WF defenses have been proposed, we find that most existing defenses create learnable web trace mapping features. We further show that robustness against adversarial training does not necessarily imply robustness against defense-aware autoencoder (DAAE)-based attacks.   To address these limitations, we present Chameleon, a robust WF defense based on many-to-many randomized traffic morphing. Chameleon selects morphing candidates with high intra-class diversity and low inter-class disparity. Chameleon randomly maps each webpage trace to multiple candidates, and allows different webpages to share morphing targets, thereby increasing adversarial uncertainty. For practical Tor deployment, Chameleon introduces a radix-trie-based synchronization mechanism that enables pluggable transport (PT) endpoints to identify consistent morphing traces using packet-direction prefixes, together with trace mutation and normalized prefix matching to reduce overhead. We evaluate Chameleon against six state-of-the-art defenses and five WF attacks on three public datasets in closed- and open-world settings. Compared with Adaptive Tamaraw, Chameleon reduces adversarial-training-based attack accuracy by up to 36.74% while reducing bandwidth and time overhead by 34.12% and 60.38%, respectively. Under DAAE-based RF attacks on GTT23, Chameleon limits attack performance to 35.19% F1-score while Adaptive Tamaraw only limits it to 88.22% F1-score. In the real-world PT bridge evaluation, Chameleon substantially reduces the effectiveness of strong WF attacks while incurring only 16.25% time overhead.",
@@ -613,26 +632,5 @@
     ],
     "ai_summary": "Large language models (LLMs) are vulnerable to backdoor attacks, where hidden triggers induce malicious outputs. Existing defenses generally fall into inference-time detection or training-time mitigation, but face two key limitations.",
     "selected_date": "2026-07-23"
-  },
-  {
-    "id": "2607.19069v1",
-    "title": "Delineate Anything v2: A Global Foundation Model for Field Delineation",
-    "summary": "Accurate agricultural field boundary delineation at large scale is a foundational task for food security, supply chain transparency, and carbon accounting. While vision foundation models like SAM show remarkable zero-shot capabilities, they frequently fail in geospatial domains due to topological complexity, cropland texturing patterns, and a lack of physical scale awareness. In this work, we introduce Delineate Anything v2, a globally scalable foundation model designed specifically for wide-area field boundary mapping. We construct FBIS-73M, a 73-million-instance multi-resolution dataset spanning 61 countries. To address the pervasive issue of multi-field administrative parcel merging, we introduce a resolution-specific data curation pipeline that leverages topological image-space adaptation to homogenize merged parcels and strengthen weak physical boundaries. Furthermore, we establish a novel, manually curated evaluation benchmark covering 100 countries to assess independent zero-shot generalization. Our results show that Delineate Anything v2 surpasses the current state-of-the-art, including the Delineate Anything framework, by 0.284 mAP@0.5 (+103.3% relative gain), while maintaining execution speeds suitable for rapid national- and global-scale deployment, as demonstrated by nationwide mapping of Ukraine (603,000 km^2) in 5.4 hours on a consumer-grade workstation. Code, pre-trained weights, the FBIS-73M dataset, and ready-to-use national-scale vector boundary products are publicly available at https://github.com/Lavreniuk/Delineate-Anything.",
-    "published": "2026-07-21T12:59:45Z",
-    "link": "http://arxiv.org/abs/2607.19069v1",
-    "authors": [
-      "Mykola Lavreniuk",
-      "Nataliia Kussul",
-      "Andrii Shelestov",
-      "Yevhenii Salii",
-      "Volodymyr Kuzin",
-      "Charlotte Julia Li-Xing Wang",
-      "Zoltan Szantoi"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Accurate agricultural field boundary delineation at large scale is a foundational task for food security, supply chain transparency, and carbon accounting. While vision foundation models like SAM show remarkable zero-shot capabilities, they frequently fail in geospatial domains due to topological complexity, cropland texturing patterns, and a lack of physical scale awareness.",
-    "selected_date": "2026-07-22"
   }
 ]
