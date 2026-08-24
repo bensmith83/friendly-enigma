@@ -1,5 +1,24 @@
 [
   {
+    "id": "2608.21107v1",
+    "title": "Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda",
+    "summary": "Large Language Models (LLMs) are moving from code completion toward repository-scale agents that retrieve context, edit files, execute tools, and participate in security-sensitive workflows. The evidence for these systems, however, remains divided between software engineering evaluations centered on functional task completion and software security evaluations centered on vulnerability detection, secure generation, or exploit-oriented validation. This evidence-centered structured survey synthesizes representative work available through May 31, 2026 across software engineering tasks, software security tasks, adaptation mechanisms, artifact granularity, and evaluation design. In addition to a task taxonomy, we introduce an assurance framework that separates functional correctness, security, operational reliability, evidence provenance, and agent authority. The review shows that execution feedback and repository access can substantially improve engineering task completion, but do not by themselves establish security; conversely, static-analysis labels or vulnerability-classification scores rarely establish deployable correctness. We identify recurring validity threats--weak test oracles, duplicated and temporally leaked data, changing agent harnesses, proxy-only security checks, and under-reported budgets and human intervention--and derive a minimum reporting protocol for cross-study comparison. The resulting research agenda prioritizes jointly secure-and-functional benchmarks, repository-scale threat models, calibrated human oversight, longitudinal maintainability evidence, and reproducible agent evaluation. The central conclusion is that model capability should be judged as an assurance case supported by task-appropriate evidence, rather than by a single benchmark score.",
+    "published": "2026-08-21T13:54:38Z",
+    "link": "http://arxiv.org/abs/2608.21107v1",
+    "authors": [
+      "Wei Lin",
+      "Tao Zhou",
+      "Zhaofei Xie",
+      "Changgui Hong"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "ai_summary": "Large Language Models (LLMs) are moving from code completion toward repository-scale agents that retrieve context, edit files, execute tools, and participate in security-sensitive workflows. The evidence for these systems, however, remains divided between software engineering evaluations centered on functional task completion and software security evaluations centered on vulnerability detection, secure generation, or exploit-oriented validation.",
+    "selected_date": "2026-08-24"
+  },
+  {
     "id": "2608.20160v1",
     "title": "Chameleon: Robust Defense Against Tor Website Fingerprinting via Many-to-Many Traffic Morphing",
     "summary": "Website fingerprinting (WF) attacks can infer users' browsing activities from encrypted Tor traffic by exploiting side-channel features. Although many WF defenses have been proposed, we find that most existing defenses create learnable web trace mapping features. We further show that robustness against adversarial training does not necessarily imply robustness against defense-aware autoencoder (DAAE)-based attacks.   To address these limitations, we present Chameleon, a robust WF defense based on many-to-many randomized traffic morphing. Chameleon selects morphing candidates with high intra-class diversity and low inter-class disparity. Chameleon randomly maps each webpage trace to multiple candidates, and allows different webpages to share morphing targets, thereby increasing adversarial uncertainty. For practical Tor deployment, Chameleon introduces a radix-trie-based synchronization mechanism that enables pluggable transport (PT) endpoints to identify consistent morphing traces using packet-direction prefixes, together with trace mutation and normalized prefix matching to reduce overhead. We evaluate Chameleon against six state-of-the-art defenses and five WF attacks on three public datasets in closed- and open-world settings. Compared with Adaptive Tamaraw, Chameleon reduces adversarial-training-based attack accuracy by up to 36.74% while reducing bandwidth and time overhead by 34.12% and 60.38%, respectively. Under DAAE-based RF attacks on GTT23, Chameleon limits attack performance to 35.19% F1-score while Adaptive Tamaraw only limits it to 88.22% F1-score. In the real-world PT bridge evaluation, Chameleon substantially reduces the effectiveness of strong WF attacks while incurring only 16.25% time overhead.",
@@ -611,27 +630,5 @@
     ],
     "ai_summary": "Large language models increasingly use search tools to retrieve up-to-date information, introducing a new attack surface in which retrieved documents can be manipulated. This risk is amplified by the development of generative engine optimization, which can make selected content more likely to be retrieved, cited, and adopted by models.",
     "selected_date": "2026-07-25"
-  },
-  {
-    "id": "2607.20832v1",
-    "title": "Beyond Heavy Log Curation: Perplexity-Based APT Detection via Unsupervised, Context-Augmented Language Models",
-    "summary": "Advanced Persistent Threats (APTs) remain difficult to detect because only a small fraction of events in large-scale logs are attack-related, and investigation is expensive and hard to scale. Prior machine-learning approaches can reduce analyst workload, but they often rely on heavily curated training data and sophisticated preprocessing pipelines. Building and maintaining such pipelines require substantial domain expertise and engineering cost. Motivated by insights from a study of a strong APT detection baseline, we propose CAPTAIN (Context-Augmented Perplexity-based Threat Activity log detectIoN), a perplexity-based detector that leverages general, pre-trained language models with minimal, domain-agnostic preprocessing, enabling robust scoring of long, minimally processed log entries. CAPTAIN encodes recent history with an encoder model and a Q-Former-style bridge, then injects the compact context tokens into the decoder input so that perplexity reflects temporal context. To improve stability, CAPTAIN additionally applies smoothing filters to the perplexity time series. Across APT-oriented benchmarks, CAPTAIN competes with strong existing baselines and remains robust under substantially less curated inputs, that reduces the development and operational cost of advanced log preprocessing.",
-    "published": "2026-07-23T01:38:25Z",
-    "link": "http://arxiv.org/abs/2607.20832v1",
-    "authors": [
-      "Shoya Otsu",
-      "Kei Suzuki",
-      "Toshiaki Koike-Akino",
-      "Jing Liu",
-      "Ye Wang"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.CL",
-      "cs.CR"
-    ],
-    "ai_summary": "Advanced Persistent Threats (APTs) remain difficult to detect because only a small fraction of events in large-scale logs are attack-related, and investigation is expensive and hard to scale. Prior machine-learning approaches can reduce analyst workload, but they often rely on heavily curated training data and sophisticated preprocessing pipelines.",
-    "selected_date": "2026-07-24"
   }
 ]
