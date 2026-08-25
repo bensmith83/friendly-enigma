@@ -1,5 +1,24 @@
 [
   {
+    "id": "2608.23536v1",
+    "title": "Adapter-Based Few-Shot Continual Learning for Malicious Packet Recognition",
+    "summary": "The continual evolution of malware variants necessitates detection systems that can adapt to new threats without retraining from scratch. However, continually updating models on new data often leads to catastrophic forgetting, where previously learned knowledge is overwritten. While continual learning has been increasingly explored for malware detection, the specific setting of Few-Shot Class-Incremental Learning (FSCIL), where new malware classes must be learned from only a small number of labeled examples, remains comparatively underexplored. Therefore, this work investigates the FSCIL setting for malware classification. To address the stability-plasticity dilemma, we propose a hybrid framework that leverages a Self-Supervised Learning (SSL) backbone initialized through domain-specific pre-training on malware packets. Our method incorporates Low-Rank Adaptation (LoRA) to efficiently adapt the model during the base session while freezing the core backbone to preserve previously learned representations, alongside a prototype-based classification head for incremental sessions to establish robust decision boundaries from limited samples. Extensive experiments across several datasets demonstrate that our approach consistently outperforms prior malware FSCIL baselines and achieves state-of-the-art performance.",
+    "published": "2026-08-24T17:41:15Z",
+    "link": "http://arxiv.org/abs/2608.23536v1",
+    "authors": [
+      "Kyle Stein",
+      "Guillermo Francia",
+      "III Eman El-Sheikh",
+      "Andrew Arash Mahyari"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "The continual evolution of malware variants necessitates detection systems that can adapt to new threats without retraining from scratch. However, continually updating models on new data often leads to catastrophic forgetting, where previously learned knowledge is overwritten.",
+    "selected_date": "2026-08-25"
+  },
+  {
     "id": "2608.21107v1",
     "title": "Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda",
     "summary": "Large Language Models (LLMs) are moving from code completion toward repository-scale agents that retrieve context, edit files, execute tools, and participate in security-sensitive workflows. The evidence for these systems, however, remains divided between software engineering evaluations centered on functional task completion and software security evaluations centered on vulnerability detection, secure generation, or exploit-oriented validation. This evidence-centered structured survey synthesizes representative work available through May 31, 2026 across software engineering tasks, software security tasks, adaptation mechanisms, artifact granularity, and evaluation design. In addition to a task taxonomy, we introduce an assurance framework that separates functional correctness, security, operational reliability, evidence provenance, and agent authority. The review shows that execution feedback and repository access can substantially improve engineering task completion, but do not by themselves establish security; conversely, static-analysis labels or vulnerability-classification scores rarely establish deployable correctness. We identify recurring validity threats--weak test oracles, duplicated and temporally leaked data, changing agent harnesses, proxy-only security checks, and under-reported budgets and human intervention--and derive a minimum reporting protocol for cross-study comparison. The resulting research agenda prioritizes jointly secure-and-functional benchmarks, repository-scale threat models, calibrated human oversight, longitudinal maintainability evidence, and reproducible agent evaluation. The central conclusion is that model capability should be judged as an assurance case supported by task-appropriate evidence, rather than by a single benchmark score.",
@@ -608,27 +627,5 @@
     ],
     "ai_summary": "Advanced Persistent Threats (APTs) remain difficult to detect because only a small fraction of events in large-scale logs are attack-related, and investigation is expensive and hard to scale. Prior machine-learning approaches can reduce analyst workload, but they often rely on heavily curated training data and sophisticated preprocessing pipelines.",
     "selected_date": "2026-07-26"
-  },
-  {
-    "id": "2607.20730v1",
-    "title": "GPE: Evaluating Robust Evidence Aggregation for Fact Verification under Controllable GEO-Style Poisoning",
-    "summary": "Large language models increasingly use search tools to retrieve up-to-date information, introducing a new attack surface in which retrieved documents can be manipulated. This risk is amplified by the development of generative engine optimization, which can make selected content more likely to be retrieved, cited, and adopted by models. Existing fact-verification benchmarks and evaluation frameworks do not provide the controlled evidence environments needed to assess robustness against GEO poisoning. We therefore propose GPE, which consists of a multi-domain fact-verification benchmark and an evaluation framework for controlling evidence sources and poisoning ratios. Experiments across multiple verification methods and poisoning attacks demonstrate that GPE exposes robustness degradation and efficiency trade-offs that cannot be observed through clean evaluation alone, confirming the need to evaluate fact verification under adversarial evidence environments.",
-    "published": "2026-07-22T21:04:51Z",
-    "link": "http://arxiv.org/abs/2607.20730v1",
-    "authors": [
-      "Zhaoqi Wang",
-      "Zijian Zhang",
-      "Xiaomei Yuan",
-      "Pengtao Kou",
-      "Jiamou Liu",
-      "Zhen Li",
-      "Liehuang Zhu"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "ai_summary": "Large language models increasingly use search tools to retrieve up-to-date information, introducing a new attack surface in which retrieved documents can be manipulated. This risk is amplified by the development of generative engine optimization, which can make selected content more likely to be retrieved, cited, and adopted by models.",
-    "selected_date": "2026-07-25"
   }
 ]
