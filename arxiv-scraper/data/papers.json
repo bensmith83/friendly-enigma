@@ -1,5 +1,23 @@
 [
   {
+    "id": "2608.30329v1",
+    "title": "Ouroboros: Self-Referential Backdoor Attacks on Speech Enhancement via Clean Audio Triggers",
+    "summary": "Speech enhancement models are widely deployed as frontend modules in real-time speech services, yet their vulnerability to backdoor attacks remains unexplored. Existing backdoor methods are confined to classification tasks and rely on active trigger injection, an assumption incompatible with the passive processing nature of speech enhancement models. In this paper, we propose Ouroboros, a novel backdoor attack framework that leverages the ideal clean outputs of speech enhancement models as natural triggers, enabling inference-time activation without any external trigger injection. Extensive evaluations show Ouroboros achieves near-perfect attack success rates with minimal performance degradation on diverse models and datasets. Physical-world validations confirm that naturally recorded, unaltered clean audio can reliably activate the backdoor. Moreover, Ouroboros generalizes to targeted content-tampering attacks and remains effective against common filtering and finetuning defenses.",
+    "published": "2026-08-31T06:46:41Z",
+    "link": "http://arxiv.org/abs/2608.30329v1",
+    "authors": [
+      "Yunjie Zhou",
+      "Yuheng Huang",
+      "Diqun Yan"
+    ],
+    "categories": [
+      "cs.SD",
+      "cs.CR"
+    ],
+    "ai_summary": "Speech enhancement models are widely deployed as frontend modules in real-time speech services, yet their vulnerability to backdoor attacks remains unexplored. Existing backdoor methods are confined to classification tasks and rely on active trigger injection, an assumption incompatible with the passive processing nature of speech enhancement models.",
+    "selected_date": "2026-09-01"
+  },
+  {
     "id": "2608.28411v1",
     "title": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
     "summary": "Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primarily focus on short-context inputs, leaving the attacks and defenses in long-context settings largely unexplored. This gap leads to a substantial overestimation of the effectiveness of current defenses. In this paper, we bridge the gap by introducing LongPIBench, a long-context benchmark for prompt injection covering 4 realistic application scenarios: paper peer review, resume screening, code review, and email summary. For each scenario, we construct a synthetic dataset and a real-world dataset, with context lengths ranging from thousands to tens of thousands of tokens. The evaluation results on LongPIBench reveal significant vulnerabilities of prompt injection defenses under long-context settings: even simple heuristic prompt injection attacks achieve high success rates and frequently bypass state-of-the-art defenses. We hope LongPIBench can serve as a practical benchmark for systematically evaluating prompt injection defenses in realistic long-context scenarios.",
@@ -600,24 +618,5 @@
     ],
     "ai_summary": "World models give embodied AI a predictive core: they compress observations into states, simulate action-conditioned futures, and enable planning beyond reactive control. This predictive layer, however, opens a new security boundary-compromise can propagate from data, sensors, prompts, or feedback into physical action.",
     "selected_date": "2026-08-02"
-  },
-  {
-    "id": "2607.28075v1",
-    "title": "Temporal Poisoning: Clean-Label Backdoors via Event Redistribution in SNNs",
-    "summary": "Backdoor attacks on Spiking Neural Networks (SNNs) have primarily assumed dirty-label poisoning, in which triggered training samples are relabeled to an attacker-selected class. We study clean-label temporal poisoning, where a fixed timestamp transformation is applied only to the target-class training streams, leaving their labels unchanged. The transformation preserves the per-pixel, per-polarity event count exactly, making clean and triggered samples identical after temporal aggregation while altering the sequence processed by the SNN. Across three neuromorphic datasets and both convolutional and transformer-based victims, the attack reaches an ASR of 1.00 in the strongest configurations. We analyze the attack through poison-budget and trigger-shape ablations and evaluate established backdoor defenses adapted to spiking models. Defenses that collapse the time axis before inspection are blind by construction, while feature-space methods detect the poison only in selected settings. Our model-free detector, based on per-step event mass, detects the evaluated temporal transformations, demonstrating both the limitation of rate-collapsed defenses and the boundary of the attack's stealth. To our knowledge, this is the first clean-label backdoor attack evaluated on SNNs and neuromorphic event data.",
-    "published": "2026-07-30T11:49:28Z",
-    "link": "http://arxiv.org/abs/2607.28075v1",
-    "authors": [
-      "Roberto Ria\u00f1o",
-      "Gorka Abad",
-      "Stjepan Picek",
-      "Aitor Urbieta"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "ai_summary": "Backdoor attacks on Spiking Neural Networks (SNNs) have primarily assumed dirty-label poisoning, in which triggered training samples are relabeled to an attacker-selected class. We study clean-label temporal poisoning, where a fixed timestamp transformation is applied only to the target-class training streams, leaving their labels unchanged.",
-    "selected_date": "2026-08-01"
   }
 ]
