@@ -1,5 +1,23 @@
 [
   {
+    "id": "2609.01171v1",
+    "title": "Johnny Still Receives Spam SMS: Assessing the Robustness of SMS Spam Detection",
+    "summary": "SMS spam detection systems often achieve high accuracy in controlled environments but struggle against adversarial attacks and increasingly sophisticated spam tactics in real-world deployments. In this paper, we evaluate the robustness of SMS anti-spam systems that end users actually rely on, including commercial messaging applications, third-party anti-spam services, and publicly available open-weight models hosted on Hugging Face. We evaluate these systems under both standard and adversarial conditions, considering perceptible and state-of-the-art imperceptible attacks. We include only perturbations that we verify survive real SMS or RCS delivery, rather than lab-only artifacts. Our experiments reveal significant gaps in existing spam detectors' ability to identify adversarially manipulated messages. We further demonstrate that adversarial training alone is insufficient. Using an explicit held-out evaluation protocol, we find that robustness transfers well within a perturbation family but degrades sharply against structurally distinct, encoding-level attacks. To address these weaknesses, we propose a multi-model ensemble that combines adversarial training with spam classifiers diverse in architecture and tokenization. Our results show that this ensemble, particularly when using a minority-voting strategy, substantially improves robustness against both perceptible and imperceptible adversarial attacks while maintaining competitive classification accuracy. We also characterize the resulting precision-recall trade-off and recommend operating points for false-positive-sensitive and recall-critical deployments. These findings highlight the need for comprehensive robustness evaluations and ensemble-based defenses for building more secure SMS spam detection systems in real-world settings.",
+    "published": "2026-09-01T12:47:36Z",
+    "link": "http://arxiv.org/abs/2609.01171v1",
+    "authors": [
+      "Muhammad Salman",
+      "Muhammad Islam",
+      "Muhammad Ikram",
+      "Mohamed Ali Kaafar"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "SMS spam detection systems often achieve high accuracy in controlled environments but struggle against adversarial attacks and increasingly sophisticated spam tactics in real-world deployments. In this paper, we evaluate the robustness of SMS anti-spam systems that end users actually rely on, including commercial messaging applications, third-party anti-spam services, and publicly available open-weight models hosted on Hugging Face.",
+    "selected_date": "2026-09-02"
+  },
+  {
     "id": "2608.30329v1",
     "title": "Ouroboros: Self-Referential Backdoor Attacks on Speech Enhancement via Clean Audio Triggers",
     "summary": "Speech enhancement models are widely deployed as frontend modules in real-time speech services, yet their vulnerability to backdoor attacks remains unexplored. Existing backdoor methods are confined to classification tasks and rely on active trigger injection, an assumption incompatible with the passive processing nature of speech enhancement models. In this paper, we propose Ouroboros, a novel backdoor attack framework that leverages the ideal clean outputs of speech enhancement models as natural triggers, enabling inference-time activation without any external trigger injection. Extensive evaluations show Ouroboros achieves near-perfect attack success rates with minimal performance degradation on diverse models and datasets. Physical-world validations confirm that naturally recorded, unaltered clean audio can reliably activate the backdoor. Moreover, Ouroboros generalizes to targeted content-tampering attacks and remains effective against common filtering and finetuning defenses.",
@@ -597,26 +615,5 @@
     ],
     "ai_summary": "Student engagement (SE) is a critical predictor of academic performance and retention in STEM education, yet existing measurement approaches are often intrusive, manually intensive, or unsuitable for real-time classroom use. This thesis proposes a novel $\\textit{Biometric Sensor Network}$ (BSN) designed to enable real-time measurement and continuous tracking of individual student engagement in STEM classroom environments.",
     "selected_date": "2026-08-03"
-  },
-  {
-    "id": "2607.28226v1",
-    "title": "Security of World-Model-Based Embodied AI: A Lifecycle of Threats, Defenses, and Evaluation",
-    "summary": "World models give embodied AI a predictive core: they compress observations into states, simulate action-conditioned futures, and enable planning beyond reactive control. This predictive layer, however, opens a new security boundary-compromise can propagate from data, sensors, prompts, or feedback into physical action. Rather than treating world models as an isolated component, this survey traces threats across their entire lifecycle-from data construction and representation learning, through state grounding and imagination, to trajectory evaluation, execution, and long-term adaptation via memory and tools. We show that familiar attack families: poisoning, backdoors, adversarial examples, sensor spoofing, prompt injection, trajectory manipulation, and supply-chain attacks take on distinct meanings when they corrupt world states, learned dynamics, affordance estimates, or safety costs. We also highlight a duality: world models can serve as runtime safety shields, yet when compromised or over-trusted they generate predictive safety illusions. The survey offers a lifecycle taxonomy, maps existing attacks to world-model security properties, outlines evaluation protocols for safety failures, and structures defenses across provenance, robust grounding, uncertainty-aware prediction, trajectory gating, feedback auditing, and deployment assurance.",
-    "published": "2026-07-30T13:58:33Z",
-    "link": "http://arxiv.org/abs/2607.28226v1",
-    "authors": [
-      "Fazhong Liu",
-      "Zhuoyan Chen",
-      "Haozhen Tan",
-      "Yan Meng",
-      "Guoxing Chen",
-      "Haojin Zhu"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "ai_summary": "World models give embodied AI a predictive core: they compress observations into states, simulate action-conditioned futures, and enable planning beyond reactive control. This predictive layer, however, opens a new security boundary-compromise can propagate from data, sensors, prompts, or feedback into physical action.",
-    "selected_date": "2026-08-02"
   }
 ]
