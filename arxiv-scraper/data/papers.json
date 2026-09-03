@@ -1,5 +1,23 @@
 [
   {
+    "id": "2609.02741v1",
+    "title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
+    "summary": "Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure (V2I) and Vehicle-to-Vehicle (V2V) communication. The integrity of these messages is threatened by a range of application-layer attacks that can bypass conventional authentication when a roadside unit or peer vehicle is compromised. Existing intrusion detection research either defends the infrastructure side or targets V2V Basic Safety Message (BSM) / Cooperative Awareness Message (CAM) misbehavior, leaving the onboard CV perspective on SPaT integrity unaddressed.To close this gap, we introduce SPADE --- the SPaT Attack Detection and Evaluation dataset --- a labelled, multi-modal, simulation-based dataset designed specifically for deep learning IDS research in this space. SPADE is generated through Eclipse MOSAIC using runtime attack injection at the SAE J2735 application layer across six attack classes and one benign class. By combining four intersection geometries, six operating conditions, and five independent random-seed repetitions, SPADE comprises 180 unique base scenario runs, yielding $\\sim$1,890,000 labelled timestep records (270,000 per class). Each record fuses SPaT message fields, onboard camera confidence scores, and cooperative V2V peer data across 40 features, reflecting the multi-modal signal space required to distinguish deliberate attacks from environmental degradation. The dataset, generation code, and scenario configurations are released publicly to support reproducible and comparative IDS research in C-V2X security. The developed toolbox, instructions, and dataset link are publicly available on GitHub: https://github.com/jdinovo/SPADE.",
+    "published": "2026-09-02T15:46:55Z",
+    "link": "http://arxiv.org/abs/2609.02741v1",
+    "authors": [
+      "James Di Novo",
+      "Hany Ragab",
+      "Sylvain P. Leblanc"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "ai_summary": "Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure (V2I) and Vehicle-to-Vehicle (V2V) communication. The integrity of these messages is threatened by a range of application-layer attacks that can bypass conventional authentication when a roadside unit or peer vehicle is compromised.",
+    "selected_date": "2026-09-03"
+  },
+  {
     "id": "2609.01171v1",
     "title": "Johnny Still Receives Spam SMS: Assessing the Robustness of SMS Spam Detection",
     "summary": "SMS spam detection systems often achieve high accuracy in controlled environments but struggle against adversarial attacks and increasingly sophisticated spam tactics in real-world deployments. In this paper, we evaluate the robustness of SMS anti-spam systems that end users actually rely on, including commercial messaging applications, third-party anti-spam services, and publicly available open-weight models hosted on Hugging Face. We evaluate these systems under both standard and adversarial conditions, considering perceptible and state-of-the-art imperceptible attacks. We include only perturbations that we verify survive real SMS or RCS delivery, rather than lab-only artifacts. Our experiments reveal significant gaps in existing spam detectors' ability to identify adversarially manipulated messages. We further demonstrate that adversarial training alone is insufficient. Using an explicit held-out evaluation protocol, we find that robustness transfers well within a perturbation family but degrades sharply against structurally distinct, encoding-level attacks. To address these weaknesses, we propose a multi-model ensemble that combines adversarial training with spam classifiers diverse in architecture and tokenization. Our results show that this ensemble, particularly when using a minority-voting strategy, substantially improves robustness against both perceptible and imperceptible adversarial attacks while maintaining competitive classification accuracy. We also characterize the resulting precision-recall trade-off and recommend operating points for false-positive-sensitive and recall-critical deployments. These findings highlight the need for comprehensive robustness evaluations and ensemble-based defenses for building more secure SMS spam detection systems in real-world settings.",
@@ -597,23 +615,5 @@
     ],
     "ai_summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning.",
     "selected_date": "2026-08-04"
-  },
-  {
-    "id": "2607.28944v1",
-    "title": "A Biometric Sensor Network to Enable Real-Time Measurement of Individual Student Engagement in STEM Lecture Environments",
-    "summary": "Student engagement (SE) is a critical predictor of academic performance and retention in STEM education, yet existing measurement approaches are often intrusive, manually intensive, or unsuitable for real-time classroom use. This thesis proposes a novel $\\textit{Biometric Sensor Network}$ (BSN) designed to enable real-time measurement and continuous tracking of individual student engagement in STEM classroom environments. The system enables capturing of behavioral, emotional, and cognitive indicators through camera-based sensing while preserving ethical and privacy constraints.   To measure these indicators unobtrusively and ethically, we propose a BSN composed of $\\textit{Student Processing Units}$ (SPUs) that function as distributed sensing nodes. The network is explicitly designed to satisfy five objectives: it must be $\\textbf{non-intrusive}, \\textbf{non-invasive}, \\textbf{non-stigmatizing}, \\textbf{real-time}$, and $\\textbf{automatic}$, while ensuring rigorous protection of student data security and privacy.   Each SPU supports two operational modes: (i) a $\\textit{dataset-collection mode}$, in which raw student video is temporarily recorded to construct a private SE dataset for model training and validation, and (ii) an $\\textit{analysis mode}$, in which the SPU performs real-time inference on 10-second video segments without storing or transmitting raw frames. In this analysis role, each SPU enables fully on-device processing---including face detection, gaze estimation, and affective analysis---ensuring that no identifiable video data leaves the device. A secure backend infrastructure manages device authentication, session orchestration, and encrypted data ingestion. The full system integrates hardware design, computer-vision pipelines, wireless networking, security protocols, and session-level data management.",
-    "published": "2026-07-31T01:54:08Z",
-    "link": "http://arxiv.org/abs/2607.28944v1",
-    "authors": [
-      "Ahmed Elsayed"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.CV",
-      "cs.SE",
-      "eess.IV"
-    ],
-    "ai_summary": "Student engagement (SE) is a critical predictor of academic performance and retention in STEM education, yet existing measurement approaches are often intrusive, manually intensive, or unsuitable for real-time classroom use. This thesis proposes a novel $\\textit{Biometric Sensor Network}$ (BSN) designed to enable real-time measurement and continuous tracking of individual student engagement in STEM classroom environments.",
-    "selected_date": "2026-08-03"
   }
 ]
