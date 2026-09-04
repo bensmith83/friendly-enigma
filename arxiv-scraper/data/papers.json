@@ -1,5 +1,24 @@
 [
   {
+    "id": "2609.03815v1",
+    "title": "Inferring Hidden User Models from the Behavior of Personalized LLM Agents",
+    "summary": "Recent personalized LLM agents increasingly transform information retained in memory into compressed or structured representations, which we call user models, to guide later decisions. When source wording is removed from the state reachable through the ordinary interface, these models are commonly treated as more privacy-preserving because direct memory-extraction attacks lose the text they target. Yet we argue that user models expose a new attack surface because an attacker can still recover the private information from the personalized choices they shape, even when source records and backend state remain inaccessible. We therefore introduce UMPeek, a black-box attack based on hypothesis-guided adaptive probing to infer such hidden user model. It forms hypotheses from choices left open by a request, switches among ordinary follow-up tasks, and retains only claims supported and not contradicted by visible behavior. We conduct an extensive benchmark evaluation across diverse personalization tasks and user-model backends against existing attacks. We further validate UMPeek in real-world systems using information confirmed to be retained, and we evaluate defenses against its adaptive probing. Overall, UMPeek outperforms existing attacks in both benchmark and real-world comparisons and continues to recover user information under response-level defenses, showing that keeping records and backend state inaccessible does not guarantee semantic privacy when retained information shapes visible behavior.",
+    "published": "2026-09-03T13:19:15Z",
+    "link": "http://arxiv.org/abs/2609.03815v1",
+    "authors": [
+      "Haoyang Li",
+      "Yaxin Xiao",
+      "Qingqing Ye",
+      "Huadi Zheng",
+      "Haibo Hu"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Recent personalized LLM agents increasingly transform information retained in memory into compressed or structured representations, which we call user models, to guide later decisions. When source wording is removed from the state reachable through the ordinary interface, these models are commonly treated as more privacy-preserving because direct memory-extraction attacks lose the text they target.",
+    "selected_date": "2026-09-04"
+  },
+  {
     "id": "2609.02741v1",
     "title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
     "summary": "Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure (V2I) and Vehicle-to-Vehicle (V2V) communication. The integrity of these messages is threatened by a range of application-layer attacks that can bypass conventional authentication when a roadside unit or peer vehicle is compromised. Existing intrusion detection research either defends the infrastructure side or targets V2V Basic Safety Message (BSM) / Cooperative Awareness Message (CAM) misbehavior, leaving the onboard CV perspective on SPaT integrity unaddressed.To close this gap, we introduce SPADE --- the SPaT Attack Detection and Evaluation dataset --- a labelled, multi-modal, simulation-based dataset designed specifically for deep learning IDS research in this space. SPADE is generated through Eclipse MOSAIC using runtime attack injection at the SAE J2735 application layer across six attack classes and one benign class. By combining four intersection geometries, six operating conditions, and five independent random-seed repetitions, SPADE comprises 180 unique base scenario runs, yielding $\\sim$1,890,000 labelled timestep records (270,000 per class). Each record fuses SPaT message fields, onboard camera confidence scores, and cooperative V2V peer data across 40 features, reflecting the multi-modal signal space required to distinguish deliberate attacks from environmental degradation. The dataset, generation code, and scenario configurations are released publicly to support reproducible and comparative IDS research in C-V2X security. The developed toolbox, instructions, and dataset link are publicly available on GitHub: https://github.com/jdinovo/SPADE.",
@@ -593,27 +612,5 @@
     ],
     "ai_summary": "Resource constraints on UAV platforms have driven a paradigm shift in aerial tracking, from pursuing performance toward balancing accuracy with efficiency. Adaptive Transformer Trackers, which leverage an input-dependent dynamic routing architecture, have emerged as a representative solution to this challenge.",
     "selected_date": "2026-08-05"
-  },
-  {
-    "id": "2608.02585v1",
-    "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
-    "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning. We introduce GradCuit (gradient through circuit), which inserts optimizable latent states at a selected Transformer layer between the hidden representations of the prompt and the generated continuation. Causal self-attention provides every continuation-token log-probability with a differentiable path to every preceding latent state through the remaining Transformer blocks, enabling reward-weighted gradients from the entire continuation to be assigned directly to the latents. Across five instruction-tuned backbones, three reasoning benchmarks, and two answer formats, GradCuit achieves an average accuracy of 64.5%, outperforming chain-of-thought prompting by 6.6 percentage points and the strongest competing method by 2.4 points. GradCuit also demonstrates greater robustness: across seven learning-rate settings, it consistently outperforms LatentSeek while reducing the standard deviation of accuracy from 1.53 to 0.82, and even its random-walk variant remains competitive with LatentSeek. For interpretability, token-level gradient attribution reveals that latent influence concentrates on reasoning-connector tokens, while layer analysis identifies early-to-middle Transformer layers as the most effective optimization space. By directly optimizing internal reasoning from outcome feedback, GradCuit opens a new axis of robust and interpretable test-time scaling, where LLMs adapt how they reason rather than merely regenerate, sample, or rerank outputs.",
-    "published": "2026-08-03T17:55:24Z",
-    "link": "http://arxiv.org/abs/2608.02585v1",
-    "authors": [
-      "Zhaoxin Yu",
-      "Qi Shen",
-      "Hengli Li",
-      "Zhaowei Zhang",
-      "Song-Chun Zhu",
-      "Chi Zhang",
-      "Zilong Zheng"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CL"
-    ],
-    "ai_summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning.",
-    "selected_date": "2026-08-04"
   }
 ]
