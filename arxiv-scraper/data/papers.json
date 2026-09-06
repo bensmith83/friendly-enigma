@@ -1,5 +1,27 @@
 [
   {
+    "id": "2609.03884v1",
+    "title": "A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors",
+    "summary": "Modern AI agent harnesses expose lifecycle hooks that bind shell commands to runtime events such as session start, tool calls, and file edits. These commands run with host privileges yet ship as lifecycle-hook configuration and may fire at times the LLM never observes. We identify the lifecycle-hook update path, which harnesses trust blindly, as a new attack surface. Under a supply-chain threat model in which an attacker controls only plugin metadata and lifecycle-hook configuration, a benign versioned plugin can be trojanized by an update that silently binds attacker-chosen commands to benign events, yielding malicious host-side behavior such as privilege escalation. We propose HookPry, an open-source and fully automated attack framework that systematically exploits this vulnerability across heterogeneous AI agent harnesses. HookPry realizes ten attack objectives; across 25 combinations of harnesses and backends in 1,000 end-to-end runs, it compromises all seven evaluated harnesses, with per-harness success rates reaching 92.5%. Representative defenses remain insufficient: Microsoft Defender has 0% recall, and the union of three static defenses misses 47.5% of malicious artifacts.",
+    "published": "2026-09-03T14:08:42Z",
+    "link": "http://arxiv.org/abs/2609.03884v1",
+    "authors": [
+      "Pengxun Li",
+      "Litian Zhang",
+      "Jianwei Hou",
+      "Shujiang Wu",
+      "Song Li",
+      "Zifeng Kang",
+      "Xi Zhang"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Modern AI agent harnesses expose lifecycle hooks that bind shell commands to runtime events such as session start, tool calls, and file edits. These commands run with host privileges yet ship as lifecycle-hook configuration and may fire at times the LLM never observes.",
+    "selected_date": "2026-09-06"
+  },
+  {
     "id": "2609.04075v1",
     "title": "PatchBench: Evaluating AI Agents for Vulnerability Patching",
     "summary": "AI agents have recently demonstrated strong performance in automated vulnerability patching. However, existing evaluations often validate a patch only by testing whether the provided Proof-of-Concept (PoC) input still triggers a crash. This leaves two key threats to validity: agents may reproduce memorized historical developer patches, or they may generate surface-level fixes that only suppress the reported crash.   We study these concerns for C/C++ vulnerability patching. We introduce a patch similarity metric to detect memorized patches. On average, 25% of the agent patches exhibit substantial similarity to historical developer patches, indicating that patch memorization is a real threat to the validity of vulnerability patching evaluations. Meanwhile, agents also frequently exploit benchmark structures to pass patch validation by patching on the crash stack trace to suppress the crash, rather than localizing and fixing the root cause of the vulnerabilities.   To handle these issues, we propose PatchBench, a new benchmark for evaluating AI agents on realistic vulnerability patching tasks. PatchBench selects vulnerabilities whose ground-truth fixes lie outside the crash stack and uses vulnerability transplant and code mutations to migrate historical vulnerabilities into new repository contexts, reducing the risks of surface-level fixes and patch memorization. We develop new patch validation methods that thoroughly evaluate both security and semantic correctness of agent patches. Across 11 state-of-the-art agents, including the top three AIxCC agents, the original PoC-only validation inflates the patching task solve rate of agents by 1.83$\\times$ on average. Our results reveal key limitations of current patching agents and point to future research directions for more reliable vulnerability repair.",
@@ -587,28 +609,5 @@
     ],
     "ai_summary": "Significant advancements in deep learning have been made possible by the utilization of large datasets, underscoring the critical importance of copyright protection. Adding meticulously designed perturbations to examples, making them unlearnable has become a crucial approach for safeguarding data copyright.",
     "selected_date": "2026-08-07"
-  },
-  {
-    "id": "2608.05115v1",
-    "title": "Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition",
-    "summary": "Can computer vision help make classrooms safer? In this pilot study, we investigate privacy-aware and computationally efficient classroom incident recognition from CCTV-style observations. This setting remains underexplored, with limited benchmarks and few methods designed for the privacy, efficiency, and generalization demands of real-world deployment. We introduce a novel hybrid benchmark combining generative CCTV-style videos with real-world classroom pose data, and propose a lightweight, but robust motion-reasoning framework motivated by the observation that many incidents differ more in motion direction, speed, acceleration, and intensity than in pose alone. To that end, our method first constructs hierarchical kinematic representations of human actions. Our method then distills hierarchical, multi-order kinematic reasoning from a large teacher into a much smaller single-order student, enabling efficient per-person inference while preserving expressive motion understanding. Experiments show that our model outperforms substantially larger baselines at less than one-tenth of their computational cost, while also demonstrating stronger out-of-domain motion reasoning and zero-shot synthetic-to-real generalization. We will publicly release the benchmark, codebase, and supporting tools to facilitate further research in privacy-aware classroom safety.",
-    "published": "2026-08-05T17:46:28Z",
-    "link": "http://arxiv.org/abs/2608.05115v1",
-    "authors": [
-      "Paritosh Parmar",
-      "Landy Lan",
-      "Hong Yang",
-      "Chen Yi",
-      "Chiat Pin Tay"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.AI",
-      "cs.ET",
-      "cs.HC",
-      "cs.LG"
-    ],
-    "ai_summary": "Can computer vision help make classrooms safer? In this pilot study, we investigate privacy-aware and computationally efficient classroom incident recognition from CCTV-style observations. This setting remains underexplored, with limited benchmarks and few methods designed for the privacy, efficiency, and generalization demands of real-world deployment.",
-    "selected_date": "2026-08-06"
   }
 ]
