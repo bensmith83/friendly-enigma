@@ -1,5 +1,1143 @@
 [
   {
+    "date": "2026-09-06",
+    "week_of": "September 06, 2026",
+    "digest_number": 36,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "The Price of Privacy When It Comes to Dementia",
+          "description": "Many patients decide to withdraw from their social circles, cease the activities they enjoy, and retreat to a life that is much too small, writes Dr. Zaldy S. Tan.",
+          "content": "Perhaps more than other diseases, the desire for privacy is particularly strong for dementia, which is still viewed by many as a mental health disorder rather than a neurologic disease like Parkinson\u2026 [+1225 chars]",
+          "url": "https://time.com/article/2026/09/12/the-price-of-privacy-when-it-comes-to-dementia/",
+          "source_name": "Time",
+          "source_type": "newsapi",
+          "published_at": "2026-09-05T10:00:04Z",
+          "author": "Zaldy S. Tan",
+          "image_url": "https://static.time.com/v3/assets/bltea6093859af6183b/bltd1d381062bd906bf/6a7f522443447394a58682f0/dementia-privacy.jpg?branch=production&width=2121&quality=75&auto=webp&crop=16:9",
+          "is_local_nj": false,
+          "article_id": "6f81df80f0aa",
+          "summary": "Many patients decide to withdraw from their social circles, cease the activities they enjoy, and retreat to a life that is much too small, writes Dr. Zaldy S. Tan.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Column: Baseball history is full of interesting and unusual connections",
+          "description": "\u201cI\u2019m not a headline guy. I know that as long as I was following Ruth to the plate, I could have stood on my head and no one would have known the difference.",
+          "content": "\"I'm not a headline guy. I know that as long as I was following Ruth to the plate, I could have stood on my head and no one would have known the difference.\" Lou Gehrig, New York Yankees\r\nBaseball hi\u2026 [+4487 chars]",
+          "url": "https://www.postandcourier.com/aikenstandard/sports/localsports/column-baseball-new-york-yankees-gehrig-wanninger/article_050f55c0-f815-4e56-a63b-53b7fa494227.html",
+          "source_name": "Charleston Post Courier",
+          "source_type": "newsapi",
+          "published_at": "2026-09-05T09:30:00Z",
+          "author": "Lamar Garrard Special to the Aiken Standard",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/05d4a7bf80b8011e21e01ce640f9954e5c559ec95648887221d92b1272898c01/lightyear_networkapi/resizefill_w600_h800%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpost_and_courier_110%2Fc041a0867511d47e2a616fcbbc89abc4.jpg",
+          "is_local_nj": false,
+          "article_id": "8916a69bed9d",
+          "summary": "\u201cI\u2019m not a headline guy. I know that as long as I was following Ruth to the plate, I could have stood on my head and no one would have known the difference.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Hulu\u2019s best hitman drama is only 30 minutes long, and it has a 98% audience score",
+          "description": "Every 25 minute episode discards filler to deliver sharp, unsettling beats that make domestic tasks feel dangerous.",
+          "content": "I almost passed on Mr Inbetween because the runtime looked like a red flag. Every prestige crime drama I actually finish runs 50 minutes or more, like the still-making-news Breaking Bad and The Sopra\u2026 [+7512 chars]",
+          "url": "https://www.makeuseof.com/hulu-best-hitman-drama-only-30-minutes-long-has-98-audience-score/",
+          "source_name": "MakeUseOf",
+          "source_type": "newsapi",
+          "published_at": "2026-09-04T23:00:13Z",
+          "author": "Bryan M. Wolfe",
+          "image_url": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/wm/2026/09/mr-inbetween-hero.jpeg?w=1600&h=900&fit=crop",
+          "is_local_nj": false,
+          "article_id": "9fff61ef547c",
+          "summary": "Every 25 minute episode discards filler to deliver sharp, unsettling beats that make domestic tasks feel dangerous.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sandra Bullock's Daughter Told Her to Date Again After Bryan Randall's Death",
+          "description": "Sandra Bullock often hears unfiltered hard truths from her children. \u201cLaila is brutal. I was getting on a Zoom, and she walks by, and she went, \u2018You know, you can put a filter on that,\u2019\u201d Bullock, 62, recalled on the Thursday, September 3, episode of the \u201cNot \u2026",
+          "content": "Sandra Bullock often hears unfiltered hard truths from her children.\r\n\u201cLaila is brutal. I was getting on a Zoom, and she walks by, and she went, \u2018You know, you can put a filter on that,\u2019\u201d Bullock, 62\u2026 [+2533 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/sandra-bullocks-kid-told-her-to-date-after-partners-death/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-09-04T12:42:45Z",
+          "author": "Miranda Siwak",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/09/Sandra-Bullock-GettyImages-2293078665.jpg?crop=0px%2C184px%2C1444px%2C758px&resize=1200%2C630&quality=40&strip=all",
+          "is_local_nj": false,
+          "article_id": "40dff4050725",
+          "summary": "Sandra Bullock often hears unfiltered hard truths from her children. \u201cLaila is brutal. I was getting on a Zoom, and she walks by, and she went, \u2018You know, you can put a filter on that,\u2019\u201d Bullock, 62, ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock debuts new tattoo at Practical Magic 2 premiere after partner Bryan Randall's death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16083323/Sandra-Bullock-tattoo-Practical-Magic-premiere-Bryan-Randall.html",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock, 62, looks downcast as she steps out for the first time since breaking silence on partner Bryan Randall's tragic death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16067835/Sandra-Bullock-outing-Randall-death-ALS.html",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "How Jennifer Aniston became Sandra Bullock's shoulder to cry on during late partner Bryan Randall's ALS battle amid a three-decade friendship that was sparked by a mutual ex-boyfriend",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16067367/Jennifer-Aniston-Sandra-Bullock-Bryan-Randall-ALS.html",
+              "digest_date": "2026-08-23"
+            }
+          ]
+        },
+        {
+          "title": "Sandra Bullock gives rare update on her dating life three years after partner Bryan Randall's death",
+          "description": "The 62-year-old Practical Magic 2 star appeared on Kylie Kelce's Not Gonna Lie podcast this week.",
+          "content": "Sandra Bullock\u00a0has given rare insight into her dating life, three years after her partner Bryan Randall died\u00a0from amyotrophic lateral sclerosis (ALS) at age 57.\r\nThe 62-year-old Practical Magic 2 sta\u2026 [+3367 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16104109/Sandra-Bullock-rare-comment-dating-life-Bryan-Randall-death.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-04T01:21:51Z",
+          "author": "Ashleigh Gray",
+          "image_url": "https://i.dailymail.com/1s/2026/09/04/01/111043311-0-image-m-17_1788482123878.jpg",
+          "is_local_nj": false,
+          "article_id": "ec58e2dcb5b9",
+          "summary": "The 62-year-old Practical Magic 2 star appeared on Kylie Kelce's Not Gonna Lie podcast this week.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock Showed Up to the \u2018Practical Magic 2\u2019 Premiere in London with a New Shoulder Tattoo for Her Two Kids",
+              "url": "https://thoughtcatalog.com/nicolestawiarski/2026/08/sandra-bullock-showed-up-to-the-practical-magic-2-premiere-in-london-with-a-new-shoulder-tattoo-for-her-two-kids/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock debuts meaningful tattoo tribute to her kids at \u2018Practical Magic 2\u2019 premiere",
+              "url": "https://pagesix.com/2026/08/27/style/sandra-bullock-debuts-meaningful-tattoo-tribute-to-kids-at-practical-magic-2-premiere/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock debuts new tattoo at Practical Magic 2 premiere after partner Bryan Randall's death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16083323/Sandra-Bullock-tattoo-Practical-Magic-premiere-Bryan-Randall.html",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "A Strange Blood Signal In ALS May Reveal How The Body Tries To Fight Back Against The Disease",
+          "description": "Higher levels of N-acyl taurines were linked to faster ALS progression, but researchers found the pathway may also protect nerve cells.",
+          "content": "A blood sample from someone with amyotrophic lateral sclerosis could contain more than clues about how quickly the disease is progressing. It may also reveal an attempted defense against it.\r\nResearc\u2026 [+4992 chars]",
+          "url": "https://www.medicaldaily.com/als-blood-signal-n-acyl-taurines-478195",
+          "source_name": "Medical Daily",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T20:50:41Z",
+          "author": "Lucia Carter",
+          "image_url": "https://d.medicaldaily.com/en/full/485465/emmanuel-croset-afp-via-getty-images.jpg",
+          "is_local_nj": false,
+          "article_id": "961a281a22b8",
+          "summary": "Higher levels of N-acyl taurines were linked to faster ALS progression, but researchers found the pathway may also protect nerve cells.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sufferers of cruel neurological condition that sees the body shut down - as well as TWO sets of heartbroken parents who've already lost a son each to the disease and\u00a0 now fight for their other sons' lives - BEG the State to act 'before it's too late'",
+              "url": "https://www.dailymail.com/news/article-15986117/Sufferers-cruel-neurological-condition-sees-body-shut-TWO-sets-heartbroken-parents-whove-lost-son-disease-fight-sons-lives-State-act-late.html",
+              "digest_date": "2026-07-26"
+            }
+          ]
+        },
+        {
+          "title": "Federal Regulators Cite an Arizona Stem Cell Company Over Sterility Failures and Claims Aimed at Desperate Patients",
+          "description": "FDA warned an Arizona firm over unapproved umbilical cord products marketed for autism and ALS, citing unvalidated sterility processes.",
+          "content": "Federal regulators have told a Scottsdale, Arizona company that the umbilical cord products it manufactures and sells to clinics are unapproved drugs and unlicensed biological products, and that insp\u2026 [+8000 chars]",
+          "url": "https://www.medicaldaily.com/fda-warning-letter-r3-medical-stem-cell-exosome-clinics-478193",
+          "source_name": "Medical Daily",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T20:30:08Z",
+          "author": "Dorothy Brooks",
+          "image_url": "https://d.medicaldaily.com/en/full/485463/tima-miroshnichenko-pexels.jpg",
+          "is_local_nj": false,
+          "article_id": "5a4d6eed0bcf",
+          "summary": "FDA warned an Arizona firm over unapproved umbilical cord products marketed for autism and ALS, citing unvalidated sterility processes.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sandra Bullock's rarely seen CHILDREN make a surprise cameo in Practical Magic sequel... after star kept them out of spotlight for years",
+          "description": "Sandra Bullock has famously kept her children away from the spotlight, but appears to be changing course with her new film Practical Magic 2.",
+          "content": "Sandra Bullock has famously kept her children away from the spotlight, but the actress appears to be changing course with her new film Practical Magic 2.\r\nThe 62-year-old actress told Access Hollywoo\u2026 [+3292 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16101247/sandra-bullock-children-practical-magic.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T19:34:00Z",
+          "author": "Adam S. Levy",
+          "image_url": "https://i.dailymail.com/1s/2026/09/03/06/111017335-0-image-m-23_1788413741136.jpg",
+          "is_local_nj": false,
+          "article_id": "8151557bceb6",
+          "summary": "Sandra Bullock has famously kept her children away from the spotlight, but appears to be changing course with her new film Practical Magic 2.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock debuts new tattoo at Practical Magic 2 premiere after partner Bryan Randall's death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16083323/Sandra-Bullock-tattoo-Practical-Magic-premiere-Bryan-Randall.html",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock Debuts Shoulder Tattoo at Practical Magic 2 Premiere",
+              "url": "https://www.eonline.com/news/1435447/sandra-bullock-debuts-tattoo-lb2-on-red-carpet-meaning-speculation",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock Finally Breaks Silence Three Years After Her Partner\u2019s Tragic Passing",
+              "url": "https://www.boredpanda.com/sandra-bullock-breaks-silence-keeping-secret-partner-bryan-randall-passing-als/",
+              "digest_date": "2026-08-23"
+            }
+          ]
+        },
+        {
+          "title": "Longtime ALS Network supporter Tom Horton to paddle the Greek Islands honoring his late mother raising awareness and funds for people impacted by ALS in the U.S. and Greece",
+          "description": "LOS ANGELES and ATHENS, Greece, Sept. 3, 2026 /PRNewswire/ -- ALS Network and the Hellenic ALS Association today announced an international collaboration surrounding an extraordinary endurance expedition connecting two countries and two ALS communities throug\u2026",
+          "content": "LOS ANGELES and ATHENS, Greece, Sept. 3, 2026 /PRNewswire/ -- ALS Network and the Hellenic ALS Association today announced an international collaboration surrounding an extraordinary endurance expedi\u2026 [+4172 chars]",
+          "url": "https://www.prnewswire.com/news-releases/longtime-als-network-supporter-tom-horton-to-paddle-the-greek-islands-honoring-his-late-mother-raising-awareness-and-funds-for-people-impacted-by-als-in-the-us-and-greece-302869403.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T19:19:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1624921/ALS-Network-Logo.jpg?id=OA2929362&p=facebook",
+          "is_local_nj": false,
+          "article_id": "45bef9e97a31",
+          "summary": "LOS ANGELES and ATHENS, Greece, Sept. 3, 2026 /PRNewswire/ -- ALS Network and the Hellenic ALS Association today announced an international collaboration surrounding an extraordinary endurance expedit",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sandra Bullock Makes Rare Comment on Dating 3 Years After Losing BF Bryan Randall",
+          "description": "Sandra Bullock, 62, just revealed that her daughter Laila, 13, is ready for her mom to open her heart a bit!\n Bullock made the rare comment about dating three years after her boyfriend Bryan Randall died in 2023 following a long battle with ALS.\n While chatti\u2026",
+          "content": "Sandra Bullock, 62, just revealed that her daughter Laila, 13, is ready for her mom to open her heart a bit!\n Bullock made the rare comment about dating three years after her boyfriend Bryan Randall \u2026 [+867 chars]",
+          "url": "https://extratv.com/2026/09/03/sandra-bullock-makes-rare-comment-on-dating-3-years-after-losing-bf-bryan-randall/",
+          "source_name": "Extra",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T19:08:44Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "1b8b7c81eaaa",
+          "summary": "Sandra Bullock, 62, just revealed that her daughter Laila, 13, is ready for her mom to open her heart a bit!\n Bullock made the rare comment about dating three years after her boyfriend Bryan Randall d",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock debuts new tattoo at Practical Magic 2 premiere after partner Bryan Randall's death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16083323/Sandra-Bullock-tattoo-Practical-Magic-premiere-Bryan-Randall.html",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock Felt \u2018Isolated\u2019 After Her Partner\u2019s ALS Diagnosis",
+              "url": "http://www.thecut.com/article/sandra-bullock-felt-isolated-partner-als-diagnosis.html",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "Sandra Bullock Finally Breaks Silence Three Years After Her Partner\u2019s Tragic Passing",
+              "url": "https://www.boredpanda.com/sandra-bullock-breaks-silence-keeping-secret-partner-bryan-randall-passing-als/",
+              "digest_date": "2026-08-23"
+            }
+          ]
+        },
+        {
+          "title": "Hyperglycemic stress aggravates diabetic retinopathy and nephropathy by promoting cilium disassembly via a deacetylation- and methylation-mediated regulatory mechanism",
+          "description": "Primary cilium dysfunction contributes to diabetic complications, but the mechanisms linking hyperglycemia to cilium loss remain unclear. This study shows PRMT1-HDAC6 crosstalk drives cilium disassembly, identifying a therapeutic target for metabolic ciliopat\u2026",
+          "content": "Citation: Ran J, Wei C, Yang Y, Zhang Y, Guo G, Ma N, et al. (2026) Hyperglycemic stress aggravates diabetic retinopathy and nephropathy by promoting cilium disassembly via a deacetylation- and methy\u2026 [+80986 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003975",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T14:00:00Z",
+          "author": "Jie Ran, Changfeng Wei, Yang Yang, Yufei Zhang, Guizhi Guo, Nan Ma, Long Yin, Hongjun Fan, Jingrui Li, Heng Guo, Renshuai Zhang, Runa Wang, Dengwen Li, Min Liu",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003975.g006&size=inline",
+          "is_local_nj": false,
+          "article_id": "51d8d59362d9",
+          "summary": "Primary cilium dysfunction contributes to diabetic complications, but the mechanisms linking hyperglycemia to cilium loss remain unclear. This study shows PRMT1-HDAC6 crosstalk drives cilium disassemb",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Freddy DeBoer: Whatever Happened to Raj Chetty and His Claims about Teachers?",
+          "description": "Back in 2011, Harvard Professor Raj Chetty and two esteemed colleagues (John Friedman at Brown University and Jonah Rockoff at Columbia University) published a dazzling study of teachers, asserting that the best teachers are those whose students get improved \u2026",
+          "content": "Back in 2011, Harvard Professor Raj Chetty and two esteemed colleagues (John Friedman at Brown University and Jonah Rockoff at Columbia University) published a dazzling study of teachers, asserting t\u2026 [+7083 chars]",
+          "url": "https://dianeravitch.net/2026/09/03/freddy-deboer-whatever-happened-to-raj-chetty-and-his-claims-about-teachers/",
+          "source_name": "Dianeravitch.net",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T14:00:00Z",
+          "author": "dianeravitch",
+          "image_url": "https://dianeravitch.net/wp-content/uploads/2017/12/diane.jpg?w=200",
+          "is_local_nj": false,
+          "article_id": "8e124c931888",
+          "summary": "Back in 2011, Harvard Professor Raj Chetty and two esteemed colleagues (John Friedman at Brown University and Jonah Rockoff at Columbia University) published a dazzling study of teachers, asserting th",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sandra Bullock makes rare comment on dating 3 years after partner Bryan Randall\u2019s death",
+          "description": "The \"Practical Magic 2\" star revealed her \"brutally honest\" daughter made a remark about her dating life.",
+          "content": "Sandra Bullock\u2019s \u201cbrutally honest\u201d daughter Laila advised the actress to start dating again after her partner Bryan Randall\u2019s tragic death.\r\n\u201cShe said I needed to date, but only someone where they ca\u2026 [+3326 chars]",
+          "url": "https://pagesix.com/2026/09/03/celebrity-news/sandra-bullock-makes-rare-dating-comment-3-years-after-bryan-randall-death/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T12:54:40Z",
+          "author": "Eric Todisco",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/09/Untitled-2-copy.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "3dccc6d479f5",
+          "summary": "The \"Practical Magic 2\" star revealed her \"brutally honest\" daughter made a remark about her dating life.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock debuts new tattoo at Practical Magic 2 premiere after partner Bryan Randall's death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16083323/Sandra-Bullock-tattoo-Practical-Magic-premiere-Bryan-Randall.html",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock, 62, looks downcast as she steps out for the first time since breaking silence on partner Bryan Randall's tragic death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16067835/Sandra-Bullock-outing-Randall-death-ALS.html",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "How Jennifer Aniston became Sandra Bullock's shoulder to cry on during late partner Bryan Randall's ALS battle amid a three-decade friendship that was sparked by a mutual ex-boyfriend",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16067367/Jennifer-Aniston-Sandra-Bullock-Bryan-Randall-ALS.html",
+              "digest_date": "2026-08-23"
+            }
+          ]
+        },
+        {
+          "title": "\"Blood Of Your Empire\" von President",
+          "description": "President - \"Blood Of Your Empire\"",
+          "content": "laut.de-Kritik\r\nEin schlechter Scherz.\r\nReview von Paula Fetzer\r\nSo abgestumpft man angesichts der aktuellen Weltlage sein mag: Es macht trotzdem etwas mit einem, wenn President als eine der Bands ge\u2026 [+3361 chars]",
+          "url": "https://laut.de/President/Alben/Blood-Of-Your-Empire-126996",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T09:17:55Z",
+          "author": "Paula Fetzer",
+          "image_url": "https://laut.de/President/Alben/Blood-Of-Your-Empire-126996/president-blood-of-your-empire-253401.jpg?b9db4b",
+          "is_local_nj": false,
+          "article_id": "3cbee16a5501",
+          "summary": "President - \"Blood Of Your Empire\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "alsgls 2.1.0",
+          "description": "Type-safe lightweight low-rank+diagonal GLS/SUR solver via ALS",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/alsgls/2.1.0/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T08:28:08Z",
+          "author": "contact@gsood.com",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "e0f638e6b850",
+          "summary": "Type-safe lightweight low-rank+diagonal GLS/SUR solver via ALS",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "alsgls 2.0.0",
+          "description": "Type-safe lightweight low-rank+diagonal GLS/SUR solver via ALS",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/alsgls/2.0.0/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T05:14:19Z",
+          "author": "contact@gsood.com",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "54bee8e3857c",
+          "summary": "Type-safe lightweight low-rank+diagonal GLS/SUR solver via ALS",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "agent-log-server 0.2.123",
+          "description": "ALS-RS agent harness, extension adapter, KB/MCP tools, and TE2 integration.",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/agent-log-server/0.2.123/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-09-03T02:41:02Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "6889b9deadac",
+          "summary": "ALS-RS agent harness, extension adapter, KB/MCP tools, and TE2 integration.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Cassandra Wilson, Two-Time Grammy Award-Winning Jazz Singer, Dies At 70",
+          "description": "Dubbed America\u2019s best singer by Time magazine in 2001, Wilson expanded the boundaries of traditional blues-based jazz and worked effortlessly across folk, pop, R&B, country and beyond.",
+          "content": "NEW YORK (AP) Cassandra Wilson, the two-time Grammy Award-winning jazz singer, songwriter and producer has died. She was 70.\r\nDubbed Americas best singer by Time magazine in 2001, Wilson was best kno\u2026 [+7574 chars]",
+          "url": "https://www.huffpost.com/entry/two-time-grammy-winner-cassandra-wilson-dead-at-70_n_6a98ab00e4b0bd4d29d296ec",
+          "source_name": "HuffPost",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T23:09:04Z",
+          "author": "HuffPost",
+          "image_url": "https://img.huffingtonpost.com/asset/6a98ab02170000196fd44512.jpeg?cache=0AXP4Ftelg&ops=1200_630",
+          "is_local_nj": false,
+          "article_id": "90b6787a5950",
+          "summary": "Dubbed America\u2019s best singer by Time magazine in 2001, Wilson expanded the boundaries of traditional blues-based jazz and worked effortlessly across folk, pop, R&B, country and beyond.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Oren Nahari, veteran journalist who brought the world to Israeli audiences, dies at 70",
+              "url": "https://www.haaretz.com/israel-news/2026-08-13/ty-article/.premium/oren-nahari-veteran-journalist-who-brought-the-world-to-israel-dies-at-70/0000019f-f9e2-de80-ab9f-fbeb3dd70000",
+              "digest_date": "2026-08-16"
+            }
+          ]
+        },
+        {
+          "title": "Cassandra Wilson and Other Black Stars We Lost in 2026",
+          "description": "We\u2019re not going to lie, 2025 was a tough year, as we lost many of the Black legends we knew and loved. Now, as 2026 rolls past the halfway mark, we continue to say goodbye to even more of those who had such a tremendous impact on the culture. Although they ar\u2026",
+          "content": "NEW YORK, NY \u2013 APRIL 20: Cassandra Wilson performs at the 16th Annual A Great Night in Harlem Gala at The Apollo Theater on April 20, 2018 in New York City. (Photo by Debra L Rothenberg/FilmMagic)We\u2019\u2026 [+30781 chars]",
+          "url": "https://www.theroot.com/cassandra-wilson-and-other-black-stars-we-lost-in-2026-2000083991",
+          "source_name": "The Root",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T21:23:24Z",
+          "author": "The Root Staff",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "967a3ab69c72",
+          "summary": "We\u2019re not going to lie, 2025 was a tough year, as we lost many of the Black legends we knew and loved. Now, as 2026 rolls past the halfway mark, we continue to say goodbye to even more of those who ha",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Samuel Monroe Jr. and Other Black Stars We Lost in 2026",
+              "url": "https://www.theroot.com/samuel-monroe-jr-and-other-black-stars-we-lost-in-2026-2000083991",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Jenny Slatten from \u201890 Day Fianc\u00e9\u2019 Is Losing Her Speech to ALS, and She and Sumit Are Begging for Help Getting Him a Visa",
+          "description": "90 Day Fianc\u00e9 star Jenny Slatten is losing her ability to speak as her ALS progresses. She and husband Sumit Singh are pleading with fans for help securing him a U.S. visa so the couple can travel \u2026",
+          "content": "90 Day Fianc\u00e9 star Jenny Slatten is losing her ability to speak as her ALS progresses. She and husband Sumit Singh are pleading with fans for help securing him a U.S. visa so the couple can travel to\u2026 [+1866 chars]",
+          "url": "https://thoughtcatalog.com/xstockton/2026/09/jenny-slatten-from-90-day-fiance-is-losing-her-speech-to-als-and-she-and-sumit-are-begging-for-help-getting-him-a-visa/",
+          "source_name": "Thoughtcatalog.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T18:06:45Z",
+          "author": "Chrissy Stockton",
+          "image_url": "https://thoughtcatalog.com/wp-content/uploads/2026/09/jenny-slatten-from-90-day-fiance-is-losing-her-speech-to-als-and-she-and-sumit-a.jpg?w=1200&h=630&crop=1",
+          "is_local_nj": false,
+          "article_id": "2af33febd78a",
+          "summary": "90 Day Fianc\u00e9 star Jenny Slatten is losing her ability to speak as her ALS progresses. She and husband Sumit Singh are pleading with fans for help securing him a U.S. visa so the couple can travel \u2026",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Quote of the day by Stephen Hawking: 'It is very important for young people keep their sense of wonder and keep asking why.' Life lessons from motivational quote on curiosity, continuous learning, constant questioning, innovation, human discovery, scientific progress and exploring the unknown",
+              "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-it-is-very-important-for-young-people-keep-their-sense-of-wonder-and-keep-asking-why-life-lessons-from-motivational-quote-on-curiosity-continuous-learning-constant-questioning-innovation-human-discovery-scientific-progress-and-exploring-the-unknown/articleshow/133570602.cms",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Brain implants are beginning to move from science fiction into clinical trials: people with paralysis are already testing systems that can turn neural signals into cursor movement, robotic-arm control, and even decoded speech",
+              "url": "https://spacedaily.com/d-brain-implants-are-beginning-to-move-from-science-fiction-into-clinical-trials-people-with-paralysis-are-already-testing-systems-that-can-turn-neural-signals-into-cursor-movement-robotic-arm-control/",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "\u201890 Day Fiance' Star Jenny's Daughter Shares Update on Sumit\u2019s Visa Amid ALS",
+              "url": "https://www.usmagazine.com/celebrity-news/news/90-day-fiances-jennys-daughter-shares-update-on-sumits-visa/",
+              "digest_date": "2026-07-26"
+            }
+          ]
+        },
+        {
+          "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+          "description": "This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and...",
+          "content": "This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and offers five guidelines for selecting dr\u2026 [+16401 chars]",
+          "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+          "source_name": "Nvidia.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T16:04:28Z",
+          "author": "Tanya Lenz",
+          "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/llm-optimize-deploy.webp",
+          "is_local_nj": false,
+          "article_id": "78922e34281a",
+          "summary": "This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u2018Weird Al\u2019 Yankovic Sings a Catchy Song About How the Human Brain Works",
+          "description": "\"Weird Al\" Yankovic answers a question from Paul McCartney about how the human brain works in a humorous 3D short that culminates in a catchy song.\nsubscribe to the Laughing Squid Newsletter\nThe post \u2018Weird Al\u2019 Yankovic Sings a Catchy Song About How the Human\u2026",
+          "content": "The wonderfully creative Weird Al Yankovic answered a question from Sir Paul McCartney about how the human brain works in a humorous 3D educational short that culminated in a catchy song.\r\nWell, like\u2026 [+614 chars]",
+          "url": "https://laughingsquid.com/weird-al-yankovic-brain-song/",
+          "source_name": "Laughingsquid.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T16:00:36Z",
+          "author": "Lori Dorn",
+          "image_url": "https://laughingsquid.com/wp-content/uploads/2026/09/Weird-Al-Brain-Song.jpg",
+          "is_local_nj": false,
+          "article_id": "f2b047c75e15",
+          "summary": "\"Weird Al\" Yankovic answers a question from Paul McCartney about how the human brain works in a humorous 3D short that culminates in a catchy song.\nsubscribe to the Laughing Squid Newsletter\nThe post ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "90 Day Fianc\u00e9's Jenny Slatten \u201cCan\u2019t Talk\u201d Amid ALS Battle",
+          "description": "Jenny Slatten\u2019s husband is providing an unfortunate update amid her ALS battle.\u00a0\nJust four months after the 90 Day Fianc\u00e9 alum and her husband Sumit Singh shared she had been diagnosed with...",
+          "content": "Emilia Clarke filmed battle scenes for Game of Thrones, but in 2019, she published an essay in The New Yorker titled \"A Battle for My Life.\"\r\nHaving a bad headache at the gym, \"I reached the toilet, \u2026 [+1248 chars]",
+          "url": "https://www.eonline.com/news/1435656/90-day-fiance-star-jenny-slatten-cant-talk-amid-als-battle",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T15:27:00Z",
+          "author": "Olivia Evans",
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20260520/a69eab97-9186-4ad6-ac54-a04b815e9600_1779299458.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+          "is_local_nj": false,
+          "article_id": "ef3ae2d9d2a7",
+          "summary": "Jenny Slatten\u2019s husband is providing an unfortunate update amid her ALS battle.\u00a0\nJust four months after the 90 Day Fianc\u00e9 alum and her husband Sumit Singh shared she had been diagnosed with...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "90 Day Fianc\u00e9's Sumit May Finally Be Coming To The United States With Jenny, But There's A Catch",
+              "url": "https://www.cinemablend.com/television/90-day-fiance-sumit-may-finally-come-to-united-states-with-jenny-als-visa",
+              "digest_date": "2026-07-26"
+            }
+          ]
+        },
+        {
+          "title": "Understanding the association between immune-modulating helminths and HPV or cervical cancer: A scoping review",
+          "description": "Author summary The high prevalence of helminth and HPV co-infections in LMICs significantly impacts quality of life, necessitating studies to expand our knowledge of their epidemiological and health impacts. Understanding the interaction between helminth infe\u2026",
+          "content": "Abstract\r\nBackground\r\nCervical cancer disproportionately affects people living in low- and middle-income countries (LMICs). While access to effective preventive interventions explains some of the dis\u2026 [+33432 chars]",
+          "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0013308",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T14:00:00Z",
+          "author": "Allison Frank, Margarita Correa-Mendez, Alicia A. Livinski, Kalina Duncan, Eva H. Clark, Patti E. Gravitt",
+          "image_url": "https://journals.plos.org/plosntds/article/figure/image?id=10.1371/journal.pntd.0013308.g001&size=inline",
+          "is_local_nj": false,
+          "article_id": "000a8706aa6d",
+          "summary": "Author summary The high prevalence of helminth and HPV co-infections in LMICs significantly impacts quality of life, necessitating studies to expand our knowledge of their epidemiological and health i",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Every month, every day, every hour",
+          "description": "Content note: This story discusses attempted suicide. Prison conditions emphasize power structures that exist in society, further harming the most vulnerable among us. After serving almost 20 years in prison, I am now observing a new generation of young peopl\u2026",
+          "content": "Content note: This story discusses attempted suicide.\r\nPrison conditions emphasize power structures that exist in society, further harming the most vulnerable among us. After serving almost 20 years \u2026 [+6581 chars]",
+          "url": "https://chicagoreader.com/city-life/mental-health-illinois-prisons/",
+          "source_name": "Chicago Reader",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T12:00:00Z",
+          "author": "Erika Ray",
+          "image_url": "https://i0.wp.com/chicagoreader.com/wp-content/uploads/2026/09/Inside-Voices-Erica-Ray-August-2026_social.jpg?fit=1200%2C675&ssl=1",
+          "is_local_nj": false,
+          "article_id": "910585c731fb",
+          "summary": "Content note: This story discusses attempted suicide. Prison conditions emphasize power structures that exist in society, further harming the most vulnerable among us. After serving almost 20 years in",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Brixton Metals Drills 6,199 g/t Silver over 1.00 m including 0.50 m of 12,386 g/t Silver in Hole 432 at its Langis Project in Ontario",
+          "description": "Hole 399: 4.60 m of 503 g/t Silver Hole 408: 7.00 m of 290 g/t Silver including 2.00 m of 958 g/t Silver VANCOUVER, British Columbia, Sept. 02, 2026 (GLOBE NEWSWIRE) \u2014 Brixton Metals Corporation (TSX-V: BBB, OTCQX: BBBXF) (the \u201cCompany\u201d or \u201cBrixton\u201d) is pleas\u2026",
+          "content": "The following holes are reported as no significant intercepts: LM-26-374, 378, 381, 383, 384, 386, 387, 388, 390, 391, 392, 396, 400, 404, 405 and 406.Figure 6. Map showing drill results from the Lan\u2026 [+9031 chars]",
+          "url": "https://financialpost.com/globe-newswire/brixton-metals-drills-6199-g-t-silver-over-1-00-m-including-0-50-m-of-12386-g-t-silver-in-hole-432-at-its-langis-project-in-ontario",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T11:35:26Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/09/figure-1-2.png",
+          "is_local_nj": false,
+          "article_id": "abd85caf698d",
+          "summary": "Hole 399: 4.60 m of 503 g/t Silver Hole 408: 7.00 m of 290 g/t Silver including 2.00 m of 958 g/t Silver VANCOUVER, British Columbia, Sept. 02, 2026 (GLOBE NEWSWIRE) \u2014 Brixton Metals Corporation (TSX-",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Pan Global Expands Near-Surface Gold Mineralization at Providencia with 2.36 g/t Gold Over 80 Meters, C\u00e1rmenes Project, Spain",
+              "url": "https://financialpost.com/globe-newswire/pan-global-expands-near-surface-gold-mineralization-at-providencia-with-2-36-g-t-gold-over-80-meters-carmenes-project-spain",
+              "digest_date": "2026-08-02"
+            },
+            {
+              "title": "Troilus Drills 1.10 g/t AuEq Over 103 m as Z87 Optimization Program Continues to Strengthen Mine Planning",
+              "url": "https://financialpost.com/globe-newswire/troilus-drills-1-10-g-t-aueq-over-103-m-as-z87-optimization-program-continues-to-strengthen-mine-planning",
+              "digest_date": "2026-07-26"
+            },
+            {
+              "title": "NexGold Intersects 12.06 g/t Gold over 6.0 Metres and 3.84 g/t Gold over 18.0 Metres During Infill Drill Program at Goldboro",
+              "url": "https://www.globenewswire.com/news-release/2026/07/09/3324663/0/en/NexGold-Intersects-12-06-g-t-Gold-over-6-0-Metres-and-3-84-g-t-Gold-over-18-0-Metres-During-Infill-Drill-Program-at-Goldboro.html",
+              "digest_date": "2026-07-12"
+            }
+          ]
+        },
+        {
+          "title": "NovaGo Therapeutics Closes USD 30 Million Series B Financing to Advance Proof-of-Concept Study in Acute Spinal Cord Injury",
+          "description": "Round led by Neurimmune and Pureos, with participation from existing and new investors; complemented by non-dilutive funding from the Swiss Paraplegic Foundation and Wings for Life - Spinal Cord Research Foundation. SCHLIEREN, Switzerland, Sept. 2, 2026 /PRNe\u2026",
+          "content": "Round led by Neurimmune and Pureos, with participation from existing and new investors; complemented by non-dilutive funding from the Swiss Paraplegic Foundation and Wings for Life - Spinal Cord Rese\u2026 [+5106 chars]",
+          "url": "https://www.prnewswire.com/news-releases/novago-therapeutics-closes-usd-30-million-series-b-financing-to-advance-proof-of-concept-study-in-acute-spinal-cord-injury-302866193.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T10:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1977407/Novago_NewLogog.jpg?id=OA2917641&p=facebook",
+          "is_local_nj": false,
+          "article_id": "d269c2411b6b",
+          "summary": "Round led by Neurimmune and Pureos, with participation from existing and new investors; complemented by non-dilutive funding from the Swiss Paraplegic Foundation and Wings for Life - Spinal Cord Resea",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "NovaGo Therapeutics Closes USD 30 Million Series B Financing to Advance Proof-of-Concept Study in Acute Spinal Cord Injury",
+          "description": "Round led by Neurimmune and Pureos, with participation from existing and new investors; complemented by non-dilutive funding from the Swiss Paraplegic Foundation and Wings for Life - Spinal Cord Research Foundation. SCHLIEREN, Switzerland, Sept. 2, 2026 /PRNe\u2026",
+          "content": "Round led by Neurimmune and Pureos, with participation from existing and new investors; complemented by non-dilutive funding from the Swiss Paraplegic Foundation and Wings for Life - Spinal Cord Rese\u2026 [+5135 chars]",
+          "url": "https://www.prnewswire.com/news-releases/novago-therapeutics-closes-usd-30-million-series-b-financing-to-advance-proof-of-concept-study-in-acute-spinal-cord-injury-302866185.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T10:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1977407/Novago_NewLogog.jpg?id=OA2917689&p=facebook",
+          "is_local_nj": false,
+          "article_id": "7c487d7527d4",
+          "summary": "Round led by Neurimmune and Pureos, with participation from existing and new investors; complemented by non-dilutive funding from the Swiss Paraplegic Foundation and Wings for Life - Spinal Cord Resea",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Show HN: Comparing eight LLMs on 38 Berlin election questions",
+          "description": "38 theses, different language models: where do their answers align, where do they differ, and which party positions are mathematically closest?",
+          "content": "Berlin WahLLM\r\nEight language models (such as ChatGPT) answer the 38 theses (listed below) from the Wahl-O-Mat for Berlin's 2026 state election.\r\nThe result at a glance\r\nSeven of eight model runs ran\u2026 [+11593 chars]",
+          "url": "https://bensk1.github.io/berlin-wahllm/en/",
+          "source_name": "Github.io",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T08:21:47Z",
+          "author": "bensk1",
+          "image_url": "https://raw.githubusercontent.com/Bensk1/berlin-wahllm/main/figures/berlin-wahllm-preview.png",
+          "is_local_nj": false,
+          "article_id": "4bba24d43e14",
+          "summary": "38 theses, different language models: where do their answers align, where do they differ, and which party positions are mathematically closest?",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Heartland",
+          "description": "Mysterythriller mit Jessica Chastain als ehemaliger Country Star",
+          "content": "Mysterythriller mit Jessica Chastain als ehemaliger Country Star\r\nHandlung und Hintergrund\r\nMisty Jones (Jessica Chastain) war einst einer der gr\u00f6\u00dften Stars der Country-Musikszene, hat sich aber l\u00e4ng\u2026 [+1819 chars]",
+          "url": "https://www.kino.de/film/heartland--01M1GG3YGYSTSP2X6GK0WS7PQ8",
+          "source_name": "Kino.de",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T07:25:14Z",
+          "author": "Teresa Fongern",
+          "image_url": "https://static.kino.de/e6/9d/ff/3bf519882b3fe6e90a8f184541_cmUgMTkyMCAxMDgwA2VkMzU4YmU5ODg0.jpg",
+          "is_local_nj": false,
+          "article_id": "2a4db02a2e33",
+          "summary": "Mysterythriller mit Jessica Chastain als ehemaliger Country Star",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Dynamic biomass micro\u2013nanofibre framework for entrapment and clearance of gastrointestinal microplastics",
+          "description": "An oral biocompatible alginate\u2013chitin micro\u2013nanofibre framework captures ingested microplastics through pH-responsive electrostatic adsorption and physical entrapment, accelerating excretion, restoring the intestinal barrier and microbiome in mice.",
+          "content": "<li>Thompson, R. C. et al. Lost at sea: where is all the plastic? Science304, 838838 (2004).\r\nArticle\u00a0\r\n CAS\u00a0\r\n PubMed\u00a0\r\nGoogle Scholar\u00a0\r\n</li><li>Thompson, R. C. et al. Twenty years of microplastic \u2026 [+9939 chars]",
+          "url": "https://www.nature.com/articles/s41565-026-02266-2",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-02T00:00:00Z",
+          "author": "Yang Wu, Fangtian Liu, Yifei Liu, Min Zheng, Jiacheng Sun, Xiaowen Shi, Jun Wu, Yumin Du, Hongbing Deng, Xue Zhou",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41565-026-02266-2/MediaObjects/41565_2026_2266_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "73280e7e5210",
+          "summary": "An oral biocompatible alginate\u2013chitin micro\u2013nanofibre framework captures ingested microplastics through pH-responsive electrostatic adsorption and physical entrapment, accelerating excretion, restorin",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "GoFundMe for 90 Day's Jenny Slatten Raises More Than $100K Amid ALS",
+          "description": "A fundraiser made to support 90 Day Fianc\u00e9 alum Jenny Slatten amid her battle with ALS has raised more than $100,000. The GoFundMe page, created by Jenny\u2019s friend Penny Minincleri, has received $110,116 out of $171,700 since its launch on May 20. Nearly 3,000\u2026",
+          "content": "A fundraiser made to support 90 Day Fianc\u00e9 alum Jenny Slatten amid her battle with ALS has raised more than $100,000.\r\nThe GoFundMe page, created by Jenny\u2019s friend Penny Minincleri, has received $110\u2026 [+2951 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/gofundme-for-90-day-fiances-jenny-slatten-raises-over-100k/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-09-01T18:36:54Z",
+          "author": "Elise Nelson",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/09/jenny-and-sumit.jpg?w=1080&h=630&crop=1&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "7e8efae399dd",
+          "summary": "A fundraiser made to support 90 Day Fianc\u00e9 alum Jenny Slatten amid her battle with ALS has raised more than $100,000. The GoFundMe page, created by Jenny\u2019s friend Penny Minincleri, has received $110,1",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sandra Bullock Reveals Her 2 Kids Have 'Practical Magic 2' Cameos: 'Proud'",
+          "description": "Sandra Bullock\u2019s kids got in on the Practical Magic 2 fun. Bullock, 62, opened up about Louis, 16, and Lalia, 12, being featured in the movie while posing on the red carpet at the Los Angeles premiere on Monday, August 31. \u201cThey\u2019re in the movie but not in an \u2026",
+          "content": "Sandra Bullock\u2019s kids got in on the Practical Magic 2 fun.\r\nBullock, 62, opened up about Louis, 16, and Lalia, 12, being featured in the movie while posing on the red carpet at the Los Angeles premie\u2026 [+2468 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/sandra-bullock-says-her-2-kids-have-practical-magic-2-cameos/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-09-01T17:55:21Z",
+          "author": "Grace Riley",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/09/GettyImages-2292440851.jpeg?crop=0px%2C115px%2C1333px%2C700px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "34aca2824160",
+          "summary": "Sandra Bullock\u2019s kids got in on the Practical Magic 2 fun. Bullock, 62, opened up about Louis, 16, and Lalia, 12, being featured in the movie while posing on the red carpet at the Los Angeles premiere",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock Showed Up to the \u2018Practical Magic 2\u2019 Premiere in London with a New Shoulder Tattoo for Her Two Kids",
+              "url": "https://thoughtcatalog.com/nicolestawiarski/2026/08/sandra-bullock-showed-up-to-the-practical-magic-2-premiere-in-london-with-a-new-shoulder-tattoo-for-her-two-kids/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock debuts meaningful tattoo tribute to her kids at \u2018Practical Magic 2\u2019 premiere",
+              "url": "https://pagesix.com/2026/08/27/style/sandra-bullock-debuts-meaningful-tattoo-tribute-to-kids-at-practical-magic-2-premiere/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock debuts new tattoo at Practical Magic 2 premiere after partner Bryan Randall's death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16083323/Sandra-Bullock-tattoo-Practical-Magic-premiere-Bryan-Randall.html",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Sandra Bullock\u2019s 2 kids make surprise appearances in \u2018Practical Magic 2\u2019: \u2018Unbelievably proud\u2019",
+          "description": "Bullock has long kept her son, Louis, and daughter, Laila, out of the spotlight.",
+          "content": "The magic runs in the family.\r\nSandra Bullock\u2019s two children, son Louis, 16, and daughter Laila, 12, make surprise appearances in \u201cPractical Magic 2,\u201d the actress revealed to Access Hollywood Monday \u2026 [+2807 chars]",
+          "url": "https://pagesix.com/2026/09/01/entertainment/sandra-bullocks-kids-make-surprise-cameos-in-practical-magic-2/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-09-01T16:41:58Z",
+          "author": "Amanda Rubio",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/09/139194130.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "795dc5d4ab20",
+          "summary": "Bullock has long kept her son, Louis, and daughter, Laila, out of the spotlight.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock Showed Up to the \u2018Practical Magic 2\u2019 Premiere in London with a New Shoulder Tattoo for Her Two Kids",
+              "url": "https://thoughtcatalog.com/nicolestawiarski/2026/08/sandra-bullock-showed-up-to-the-practical-magic-2-premiere-in-london-with-a-new-shoulder-tattoo-for-her-two-kids/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock debuts meaningful tattoo tribute to her kids at \u2018Practical Magic 2\u2019 premiere",
+              "url": "https://pagesix.com/2026/08/27/style/sandra-bullock-debuts-meaningful-tattoo-tribute-to-kids-at-practical-magic-2-premiere/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Sandra Bullock debuts new tattoo at Practical Magic 2 premiere after partner Bryan Randall's death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16083323/Sandra-Bullock-tattoo-Practical-Magic-premiere-Bryan-Randall.html",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Men's Nike Club Unstructured Futura Wash Hat (Light Khaki) $9.80 + Free Shipping on $49+ (0 replies)",
+          "description": "Kohl's [kohls.com] has Men's Nike Club Unstructured Futura Wash Hat (Light Khaki) on sale for $9.80. Shipping is free on orders $49+, otherwise select free store pickup where available.\n\nAls",
+          "content": "This collaborative space allows users to contribute additional information, tips, and insights to enhance the original deal post. Feel free to share your knowledge and help fellow shoppers make infor\u2026 [+26 chars]",
+          "url": "https://slickdeals.net/f/19955271-men-s-nike-club-unstructured-futura-wash-hat-light-khaki-9-80-free-shipping-on-49",
+          "source_name": "Slickdeals.net",
+          "source_type": "newsapi",
+          "published_at": "2026-09-01T16:24:46Z",
+          "author": "ppxyz1 | Staff",
+          "image_url": "https://slickdeals.net/attachment/5/7/4/5/9/6/3/450x450/21462069.thumb",
+          "is_local_nj": false,
+          "article_id": "d603cf6300a4",
+          "summary": "Kohl's [kohls.com] has Men's Nike Club Unstructured Futura Wash Hat (Light Khaki) on sale for $9.80. Shipping is free on orders $49+, otherwise select free store pickup where available.\n\nAls",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Jenny Slatten & Sumit Singh Share Sad ALS & Visa Updates with \u201990 Day \u2026",
+          "description": "Reading Time: 3 minutes'90 Day Fiance: The Other Way' stars Jenny Slatten and Sumit Singh risk being torn apart as she seeks ALS treatments in the US.\nJenny Slatten & Sumit Singh Share Sad ALS & Visa Updates with \u201990 Day \u2026 was originally published on The Holl\u2026",
+          "content": "Reading Time: 3minutesSumit Singh and Jenny Slatten have a serious update on her deteriorating condition.\r\nThe 90 Day Fiance: The Other Way fan favorites previously revealed that Jenny has ALS.\r\nNow,\u2026 [+2888 chars]",
+          "url": "https://www.thehollywoodgossip.com/2026/09/jenny-slatten-sumit-singh-als-update-visa-90-day-fiance/",
+          "source_name": "The Hollywood Gossip",
+          "source_type": "newsapi",
+          "published_at": "2026-09-01T12:19:14Z",
+          "author": "Simon Delott",
+          "image_url": "https://cdn.thehollywoodgossip.com/uploads/2026/09/0901_jennyslatten_sumitsingh_01-1024x576.png",
+          "is_local_nj": false,
+          "article_id": "bf722ac8cfb6",
+          "summary": "Reading Time: 3 minutes'90 Day Fiance: The Other Way' stars Jenny Slatten and Sumit Singh risk being torn apart as she seeks ALS treatments in the US.\nJenny Slatten & Sumit Singh Share Sad ALS & Visa ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "ProMIS Neurosciences to Participate in Upcoming Conferences and Events in September",
+          "description": "CAMBRIDGE, Mass, Sept. 01, 2026 (GLOBE NEWSWIRE) \u2014 ProMIS Neurosciences Inc. (Nasdaq: PMN), a clinical-stage biotechnology company developing antibody therapeutics and vaccines targeting toxic misfolded proteins in neurodegenerative diseases, today announced \u2026",
+          "content": "CAMBRIDGE, Mass, Sept. 01, 2026 (GLOBE NEWSWIRE) ProMIS Neurosciences Inc. (Nasdaq: PMN), a clinical-stage biotechnology company developing antibody therapeutics and vaccines targeting toxic misfolde\u2026 [+5096 chars]",
+          "url": "https://financialpost.com/globe-newswire/promis-neurosciences-to-participate-in-upcoming-conferences-and-events-in-september",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-09-01T12:08:57Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "527355ae502d",
+          "summary": "CAMBRIDGE, Mass, Sept. 01, 2026 (GLOBE NEWSWIRE) \u2014 ProMIS Neurosciences Inc. (Nasdaq: PMN), a clinical-stage biotechnology company developing antibody therapeutics and vaccines targeting toxic misfold",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Paralyzed Veterans of America Launches \"ONE of ONE\" Campaign",
+          "description": "Year-long initiative spotlights PVA's distinctive role in advancing specialized care, advocacy, accessibility, and opportunity for disabled veterans and all people with disabilities WASHINGTON, Sept. 1, 2026 /PRNewswire/ -- Paralyzed Veterans of America today\u2026",
+          "content": "Year-long initiative spotlights PVA's distinctive role in advancing specialized care, advocacy, accessibility, and opportunity for disabled veterans and all people with disabilities \r\nWASHINGTON, Sep\u2026 [+6458 chars]",
+          "url": "https://www.prnewswire.com/news-releases/paralyzed-veterans-of-america-launches-one-of-one-campaign-302866163.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-09-01T11:17:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS611103/PVA-Logo.jpg?id=OA2922191&p=facebook",
+          "is_local_nj": false,
+          "article_id": "ec0cf257af6d",
+          "summary": "Year-long initiative spotlights PVA's distinctive role in advancing specialized care, advocacy, accessibility, and opportunity for disabled veterans and all people with disabilities WASHINGTON, Sept. ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Paralyzed Veterans of America Calls for Airlines to Fully Implement",
+              "url": "https://www.prnewswire.com/news-releases/paralyzed-veterans-of-america-calls-for-airlines-to-fully-implement-302796117.html",
+              "digest_date": "2026-06-14"
+            }
+          ]
+        },
+        {
+          "title": "Bart Zoetmulder hoofd internationale Sales bij Linehub",
+          "description": "Het internationale collectief gespecialiseerde performancemarketingbureaus Linehub stelt per vandaag Bart Zoetmulder aan als Group Director Sales.",
+          "content": "Nieuws -1 september 2026 - 11:45Het internationale collectief gespecialiseerde performancemarketingbureaus Linehub stelt per vandaag Bart Zoetmulder aan als Group Director Sales.\r\nIn deze rol gaat hi\u2026 [+1762 chars]",
+          "url": "https://www.emerce.nl/nieuws/bart-zoetmulder-hoofd-internationale-sales-linehub",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-09-01T09:45:40Z",
+          "author": "Erwin Boogert",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/09/Bart-Zoetmulder-Linehub-Group-Director-of-Sales.png",
+          "is_local_nj": false,
+          "article_id": "ece2af57738c",
+          "summary": "Het internationale collectief gespecialiseerde performancemarketingbureaus Linehub stelt per vandaag Bart Zoetmulder aan als Group Director Sales.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Conard, Julius: Der Gebrandmarkte. V1 [German] 1.9.2026 (Mystery and Crime, ePub)",
+          "description": "Mystery and Crime Conard, Julius: Der Gebrandmarkte. V1 [German] 1.9.2026 ePub Books",
+          "content": "Es zeigt sich, dass nicht nur die in der Epoche der Restauration bl\u00fchende Gattung des \"historical trash\"* (siehe \"Wanda\" oder \"Boja\") den Einschnitt der Revolution von 1848 unbeschadet \u00fcberstanden ha\u2026 [+5745 chars]",
+          "url": "https://www.mobileread.com/forums/showthread.php?t=375115",
+          "source_name": "Mobileread.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-01T06:49:37Z",
+          "author": "brucewelch",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "b58db1acb049",
+          "summary": "Mystery and Crime Conard, Julius: Der Gebrandmarkte. V1 [German] 1.9.2026 ePub Books",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Heyse, Paul: Der Roman der Stiftsdame. V1 [German] 27.8.2026 (Other Fiction, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=375036",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Kabel, Walther: Harald Harst (334) - Der schwarze Gast. V1.0 [German] 06.08.2026 (Mystery and Crime, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=374751",
+              "digest_date": "2026-08-09"
+            },
+            {
+              "title": "Kabel, Walther: Harald Harst (332) - Das Gespensterk\u00e4nguruh. V1.0 [German] 31.07.2026 (Mystery and Crime, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=374660",
+              "digest_date": "2026-08-02"
+            }
+          ]
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "The Price of Privacy When It Comes to Dementia",
+        "url": "https://time.com/article/2026/09/12/the-price-of-privacy-when-it-comes-to-dementia/",
+        "source": "Time",
+        "date": "2026-09-05T10:00:04Z"
+      },
+      {
+        "title": "Column: Baseball history is full of interesting and unusual connections",
+        "url": "https://www.postandcourier.com/aikenstandard/sports/localsports/column-baseball-new-york-yankees-gehrig-wanninger/article_050f55c0-f815-4e56-a63b-53b7fa494227.html",
+        "source": "Charleston Post Courier",
+        "date": "2026-09-05T09:30:00Z"
+      },
+      {
+        "title": "Hulu\u2019s best hitman drama is only 30 minutes long, and it has a 98% audience score",
+        "url": "https://www.makeuseof.com/hulu-best-hitman-drama-only-30-minutes-long-has-98-audience-score/",
+        "source": "MakeUseOf",
+        "date": "2026-09-04T23:00:13Z"
+      },
+      {
+        "title": "Sandra Bullock's Daughter Told Her to Date Again After Bryan Randall's Death",
+        "url": "https://www.usmagazine.com/celebrity-news/news/sandra-bullocks-kid-told-her-to-date-after-partners-death/",
+        "source": "Us Weekly",
+        "date": "2026-09-04T12:42:45Z"
+      },
+      {
+        "title": "Sandra Bullock gives rare update on her dating life three years after partner Bryan Randall's death",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16104109/Sandra-Bullock-rare-comment-dating-life-Bryan-Randall-death.html",
+        "source": "Dailymail.com",
+        "date": "2026-09-04T01:21:51Z"
+      },
+      {
+        "title": "A Strange Blood Signal In ALS May Reveal How The Body Tries To Fight Back Against The Disease",
+        "url": "https://www.medicaldaily.com/als-blood-signal-n-acyl-taurines-478195",
+        "source": "Medical Daily",
+        "date": "2026-09-03T20:50:41Z"
+      },
+      {
+        "title": "Federal Regulators Cite an Arizona Stem Cell Company Over Sterility Failures and Claims Aimed at Desperate Patients",
+        "url": "https://www.medicaldaily.com/fda-warning-letter-r3-medical-stem-cell-exosome-clinics-478193",
+        "source": "Medical Daily",
+        "date": "2026-09-03T20:30:08Z"
+      },
+      {
+        "title": "Sandra Bullock's rarely seen CHILDREN make a surprise cameo in Practical Magic sequel... after star kept them out of spotlight for years",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16101247/sandra-bullock-children-practical-magic.html",
+        "source": "Dailymail.com",
+        "date": "2026-09-03T19:34:00Z"
+      },
+      {
+        "title": "Longtime ALS Network supporter Tom Horton to paddle the Greek Islands honoring his late mother raising awareness and funds for people impacted by ALS in the U.S. and Greece",
+        "url": "https://www.prnewswire.com/news-releases/longtime-als-network-supporter-tom-horton-to-paddle-the-greek-islands-honoring-his-late-mother-raising-awareness-and-funds-for-people-impacted-by-als-in-the-us-and-greece-302869403.html",
+        "source": "PRNewswire",
+        "date": "2026-09-03T19:19:00Z"
+      },
+      {
+        "title": "Sandra Bullock Makes Rare Comment on Dating 3 Years After Losing BF Bryan Randall",
+        "url": "https://extratv.com/2026/09/03/sandra-bullock-makes-rare-comment-on-dating-3-years-after-losing-bf-bryan-randall/",
+        "source": "Extra",
+        "date": "2026-09-03T19:08:44Z"
+      },
+      {
+        "title": "Hyperglycemic stress aggravates diabetic retinopathy and nephropathy by promoting cilium disassembly via a deacetylation- and methylation-mediated regulatory mechanism",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003975",
+        "source": "Plos.org",
+        "date": "2026-09-03T14:00:00Z"
+      },
+      {
+        "title": "Freddy DeBoer: Whatever Happened to Raj Chetty and His Claims about Teachers?",
+        "url": "https://dianeravitch.net/2026/09/03/freddy-deboer-whatever-happened-to-raj-chetty-and-his-claims-about-teachers/",
+        "source": "Dianeravitch.net",
+        "date": "2026-09-03T14:00:00Z"
+      },
+      {
+        "title": "Sandra Bullock makes rare comment on dating 3 years after partner Bryan Randall\u2019s death",
+        "url": "https://pagesix.com/2026/09/03/celebrity-news/sandra-bullock-makes-rare-dating-comment-3-years-after-bryan-randall-death/",
+        "source": "Page Six",
+        "date": "2026-09-03T12:54:40Z"
+      },
+      {
+        "title": "\"Blood Of Your Empire\" von President",
+        "url": "https://laut.de/President/Alben/Blood-Of-Your-Empire-126996",
+        "source": "Laut.de",
+        "date": "2026-09-03T09:17:55Z"
+      },
+      {
+        "title": "alsgls 2.1.0",
+        "url": "https://pypi.org/project/alsgls/2.1.0/",
+        "source": "Pypi.org",
+        "date": "2026-09-03T08:28:08Z"
+      },
+      {
+        "title": "alsgls 2.0.0",
+        "url": "https://pypi.org/project/alsgls/2.0.0/",
+        "source": "Pypi.org",
+        "date": "2026-09-03T05:14:19Z"
+      },
+      {
+        "title": "agent-log-server 0.2.123",
+        "url": "https://pypi.org/project/agent-log-server/0.2.123/",
+        "source": "Pypi.org",
+        "date": "2026-09-03T02:41:02Z"
+      },
+      {
+        "title": "Cassandra Wilson, Two-Time Grammy Award-Winning Jazz Singer, Dies At 70",
+        "url": "https://www.huffpost.com/entry/two-time-grammy-winner-cassandra-wilson-dead-at-70_n_6a98ab00e4b0bd4d29d296ec",
+        "source": "HuffPost",
+        "date": "2026-09-02T23:09:04Z"
+      },
+      {
+        "title": "Cassandra Wilson and Other Black Stars We Lost in 2026",
+        "url": "https://www.theroot.com/cassandra-wilson-and-other-black-stars-we-lost-in-2026-2000083991",
+        "source": "The Root",
+        "date": "2026-09-02T21:23:24Z"
+      },
+      {
+        "title": "Jenny Slatten from \u201890 Day Fianc\u00e9\u2019 Is Losing Her Speech to ALS, and She and Sumit Are Begging for Help Getting Him a Visa",
+        "url": "https://thoughtcatalog.com/xstockton/2026/09/jenny-slatten-from-90-day-fiance-is-losing-her-speech-to-als-and-she-and-sumit-are-begging-for-help-getting-him-a-visa/",
+        "source": "Thoughtcatalog.com",
+        "date": "2026-09-02T18:06:45Z"
+      },
+      {
+        "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+        "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+        "source": "Nvidia.com",
+        "date": "2026-09-02T16:04:28Z"
+      },
+      {
+        "title": "\u2018Weird Al\u2019 Yankovic Sings a Catchy Song About How the Human Brain Works",
+        "url": "https://laughingsquid.com/weird-al-yankovic-brain-song/",
+        "source": "Laughingsquid.com",
+        "date": "2026-09-02T16:00:36Z"
+      },
+      {
+        "title": "90 Day Fianc\u00e9's Jenny Slatten \u201cCan\u2019t Talk\u201d Amid ALS Battle",
+        "url": "https://www.eonline.com/news/1435656/90-day-fiance-star-jenny-slatten-cant-talk-amid-als-battle",
+        "source": "Eonline.com",
+        "date": "2026-09-02T15:27:00Z"
+      },
+      {
+        "title": "Understanding the association between immune-modulating helminths and HPV or cervical cancer: A scoping review",
+        "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0013308",
+        "source": "Plos.org",
+        "date": "2026-09-02T14:00:00Z"
+      },
+      {
+        "title": "Every month, every day, every hour",
+        "url": "https://chicagoreader.com/city-life/mental-health-illinois-prisons/",
+        "source": "Chicago Reader",
+        "date": "2026-09-02T12:00:00Z"
+      },
+      {
+        "title": "Brixton Metals Drills 6,199 g/t Silver over 1.00 m including 0.50 m of 12,386 g/t Silver in Hole 432 at its Langis Project in Ontario",
+        "url": "https://financialpost.com/globe-newswire/brixton-metals-drills-6199-g-t-silver-over-1-00-m-including-0-50-m-of-12386-g-t-silver-in-hole-432-at-its-langis-project-in-ontario",
+        "source": "Financial Post",
+        "date": "2026-09-02T11:35:26Z"
+      },
+      {
+        "title": "NovaGo Therapeutics Closes USD 30 Million Series B Financing to Advance Proof-of-Concept Study in Acute Spinal Cord Injury",
+        "url": "https://www.prnewswire.com/news-releases/novago-therapeutics-closes-usd-30-million-series-b-financing-to-advance-proof-of-concept-study-in-acute-spinal-cord-injury-302866193.html",
+        "source": "PRNewswire",
+        "date": "2026-09-02T10:00:00Z"
+      },
+      {
+        "title": "NovaGo Therapeutics Closes USD 30 Million Series B Financing to Advance Proof-of-Concept Study in Acute Spinal Cord Injury",
+        "url": "https://www.prnewswire.com/news-releases/novago-therapeutics-closes-usd-30-million-series-b-financing-to-advance-proof-of-concept-study-in-acute-spinal-cord-injury-302866185.html",
+        "source": "PRNewswire",
+        "date": "2026-09-02T10:00:00Z"
+      },
+      {
+        "title": "Show HN: Comparing eight LLMs on 38 Berlin election questions",
+        "url": "https://bensk1.github.io/berlin-wahllm/en/",
+        "source": "Github.io",
+        "date": "2026-09-02T08:21:47Z"
+      },
+      {
+        "title": "Heartland",
+        "url": "https://www.kino.de/film/heartland--01M1GG3YGYSTSP2X6GK0WS7PQ8",
+        "source": "Kino.de",
+        "date": "2026-09-02T07:25:14Z"
+      },
+      {
+        "title": "Dynamic biomass micro\u2013nanofibre framework for entrapment and clearance of gastrointestinal microplastics",
+        "url": "https://www.nature.com/articles/s41565-026-02266-2",
+        "source": "Nature.com",
+        "date": "2026-09-02T00:00:00Z"
+      },
+      {
+        "title": "GoFundMe for 90 Day's Jenny Slatten Raises More Than $100K Amid ALS",
+        "url": "https://www.usmagazine.com/celebrity-news/news/gofundme-for-90-day-fiances-jenny-slatten-raises-over-100k/",
+        "source": "Us Weekly",
+        "date": "2026-09-01T18:36:54Z"
+      },
+      {
+        "title": "Sandra Bullock Reveals Her 2 Kids Have 'Practical Magic 2' Cameos: 'Proud'",
+        "url": "https://www.usmagazine.com/celebrity-news/news/sandra-bullock-says-her-2-kids-have-practical-magic-2-cameos/",
+        "source": "Us Weekly",
+        "date": "2026-09-01T17:55:21Z"
+      },
+      {
+        "title": "Sandra Bullock\u2019s 2 kids make surprise appearances in \u2018Practical Magic 2\u2019: \u2018Unbelievably proud\u2019",
+        "url": "https://pagesix.com/2026/09/01/entertainment/sandra-bullocks-kids-make-surprise-cameos-in-practical-magic-2/",
+        "source": "Page Six",
+        "date": "2026-09-01T16:41:58Z"
+      },
+      {
+        "title": "Men's Nike Club Unstructured Futura Wash Hat (Light Khaki) $9.80 + Free Shipping on $49+ (0 replies)",
+        "url": "https://slickdeals.net/f/19955271-men-s-nike-club-unstructured-futura-wash-hat-light-khaki-9-80-free-shipping-on-49",
+        "source": "Slickdeals.net",
+        "date": "2026-09-01T16:24:46Z"
+      },
+      {
+        "title": "Jenny Slatten & Sumit Singh Share Sad ALS & Visa Updates with \u201990 Day \u2026",
+        "url": "https://www.thehollywoodgossip.com/2026/09/jenny-slatten-sumit-singh-als-update-visa-90-day-fiance/",
+        "source": "The Hollywood Gossip",
+        "date": "2026-09-01T12:19:14Z"
+      },
+      {
+        "title": "ProMIS Neurosciences to Participate in Upcoming Conferences and Events in September",
+        "url": "https://financialpost.com/globe-newswire/promis-neurosciences-to-participate-in-upcoming-conferences-and-events-in-september",
+        "source": "Financial Post",
+        "date": "2026-09-01T12:08:57Z"
+      },
+      {
+        "title": "Paralyzed Veterans of America Launches \"ONE of ONE\" Campaign",
+        "url": "https://www.prnewswire.com/news-releases/paralyzed-veterans-of-america-launches-one-of-one-campaign-302866163.html",
+        "source": "PRNewswire",
+        "date": "2026-09-01T11:17:00Z"
+      },
+      {
+        "title": "Bart Zoetmulder hoofd internationale Sales bij Linehub",
+        "url": "https://www.emerce.nl/nieuws/bart-zoetmulder-hoofd-internationale-sales-linehub",
+        "source": "Emerce.nl",
+        "date": "2026-09-01T09:45:40Z"
+      },
+      {
+        "title": "Conard, Julius: Der Gebrandmarkte. V1 [German] 1.9.2026 (Mystery and Crime, ePub)",
+        "url": "https://www.mobileread.com/forums/showthread.php?t=375115",
+        "source": "Mobileread.com",
+        "date": "2026-09-01T06:49:37Z"
+      }
+    ],
+    "generated_at": "2026-09-06T11:59:39.782510"
+  },
+  {
     "date": "2026-08-30",
     "week_of": "August 30, 2026",
     "digest_number": 35,
