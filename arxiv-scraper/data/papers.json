@@ -1,5 +1,24 @@
 [
   {
+    "id": "2609.08394v1",
+    "title": "Windows Malware Detector as a Compound AI System: Trade-Offs in Accuracy, Efficiency, and Adversarial Robustness",
+    "summary": "Industrial Windows malware detectors are commonly described as Compound AI Systems composed of multiple heterogeneous components, including rule-based mechanisms as well as machine-learning-based static and dynamic analyses. However, due to industrial secrecy and limited public disclosure, the internal architectures of these systems can only be inferred, rendering systematic evaluations of detection accuracy, computational costs, and adversarial robustness largely infeasible. In contrast, academic research provides reproducible and transparent evaluation methodologies, but typically investigates individual detection components in isolation. To bridge the gap between academic research and industrial practice, and inspired by state-of-the-art industrial architectures for Windows malware detection, we propose a novel methodology that (i) explicitly balances the trade-off among detection performance, computational requirements, and robustness, and introduces (ii) system-level threat models that capture how attackers exploit different degrees of knowledge to evade the entire Compound AI System rather than isolated detectors. Experiments conducted on real-world data demonstrate that the Compound AI System training time can be reduced and responsiveness improved while incurring only a marginal loss in detection performance. Leveraging our threat modeling, we show that increasingly knowledgeable attackers craft more effective adversarial examples, revealing the system's strengths and weaknesses, degrading its responsiveness, and exposing a direct trade-off between efficiency and robustness. Finally, we translate these trade-offs into take-home messages and deployment guidelines, helping practitioners to select the system that best matches their operational constraints.",
+    "published": "2026-09-08T08:04:51Z",
+    "link": "http://arxiv.org/abs/2609.08394v1",
+    "authors": [
+      "Andrea Ponte",
+      "Luca Demetrio",
+      "Luca Oneto",
+      "Battista Biggio",
+      "Fabio Roli"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Industrial Windows malware detectors are commonly described as Compound AI Systems composed of multiple heterogeneous components, including rule-based mechanisms as well as machine-learning-based static and dynamic analyses. However, due to industrial secrecy and limited public disclosure, the internal architectures of these systems can only be inferred, rendering systematic evaluations of detection accuracy, computational costs, and adversarial robustness largely infeasible.",
+    "selected_date": "2026-09-09"
+  },
+  {
     "id": "2609.05119v1",
     "title": "Understanding the Privacy-Preserving Potential of HTTP/2 Against Webpage Fingerprinting",
     "summary": "Website fingerprinting (WF) attacks can infer which webpage a user visits from encrypted HTTPS traffic alone, compromising privacy even without decryption. WF defenses commonly shape traffic through noise, padding, delays, or flow splitting, yet they are most often studied from the perspective of encapsulating protocols like Tor or VPN rather than at the application layer (HTTP).   In this work, we focus on application-layer defenses enabled by the most widely deployed version of HTTP, HTTP/2. We demonstrate how known defenses can be emulated through HTTP/2 features at the client side (HTTPOS, LLaMA, FRONT, Tamaraw) and the server side (ALPaCA, Tamaraw). We further show that HTTP/2 features, such as proactive resource suggestion, multiplexing, and flow control, offer untapped potential for lightweight yet effective defenses deployable at both endpoints.   We evaluate these defenses using a unified blueprint that calibrates defense parameters per dataset, then combines practical attacks, information-theoretic leakage estimates, and overhead measurements. For each defense, this framework identifies the strongest hyperparameter-tuned fingerprinting model and estimates the residual uncertainty induced by the defense using two information-theoretic leakage estimators, all while accounting for the defense's privacy-overhead trade-offs.",
@@ -589,22 +608,5 @@
     ],
     "ai_summary": "Computer-use agents~(CUAs) have transformed large language models into persistent execution systems capable of generating, storing, and reusing artifacts like skills and memory entries. However, existing security defenses largely treat attacks as externally triggered or temporally bounded, leaving a critical gap in addressing how compromise can propagate internally through an agent's own persistent state.",
     "selected_date": "2026-08-10"
-  },
-  {
-    "id": "2608.05983v1",
-    "title": "Universal Concept Disruption for SAM3 Image Segmentation",
-    "summary": "SAM3 extends promptable segmentation from geometry-driven mask prediction to open-vocabulary concept segmentation, where a text-conditioned grounding model decides whether a concept is present and segments all matching instances. While this presence-gated design improves concept-level prediction, its adversarial robustness remains unexplored. In this paper, we introduce Universal Concept Disruption (UCD), the first universal cross-concept adversarial attack tailored to SAM3 image segmentation. UCD learns a single bounded image perturbation from (image, noun-phrase) pairs and attacks SAM3 as an integrated concept-grounding system. It jointly disrupts the text-conditioned input path, maximizes divergence in prompt-shared visual features, suppresses the final presence-gated concept scores, and corrupts the spatial validity of retained masks through area collapse and clean-mask Dice disruption. Across SACo-Gold, LVIS, RefCOCO, PhraseCut, and OpenImages datasets, UCD consistently outperforms all baselines under a matched evaluation protocol, reducing average mask AP from 59.43 to 18.73 and average cgF1 from 50.32 to 20.49. The learned perturbation also transfers to SAM3.1 and to SAM3 video inference without re-optimization, while prompt ensembling, lightweight head fine-tuning, and temporal filtering provide limited recovery.",
-    "published": "2026-08-06T13:00:02Z",
-    "link": "http://arxiv.org/abs/2608.05983v1",
-    "authors": [
-      "Hao Wang",
-      "Yuxuan Zhang",
-      "Wei Yang"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "SAM3 extends promptable segmentation from geometry-driven mask prediction to open-vocabulary concept segmentation, where a text-conditioned grounding model decides whether a concept is present and segments all matching instances. While this presence-gated design improves concept-level prediction, its adversarial robustness remains unexplored.",
-    "selected_date": "2026-08-09"
   }
 ]
