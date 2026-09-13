@@ -1,5 +1,1309 @@
 [
   {
+    "date": "2026-09-13",
+    "week_of": "September 13, 2026",
+    "digest_number": 37,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Titans postpone Chris Johnson ceremony over \u2018unforeseen circumstances\u2019 as former rushing champ battles ALS",
+          "description": "Johnson announced in June on \"Good Morning America\" that he had been diagnosed with ALS last year.",
+          "content": "Former Titans star running back Chris Johnson, who is battling amyotrophic lateral sclerosis (ALS), will not be inducted into the team\u2019s Ring of Honor on Sunday against the Jets since he cannot atten\u2026 [+4092 chars]",
+          "url": "https://nypost.com/2026/09/12/sports/titans-postpone-chris-johnson-ceremony-over-unforeseen-circumstances-as-former-rushing-champ-battles-als/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-09-12T12:42:35Z",
+          "author": "Matt Ehalt",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/09/newspress-collage-xs91gl2tj-1789216772153.jpg?quality=75&strip=all&1789202433&w=1200",
+          "is_local_nj": false,
+          "article_id": "4fc33a4a7f59",
+          "summary": "Johnson announced in June on \"Good Morning America\" that he had been diagnosed with ALS last year.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NBC crew celebrates Titans legend Chris Johnson at Hall of Fame game",
+              "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/08/07/nbc-crew-celebrates-tennessee-titans-legend-chris-johnson-hall-fame-game/91211580007/",
+              "digest_date": "2026-08-09"
+            },
+            {
+              "title": "Why Michael Strahan defended criticism over controversial Chris Johnson ALS interview",
+              "url": "https://www.sportingnews.com/us/nfl/news/michael-strahan-criticism-chris-johnson-als-interview/30bb7b1fd7853f4c99887df1",
+              "digest_date": "2026-08-02"
+            },
+            {
+              "title": "Titans set to induct Chris Johnson into Ring of Honor in season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a14dfdbb-008c-4a39-b421-afe7f1cd31d9",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "Titans\u2019 \u2018Unforeseen Circumstance\u2019 Announcement on Chris Johnson Leaves Fans Worried",
+          "description": "The Tennessee Titans are scheduled to kick off their 2026 NFL season on Sunday against the New York Jets at Nissan Stadium in Nashville. Former Tennessee star running back Chris Johnson was supposed to be inducted into the franchise\u2019s Ring of Honor at halftim\u2026",
+          "content": "The Tennessee Titans are scheduled to kick off their 2026 NFL season on Sunday against the New York Jets at Nissan Stadium in Nashville.\r\nFormer Tennessee star running back Chris Johnson was supposed\u2026 [+2575 chars]",
+          "url": "https://sports.yahoo.com/articles/titans-unforeseen-circumstance-announcement-chris-111923434.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-09-12T11:19:23Z",
+          "author": "Rex Villas",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/3aabc883b6bc0622b58abf4a8b9a150adb26f07c4cd6eadcc0b49837fcc89ec3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgridiron_heroics_307%2F37afebe8370f6975462100746d0a95de.jpg",
+          "is_local_nj": false,
+          "article_id": "48d8566e9d5b",
+          "summary": "The Tennessee Titans are scheduled to kick off their 2026 NFL season on Sunday against the New York Jets at Nissan Stadium in Nashville. Former Tennessee star running back Chris Johnson was supposed t",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Tennessee Titans delay Chris Johnson induction after he cannot travel to Nashville",
+          "description": "The Tennessee Titans postponed Chris Johnson\u2019s induction into the franchise Ring of Honor on Friday, two days before the ceremony was to take place at halftime of the season opener against the New York Jets. The team said unforeseen circumstances left Johnson\u2026",
+          "content": "The Tennessee Titans postponed Chris Johnson's induction into the franchise Ring of Honor on Friday, two days before the ceremony was to take place at halftime of the season opener against the New Yo\u2026 [+3049 chars]",
+          "url": "https://sports.yahoo.com/articles/tennessee-titans-delay-chris-johnson-111743163.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-09-12T11:17:43Z",
+          "author": "Olamilekan Ajayi",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/0c899bfe71b8d518eb56c4b22b526c8c53732bf06af6f3ab2a5c23600af79933/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgridiron_heroics_307%2Fc6399b613937530dcf8900122e157fa7.jpg",
+          "is_local_nj": false,
+          "article_id": "089b52c7d032",
+          "summary": "The Tennessee Titans postponed Chris Johnson\u2019s induction into the franchise Ring of Honor on Friday, two days before the ceremony was to take place at halftime of the season opener against the New Yor",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NBC crew celebrates Titans legend Chris Johnson at Hall of Fame game",
+              "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/08/07/nbc-crew-celebrates-tennessee-titans-legend-chris-johnson-hall-fame-game/91211580007/",
+              "digest_date": "2026-08-09"
+            },
+            {
+              "title": "Titans set to induct Chris Johnson into Ring of Honor in season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a14dfdbb-008c-4a39-b421-afe7f1cd31d9",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans Set to Induct Legendary RB Chris Johnson Into Ring of Honor",
+              "url": "https://heavy.com/sports/nfl/tennessee-titans/titans-set-to-induct-legendary-rb-chris-johnson-into-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "PC Games 10/26: Mit Coverstory zu The Blood of Dawnwalker, Vorschau zu The Witcher 3: Songs of the Past u. v. m.",
+          "description": "Die PC Games 10/26 ist da! Mit Coverstory zu The Blood of Dawnwalker, Test zu Star Wars: Zero Company, Previews zu The Witcher 3: Songs of the Past, The Expanse: Osiris Reborn, Metro 2039, Heroes of Might & Magic 3 Remake u. v. m.",
+          "content": "Spannende, aber auch stressige Tage sind es aktuell hier in der Redaktion. Das liegt nat\u00fcrlich zum einen daran, dass kurz vor unserem Redaktionsschluss in K\u00f6ln einmal mehr die Gamescom stattfand und \u2026 [+4722 chars]",
+          "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/Ausgabe-10-26-The-Blood-of-Dawnwalker-1553572/",
+          "source_name": "PC Games",
+          "source_type": "newsapi",
+          "published_at": "2026-09-12T07:00:00Z",
+          "author": "Sascha Lohm\u00fcller",
+          "image_url": "https://www.pcgames.de/screenshots/original/2026/09/PCG_1026_Cover_Promo_layer_1920x1080-pc-games_artwork.jpg",
+          "is_local_nj": false,
+          "article_id": "280c6b0e27f6",
+          "summary": "Die PC Games 10/26 ist da! Mit Coverstory zu The Blood of Dawnwalker, Test zu Star Wars: Zero Company, Previews zu The Witcher 3: Songs of the Past, The Expanse: Osiris Reborn, Metro 2039, Heroes of M",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "PC Games 09/26: Mit Coverstory zu Total War: Warhammer 40k, Preview zu Dawn of War 4 u. v. m.",
+              "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/Ausgabe-09-26-Total-War-Warhammer-40k-1551234/",
+              "digest_date": "2026-08-16"
+            },
+            {
+              "title": "PC Games 08/26: Mit Coverstory zu Gothic Remake, Test zur Steam Machine, Preview zu Final Fantasy 7: Revelation u. v. m.",
+              "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/Gothic-Remake-Steam-Machine-Test-Final-Fantasy-7-Revelation-1547643/",
+              "digest_date": "2026-07-12"
+            },
+            {
+              "title": "PC Games 07/26: Mit Coverstory zu Assassin's Creed: Black Flag Resynced, Preview zu The Witcher 3: Songs of the Past u. v. m.",
+              "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/07-26-Assassins-Creed-Black-Flag-Resynced-1545210/",
+              "digest_date": "2026-06-14"
+            }
+          ]
+        },
+        {
+          "title": "Tennessee Titans postpone Chris Johnson\u2019s Ring of Honor ceremony",
+          "description": "The Tennessee Titans postponed Chris Johnson's Ring of Honor induction ceremony due to unforeseen circumstances.",
+          "content": "The Tennessee Titans have wrapped up on-field work ahead of their Week 1 matchup with the New York Jets. But unfortunately, some of the weekend's celebrations have been postponed. On Friday afternoon\u2026 [+1225 chars]",
+          "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/09/12/tennessee-titans-postpone-chris-johnsons-ring-of-honor-ceremony/91717182007/",
+          "source_name": "USA Today",
+          "source_type": "newsapi",
+          "published_at": "2026-09-12T04:05:26Z",
+          "author": "Mark Mihalko, Titans Wire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "51fecb1b58b6",
+          "summary": "The Tennessee Titans postponed Chris Johnson's Ring of Honor induction ceremony due to unforeseen circumstances.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Titans set to induct Chris Johnson into Ring of Honor in season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a14dfdbb-008c-4a39-b421-afe7f1cd31d9",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans Set to Induct Legendary RB Chris Johnson Into Ring of Honor",
+              "url": "https://heavy.com/sports/nfl/tennessee-titans/titans-set-to-induct-legendary-rb-chris-johnson-into-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Tennessee Titans Announce Massive Honor They\u2019ll Bestow On Chris Johnson Following Former Running Back\u2019s ALS Diagnosis",
+              "url": "https://brobible.com/sports/article/tennessee-titans-chris-johnson-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "Titans news: Chris Johnson's Ring of Honor induction postponed to later date",
+          "description": "The Tennessee Titans initially planned to induct legendary running back Chris Johnson into the Ring of Honor during the club\u2019s Week 1 opener against the New York Jets. However, that event is now being postponed. The organization announced on Friday that Johns\u2026",
+          "content": "Titans news: Chris Johnson's Ring of Honor induction postponed to later date appeared first on ClutchPoints. Add ClutchPoints as a Preferred Source by clicking here.\r\nThe Tennessee Titans initially p\u2026 [+2065 chars]",
+          "url": "https://clutchpoints.com/nfl/tennessee-titans/titans-news-chris-johnson-ring-of-honor-induction-postponed-later-date",
+          "source_name": "ClutchPoints",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T23:03:46Z",
+          "author": "Benedetto Vitale, ClutchPoints",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/08034c0ccfc9b0a4e7a57712b094a69a7453d03b5cb486cfd5f597eb39eceaa6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fclutchpoints_articles_939%2Fa7b48856fd3868c3817821bfb4b5985a.jpg",
+          "is_local_nj": false,
+          "article_id": "deea56950905",
+          "summary": "The Tennessee Titans initially planned to induct legendary running back Chris Johnson into the Ring of Honor during the club\u2019s Week 1 opener against the New York Jets. However, that event is now being",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Titans set to induct Chris Johnson into Ring of Honor in season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a14dfdbb-008c-4a39-b421-afe7f1cd31d9",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans Set to Induct Legendary RB Chris Johnson Into Ring of Honor",
+              "url": "https://heavy.com/sports/nfl/tennessee-titans/titans-set-to-induct-legendary-rb-chris-johnson-into-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Tennessee Titans Announce Massive Honor They\u2019ll Bestow On Chris Johnson Following Former Running Back\u2019s ALS Diagnosis",
+              "url": "https://brobible.com/sports/article/tennessee-titans-chris-johnson-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "It\u2019s Your Fault Sandra Bullock Doesn\u2019t Make Rom-coms Anymore",
+          "description": "Sandra Bullock said she intentionally stopped making rom-coms because she was getting so much criticism for them. But now she wants them to make a comeback.",
+          "content": "If you long for a good Sandra Bullock rom-com, youre not alone. Jennifer Aniston feels the same. While interviewing Bullock for Interview, natch, Aniston talked about stumbling on scenes from Two Wee\u2026 [+1285 chars]",
+          "url": "http://www.vulture.com/article/sandra-bullock-rom-coms-criticism.html",
+          "source_name": "Vulture",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T22:03:49Z",
+          "author": "Bethy Squires",
+          "image_url": "https://pyxis.nymag.com/v1/imgs/781/a37/36cabe2505175077344ba300cf3db8b068-sandra-bullock.1x.rsocial.w1200.jpg",
+          "is_local_nj": false,
+          "article_id": "7a459b491610",
+          "summary": "Sandra Bullock said she intentionally stopped making rom-coms because she was getting so much criticism for them. But now she wants them to make a comeback.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Chris Johnson Lost His Speech to ALS Within a Year, and His Case Highlights Early Warning Signs",
+          "description": "Former NFL back Chris Johnson was diagnosed with ALS at 39 and now speaks through an eye-controlled device. What early symptoms look like.",
+          "content": "Chris Johnson, the former NFL running back whose 2,006-yard season in 2009 earned him the nickname CJ2K, was diagnosed with amyotrophic lateral sclerosis at age 39 and now communicates through a spee\u2026 [+6304 chars]",
+          "url": "https://www.medicaldaily.com/victgoal-childrens-bike-helmet-recall-walmart-cpsc-478558",
+          "source_name": "Medical Daily",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T22:00:05Z",
+          "author": "Elena Vega",
+          "image_url": "https://d.medicaldaily.com/en/full/485854/chris-johnson.jpg",
+          "is_local_nj": false,
+          "article_id": "6c6771e1ff2c",
+          "summary": "Former NFL back Chris Johnson was diagnosed with ALS at 39 and now speaks through an eye-controlled device. What early symptoms look like.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "A brain-computer interface has, for the first time, restored fluent everyday speech to a person who had lost it \u2014 a man with ALS who had not spoken aloud in years until a small implant from the BrainGate clinical trial began translating his attempts to speak directly into computer-synthesised words, in a result researchers reported in June 2026",
+              "url": "https://spacedaily.com/d-a-brain-computer-interface-has-for-the-first-time-restored-fluent-everyday-speech-to-a-person-who-had-lost-it-a-man-with-als-who-had-not-spoken-aloud-in-years-until-a-small-implant-from-th/",
+              "digest_date": "2026-06-21"
+            }
+          ]
+        },
+        {
+          "title": "The dementia that often strikes in midlife - and the signs people miss",
+          "description": "Washington Post: Initial symptoms of frontotemporal dementia are easy to miss.",
+          "content": "Below, experts explain why FTD tends to hit earlier in life than other dementias, the often-overlooked signs to know and what care for people with the condition looks like.\r\nWhy FTD starts earlier th\u2026 [+7237 chars]",
+          "url": "https://www.washingtonpost.com/wellness/2026/09/04/frontotemporal-dementia-often-starts-midlife-signs-are-easy-miss/",
+          "source_name": "The Washington Post",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T22:00:00Z",
+          "author": "Erica Sloan",
+          "image_url": "https://www.nzherald.co.nz/resizer/v2/XUID2PPML5HZNIXTTMIVZDBYUA.jpg?auth=4cdbd0e416ef7063897f6d08efe3b1fa769ed17b06db64b4d10bc5dbf53c8678&width=1200&height=675&quality=70&focal=1798%2C798&smart=false",
+          "is_local_nj": false,
+          "article_id": "49b390193a2c",
+          "summary": "Washington Post: Initial symptoms of frontotemporal dementia are easy to miss.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Tennessee Titans postpone legend Chris Johnson's Ring of Honor induction due to 'unforeseen circumstances' amid his ALS battle",
+          "description": "The ceremony was slated to take place just over two months after Johnson, who also played for the Jets during his NFL career, revealed he had been diagnosed with ALS.",
+          "content": "The Tennessee Titans have postponed their ceremony to honor franchise legend Chris Johnson, the team announced on Friday.\u00a0\r\nThe Titans were scheduled to induct the running back into their Ring of Hon\u2026 [+4242 chars]",
+          "url": "https://www.dailymail.com/sport/nfl/article-16124693/tennessee-titans-chris-johnson-als-honor-postponed.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T21:39:43Z",
+          "author": "Isabel Baldwin",
+          "image_url": "https://i.dailymail.com/1s/2026/09/11/22/109669171-0-image-m-18_1789162579878.jpg",
+          "is_local_nj": false,
+          "article_id": "0974579527f6",
+          "summary": "The ceremony was slated to take place just over two months after Johnson, who also played for the Jets during his NFL career, revealed he had been diagnosed with ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NBC crew celebrates Titans legend Chris Johnson at Hall of Fame game",
+              "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/08/07/nbc-crew-celebrates-tennessee-titans-legend-chris-johnson-hall-fame-game/91211580007/",
+              "digest_date": "2026-08-09"
+            },
+            {
+              "title": "Titans set to induct Chris Johnson into Ring of Honor in season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a14dfdbb-008c-4a39-b421-afe7f1cd31d9",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans Set to Induct Legendary RB Chris Johnson Into Ring of Honor",
+              "url": "https://heavy.com/sports/nfl/tennessee-titans/titans-set-to-induct-legendary-rb-chris-johnson-into-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "Titans postpone Chris Johnson induction one day after he shared ALS struggles",
+          "description": "The Titans announced Chris Johnson, who shared his ALS diagnosis in June, and his family are unable to travel to Nashville for his induction ceremony.",
+          "content": "The Tennessee Titans have postponed running back Chris Johnson's induction into their Ring of Honor \"due to unforeseen circumstances.\"\r\nThe team made the announcement in a statement shared Friday, Se\u2026 [+2460 chars]",
+          "url": "https://www.usatoday.com/story/sports/nfl/titans/2026/09/11/chris-johnson-als-ring-of-honor-postponed-titans/91716838007/",
+          "source_name": "USA Today",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T21:22:15Z",
+          "author": "Rachel Crader, USA TODAY",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/c579ae329e39eeb2eb2585f9dcc91a3745d63aa9651f27f6ba4b824364daa75d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2F5993792d4742bc9d709580faf62b9a4b.jpg",
+          "is_local_nj": false,
+          "article_id": "c2859d7882be",
+          "summary": "The Titans announced Chris Johnson, who shared his ALS diagnosis in June, and his family are unable to travel to Nashville for his induction ceremony.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NBC crew celebrates Titans legend Chris Johnson at Hall of Fame game",
+              "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/08/07/nbc-crew-celebrates-tennessee-titans-legend-chris-johnson-hall-fame-game/91211580007/",
+              "digest_date": "2026-08-09"
+            },
+            {
+              "title": "Titans set to induct Chris Johnson into Ring of Honor in season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a14dfdbb-008c-4a39-b421-afe7f1cd31d9",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans Set to Induct Legendary RB Chris Johnson Into Ring of Honor",
+              "url": "https://heavy.com/sports/nfl/tennessee-titans/titans-set-to-induct-legendary-rb-chris-johnson-into-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "Titans postponing Chris Johnson's Ring of Honor induction ceremony since former RB, family unable to travel for opener",
+          "description": "Johnson is battling ALS, a diagnosis he revealed in June.",
+          "content": "\"Knowing how much he and his family desire to be in person at Nissan Stadium for his induction into the Titans Ring of Honor, we will postpone the official induction ceremony and look forward to cele\u2026 [+312 chars]",
+          "url": "https://sports.yahoo.com/nfl/article/titans-postponing-chris-johnsons-ring-of-honor-induction-ceremony-since-former-rb-family-unable-to-travel-for-opener-202550258.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T20:25:50Z",
+          "author": "Andy Backstrom",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/93b3250d91c0699b5aa42bbec95403c860e344318392e90d0b1b1f951605dfd8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F74b51002-f102-439a-89a8-e0bb2b65ffe0",
+          "is_local_nj": false,
+          "article_id": "65a5813dc44e",
+          "summary": "Johnson is battling ALS, a diagnosis he revealed in June.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Titans set to induct Chris Johnson into Ring of Honor in season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a14dfdbb-008c-4a39-b421-afe7f1cd31d9",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans Set to Induct Legendary RB Chris Johnson Into Ring of Honor",
+              "url": "https://heavy.com/sports/nfl/tennessee-titans/titans-set-to-induct-legendary-rb-chris-johnson-into-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Tennessee Titans Announce Massive Honor They\u2019ll Bestow On Chris Johnson Following Former Running Back\u2019s ALS Diagnosis",
+              "url": "https://brobible.com/sports/article/tennessee-titans-chris-johnson-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "Chris Johnson unable to travel to Nashville, Titans postpone Ring of Honor ceremony",
+          "description": "The Titans' plans to induct Chris Johnson into the Ring of Honor this weekend have been put on hold.",
+          "content": "The Titans plans to induct Chris Johnson into the Ring of Honor this weekend have been put on hold. \r\nThe team released a statement on Friday afternoon announcing that they will still celebrate Johns\u2026 [+713 chars]",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-johnson-unable-to-travel-to-nashville-titans-postpone-ring-of-honor-ceremony",
+          "source_name": "NBCSports.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T20:16:02Z",
+          "author": "Josh Alper",
+          "image_url": "https://nbcsports.brightspotcdn.com/dims4/default/6e47d47/2147483647/strip/true/crop/3900x2194+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F25%2Fbd%2Ff59f518a4908bf06f89b73fb06f1%2F462793603.jpg",
+          "is_local_nj": false,
+          "article_id": "de961cefa18d",
+          "summary": "The Titans' plans to induct Chris Johnson into the Ring of Honor this weekend have been put on hold.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NBC crew celebrates Titans legend Chris Johnson at Hall of Fame game",
+              "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/08/07/nbc-crew-celebrates-tennessee-titans-legend-chris-johnson-hall-fame-game/91211580007/",
+              "digest_date": "2026-08-09"
+            },
+            {
+              "title": "Titans set to induct Chris Johnson into Ring of Honor in season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a14dfdbb-008c-4a39-b421-afe7f1cd31d9",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans Set to Induct Legendary RB Chris Johnson Into Ring of Honor",
+              "url": "https://heavy.com/sports/nfl/tennessee-titans/titans-set-to-induct-legendary-rb-chris-johnson-into-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "Widow of 9/11 first responder repeatedly denied benefits \u2014 even as pols use his words as rallying cry",
+          "description": "The family of 9/11 first responder Mike Hanson died of Lou Gehrig's Disease due to his time at Ground Zero -- but have been denied benefits 13 times.",
+          "content": "The family of a 9/11 first responder has been denied disability benefits more than a dozen times \u2014 even as City Hall uses his words as a rallying cry for the 25th anniversary of the terror attacks.\r\n\u2026 [+3935 chars]",
+          "url": "https://nypost.com/2026/09/11/us-news/widow-of-9-11-first-responder-repeatedly-denied-benefits-even-as-pols-use-his-words-as-rallying-cry/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T16:04:36Z",
+          "author": "Larry Celona, Peter Senzamici, Jorge Fitz-Gibbon",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/09/140511309.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "e8278ccd8153",
+          "summary": "The family of 9/11 first responder Mike Hanson died of Lou Gehrig's Disease due to his time at Ground Zero -- but have been denied benefits 13 times.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "A brain-computer interface has, for the first time, restored fluent everyday speech to a person who had lost it \u2014 a man with ALS who had not spoken aloud in years until a small implant from the BrainGate clinical trial began translating his attempts to speak directly into computer-synthesised words, in a result researchers reported in June 2026",
+              "url": "https://spacedaily.com/d-a-brain-computer-interface-has-for-the-first-time-restored-fluent-everyday-speech-to-a-person-who-had-lost-it-a-man-with-als-who-had-not-spoken-aloud-in-years-until-a-small-implant-from-th/",
+              "digest_date": "2026-06-21"
+            }
+          ]
+        },
+        {
+          "title": "The L.A. Novelist Who Doesn\u2019t Get Her Due",
+          "description": "Jackie Collins wrote flashy Hollywood thrillers, but isn\u2019t often thought of as a canonical Los Angeles writer.",
+          "content": "This is an edition of the Books Briefing, our editors\u2019 weekly guide to the best in books. Sign up for it here.Jackie Collins, who wrote flashy, sex-filled Hollywood thrillers, isn\u2019t often thought of \u2026 [+6252 chars]",
+          "url": "https://www.theatlantic.com/newsletters/2026/09/the-books-briefing-jackie-collins-la-novelist/688595/",
+          "source_name": "The Atlantic",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T16:00:00Z",
+          "author": "Boris Kachka",
+          "image_url": "https://cdn.theatlantic.com/thumbor/OfUTUaXh7kOgC-K-tHgaGV_MNsY=/0x42:2000x1084/1200x625/media/newsletters/2026/09/BB_Jackie_Collins_LA/original.jpg",
+          "is_local_nj": false,
+          "article_id": "a7a53d519603",
+          "summary": "Jackie Collins wrote flashy Hollywood thrillers, but isn\u2019t often thought of as a canonical Los Angeles writer.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Sandra Bullock Told the \u2018Practical Magic 2\u2019 Writers to Use as Much of Her Real Grief as They Wanted, Because It Was Going to Show Up Anyway",
+          "description": "When Sandra Bullock signed on for \u201cPractical Magic 2,\u201d she didn\u2019t ask the writers to protect her. She told them the opposite: use as much of her real grief as they wanted, because\u2026",
+          "content": "When Sandra Bullock signed on for \u201cPractical Magic 2,\u201d she didn\u2019t ask the writers to protect her. She told them the opposite: use as much of her real grief as they wanted, because it was going to sur\u2026 [+1517 chars]",
+          "url": "https://thoughtcatalog.com/january-nelson/2026/09/sandra-bullock-told-the-practical-magic-2-writers-to-use-as-much-of-her-real-grief-as-they-wanted-because-it-was-going-to-show-up-anyway/",
+          "source_name": "Thoughtcatalog.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T15:08:37Z",
+          "author": "January Nelson",
+          "image_url": "https://thoughtcatalog.com/wp-content/uploads/2026/09/sandra-bullock-told-the-practical-magic-2-writers-to-use-as-much-of-her-real-gri.jpg?w=1536&h=768&crop=1",
+          "is_local_nj": false,
+          "article_id": "437e196990c5",
+          "summary": "When Sandra Bullock signed on for \u201cPractical Magic 2,\u201d she didn\u2019t ask the writers to protect her. She told them the opposite: use as much of her real grief as they wanted, because\u2026",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock's Daughter Told Her to Date Again After Bryan Randall's Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/sandra-bullocks-kid-told-her-to-date-after-partners-death/",
+              "digest_date": "2026-09-06"
+            },
+            {
+              "title": "Sandra Bullock gives rare update on her dating life three years after partner Bryan Randall's death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16104109/Sandra-Bullock-rare-comment-dating-life-Bryan-Randall-death.html",
+              "digest_date": "2026-09-06"
+            },
+            {
+              "title": "Sandra Bullock Reveals Her 2 Kids Have 'Practical Magic 2' Cameos: 'Proud'",
+              "url": "https://www.usmagazine.com/celebrity-news/news/sandra-bullock-says-her-2-kids-have-practical-magic-2-cameos/",
+              "digest_date": "2026-09-06"
+            }
+          ]
+        },
+        {
+          "title": "M\u00fcgge, Theodor: Sam Wiebe (german) V1. 11 Sep2026 (Other Fiction, ePub)",
+          "description": "Other Fiction M\u00fcgge, Theodor: Sam Wiebe (german) V1. 11 Sep2026 ePub Books",
+          "content": "Theodor M\u00fcgge, (8. November 1802 in Berlin \u0097 18. Februar 1861 ebenda) war ein bekannter deutscher Schriftsteller, der als Verfasser von Abenteuerromanen und zahlreichen Novellen in Erscheinung trat.I\u2026 [+1301 chars]",
+          "url": "https://www.mobileread.com/forums/showthread.php?t=375268",
+          "source_name": "Mobileread.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T14:31:59Z",
+          "author": "Frodok",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "6888f986b04b",
+          "summary": "Other Fiction M\u00fcgge, Theodor: Sam Wiebe (german) V1. 11 Sep2026 ePub Books",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Heyse, Paul: Der Roman der Stiftsdame. V1 [German] 27.8.2026 (Other Fiction, ePub)",
+              "url": "https://www.mobileread.com/forums/showthread.php?t=375036",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Senior Project Manager - Digital Communications (all genders) in Mainz - init AG - Mainz, Germany",
+          "description": "A new Senior Project Manager - Digital Communications (all genders) in Mainz job is available in Mainz. Check it out on PR News Online.",
+          "content": "Description\r\nDu m\u00f6chtest digitale Projekte nicht nur verwalten, sondern aktiv gestalten und gemeinsam mit deinen Kund:innen weiterentwickeln? Als Senior Project Manager (all genders) \u00fcbernimmst du Ve\u2026 [+4935 chars]",
+          "url": "http://www.careerwebsite.com/job/senior-project-manager-digital-communications-all-genders-in-mainz/85934915/22351/",
+          "source_name": "Careerwebsite.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T10:37:03Z",
+          "author": null,
+          "image_url": "https://d3ogvqw9m2inp7.cloudfront.net/assets/static/headers/cc/responsive/img/social-og-image.png",
+          "is_local_nj": false,
+          "article_id": "313bb79c032b",
+          "summary": "A new Senior Project Manager - Digital Communications (all genders) in Mainz job is available in Mainz. Check it out on PR News Online.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Marketing Communications Manager (all genders) Product & Business Development - Serviceplan Gruppe - M\u00fcnchen, Germany",
+              "url": "http://www.careerwebsite.com/job/marketing-communications-manager-all-genders-product-business-development/85754384/22351/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Marketing Communications Manager (all genders) Product & Business Development - Serviceplan Gruppe - M\u00fcnchen, Germany",
+              "url": "http://www.careerwebsite.com/job/marketing-communications-manager-all-genders-product-business-development/85754239/22351/",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Senior Project Manager - Digital Communications (all genders) in Berlin - init AG - Berlin, Germany",
+          "description": "A new Senior Project Manager - Digital Communications (all genders) in Berlin job is available in Berlin. Check it out on PR News Online.",
+          "content": "Description\r\nDu m\u00f6chtest digitale Projekte nicht nur verwalten, sondern aktiv gestalten und gemeinsam mit deinen Kund:innen weiterentwickeln? Als Senior Project Manager (all genders) \u00fcbernimmst du Ve\u2026 [+4934 chars]",
+          "url": "http://www.careerwebsite.com/job/senior-project-manager-digital-communications-all-genders-in-berlin/85934913/22351/",
+          "source_name": "Careerwebsite.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T10:36:57Z",
+          "author": null,
+          "image_url": "https://d3ogvqw9m2inp7.cloudfront.net/assets/static/headers/cc/responsive/img/social-og-image.png",
+          "is_local_nj": false,
+          "article_id": "7246e49dd4d5",
+          "summary": "A new Senior Project Manager - Digital Communications (all genders) in Berlin job is available in Berlin. Check it out on PR News Online.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Marketing Communications Manager (all genders) Product & Business Development - Serviceplan Gruppe - M\u00fcnchen, Germany",
+              "url": "http://www.careerwebsite.com/job/marketing-communications-manager-all-genders-product-business-development/85754384/22351/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Marketing Communications Manager (all genders) Product & Business Development - Serviceplan Gruppe - M\u00fcnchen, Germany",
+              "url": "http://www.careerwebsite.com/job/marketing-communications-manager-all-genders-product-business-development/85754239/22351/",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Senior Project Manager - Digital Communications (all genders) in K\u00f6ln - init AG - K\u00f6ln, Germany",
+          "description": "A new Senior Project Manager - Digital Communications (all genders) in K\u00f6ln job is available in K\u00f6ln. Check it out on PR News Online.",
+          "content": "Description\r\nDu m\u00f6chtest digitale Projekte nicht nur verwalten, sondern aktiv gestalten und gemeinsam mit deinen Kund:innen weiterentwickeln? Als Senior Project Manager (all genders) \u00fcbernimmst du Ve\u2026 [+4936 chars]",
+          "url": "http://www.careerwebsite.com/job/senior-project-manager-digital-communications-all-genders-in-kln/85934900/22351/",
+          "source_name": "Careerwebsite.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T10:36:15Z",
+          "author": null,
+          "image_url": "https://d3ogvqw9m2inp7.cloudfront.net/assets/static/headers/cc/responsive/img/social-og-image.png",
+          "is_local_nj": false,
+          "article_id": "a01993842c3d",
+          "summary": "A new Senior Project Manager - Digital Communications (all genders) in K\u00f6ln job is available in K\u00f6ln. Check it out on PR News Online.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Marketing Communications Manager (all genders) Product & Business Development - Serviceplan Gruppe - M\u00fcnchen, Germany",
+              "url": "http://www.careerwebsite.com/job/marketing-communications-manager-all-genders-product-business-development/85754384/22351/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Marketing Communications Manager (all genders) Product & Business Development - Serviceplan Gruppe - M\u00fcnchen, Germany",
+              "url": "http://www.careerwebsite.com/job/marketing-communications-manager-all-genders-product-business-development/85754239/22351/",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Senior Project Manager - Digital Communications (all genders) in Stuttgart - init AG - Stuttgart, Germany",
+          "description": "A new Senior Project Manager - Digital Communications (all genders) in Stuttgart job is available in Stuttgart. Check it out on PR News Online.",
+          "content": "Description\r\nDu m\u00f6chtest digitale Projekte nicht nur verwalten, sondern aktiv gestalten und gemeinsam mit deinen Kund:innen weiterentwickeln? Als Senior Project Manager (all genders) \u00fcbernimmst du Ve\u2026 [+4931 chars]",
+          "url": "http://www.careerwebsite.com/job/senior-project-manager-digital-communications-all-genders-in-stuttgart/85934890/22351/",
+          "source_name": "Careerwebsite.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T10:35:47Z",
+          "author": null,
+          "image_url": "https://d3ogvqw9m2inp7.cloudfront.net/assets/static/headers/cc/responsive/img/social-og-image.png",
+          "is_local_nj": false,
+          "article_id": "ba7c72811be6",
+          "summary": "A new Senior Project Manager - Digital Communications (all genders) in Stuttgart job is available in Stuttgart. Check it out on PR News Online.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Marketing Communications Manager (all genders) Product & Business Development - Serviceplan Gruppe - M\u00fcnchen, Germany",
+              "url": "http://www.careerwebsite.com/job/marketing-communications-manager-all-genders-product-business-development/85754384/22351/",
+              "digest_date": "2026-08-30"
+            },
+            {
+              "title": "Marketing Communications Manager (all genders) Product & Business Development - Serviceplan Gruppe - M\u00fcnchen, Germany",
+              "url": "http://www.careerwebsite.com/job/marketing-communications-manager-all-genders-product-business-development/85754239/22351/",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Sandra Bullock remembers 'nothing' about winning Oscar",
+          "description": "Sandra Bullock has said she remembers \"nothing\" about winning her Academy Award in 2010 because she was \"hiding a newborn\" at the time.",
+          "content": "Sandra Bullock has said she remembers \"nothing\" about winning her Academy Award in 2010 because she was \"hiding a newborn\" at the time.\r\nThe film star, 62, won the Best Actress Oscar for portraying L\u2026 [+2215 chars]",
+          "url": "https://www.rte.ie/entertainment/2026/0911/1591166-sandra-bullock-remembers-nothing-about-winning-oscar/",
+          "source_name": "RTE",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T10:28:29Z",
+          "author": "RT\u00c9 Entertainment",
+          "image_url": "https://www.rte.ie/images/0024fcd4-1600.jpg",
+          "is_local_nj": false,
+          "article_id": "ceeaa91c573f",
+          "summary": "Sandra Bullock has said she remembers \"nothing\" about winning her Academy Award in 2010 because she was \"hiding a newborn\" at the time.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock says Bryan Randall was ill for 'half of our relationship' as she opens up about his death",
+              "url": "https://www.foxnews.com/entertainment/sandra-bullock-bryan-randall-ill-half-of-our-relationship-opens-up-death",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "Sandra Bullock Opens Up About Partner's Private Illness, Death",
+              "url": "https://www.newser.com/story/394948/sandra-bullock-opens-up-about-partners-private-illness-death.html",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "Sandra Bullock speaks out about partner\u2019s \u2018traumatic\u2019 death for first time",
+              "url": "https://www.the-independent.com/arts-entertainment/films/news/sandra-bullock-bryan-randall-death-b3036148.html",
+              "digest_date": "2026-08-23"
+            }
+          ]
+        },
+        {
+          "title": "Former NFL star Chris Johnson reflects on ALS risk in public letter to his children",
+          "description": "Former NFL star Chris Johnson penned an emotional letter to his children about his ALS diagnosis and the risks of his football career.",
+          "content": "Chris Johnson has been to every major ALS clinic in the country and seen neurologists respond once they learned he played football. \r\nThe sixth man to run for 2,000 yards in an NFL season read the st\u2026 [+2956 chars]",
+          "url": "https://nypost.com/2026/09/11/sports/former-nfl-star-chris-johnson-reflects-on-als-risk-in-public-letter-to-his-children/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T09:22:58Z",
+          "author": "Associated Press",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/09/140596201.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "7f30d2780429",
+          "summary": "Former NFL star Chris Johnson penned an emotional letter to his children about his ALS diagnosis and the risks of his football career.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Tennessee Titans Announce Massive Honor They\u2019ll Bestow On Chris Johnson Following Former Running Back\u2019s ALS Diagnosis",
+              "url": "https://brobible.com/sports/article/tennessee-titans-chris-johnson-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans will induct former RB Chris Johnson into franchise's Ring of Honor during season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_520f0de4-a139-491f-922c-37fae805b98c",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "NFL icon Steve Gleason shows support for fellow ALS sufferer Chris Johnson with 'butt naked' Ice Bucket Challenge as he continues to defy the odds",
+              "url": "https://www.dailymail.com/sport/nfl/article-15964349/steve-gleason-chris-johnson-als-ice-bucket-challenge.html",
+              "digest_date": "2026-07-12"
+            }
+          ]
+        },
+        {
+          "title": "\"B.L.N.T.\" von B\u00fclent Ceylan",
+          "description": "Metal-Comedy mit prominenten Features. (3/5)",
+          "content": "laut.de-Kritik\r\nMetal-Comedy mit prominenten Features.\r\nReview von Emil Dr\u00f6ll\r\nDass B\u00fclent Ceylan seine neu entfachte Metalkarriere ernst meint, betonte er bereits rund um \"Ich Liebe Menschen\" deutli\u2026 [+6069 chars]",
+          "url": "https://laut.de/Buelent-Ceylan/Alben/B.L.N.T.-127486",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T08:38:04Z",
+          "author": "Emil Dr\u00f6ll",
+          "image_url": "https://laut.de/Buelent-Ceylan/Alben/B.L.N.T.-127486/buelent-ceylan-blnt-253455.jpg?6666bf",
+          "is_local_nj": false,
+          "article_id": "9f97d1a61027",
+          "summary": "Metal-Comedy mit prominenten Features. (3/5)",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Triumph & Agony\" von Warlock",
+          "description": "\"All we are, deep inside my heart - f\u00fcr immer!\" (5/5)",
+          "content": "laut.de-Kritik\r\n\"All we are, deep inside my heart - f\u00fcr immer!\"\r\nReview von Stefan Johannesberg\r\nLiebe Metal-Fans, schauen wir uns doch mal tief in die Augen und dann ins Glas: Wer liebt sie nicht, d\u2026 [+7096 chars]",
+          "url": "https://laut.de/Warlock/Alben/Triumph-Agony-127493",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-09-11T06:36:56Z",
+          "author": "Stefan Johannesberg",
+          "image_url": "https://laut.de/Warlock/Alben/Triumph-Agony-127493/warlock-triumph-agony-253452.jpg?31d285",
+          "is_local_nj": false,
+          "article_id": "3aa866c6d3a1",
+          "summary": "\"All we are, deep inside my heart - f\u00fcr immer!\" (5/5)",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ex-NFL star Chris Johnson, 40, writes gut-wrenching letter to his kids as his battle with ALS intensifies",
+          "description": "Former Tennessee Titans star Chris Johnson penned a heartbreaking letter to his children as his ALS continues to get progressively worse.",
+          "content": "Former Tennessee Titans star Chris Johnson penned a heartbreaking letter to his children as his ALS continues to get progressively worse.\r\nJohnson, 40, wrote the letter in The Players' Tribune and ad\u2026 [+3581 chars]",
+          "url": "https://www.dailymail.com/sport/nfl/article-16121965/chris-johnson-als-letter-titans.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T22:38:24Z",
+          "author": "Jake Fenner",
+          "image_url": "https://i.dailymail.com/1s/2026/09/10/23/111177165-0-image-a-90_1789079312359.jpg",
+          "is_local_nj": false,
+          "article_id": "378584c94414",
+          "summary": "Former Tennessee Titans star Chris Johnson penned a heartbreaking letter to his children as his ALS continues to get progressively worse.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Chris Johnson writes letter to his kids after ALS diagnosis. What it says",
+          "description": "Tennessee Titans franchise icon Chris Johnson writes in open letter that his kids give him strength in ALS battle.",
+          "content": "ALS has taken almost everything from Chris Johnson. But his kids, he writes, give him the strength to keep fighting.\r\nJohnson, a Tennessee Titans franchise icon, wrote an open letter to his children \u2026 [+5011 chars]",
+          "url": "https://www.usatoday.com/story/sports/nfl/2026/09/10/chris-johnson-letter-als-diagnosis/91696104007/",
+          "source_name": "USA Today",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T21:40:52Z",
+          "author": "Jack McKessy, USA TODAY",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/b56f4ac3403baf489758ebb34a0a3a82e2f9c826c77f04fb85d2d212d088ec74/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2F36d0c7b5eb9b1be940611ac7bfceb392.jpg",
+          "is_local_nj": false,
+          "article_id": "0cf3680f259c",
+          "summary": "Tennessee Titans franchise icon Chris Johnson writes in open letter that his kids give him strength in ALS battle.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Record-breaking climber Jake Whisenant's grieving fiancee says 'world has cruelly betrayed her' after his tragic death as she breaks silence on 'cataclysmic loss'",
+              "url": "https://www.dailymail.com/sport/othersports/article-16051767/jake-whisenant-fiancee-death-sierra-nevada.html",
+              "digest_date": "2026-08-16"
+            },
+            {
+              "title": "Titans to induct Chris Johnson into Ring of Honor after devastating ALS diagnosis",
+              "url": "https://nypost.com/2026/07/17/sports/titans-to-induct-chris-johnson-into-ring-of-honor-after-revealing-als-diagnosis/",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans to induct Chris Johnson into Ring of Honor after devastating ALS diagnosis",
+              "url": "https://nypost.com/2026/07/17/sports/titans-to-induct-chris-johnson-into-ring-of-honor-after-revealing-als-diagnosis/?utm_source=yahoo&amp;utm_campaign=nypost&amp;utm_medium=referral",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "AEW Rebel Heart Dynamite Review: Tables, Tributes, and Nepotism",
+          "description": "Greetings, comrades! It is I, El Presidente, reporting to you live from my luxurious bunker in the Georgian countryside, where I have been enjoying the finest peach schnapps with my dear friend, the ghost of Joseph Stalin, who insisted we watch AEW Rebel Hear\u2026",
+          "content": "Posted in: AEW, Sports, TV | Tagged: AEW Rebel Heart Dynamite, recaps, wrestling\r\nEl Presidente reviews AEW Rebel Heart Dynamite from his Georgian bunker: tributes, tables, Steven Borden's debut, and\u2026 [+15087 chars]",
+          "url": "https://bleedingcool.com/tv/aew-rebel-heart-dynamite-review-tables-tributes-and-nepotism/",
+          "source_name": "Bleeding Cool News",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T21:36:10Z",
+          "author": "El Presidente",
+          "image_url": "https://bleedingcool.com/wp-content/uploads/2026/09/frame-0018-2000x1125.jpg",
+          "is_local_nj": false,
+          "article_id": "14880689b497",
+          "summary": "Greetings, comrades! It is I, El Presidente, reporting to you live from my luxurious bunker in the Georgian countryside, where I have been enjoying the finest peach schnapps with my dear friend, the g",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Former Titans' great Chris Johnson pens heartfelt letter to his family",
+          "description": "Tennessee Titans legend Chris Johnson shares message to his family while preparing for his induction into the Ring of Honor.",
+          "content": "As the reality of the heartbreaking news of Tennessee Titans' legend Chris Johnson's ALS diagnosis continues to set in, a deep sadness can be felt across the NFL landscape, especially in Nashville, w\u2026 [+1608 chars]",
+          "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/09/10/former-tennessee-titans-great-chris-johnson-pens-heartfelt-letter-to-his-family/91693631007/",
+          "source_name": "USA Today",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T20:45:09Z",
+          "author": "Mark Mihalko, Titans Wire",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/29db86eae11e4a8d9c3c28ff1ce8db7c984ea1463288738fb4870331e6f08375/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftennessee_titans_wire_usa_today_sports_articles_954%2F59ce5f0b058a471be05a6f3afa7f7014.jpg",
+          "is_local_nj": false,
+          "article_id": "60db96c1b9b2",
+          "summary": "Tennessee Titans legend Chris Johnson shares message to his family while preparing for his induction into the Ring of Honor.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Tennessee Titans Announce Massive Honor They\u2019ll Bestow On Chris Johnson Following Former Running Back\u2019s ALS Diagnosis",
+              "url": "https://brobible.com/sports/article/tennessee-titans-chris-johnson-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans will induct former RB Chris Johnson into franchise's Ring of Honor during season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_520f0de4-a139-491f-922c-37fae805b98c",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Chris Johnson getting a top Titans' honor after ALS diagnosis",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_58d862b2-91bd-4092-a302-3ecf26e61326",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "Former Titans RB Chris Johnson shares football memories, ALS fears in Players' Tribune",
+          "description": "Former Titans running back Chris Johnson shares football memories, ALS fears in a letter to his kids in Players' Tribune.",
+          "content": "Former Tennessee Titans running back Chris Johnson, who was diagnosed with amyotrophic lateral sclerosis in 2025, wrote a letter to his three children that was published Sept. 10 on The Players' Trib\u2026 [+2997 chars]",
+          "url": "https://www.tennessean.com/story/sports/nfl/titans/2026/09/10/tennessee-titans-chris-johnson-als-football-fears-players-tribune/91561456007/",
+          "source_name": "Tennessean",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T20:19:06Z",
+          "author": "Paul Skrbina, Nashville Tennessean",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/c78f061b850d64739791267113c4cb46eed203d37a2a1b6887353112db6d6c5e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_tennessean_natl_articles_921%2F19eac31710b972eaa7db8082e3b1ffd7.jpg",
+          "is_local_nj": false,
+          "article_id": "cdaf50f7bd3f",
+          "summary": "Former Titans running back Chris Johnson shares football memories, ALS fears in a letter to his kids in Players' Tribune.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "NBC crew celebrates Titans legend Chris Johnson at Hall of Fame game",
+              "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/08/07/nbc-crew-celebrates-tennessee-titans-legend-chris-johnson-hall-fame-game/91211580007/",
+              "digest_date": "2026-08-09"
+            },
+            {
+              "title": "Titans set to induct Chris Johnson into Ring of Honor in season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a14dfdbb-008c-4a39-b421-afe7f1cd31d9",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans Set to Induct Legendary RB Chris Johnson Into Ring of Honor",
+              "url": "https://heavy.com/sports/nfl/tennessee-titans/titans-set-to-induct-legendary-rb-chris-johnson-into-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "Former NFL star Chris Johnson reflects on ALS risk in public letter to his children",
+          "description": "Chris Johnson has been to every major ALS clinic in the country and seen neurologists respond once they learn he played football. The sixth man to run for 2,000 yards in an NFL season read the study that found former NFL players were nearly four times as like\u2026",
+          "content": "NASHVILLE, Tenn. (AP) Chris Johnson has been to every major ALS clinic in the country and seen neurologists respond once they learn he played football. The sixth man to run for 2,000 yards in an NFL \u2026 [+2560 chars]",
+          "url": "https://sports.yahoo.com/articles/former-nfl-star-chris-johnson-193319245.html",
+          "source_name": "Yahoo Entertainment",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T19:33:19Z",
+          "author": "Associated Press",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/da92e80fa889692f07976d08f6e4aa8111375057a588c0f3661f5813073026b4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fap.org%2Ffb02f8cb99b7f937bffdf9b063aa16a5.jpg",
+          "is_local_nj": false,
+          "article_id": "3e3f5af10eb9",
+          "summary": "Chris Johnson has been to every major ALS clinic in the country and seen neurologists respond once they learn he played football. The sixth man to run for 2,000 yards in an NFL season read the study t",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Tennessee Titans Announce Massive Honor They\u2019ll Bestow On Chris Johnson Following Former Running Back\u2019s ALS Diagnosis",
+              "url": "https://brobible.com/sports/article/tennessee-titans-chris-johnson-ring-of-honor/",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "Titans will induct former RB Chris Johnson into franchise's Ring of Honor during season opener",
+              "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_520f0de4-a139-491f-922c-37fae805b98c",
+              "digest_date": "2026-07-19"
+            },
+            {
+              "title": "NFL icon Steve Gleason shows support for fellow ALS sufferer Chris Johnson with 'butt naked' Ice Bucket Challenge as he continues to defy the odds",
+              "url": "https://www.dailymail.com/sport/nfl/article-15964349/steve-gleason-chris-johnson-als-ice-bucket-challenge.html",
+              "digest_date": "2026-07-12"
+            }
+          ]
+        },
+        {
+          "title": "Chris Johnson acknowledges possible link between his football career and his ALS",
+          "description": "In late June, former NFL running back Chris Johnson disclosed that he suffers from ALS.",
+          "content": "In late June, former NFL running back Chris Johnsondisclosed that he suffers from ALS. The announcement came during an interview with Good Morning America.\r\nThe segment raised questions about Michael\u2026 [+2145 chars]",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-johnson-acknowledges-possible-link-between-his-football-career-and-his-als",
+          "source_name": "NBCSports.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T19:23:42Z",
+          "author": "Mike Florio",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/e5e1e79f09901cde6fde7f210ccd3e3cecbdcc9d2d7dc7f76e9d8ed5150604bf/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fprofootballtalk.nbcsports.com%2F9c1ef62cf7084dc7eaabf5373502b894.jpg",
+          "is_local_nj": false,
+          "article_id": "23364aa22981",
+          "summary": "In late June, former NFL running back Chris Johnson disclosed that he suffers from ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Titans Legend Chris Johnson Receives Major Career Honor Weeks After ALS News",
+              "url": "https://biztoc.com/x/21e65cccac8188ca",
+              "digest_date": "2026-07-19"
+            }
+          ]
+        },
+        {
+          "title": "The Galien Foundation Announces Nominees for the Inaugural 2026 Prix Galien Patient First Award in Honor of Michael J. Fox",
+          "description": "New Award Category Honors Excellence in Clinical Research, Clinical Trials, and Patient-Centered Care Improvement Initiatives at 20th Anniversary of Prix Galien USA NEW YORK, Sept. 10, 2026 /PRNewswire/ -- The Galien Foundation, the premier global institution\u2026",
+          "content": "New Award Category Honors Excellence in Clinical Research, Clinical Trials, and Patient-Centered Care Improvement Initiatives at 20th Anniversary of Prix Galien USA\r\nNEW YORK, Sept. 10, 2026 /PRNewsw\u2026 [+18244 chars]",
+          "url": "https://www.prnewswire.com/news-releases/the-galien-foundation-announces-nominees-for-the-inaugural-2026-prix-galien-patient-first-award-in-honor-of-michael-j-fox-302875514.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T16:50:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS663671/The-Galien-Foundation-Logo.jpg?id=OA2941485&p=facebook",
+          "is_local_nj": false,
+          "article_id": "44b574eff554",
+          "summary": "New Award Category Honors Excellence in Clinical Research, Clinical Trials, and Patient-Centered Care Improvement Initiatives at 20th Anniversary of Prix Galien USA NEW YORK, Sept. 10, 2026 /PRNewswir",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Govt to track sugar production every month starting October",
+          "description": "Mills need to sell \u200csugar at reasonable prices and the government will take corrective measures to \u2060keep prices stable: Food Ministry",
+          "content": "Asking sugar mills to ensure adequate supplies during the festival season, the Government has said that from the next season that commences from October, it will track sugar production on a monthly b\u2026 [+3135 chars]",
+          "url": "https://www.thehindubusinessline.com/economy/agri-business/india-to-track-sugar-production-every-month-starting-october-says-goverment/article71451923.ece",
+          "source_name": "BusinessLine",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T16:46:58Z",
+          "author": "BL New Delhi Bureau",
+          "image_url": "https://bl-i.thgim.com/public/incoming/rlh0b2/article71432877.ece/alternates/LANDSCAPE_1200/CCI_UDHindu_KSL_UEI5DGC2F_R1549895395_0_176b1e7e-f0ec-4073-bacb-3bc95bab4fdc.jpg",
+          "is_local_nj": false,
+          "article_id": "a96205efc35e",
+          "summary": "Mills need to sell \u200csugar at reasonable prices and the government will take corrective measures to \u2060keep prices stable: Food Ministry",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Will Puka Nacua play against the San Francisco 49ers tonight? Latest injury update on the Los Angeles Rams star wide receiver",
+          "description": "NFL News: The Los Angeles Rams were a force to be reckoned with on the field in the last season as the team recorded 12 wins and just 5 losses. The team was als.",
+          "content": "View All Comments \r\nShare your thoughts in the comments\r\nBe respectful \u00b7 TOI community guidelines",
+          "url": "https://timesofindia.indiatimes.com/sports/nfl/news/will-puka-nacua-play-against-the-san-francisco-49ers-tonight-latest-injury-update-on-the-los-angeles-rams-star-wide-receiver/articleshow/134018076.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T15:50:36Z",
+          "author": "Global Sports Desk",
+          "image_url": "https://static.toiimg.com/thumb/msid-134018210,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "c46490a22143",
+          "summary": "NFL News: The Los Angeles Rams were a force to be reckoned with on the field in the last season as the team recorded 12 wins and just 5 losses. The team was als.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane's widow Rebecca Gayheart supported by daughters Billie, 16, and Georgia, 14, at opening of her musical... 7 months after his ALS death",
+          "description": "Dane, who shot to fame on Grey's Anatomy as Dr Mark Sloan aka 'McSteamy,' died February 19 aged 53 of amyotrophic lateral sclerosis (ALS).",
+          "content": "Eric Dane's widow Rebecca Gayheart posed proudly with their daughters Billie, 16, and Georgia, 14, at the Los Angeles opening of her new musical.\r\nDane, who shot to fame on Grey's Anatomy as Dr Mark \u2026 [+7628 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16120805/eric-dane-widow-rebecca-gayheart-supported-daughters-billie-georgia-musical-opening-als-death.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T15:04:55Z",
+          "author": "Sameer Suri",
+          "image_url": "https://i.dailymail.com/1s/2026/09/10/15/111166969-0-image-m-20_1789051454289.jpg",
+          "is_local_nj": false,
+          "article_id": "fdbe150442ad",
+          "summary": "Dane, who shot to fame on Grey's Anatomy as Dr Mark Sloan aka 'McSteamy,' died February 19 aged 53 of amyotrophic lateral sclerosis (ALS).",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Sandra Bullock's Daughter Told Her to Date Again After Bryan Randall's Death",
+              "url": "https://www.usmagazine.com/celebrity-news/news/sandra-bullocks-kid-told-her-to-date-after-partners-death/",
+              "digest_date": "2026-09-06"
+            },
+            {
+              "title": "Sandra Bullock gives rare update on her dating life three years after partner Bryan Randall's death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16104109/Sandra-Bullock-rare-comment-dating-life-Bryan-Randall-death.html",
+              "digest_date": "2026-09-06"
+            },
+            {
+              "title": "Sandra Bullock debuts new tattoo at Practical Magic 2 premiere after partner Bryan Randall's death from ALS",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16083323/Sandra-Bullock-tattoo-Practical-Magic-premiere-Bryan-Randall.html",
+              "digest_date": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "A Letter to My Kids",
+          "description": "Chris Johnson pens a letter to his kids: \u201cYou guys are my biggest reason I keep fighting.\u201d",
+          "content": "Dear Honey Buns, CJ, Kaden, and Lee,\r\nYall remember that road trip we took last year? It was during spring break, in March. Around the time of Honeys play, where all the kids were dressed like farm a\u2026 [+15243 chars]",
+          "url": "https://www.theplayerstribune.com/chris-johnson-nfl-football-als-tennessee-titans",
+          "source_name": "The Players' Tribune",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T14:43:47Z",
+          "author": "Chris Johnson",
+          "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1917,h_1078,x_0,y_0/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/Chris-Johnson_TITLE-TW-cd0f9ede886c26418cb4f3c91390baf5.jpg",
+          "is_local_nj": false,
+          "article_id": "1672e366657b",
+          "summary": "Chris Johnson pens a letter to his kids: \u201cYou guys are my biggest reason I keep fighting.\u201d",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Recurrent synapses between CO2-sensitive olfactory sensory neurons enable robust CO2 detection in Aedes aegypti mosquitoes",
+          "description": "Carbon dioxide is among the most important cues used by Aedes aegypti mosquitoes when searching for a human blood meal. This study shows that the wiring of the neurons that sense carbon dioxide differs from the wiring in Drosophila to support robust detection\u2026",
+          "content": "Citation: Bao J, Alford W, Khandelwal A, Walsh L, Lantz G, Poncio S, et al. (2026) Recurrent synapses between CO2-sensitive olfactory sensory neurons enable robust CO2 detection in Aedes aegypti mosq\u2026 [+81647 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003959",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T14:00:00Z",
+          "author": "Jialu Bao, Wesley Alford, Avinash Khandelwal, Laurel Walsh, George Lantz, Santiago Poncio, Laia Serratosa Capdevila, Yervand Azatian, Brian DePasquale, David G. C. Hildebrand, Meg A. Younger, Wei-Chung Allen Lee",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003959.g006&size=inline",
+          "is_local_nj": false,
+          "article_id": "ad71a6abc7f9",
+          "summary": "Carbon dioxide is among the most important cues used by Aedes aegypti mosquitoes when searching for a human blood meal. This study shows that the wiring of the neurons that sense carbon dioxide differ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "1911 Gold Intersects Significant Grades at L10 Zone, Including 10.73 g/t Au over 8.90 m and 50.61 g/t Au over 1.60 m, and Confirms Link to Larger 710-711 Zone at True North",
+          "description": "VANCOUVER, BC, Sept. 10, 2026 /PRNewswire/ -- 1911 Gold Corporation (\"1911 Gold\" or the \"Company\") (TSXV: AUMB) (OTCQX: AUMBF) (FRA: 2KY) is pleased to announce assay results from the underground resource expansion drill program at the Company's wholly-owned,\u2026",
+          "content": "The latest assay results represent eight (8) diamond drill holes for 2,955 m from the underground resource expansion drill program targeting the potential link between the L10 Zone (\"L10\"), and the l\u2026 [+21413 chars]",
+          "url": "https://www.prnewswire.com/news-releases/1911-gold-intersects-significant-grades-at-l10-zone-including-10-73-gt-au-over-8-90-m-and-50-61-gt-au-over-1-60-m-and-confirms-link-to-larger-710-711-zone-at-true-north-302874555.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T11:02:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1985359/1911-Gold-Corporation-1911-Gold-Intersects-Significant-Grades-at.jpg?id=OA2940180&p=facebook",
+          "is_local_nj": false,
+          "article_id": "5370a07f8414",
+          "summary": "VANCOUVER, BC, Sept. 10, 2026 /PRNewswire/ -- 1911 Gold Corporation (\"1911 Gold\" or the \"Company\") (TSXV: AUMB) (OTCQX: AUMBF) (FRA: 2KY) is pleased to announce assay results from the underground reso",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Brixton Metals Drills 6,199 g/t Silver over 1.00 m including 0.50 m of 12,386 g/t Silver in Hole 432 at its Langis Project in Ontario",
+              "url": "https://financialpost.com/globe-newswire/brixton-metals-drills-6199-g-t-silver-over-1-00-m-including-0-50-m-of-12386-g-t-silver-in-hole-432-at-its-langis-project-in-ontario",
+              "digest_date": "2026-09-06"
+            },
+            {
+              "title": "1911 Gold Reports Positive Metallurgical Results of 93.7% for True North and 96.3% for Ogama-Rockland",
+              "url": "https://www.prnewswire.com/news-releases/1911-gold-reports-positive-metallurgical-results-of-93-7-for-true-north-and-96-3-for-ogama-rockland-302855861.html",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "Perpetua Resources Reports New High-Grade Gold and Antimony Discoveries and a New Gold-Tungsten Zone at Stibnite",
+              "url": "https://www.prnewswire.com/news-releases/perpetua-resources-reports-new-high-grade-gold-and-antimony-discoveries-and-a-new-gold-tungsten-zone-at-stibnite-302845507.html",
+              "digest_date": "2026-08-09"
+            }
+          ]
+        },
+        {
+          "title": "e3dc-modbus added to PyPI",
+          "description": "Asynchronous Python library for reading and writing E3/DC Hauskraftwerk systems over Modbus TCP.",
+          "content": "Asynchrones Python-Package zum Lesen und Schreiben von E3/DC Hauskraftwerk-Systemen \u00fcber\r\nModbus TCP.\r\n[!NOTE]\r\nDieses Repository ist mit Unterst\u00fctzung von KI (Claude Code) entstanden Registermapping\u2026 [+3402 chars]",
+          "url": "https://pypi.org/project/e3dc-modbus/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-09-10T10:40:22Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "3a1f16e39239",
+          "summary": "Asynchronous Python library for reading and writing E3/DC Hauskraftwerk systems over Modbus TCP.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Titans postpone Chris Johnson ceremony over \u2018unforeseen circumstances\u2019 as former rushing champ battles ALS",
+        "url": "https://nypost.com/2026/09/12/sports/titans-postpone-chris-johnson-ceremony-over-unforeseen-circumstances-as-former-rushing-champ-battles-als/",
+        "source": "New York Post",
+        "date": "2026-09-12T12:42:35Z"
+      },
+      {
+        "title": "Titans\u2019 \u2018Unforeseen Circumstance\u2019 Announcement on Chris Johnson Leaves Fans Worried",
+        "url": "https://sports.yahoo.com/articles/titans-unforeseen-circumstance-announcement-chris-111923434.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-09-12T11:19:23Z"
+      },
+      {
+        "title": "Tennessee Titans delay Chris Johnson induction after he cannot travel to Nashville",
+        "url": "https://sports.yahoo.com/articles/tennessee-titans-delay-chris-johnson-111743163.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-09-12T11:17:43Z"
+      },
+      {
+        "title": "PC Games 10/26: Mit Coverstory zu The Blood of Dawnwalker, Vorschau zu The Witcher 3: Songs of the Past u. v. m.",
+        "url": "https://www.pcgames.de/PC-Games-Brands-19921/News/Ausgabe-10-26-The-Blood-of-Dawnwalker-1553572/",
+        "source": "PC Games",
+        "date": "2026-09-12T07:00:00Z"
+      },
+      {
+        "title": "Tennessee Titans postpone Chris Johnson\u2019s Ring of Honor ceremony",
+        "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/09/12/tennessee-titans-postpone-chris-johnsons-ring-of-honor-ceremony/91717182007/",
+        "source": "USA Today",
+        "date": "2026-09-12T04:05:26Z"
+      },
+      {
+        "title": "Titans news: Chris Johnson's Ring of Honor induction postponed to later date",
+        "url": "https://clutchpoints.com/nfl/tennessee-titans/titans-news-chris-johnson-ring-of-honor-induction-postponed-later-date",
+        "source": "ClutchPoints",
+        "date": "2026-09-11T23:03:46Z"
+      },
+      {
+        "title": "It\u2019s Your Fault Sandra Bullock Doesn\u2019t Make Rom-coms Anymore",
+        "url": "http://www.vulture.com/article/sandra-bullock-rom-coms-criticism.html",
+        "source": "Vulture",
+        "date": "2026-09-11T22:03:49Z"
+      },
+      {
+        "title": "Chris Johnson Lost His Speech to ALS Within a Year, and His Case Highlights Early Warning Signs",
+        "url": "https://www.medicaldaily.com/victgoal-childrens-bike-helmet-recall-walmart-cpsc-478558",
+        "source": "Medical Daily",
+        "date": "2026-09-11T22:00:05Z"
+      },
+      {
+        "title": "The dementia that often strikes in midlife - and the signs people miss",
+        "url": "https://www.washingtonpost.com/wellness/2026/09/04/frontotemporal-dementia-often-starts-midlife-signs-are-easy-miss/",
+        "source": "The Washington Post",
+        "date": "2026-09-11T22:00:00Z"
+      },
+      {
+        "title": "Tennessee Titans postpone legend Chris Johnson's Ring of Honor induction due to 'unforeseen circumstances' amid his ALS battle",
+        "url": "https://www.dailymail.com/sport/nfl/article-16124693/tennessee-titans-chris-johnson-als-honor-postponed.html",
+        "source": "Dailymail.com",
+        "date": "2026-09-11T21:39:43Z"
+      },
+      {
+        "title": "Titans postpone Chris Johnson induction one day after he shared ALS struggles",
+        "url": "https://www.usatoday.com/story/sports/nfl/titans/2026/09/11/chris-johnson-als-ring-of-honor-postponed-titans/91716838007/",
+        "source": "USA Today",
+        "date": "2026-09-11T21:22:15Z"
+      },
+      {
+        "title": "Titans postponing Chris Johnson's Ring of Honor induction ceremony since former RB, family unable to travel for opener",
+        "url": "https://sports.yahoo.com/nfl/article/titans-postponing-chris-johnsons-ring-of-honor-induction-ceremony-since-former-rb-family-unable-to-travel-for-opener-202550258.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-09-11T20:25:50Z"
+      },
+      {
+        "title": "Chris Johnson unable to travel to Nashville, Titans postpone Ring of Honor ceremony",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-johnson-unable-to-travel-to-nashville-titans-postpone-ring-of-honor-ceremony",
+        "source": "NBCSports.com",
+        "date": "2026-09-11T20:16:02Z"
+      },
+      {
+        "title": "Widow of 9/11 first responder repeatedly denied benefits \u2014 even as pols use his words as rallying cry",
+        "url": "https://nypost.com/2026/09/11/us-news/widow-of-9-11-first-responder-repeatedly-denied-benefits-even-as-pols-use-his-words-as-rallying-cry/",
+        "source": "New York Post",
+        "date": "2026-09-11T16:04:36Z"
+      },
+      {
+        "title": "The L.A. Novelist Who Doesn\u2019t Get Her Due",
+        "url": "https://www.theatlantic.com/newsletters/2026/09/the-books-briefing-jackie-collins-la-novelist/688595/",
+        "source": "The Atlantic",
+        "date": "2026-09-11T16:00:00Z"
+      },
+      {
+        "title": "Sandra Bullock Told the \u2018Practical Magic 2\u2019 Writers to Use as Much of Her Real Grief as They Wanted, Because It Was Going to Show Up Anyway",
+        "url": "https://thoughtcatalog.com/january-nelson/2026/09/sandra-bullock-told-the-practical-magic-2-writers-to-use-as-much-of-her-real-grief-as-they-wanted-because-it-was-going-to-show-up-anyway/",
+        "source": "Thoughtcatalog.com",
+        "date": "2026-09-11T15:08:37Z"
+      },
+      {
+        "title": "M\u00fcgge, Theodor: Sam Wiebe (german) V1. 11 Sep2026 (Other Fiction, ePub)",
+        "url": "https://www.mobileread.com/forums/showthread.php?t=375268",
+        "source": "Mobileread.com",
+        "date": "2026-09-11T14:31:59Z"
+      },
+      {
+        "title": "Senior Project Manager - Digital Communications (all genders) in Mainz - init AG - Mainz, Germany",
+        "url": "http://www.careerwebsite.com/job/senior-project-manager-digital-communications-all-genders-in-mainz/85934915/22351/",
+        "source": "Careerwebsite.com",
+        "date": "2026-09-11T10:37:03Z"
+      },
+      {
+        "title": "Senior Project Manager - Digital Communications (all genders) in Berlin - init AG - Berlin, Germany",
+        "url": "http://www.careerwebsite.com/job/senior-project-manager-digital-communications-all-genders-in-berlin/85934913/22351/",
+        "source": "Careerwebsite.com",
+        "date": "2026-09-11T10:36:57Z"
+      },
+      {
+        "title": "Senior Project Manager - Digital Communications (all genders) in K\u00f6ln - init AG - K\u00f6ln, Germany",
+        "url": "http://www.careerwebsite.com/job/senior-project-manager-digital-communications-all-genders-in-kln/85934900/22351/",
+        "source": "Careerwebsite.com",
+        "date": "2026-09-11T10:36:15Z"
+      },
+      {
+        "title": "Senior Project Manager - Digital Communications (all genders) in Stuttgart - init AG - Stuttgart, Germany",
+        "url": "http://www.careerwebsite.com/job/senior-project-manager-digital-communications-all-genders-in-stuttgart/85934890/22351/",
+        "source": "Careerwebsite.com",
+        "date": "2026-09-11T10:35:47Z"
+      },
+      {
+        "title": "Sandra Bullock remembers 'nothing' about winning Oscar",
+        "url": "https://www.rte.ie/entertainment/2026/0911/1591166-sandra-bullock-remembers-nothing-about-winning-oscar/",
+        "source": "RTE",
+        "date": "2026-09-11T10:28:29Z"
+      },
+      {
+        "title": "Former NFL star Chris Johnson reflects on ALS risk in public letter to his children",
+        "url": "https://nypost.com/2026/09/11/sports/former-nfl-star-chris-johnson-reflects-on-als-risk-in-public-letter-to-his-children/",
+        "source": "New York Post",
+        "date": "2026-09-11T09:22:58Z"
+      },
+      {
+        "title": "\"B.L.N.T.\" von B\u00fclent Ceylan",
+        "url": "https://laut.de/Buelent-Ceylan/Alben/B.L.N.T.-127486",
+        "source": "Laut.de",
+        "date": "2026-09-11T08:38:04Z"
+      },
+      {
+        "title": "\"Triumph & Agony\" von Warlock",
+        "url": "https://laut.de/Warlock/Alben/Triumph-Agony-127493",
+        "source": "Laut.de",
+        "date": "2026-09-11T06:36:56Z"
+      },
+      {
+        "title": "Ex-NFL star Chris Johnson, 40, writes gut-wrenching letter to his kids as his battle with ALS intensifies",
+        "url": "https://www.dailymail.com/sport/nfl/article-16121965/chris-johnson-als-letter-titans.html",
+        "source": "Dailymail.com",
+        "date": "2026-09-10T22:38:24Z"
+      },
+      {
+        "title": "Chris Johnson writes letter to his kids after ALS diagnosis. What it says",
+        "url": "https://www.usatoday.com/story/sports/nfl/2026/09/10/chris-johnson-letter-als-diagnosis/91696104007/",
+        "source": "USA Today",
+        "date": "2026-09-10T21:40:52Z"
+      },
+      {
+        "title": "AEW Rebel Heart Dynamite Review: Tables, Tributes, and Nepotism",
+        "url": "https://bleedingcool.com/tv/aew-rebel-heart-dynamite-review-tables-tributes-and-nepotism/",
+        "source": "Bleeding Cool News",
+        "date": "2026-09-10T21:36:10Z"
+      },
+      {
+        "title": "Former Titans' great Chris Johnson pens heartfelt letter to his family",
+        "url": "https://titanswire.usatoday.com/story/sports/nfl/titans/2026/09/10/former-tennessee-titans-great-chris-johnson-pens-heartfelt-letter-to-his-family/91693631007/",
+        "source": "USA Today",
+        "date": "2026-09-10T20:45:09Z"
+      },
+      {
+        "title": "Former Titans RB Chris Johnson shares football memories, ALS fears in Players' Tribune",
+        "url": "https://www.tennessean.com/story/sports/nfl/titans/2026/09/10/tennessee-titans-chris-johnson-als-football-fears-players-tribune/91561456007/",
+        "source": "Tennessean",
+        "date": "2026-09-10T20:19:06Z"
+      },
+      {
+        "title": "Former NFL star Chris Johnson reflects on ALS risk in public letter to his children",
+        "url": "https://sports.yahoo.com/articles/former-nfl-star-chris-johnson-193319245.html",
+        "source": "Yahoo Entertainment",
+        "date": "2026-09-10T19:33:19Z"
+      },
+      {
+        "title": "Chris Johnson acknowledges possible link between his football career and his ALS",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-johnson-acknowledges-possible-link-between-his-football-career-and-his-als",
+        "source": "NBCSports.com",
+        "date": "2026-09-10T19:23:42Z"
+      },
+      {
+        "title": "The Galien Foundation Announces Nominees for the Inaugural 2026 Prix Galien Patient First Award in Honor of Michael J. Fox",
+        "url": "https://www.prnewswire.com/news-releases/the-galien-foundation-announces-nominees-for-the-inaugural-2026-prix-galien-patient-first-award-in-honor-of-michael-j-fox-302875514.html",
+        "source": "PRNewswire",
+        "date": "2026-09-10T16:50:00Z"
+      },
+      {
+        "title": "Govt to track sugar production every month starting October",
+        "url": "https://www.thehindubusinessline.com/economy/agri-business/india-to-track-sugar-production-every-month-starting-october-says-goverment/article71451923.ece",
+        "source": "BusinessLine",
+        "date": "2026-09-10T16:46:58Z"
+      },
+      {
+        "title": "Will Puka Nacua play against the San Francisco 49ers tonight? Latest injury update on the Los Angeles Rams star wide receiver",
+        "url": "https://timesofindia.indiatimes.com/sports/nfl/news/will-puka-nacua-play-against-the-san-francisco-49ers-tonight-latest-injury-update-on-the-los-angeles-rams-star-wide-receiver/articleshow/134018076.cms",
+        "source": "The Times of India",
+        "date": "2026-09-10T15:50:36Z"
+      },
+      {
+        "title": "Eric Dane's widow Rebecca Gayheart supported by daughters Billie, 16, and Georgia, 14, at opening of her musical... 7 months after his ALS death",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16120805/eric-dane-widow-rebecca-gayheart-supported-daughters-billie-georgia-musical-opening-als-death.html",
+        "source": "Dailymail.com",
+        "date": "2026-09-10T15:04:55Z"
+      },
+      {
+        "title": "A Letter to My Kids",
+        "url": "https://www.theplayerstribune.com/chris-johnson-nfl-football-als-tennessee-titans",
+        "source": "The Players' Tribune",
+        "date": "2026-09-10T14:43:47Z"
+      },
+      {
+        "title": "Recurrent synapses between CO2-sensitive olfactory sensory neurons enable robust CO2 detection in Aedes aegypti mosquitoes",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003959",
+        "source": "Plos.org",
+        "date": "2026-09-10T14:00:00Z"
+      },
+      {
+        "title": "1911 Gold Intersects Significant Grades at L10 Zone, Including 10.73 g/t Au over 8.90 m and 50.61 g/t Au over 1.60 m, and Confirms Link to Larger 710-711 Zone at True North",
+        "url": "https://www.prnewswire.com/news-releases/1911-gold-intersects-significant-grades-at-l10-zone-including-10-73-gt-au-over-8-90-m-and-50-61-gt-au-over-1-60-m-and-confirms-link-to-larger-710-711-zone-at-true-north-302874555.html",
+        "source": "PRNewswire",
+        "date": "2026-09-10T11:02:00Z"
+      },
+      {
+        "title": "e3dc-modbus added to PyPI",
+        "url": "https://pypi.org/project/e3dc-modbus/",
+        "source": "Pypi.org",
+        "date": "2026-09-10T10:40:22Z"
+      }
+    ],
+    "generated_at": "2026-09-13T13:09:37.435108"
+  },
+  {
     "date": "2026-09-06",
     "week_of": "September 06, 2026",
     "digest_number": 36,
