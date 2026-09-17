@@ -1,5 +1,26 @@
 [
   {
+    "id": "2609.18829v1",
+    "title": "Epsilon-Nash Equilibria in History-Dependent SA-MDPs",
+    "summary": "We study state-adversarial Markov decision processes (SA-MDP) as a game of observation-space attacks: at each step, an agent selects an action from a received observation while an adversary$\\unicode{x2014}$who knows the true state the agent is in$\\unicode{x2014}$chooses a perturbed observation within a state-dependent proximity set. While existing work focuses on Markovian policies, we develop a solution concept and computational approach for SA-MDPs under history dependence. This is motivated by results showing that history dependence can materially change equilibrium outcomes and can force both the agent and the adversary to adapt their strategies. First, we prove the non-existence of universal (agnostic of the initial state distribution) history-dependent equilibrium policies. In response to this finding, our main result presents the first algorithmic route to computing $\u03b5$-approximations of initial-state dependent equilibria. We do so by reducing SA-MDPs to a strategically equivalent constrained zero-sum one-sided partially observable stochastic game. We conclude by testing our algorithm on small analytically verifiable games and showing it scales to larger, more realistic benchmarks, including Atari Freeway rollouts with a 12-period ahead horizon.",
+    "published": "2026-09-16T15:35:31Z",
+    "link": "http://arxiv.org/abs/2609.18829v1",
+    "authors": [
+      "Brandon Gary Kaplowitz",
+      "Dominik Bohnet Zurcher",
+      "Akash Agrawal",
+      "Tala Jafari",
+      "Christian Schroeder de Witt",
+      "Paul W. Goldberg"
+    ],
+    "categories": [
+      "cs.GT",
+      "cs.CR"
+    ],
+    "ai_summary": "We study state-adversarial Markov decision processes (SA-MDP) as a game of observation-space attacks: at each step, an agent selects an action from a received observation while an adversary$\\unicode{x2014}$who knows the true state the agent is in$\\unicode{x2014}$chooses a perturbed observation within a state-dependent proximity set. While existing work focuses on Markovian policies, we develop a solution concept and computational approach for SA-MDPs under history dependence.",
+    "selected_date": "2026-09-17"
+  },
+  {
     "id": "2609.16818v1",
     "title": "InceptionRAG: Stealthy Poisoning Attack Against Retrieval-Augmented Generation",
     "summary": "Retrieval-augmented generation (RAG) systems enhance large language models (LLMs) with external knowledge but have been demonstrated to be vulnerable to corpus poisoning. Existing poisoning attacks against RAG largely focus on single-point explicit injection, where the malicious payload is fully encapsulated within a single document. Consequently, recent mitigation mechanisms have evolved to identify and diminish these threats effectively. In this paper, we first verify that existing mitigation mechanisms are insufficient for a new class of threats: indirect logic induction. Motivated by this observation, we introduce InceptionRAG, a stealthy attack mechanism that subverts the standard attack paradigm. Instead of injecting explicit malicious payloads, InceptionRAG fragments it into a chain of dormant passages. These passages appear harmless and can bypass existing mitigation mechanisms when examined separately. However, when retrieved together, they trigger LLMs to self-deduce target misinformation via multi-hop reasoning. To further improve the applicability of InceptionRAG in black-box settings, we propose zeroth-order suffix optimization (ZOSO) to automate the generation of authoritative suffixes. Extensive evaluations across three datasets and three LLMs demonstrate that InceptionRAG achieves an attack success rate exceeding 80% even under rigorous adversarial constraints. In particular, InceptionRAG shows superior evasion capabilities, effectively bypassing established defenses that mitigate traditional single-document injections. Our findings expose a concerning paradox: the stronger reasoning capabilities of LLMs increase their vulnerability to reasoning-based poisoning attacks. To mitigate potential misuse, we propose a document isolation-based defense, HODOR, which decouples adversarial logical dependencies.",
@@ -560,24 +581,5 @@
     ],
     "ai_summary": "Strategic Cyber Threat Intelligence (CTI) focuses on high-level insights, such as identifying targeted industries, attributing attacks to specific ransomware groups, and assessing the scale of data loss. Today, X (formerly Twitter) has become the fastest source for this intelligence, often hosting real-time breach announcements days before formal vendor reports.",
     "selected_date": "2026-08-17"
-  },
-  {
-    "id": "2608.13256v1",
-    "title": "Novel Knowledge-Guided Generative Methods for Synthetic Transcriptomic Data",
-    "summary": "As biomedical research increasingly relies on data-intensive tools, the quality and utility of datasets are critical. Challenges such as imbalances, biases, and ethical or legal constraints often limit access to high-quality data. Synthetic data generation can help overcome these limitations. Here, we present a comparative analysis of generative models for transcriptomic data, investigating strategies to incorporate prior biological knowledge via gene graphs. This ensures that synthetic data capture real-world gene patterns, maintaining their usefulness for downstream tasks. In particular, we introduce and benchmark three variants of the Generative Adversarial Network. Among the alternatives, MK-TGAN - an innovative multi-kernel, Graph Neural Network-based model - stands out for its performance in terms of both the realism and utility of the generated data. Unlike other methods, MK-TGAN leverages prior knowledge graphs by exploiting graph neural networks. Our results show that prior knowledge integration strategies improve performance, and that MK-TGAN consistently produces synthetic samples with superior realism and biological plausibility.",
-    "published": "2026-08-13T13:57:47Z",
-    "link": "http://arxiv.org/abs/2608.13256v1",
-    "authors": [
-      "Francesca Pia Panaccione",
-      "Sofia Mongardi",
-      "Marco Masseroli",
-      "Pietro Pinoli"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "ai_summary": "As biomedical research increasingly relies on data-intensive tools, the quality and utility of datasets are critical. Challenges such as imbalances, biases, and ethical or legal constraints often limit access to high-quality data.",
-    "selected_date": "2026-08-16"
   }
 ]
