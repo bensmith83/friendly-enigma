@@ -1,5 +1,26 @@
 [
   {
+    "id": "2609.20532v1",
+    "title": "Towards TEE-Certified DP: Verifiable Differentially Private Training on Legacy GPUs",
+    "summary": "Wide adoption of machine learning has created growing policy and regulatory demand for protecting sensitive training data, with differential privacy (DP) emerging as a key mechanism. Yet a less-studied problem is how to certify the faithful execution of DP during training: an external verifier should be able to check that a released model was trained with proper DP protection, without accessing the private training data. Existing cryptographic approaches, such as zero-knowledge proofs, provide strong guarantees but often incur prohibitive overhead, in some cases by orders of magnitude. Trusted Execution Environments (TEEs) offer a more efficient alternative, but the multi-GPU TEE support needed for training and fine-tuning large language models remains limited to recent platforms and is absent or inefficient on legacy GPUs.   To address this, we propose a practical framework for verifiable DP training using CPU-side TEEs together with untrusted GPUs. Our design addresses a fundamental efficiency-security tension: training entirely inside a CPU TEE is too slow, while unrestricted GPU offloading can allow malicious deviations from DP. We therefore offload expensive gradient computation to GPUs, while using the CPU TEE to efficiently verify the correct enforcement of DP on gradients through probabilistic checking. Our framework detects frequent full deviations from DP with high probability; for the utility-oriented forged-gradient attacks evaluated in this work, sparse deviations provide limited utility benefit and show no measurable additional membership leakage. Experiments further show that our approach nearly achieves a ``free lunch'': it incurs only modest overhead compared with standard GPU-based DP training, while effectively constraining malicious deviations from the claimed DP execution.",
+    "published": "2026-09-17T15:06:30Z",
+    "link": "http://arxiv.org/abs/2609.20532v1",
+    "authors": [
+      "Li Ge",
+      "Wenjie Qu",
+      "Weitao Feng",
+      "Yi Zeng",
+      "Jiaheng Zhang",
+      "Xiaofeng Wang",
+      "Wei Dong"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Wide adoption of machine learning has created growing policy and regulatory demand for protecting sensitive training data, with differential privacy (DP) emerging as a key mechanism. Yet a less-studied problem is how to certify the faithful execution of DP during training: an external verifier should be able to check that a released model was trained with proper DP protection, without accessing the private training data.",
+    "selected_date": "2026-09-18"
+  },
+  {
     "id": "2609.18829v1",
     "title": "Epsilon-Nash Equilibria in History-Dependent SA-MDPs",
     "summary": "We study state-adversarial Markov decision processes (SA-MDP) as a game of observation-space attacks: at each step, an agent selects an action from a received observation while an adversary$\\unicode{x2014}$who knows the true state the agent is in$\\unicode{x2014}$chooses a perturbed observation within a state-dependent proximity set. While existing work focuses on Markovian policies, we develop a solution concept and computational approach for SA-MDPs under history dependence. This is motivated by results showing that history dependence can materially change equilibrium outcomes and can force both the agent and the adversary to adapt their strategies. First, we prove the non-existence of universal (agnostic of the initial state distribution) history-dependent equilibrium policies. In response to this finding, our main result presents the first algorithmic route to computing $\u03b5$-approximations of initial-state dependent equilibria. We do so by reducing SA-MDPs to a strategically equivalent constrained zero-sum one-sided partially observable stochastic game. We conclude by testing our algorithm on small analytically verifiable games and showing it scales to larger, more realistic benchmarks, including Atari Freeway rollouts with a 12-period ahead horizon.",
@@ -563,23 +584,5 @@
     ],
     "ai_summary": "Operational technology (OT) environments, including programmable logic controllers (PLCs), industrial control systems (ICS), and supervisory control and data acquisition (SCADA) systems, are increasingly targeted by distributed denial-of-service (DDoS) attacks. This paper presents a neuro-symbolic framework specifically designed for robust DDoS detection in these resource-constrained environments.",
     "selected_date": "2026-08-18"
-  },
-  {
-    "id": "2608.14418v1",
-    "title": "STINER: Automated Extraction of Strategic Cyber Threat Intelligence from X",
-    "summary": "Strategic Cyber Threat Intelligence (CTI) focuses on high-level insights, such as identifying targeted industries, attributing attacks to specific ransomware groups, and assessing the scale of data loss. Today, X (formerly Twitter) has become the fastest source for this intelligence, often hosting real-time breach announcements days before formal vendor reports. Converting this raw chatter into actionable intelligence requires navigating a complex linguistic landscape. Conventional Named Entity Recognition (NER) models struggle to parse the informal and highly irregular dialect of social media, creating a blind spot for automated defense systems. To address this challenge, we introduce STINER, a taxonomy and expert-annotated corpus for extracting strategic intelligence from social media streams. We construct a high-quality, expert-annotated dataset of 2,100 real-world alerts and propose a granular taxonomy of eight entity types centered on strategic pivots such as Threat Actor, Sector, and Location. We benchmark nine models across 12 evaluated configurations, spanning general-purpose and domain-adapted encoders, open-schema extraction, and generative LLMs in both zero-shot and fine-tuned settings. Domain-adapted encoders such as DarkBERT reach a strict F1-score of 89.33%, outperforming both general-purpose baselines and fine-tuned Large Language Models, which additionally incur substantially higher inference latency. Leveraging STINER-DarkBERT, we conduct a European threat landscape analysis for H1 2025. Our results align with official reporting on major targets while highlighting the distinct visibility profile of attacks in Spain, and illustrate how social-media-driven extraction can surface early signals of the SafePay ransomware campaign prior to its retrospective characterization in vendor threat landscape reports.",
-    "published": "2026-08-14T15:59:56Z",
-    "link": "http://arxiv.org/abs/2608.14418v1",
-    "authors": [
-      "Yasir Ech-Chammakhy",
-      "Oussama Azrara",
-      "Jaafar Chbili",
-      "Anas Motii"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Strategic Cyber Threat Intelligence (CTI) focuses on high-level insights, such as identifying targeted industries, attributing attacks to specific ransomware groups, and assessing the scale of data loss. Today, X (formerly Twitter) has become the fastest source for this intelligence, often hosting real-time breach announcements days before formal vendor reports.",
-    "selected_date": "2026-08-17"
   }
 ]
