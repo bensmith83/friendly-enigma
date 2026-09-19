@@ -1,5 +1,30 @@
 [
   {
+    "id": "2609.20601v1",
+    "title": "Weather Data Spoofing Attacks on Rain-Adaptive Millimeter-Wave Frequency Selection in V2X Communication Networks",
+    "summary": "Connected vehicles use millimeter-wave (mmWave) sidelinks for the data rates cooperative driving demands, and emerging designs select the carrier band from sensed rainfall. We show that this weather awareness is an attack surface: an adversary who spoofs only the rainfall input dictates the victim's carrier frequency, and through it its communication range, without transmitting on the channel. We evaluate the attack in MilliCar, an ns-3 module that runs the selected band as the real 3GPP NR V2X carrier with per-band propagation, beamforming, and blockage. Forcing the band up to 73 GHz holds an eight-vehicle platoon's reliable range at 38 m while the honest baseline doubles it to 82 m; forcing it down to 5 GHz sustains 97% long-range reception but collapses the transport block to a third and quadruples long-range latency to 12.5 ms. We then implement the defense the mechanism implies. Rain loss grows linearly with distance while path loss grows logarithmically, so a receiver that tests measured SINR against the attenuation its reported weather predicts flags force-up with 98% probability within 1.5 s at a 1% false-alarm rate, and re-selection then restores long-range reception from 60% to 75%. The same test is structurally blind to force-down, because the 5 GHz fallback is nearly rain-immune. An advecting rain cell that swings the local rate from 15 to 81 mm/h leaves every result unchanged. Weather-aware band selection therefore requires an authenticated meteorological input; physical cross-checking covers one half of the threat.",
+    "published": "2026-09-17T15:49:11Z",
+    "link": "http://arxiv.org/abs/2609.20601v1",
+    "authors": [
+      "Rasheed Bello",
+      "Idreez Yusuf",
+      "Justice Adjei Owusu",
+      "Oluwatobiloba Aiyewunmi",
+      "Gurcan Comert",
+      "Judith Mwakalonge",
+      "Esmail Abuhdima",
+      "Abdulmajid Mrebit",
+      "Rajab Ataai",
+      "Vaidyan Varghese"
+    ],
+    "categories": [
+      "cs.CR",
+      "eess.SY"
+    ],
+    "ai_summary": "Connected vehicles use millimeter-wave (mmWave) sidelinks for the data rates cooperative driving demands, and emerging designs select the carrier band from sensed rainfall. We show that this weather awareness is an attack surface: an adversary who spoofs only the rainfall input dictates the victim's carrier frequency, and through it its communication range, without transmitting on the channel.",
+    "selected_date": "2026-09-19"
+  },
+  {
     "id": "2609.20532v1",
     "title": "Towards TEE-Certified DP: Verifiable Differentially Private Training on Legacy GPUs",
     "summary": "Wide adoption of machine learning has created growing policy and regulatory demand for protecting sensitive training data, with differential privacy (DP) emerging as a key mechanism. Yet a less-studied problem is how to certify the faithful execution of DP during training: an external verifier should be able to check that a released model was trained with proper DP protection, without accessing the private training data. Existing cryptographic approaches, such as zero-knowledge proofs, provide strong guarantees but often incur prohibitive overhead, in some cases by orders of magnitude. Trusted Execution Environments (TEEs) offer a more efficient alternative, but the multi-GPU TEE support needed for training and fine-tuning large language models remains limited to recent platforms and is absent or inefficient on legacy GPUs.   To address this, we propose a practical framework for verifiable DP training using CPU-side TEEs together with untrusted GPUs. Our design addresses a fundamental efficiency-security tension: training entirely inside a CPU TEE is too slow, while unrestricted GPU offloading can allow malicious deviations from DP. We therefore offload expensive gradient computation to GPUs, while using the CPU TEE to efficiently verify the correct enforcement of DP on gradients through probabilistic checking. Our framework detects frequent full deviations from DP with high probability; for the utility-oriented forged-gradient attacks evaluated in this work, sparse deviations provide limited utility benefit and show no measurable additional membership leakage. Experiments further show that our approach nearly achieves a ``free lunch'': it incurs only modest overhead compared with standard GPU-based DP training, while effectively constraining malicious deviations from the claimed DP execution.",
@@ -565,24 +590,5 @@
     ],
     "ai_summary": "Large-scale, high-dimensional tabular regression remains challenging: tree-based models are robust but lack end-to-end representation learning, while deep models enable flexible feature learning but often incur costly interaction modeling and sensitivity to noisy or redundant features. We propose TabNSM, a scalable regression framework that extends our earlier sparse-attention and mixer architectures.",
     "selected_date": "2026-08-19"
-  },
-  {
-    "id": "2608.16769v1",
-    "title": "A Deployment-Oriented and Resource-Efficient Neuro-Symbolic Framework for Explainable DDoS Detection in Operational Technology Networks",
-    "summary": "Operational technology (OT) environments, including programmable logic controllers (PLCs), industrial control systems (ICS), and supervisory control and data acquisition (SCADA) systems, are increasingly targeted by distributed denial-of-service (DDoS) attacks. This paper presents a neuro-symbolic framework specifically designed for robust DDoS detection in these resource-constrained environments. The framework fuses a gated recurrent unit (GRU) neural network with a shallow decision tree as a symbolic component. The symbolic component alone provides a compact, interpretable rule set, while the fusion combines the strengths of both paradigms. The hybrid model is evaluated on three real-world benchmark DDoS datasets: CIC-DDoS2019, Edge-IIoTset, and CICIoT23. A unified comprehensive preprocessing pipeline including label mapping, numerical feature selection, robust scaling, and class balancing is applied. The fusion weight alpha and decision threshold are jointly optimised on validation data to maximise F1-score. The hybrid model attains 99.04% accuracy (MCC 0.97) on CIC-DDoS2019 and 98.61% accuracy (MCC 0.76) on CICIoT23, in both cases reducing the FNR below that of the pure-neural and pure-symbolic baselines; on the linearly separable Edge-IIoTset the shallow decision tree alone already reaches 100%, so this benchmark validates the preprocessing pipeline rather than the fusion. The principal gain of the fusion is a lower FNR at a controlled false-positive cost, which matters in operational technology, where a missed attack is more damaging than a false alarm. Model-only inference latency is sub-millisecond (0.58-0.79 milliseconds per sample) on a standard central processing unit; including on-device flow-feature extraction, the end-to-end path remains within a single-digit-millisecond budget, which is compatible with OT control-loop timing.",
-    "published": "2026-08-17T16:18:15Z",
-    "link": "http://arxiv.org/abs/2608.16769v1",
-    "authors": [
-      "Mikiyas Alemayehu",
-      "Mohamed Chahine Ghanem",
-      "Hamza Kheddar",
-      "Aohan Li",
-      "J. J. Garcia-Luna-Aceves"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Operational technology (OT) environments, including programmable logic controllers (PLCs), industrial control systems (ICS), and supervisory control and data acquisition (SCADA) systems, are increasingly targeted by distributed denial-of-service (DDoS) attacks. This paper presents a neuro-symbolic framework specifically designed for robust DDoS detection in these resource-constrained environments.",
-    "selected_date": "2026-08-18"
   }
 ]
