@@ -1,5 +1,26 @@
 [
   {
+    "id": "2609.19900v1",
+    "title": "Delphi Scanner: efficient and interpretable static malware detection via API sequence modeling",
+    "summary": "Static malware detection for Windows Portable Executable files demands a careful balance between detection effectiveness, computational efficiency, and analytical interpretability. This paper introduces Delphi Scanner, a static malware detection system for Windows PE files that balances efficiency with behavioral interpretation. It uses a convolutional neural network (CNN) to model Windows API sequences to classify PE and a decoupled interpretation layer based on a rule-based layer to categorize APIs into high-level malicious capabilities. Evaluated on over 190,000 Windows PE files, the system achieves 95.35% accuracy with a 1.53~MB model footprint. Robustness experiments on 5,647 out-of-distribution MalwareBazaar samples, paired packed and unpacked executables, and three adversarial manipulation strategies confirm generalization beyond the training distribution and resistance to functionality-preserving evasion techniques. Overall, these results demonstrate that API sequence-based static analysis offers a practical, interpretable, and efficient foundation for malware triage in local deployment scenarios.",
+    "published": "2026-09-17T08:45:30Z",
+    "link": "http://arxiv.org/abs/2609.19900v1",
+    "authors": [
+      "Bijied Brahimi",
+      "Vincent Cohadon",
+      "Gabriel Glazman",
+      "Rayan Al Mohaize",
+      "Omran Berjawi",
+      "Rida Khatoun"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "ai_summary": "Static malware detection for Windows Portable Executable files demands a careful balance between detection effectiveness, computational efficiency, and analytical interpretability. This paper introduces Delphi Scanner, a static malware detection system for Windows PE files that balances efficiency with behavioral interpretation.",
+    "selected_date": "2026-09-20"
+  },
+  {
     "id": "2609.20601v1",
     "title": "Weather Data Spoofing Attacks on Rain-Adaptive Millimeter-Wave Frequency Selection in V2X Communication Networks",
     "summary": "Connected vehicles use millimeter-wave (mmWave) sidelinks for the data rates cooperative driving demands, and emerging designs select the carrier band from sensed rainfall. We show that this weather awareness is an attack surface: an adversary who spoofs only the rainfall input dictates the victim's carrier frequency, and through it its communication range, without transmitting on the channel. We evaluate the attack in MilliCar, an ns-3 module that runs the selected band as the real 3GPP NR V2X carrier with per-band propagation, beamforming, and blockage. Forcing the band up to 73 GHz holds an eight-vehicle platoon's reliable range at 38 m while the honest baseline doubles it to 82 m; forcing it down to 5 GHz sustains 97% long-range reception but collapses the transport block to a third and quadruples long-range latency to 12.5 ms. We then implement the defense the mechanism implies. Rain loss grows linearly with distance while path loss grows logarithmically, so a receiver that tests measured SINR against the attenuation its reported weather predicts flags force-up with 98% probability within 1.5 s at a 1% false-alarm rate, and re-selection then restores long-range reception from 60% to 75%. The same test is structurally blind to force-down, because the 5 GHz fallback is nearly rain-immune. An advecting rain cell that swings the local rate from 15 to 81 mm/h leaves every result unchanged. Weather-aware band selection therefore requires an authenticated meteorological input; physical cross-checking covers one half of the threat.",
@@ -573,22 +594,5 @@
     ],
     "ai_summary": "Traditional malware detection systems that rely on a single representation of malware often fail to identify novel threats. These representations of malware binaries, also known as modalities, do not provide the models with sufficient information to discriminate among all samples.",
     "selected_date": "2026-08-20"
-  },
-  {
-    "id": "2608.18026v1",
-    "title": "TabNSM: Neural Sparse Mixer for Tabular Regression",
-    "summary": "Large-scale, high-dimensional tabular regression remains challenging: tree-based models are robust but lack end-to-end representation learning, while deep models enable flexible feature learning but often incur costly interaction modeling and sensitivity to noisy or redundant features. We propose TabNSM, a scalable regression framework that extends our earlier sparse-attention and mixer architectures. At its core, the Adaptive Sparse Interaction Module (ASIM) integrates foreground feature discovery, sparse local interaction encoding, and Feature-Token Mixing, providing near-linear complexity under fixed sparse configurations. For regression, TabNSM introduces three complementary components: a Multi-Stage Regression Head for progressive prediction refinement; GridLoss, an ordinal-aware soft-binning objective that incorporates target structure into representation learning; and RISE (Reweighted Instance Sampling by Error), a difficulty-aware sampling strategy based on loss-quantile bins. Across nine real-world regression benchmarks, TabNSM delivers strong predictive performance and practical scalability, with particularly consistent gains on high-dimensional and heterogeneous datasets. These results demonstrate that selective interaction modeling, structured regression supervision, and difficulty-aware sampling provide an effective and scalable approach to deep tabular regression.",
-    "published": "2026-08-18T17:22:49Z",
-    "link": "http://arxiv.org/abs/2608.18026v1",
-    "authors": [
-      "Ali Eslamian",
-      "Qiang Cheng"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CE"
-    ],
-    "ai_summary": "Large-scale, high-dimensional tabular regression remains challenging: tree-based models are robust but lack end-to-end representation learning, while deep models enable flexible feature learning but often incur costly interaction modeling and sensitivity to noisy or redundant features. We propose TabNSM, a scalable regression framework that extends our earlier sparse-attention and mixer architectures.",
-    "selected_date": "2026-08-19"
   }
 ]
