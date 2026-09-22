@@ -1,5 +1,24 @@
 [
   {
+    "id": "2609.24280v1",
+    "title": "Temporal Generalization and Explanation Stability of Control Flow Graph Neural Networks for Malware Detection",
+    "summary": "Malware detection is a critical task in cybersecurity, and graph neural networks over control flow graphs have shown promising results for it. However, detectors are usually evaluated on a random split of a corpus collected over a single period, which cannot show how well a model generalizes to later samples. This study addresses that limitation with a strict temporal split: every model is trained on one period and scored once on a later one. Two corpora of control flow graphs, each node carrying 37 features, were extracted statically from 1,989 Windows portable executables: 459 graphs from 2024-2025 for training and 223 from 2026 for evaluation. Twelve variants and a flat-feature control were trained on the earlier corpus. The choice of message-passing operator changes robustness to the shift significantly, and every pairwise gap that survives correction separates an aggregating architecture from one built around a learned attentional readout. The ranking also reverses: the flat control, which sees node features but no topology, is the best in-distribution model and among the worst across the boundary, so a conventional benchmark would have rejected message passing. Neither recalibration nor ensembling substitutes for the operator choice. Attributions do not shift, but explanation validity is architecture-specific, and the most accurate operator on the later corpus is the hardest to explain. An architecture derived from the finding matches the best searched operator without search. The shift affects both malware and benign classes alike, so these are results about robustness to distribution shift, not malware evolution.",
+    "published": "2026-09-21T08:43:36Z",
+    "link": "http://arxiv.org/abs/2609.24280v1",
+    "authors": [
+      "Md. Asif Sajeed",
+      "Md. Nazrul Islam Mondal",
+      "Md Ashraful Hossen Akash"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "ai_summary": "Malware detection is a critical task in cybersecurity, and graph neural networks over control flow graphs have shown promising results for it. However, detectors are usually evaluated on a random split of a corpus collected over a single period, which cannot show how well a model generalizes to later samples.",
+    "selected_date": "2026-09-22"
+  },
+  {
     "id": "2609.19900v1",
     "title": "Delphi Scanner: efficient and interpretable static malware detection via API sequence modeling",
     "summary": "Static malware detection for Windows Portable Executable files demands a careful balance between detection effectiveness, computational efficiency, and analytical interpretability. This paper introduces Delphi Scanner, a static malware detection system for Windows PE files that balances efficiency with behavioral interpretation. It uses a convolutional neural network (CNN) to model Windows API sequences to classify PE and a decoupled interpretation layer based on a rule-based layer to categorize APIs into high-level malicious capabilities. Evaluated on over 190,000 Windows PE files, the system achieves 95.35% accuracy with a 1.53~MB model footprint. Robustness experiments on 5,647 out-of-distribution MalwareBazaar samples, paired packed and unpacked executables, and three adversarial manipulation strategies confirm generalization beyond the training distribution and resistance to functionality-preserving evasion techniques. Overall, these results demonstrate that API sequence-based static analysis offers a practical, interpretable, and efficient foundation for malware triage in local deployment scenarios.",
@@ -574,25 +593,5 @@
     ],
     "ai_summary": "Website fingerprinting (WF) attacks can infer users' browsing activities from encrypted Tor traffic by exploiting side-channel features. Although many WF defenses have been proposed, we find that most existing defenses create learnable web trace mapping features.",
     "selected_date": "2026-08-21"
-  },
-  {
-    "id": "2608.19052v1",
-    "title": "Malformer: A Multi-Modal Malware Detector Using Transformers",
-    "summary": "Traditional malware detection systems that rely on a single representation of malware often fail to identify novel threats. These representations of malware binaries, also known as modalities, do not provide the models with sufficient information to discriminate among all samples. Additionally, individual representations introduce new failure modes, with some modality extraction being dependent upon the success of disassembling. Past works have integrated either additional modalities or more discriminative representations for classification. In this work, we present Malformer, a quadrimodal malware detection model that incorporates text, image, graph, and audio representations of Windows executables. We demonstrate that multimodal transformer fusion can enhance the performance of Windows malware detectors over that of unimodal and bimodal detectors. Malformer employs a combination of two RoBERTa encoders paired with a modified Vision Transformer for image data, WavLM for audio data, and an adaptive loss-weighting scheme to fuse modality-specific representations. Evaluated on a dataset of 201,549 binary samples, Malformer achieved 98.3% accuracy and an F1 score of 0.9833, outperforming both unimodal baselines and bimodal detectors by 4.6-17.6 percentage points. Malformer demonstrates that multimodal fusion provides a promising foundation for countering the growing scale of malware threats, equipping defenders with generalized and resilient detection capabilities.",
-    "published": "2026-08-19T15:46:28Z",
-    "link": "http://arxiv.org/abs/2608.19052v1",
-    "authors": [
-      "Samuel Howard",
-      "Kshitiz Aryal",
-      "Mahmoud Abdelsalam",
-      "Maanak Gupta",
-      "Andrew Wheeler",
-      "Pradip Kunwar"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Traditional malware detection systems that rely on a single representation of malware often fail to identify novel threats. These representations of malware binaries, also known as modalities, do not provide the models with sufficient information to discriminate among all samples.",
-    "selected_date": "2026-08-20"
   }
 ]
