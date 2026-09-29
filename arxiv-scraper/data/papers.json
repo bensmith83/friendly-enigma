@@ -1,5 +1,26 @@
 [
   {
+    "id": "2609.35414v1",
+    "title": "AI-Based Vulnerability Assessment Capability and Cyber Attack Graph Analysis",
+    "summary": "Cyber threats targeting mission-critical infrastructure are becoming more sophisticated while the barrier to launching attacks continues to fall. Traditional point solutions like antivirus and firewalls are reactive and fail to address the combinatorial complexity of modern attack surfaces. This paper presents an investigation combining two complementary methodologies: Lockheed Martin's Vortex/Crow framework, which applies multi-agent reinforcement learning (MARL) over industry-standard cyber knowledge graph to identify and prioritize attack vectors and TTPs (tactics, techniques, and procedures); and Aalto's probabilistic attack graph model that combines network topology and its vulnerabilities to compute system-level risk metrics. The 2015 Ukraine Power Grid cyberattack serves as a well-documented validation scenario. Applied independently to the same operational technology (OT) network topology, both methodologies converge on the same attack vectors and exploit sequences as those documented in the incident record, thus providing mutual cross-validation. Attack graph analyses using node-level elimination experiments identify industrial control systems (ICS) as the most critical enablers of attack propagation, representing high-priority targets for defensive hardening. Comparison of CVSS (v2.0) and IronMiner vulnerability scoring yields in general consistent results, with IronMiner providing more actionable differentiation at network periphery nodes. The layered methodology of baseline assessment and node-level elimination proves to be scalable to large enterprise networks, thus offering defenders a structured, AI-enabled path to prioritize mitigation under realistic time and resource constraints.",
+    "published": "2026-09-28T15:29:22Z",
+    "link": "http://arxiv.org/abs/2609.35414v1",
+    "authors": [
+      "Joni Herttuainen",
+      "Kirsi Hellsten",
+      "Vesa Kuikka",
+      "Ambrose Kam",
+      "Arlanda Johnson",
+      "David Welsh",
+      "Kimmo K. Kaski"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Cyber threats targeting mission-critical infrastructure are becoming more sophisticated while the barrier to launching attacks continues to fall. Traditional point solutions like antivirus and firewalls are reactive and fail to address the combinatorial complexity of modern attack surfaces.",
+    "selected_date": "2026-09-29"
+  },
+  {
     "id": "2609.25882v1",
     "title": "COBRA: A Content-Agnostic Framework for Zero-Day Detection of Suspicious Domains",
     "summary": "The use of malicious domains is central to cyberattacks such as phishing, malware distribution, impersonation, and fraudulent transactions. Because domains are inexpensive to register and easy to deploy at scale, they remain one of the most common and damaging tools used in cybercrime across industries. Proactive detection is essential to reducing this window of vulnerability and preventing harm to users. In this work, we propose COBRA: a content-agnostic, registration-time detection framework for identifying and analyzing suspicious domains from day zero. Our approach does not rely on any content-based features, allowing us to classify a domain even before it is populated with content. We analyze the names of newly registered domains and employ a clustering technique to group them based on lexical and structural similarity. We evaluate our methodology using real-world data consisting of 1.5M newly created domains, demonstrating that COBRA detects suspicious domains with a precision of 98.5%, identifying more than 47K distinct newly registered suspicious domains. Furthermore, our results show that domain-name clustering enables accurate early detection, allowing us to identify 80% of suspicious or malicious domains earlier than one of the most widely used threat-intelligence services, which in some cases may require up to 7 days.",
@@ -571,24 +592,5 @@
     ],
     "ai_summary": "Website fingerprinting (WF) attacks can infer users' browsing activities from encrypted Tor traffic by exploiting side-channel features. Although many WF defenses have been proposed, we find that most existing defenses create learnable web trace mapping features.",
     "selected_date": "2026-08-23"
-  },
-  {
-    "id": "2608.19534v1",
-    "title": "AEGIS: Attention-Embedding Gradient Isolation Shield - Triple-Channel Gradient Masking for Privacy-Preserving Federated LLM Fine-Tuning",
-    "summary": "Gradient inversion attacks recover private training text from gradients shared in federated learning, posing a serious threat to collaborative model training. Through our analysis of transformer gradient structure, we identify three channels through which private token information leaks: the attention output projection gradient exposes a low-rank subspace that encodes input embeddings (Channel 1), the embedding gradient's row-norm sparsity directly reveals which tokens are present (Channel 2), and the MLP expansion gradient carries a recoverable subspace signal analogous to Channel 1 (Channel 3). State-of-the-art attacks exploit these channels analytically to achieve near-exact token recovery in seconds. Existing defences address at most one channel and either degrade model utility or leave the remaining structural signals intact.   We introduce AEGIS (Attention-Embedding Gradient Isolation Shield), a lightweight defence that closes all three analytical channels with three backward-path operations requiring no architectural changes: freezing attention projection parameters eliminates Channel 1 by construction, calibrated noise injection into the embedding gradient destroys Channel 2's token-presence signal, and analogous per-block noise injection into the MLP expansion gradient masks Channel 3. The same masked gradient drives both the local optimiser step and the server export, so no clean signal is retained on either side.   Evaluated across 11 models and six datasets, AEGIS reduces token recovery rates to near zero against a range of gradient inversion attacks, both analytical and optimisation-based, while preserving or improving model utility. We provide formal guarantees for Channels 1 and 2 and validate the full defence empirically against adaptive adversaries with complete knowledge of the mechanism.",
-    "published": "2026-08-20T01:12:56Z",
-    "link": "http://arxiv.org/abs/2608.19534v1",
-    "authors": [
-      "Ye Tao",
-      "Hong Shen",
-      "Hui Tian",
-      "Xin Wang",
-      "Can Wang"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Gradient inversion attacks recover private training text from gradients shared in federated learning, posing a serious threat to collaborative model training. Through our analysis of transformer gradient structure, we identify three channels through which private token information leaks: the attention output projection gradient exposes a low-rank subspace that encodes input embeddings (Channel 1), the embedding gradient's row-norm sparsity directly reveals which tokens are present (Channel 2), and the MLP expansion gradient carries a recoverable subspace signal analogous to Channel 1 (Channel 3).",
-    "selected_date": "2026-08-22"
   }
 ]
