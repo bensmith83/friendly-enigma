@@ -1,5 +1,23 @@
 [
   {
+    "id": "2610.02000v1",
+    "title": "Weather-Aware Domain Adaptation for Street-View Weather Recognition",
+    "summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes. We propose Weather-Aware Adversarial Discriminative Domain Adaptation (WA-ADDA), which conditions the domain discriminator on predicted weather to promote features that are both domain-invariant and weather-sensitive. We also assemble a multi-dataset benchmark by unifying diverse non-street-view weather collections as sources and real street-view images as targets, and define a standardized evaluation protocol with macro accuracy as the primary metric. Across backbones (ResNet-50, EfficientNet, VGG, DenseNet), WA-ADDA consistently improves street-view performance and yields strong per-class recalls in challenging conditions while preserving clear-weather accuracy. These findings highlight the feasibility of domain-adapted weather recognition and the value of our benchmark for advancing robust, on-board perception.",
+    "published": "2026-10-01T16:31:43Z",
+    "link": "http://arxiv.org/abs/2610.02000v1",
+    "authors": [
+      "Hossein Maghsoumi",
+      "George Atia",
+      "Yaser P. Fallah"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "ai_summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes.",
+    "selected_date": "2026-10-04"
+  },
+  {
     "id": "2610.01949v1",
     "title": "A Hybrid Approach to Malware Detection: Integrating Few-Shot Model-Agnostic Meta-Learning with Autoencoders",
     "summary": "Ransomware has emerged as a major cybersecurity threat, with incidents increasing in frequency and impact across critical sectors. These attacks are typically launched through phishing emails, malicious downloads, or exploitation of software vulnerabilities to gain system access. Once inside, the malware encrypts files and demands a ransom, often in cryptocurrency, for the decryption key. Conventional detection methods often struggle with novel or scarce samples, leaving systems vulnerable. To address these challenges, this paper proposes a hybrid deep learning framework that combines an Autoencoder Feature Extractor (AFE) with a Model Agnostic Meta Learning (MAML) classifier for few shot malware detection. The AFE generates compact latent features that reduce noise and dimensionality, while the MAML classifier rapidly adapts to new threats using limited labeled data. Experiments conducted on the Ransomware Dataset 2024 demonstrate the effectiveness of the framework in binary classification tasks. Across one to fifty shot settings, the proposed model consistently achieves high accuracy, F1 score, and Matthews Correlation Coefficient values, maintaining reliable classification even under extreme scarcity. These results highlight the model's robustness and effectiveness in adapting to limited data scenarios, demonstrating the potential of combining feature extraction with meta learning to enhance resilience against malware, particularly in sectors such as healthcare, manufacturing, and public infrastructure, where cyberattacks can cause significant operational and financial disruption.",
@@ -560,26 +578,5 @@
     ],
     "ai_summary": "Backdoor attacks are among the most effective and stealthy attacks in deep learning. Existing attacks and defenses are largely designed and evaluated under the assumption that successful backdoors exhibit high Attack Success Rates (ASRs).",
     "selected_date": "2026-08-28"
-  },
-  {
-    "id": "2608.25794v1",
-    "title": "Cooperative Multi-Agent Reinforcement Learning for Adaptive Aggregation in Semi-Supervised Federated Learning with non-IID Data",
-    "summary": "Federated Learning (FL) enables distributed training of machine learning models while preserving data privacy. However, FL struggles with heterogeneous, non-IID client data distributions, resulting in sub-optimal and biased global models. In this paper, we propose pFedMARL, a novel approach leveraging Multi-Agent Reinforcement Learning (MARL) with Twin Delayed Deep Deterministic Policy Gradient (TD3) to dynamically adapt aggregation strategies in FL settings. Our method employs a server-side agent adjusting client contributions to optimize global model robustness and client-side agents balancing global and local updates to personalize models effectively without pre-training. We demonstrate superior performance of pFedMARL for training a semi-supervised audio spectrogram transformer, matching or outperforming FedAvg, Ditto, and local training approaches across multiple non-IID scenarios and in the presence of adversarial clients. Our results indicate that pFedMARL actively improves accuracy, robustness, and fairness, making it suitable for real-world deployments.",
-    "published": "2026-08-26T13:46:43Z",
-    "link": "http://arxiv.org/abs/2608.25794v1",
-    "authors": [
-      "Rene Glitza",
-      "Luca Becker",
-      "Rainer Martin"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.DC",
-      "cs.SD",
-      "eess.AS",
-      "eess.SP"
-    ],
-    "ai_summary": "Federated Learning (FL) enables distributed training of machine learning models while preserving data privacy. However, FL struggles with heterogeneous, non-IID client data distributions, resulting in sub-optimal and biased global models.",
-    "selected_date": "2026-08-27"
   }
 ]
