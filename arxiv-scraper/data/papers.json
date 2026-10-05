@@ -1,5 +1,26 @@
 [
   {
+    "id": "2610.03585v1",
+    "title": "Threat-Preserving Representation Sensitivity in Agent-Security Benchmarks",
+    "summary": "Security benchmarks for LLM-based agents often report the attack success rate (ASR) as a measure of model robustness and use these scores to compare different models and defense mechanisms, assuming that they describe the security of the agent. In this paper, we explore whether it also influences the benchmark's measurement.   To measure the effect of the benchmark representation, we introduce threat-preserving representation sensitivity (TPRS), which measures how much the ASR changes when we change the agent-visible representation while holding the underlying task, harmful action, security policy, ground truth, environment, and the evaluation criteria fixed.   On Agent Security Bench (ASB), replacing threat-related tool names with threat-neutral names raises the committed attack success rate by 11.67 percentage points on GPT-5-mini and by 13.21 points on Claude Haiku 4.5. On MCPTox, replacing the original neutral tool name with an explicit threat-related name lowers the ASR by 11.00 percentage points on GPT-5-mini and 4.11 points on Claude Haiku 4.5. On AgentDojo, adding threat-related wording to the attack-relevant tool changes ASR by only 0.50 percentage points on GPT-4o-mini, yet the benign utility falls by 5.36 points on tasks requiring that tool.   We ran an experiment on MCPTox where we observed that a threat-neutral name matched on token count, length, and casing reproduces most of the shift produced by the threat-explicit name (8.54 of 11.00 points on GPT-5-mini).   The results show that a security score measured under one representation may fail to generalize across threat-preserving representations of the same security problem. Robustness claims should therefore be supported by performance across a controlled set of threat-preserving representations rather than relying on a single representation-dependent score.",
+    "published": "2026-10-02T16:55:50Z",
+    "link": "http://arxiv.org/abs/2610.03585v1",
+    "authors": [
+      "Neeraj Karamchandani",
+      "Piyush Nagasubramaniam",
+      "Xinhong Xie",
+      "Sencun Zhu",
+      "Dinghao Wu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "ai_summary": "Security benchmarks for LLM-based agents often report the attack success rate (ASR) as a measure of model robustness and use these scores to compare different models and defense mechanisms, assuming that they describe the security of the agent. In this paper, we explore whether it also influences the benchmark's measurement.",
+    "selected_date": "2026-10-05"
+  },
+  {
     "id": "2610.02000v1",
     "title": "Weather-Aware Domain Adaptation for Street-View Weather Recognition",
     "summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes. We propose Weather-Aware Adversarial Discriminative Domain Adaptation (WA-ADDA), which conditions the domain discriminator on predicted weather to promote features that are both domain-invariant and weather-sensitive. We also assemble a multi-dataset benchmark by unifying diverse non-street-view weather collections as sources and real street-view images as targets, and define a standardized evaluation protocol with macro accuracy as the primary metric. Across backbones (ResNet-50, EfficientNet, VGG, DenseNet), WA-ADDA consistently improves street-view performance and yields strong per-class recalls in challenging conditions while preserving clear-weather accuracy. These findings highlight the feasibility of domain-adapted weather recognition and the value of our benchmark for advancing robust, on-board perception.",
@@ -562,21 +583,5 @@
     ],
     "ai_summary": "Backdoor attacks are among the most effective and stealthy attacks in deep learning. Existing attacks and defenses are largely designed and evaluated under the assumption that successful backdoors exhibit high Attack Success Rates (ASRs).",
     "selected_date": "2026-08-29"
-  },
-  {
-    "id": "2608.27288v1",
-    "title": "Low-ASR Backdoors: Exploiting Attack Success Rate Reduction and Attacker-Defender Asymmetry",
-    "summary": "Backdoor attacks are among the most effective and stealthy attacks in deep learning. Existing attacks and defenses are largely designed and evaluated under the assumption that successful backdoors exhibit high Attack Success Rates (ASRs). In this paper, we show that this assumption creates a fundamental weakness in existing defense paradigms. ASR is not an intrinsic property of a backdoor; rather, it is an attacker-controlled variable that can be deliberately reduced without eliminating the underlying backdoor behavior. We introduce a reverse-training framework that weakens the trigger-target association, producing low-ASR backdoor models while preserving clean-input performance. Through extensive evaluation across multiple datasets, diverse attack families, and multiple architectures, we show that state-of-the-art defenses fail consistently under low-ASR conditions, exposing a fundamental attacker-defender asymmetry.",
-    "published": "2026-08-27T15:56:44Z",
-    "link": "http://arxiv.org/abs/2608.27288v1",
-    "authors": [
-      "Arham Riaz",
-      "Ting Yu"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Backdoor attacks are among the most effective and stealthy attacks in deep learning. Existing attacks and defenses are largely designed and evaluated under the assumption that successful backdoors exhibit high Attack Success Rates (ASRs).",
-    "selected_date": "2026-08-28"
   }
 ]
