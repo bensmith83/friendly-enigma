@@ -1,5 +1,21 @@
 [
   {
+    "id": "2610.08331v1",
+    "title": "Transferable Spatial Temporal Coherence Adversarial Attack on Black-Box Vision Language Models for Autonomous Driving",
+    "summary": "The rapid integration of Vision Language Models (VLMs) into sensitive systems introduces critical safety vulnerabilities that remain unexplored in exist studies. While adversarial attack robustness has been extensively studied for image-based models, the susceptibility of VLMs to temporally-aware adversarial attacks against video in driving context poses a distinct and under examined threat. In this paper, we introduce novel adversarial attack against video targeting VLM models used for autonomous driving scenes named Spatial Temporal Coherence Adversarial Attack (STCA). Our attack comprise from three stages: modalities expansion, Spatial attack, and STCA attack. In modalities expansion, we propose caption-guided frame selection method in order to ensure that adversarial perturbation target the most semantically significant frames. Secondly.In spatial attack, we craft effective perturbation and preserve high similarity. Then the perturbed video generated fed into STCA stage that disrupt cross-frame temporal coherence using motion guided mask. Our method operate under black box threat model against victim target VLMs, relying solely on transferability from white-box surrogate model.We conduct our experiments on the BDD100K and nuScenes autonomous driving datasets across three VLM models: Video LLaVA-7B, Qwen2.5-VL-7B, and Dolphin. Experimental results demonstrate spatial attack achieves an ASR with high SSIM. Our finding reveal that existing video language model, remain highly susceptible to adversarial attack in autonomous driving scenarios, underscoring the urgent need for robust defense for VLM models.",
+    "published": "2026-10-06T13:30:06Z",
+    "link": "http://arxiv.org/abs/2610.08331v1",
+    "authors": [
+      "Heyam Bin Jahlan Areej Alhothali Abeer Alhothali"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "ai_summary": "The rapid integration of Vision Language Models (VLMs) into sensitive systems introduces critical safety vulnerabilities that remain unexplored in exist studies. While adversarial attack robustness has been extensively studied for image-based models, the susceptibility of VLMs to temporally-aware adversarial attacks against video in driving context poses a distinct and under examined threat.",
+    "selected_date": "2026-10-07"
+  },
+  {
     "id": "2610.06848v1",
     "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
     "summary": "Membership is the root privacy primitive in machine learning: to date, no hardware-based out-of-distribution detection on black-box models has been demonstrated against constant-time, static neural networks with masked confidence. This paper performs the first cycle-level examination of how large language models and vision transformers interact with various modern microarchitecture components, including integrated accelerators, as LLMs scale in size and answers the question of whether the data that a model was trained on affects its execution footprint even without any input-dependent branch, dynamic optimization, or early exit and in constant-time models. The results confirm that the answer is yes and identify which modern hardware components, such as TLBs or on-core accelerators, reveal or amplify that effect. The results also answer whether the signal is informative enough to reliably classify the in-/vs/out-of-distribution property of membership. To understand why, we perform a systematic root cause analysis and find that the transformer's tokenization steps, which happen during training, alter the locality of the accesses the model makes to fetch the vocabulary token later during inference and, as a result, change the page table access patterns and TLB in a previously unknown data-dependent way, causing microarchitectural state to vary significantly based on whether or not the input was in the distribution of the transformer training data. Building on the above observation, we introduce TranScope: the first microarchitecture tool for detecting membership information with low cost, no need for a surrogate model, and significantly higher robustness, e.g., 0.6 AUC for PETAL (best previously reported) vs 0.9 AUC (ours). This reintroduces hardware as both an opportunity, e.g., a tool for checking copyright violation for the first time, and a new channel for inferring membership (MIA).",
@@ -565,29 +581,5 @@
     ],
     "ai_summary": "Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primarily focus on short-context inputs, leaving the attacks and defenses in long-context settings largely unexplored.",
     "selected_date": "2026-08-31"
-  },
-  {
-    "id": "2608.27299v1",
-    "title": "When Context Gets Root: Privilege Escalation in LLM Harnesses",
-    "summary": "Instruction hierarchy is a model-side defense that assigns instructions different levels of privilege according to their sources. These levels constrain which content may direct model behavior. During agent execution, however, agent harnesses construct context for each model invocation. This construction can elevate low-level content to a higher instruction level and grant it greater model-facing privilege. We introduce instruction privilege escalation. In this attack, an attacker induces an agent to elevate low-level malicious content to a higher instruction level. The elevated content then causes the agent to execute instructions it would not follow at their original level. We evaluate this threat by using multi-agent mechanisms to achieve 13 attack objectives across six coding-agent harnesses. These objectives span confidentiality, integrity, availability, and remote code execution. With unrestricted action execution, the attacks achieve all 13 objectives on all six harnesses. Under automatic permission review, the attacks achieve all 13 objectives on all three harnesses that provide this mode. We further reproduce the vulnerability using harness-provided persistent goals and scheduled tasks. These results demonstrate the generality of instruction privilege escalation.",
-    "published": "2026-08-27T16:03:57Z",
-    "link": "http://arxiv.org/abs/2608.27299v1",
-    "authors": [
-      "Xingbang He",
-      "Yuanwei Chen",
-      "Yi Qian",
-      "Haiyang Wei",
-      "Ligeng Chen",
-      "Zenan Fu",
-      "Linzhang Wang",
-      "Hao Wu",
-      "Bing Mao"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.SE"
-    ],
-    "ai_summary": "Instruction hierarchy is a model-side defense that assigns instructions different levels of privilege according to their sources. These levels constrain which content may direct model behavior.",
-    "selected_date": "2026-08-30"
   }
 ]
