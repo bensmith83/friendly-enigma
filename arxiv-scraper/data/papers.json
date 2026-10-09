@@ -1,5 +1,24 @@
 [
   {
+    "id": "2610.11996v1",
+    "title": "Moving Target Defense in SDN-enabled EV Charging Network",
+    "summary": "Software-Defined Networking (SDN) is emerging as a promis- ing technology for EV Charging infrastructure (EVCI) since it enables flexible, programmable control of EVCI networks, yet its security gain to EVCI remains underexplored. SDN-enabled EVCI faces an increas- ing number of cyber threats arising from the convergence of IT and OT components; in particular, low-rate Denial-of-Service (DoS) attacks. Ear- lier works identify a trend toward low-rate attacks in OT networks that may exhaust SDN switch flow tables and which can result in disabling the entire charging sites without triggering volume-based defenses. In this paper, we propose CS-SHIELD, a Moving Target Defense mecha- nism for SDN-enabled EVCI communication. We showcase the imple- mentation of the proposed mechanism that detects malicious flow table rules via cross-layer identity verification and responds by reassigning virtual IP addresses to all active chargers. Experiments on an emulated SDN testbed with a real charging protocol implementation demonstrate that CS-SHIELD maintains full site availability under attack, responds quickly, adds only a negligible delay under normal conditions. The reas- signing (shuffle) approach at each reaction makes the earlier reconnais- sance knowledge by the attacker rendered worthless.",
+    "published": "2026-10-08T14:04:28Z",
+    "link": "http://arxiv.org/abs/2610.11996v1",
+    "authors": [
+      "Roland Plaka",
+      "Mikael Asplund",
+      "Simin Nadjm-Tehran"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.GT",
+      "cs.NI"
+    ],
+    "ai_summary": "Software-Defined Networking (SDN) is emerging as a promis- ing technology for EV Charging infrastructure (EVCI) since it enables flexible, programmable control of EVCI networks, yet its security gain to EVCI remains underexplored. SDN-enabled EVCI faces an increas- ing number of cyber threats arising from the convergence of IT and OT components; in particular, low-rate Denial-of-Service (DoS) attacks.",
+    "selected_date": "2026-10-09"
+  },
+  {
     "id": "2610.10199v1",
     "title": "Robust Decentralized Fairness Auditing",
     "summary": "Emerging legislation requires large language models (LLMs) to be audited for compliance with regulatory standards, particularly fairness. Such black-box audits typically assume a single auditor with access to a large, representative set of queries. In practice, it can be difficult for an auditor to obtain such a query set, but multiple auditors can together cover the relevant demographic groups by auditing the LLM collaboratively with their individual query sets. However, relying on multiple auditors raises a fundamental trust problem, as they may act on behalf of the LLM provider to portray a misleading appearance of fairness, i.e., fairwashing. We propose Auditopus, a novel approach for robust decentralized fairness auditing. In Auditopus, auditing proceeds in rounds without a central server. In each round, every auditor issues a fixed number of queries to the LLM, and sends only cumulative statistics vectors of its query results to other auditors instead of sensitive queries in clear. The fairness of the audited LLM is then estimated by aggregating all the vectors. We show theoretically and empirically that even a single adversarial auditor in the network can steer this estimate by fabricating the vectors it sends, making an unfair LLM appear fair. To address this threat, Auditopus has each honest auditor locally down-weight any auditor whose cumulative statistics vectors are statistically inconsistent with previous ones. We implement Auditopus and compare it to robust aggregation baselines on two datasets with two pre-trained LLMs. Against an attacker that optimizes the vectors it sends to make the LLM appear fair, Auditopus reduces audit error by up to 78% on average relative to no defense and at least 62% relative to the robust aggregation baselines. Even when 49% of the auditors are adversarial, Auditopus never lets a very unfair or moderately unfair LLM pass as fair.",
@@ -563,23 +582,5 @@
     ],
     "ai_summary": "SMS spam detection systems often achieve high accuracy in controlled environments but struggle against adversarial attacks and increasingly sophisticated spam tactics in real-world deployments. In this paper, we evaluate the robustness of SMS anti-spam systems that end users actually rely on, including commercial messaging applications, third-party anti-spam services, and publicly available open-weight models hosted on Hugging Face.",
     "selected_date": "2026-09-02"
-  },
-  {
-    "id": "2608.30329v1",
-    "title": "Ouroboros: Self-Referential Backdoor Attacks on Speech Enhancement via Clean Audio Triggers",
-    "summary": "Speech enhancement models are widely deployed as frontend modules in real-time speech services, yet their vulnerability to backdoor attacks remains unexplored. Existing backdoor methods are confined to classification tasks and rely on active trigger injection, an assumption incompatible with the passive processing nature of speech enhancement models. In this paper, we propose Ouroboros, a novel backdoor attack framework that leverages the ideal clean outputs of speech enhancement models as natural triggers, enabling inference-time activation without any external trigger injection. Extensive evaluations show Ouroboros achieves near-perfect attack success rates with minimal performance degradation on diverse models and datasets. Physical-world validations confirm that naturally recorded, unaltered clean audio can reliably activate the backdoor. Moreover, Ouroboros generalizes to targeted content-tampering attacks and remains effective against common filtering and finetuning defenses.",
-    "published": "2026-08-31T06:46:41Z",
-    "link": "http://arxiv.org/abs/2608.30329v1",
-    "authors": [
-      "Yunjie Zhou",
-      "Yuheng Huang",
-      "Diqun Yan"
-    ],
-    "categories": [
-      "cs.SD",
-      "cs.CR"
-    ],
-    "ai_summary": "Speech enhancement models are widely deployed as frontend modules in real-time speech services, yet their vulnerability to backdoor attacks remains unexplored. Existing backdoor methods are confined to classification tasks and rely on active trigger injection, an assumption incompatible with the passive processing nature of speech enhancement models.",
-    "selected_date": "2026-09-01"
   }
 ]
