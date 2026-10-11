@@ -1,5 +1,24 @@
 [
   {
+    "id": "2610.12442v1",
+    "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+    "summary": "Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model should receive as its condition and propose a lifting-free answer: a learned view synthesizer, an LVSM-style transformer fine-tuned to render the egocentric view directly without depth, point clouds, or reprojection, resolving cross-view correspondence internally. In contrast, its probabilistic mapping averages each region over candidate source locations according to a learned correspondence distribution, preserving structure while fine texture is averaged away. We argue that this trade-off suits a diffusion generator, whose denoising training excels at restoring detail, so an effective condition should prioritize structural alignment over sharpness. This distribution's concentration also yields a per-region confidence, used both to mask low-confidence regions and to guide the generator toward high-confidence areas during early layout-forming denoising steps. Our approach consistently outperforms the state-of-the-art explicit pipeline and generalizes to other datasets without retraining. The synthesizer thus supplies view structure, and the diffusion model its detail.",
+    "published": "2026-10-08T17:58:03Z",
+    "link": "http://arxiv.org/abs/2610.12442v1",
+    "authors": [
+      "Suhwan Cho",
+      "Yonwoo Choi",
+      "Soongjin Kim",
+      "Jicheol Park",
+      "Taegyu Lim"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model.",
+    "selected_date": "2026-10-11"
+  },
+  {
     "id": "2610.11996v1",
     "title": "Moving Target Defense in SDN-enabled EV Charging Network",
     "summary": "Software-Defined Networking (SDN) is emerging as a promis- ing technology for EV Charging infrastructure (EVCI) since it enables flexible, programmable control of EVCI networks, yet its security gain to EVCI remains underexplored. SDN-enabled EVCI faces an increas- ing number of cyber threats arising from the convergence of IT and OT components; in particular, low-rate Denial-of-Service (DoS) attacks. Ear- lier works identify a trend toward low-rate attacks in OT networks that may exhaust SDN switch flow tables and which can result in disabling the entire charging sites without triggering volume-based defenses. In this paper, we propose CS-SHIELD, a Moving Target Defense mecha- nism for SDN-enabled EVCI communication. We showcase the imple- mentation of the proposed mechanism that detects malicious flow table rules via cross-layer identity verification and responds by reassigning virtual IP addresses to all active chargers. Experiments on an emulated SDN testbed with a real charging protocol implementation demonstrate that CS-SHIELD maintains full site availability under attack, responds quickly, adds only a negligible delay under normal conditions. The reas- signing (shuffle) approach at each reaction makes the earlier reconnais- sance knowledge by the attacker rendered worthless.",
@@ -565,23 +584,5 @@
     ],
     "ai_summary": "Recent personalized LLM agents increasingly transform information retained in memory into compressed or structured representations, which we call user models, to guide later decisions. When source wording is removed from the state reachable through the ordinary interface, these models are commonly treated as more privacy-preserving because direct memory-extraction attacks lose the text they target.",
     "selected_date": "2026-09-04"
-  },
-  {
-    "id": "2609.02741v1",
-    "title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
-    "summary": "Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure (V2I) and Vehicle-to-Vehicle (V2V) communication. The integrity of these messages is threatened by a range of application-layer attacks that can bypass conventional authentication when a roadside unit or peer vehicle is compromised. Existing intrusion detection research either defends the infrastructure side or targets V2V Basic Safety Message (BSM) / Cooperative Awareness Message (CAM) misbehavior, leaving the onboard CV perspective on SPaT integrity unaddressed.To close this gap, we introduce SPADE --- the SPaT Attack Detection and Evaluation dataset --- a labelled, multi-modal, simulation-based dataset designed specifically for deep learning IDS research in this space. SPADE is generated through Eclipse MOSAIC using runtime attack injection at the SAE J2735 application layer across six attack classes and one benign class. By combining four intersection geometries, six operating conditions, and five independent random-seed repetitions, SPADE comprises 180 unique base scenario runs, yielding $\\sim$1,890,000 labelled timestep records (270,000 per class). Each record fuses SPaT message fields, onboard camera confidence scores, and cooperative V2V peer data across 40 features, reflecting the multi-modal signal space required to distinguish deliberate attacks from environmental degradation. The dataset, generation code, and scenario configurations are released publicly to support reproducible and comparative IDS research in C-V2X security. The developed toolbox, instructions, and dataset link are publicly available on GitHub: https://github.com/jdinovo/SPADE.",
-    "published": "2026-09-02T15:46:55Z",
-    "link": "http://arxiv.org/abs/2609.02741v1",
-    "authors": [
-      "James Di Novo",
-      "Hany Ragab",
-      "Sylvain P. Leblanc"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "ai_summary": "Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure (V2I) and Vehicle-to-Vehicle (V2V) communication. The integrity of these messages is threatened by a range of application-layer attacks that can bypass conventional authentication when a roadside unit or peer vehicle is compromised.",
-    "selected_date": "2026-09-03"
   }
 ]
