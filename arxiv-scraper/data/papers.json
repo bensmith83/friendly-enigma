@@ -1,5 +1,33 @@
 [
   {
+    "id": "2610.13372v1",
+    "title": "Towards Safe World Models: Risks, Defenses, and Evaluation",
+    "summary": "World models support planning, control, learning from imagined experience, and model-mediated evaluation by predicting action-conditioned consequences. Their safety cannot be inferred from predictive accuracy alone: errors in observations, state and memory, dynamics, evaluation, execution, or feedback can propagate into unsafe decisions and persist through updates. This work organizes the literature on world-model safety around a six-stage lifecycle covering data and observations, state and memory, dynamics and imagination, evaluation and planning, action and control, and feedback and update. We synthesize non-adversarial failures, attacks, defenses, evaluation protocols, benchmarks, and deployment conditions, and distinguish evidence directness from outcome level. The current evidence corpus contains 163 cited works. We use the framework to identify where claims are supported, where attribution remains unresolved, and which measurements are needed to connect model-level behavior to closed-loop and operational safety.",
+    "published": "2026-10-09T10:45:59Z",
+    "link": "http://arxiv.org/abs/2610.13372v1",
+    "authors": [
+      "Xiaoma Wang",
+      "Litian Zhang",
+      "Xinze Shi",
+      "Zhengxuan Hu",
+      "Zihan Yang",
+      "Mingqi Ren",
+      "You Wu",
+      "Bingyu Yan",
+      "Zelong Yu",
+      "Zhenjie Su",
+      "Yuming Shang",
+      "Xi Zhang",
+      "Chaozhuo Li",
+      "Philip S. Yu"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "World models support planning, control, learning from imagined experience, and model-mediated evaluation by predicting action-conditioned consequences. Their safety cannot be inferred from predictive accuracy alone: errors in observations, state and memory, dynamics, evaluation, execution, or feedback can propagate into unsafe decisions and persist through updates.",
+    "selected_date": "2026-10-13"
+  },
+  {
     "id": "2610.13227v1",
     "title": "Understanding and Mitigating Cross-Session Attacks via Persistent Artifacts in Agent Skill Composition",
     "summary": "Agent skills extend the capabilities of AI agents by bundling instructions, code, and resources into reusable packages. During skill execution, agents may produce or modify artifacts, such as files, configurations, and cached data, that are reused by other skills in later sessions. Since these artifacts can persist across sessions and later be accessed by other skills, they introduce a new attack surface that can be exploited to influence subsequent executions. However, the security risks arising from such cross-session skill interactions remain largely unexplored. In this work, we investigate cross-session composition attacks in skill-based AI agents and develop a runtime defense against them. Specifically, we characterize three attack mechanisms, namely Instruction Propagation (IP), Data Boundary Violation (DBV), and Evidence Poisoning (EP), through which malicious effects propagate across skill executions via persistent artifacts. To evaluate whether existing agents can resist these attacks while completing legitimate tasks, we construct SkillRelayBench, a benchmark of 270 adversarial cases drawn from 30 cross-session skill-composition scenarios across ten domains. Our evaluation of seven models across Codex CLI, Gemini CLI, and Claude Code reveals attack success rates (ASR) ranging from 46.7% to 77.4% and attack chain success rates (ACSR) ranging from 35.6% to 61.1%. Successful attack chains cover all five target security consequence categories, highlighting the broad impact of these attacks. To mitigate these risks, we propose SkillRelayGuard, which restores artifact provenance context and provides pre-execution advisory review while leaving the final execution decision to the agent. Evaluation across three agent settings shows that SkillRelayGuard reduces overall ASR from 69.5% to 10.9% and ACSR from 54.8% to 10.0%, while increasing legitimate task completion from 79.6% to 87.5%.",
@@ -563,27 +591,5 @@
     ],
     "ai_summary": "Modern AI agent harnesses expose lifecycle hooks that bind shell commands to runtime events such as session start, tool calls, and file edits. These commands run with host privileges yet ship as lifecycle-hook configuration and may fire at times the LLM never observes.",
     "selected_date": "2026-09-06"
-  },
-  {
-    "id": "2609.04075v1",
-    "title": "PatchBench: Evaluating AI Agents for Vulnerability Patching",
-    "summary": "AI agents have recently demonstrated strong performance in automated vulnerability patching. However, existing evaluations often validate a patch only by testing whether the provided Proof-of-Concept (PoC) input still triggers a crash. This leaves two key threats to validity: agents may reproduce memorized historical developer patches, or they may generate surface-level fixes that only suppress the reported crash.   We study these concerns for C/C++ vulnerability patching. We introduce a patch similarity metric to detect memorized patches. On average, 25% of the agent patches exhibit substantial similarity to historical developer patches, indicating that patch memorization is a real threat to the validity of vulnerability patching evaluations. Meanwhile, agents also frequently exploit benchmark structures to pass patch validation by patching on the crash stack trace to suppress the crash, rather than localizing and fixing the root cause of the vulnerabilities.   To handle these issues, we propose PatchBench, a new benchmark for evaluating AI agents on realistic vulnerability patching tasks. PatchBench selects vulnerabilities whose ground-truth fixes lie outside the crash stack and uses vulnerability transplant and code mutations to migrate historical vulnerabilities into new repository contexts, reducing the risks of surface-level fixes and patch memorization. We develop new patch validation methods that thoroughly evaluate both security and semantic correctness of agent patches. Across 11 state-of-the-art agents, including the top three AIxCC agents, the original PoC-only validation inflates the patching task solve rate of agents by 1.83$\\times$ on average. Our results reveal key limitations of current patching agents and point to future research directions for more reliable vulnerability repair.",
-    "published": "2026-09-03T16:44:22Z",
-    "link": "http://arxiv.org/abs/2609.04075v1",
-    "authors": [
-      "Chihao Shen",
-      "Jiacheng Li",
-      "Aastha Mahajan",
-      "Jeffery Siyuan Tian",
-      "Yonghwi Kwon",
-      "Yizheng Chen"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.SE"
-    ],
-    "ai_summary": "AI agents have recently demonstrated strong performance in automated vulnerability patching. However, existing evaluations often validate a patch only by testing whether the provided Proof-of-Concept (PoC) input still triggers a crash.",
-    "selected_date": "2026-09-05"
   }
 ]
