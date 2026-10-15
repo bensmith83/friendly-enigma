@@ -1,5 +1,20 @@
 [
   {
+    "id": "2610.20427v1",
+    "title": "Phantomware: a Data Augmentation Framework for the Detection of Emerging Malware Campaigns",
+    "summary": "Detecting unseen malware variants remains a major challenge as malware families continuously evolve. This issue is exacerbated in data-scarce scenarios such as emerging malware campaigns, where only a few samples are available to train robust detectors. A common strategy is to proactively generate malware variants and use them as augmentation data to expose models to a broader range of potential threats. Existing approaches that generate functional malware variants through adversarial manipulation suffer from several important limitations. Generated samples must remain executable and preserve their malicious behavior, requiring costly validation through execution and analysis. Moreover, the adversarial objective provides limited control over the resulting augmentation dataset: it cannot guarantee the generation of sufficiently diverse variants, or even a single successful sample, making the effectiveness of the augmentation process inherently unpredictable. Finally, these approaches typically rely on a well-trained detector to guide generation, an assumption that may not hold in data-scarce scenarios such as early-stage malware campaigns. We formally and empirically demonstrate these limitations and propose Phantomware, a data augmentation framework designed for extreme data scarce scenarios. Phantomware operates entirely in the representation space of a pretrained malware detector, avoiding the costly generation and validation of functional binaries. By exploiting latent-space geometry, it generates synthetic malware representations of a target family in a controlled manner, providing a constructive guarantee on the generation of diverse training samples. Extensive experiments on real malware families demonstrate that Phantomware improves detection of unseen variants and provides robustness against both real and adversarially generated malware samples.",
+    "published": "2026-10-14T16:18:50Z",
+    "link": "http://arxiv.org/abs/2610.20427v1",
+    "authors": [
+      "Antonino Rullo"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Detecting unseen malware variants remains a major challenge as malware families continuously evolve. This issue is exacerbated in data-scarce scenarios such as emerging malware campaigns, where only a few samples are available to train robust detectors.",
+    "selected_date": "2026-10-15"
+  },
+  {
     "id": "2610.18787v1",
     "title": "Bytes to Threats: Byte-Sequence Transformer For Malware Detection",
     "summary": "Existing malware detection approaches heavily rely on handcrafted features derived from static or dynamic analysis of the executable files. These methods require specialized domain expertise, dedicated analysis tools, and time-consuming analysis, which limits their scalability and robustness in the face of the increasing complexity and diversity of modern malware. Consequently, there is a growing interest in approaches that operate directly on raw bytes, which contain rich semantic and structural information. However, capturing long-range dependencies within executable files remains challenging for conventional static and CNN-based methods. This paper presents MalwareFormer, a transformer-based, byte-level malware detection framework that operates directly on raw bytes, without requiring domain knowledge or feature extraction. MalwareFormer achieves an accuracy of 98.35%, a balanced accuracy of 98.32%, a macro-F1 of 98.32%, and a false positive rate of 1.94%, outperforming both baselines across all threshold-dependent classification metrics and demonstrating that transformers provide a powerful and scalable approach for byte-level malware detection.",
@@ -568,23 +583,5 @@
     ],
     "ai_summary": "Website fingerprinting (WF) attacks can infer which webpage a user visits from encrypted HTTPS traffic alone, compromising privacy even without decryption. WF defenses commonly shape traffic through noise, padding, delays, or flow splitting, yet they are most often studied from the perspective of encapsulating protocols like Tor or VPN rather than at the application layer (HTTP).",
     "selected_date": "2026-09-08"
-  },
-  {
-    "id": "2609.05396v1",
-    "title": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
-    "summary": "Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing. However, acquiring real-world datasets is often challenged by significant measurement and labeling costs. Traditional methods for synthesizing labeled wireless signals typically rely on environmental models, leading to extensive hyper-parameter tuning and inadequate realism for comprehensive model training purposes. To address these limitations, we introduce a novel deep learning (DL)-based method, namely Inter-Instance Generative Adversarial Networks (IIns-GAN), to generate realistic labeled wireless signals. The generated signals are particularly adaptive to different environment scenarios and well-suited for various model training tasks, including distance estimation and environment identification. We have conducted extensive experiments on public Ultra-Wideband (UWB) datasets to evaluate the realism and utility of the generated signals. The results demonstrate that the signals generated by IIns-GAN mirror the physical characteristics of real-world measurements, and significantly contribute to the improvement of model training in diverse wireless sensing tasks.",
-    "published": "2026-09-04T17:44:54Z",
-    "link": "http://arxiv.org/abs/2609.05396v1",
-    "authors": [
-      "Yuxiao Li",
-      "Keke Hu",
-      "Santiago Mazuelas",
-      "Yuan Shen"
-    ],
-    "categories": [
-      "cs.AI"
-    ],
-    "ai_summary": "Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing. However, acquiring real-world datasets is often challenged by significant measurement and labeling costs.",
-    "selected_date": "2026-09-07"
   }
 ]
