@@ -1,5 +1,1018 @@
 [
   {
+    "date": "2026-10-18",
+    "week_of": "October 18, 2026",
+    "digest_number": 42,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Georgia vs. Auburn live updates: Follow Deep South's Oldest Rivalry",
+          "description": "Georgia plays Auburn in an SEC showdown. Follow live score updates, highlights, injury news, key plays and instant analysis.",
+          "content": "Any time Georgia footballgoes up against Auburn, the Deep South's Oldest rivalry matters to those who grew up watching the game.\r\nMaybe more for the fans than some of the players.\r\n\"I mean really it'\u2026 [+1862 chars]",
+          "url": "https://www.onlineathens.com/story/sports/college/bulldogs-extra/2026/10/17/georgia-auburn-time-tv-channel-score-live-updates--live/92167958007/",
+          "source_name": "Online Athens",
+          "source_type": "newsapi",
+          "published_at": "2026-10-17T10:01:36Z",
+          "author": "Marc Weiszer, Athens Banner-Herald",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/d37de37eb623a77a413a5b05c7f0a1222f60c0893fe2eb938170cd0eed98cbaa/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fathens-banner-herald%2Ff39ef960e437e544aced0d2eb51c6fe5.jpg",
+          "is_local_nj": false,
+          "article_id": "3df9cf857074",
+          "summary": "Georgia plays Auburn in an SEC showdown. Follow live score updates, highlights, injury news, key plays and instant analysis.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Bitcoin uit het Satoshi-tijdperk wordt geconfronteerd met een grotere kwantumdreiging na Googles nieuwe doorbraak met Willow",
+          "description": "Google says its Willow chip can prepare the special quantum states needed for advanced calculations with about 40 times fewer errors, reducing one of the hardware bottlenecks behind any future attempt to crack bitcoin wallets.",
+          "content": "Oude munten zijn ook in beweging gekomen naarmate het debat over quantumtechnologie luider wordt. Op 7 oktober, 100,02 BTC onaangeroerd sinds juli 2010 verplaatst na meer dan 16 jaar, met een waarde \u2026 [+1299 chars]",
+          "url": "https://www.coindesk.com/nl/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+          "source_name": "CoinDesk",
+          "source_type": "newsapi",
+          "published_at": "2026-10-17T05:18:50Z",
+          "author": "Shaurya Malwa",
+          "image_url": "https://cdn.sanity.io/images/s3y3vcno/production/9f051c877190174f3a7cbc53e53d11e1620cee92-2560x1707.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+          "is_local_nj": false,
+          "article_id": "9f1aa353a8ad",
+          "summary": "Google says its Willow chip can prepare the special quantum states needed for advanced calculations with about 40 times fewer errors, reducing one of the hardware bottlenecks behind any future attempt",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Fanfest zu Halloween: \u201eCastlevania: Belmont\u2019s Curse\u201c",
+          "description": null,
+          "content": "Zwei Wochen vor Halloween gibt es neues Futter f\u00fcr alle, die es gerne gruselig m\u00f6gen. Castlevania: Belmonts Curse schickt eine Vampirj\u00e4gerin durch das brennende Paris des Jahres 1499, und zwar bis hi\u2026 [+3542 chars]",
+          "url": "https://oe3.orf.at/stories/3055086/",
+          "source_name": "Oe3.orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-10-17T04:00:00Z",
+          "author": null,
+          "image_url": "https://tubestatic.orf.at/static/images/site/tube/20261042/gamecheck_bild-1_2.6047350.jpeg",
+          "is_local_nj": false,
+          "article_id": "72bfaa9e0ac4",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Europe\u2019s lame-duck year could hardly come at a worse time",
+          "description": "Elections will sap what little resolve the continent has to make tough decisions.",
+          "content": "Every organisation has an idle period when getting things done becomes all but impossible: universities feel eerily quiet over summer, most offices are dormant over Christmas. Europe may be entering \u2026 [+6234 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/10/16/europes-lame-duck-year-could-hardly-come-at-a-worse-time-a4938767",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-10-16T20:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/_v5VXJ6ySQy0-vdlKx0LrXfdxug=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/10/12111011/171026OPI_2037389836_Economist.jpg",
+          "is_local_nj": false,
+          "article_id": "f636b7138800",
+          "summary": "Elections will sap what little resolve the continent has to make tough decisions.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "accelerator-middle-layer-apg 0.3.1.post2",
+          "description": "ALS-APG staging snapshot of pyAML (Python Accelerator Middle Layer) for OSPREY deployments; everyone else should install accelerator-middle-layer",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/accelerator-middle-layer-apg/0.3.1.post2/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-10-16T19:43:01Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "baebf66a8fd7",
+          "summary": "ALS-APG staging snapshot of pyAML (Python Accelerator Middle Layer) for OSPREY deployments; everyone else should install accelerator-middle-layer",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "The EU wants an AI revolution. But on whose terms?",
+          "description": "As the US and China race ahead, the European Union seeks to boost its economy with AI. Can it compete while protecting workers, safety and the climate?",
+          "content": "Step-dancers spun across the circular stage in the middle of a dark hall, entrancing an audience of\u00a0policymakers and tech bosses.\u00a0Not simply another\u00a0bureaucratic conference, the\u00a0International AI Summ\u2026 [+7575 chars]",
+          "url": "https://www.dw.com/en/the-eu-wants-an-ai-revolution-but-on-whose-terms/a-79673456",
+          "source_name": "DW (English)",
+          "source_type": "newsapi",
+          "published_at": "2026-10-16T13:12:00Z",
+          "author": "Tessa Clara Walther",
+          "image_url": "https://static.dw.com/image/79668352_6.jpg",
+          "is_local_nj": false,
+          "article_id": "5a1eaa4282ba",
+          "summary": "As the US and China race ahead, the European Union seeks to boost its economy with AI. Can it compete while protecting workers, safety and the climate?",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Health: AstraZeneca strikes $40 million AI drug discovery deal with insitro",
+          "description": "Health: AstraZeneca strikes $40 million AI drug discovery deal with insitrogdnonline.com",
+          "content": "LONDON:\u00a0 AstraZeneca has teamed up with \u200cartificial intelligence biotech company insitro to discover and develop new treatments for difficult to treat liver and heart conditions, the British drugmake\u2026 [+1990 chars]",
+          "url": "https://www.gdnonline.com/Details/1409912/AstraZeneca-strikes-$40-million-AI-drug-discovery-deal-with-insitro",
+          "source_name": "Gdnonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-16T13:07:13Z",
+          "author": null,
+          "image_url": "https://www.gdnonline.com/gdnimages/20261016\\20261016_152210_0.jpg",
+          "is_local_nj": false,
+          "article_id": "c1b5eb029924",
+          "summary": "Health: AstraZeneca strikes $40 million AI drug discovery deal with insitrogdnonline.com",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Carvendo uitgeroepen tot Best End-to-End Online Car Buying Platform 2026",
+          "description": "Leiden, 16 oktober 2026 \u2013 Carvendo (carvendo.nl) is bij de European CEO of the Year Awards 2026 van EU Business [\u2026]",
+          "content": "Leiden, 16 oktober 2026 Carvendo (carvendo.nl) is bij de European CEO of the Year Awards 2026 van EU Business News uitgeroepen tot Best End-to-End Online Car Buying Platform 2026 Netherlands. Medeopr\u2026 [+1760 chars]",
+          "url": "https://www.emerce.nl/wire/carvendo-uitgeroepen-tot-best-endtoend-online-car-buying-platform-2026",
+          "source_name": "Emerce.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-10-16T08:40:15Z",
+          "author": "Carvendo",
+          "image_url": "https://www.emerce.nl/content/uploads/2026/10/carvendo_social_1080x1080.png",
+          "is_local_nj": false,
+          "article_id": "b4888676750c",
+          "summary": "Leiden, 16 oktober 2026 \u2013 Carvendo (carvendo.nl) is bij de European CEO of the Year Awards 2026 van EU Business [\u2026]",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Reshaping Network Value for New Growth in the AI Era",
+          "description": "WENEN, 16 oktober 2026 /PRNewswire/ -- Tijdens Network X 2026 organiseerde de World Broadband Association (WBBA) het Broadband Development Congress (BDC) in Wenen. Op het congres hield Bob Chen, president van de Huawei Optical Business Product Line, een toesp\u2026",
+          "content": "WENEN, 16 oktober 2026 /PRNewswire/ -- Tijdens Network X 2026 organiseerde de World Broadband Association (WBBA) het Broadband Development Congress (BDC) in Wenen. Op het congres hield Bob Chen, pres\u2026 [+6610 chars]",
+          "url": "https://www.prnewswire.com/news-releases/reshaping-network-value-for-new-growth-in-the-ai-era-302910874.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-10-16T03:58:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS2014048/20261015021019EDT_image_1.jpg?id=OA3021573&p=facebook",
+          "is_local_nj": false,
+          "article_id": "6ead7bf3a5be",
+          "summary": "WENEN, 16 oktober 2026 /PRNewswire/ -- Tijdens Network X 2026 organiseerde de World Broadband Association (WBBA) het Broadband Development Congress (BDC) in Wenen. Op het congres hield Bob Chen, presi",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "What was Hawking\u2019s IQ?",
+          "description": "What Was Stephen Hawking\u2019s IQ? Untangling the Myth and Reality There\u2019s no definitive answer to What was Hawking\u2019s IQ?, as he never publicly disclosed his score, and it was never officially recorded. However, based on his extraordinary accomplishments in theor\u2026",
+          "content": "There\u2019s no definitive answer to What was Hawking\u2019s IQ?, as he never publicly disclosed his score, and it was never officially recorded. However, based on his extraordinary accomplishments in theoreti\u2026 [+7862 chars]",
+          "url": "https://www.lifesciencesworld.com/what-was-hawkings-iq/",
+          "source_name": "Lifesciencesworld.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-16T01:09:09Z",
+          "author": "Ava Reynolds",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "5c680987445f",
+          "summary": "What Was Stephen Hawking\u2019s IQ? Untangling the Myth and Reality There\u2019s no definitive answer to What was Hawking\u2019s IQ?, as he never publicly disclosed his score, and it was never officially recorded. H",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Brazil is a right-wing country now",
+          "description": "The Bolsonaro clan promises to align with Donald Trump, and to attack democratic institutions.",
+          "content": "For most of the past quarter of a century Brazil was dominated by the Workers Party (PT). A left-wing alliance of trade-unionists, progressive Catholics and academics built a large welfare state and \u2026 [+3958 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/10/15/brazil-is-a-right-wing-country-now-a4938627",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T20:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/VavPeqZaKq_2HDzXfV0rAu01YAA=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/10/09143552/161026OPI_2037351339_brazilie.jpg",
+          "is_local_nj": false,
+          "article_id": "51e4c32f2313",
+          "summary": "The Bolsonaro clan promises to align with Donald Trump, and to attack democratic institutions.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "AstraZeneca strikes $40 million AI drug discovery deal with insitro",
+          "description": "AstraZeneca has entered a collaboration with insitro to explore new treatment options for challenging liver and heart diseases. The partnership involves a $40 million upfront payment and potential milestones totaling approximately $1.46 billion. Insitro will \u2026",
+          "content": "LONDON, - AstraZeneca has teamed up with artificial intelligence biotech company insitro to discover and develop new treatments for difficult to treat liver and heart conditions, the British drugmake\u2026 [+1994 chars]",
+          "url": "https://economictimes.indiatimes.com/news/international/business/astrazeneca-strikes-40-million-ai-drug-discovery-deal-with-insitro/articleshow/134975810.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T19:23:20Z",
+          "author": "Reuters",
+          "image_url": "https://img.etimg.com/thumb/msid-134975878,width-1200,height-900,imgsize-106922,overlay-economictimes/articleshow.jpg",
+          "is_local_nj": false,
+          "article_id": "e616e4bea6a8",
+          "summary": "AstraZeneca has entered a collaboration with insitro to explore new treatment options for challenging liver and heart diseases. The partnership involves a $40 million upfront payment and potential mil",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eulenfamilie begeistert New York",
+          "description": null,
+          "content": "Eine Schleiereulenfamilie hat sich auf den D\u00e4chern New Yorks ein Zuhause eingerichtet und begeistert damit die Millionenmetropole. Nachbarn und Vogelfans ersp\u00e4hten die Tiere auf dem Dach eines Wasser\u2026 [+973 chars]",
+          "url": "https://orf.at/stories/3445222/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T18:23:29Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "a500e81211b6",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "AstraZeneca strikes $40 million AI drug discovery deal with Insitro",
+          "description": "The multi-year partnership will target severe liver and heart conditions, with insitro eligible for up to $1.46 billion in development and commercial milestone payments",
+          "content": "The multi-year partnership will target severe liver and heart conditions, with insitro eligible for up to $1.46 billion in development and commercial milestone payments\r\nAstraZeneca has partnered wit\u2026 [+2476 chars]",
+          "url": "https://www.business-standard.com/companies/news/astrazeneca-strikes-40-million-ai-drug-discovery-deal-with-insitro-126101501568_1.html",
+          "source_name": "Business Standard",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T16:17:20Z",
+          "author": "Reuters",
+          "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/15/thumb/fitandfill/1200X628/1792080978-9504.jpg",
+          "is_local_nj": false,
+          "article_id": "10e3479d96ea",
+          "summary": "The multi-year partnership will target severe liver and heart conditions, with insitro eligible for up to $1.46 billion in development and commercial milestone payments",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Govt to roll out 335 new 108 ambulances",
+          "description": "Kerala govt to roll out 335 new 108 ambulances: 315 BLS, 14 ALS with ventilators and 6 neonatal units; older 316 BLS vehicles to be withdrawn.",
+          "content": "Follow Us On Social Media\r\nLawngtlai tightens vigil on vehicle smuggling, unregulated Myanmar tradeDhanush Narpani Iyakkam: Telugu star's fan club rebrands as welfare movement with new logo and flagK\u2026 [+1569 chars]",
+          "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/govt-to-roll-out-335-new-108-ambulances/articleshow/134970302.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T14:25:46Z",
+          "author": "Times News Network",
+          "image_url": "https://static.toiimg.com/thumb/msid-134970301,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "185e5446a989",
+          "summary": "Kerala govt to roll out 335 new 108 ambulances: 315 BLS, 14 ALS with ventilators and 6 neonatal units; older 316 BLS vehicles to be withdrawn.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "TANEA \"REBEL\" BROOKS STEPS UP HER LEADERSHIP ROLE, JOINING I AM ALS AS HONORARY BOARD MEMBER FOLLOWING SENATE PASSAGE OF ACT FOR ALS",
+          "description": "I AM ALS Ambassador and Former AEW Star Living with ALS Recognized for Her Advocacy as Congress Unanimously Passes Extension of the Landmark ALS Legislation, Co-Written By I AM ALS Co-Founder Brian Wallach Bill Passage Means Five More Years To Scale Research \u2026",
+          "content": "I AM ALS Ambassador and Former AEW Star Living with ALS Recognized for Her Advocacy as Congress Unanimously Passes Extension of the Landmark ALS Legislation, Co-Written By I AM ALS Co-Founder Brian W\u2026 [+5085 chars]",
+          "url": "https://www.prnewswire.com/news-releases/tanea-rebel-brooks-steps-up-her-leadership-role-joining-i-am-als-as-honorary-board-member-following-senate-passage-of-act-for-als-302910216.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T14:21:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS1560151/I-AM-ALS-Logo.jpg?id=OA3021704&p=facebook",
+          "is_local_nj": false,
+          "article_id": "2f5d293ee850",
+          "summary": "I AM ALS Ambassador and Former AEW Star Living with ALS Recognized for Her Advocacy as Congress Unanimously Passes Extension of the Landmark ALS Legislation, Co-Written By I AM ALS Co-Founder Brian Wa",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "I AM ALS Movement Collects More Than 20,100 Petition Signatures Urging Congress to \"Finish the Job\" and Reauthorize ACT for ALS Before September 30 Deadline",
+              "url": "https://www.prnewswire.com/news-releases/i-am-als-movement-collects-more-than-20-100-petition-signatures-urging-congress-to-finish-the-job-and-reauthorize-act-for-als-before-september-30-deadline-302880813.html",
+              "digest_date": "2026-09-20"
+            },
+            {
+              "title": "Sandra Bullock Told the \u2018Practical Magic 2\u2019 Writers to Use as Much of Her Real Grief as They Wanted, Because It Was Going to Show Up Anyway",
+              "url": "https://thoughtcatalog.com/january-nelson/2026/09/sandra-bullock-told-the-practical-magic-2-writers-to-use-as-much-of-her-real-grief-as-they-wanted-because-it-was-going-to-show-up-anyway/",
+              "digest_date": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "title": "Mink Ventures Corporation Intersects 0.5745% Ni, 0.8798% Cu, 0.0756% Co Over 2.1 Meters in Massive Sulphide at Rankin Property, Timmins, Ontario",
+          "description": "TORONTO, Oct. 15, 2026 (GLOBE NEWSWIRE) \u2014 Mink Ventures Corporation (TSXV:MINK) (\u201cMink\u201d or the \u201cCompany\u201c) today announced it has intersected a new Copper (Cu), Nickel (Ni), Cobalt (Co) zone grading 0.5745% Ni, 0.8798% Cu and 0.0756% Co over 2.1 m, designated \u2026",
+          "content": "** Intersections above are core lengths as the true width of the zone is unknown at this time.\r\nFUTURE PLANS\r\n<ul><li>Permit applications have already been submitted in order to complete the down hol\u2026 [+5154 chars]",
+          "url": "https://financialpost.com/globe-newswire/mink-ventures-corporation-intersects-0-5745-ni-0-8798-cu-0-0756-co-over-2-1-meters-in-massive-sulphide-at-rankin-property-timmins-ontario",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T12:46:55Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/figure-1-12.png",
+          "is_local_nj": false,
+          "article_id": "bdbbf58796cb",
+          "summary": "TORONTO, Oct. 15, 2026 (GLOBE NEWSWIRE) \u2014 Mink Ventures Corporation (TSXV:MINK) (\u201cMink\u201d or the \u201cCompany\u201c) today announced it has intersected a new Copper (Cu), Nickel (Ni), Cobalt (Co) zone grading 0.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Defense Metals Resource Upgrade Drilling Intersects 2.33% TREO over 153 Metres at the Wicheeda Rare Earth Project",
+              "url": "https://www.prnewswire.com/news-releases/defense-metals-resource-upgrade-drilling-intersects-2-33-treo-over-153-metres-at-the-wicheeda-rare-earth-project-302901901.html",
+              "digest_date": "2026-10-11"
+            },
+            {
+              "title": "Pan Global Intersects 83 Meters of 1.74 g/t Gold, Expanding New Gold Zone at C\u00e1rmenes Project, Spain",
+              "url": "https://financialpost.com/globe-newswire/pan-global-intersects-83-meters-of-1-74-g-t-gold-expanding-new-gold-zone-at-carmenes-project-spain",
+              "digest_date": "2026-09-20"
+            },
+            {
+              "title": "1911 Gold Intersects Significant Grades at L10 Zone, Including 10.73 g/t Au over 8.90 m and 50.61 g/t Au over 1.60 m, and Confirms Link to Larger 710-711 Zone at True North",
+              "url": "https://www.prnewswire.com/news-releases/1911-gold-intersects-significant-grades-at-l10-zone-including-10-73-gt-au-over-8-90-m-and-50-61-gt-au-over-1-60-m-and-confirms-link-to-larger-710-711-zone-at-true-north-302874555.html",
+              "digest_date": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "title": "Indefensible Delights",
+          "description": "Wallace Shawn\u2019s plays expose the ways in which civilized society is maintained by a violence that is everywhere denied.",
+          "content": "Wallace Shawn\u2019s first play in ten years, What We Did Before Our Moth Days, directed by Andr\u00e9 Gregory and featuring Hope Davis, Maria Dizzia, John Early, and Josh Hamilton, closed in May after a sold-\u2026 [+26000 chars]",
+          "url": "https://www.nybooks.com/articles/2026/11/05/indefensible-delights-what-we-did-before-our-moth-days-wallace-shawn/",
+          "source_name": "The New York Review of Books",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T12:00:00Z",
+          "author": "Adam Thirlwell",
+          "image_url": "https://www.nybooks.com/wp-content/uploads/2026/10/shawn_wallace-110526-1200.jpg",
+          "is_local_nj": false,
+          "article_id": "2919da14c79f",
+          "summary": "Wallace Shawn\u2019s plays expose the ways in which civilized society is maintained by a violence that is everywhere denied.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Two iconic American baseball equipment companies are now owned by a Chinese company associated with the CCP",
+          "description": "Wilson and Louisville Slugger, two of baseball's most iconic American brands, are now controlled by Anta Sports, a Chinese company with deep CCP ties.",
+          "content": "It's the American pastime. It's as American as apple pie.\r\nFor nearly 200 years, from 20 years before the Civil War, baseball has been associated with the United States. One of our first unique sport\u2026 [+7289 chars]",
+          "url": "https://www.foxnews.com/outkick-sports/two-iconic-american-baseball-equipment-companies-now-owned-chinese-company-associated-ccp",
+          "source_name": "Fox News",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T11:53:22Z",
+          "author": null,
+          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/masyn-winn-louisville-slugger-bat-fox-news_.jpg",
+          "is_local_nj": false,
+          "article_id": "2f63702a564d",
+          "summary": "Wilson and Louisville Slugger, two of baseball's most iconic American brands, are now controlled by Anta Sports, a Chinese company with deep CCP ties.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "AstraZeneca strikes $40 million AI drug discovery deal with insitro",
+          "description": "LONDON, Oct 15 : AstraZeneca has teamed up with artificial intelligence biotech company insitro to discover and develop new treatments for difficult to treat liver and heart conditions, the British drugmaker said on Thursday.Under the agreement, AstraZeneca w\u2026",
+          "content": "LONDON, Oct 15 : AstraZeneca has teamed up with artificial intelligence biotech company insitro to discover and develop new treatments for difficult to treat liver and heart conditions, the British d\u2026 [+1996 chars]",
+          "url": "https://www.channelnewsasia.com/business/astrazeneca-strikes-40-million-ai-drug-discovery-deal-insitro-6462081",
+          "source_name": "CNA",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T10:03:42Z",
+          "author": null,
+          "image_url": "https://dam.mediacorp.sg/image/upload/s--ZdHPGX9S--/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/one-cms/images/2021-06/business_1.png?itok=npguKy4y",
+          "is_local_nj": false,
+          "article_id": "c837b5c6b456",
+          "summary": "LONDON, Oct 15 : AstraZeneca has teamed up with artificial intelligence biotech company insitro to discover and develop new treatments for difficult to treat liver and heart conditions, the British dr",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Walmart Makes Ozempic and Mounjaro Free for Workers with Type 2 Diabetes in 2027, Excluding Weight Loss Use",
+          "description": "Walmart will make Ozempic and Mounjaro free in 2027 for workers with Type 2 diabetes who get prior approval. Use for weight loss alone is not covered.",
+          "content": "Starting in 2027, Walmart employees with Type 2 diabetes will be able to get Novo Nordisk's Ozempic and Eli Lilly's Mounjaro at no cost once they receive prior approval. The change is part of a broad\u2026 [+6764 chars]",
+          "url": "https://www.medicaldaily.com/walmart-free-ozempic-mounjaro-type-2-diabetes-2027-479970",
+          "source_name": "Medical Daily",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T09:01:20Z",
+          "author": "Joseph James",
+          "image_url": "https://d.medicaldaily.com/en/full/487318/editorial-illustration-via-ai.jpg",
+          "is_local_nj": false,
+          "article_id": "923b23aee33a",
+          "summary": "Walmart will make Ozempic and Mounjaro free in 2027 for workers with Type 2 diabetes who get prior approval. Use for weight loss alone is not covered.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Putting Stephen Hawking\u2019s life under a microscope has a demystifying effect",
+          "description": "While the author clearly admires his subject, this is no hagiography",
+          "content": "Hawking: His Life and Work\r\nGuideline Price:\u00a330; 608pp\r\nDara \u00d3 Briain was among the many high achievers who felt deeply inadequate in the presence of Prof Stephen Hawking. Its very difficult not to t\u2026 [+2412 chars]",
+          "url": "https://www.irishtimes.com/culture/books/review/2026/10/10/putting-stephen-hawkings-life-under-a-microscope-has-a-demystifying-effect/",
+          "source_name": "The Irish Times",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T03:27:00Z",
+          "author": "Andrew Lynch",
+          "image_url": "https://www.irishtimes.com/resizer/v2/WXEF44ENZCCOIL7ZYFQXSF4DEU.jpg?smart=true&auth=9d185f0bac4efeecf2e4cf89e135fc7b5a2d346f07de0839c1bca051288f3d3e&width=1200&height=630",
+          "is_local_nj": false,
+          "article_id": "a6acfc47b360",
+          "summary": "While the author clearly admires his subject, this is no hagiography",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Deep Drilling Intersects Epithermal Mineralisation 1 km Below Proprietary Pit at Peak Hill",
+          "description": "PERTH, Australia, Oct. 14, 2026 (GLOBE NEWSWIRE) \u2014 Alkane Resources Limited (ASX: ALK, TSX: ALK, OTCQX: ALKRY) (\u2018Alkane\u2019) is pleased to announce the latest exploration results at its Peak Hill Gold Project (Peak Hill) in New South Wales. Summary Alkane was aw\u2026",
+          "content": "Interactive Analyst Centre Comprehensive financial, operational, resource and reserve information for Alkane Resources is available through the Interactive Analyst Centre located in the Investors sec\u2026 [+26075 chars]",
+          "url": "https://financialpost.com/globe-newswire/deep-drilling-intersects-epithermal-mineralisation-1-km-below-proprietary-pit-at-peak-hill",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-10-15T01:03:50Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/figure-6-1.jpeg",
+          "is_local_nj": false,
+          "article_id": "de5c7d6d3fa9",
+          "summary": "PERTH, Australia, Oct. 14, 2026 (GLOBE NEWSWIRE) \u2014 Alkane Resources Limited (ASX: ALK, TSX: ALK, OTCQX: ALKRY) (\u2018Alkane\u2019) is pleased to announce the latest exploration results at its Peak Hill Gold Pr",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Defense Metals Resource Upgrade Drilling Intersects 2.33% TREO over 153 Metres at the Wicheeda Rare Earth Project",
+              "url": "https://www.prnewswire.com/news-releases/defense-metals-resource-upgrade-drilling-intersects-2-33-treo-over-153-metres-at-the-wicheeda-rare-earth-project-302901901.html",
+              "digest_date": "2026-10-11"
+            }
+          ]
+        },
+        {
+          "title": "Will bonds blow up?",
+          "description": "A government-debt crisis is looming.",
+          "content": "Bankers used to say that countries, unlike companies, cant go bust. They repeated that comforting slogan until a wave of Latin American countries defaulted in the 1980s. Might a similar shock soon pu\u2026 [+6389 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/10/14/will-bonds-blow-up-a4938625",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-10-14T20:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/EO2M88AzZb9N30O3F2mK5-xq3Cg=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/10/09141931/151026OPI_2037350477_bonds-blow-up.jpg",
+          "is_local_nj": false,
+          "article_id": "023e43d11355",
+          "summary": "A government-debt crisis is looming.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"We Are Undeniable\": ALS Association Launches Campaign to Confront Insurance Denials",
+          "description": "Campaign gives families free tools to appeal denials now, as an Association review finds nearly all of 19 commercial insurers add hurdles the FDA never required for the first gene-targeted ALS treatment ARLINGTON, Va., Oct. 14, 2026 /PRNewswire/ -- The ALS As\u2026",
+          "content": "Campaign gives families free tools to appeal denials now, as an Association review finds nearly all of 19 commercial insurers add hurdles the FDA never required for the first gene-targeted ALS treatm\u2026 [+5170 chars]",
+          "url": "https://www.prnewswire.com/news-releases/we-are-undeniable-als-association-launches-campaign-to-confront-insurance-denials-302907484.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-10-14T15:00:00Z",
+          "author": null,
+          "image_url": "https://mmx.prnewswire.com/media/MS446695/alslogo.jpg?id=OA3016023&p=facebook",
+          "is_local_nj": false,
+          "article_id": "a4194c0d6ed6",
+          "summary": "Campaign gives families free tools to appeal denials now, as an Association review finds nearly all of 19 commercial insurers add hurdles the FDA never required for the first gene-targeted ALS treatme",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Cellular diversity in neural organoids is critical for neurodegenerative disease modeling",
+          "description": "Neuroinflammation and vascular dysfunction are hallmarks of most neurodegenerative diseases. This Perspective argues that immune and vascular cells need to be fundamental components of organoids intended to model neurodegeneration, rather than optional extras.",
+          "content": "Citation: Liu S, Ng S-Y (2026) Cellular diversity in neural organoids is critical for neurodegenerative disease modeling. PLoS Biol 24(10):\r\n e3004074.\r\nhttps://doi.org/10.1371/journal.pbio.3004074\r\n\u2026 [+9283 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004074",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-10-14T14:00:00Z",
+          "author": "Shiying Liu, Shi-Yan Ng",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3004074.g001&size=inline",
+          "is_local_nj": false,
+          "article_id": "30030d4e6a29",
+          "summary": "Neuroinflammation and vascular dysfunction are hallmarks of most neurodegenerative diseases. This Perspective argues that immune and vascular cells need to be fundamental components of organoids inten",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Pan Global Expands Near-Surface High-Grade Gold Discovery at C\u00e1rmenes Project, Spain: Drillholes Return 7.29g/t Au Over 9 Meters and 1.53g/t Au Over 38 Meters",
+          "description": "Drilling at the Providencia target confirms a rapidly expanding new gold discovery with wide and high-grade intercepts from only 19 drillholes completed to date Gold mineralization remains open in multiple directions and at depth More than two-dozen highly pr\u2026",
+          "content": "About Pan Global Resources\r\nPan Global Resources Inc. is actively exploring for copper and gold deposits along with other metals.\r\nThe Companys flagship Escacena Project, hosting La Romana and Ca\u00f1ada\u2026 [+3141 chars]",
+          "url": "https://financialpost.com/globe-newswire/pan-global-expands-near-surface-high-grade-gold-discovery-at-carmenes-project-spain-drillholes-return-7-29g-t-au-over-9-meters-and-1-53g-t-au-over-38-meters",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-10-14T11:48:12Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/figure-1-providencia-target-map-drillhole-and-cross-section-.png",
+          "is_local_nj": false,
+          "article_id": "dcb4097f67cd",
+          "summary": "Drilling at the Providencia target confirms a rapidly expanding new gold discovery with wide and high-grade intercepts from only 19 drillholes completed to date Gold mineralization remains open in mul",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Pan Global Intersects 83 Meters of 1.74 g/t Gold, Expanding New Gold Zone at C\u00e1rmenes Project, Spain",
+              "url": "https://financialpost.com/globe-newswire/pan-global-intersects-83-meters-of-1-74-g-t-gold-expanding-new-gold-zone-at-carmenes-project-spain",
+              "digest_date": "2026-09-20"
+            },
+            {
+              "title": "1911 Gold Intersects Significant Grades at L10 Zone, Including 10.73 g/t Au over 8.90 m and 50.61 g/t Au over 1.60 m, and Confirms Link to Larger 710-711 Zone at True North",
+              "url": "https://www.prnewswire.com/news-releases/1911-gold-intersects-significant-grades-at-l10-zone-including-10-73-gt-au-over-8-90-m-and-50-61-gt-au-over-1-60-m-and-confirms-link-to-larger-710-711-zone-at-true-north-302874555.html",
+              "digest_date": "2026-09-13"
+            },
+            {
+              "title": "Perpetua Resources Reports New High-Grade Gold and Antimony Discoveries and a New Gold-Tungsten Zone at Stibnite",
+              "url": "https://www.prnewswire.com/news-releases/perpetua-resources-reports-new-high-grade-gold-and-antimony-discoveries-and-a-new-gold-tungsten-zone-at-stibnite-302845507.html",
+              "digest_date": "2026-08-09"
+            }
+          ]
+        },
+        {
+          "title": "Brixton Metals Samples New Vein Grading 195 g/t Gold, 4.11% Copper and 147 g/t Silver At Its Thorn Project",
+          "description": "And Samples Yield 78.7 g/t Au, 78.0 g/t Au Along Strike VANCOUVER, British Columbia, Oct. 14, 2026 (GLOBE NEWSWIRE) \u2014 Brixton Metals Corporation (TSX-V: BBB, OTCQX: BBBXF) (the \u201cCompany\u201d or \u201cBrixton\u201d) is pleased to announce that it has identified a new high-g\u2026",
+          "content": "Quality Assurance &amp; Quality Control\r\nRock grab samples are selective by nature and may not be representative of the entire zone. Samples were bagged, zip-tied and sent directly to the ALS Mineral\u2026 [+5237 chars]",
+          "url": "https://financialpost.com/globe-newswire/brixton-metals-samples-new-vein-grading-195-g-t-gold-4-11-copper-and-147-g-t-silver-at-its-thorn-project",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-10-14T11:31:44Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/figure-1-11.png",
+          "is_local_nj": false,
+          "article_id": "73fba049e5f4",
+          "summary": "And Samples Yield 78.7 g/t Au, 78.0 g/t Au Along Strike VANCOUVER, British Columbia, Oct. 14, 2026 (GLOBE NEWSWIRE) \u2014 Brixton Metals Corporation (TSX-V: BBB, OTCQX: BBBXF) (the \u201cCompany\u201d or \u201cBrixton\u201d)",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Defense Metals Resource Upgrade Drilling Intersects 2.33% TREO over 153 Metres at the Wicheeda Rare Earth Project",
+              "url": "https://www.prnewswire.com/news-releases/defense-metals-resource-upgrade-drilling-intersects-2-33-treo-over-153-metres-at-the-wicheeda-rare-earth-project-302901901.html",
+              "digest_date": "2026-10-11"
+            },
+            {
+              "title": "Pan Global Intersects 83 Meters of 1.74 g/t Gold, Expanding New Gold Zone at C\u00e1rmenes Project, Spain",
+              "url": "https://financialpost.com/globe-newswire/pan-global-intersects-83-meters-of-1-74-g-t-gold-expanding-new-gold-zone-at-carmenes-project-spain",
+              "digest_date": "2026-09-20"
+            },
+            {
+              "title": "Brixton Metals Drills 6,199 g/t Silver over 1.00 m including 0.50 m of 12,386 g/t Silver in Hole 432 at its Langis Project in Ontario",
+              "url": "https://financialpost.com/globe-newswire/brixton-metals-drills-6199-g-t-silver-over-1-00-m-including-0-50-m-of-12386-g-t-silver-in-hole-432-at-its-langis-project-in-ontario",
+              "digest_date": "2026-09-06"
+            }
+          ]
+        },
+        {
+          "title": "NASA-Streckenrekord im All mit Mars-Rover \u201ePerseverance\u201c",
+          "description": null,
+          "content": "Rekord im All: Der NASA-Rover Perseverance hat eine l\u00e4ngere Strecke auf der Oberfl\u00e4che eines anderen Planeten zur\u00fcckgelegt als je ein menschengemachtes Fahrzeug zuvor.\r\nPerseverance (auf Deutsch etwa\u2026 [+698 chars]",
+          "url": "https://orf.at/stories/3445014/",
+          "source_name": "Orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-10-14T04:52:32Z",
+          "author": "ORF.at",
+          "image_url": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "is_local_nj": false,
+          "article_id": "71efdd0cbedc",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Royd Tolkien's ALS Doc 'There's a Hole In My Bucket' Official Trailer",
+          "description": "\"The best tribute isn't a speech\u2014it's a bucket list.\" An official trailer is available for this documentary film titled There's a Hole In My Bucket, which is playing next at the Newport Beach Film Festival this fall. The film follows Lord of the Rings author \u2026",
+          "content": "by Alex BillingtonOctober 13, 2026Source:YouTube\r\n\"The best tribute isn't a speechit's a bucket list.\" An official trailer is available for this documentary film titled There's a Hole In My Bucket, w\u2026 [+2358 chars]",
+          "url": "https://www.firstshowing.net/2026/royd-tolkiens-als-doc-theres-a-hole-in-my-bucket-official-trailer/",
+          "source_name": "First Showing",
+          "source_type": "newsapi",
+          "published_at": "2026-10-14T00:18:36Z",
+          "author": "Alex Billington",
+          "image_url": "https://media2.firstshowing.net/firstshowing/img18/theresaholebucketpostermaintw1.jpg",
+          "is_local_nj": false,
+          "article_id": "938f6076215f",
+          "summary": "\"The best tribute isn't a speech\u2014it's a bucket list.\" An official trailer is available for this documentary film titled There's a Hole In My Bucket, which is playing next at the Newport Beach Film Fes",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Computational design of metalloproteases",
+          "description": "RFdiffusion methods are used to de novo design proteins with water-activating zinc-based active sites adjacent to a peptide substrate binding pocket, yielding highly active, programmable proteases with potential applications in therapeutics, biotechnology and\u2026",
+          "content": "<li>Studer, S. et al. Evolution of a highly active and enantiospecific metalloenzyme from short peptides. Science362, 12851288 (2018).\r\nArticle\u00a0\r\n ADS\u00a0\r\n CAS\u00a0\r\n PubMed\u00a0\r\nGoogle Scholar\u00a0\r\n</li><li>Kim\u2026 [+12731 chars]",
+          "url": "https://www.nature.com/articles/s41586-026-11167-2",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-14T00:00:00Z",
+          "author": "Anqi Chen, Kejia Wu, Hojae Choi, Preetham Venkatesh, Samuel J. Pellock, Nikita Hanikel, Hojeong shin, Declan Evans, Kieran Didi, Lars L. Schaaf, Cristina D\u00edaz-Perlas, Brian Coventry, Donghyo Kim, Seth M. Woodbury, Pengfei Ji, Shingo Honda, Asim K. Bera, Hannah Nguyen, Alex Kang, Yanqing Wang, Xinting Li, Stacey Gerben, Lemuel Chang, Xiao Yan, Benjam\u00ed Oller-Salvia, Anthony A. Hyman, Donald Hilvert, David Baker",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-11167-2/MediaObjects/41586_2026_11167_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "0072e5c51188",
+          "summary": "RFdiffusion methods are used to de novo design proteins with water-activating zinc-based active sites adjacent to a peptide substrate binding pocket, yielding highly active, programmable proteases wit",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "EverythingALS and ALS United Partner to Expand National Coverage of ALS Clinical Trial Matching with SAVA AI",
+          "description": "The partnership will connect more people living with ALS to personalized clinical trial information while building a de-identified map of gaps in trial access across communities\nSEATTLE, October 13, 2026--(BUSINESS WIRE)--EverythingALS and ALS United today an\u2026",
+          "content": "The partnership will connect more people living with ALS to personalized clinical trial information while building a de-identified map of gaps in trial access across communitiesSEATTLE, October 13, 2\u2026 [+146 chars]",
+          "url": "https://biztoc.com/x/bd240d27d6333cf2",
+          "source_name": "Biztoc.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-13T20:45:17Z",
+          "author": "finance.yahoo.com",
+          "image_url": "https://biztoc.com/cdn/bd240d27d6333cf2_s.webp",
+          "is_local_nj": false,
+          "article_id": "345bd8177b28",
+          "summary": "The partnership will connect more people living with ALS to personalized clinical trial information while building a de-identified map of gaps in trial access across communities\nSEATTLE, October 13, 2",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Vladimir Putin and the pariah problem",
+          "description": "Emphasising the Russian leader\u2019s wickedness must not come at Ukraine\u2019s expense.",
+          "content": "Vladimir Putin is about to subject Ukraine and Europe to a winter of horror. Each week Russias president plumbs new depths of cruelty and recklessness, enraged by his failure to break Ukraine in the \u2026 [+6229 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/10/13/vladimir-putin-and-the-pariah-problem-a4938624",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-10-13T20:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/Gv1PrrznxOeG53lO_xKwapt-dNM=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/10/09141855/141026OPI_2037349718_Vladimir-Putin.jpg",
+          "is_local_nj": false,
+          "article_id": "5f17759741a2",
+          "summary": "Emphasising the Russian leader\u2019s wickedness must not come at Ukraine\u2019s expense.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
+          "description": "Walmart will offer Novo's Ozempic and Lilly's Mounjaro without charge for people with Type 2 diabetes after a new prior authorization.",
+          "content": "Walmart plans to cover more than 250 prescriptions, including some insulin, inhalers and GLP-1s for diabetes, at no cost to its employees in 2027, the company confirmed to CNBC on Tuesday.\u00a0\r\nThe reta\u2026 [+2179 chars]",
+          "url": "https://www.cnbc.com/2026/10/13/walmart-glp-1s-inhalers-insulin-employee-benefits.html",
+          "source_name": "CNBC",
+          "source_type": "newsapi",
+          "published_at": "2026-10-13T17:07:19Z",
+          "author": "Annika Kim Constantino, Laya Neelakandan",
+          "image_url": "https://image.cnbcfm.com/api/v1/image/108348728-1786564871002-gettyimages-2289555028-golba-dailylif260803_npx6m.jpeg?v=1787168903&w=1920&h=1080",
+          "is_local_nj": false,
+          "article_id": "e3321ab2be28",
+          "summary": "Walmart will offer Novo's Ozempic and Lilly's Mounjaro without charge for people with Type 2 diabetes after a new prior authorization.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Walmart US workers are getting some new health care benefits in the new year",
+          "description": "Walmart will expand its health benefits available to frontline workers, including a new no-cost prescription drug list.",
+          "content": "Walmart workers will have access to a broader set of health care benefits in 2027.Charles-McClintock Wilson/NurPhoto via Getty Images\r\n<ul><li>Walmart plans to expand health benefits available to its\u2026 [+1900 chars]",
+          "url": "https://www.businessinsider.com/walmart-adding-new-health-care-benefits-for-us-workers-2026-10#article",
+          "source_name": "Business Insider",
+          "source_type": "newsapi",
+          "published_at": "2026-10-13T17:02:06Z",
+          "author": "Dominick Reuter",
+          "image_url": "https://i.insider.com/6ace53c02428f6b455811890?width=1200&format=jpeg",
+          "is_local_nj": false,
+          "article_id": "00239e291764",
+          "summary": "Walmart will expand its health benefits available to frontline workers, including a new no-cost prescription drug list.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "PrimeStack editors enable efficient and site-specific integration of large multigene cargos in plants",
+          "description": "Precise integration of large DNA sequences into plant genomes remains a major challenge. This study presents PrimeStack, a platform that combines prime editing with the Bxb1 integrase to achieve the programmable insertion of multigene cargos at plant genomic \u2026",
+          "content": "Abstract\r\nPrecise, site-specific integration of large DNA sequences into plant genomes is a long-standing goal of crop biotechnology and synthetic biology, yet remains constrained by random insertion\u2026 [+74404 chars]",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003778",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-10-13T14:00:00Z",
+          "author": "Edith S\u00e1nchez, Khalid Sedeek, Haroon Butt, Magdy Mahfouz",
+          "image_url": "https://journals.plos.org/plosbiology/article/figure/image?id=10.1371/journal.pbio.3003778.g005&size=inline",
+          "is_local_nj": false,
+          "article_id": "76315bcd9194",
+          "summary": "Precise integration of large DNA sequences into plant genomes remains a major challenge. This study presents PrimeStack, a platform that combines prime editing with the Bxb1 integrase to achieve the p",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Experiences of palliative care for patients with pulmonary fibrosis: A qualitative exploration of patients and partners perspectives",
+          "description": "Background Pulmonary fibrosis is often a progressive disease associated with reduced life expectancy and quality of life. Palliative care aims to optimize quality of life for both patients and their informal caregivers. So far, multiple studies have shown unm\u2026",
+          "content": "Citation: Trapman L, Dijksman LM, Grutters JC, Teunissen SCCM, de Graaf E (2026) Experiences of palliative care for patients with pulmonary fibrosis: A qualitative exploration of patients and partner\u2026 [+35865 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360649",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-10-13T14:00:00Z",
+          "author": "Lian Trapman, Lea M. Dijksman, Jan C. Grutters, Saskia C. C. M. Teunissen, Everlien de Graaf",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0360649.t001&size=inline",
+          "is_local_nj": false,
+          "article_id": "85851f614e89",
+          "summary": "Background Pulmonary fibrosis is often a progressive disease associated with reduced life expectancy and quality of life. Palliative care aims to optimize quality of life for both patients and their i",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Dionne Warwick, 85, cancels Carnegie Hall performance due to 'severe pain' and mobility issues",
+          "description": "The music icon, 85, gave a heartfelt apology and explained that she was absent from the show on Sunday as she has been experiencing 'severe pain.'",
+          "content": "Dionne Warwick canceled her performance on Sunday night at Carnegie Hall in New York City shortly before she was set to take the stage due to health issues.\r\nThe music icon, 85, shared an apology aft\u2026 [+3408 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16204399/dionne-warwick-cancels-concert-health-mobility-issues-pain.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-13T12:05:13Z",
+          "author": "Sharon Mai",
+          "image_url": "https://i.dailymail.com/1s/2026/10/13/07/111822333-0-image-m-79_1791872766148.jpg",
+          "is_local_nj": false,
+          "article_id": "1c0b08c74dbb",
+          "summary": "The music icon, 85, gave a heartfelt apology and explained that she was absent from the show on Sunday as she has been experiencing 'severe pain.'",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Joomla 5.4.10 Bugfix release",
+          "description": "The Joomla! Project is pleased to announce the release of Joomla 5.4.10. This is the last bugfix release for the Joomla 5.x series.",
+          "content": "The Joomla! Project is pleased to announce the release of Joomla 5.4.10. This is the last bugfix release for the Joomla 5.x series.\r\n5.4.10 marks the end of bug fix updates for Joomla 5.4. Going forw\u2026 [+3280 chars]",
+          "url": "https://www.joomla.org/announcements/release-news/joomla-5-4-10-bugfix-release.html",
+          "source_name": "Joomla.org",
+          "source_type": "newsapi",
+          "published_at": "2026-10-13T03:00:00Z",
+          "author": "Tom van der Laan",
+          "image_url": "https://www.joomla.org/images/release-images/BlogJ5.4.10.jpg#joomlaImage://local-images/release-images/BlogJ5.4.10.jpg?width=996&height=445",
+          "is_local_nj": false,
+          "article_id": "74bdf31e3b5d",
+          "summary": "The Joomla! Project is pleased to announce the release of Joomla 5.4.10. This is the last bugfix release for the Joomla 5.x series.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Dionne Warwick, 85, cancels Carnegie Hall performance due to severe pain, gives heartfelt apology",
+          "description": "The five-time Grammy winner asked her fans for understanding and grace, as \"only the pain and inability to stand or walk is the reason for my absence.\"",
+          "content": "Legendary singer Dionne Warwick made the difficult decision to cancel a weekend performance at Carnegie Hall due to mobility issues with her leg and foot.\r\nThe five-time Grammy winner was slated to a\u2026 [+2567 chars]",
+          "url": "https://pagesix.com/2026/10/12/celebrity-news/dionne-warwick-85-cancels-carnegie-hall-performance-due-to-severe-pain/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-10-13T02:38:41Z",
+          "author": "Lucas Widman",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/144802515.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "1ca187524218",
+          "summary": "The five-time Grammy winner asked her fans for understanding and grace, as \"only the pain and inability to stand or walk is the reason for my absence.\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Georgia vs. Auburn live updates: Follow Deep South's Oldest Rivalry",
+        "url": "https://www.onlineathens.com/story/sports/college/bulldogs-extra/2026/10/17/georgia-auburn-time-tv-channel-score-live-updates--live/92167958007/",
+        "source": "Online Athens",
+        "date": "2026-10-17T10:01:36Z"
+      },
+      {
+        "title": "Bitcoin uit het Satoshi-tijdperk wordt geconfronteerd met een grotere kwantumdreiging na Googles nieuwe doorbraak met Willow",
+        "url": "https://www.coindesk.com/nl/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+        "source": "CoinDesk",
+        "date": "2026-10-17T05:18:50Z"
+      },
+      {
+        "title": "Fanfest zu Halloween: \u201eCastlevania: Belmont\u2019s Curse\u201c",
+        "url": "https://oe3.orf.at/stories/3055086/",
+        "source": "Oe3.orf.at",
+        "date": "2026-10-17T04:00:00Z"
+      },
+      {
+        "title": "Europe\u2019s lame-duck year could hardly come at a worse time",
+        "url": "https://www.nrc.nl/nieuws/2026/10/16/europes-lame-duck-year-could-hardly-come-at-a-worse-time-a4938767",
+        "source": "Www.nrc.nl",
+        "date": "2026-10-16T20:00:00Z"
+      },
+      {
+        "title": "accelerator-middle-layer-apg 0.3.1.post2",
+        "url": "https://pypi.org/project/accelerator-middle-layer-apg/0.3.1.post2/",
+        "source": "Pypi.org",
+        "date": "2026-10-16T19:43:01Z"
+      },
+      {
+        "title": "The EU wants an AI revolution. But on whose terms?",
+        "url": "https://www.dw.com/en/the-eu-wants-an-ai-revolution-but-on-whose-terms/a-79673456",
+        "source": "DW (English)",
+        "date": "2026-10-16T13:12:00Z"
+      },
+      {
+        "title": "Health: AstraZeneca strikes $40 million AI drug discovery deal with insitro",
+        "url": "https://www.gdnonline.com/Details/1409912/AstraZeneca-strikes-$40-million-AI-drug-discovery-deal-with-insitro",
+        "source": "Gdnonline.com",
+        "date": "2026-10-16T13:07:13Z"
+      },
+      {
+        "title": "Carvendo uitgeroepen tot Best End-to-End Online Car Buying Platform 2026",
+        "url": "https://www.emerce.nl/wire/carvendo-uitgeroepen-tot-best-endtoend-online-car-buying-platform-2026",
+        "source": "Emerce.nl",
+        "date": "2026-10-16T08:40:15Z"
+      },
+      {
+        "title": "Reshaping Network Value for New Growth in the AI Era",
+        "url": "https://www.prnewswire.com/news-releases/reshaping-network-value-for-new-growth-in-the-ai-era-302910874.html",
+        "source": "PRNewswire",
+        "date": "2026-10-16T03:58:00Z"
+      },
+      {
+        "title": "What was Hawking\u2019s IQ?",
+        "url": "https://www.lifesciencesworld.com/what-was-hawkings-iq/",
+        "source": "Lifesciencesworld.com",
+        "date": "2026-10-16T01:09:09Z"
+      },
+      {
+        "title": "Brazil is a right-wing country now",
+        "url": "https://www.nrc.nl/nieuws/2026/10/15/brazil-is-a-right-wing-country-now-a4938627",
+        "source": "Www.nrc.nl",
+        "date": "2026-10-15T20:00:00Z"
+      },
+      {
+        "title": "AstraZeneca strikes $40 million AI drug discovery deal with insitro",
+        "url": "https://economictimes.indiatimes.com/news/international/business/astrazeneca-strikes-40-million-ai-drug-discovery-deal-with-insitro/articleshow/134975810.cms",
+        "source": "The Times of India",
+        "date": "2026-10-15T19:23:20Z"
+      },
+      {
+        "title": "Eulenfamilie begeistert New York",
+        "url": "https://orf.at/stories/3445222/",
+        "source": "Orf.at",
+        "date": "2026-10-15T18:23:29Z"
+      },
+      {
+        "title": "AstraZeneca strikes $40 million AI drug discovery deal with Insitro",
+        "url": "https://www.business-standard.com/companies/news/astrazeneca-strikes-40-million-ai-drug-discovery-deal-with-insitro-126101501568_1.html",
+        "source": "Business Standard",
+        "date": "2026-10-15T16:17:20Z"
+      },
+      {
+        "title": "Govt to roll out 335 new 108 ambulances",
+        "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/govt-to-roll-out-335-new-108-ambulances/articleshow/134970302.cms",
+        "source": "The Times of India",
+        "date": "2026-10-15T14:25:46Z"
+      },
+      {
+        "title": "TANEA \"REBEL\" BROOKS STEPS UP HER LEADERSHIP ROLE, JOINING I AM ALS AS HONORARY BOARD MEMBER FOLLOWING SENATE PASSAGE OF ACT FOR ALS",
+        "url": "https://www.prnewswire.com/news-releases/tanea-rebel-brooks-steps-up-her-leadership-role-joining-i-am-als-as-honorary-board-member-following-senate-passage-of-act-for-als-302910216.html",
+        "source": "PRNewswire",
+        "date": "2026-10-15T14:21:00Z"
+      },
+      {
+        "title": "Mink Ventures Corporation Intersects 0.5745% Ni, 0.8798% Cu, 0.0756% Co Over 2.1 Meters in Massive Sulphide at Rankin Property, Timmins, Ontario",
+        "url": "https://financialpost.com/globe-newswire/mink-ventures-corporation-intersects-0-5745-ni-0-8798-cu-0-0756-co-over-2-1-meters-in-massive-sulphide-at-rankin-property-timmins-ontario",
+        "source": "Financial Post",
+        "date": "2026-10-15T12:46:55Z"
+      },
+      {
+        "title": "Indefensible Delights",
+        "url": "https://www.nybooks.com/articles/2026/11/05/indefensible-delights-what-we-did-before-our-moth-days-wallace-shawn/",
+        "source": "The New York Review of Books",
+        "date": "2026-10-15T12:00:00Z"
+      },
+      {
+        "title": "Two iconic American baseball equipment companies are now owned by a Chinese company associated with the CCP",
+        "url": "https://www.foxnews.com/outkick-sports/two-iconic-american-baseball-equipment-companies-now-owned-chinese-company-associated-ccp",
+        "source": "Fox News",
+        "date": "2026-10-15T11:53:22Z"
+      },
+      {
+        "title": "AstraZeneca strikes $40 million AI drug discovery deal with insitro",
+        "url": "https://www.channelnewsasia.com/business/astrazeneca-strikes-40-million-ai-drug-discovery-deal-insitro-6462081",
+        "source": "CNA",
+        "date": "2026-10-15T10:03:42Z"
+      },
+      {
+        "title": "Walmart Makes Ozempic and Mounjaro Free for Workers with Type 2 Diabetes in 2027, Excluding Weight Loss Use",
+        "url": "https://www.medicaldaily.com/walmart-free-ozempic-mounjaro-type-2-diabetes-2027-479970",
+        "source": "Medical Daily",
+        "date": "2026-10-15T09:01:20Z"
+      },
+      {
+        "title": "Putting Stephen Hawking\u2019s life under a microscope has a demystifying effect",
+        "url": "https://www.irishtimes.com/culture/books/review/2026/10/10/putting-stephen-hawkings-life-under-a-microscope-has-a-demystifying-effect/",
+        "source": "The Irish Times",
+        "date": "2026-10-15T03:27:00Z"
+      },
+      {
+        "title": "Deep Drilling Intersects Epithermal Mineralisation 1 km Below Proprietary Pit at Peak Hill",
+        "url": "https://financialpost.com/globe-newswire/deep-drilling-intersects-epithermal-mineralisation-1-km-below-proprietary-pit-at-peak-hill",
+        "source": "Financial Post",
+        "date": "2026-10-15T01:03:50Z"
+      },
+      {
+        "title": "Will bonds blow up?",
+        "url": "https://www.nrc.nl/nieuws/2026/10/14/will-bonds-blow-up-a4938625",
+        "source": "Www.nrc.nl",
+        "date": "2026-10-14T20:00:00Z"
+      },
+      {
+        "title": "\"We Are Undeniable\": ALS Association Launches Campaign to Confront Insurance Denials",
+        "url": "https://www.prnewswire.com/news-releases/we-are-undeniable-als-association-launches-campaign-to-confront-insurance-denials-302907484.html",
+        "source": "PRNewswire",
+        "date": "2026-10-14T15:00:00Z"
+      },
+      {
+        "title": "Cellular diversity in neural organoids is critical for neurodegenerative disease modeling",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004074",
+        "source": "Plos.org",
+        "date": "2026-10-14T14:00:00Z"
+      },
+      {
+        "title": "Pan Global Expands Near-Surface High-Grade Gold Discovery at C\u00e1rmenes Project, Spain: Drillholes Return 7.29g/t Au Over 9 Meters and 1.53g/t Au Over 38 Meters",
+        "url": "https://financialpost.com/globe-newswire/pan-global-expands-near-surface-high-grade-gold-discovery-at-carmenes-project-spain-drillholes-return-7-29g-t-au-over-9-meters-and-1-53g-t-au-over-38-meters",
+        "source": "Financial Post",
+        "date": "2026-10-14T11:48:12Z"
+      },
+      {
+        "title": "Brixton Metals Samples New Vein Grading 195 g/t Gold, 4.11% Copper and 147 g/t Silver At Its Thorn Project",
+        "url": "https://financialpost.com/globe-newswire/brixton-metals-samples-new-vein-grading-195-g-t-gold-4-11-copper-and-147-g-t-silver-at-its-thorn-project",
+        "source": "Financial Post",
+        "date": "2026-10-14T11:31:44Z"
+      },
+      {
+        "title": "NASA-Streckenrekord im All mit Mars-Rover \u201ePerseverance\u201c",
+        "url": "https://orf.at/stories/3445014/",
+        "source": "Orf.at",
+        "date": "2026-10-14T04:52:32Z"
+      },
+      {
+        "title": "Royd Tolkien's ALS Doc 'There's a Hole In My Bucket' Official Trailer",
+        "url": "https://www.firstshowing.net/2026/royd-tolkiens-als-doc-theres-a-hole-in-my-bucket-official-trailer/",
+        "source": "First Showing",
+        "date": "2026-10-14T00:18:36Z"
+      },
+      {
+        "title": "Computational design of metalloproteases",
+        "url": "https://www.nature.com/articles/s41586-026-11167-2",
+        "source": "Nature.com",
+        "date": "2026-10-14T00:00:00Z"
+      },
+      {
+        "title": "EverythingALS and ALS United Partner to Expand National Coverage of ALS Clinical Trial Matching with SAVA AI",
+        "url": "https://biztoc.com/x/bd240d27d6333cf2",
+        "source": "Biztoc.com",
+        "date": "2026-10-13T20:45:17Z"
+      },
+      {
+        "title": "Vladimir Putin and the pariah problem",
+        "url": "https://www.nrc.nl/nieuws/2026/10/13/vladimir-putin-and-the-pariah-problem-a4938624",
+        "source": "Www.nrc.nl",
+        "date": "2026-10-13T20:00:00Z"
+      },
+      {
+        "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
+        "url": "https://www.cnbc.com/2026/10/13/walmart-glp-1s-inhalers-insulin-employee-benefits.html",
+        "source": "CNBC",
+        "date": "2026-10-13T17:07:19Z"
+      },
+      {
+        "title": "Walmart US workers are getting some new health care benefits in the new year",
+        "url": "https://www.businessinsider.com/walmart-adding-new-health-care-benefits-for-us-workers-2026-10#article",
+        "source": "Business Insider",
+        "date": "2026-10-13T17:02:06Z"
+      },
+      {
+        "title": "PrimeStack editors enable efficient and site-specific integration of large multigene cargos in plants",
+        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003778",
+        "source": "Plos.org",
+        "date": "2026-10-13T14:00:00Z"
+      },
+      {
+        "title": "Experiences of palliative care for patients with pulmonary fibrosis: A qualitative exploration of patients and partners perspectives",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360649",
+        "source": "Plos.org",
+        "date": "2026-10-13T14:00:00Z"
+      },
+      {
+        "title": "Dionne Warwick, 85, cancels Carnegie Hall performance due to 'severe pain' and mobility issues",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16204399/dionne-warwick-cancels-concert-health-mobility-issues-pain.html",
+        "source": "Dailymail.com",
+        "date": "2026-10-13T12:05:13Z"
+      },
+      {
+        "title": "Joomla 5.4.10 Bugfix release",
+        "url": "https://www.joomla.org/announcements/release-news/joomla-5-4-10-bugfix-release.html",
+        "source": "Joomla.org",
+        "date": "2026-10-13T03:00:00Z"
+      },
+      {
+        "title": "Dionne Warwick, 85, cancels Carnegie Hall performance due to severe pain, gives heartfelt apology",
+        "url": "https://pagesix.com/2026/10/12/celebrity-news/dionne-warwick-85-cancels-carnegie-hall-performance-due-to-severe-pain/",
+        "source": "Page Six",
+        "date": "2026-10-13T02:38:41Z"
+      }
+    ],
+    "generated_at": "2026-10-18T12:28:46.938965"
+  },
+  {
     "date": "2026-10-11",
     "week_of": "October 11, 2026",
     "digest_number": 41,
