@@ -1,5 +1,23 @@
 [
   {
+    "id": "2610.29886v1",
+    "title": "Characterizing and Defending Utility-Hijacking in Instruction-Tuning Data Selection",
+    "summary": "Instruction-data selectors choose which instruction-following records are used for fine-tuning, improving alignment quality, raising training efficiency, and filtering out harmful records. A selector's choices thus directly affect the fine-tuned model's safety, yet despite their widespread use, the security of these selectors remains under-studied. We conduct the first systematic study of adaptive supplier-side attacks against utility-oriented instruction-data selectors and introduce utility-hijacking. Utility-hijacking shapes harmful records to remain compatible with a selector while preserving their malicious payload, causing top-k selection to concentrate rather than filter the poison. Achieving both is non-trivial, because optimizing a record for score tends to wash out its payload, while bluntly preserving the payload makes the record look low-value. Our generate-and-rerank procedure generates, per instruction, many payload-bearing candidates and submits only the highest-scoring survivor. Evaluated across three payloads (over-refusal, false-fact injection, and insecure code), six selectors, and victim models from Qwen2.5-7B to Qwen3-32B, utility-hijacking drives refusal from 0% to 94% and insecure code up to 56/90, while false-fact enrichment intensifies with scoring-model scale from 2.84x to 7.04x. To defend against this attack, we propose CONCERT, a targeted defense needing no content detector or poison labels. It flags suppliers selected far more often than chance allows, then re-selects under the same budget, keeping only records that two dissimilar selectors both rank highly. On a Qwen3-32B victim, CONCERT reverses the poison concentration from 6.67x to 0x (code) and 3.59x to 0.67x (facts), and reduces downstream harm by 100% and 75% respectively, at unchanged capability.",
+    "published": "2026-10-21T15:31:04Z",
+    "link": "http://arxiv.org/abs/2610.29886v1",
+    "authors": [
+      "Yahao Ren",
+      "Jian Lou",
+      "Huadi Zheng",
+      "Jiawei Duan"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Instruction-data selectors choose which instruction-following records are used for fine-tuning, improving alignment quality, raising training efficiency, and filtering out harmful records. A selector's choices thus directly affect the fine-tuned model's safety, yet despite their widespread use, the security of these selectors remains under-studied.",
+    "selected_date": "2026-10-22"
+  },
+  {
     "id": "2610.28425v1",
     "title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents",
     "summary": "Modern LLM agents persist state across sessions via two channels: long-lived memory files silently prepended to the system prompt, and scheduled tasks waking the agent without user input. A one-time indirect prompt injection committed to either channel can re-fire across sessions long after the attacker leaves, threats we term carryover attacks. Existing prompt-injection benchmarks evaluate attacks only in the session where malicious content is first observed, leaving the gate governing when and how often a planted payload later re-fires unmeasured. We present CarryoverBench: 12 personal-assistant scenarios and 101 attack tasks across three trigger channels: Instant, same-turn IPI; Autonomous, heartbeat-scheduled; and Latent, memory-resurfaced. A rule-based verifier scores planting and triggering as independent stages. Across five frontier models, planted payloads re-fire without measurable decay over five rounds; conditional on successful planting, the trigger stage often provides little additional protection. Porting the Latent channel to a second runtime, Hermes, attenuates but does not eliminate the effect, suggesting that carryover defense requires runtime-layer controls in addition to prompt-level interventions.",
@@ -580,26 +598,5 @@
     ],
     "ai_summary": "We study state-adversarial Markov decision processes (SA-MDP) as a game of observation-space attacks: at each step, an agent selects an action from a received observation while an adversary$\\unicode{x2014}$who knows the true state the agent is in$\\unicode{x2014}$chooses a perturbed observation within a state-dependent proximity set. While existing work focuses on Markovian policies, we develop a solution concept and computational approach for SA-MDPs under history dependence.",
     "selected_date": "2026-09-17"
-  },
-  {
-    "id": "2609.16818v1",
-    "title": "InceptionRAG: Stealthy Poisoning Attack Against Retrieval-Augmented Generation",
-    "summary": "Retrieval-augmented generation (RAG) systems enhance large language models (LLMs) with external knowledge but have been demonstrated to be vulnerable to corpus poisoning. Existing poisoning attacks against RAG largely focus on single-point explicit injection, where the malicious payload is fully encapsulated within a single document. Consequently, recent mitigation mechanisms have evolved to identify and diminish these threats effectively. In this paper, we first verify that existing mitigation mechanisms are insufficient for a new class of threats: indirect logic induction. Motivated by this observation, we introduce InceptionRAG, a stealthy attack mechanism that subverts the standard attack paradigm. Instead of injecting explicit malicious payloads, InceptionRAG fragments it into a chain of dormant passages. These passages appear harmless and can bypass existing mitigation mechanisms when examined separately. However, when retrieved together, they trigger LLMs to self-deduce target misinformation via multi-hop reasoning. To further improve the applicability of InceptionRAG in black-box settings, we propose zeroth-order suffix optimization (ZOSO) to automate the generation of authoritative suffixes. Extensive evaluations across three datasets and three LLMs demonstrate that InceptionRAG achieves an attack success rate exceeding 80% even under rigorous adversarial constraints. In particular, InceptionRAG shows superior evasion capabilities, effectively bypassing established defenses that mitigate traditional single-document injections. Our findings expose a concerning paradox: the stronger reasoning capabilities of LLMs increase their vulnerability to reasoning-based poisoning attacks. To mitigate potential misuse, we propose a document isolation-based defense, HODOR, which decouples adversarial logical dependencies.",
-    "published": "2026-09-15T08:22:10Z",
-    "link": "http://arxiv.org/abs/2609.16818v1",
-    "authors": [
-      "Jiachang Zhang",
-      "Min Chen",
-      "Xiao Ren",
-      "Zhenyong Zhang",
-      "Yuanchao Shu",
-      "Yunjun Gao",
-      "Zhikun Zhang"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Retrieval-augmented generation (RAG) systems enhance large language models (LLMs) with external knowledge but have been demonstrated to be vulnerable to corpus poisoning. Existing poisoning attacks against RAG largely focus on single-point explicit injection, where the malicious payload is fully encapsulated within a single document.",
-    "selected_date": "2026-09-16"
   }
 ]
