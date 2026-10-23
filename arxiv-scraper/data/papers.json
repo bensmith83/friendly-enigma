@@ -1,5 +1,24 @@
 [
   {
+    "id": "2610.31152v1",
+    "title": "WildFakeToolBench: Benchmarking AI-Generated Image Detectors with Web-Sourced Image Processing",
+    "summary": "As AI generated images are getting popular these days, discussions on such generations are widely existed in current public forums, software repositories, and photography tutorials. Moreover, with the help of LLM-assisted code translation, malicious actors can adopt such information to evade detectors without specialized knowledge or local GPU execution of the resulting tools. To evaluate such risks, we introduce \\textsc{WildFakeToolBench}, a benchmark suite of $156$ executable image-processing tools derived from $220$ public sources across $142$ domains. Each tool retains its source evidence and passes syntax, execution, and output-distortion checks without using feedback from the evaluated detectors. On $105$ generated images from five generators, we evaluate six state-of-the-art detectors with images processed by the tools in our collected bench to assess their effectiveness against such in-the-wild risks. The strongest individual tools achieve attack success rates of $25.25\\%$--$100\\%$ across detectors, exceeding the strongest of six selected image-processing baselines for each detector. Evaluating subsets of an eight-tool pool yields worst-case coverage above $80\\%$ for every detector. Effectiveness is sparse and detector-specific: high coverage across candidates does not imply reliable one-shot evasion. These findings not only highlight the potential of such web-sourced risks, but also show the potential on establishing AI-image detector robustness evaluation framework based on those in-the-wild information.",
+    "published": "2026-10-22T12:09:13Z",
+    "link": "http://arxiv.org/abs/2610.31152v1",
+    "authors": [
+      "Mingjie Li",
+      "Yukun Jiang",
+      "Yicong Tan",
+      "Yang Zhang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CR"
+    ],
+    "ai_summary": "As AI generated images are getting popular these days, discussions on such generations are widely existed in current public forums, software repositories, and photography tutorials. Moreover, with the help of LLM-assisted code translation, malicious actors can adopt such information to evade detectors without specialized knowledge or local GPU execution of the resulting tools.",
+    "selected_date": "2026-10-23"
+  },
+  {
     "id": "2610.29886v1",
     "title": "Characterizing and Defending Utility-Hijacking in Instruction-Tuning Data Selection",
     "summary": "Instruction-data selectors choose which instruction-following records are used for fine-tuning, improving alignment quality, raising training efficiency, and filtering out harmful records. A selector's choices thus directly affect the fine-tuned model's safety, yet despite their widespread use, the security of these selectors remains under-studied. We conduct the first systematic study of adaptive supplier-side attacks against utility-oriented instruction-data selectors and introduce utility-hijacking. Utility-hijacking shapes harmful records to remain compatible with a selector while preserving their malicious payload, causing top-k selection to concentrate rather than filter the poison. Achieving both is non-trivial, because optimizing a record for score tends to wash out its payload, while bluntly preserving the payload makes the record look low-value. Our generate-and-rerank procedure generates, per instruction, many payload-bearing candidates and submits only the highest-scoring survivor. Evaluated across three payloads (over-refusal, false-fact injection, and insecure code), six selectors, and victim models from Qwen2.5-7B to Qwen3-32B, utility-hijacking drives refusal from 0% to 94% and insecure code up to 56/90, while false-fact enrichment intensifies with scoring-model scale from 2.84x to 7.04x. To defend against this attack, we propose CONCERT, a targeted defense needing no content detector or poison labels. It flags suppliers selected far more often than chance allows, then re-selects under the same budget, keeping only records that two dissimilar selectors both rank highly. On a Qwen3-32B victim, CONCERT reverses the poison concentration from 6.67x to 0x (code) and 3.59x to 0.67x (facts), and reduces downstream harm by 100% and 75% respectively, at unchanged capability.",
@@ -577,26 +596,5 @@
     ],
     "ai_summary": "Wide adoption of machine learning has created growing policy and regulatory demand for protecting sensitive training data, with differential privacy (DP) emerging as a key mechanism. Yet a less-studied problem is how to certify the faithful execution of DP during training: an external verifier should be able to check that a released model was trained with proper DP protection, without accessing the private training data.",
     "selected_date": "2026-09-18"
-  },
-  {
-    "id": "2609.18829v1",
-    "title": "Epsilon-Nash Equilibria in History-Dependent SA-MDPs",
-    "summary": "We study state-adversarial Markov decision processes (SA-MDP) as a game of observation-space attacks: at each step, an agent selects an action from a received observation while an adversary$\\unicode{x2014}$who knows the true state the agent is in$\\unicode{x2014}$chooses a perturbed observation within a state-dependent proximity set. While existing work focuses on Markovian policies, we develop a solution concept and computational approach for SA-MDPs under history dependence. This is motivated by results showing that history dependence can materially change equilibrium outcomes and can force both the agent and the adversary to adapt their strategies. First, we prove the non-existence of universal (agnostic of the initial state distribution) history-dependent equilibrium policies. In response to this finding, our main result presents the first algorithmic route to computing $\u03b5$-approximations of initial-state dependent equilibria. We do so by reducing SA-MDPs to a strategically equivalent constrained zero-sum one-sided partially observable stochastic game. We conclude by testing our algorithm on small analytically verifiable games and showing it scales to larger, more realistic benchmarks, including Atari Freeway rollouts with a 12-period ahead horizon.",
-    "published": "2026-09-16T15:35:31Z",
-    "link": "http://arxiv.org/abs/2609.18829v1",
-    "authors": [
-      "Brandon Gary Kaplowitz",
-      "Dominik Bohnet Zurcher",
-      "Akash Agrawal",
-      "Tala Jafari",
-      "Christian Schroeder de Witt",
-      "Paul W. Goldberg"
-    ],
-    "categories": [
-      "cs.GT",
-      "cs.CR"
-    ],
-    "ai_summary": "We study state-adversarial Markov decision processes (SA-MDP) as a game of observation-space attacks: at each step, an agent selects an action from a received observation while an adversary$\\unicode{x2014}$who knows the true state the agent is in$\\unicode{x2014}$chooses a perturbed observation within a state-dependent proximity set. While existing work focuses on Markovian policies, we develop a solution concept and computational approach for SA-MDPs under history dependence.",
-    "selected_date": "2026-09-17"
   }
 ]
