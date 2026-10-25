@@ -19,6 +19,7 @@ on:
       - 'ai-honeypot-generator/**'
       - 'wasm-testbed/**'
       - 'cybersecurity-job-analyzer/**'
+      - 'seashore-cottage-finder/**'
       - 'about/**'
       - '.github/workflows/deploy-pages.yml'
   pull_request:
@@ -35,6 +36,7 @@ on:
       - 'ai-honeypot-generator/**'
       - 'wasm-testbed/**'
       - 'cybersecurity-job-analyzer/**'
+      - 'seashore-cottage-finder/**'
       - 'about/**'
   # Auto-deploy after data-generating workflows complete
   workflow_run:
@@ -135,6 +137,9 @@ jobs:
           mkdir -p _site/cybersecurity-job-analyzer
           cp -r cybersecurity-job-analyzer/index.html cybersecurity-job-analyzer/styles.css cybersecurity-job-analyzer/script.js _site/cybersecurity-job-analyzer/
           cp -r cybersecurity-job-analyzer/data _site/cybersecurity-job-analyzer/data 2>/dev/null || mkdir -p _site/cybersecurity-job-analyzer/data
+
+          # Copy seashore-cottage-finder to /seashore-cottage-finder subdirectory
+          cp -r seashore-cottage-finder _site/seashore-cottage-finder
 
           # Copy about to /about subdirectory
           cp -r about _site/about
@@ -242,6 +247,10 @@ jobs:
                       <a href="/friendly-enigma/wasm-testbed/" class="project-link">
                           <div class="project-title">🚀 WebAssembly Performance Lab</div>
                           <div class="project-desc">Interactive testbed for exploring WebAssembly with performance benchmarks</div>
+                      </a>
+                      <a href="/friendly-enigma/seashore-cottage-finder/" class="project-link">
+                          <div class="project-title">🏖️ Seashore Cottage Finder</div>
+                          <div class="project-desc">Scan a whole summer for open cottage dates at Sun Retreats Seashore instead of checking one date at a time</div>
                       </a>
                   </div>
               </div>

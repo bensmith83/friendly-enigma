@@ -12,6 +12,7 @@ This repository hosts multiple projects on GitHub Pages:
 - **Mermaid Diagrams** (`/mermaid-diagrams/`) - Create and visualize diagrams using Mermaid syntax
 - **Browser Vulnerability Scanner** (`/browser-vulnerability-scanner/`) - Detect security vulnerabilities in your browser and OS based on version
 - **AI Honeypot Generator** (`/ai-honeypot-generator/`) - Security research honeypots based on recent CVEs
+- **Seashore Cottage Finder** (`/seashore-cottage-finder/`) - Scan a whole summer for open cottage dates at Sun Retreats Seashore
 
 ## How It Works
 
