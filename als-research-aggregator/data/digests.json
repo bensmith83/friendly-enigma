@@ -1,5 +1,1059 @@
 [
   {
+    "date": "2026-10-25",
+    "week_of": "October 25, 2026",
+    "digest_number": 43,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "The Fifth Estate S52E03 1080p CBC WEB-DL H264-Kitsune",
+          "description": "Season 52, Episode 03 \u2013 \"The Fifth Estate presents ALS Country\"One woman's fight to understand why her husband died of ALS and the public health investigation into a possible cluster of Lou Gehrig's disease. She embarks on her own quest to find the causes of \u2026",
+          "content": "Season 52, Episode 03 \"The Fifth Estate presents ALS Country\"One woman's fight to understand why her husband died of ALS and the public health investigation into a possible cluster of Lou Gehrig's di\u2026 [+294 chars]",
+          "url": "https://post.rlsbb.cc/the-fifth-estate-s52e03-1080p-cbc-web-dl-h264-kitsune/",
+          "source_name": "Rlsbb.cc",
+          "source_type": "newsapi",
+          "published_at": "2026-10-24T00:51:18Z",
+          "author": "Lisa",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "e589ac540c25",
+          "summary": "Season 52, Episode 03 \u2013 \"The Fifth Estate presents ALS Country\"One woman's fight to understand why her husband died of ALS and the public health investigation into a possible cluster of Lou Gehrig's d",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane Ignored This Early ALS Symptom Before Diagnosis",
+          "description": "Eric Dane revealed his first symptom of ALS in his posthumous memoir My Book of Days, sharing it occurred while he was having dinner with his family in January 2024, months before he was diagnosed.",
+          "content": "Three weeks later, it happens again, only worse, Dane continued. I cant grip the chopsticks at all.\r\nThis led the Last Ship star on what would become a nine-month period of searching for answers to h\u2026 [+705 chars]",
+          "url": "https://www.eonline.com/news/1437435/eric-dane-ignored-first-als-symptom-with-chopsticks-pre-diagnosis-memoir",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T22:39:39Z",
+          "author": "Paige Catton",
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20261023/236d2cf1-528f-45f0-8702-86aef132cb57_1792794910.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+          "is_local_nj": false,
+          "article_id": "82f75120f53a",
+          "summary": "Eric Dane revealed his first symptom of ALS in his posthumous memoir My Book of Days, sharing it occurred while he was having dinner with his family in January 2024, months before he was diagnosed.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Better Call Saul star Russell Andrews, 64, reveals the common symptoms he experienced before shock ALS diagnosis... as he opens up about Eric Dane connection",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16134201/better-call-saul-russell-andrews-als.html",
+              "digest_date": "2026-09-20"
+            }
+          ]
+        },
+        {
+          "title": "bgbcalc added to PyPI",
+          "description": "Native calculations for German Civil Code rules (BGB-Rechenregeln)",
+          "content": "Native Berechnungen zu Rechenregeln des B\u00fcrgerlichen Gesetzbuchs (BGB).\r\nVersion 0.1.0; 552 Funktionen mit deutschen Parametern.\r\nUmfang und Stand\r\nDiese Bibliothek enth\u00e4lt kalenderbezogene und numer\u2026 [+2746 chars]",
+          "url": "https://pypi.org/project/bgbcalc/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T21:42:47Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "07e37a5650cf",
+          "summary": "Native calculations for German Civil Code rules (BGB-Rechenregeln)",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "How France became ungovernable at home yet unstoppable in Brussels",
+          "description": "The paradox of Parisian power.",
+          "content": "There are better ways to vaunt the merits of your economic model than setting fire to your capital. But tell that to the French. In recent years protests have become such a fixture of national life i\u2026 [+6122 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/10/23/how-france-became-ungovernable-at-home-yet-unstoppable-in-brussels-a4939616",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T20:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/gUaQGnv1_N2ImmT2PwEXWrUzlBA=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/10/23134252/231026OPI_2037733996_Economist-How-France.jpg",
+          "is_local_nj": false,
+          "article_id": "879c0b364a4f",
+          "summary": "The paradox of Parisian power.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+          "description": "Rebecca Gayheart reveals the devastating moment she learned Eric Dane had ALS and how their two daughters navigated his final months together.",
+          "content": "As Eric Dane faced the final moments of his life, his family fought to hold on to every precious moment.\r\nRebecca Gayheart, who remained close to Dane after they separated in 2018, opened up about hi\u2026 [+4052 chars]",
+          "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+          "source_name": "Fox News",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T17:45:41Z",
+          "author": null,
+          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/eric-dane-rebecca-gayheart-gm-ten.jpg",
+          "is_local_nj": false,
+          "article_id": "a221c35165b4",
+          "summary": "Rebecca Gayheart reveals the devastating moment she learned Eric Dane had ALS and how their two daughters navigated his final months together.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane's widow Rebecca Gayheart supported by daughters Billie, 16, and Georgia, 14, at opening of her musical... 7 months after his ALS death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16120805/eric-dane-widow-rebecca-gayheart-supported-daughters-billie-georgia-musical-opening-als-death.html",
+              "digest_date": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane Revealed First Sign of ALS Came During a Family Sushi Dinner \u2014 'I Couldn't Grip My Chopsticks'",
+          "description": "Eric Dane revealed the exact moment he realized his health was waning almost one year before he was diagnosed with ALS while having dinner with his daughters.",
+          "content": "He wrote: \"Three weeks later, it happens again, only worse. I can't grip the chopsticks at all.\"\r\nDane said that sparked a nine-month-long search for answers before he was ultimately diagnosed with A\u2026 [+406 chars]",
+          "url": "https://radaronline.com/p/eric-dane-recalls-first-sign-of-als-came-during-family-sushi-dinner/",
+          "source_name": "Radaronline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T17:20:00Z",
+          "author": "Stuart Pink",
+          "image_url": "https://media.radaronline.com/brand-img/RY9k6UIH8/1200x628/stuart-pink-image-templates-1280-x-720-px-1792767438019.jpg",
+          "is_local_nj": false,
+          "article_id": "1c786c9d7c58",
+          "summary": "Eric Dane revealed the exact moment he realized his health was waning almost one year before he was diagnosed with ALS while having dinner with his daughters.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "How Women With ALS Support Each Other Through a Terminal Diagnosis",
+          "description": "ALS isn't (just) an old man's game. After receiving an ALS diagnosis in her early 30s, Brooke Eby did what was natural: crawled into bed with a party-size bag of M&Ms. For months, all she could focus on was survival. Then, after attending a wedding with the s\u2026",
+          "content": "ALS isn't (just) an old man's game. After receiving an ALS diagnosis in her early 30s, Brooke Eby did what was natural: crawled into bed with a party-size bag of M&amp;Ms. For months, all she could f\u2026 [+7063 chars]",
+          "url": "https://www.popsugar.com/health/young-women-with-als-retreat-49484819",
+          "source_name": "POPSUGAR",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T17:00:02Z",
+          "author": "Chandler Plante",
+          "image_url": "https://media1.popsugar-assets.com/files/thumbor/3DmzPrp2Kdh_59VWX43SQ31qcdo=/0x0:1198x629/fit-in/1200x630/top/filters:format_auto():quality(85):upscale()/2026/10/18/018/n/49351082/8a34e76e6ad55599317ac1.72449610_.png",
+          "is_local_nj": false,
+          "article_id": "030aec27127c",
+          "summary": "ALS isn't (just) an old man's game. After receiving an ALS diagnosis in her early 30s, Brooke Eby did what was natural: crawled into bed with a party-size bag of M&Ms. For months, all she could focus ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Cy Young Award Winner Steve Stone and 1983 World Series MVP Rick Dempsey Call on America's Sports Leaders to Demand Congress Fund the American Center for Cures",
+          "description": "As the World Series opens Friday, Stone urges league commissioners, owners and players to use this weekend's games to unite a divided country around curing disease CHICAGO, Oct. 23, 2026 /PRNewswire/ -- As the World Series opens Friday and fans across the cou\u2026",
+          "content": "As the World Series opens Friday, Stone urges league commissioners, owners and players to use this weekend's games to unite a divided country around curing disease\r\nCHICAGO, Oct. 23, 2026 /PRNewswire\u2026 [+5164 chars]",
+          "url": "https://www.prnewswire.com/news-releases/cy-young-award-winner-steve-stone-and-1983-world-series-mvp-rick-dempsey-call-on-americas-sports-leaders-to-demand-congress-fund-the-american-center-for-cures-302918291.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T16:17:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "b3286b100f9e",
+          "summary": "As the World Series opens Friday, Stone urges league commissioners, owners and players to use this weekend's games to unite a divided country around curing disease CHICAGO, Oct. 23, 2026 /PRNewswire/ ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ractigen Therapeutics Publishes Foundational Study on its Extrahepatic LiCO\u2122 Delivery Platform in Molecular Therapy - Nucleic Acids",
+          "description": "Peer-reviewed study demonstrates potent, multi-month extrahepatic delivery via both systemic administration\u2014targeting skeletal muscle, heart, and adipose tissue\u2014and localized routes across ocular, joint, and bladder compartments Unlocks high-value therapeutic\u2026",
+          "content": "<ul><li>Peer-reviewed study demonstrates potent, multi-month extrahepatic delivery via both systemic administrationtargeting skeletal muscle, heart, and adipose tissueand localized routes across ocul\u2026 [+8561 chars]",
+          "url": "https://www.prnewswire.com/news-releases/ractigen-therapeutics-publishes-foundational-study-on-its-extrahepatic-lico-delivery-platform-in-molecular-therapy--nucleic-acids-302918125.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T13:35:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "c712f2c150f4",
+          "summary": "Peer-reviewed study demonstrates potent, multi-month extrahepatic delivery via both systemic administration\u2014targeting skeletal muscle, heart, and adipose tissue\u2014and localized routes across ocular, joi",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Astrophysics professor, 90, needed hip replacement after vile stranger shoves him off NYC subway: \u2018Who does this?\u2019",
+          "description": "\"Who does this? Who would shove a 90-year-old, frail, visually impaired man?\"",
+          "content": "A 90-year-old astrophysicist professor was violently shoved off a New York City subway by a callous stranger \u2014 leaving him with broken bones and needing a hip replacement.\r\nDr. C.G. Wang is still rec\u2026 [+2051 chars]",
+          "url": "https://nypost.com/2026/10/23/us-news/astrophysics-professor-90-needed-hip-replacement-after-vile-stranger-shoves-him-off-nyc-subway/",
+          "source_name": "New York Post",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T13:32:16Z",
+          "author": "Patrick Reilly",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/10/146199075.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "80bce520ece3",
+          "summary": "\"Who does this? Who would shove a 90-year-old, frail, visually impaired man?\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Daredevil: Born Again: Carrie-Anne Moss on Season 3 Status & Ritter",
+          "description": "As we march closer to the third and definitive final season of\u00a0Daredevil: Born Again, questions linger about who else from the Netflix\u00a0Defenders\u00a0Marvel shows will return in a type of reunion of\u00a0Star Trek: Picard proportions.\u00a0Already, we have our latest name c\u2026",
+          "content": "Posted in: Disney+, Marvel, Movies, Netflix, TV | Tagged: daredevil: born again, Jessica Jones\r\nCarrie-Anne Moss (Yaga) on if we'll see Jeri Hogarth back for Daredevil: Born Again S03 and reuniting w\u2026 [+3170 chars]",
+          "url": "https://bleedingcool.com/tv/daredevil-born-again-carrie-anne-moss-on-season-3-status-ritter/",
+          "source_name": "Bleeding Cool News",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T12:37:10Z",
+          "author": "Tom Chang",
+          "image_url": "https://bleedingcool.com/wp-content/uploads/2026/10/Jessica-Jones-Krysten-Ritter-and-Carrie-Anne-Moss-2000x1125.jpg",
+          "is_local_nj": false,
+          "article_id": "7501758a2c75",
+          "summary": "As we march closer to the third and definitive final season of\u00a0Daredevil: Born Again, questions linger about who else from the Netflix\u00a0Defenders\u00a0Marvel shows will return in a type of reunion of\u00a0Star T",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane\u2019s Posthumous Memoir Reveals the Five Words He Gave His Daughter Every Morning",
+          "description": "Eric Dane\u2019s posthumous memoir records the five words the Grey\u2019s Anatomy and Euphoria actor gave his youngest daughter, Georgia, every single morning: \u201cGood morning, I love you.\u201d The line comes from a new excerpt of Dane\u2019s memoir.",
+          "content": "Eric Dane\u2019s posthumous memoir records the five words the Grey\u2019s Anatomy and Euphoria actor gave his youngest daughter, Georgia, every single morning: \u201cGood morning, I love you.\u201d\r\nAt the Steve Madden \u2026 [+1480 chars]",
+          "url": "https://thoughtcatalog.com/january-nelson/2026/10/eric-danes-posthumous-memoir-reveals-the-five-words-he-gave-his-daughter-every-morning/",
+          "source_name": "Thoughtcatalog.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T10:34:10Z",
+          "author": "January Nelson",
+          "image_url": "https://thoughtcatalog.com/wp-content/uploads/2026/10/eric-dane-s-posthumous-memoir-reveals-the-five-words-he-gave-his-daughter-every.jpg?crop=0,12,100,33.33&w=1536",
+          "is_local_nj": false,
+          "article_id": "231f05fc8db2",
+          "summary": "Eric Dane\u2019s posthumous memoir records the five words the Grey\u2019s Anatomy and Euphoria actor gave his youngest daughter, Georgia, every single morning: \u201cGood morning, I love you.\u201d The line comes from a ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Better Call Saul star Russell Andrews, 64, reveals the common symptoms he experienced before shock ALS diagnosis... as he opens up about Eric Dane connection",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16134201/better-call-saul-russell-andrews-als.html",
+              "digest_date": "2026-09-20"
+            },
+            {
+              "title": "Love Island's\u00a0Simba Kudyiwa reveals he became a carer aged 10 for his disabled mum who can't speak - and he fell in love with nurse Angelista Gunda because of her empathy",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16052295/Love-Island-Simba-Kudyiwa-care-disabled-mum-Angelista-Gunda-empathy.html",
+              "digest_date": "2026-08-16"
+            }
+          ]
+        },
+        {
+          "title": "\"Heavy Is The Crown\" von Anderson .Paak & Cordae",
+          "description": "Anderson .Paak & Cordae - \"Heavy Is The Crown\"",
+          "content": "laut.de-Kritik\r\nEine gl\u00e4nzende Krone, geschmiedet aus W\u00fcrde und Verletztlichkeit.\r\nReview von Johannes Jimeno\r\nSchaut man sich das Cover und h\u00f6rt sich die Leadsingle \"A Good Day\" an, entsteht der Ein\u2026 [+3826 chars]",
+          "url": "https://laut.de/Anderson-.Paak-Cordae/Alben/Heavy-Is-The-Crown-127658",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T08:05:06Z",
+          "author": "Johannes Jimeno",
+          "image_url": "https://laut.de/Anderson-.Paak-Cordae/Alben/Heavy-Is-The-Crown-127658/anderson-paak-cordae-heavy-is-the-crown-254046.jpg?30afc1",
+          "is_local_nj": false,
+          "article_id": "70658bb4b8a4",
+          "summary": "Anderson .Paak & Cordae - \"Heavy Is The Crown\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Super Bowl champion Marshall Faulk says he is living with Parkinson's disease",
+          "description": "Marshall Faulk revealed his Parkinson's disease diagnosis on a podcast, describing hand rigidity and tremors he's managed with medication for over a year.",
+          "content": "Super Bowl champion and Southern University football coach Marshall Faulk is facing a personal battle off the field. The Pro Football Hall of Famer announced Wednesday that he has been diagnosed with\u2026 [+2489 chars]",
+          "url": "https://www.foxnews.com/outkick-sports/super-bowl-champion-marshall-faulk-living-parkinsons-disease",
+          "source_name": "Fox News",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T02:21:22Z",
+          "author": null,
+          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/Marshall-Faulk-golf-event.jpg",
+          "is_local_nj": false,
+          "article_id": "dd54f2a19a3a",
+          "summary": "Marshall Faulk revealed his Parkinson's disease diagnosis on a podcast, describing hand rigidity and tremors he's managed with medication for over a year.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Ravens Legend O.J. Brigance, Super Bowl Champion Who Battled ALS for 19 Years, Dies at 56 as Baltimore Hero",
+              "url": "https://www.ibtimes.com.au/oj-brigance-legacy-resilience-inspiration-als-1874362",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "Super Bowl champion OJ Brigance dead at 56 after battle with ALS",
+              "url": "https://www.foxnews.com/outkick-sports/super-bowl-champion-oj-brigance-dead-56-battle-als",
+              "digest_date": "2026-08-23"
+            }
+          ]
+        },
+        {
+          "title": "Marshall Faulk publicly discloses Parkinson\u2019s diagnosis: \u2018I\u2019m in a good place\u2019",
+          "description": "This summer, Ahman Green, the Green Bay Packers\u2019 all-time leading rusher, disclosed his early-onset Parkinson\u2019s disease diagnosis while appearing on Tyler Dunne\u2019s \u201cGo Long\u201d podcast, and former Tennessee Titans star running back Chris Johnson revealed his ALS \u2026",
+          "content": "This summer, Ahman Green, the Green Bay Packers' all-time leading rusher, disclosed his early-onset Parkinson's disease diagnosis while appearing on Tyler Dunne's \"Go Long\" podcast, and former Tennes\u2026 [+2829 chars]",
+          "url": "https://awfulannouncing.com/nfl/marshall-faulk-discloses-parkinsons-diagnosis.html",
+          "source_name": "Awful Announcing",
+          "source_type": "newsapi",
+          "published_at": "2026-10-23T01:30:37Z",
+          "author": "Megan Armstrong",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/1ea301732e5fde8ad8924a2fc3fbb8930d83615d20b5f28cf7baea2bc9817b4e/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fawful_announcing_173%2F059f8f9d805ec3346e56dda7150f91ff.png",
+          "is_local_nj": false,
+          "article_id": "b13f20a92ea6",
+          "summary": "This summer, Ahman Green, the Green Bay Packers\u2019 all-time leading rusher, disclosed his early-onset Parkinson\u2019s disease diagnosis while appearing on Tyler Dunne\u2019s \u201cGo Long\u201d podcast, and former Tenness",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "NFL Hall of Fame RB Marshall Faulk reveals Parkinson's diagnosis",
+          "description": "NFL Hall of Fame running back Marshall Faulk announced that he has been diagnosed with Parkinson's disease.",
+          "content": "NFL Hall of Fame running back and current Southern University coach Marshall Faulk announced that he has been diagnosed with Parkinson's disease.\r\nThe 53-year-old revealed it on an Oct. 21 episode of\u2026 [+4634 chars]",
+          "url": "https://www.usatoday.com/story/sports/nfl/2026/10/22/marshall-faulk-parkinsons-disease-rams/92387558007/",
+          "source_name": "USA Today",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T23:47:50Z",
+          "author": "Nick Brinkerhoff, USA TODAY",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/2854b12e798800b03069aa871a173338eb66041c3a8a0744615343f8090cfbc8/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2Fa01af630a2f97154c7b046e7159e01c5.jpg",
+          "is_local_nj": false,
+          "article_id": "5b81884cc55a",
+          "summary": "NFL Hall of Fame running back Marshall Faulk announced that he has been diagnosed with Parkinson's disease.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "2026 NFL Hall of Fame Game: Haynes King steals rookie spotlight from Carson Beck, leading Panthers to 33-30 win over Cardinals",
+              "url": "https://sports.yahoo.com/nfl/live/2026-nfl-hall-of-fame-game-haynes-king-steals-rookie-spotlight-from-carson-beck-leading-panthers-to-33-30-win-over-cardinals-230000800.html",
+              "digest_date": "2026-08-09"
+            },
+            {
+              "title": "NFL Hall of Fame Game 2026: Haynes King steals rookie spotlight from Carson Beck, leading Panthers to 33-30 win over Cardinals",
+              "url": "https://sports.yahoo.com/nfl/live/nfl-hall-of-fame-game-haynes-king-steals-rookie-spotlight-from-carson-beck-leading-panthers-to-33-30-win-over-cardinals-230000800.html",
+              "digest_date": "2026-08-09"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane revealed 'weird' first sign of ALS came during family dinner: 'Suddenly I cant work my right hand'",
+          "description": "Dane died of ALS earlier this year but an upcoming memoir he wrote during his health battle will now be released - laying bare his\u00a0battle with addiction and illness.",
+          "content": "Nearly a year before he was diagnosed with ALS, Eric Dane\u00a0was enjoying a sushi dinner with his daughters when he found himself struggling to use the chopsticks.\u00a0\r\nLittle did he know at the time, the \u2026 [+4871 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16229985/eric-dane-als-memoir.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T20:35:38Z",
+          "author": "Christine Rend\u00f3n",
+          "image_url": "https://i.dailymail.com/1s/2026/10/22/21/112033489-0-image-m-9_1792699643239.jpg",
+          "is_local_nj": false,
+          "article_id": "39ea9ab9630d",
+          "summary": "Dane died of ALS earlier this year but an upcoming memoir he wrote during his health battle will now be released - laying bare his\u00a0battle with addiction and illness.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "2026 World Series Betting Report: 'Long-Shot Backers Have Something to Root For'",
+          "description": "Patrick Everson has the scoop on the World Series betting action ahead of Friday's Game 1, as an unexpected Fall Classic is set to begin.",
+          "content": "Way back on March 25, when the MLB regular season began, you couldve made one or both of the following bets on World Series futures odds at DraftKings Sportsbook: Rays +8000 to win the World Series o\u2026 [+4076 chars]",
+          "url": "https://www.foxsports.com/stories/mlb/2026-world-series-betting-report-long-shot-backers-have-something-root-for",
+          "source_name": "Fox Sports",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T20:23:15Z",
+          "author": null,
+          "image_url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/10/1294/728/miz-1022.jpg?ve=1&tl=1",
+          "is_local_nj": false,
+          "article_id": "805afcbece7f",
+          "summary": "Patrick Everson has the scoop on the World Series betting action ahead of Friday's Game 1, as an unexpected Fall Classic is set to begin.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Mark Carney shows middle powers how to handle a dangerous world",
+          "description": "Canada is standing up to a bullying America.",
+          "content": "Entitled Canada has been feeding off America for decades. Like a parasitic bug, it enjoys the benefits of being Americas cherished 51st state without giving anything back. Canadians know they couldnt\u2026 [+6271 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/10/22/mark-carney-shows-middle-powers-how-to-handle-a-dangerous-world-a4939128",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T20:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/tCkJ8m9r48h8KRYhOR9BJsQ85zs=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/10/16154908/231026OPI_2037538008_carney.jpg",
+          "is_local_nj": false,
+          "article_id": "db89393e7d46",
+          "summary": "Canada is standing up to a bullying America.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Kim Sledge Allen of Sister Sledge Calls on the Music Industry to Demand Congress Fund the American Center for Cures",
+          "description": "Ahead of the Nov. 3 midterms, Kim Sledge Allen invites Taylor Swift, Lionel Richie, Barbra Streisand and artists everywhere to take #TheCuresPledge, unite a divided country and demand immediate action to cure disease CHICAGO, Oct. 22, 2026 /PRNewswire/ -- Kim\u2026",
+          "content": "Ahead of the Nov.\u00a03 midterms, Kim Sledge Allen invites Taylor Swift, Lionel Richie, Barbra Streisand and artists everywhere to take #TheCuresPledge, unite a divided country and demand immediate actio\u2026 [+4790 chars]",
+          "url": "https://www.prnewswire.com/news-releases/kim-sledge-allen-of-sister-sledge-calls-on-the-music-industry-to-demand-congress-fund-the-american-center-for-cures-302917341.html",
+          "source_name": "PRNewswire",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T18:28:00Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "0bf41b1f8439",
+          "summary": "Ahead of the Nov. 3 midterms, Kim Sledge Allen invites Taylor Swift, Lionel Richie, Barbra Streisand and artists everywhere to take #TheCuresPledge, unite a divided country and demand immediate action",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "IndyCar to race in champion Alex Palou\u2019s home country in 2027 for first European race in 20 years",
+          "description": "IndyCar will race at the Circuit de Barcelona-Catalunya in 2027, its first event outside of North America since 2013.",
+          "content": "For the first time since 2013, IndyCar will have a race outside of North America. The series will hold a race at the Circuit de Barcelona-Catalunya in Barcelona in 2027.\r\nThe race has been confirmed \u2026 [+3795 chars]",
+          "url": "https://www.indystar.com/story/sports/motor/2026/10/22/indycar-schedule-2027-race-barcelona-spain-europe-champion-alex-palou-home-country/92333099007/",
+          "source_name": "The Indianapolis Star",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T18:07:43Z",
+          "author": "Zion Brown, Indianapolis Star",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/3f7e313e4c51083a6a8a8fa0cb10b59d7fdd173b0058e0f98cad28634ac2073c/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Findystar-the-indianapolis-star%2Fff94120a20e72f5192bb9f2becf83b90.jpg",
+          "is_local_nj": false,
+          "article_id": "c9355016636b",
+          "summary": "IndyCar will race at the Circuit de Barcelona-Catalunya in 2027, its first event outside of North America since 2013.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane recalls very first sign of ALS in his posthumous memoir",
+          "description": "The late actor detailed the symptom that led to his diagnosis in \"My Book of Days: A Memoir in Moments,\" set to be released Nov. 3.",
+          "content": "The first time Eric Dane noticed his ALS symptoms was when he suddenly began struggling to use chopsticks at dinner with his family.\r\n\u201cI\u2019m eating sushi with my kids and suddenly I can\u2019t work the chop\u2026 [+4704 chars]",
+          "url": "https://pagesix.com/2026/10/22/celebrity-news/eric-dane-details-first-als-symptom-before-diagnosis-in-posthumous-memoir/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T17:53:37Z",
+          "author": "Amanda Rubio",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/146086805.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "c9f3aca9219f",
+          "summary": "The late actor detailed the symptom that led to his diagnosis in \"My Book of Days: A Memoir in Moments,\" set to be released Nov. 3.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+          "description": "Gayheart also recalled the \"punch to the gut\" conversation she had with her estranged husband about his health in an interview with People published Thursday.",
+          "content": "Rebecca Gayheart was the first person Eric Dane called after his ALS diagnosis \u2014 and the actor recounted the devastating conversation in his posthumous memoir.\r\n\u201cIt\u2019s what we feared,\u201d the \u201cGrey\u2019s Ana\u2026 [+2905 chars]",
+          "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T15:53:55Z",
+          "author": "Riley Cardoza",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/eric-dane-shares-als-diagnosis-phone-call-rebecca-gayheart.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "8d955ac1ec30",
+          "summary": "Gayheart also recalled the \"punch to the gut\" conversation she had with her estranged husband about his health in an interview with People published Thursday.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane's widow Rebecca Gayheart supported by daughters Billie, 16, and Georgia, 14, at opening of her musical... 7 months after his ALS death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16120805/eric-dane-widow-rebecca-gayheart-supported-daughters-billie-georgia-musical-opening-als-death.html",
+              "digest_date": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+          "description": "Rebecca Gayheart reflected on her immediate reaction to Eric Dane\u2018s ALS diagnosis. \u201cI went into my closet and closed the door,\u201d Gayheart, 55, recalled in an interview with People, which was published on Thursday, October 22. \u201cI was always telling him, \u2018You\u2019re\u2026",
+          "content": "Rebecca Gayheart reflected on her immediate reaction to Eric Dane\u2018s ALS diagnosis.\r\n\u201cI went into my closet and closed the door,\u201d Gayheart, 55, recalled in an interview with People, which was publishe\u2026 [+2498 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T14:05:29Z",
+          "author": "Yana Grebenyuk",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/03/Eric-Dane-and-Rebecca-Gayheart-GettyImages-504269616.jpg?crop=0px%2C172px%2C1333px%2C700px&resize=1200%2C630&quality=74&strip=all",
+          "is_local_nj": false,
+          "article_id": "926e0265250a",
+          "summary": "Rebecca Gayheart reflected on her immediate reaction to Eric Dane\u2018s ALS diagnosis. \u201cI went into my closet and closed the door,\u201d Gayheart, 55, recalled in an interview with People, which was published ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane's widow Rebecca Gayheart supported by daughters Billie, 16, and Georgia, 14, at opening of her musical... 7 months after his ALS death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16120805/eric-dane-widow-rebecca-gayheart-supported-daughters-billie-georgia-musical-opening-als-death.html",
+              "digest_date": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "title": "This AI Model Designs Enzymes With Atomic Precision",
+          "description": "A trio of papers showcases AI-designed molecular scissors and an upgraded tool that builds proteins atom by atom.\nThe post This AI Model Designs Enzymes With Atomic Precision appeared first on SingularityHub.",
+          "content": "The protein universe is about to get bigger.\r\nScientists can now use AI to build proteins never before seen in nature. These designer proteins may become therapeutics, environmental sensors, or even \u2026 [+7321 chars]",
+          "url": "https://singularityhub.com/2026/10/22/a-new-ai-model-designs-enzymes-with-atomic-precision/#article",
+          "source_name": "Singularity Hub",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T14:00:00Z",
+          "author": "Shelly Fan",
+          "image_url": "https://singularityhub.com/uploads/2026/10/ai-designed-proteases-7.jpeg?auto=webp",
+          "is_local_nj": false,
+          "article_id": "7b66381b444f",
+          "summary": "A trio of papers showcases AI-designed molecular scissors and an upgraded tool that builds proteins atom by atom.\nThe post This AI Model Designs Enzymes With Atomic Precision appeared first on Singula",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Can immersive virtual reality be an alternative world for eliciting consumer willingness to pay for food?",
+          "description": "This study examines whether consumers\u2019 willingness to pay (WTP) for ready-to-eat cereals differs between immersive virtual reality (IVR) and real-world (RW) environments. Real choice experiments were conducted with 227 respondents who selected reservation dat\u2026",
+          "content": "Abstract\r\nThis study examines whether consumers willingness to pay (WTP) for ready-to-eat cereals differs between immersive virtual reality (IVR) and real-world (RW) environments. Real choice experim\u2026 [+62841 chars]",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361063",
+          "source_name": "Plos.org",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T14:00:00Z",
+          "author": "Toru Nakajima, Mizuki Mukai",
+          "image_url": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0361063.g003&size=inline",
+          "is_local_nj": false,
+          "article_id": "014018dbca1f",
+          "summary": "This study examines whether consumers\u2019 willingness to pay (WTP) for ready-to-eat cereals differs between immersive virtual reality (IVR) and real-world (RW) environments. Real choice experiments were ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Nirva raises $33 million for ambient AI pendant set to ship by year-end",
+          "description": "Nirva's funding success highlights growing interest in wearable AI, potentially transforming personal data management and privacy norms.\nThe post Nirva raises $33 million for ambient AI pendant set to ship by year-end appeared first on Crypto Briefing.",
+          "content": "The Silicon Valley startup's $249 titanium wearable promises mood tracking and journaling while keeping data processing local Nirva Labs has raised $33 million for an AI device you wear around your n\u2026 [+2123 chars]",
+          "url": "https://cryptobriefing.com/nirva-raises-33m-ambient-ai-pendant/",
+          "source_name": "Crypto Briefing",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T13:35:19Z",
+          "author": "Diego Almada Lopez",
+          "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/22093515/library-nirva-raises-33-million-for-ambient-ai-pendant-set-to-sh-800x450.png",
+          "is_local_nj": false,
+          "article_id": "1c1bf377070c",
+          "summary": "Nirva's funding success highlights growing interest in wearable AI, potentially transforming personal data management and privacy norms.\nThe post Nirva raises $33 million for ambient AI pendant set to",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Rebecca Gayheart opens up about Eric Dane\u2019s final moments",
+          "description": "Rebecca Gayheart opened up about her ex-husband Eric Dane\u2019s final moments.",
+          "content": "Rebecca Gayheart opened up about her late husband Eric Dane's final moments. She and their two daughters were by the actor's side when he died in February.\r\n\"He was surrounded by the girls and I, the\u2026 [+2238 chars]",
+          "url": "https://abcnews.com/GMA/Culture/rebecca-gayheart-opens-eric-danes-final-moments/story?id=137471178",
+          "source_name": "Abcnews.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T13:20:06Z",
+          "author": "Yi-Jin Yu",
+          "image_url": "https://i.abcnewsfe.com/a/6259cfab-edbd-4f0b-b1e5-3a8067f5b122/dane-gty-jef-261022_1792671761379_hpMain_16x9.jpg?w=1600",
+          "is_local_nj": false,
+          "article_id": "e71200fad763",
+          "summary": "Rebecca Gayheart opened up about her ex-husband Eric Dane\u2019s final moments.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Better Call Saul star Russell Andrews, 64, reveals the common symptoms he experienced before shock ALS diagnosis... as he opens up about Eric Dane connection",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16134201/better-call-saul-russell-andrews-als.html",
+              "digest_date": "2026-09-20"
+            },
+            {
+              "title": "Eric Dane's widow Rebecca Gayheart supported by daughters Billie, 16, and Georgia, 14, at opening of her musical... 7 months after his ALS death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16120805/eric-dane-widow-rebecca-gayheart-supported-daughters-billie-georgia-musical-opening-als-death.html",
+              "digest_date": "2026-09-13"
+            },
+            {
+              "title": "Sandra Bullock says Bryan Randall was ill for 'half of our relationship' as she opens up about his death",
+              "url": "https://www.foxnews.com/entertainment/sandra-bullock-bryan-randall-ill-half-of-our-relationship-opens-up-death",
+              "digest_date": "2026-08-23"
+            }
+          ]
+        },
+        {
+          "title": "Liberty Gold Reports Initial Drill Results from its 2026 Drill Program at Black Pine, Idaho, USA",
+          "description": "0.42 g/t Au over 62.5 metres in LBP1341A0.36 g/t Au over 144.8 metres in LBP13470.30 g/t Au over 91.4 metres in LBP1293 VANCOUVER, British Columbia, Oct. 22, 2026 (GLOBE NEWSWIRE) \u2014 Liberty Gold Corp. (TSX: LGD; OTCQX: LGDTF) (\u201cLiberty Gold\u201d or the \u201cCompany\u201d)\u2026",
+          "content": "<ul><li>Drill-to-Measured programs in the Discovery (11,145 m in 205 RC holes), J (2,845 m in 60 RC holes), and Rangefront (11,605 m in 181 RC holes) areas designed to increase resource confidence an\u2026 [+5890 chars]",
+          "url": "https://financialpost.com/globe-newswire/liberty-gold-reports-initial-drill-results-from-its-2026-drill-program-at-black-pine-idaho-usa",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T10:10:44Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/figure-1-17.jpeg",
+          "is_local_nj": false,
+          "article_id": "55e9005cd897",
+          "summary": "0.42 g/t Au over 62.5 metres in LBP1341A0.36 g/t Au over 144.8 metres in LBP13470.30 g/t Au over 91.4 metres in LBP1293 VANCOUVER, British Columbia, Oct. 22, 2026 (GLOBE NEWSWIRE) \u2014 Liberty Gold Corp.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "1911 Gold Reports Positive Metallurgical Results of 93.7% for True North and 96.3% for Ogama-Rockland",
+              "url": "https://www.prnewswire.com/news-releases/1911-gold-reports-positive-metallurgical-results-of-93-7-for-true-north-and-96-3-for-ogama-rockland-302855861.html",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "GTU results 2026 released: Check M.Pharm, BE and Diploma in Vocation results at gturesults.in",
+              "url": "https://timesofindia.indiatimes.com/education/news/gtu-results-2026-released-check-m-pharm-be-and-diploma-in-vocation-results-at-gturesults-in/articleshow/133362494.cms",
+              "digest_date": "2026-08-23"
+            },
+            {
+              "title": "CervoMed Reports Second Quarter 2026 Financial Results and Provides Corporate Updates",
+              "url": "https://www.globenewswire.com/news-release/2026/08/10/3341723/0/en/cervomed-reports-second-quarter-2026-financial-results-and-provides-corporate-updates.html",
+              "digest_date": "2026-08-16"
+            }
+          ]
+        },
+        {
+          "title": "kskimlab added to PyPI",
+          "description": "ARPES and tight-binding workflows with optional Igor Pro integration",
+          "content": "Igor Pro ARPES Python Igor Wave . Fermi , k-space , , hv scan tight-binding . Python .\r\nPythonexecute=\"import kskimlab; kskimlab.apply_fermi_correction_to_data('root:sample', 'root:sample_k', 'root:g\u2026 [+4665 chars]",
+          "url": "https://pypi.org/project/kskimlab/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T07:39:09Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "66554198ba6d",
+          "summary": "ARPES and tight-binding workflows with optional Igor Pro integration",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ferrer and Prilenia Announce Authorization for EU Initiation of Confirmatory PRECISE-HD Study of Pridopidine in Huntington\u2019s Disease",
+          "description": "BARCELONA, Spain \u2014 Ferreri and Prilenia Therapeutics B.V. today announced that the confirmatory Phase 3 PRECISE-HD study of investigational pridopidine in Huntington\u2019s disease (HD) has received authorization to begin in participating EU Member States (EU CT n\u2026",
+          "content": "THIS CONTENT IS RESERVED FOR SUBSCRIBERS ONLY\r\nSubscribe now to read the latest news in your city and across Canada.\r\n<ul><li>Exclusive articles from Barbara Shecter, Joe O'Connor, Gabriel Friedman, \u2026 [+7925 chars]",
+          "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ferrer-and-prilenia-announce-authorization-for-eu-initiation-of-confirmatory-precise-hd-study-of-pridopidine-in-huntingtons-disease",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T07:04:33Z",
+          "author": "Business Wire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "cfcd40caedef",
+          "summary": "BARCELONA, Spain \u2014 Ferreri and Prilenia Therapeutics B.V. today announced that the confirmatory Phase 3 PRECISE-HD study of investigational pridopidine in Huntington\u2019s disease (HD) has received author",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Ready. Set. Run! Time for the RDC Marathon in Durham; Supports ALS research",
+          "description": "The race features a full marathon, half marathon, 10K, and a 5K.",
+          "content": "On Sunday, October 25, hundreds of runners will take part in the annual RDC Marathon. The race features a full marathon, half marathon, 10K, and 5K in support of the Team Drea Foundation.\r\nThe founda\u2026 [+1284 chars]",
+          "url": "https://abc11.com/post/runners-gear-rdc-marathon-durham-fundraiser-als/19967160/",
+          "source_name": "WTVD-TV",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T03:13:17Z",
+          "author": "Michelle Young",
+          "image_url": "https://s.yimg.com/lo/mysterio/api/05c8aa5ad59c5db852ea9325b90e8ebccf43cbfb9770346d2265ef6be659c265/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwtvd_articles_701%2F9fd2207433d236413bb405d4ff3afb61.jpg",
+          "is_local_nj": false,
+          "article_id": "617791f14ac7",
+          "summary": "The race features a full marathon, half marathon, 10K, and a 5K.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Molecular functions, cellular responses and pathological implications of the RNA modification N6-methyladenosine",
+          "description": "This Review discusses how the RNA modification N6-methyladenosine (m6A) precisely regulates eukaryotic gene expression and orchestrates cellular stress responses, metabolic homeostasis and immunity. It also explores the pathological consequences of m6A dysreg\u2026",
+          "content": "<li>Wiener, D. &amp; Schwartz, S. The epitranscriptome beyond m6A. Nat. Rev. Genet.22, 119131 (2021).\r\nArticle\u00a0\r\n CAS\u00a0\r\n PubMed\u00a0\r\nGoogle Scholar\u00a0\r\n</li><li>Roundtree, I. A., Evans, M. E., Pan, T. &am\u2026 [+53273 chars]",
+          "url": "https://www.nature.com/articles/s41580-026-01039-y",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T00:00:00Z",
+          "author": "Zihong Kang, Feng Zhang, Guo-li Ming, Hongjun Song, Jun Liu",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41580-026-01039-y/MediaObjects/41580_2026_1039_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "c403751080cc",
+          "summary": "This Review discusses how the RNA modification N6-methyladenosine (m6A) precisely regulates eukaryotic gene expression and orchestrates cellular stress responses, metabolic homeostasis and immunity. I",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Tau isoform mapping across tissues and biofluids reveals a signature distinguishing Alzheimer\u2019s disease from amyotrophic lateral sclerosis",
+          "description": "Blood p-tau217 is a leading Alzheimer\u2019s test but is also raised in ALS. Here, the authors show that muscle makes its own form of tau which leaks into the blood, and that detecting brain-derived p-tau217 improves the test\u2019s accuracy.",
+          "content": "Inclusion and ethics\r\nThis research complies with all relevant ethical regulations. The study was conducted according to the revised Declaration of Helsinki and Good Clinical Practice guidelines. Inf\u2026 [+15366 chars]",
+          "url": "https://www.nature.com/articles/s41467-026-78390-3",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-10-22T00:00:00Z",
+          "author": "Samir Abu-Rumeileh, Henning Gro\u00dfkopf, Arthur Guthknecht, Alexander Mensch, Dirk Osterloh, Antonia Ratti, Julian Conrad, Caroline Stapf, Julia Krippner, Patrick Oeckl, Gisela Stoltenburg-Didinger, Alessio Maranzano, Petra Steinacker, Christopher M. Weise, Lorenzo Barba, Lucio D\u2019Anna, Hans-Wolfgang Klafki, Jens Wiltfang, Vincenzo Silani, Lutz Froelich, Nicola Ticozzi, Lucrezia Hausner, Dietmar Rudolf Thal, Jochen Hans Weishaupt, Ingolf Lachmann, Federico Verde, Markus Otto",
+          "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41467-026-78390-3/MediaObjects/41467_2026_78390_Fig1_HTML.png",
+          "is_local_nj": false,
+          "article_id": "ef24dc43a765",
+          "summary": "Blood p-tau217 is a leading Alzheimer\u2019s test but is also raised in ALS. Here, the authors show that muscle makes its own form of tau which leaks into the blood, and that detecting brain-derived p-tau2",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Astrocytes regulate axonal mitochondrial transport deficits in C9ORF72 amyotrophic lateral sclerosis motor neurons",
+              "url": "https://www.nature.com/articles/s41593-026-02464-0",
+              "digest_date": "2026-10-11"
+            },
+            {
+              "title": "Serum Na-Cl value from routine blood tests reflects CO2 retention in amyotrophic lateral sclerosis",
+              "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0358772",
+              "digest_date": "2026-09-20"
+            }
+          ]
+        },
+        {
+          "title": "Israel\u2019s election overseer on how to stop AI distorting votes",
+          "description": "Chatbots can help inform citizens but should not be allowed to make choices for them, says Dean Livne.",
+          "content": "A relative of mine recently consulted an AI chatbot about which of the dishes his mother had prepared he should eat. I pointed out that he ate her cooking every week, whereas the chatbot had never ta\u2026 [+5462 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/10/21/israels-election-overseer-on-how-to-stop-ai-distorting-votes-a4939127",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-10-21T20:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/g8dMYMVYnOGfwk4qdS-MNx5sGz0=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/10/16140517/221026OPI_2037537437_WEB_ILLU_Economist_Israel-Election_Dan-Williams.jpg",
+          "is_local_nj": false,
+          "article_id": "29ab29de9807",
+          "summary": "Chatbots can help inform citizens but should not be allowed to make choices for them, says Dean Livne.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "bruise-data added to PyPI",
+          "description": "PyTorch loaders for the BRUISE_DATA collection (NIJ, Fenwick, ALS, mimics).",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/bruise-data/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-10-21T19:42:16Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "516df6234856",
+          "summary": "PyTorch loaders for the BRUISE_DATA collection (NIJ, Fenwick, ALS, mimics).",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Almadex Expands Claim Block at New Hope, Provides Exploration Update",
+          "description": "VANCOUVER, British Columbia, Oct. 21, 2026 (GLOBE NEWSWIRE) \u2014 Almadex Minerals Ltd. (\u201cAlmadex\u201d or the \u201cCompany\u201d) (TSX-V: \u201cDEX\u201d) is pleased to announce that it has expanded its claim block by staking at its wholly owned New Hope copper-gold porphyry exploratio\u2026",
+          "content": "498.00 to 504.00 m (6.00 m) @ 0.15 % Cu and 156 ppm Mo (fault zone with traces of chalcopyrite, sphalerite and galena)\r\nIncluding 500.00 to 502.00 m (2.00 m) @ 0.34% Cu and 326 ppm Mo\r\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0778.00\u2026 [+5008 chars]",
+          "url": "https://financialpost.com/globe-newswire/almadex-expands-claim-block-at-new-hope-provides-exploration-update",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-10-21T19:33:57Z",
+          "author": "GlobeNewswire",
+          "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/new-hope-property.jpeg",
+          "is_local_nj": false,
+          "article_id": "e3aaff018e44",
+          "summary": "VANCOUVER, British Columbia, Oct. 21, 2026 (GLOBE NEWSWIRE) \u2014 Almadex Minerals Ltd. (\u201cAlmadex\u201d or the \u201cCompany\u201d) (TSX-V: \u201cDEX\u201d) is pleased to announce that it has expanded its claim block by staking a",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Generation Mining Provides Update on Regional Exploration Program",
+              "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/generation-mining-provides-update-on-regional-exploration-program",
+              "digest_date": "2026-10-11"
+            }
+          ]
+        },
+        {
+          "title": "Mustang Completes IP Geophysical Surveys and Announces Q4 Drilling Plans for the Confusion Hills Project, Nevada, USA",
+          "description": "VANCOUVER, British Columbia, Oct. 21, 2026 (GLOBE NEWSWIRE) \u2014 Mustang Minerals Limited (\u201cMustang\u201d or the \u201cCompany\u201d) (TSX-V: MMX; OTCQB: MMXLF) is pleased to announce that IP geophysical work at both its Confusion Hills and Pilot Projects in Nevada are now com\u2026",
+          "content": "Red Ring Porphyry-Epithermal Gold-Copper Prospect, Nevada\r\nThe Red Ring prospect covers an area of hydrothermal alteration developed in volcanic rocks adjacent to carbonate rocks. Alteration mapping \u2026 [+4474 chars]",
+          "url": "https://financialpost.com/globe-newswire/mustang-completes-ip-geophysical-surveys-and-announces-q4-drilling-plans-for-the-confusion-hills-project-nevada-usa",
+          "source_name": "Financial Post",
+          "source_type": "newsapi",
+          "published_at": "2026-10-21T19:32:32Z",
+          "author": "GlobeNewswire",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "4c8fd740f7ea",
+          "summary": "VANCOUVER, British Columbia, Oct. 21, 2026 (GLOBE NEWSWIRE) \u2014 Mustang Minerals Limited (\u201cMustang\u201d or the \u201cCompany\u201d) (TSX-V: MMX; OTCQB: MMXLF) is pleased to announce that IP geophysical work at both i",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "They want your blood",
+          "description": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. It's an overcast Saturday morning when I gi\u2026",
+          "content": "<ul><li></li><li></li><li></li></ul>\r\nHealth tech companies want data from your blood in return for a vague promise of a longer life.\r\nby\r\nVictoria SongClose\r\nSenior Reviewer, Wearable Tech\r\nPosts fr\u2026 [+12433 chars]",
+          "url": "https://www.theverge.com/column/1015563/blood-death-clock-longevity-apps-health-tech",
+          "source_name": "The Verge",
+          "source_type": "newsapi",
+          "published_at": "2026-10-21T16:49:54Z",
+          "author": "Victoria Song",
+          "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268812_Everybody_wants_my_blood_CVirginia4.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "is_local_nj": false,
+          "article_id": "af215f6dadba",
+          "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "You Can\u2019t See Anything About Billy Evans\u2019s New Start-up",
+          "description": "Elizabeth Holmes\u2019s partner is in \u2018stealth\u2019 mode building Haemanthus, a health-testing company using AI and lasers. The company says it\u2019s not \u2018Theranos 2.0.\u2019",
+          "content": "Theres a lot of exposure for Elizabeth Holmess partner in the hit documentary by Nathan Fielder and Lance Oppenheim, You Can See Everything. Over nearly three hours, you see Billy Evans as a domineer\u2026 [+7411 chars]",
+          "url": "http://nymag.com/intelligencer/article/you-cant-see-anything-about-billy-evanss-haemanthus.html",
+          "source_name": "New York Magazine",
+          "source_type": "newsapi",
+          "published_at": "2026-10-21T16:23:06Z",
+          "author": "Matt Stieb",
+          "image_url": "https://pyxis.nymag.com/v1/imgs/ba0/f05/ca1672068107638429cbc42260b3a56c17-evans-holmes.1x.rsocial.w1200.jpg",
+          "is_local_nj": false,
+          "article_id": "f5e8d319ebc2",
+          "summary": "Elizabeth Holmes\u2019s partner is in \u2018stealth\u2019 mode building Haemanthus, a health-testing company using AI and lasers. The company says it\u2019s not \u2018Theranos 2.0.\u2019",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "The Fifth Estate S52E03 1080p CBC WEB-DL H264-Kitsune",
+        "url": "https://post.rlsbb.cc/the-fifth-estate-s52e03-1080p-cbc-web-dl-h264-kitsune/",
+        "source": "Rlsbb.cc",
+        "date": "2026-10-24T00:51:18Z"
+      },
+      {
+        "title": "Eric Dane Ignored This Early ALS Symptom Before Diagnosis",
+        "url": "https://www.eonline.com/news/1437435/eric-dane-ignored-first-als-symptom-with-chopsticks-pre-diagnosis-memoir",
+        "source": "Eonline.com",
+        "date": "2026-10-23T22:39:39Z"
+      },
+      {
+        "title": "bgbcalc added to PyPI",
+        "url": "https://pypi.org/project/bgbcalc/",
+        "source": "Pypi.org",
+        "date": "2026-10-23T21:42:47Z"
+      },
+      {
+        "title": "How France became ungovernable at home yet unstoppable in Brussels",
+        "url": "https://www.nrc.nl/nieuws/2026/10/23/how-france-became-ungovernable-at-home-yet-unstoppable-in-brussels-a4939616",
+        "source": "Www.nrc.nl",
+        "date": "2026-10-23T20:00:00Z"
+      },
+      {
+        "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+        "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+        "source": "Fox News",
+        "date": "2026-10-23T17:45:41Z"
+      },
+      {
+        "title": "Eric Dane Revealed First Sign of ALS Came During a Family Sushi Dinner \u2014 'I Couldn't Grip My Chopsticks'",
+        "url": "https://radaronline.com/p/eric-dane-recalls-first-sign-of-als-came-during-family-sushi-dinner/",
+        "source": "Radaronline.com",
+        "date": "2026-10-23T17:20:00Z"
+      },
+      {
+        "title": "How Women With ALS Support Each Other Through a Terminal Diagnosis",
+        "url": "https://www.popsugar.com/health/young-women-with-als-retreat-49484819",
+        "source": "POPSUGAR",
+        "date": "2026-10-23T17:00:02Z"
+      },
+      {
+        "title": "Cy Young Award Winner Steve Stone and 1983 World Series MVP Rick Dempsey Call on America's Sports Leaders to Demand Congress Fund the American Center for Cures",
+        "url": "https://www.prnewswire.com/news-releases/cy-young-award-winner-steve-stone-and-1983-world-series-mvp-rick-dempsey-call-on-americas-sports-leaders-to-demand-congress-fund-the-american-center-for-cures-302918291.html",
+        "source": "PRNewswire",
+        "date": "2026-10-23T16:17:00Z"
+      },
+      {
+        "title": "Ractigen Therapeutics Publishes Foundational Study on its Extrahepatic LiCO\u2122 Delivery Platform in Molecular Therapy - Nucleic Acids",
+        "url": "https://www.prnewswire.com/news-releases/ractigen-therapeutics-publishes-foundational-study-on-its-extrahepatic-lico-delivery-platform-in-molecular-therapy--nucleic-acids-302918125.html",
+        "source": "PRNewswire",
+        "date": "2026-10-23T13:35:00Z"
+      },
+      {
+        "title": "Astrophysics professor, 90, needed hip replacement after vile stranger shoves him off NYC subway: \u2018Who does this?\u2019",
+        "url": "https://nypost.com/2026/10/23/us-news/astrophysics-professor-90-needed-hip-replacement-after-vile-stranger-shoves-him-off-nyc-subway/",
+        "source": "New York Post",
+        "date": "2026-10-23T13:32:16Z"
+      },
+      {
+        "title": "Daredevil: Born Again: Carrie-Anne Moss on Season 3 Status & Ritter",
+        "url": "https://bleedingcool.com/tv/daredevil-born-again-carrie-anne-moss-on-season-3-status-ritter/",
+        "source": "Bleeding Cool News",
+        "date": "2026-10-23T12:37:10Z"
+      },
+      {
+        "title": "Eric Dane\u2019s Posthumous Memoir Reveals the Five Words He Gave His Daughter Every Morning",
+        "url": "https://thoughtcatalog.com/january-nelson/2026/10/eric-danes-posthumous-memoir-reveals-the-five-words-he-gave-his-daughter-every-morning/",
+        "source": "Thoughtcatalog.com",
+        "date": "2026-10-23T10:34:10Z"
+      },
+      {
+        "title": "\"Heavy Is The Crown\" von Anderson .Paak & Cordae",
+        "url": "https://laut.de/Anderson-.Paak-Cordae/Alben/Heavy-Is-The-Crown-127658",
+        "source": "Laut.de",
+        "date": "2026-10-23T08:05:06Z"
+      },
+      {
+        "title": "Super Bowl champion Marshall Faulk says he is living with Parkinson's disease",
+        "url": "https://www.foxnews.com/outkick-sports/super-bowl-champion-marshall-faulk-living-parkinsons-disease",
+        "source": "Fox News",
+        "date": "2026-10-23T02:21:22Z"
+      },
+      {
+        "title": "Marshall Faulk publicly discloses Parkinson\u2019s diagnosis: \u2018I\u2019m in a good place\u2019",
+        "url": "https://awfulannouncing.com/nfl/marshall-faulk-discloses-parkinsons-diagnosis.html",
+        "source": "Awful Announcing",
+        "date": "2026-10-23T01:30:37Z"
+      },
+      {
+        "title": "NFL Hall of Fame RB Marshall Faulk reveals Parkinson's diagnosis",
+        "url": "https://www.usatoday.com/story/sports/nfl/2026/10/22/marshall-faulk-parkinsons-disease-rams/92387558007/",
+        "source": "USA Today",
+        "date": "2026-10-22T23:47:50Z"
+      },
+      {
+        "title": "Eric Dane revealed 'weird' first sign of ALS came during family dinner: 'Suddenly I cant work my right hand'",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16229985/eric-dane-als-memoir.html",
+        "source": "Dailymail.com",
+        "date": "2026-10-22T20:35:38Z"
+      },
+      {
+        "title": "2026 World Series Betting Report: 'Long-Shot Backers Have Something to Root For'",
+        "url": "https://www.foxsports.com/stories/mlb/2026-world-series-betting-report-long-shot-backers-have-something-root-for",
+        "source": "Fox Sports",
+        "date": "2026-10-22T20:23:15Z"
+      },
+      {
+        "title": "Mark Carney shows middle powers how to handle a dangerous world",
+        "url": "https://www.nrc.nl/nieuws/2026/10/22/mark-carney-shows-middle-powers-how-to-handle-a-dangerous-world-a4939128",
+        "source": "Www.nrc.nl",
+        "date": "2026-10-22T20:00:00Z"
+      },
+      {
+        "title": "Kim Sledge Allen of Sister Sledge Calls on the Music Industry to Demand Congress Fund the American Center for Cures",
+        "url": "https://www.prnewswire.com/news-releases/kim-sledge-allen-of-sister-sledge-calls-on-the-music-industry-to-demand-congress-fund-the-american-center-for-cures-302917341.html",
+        "source": "PRNewswire",
+        "date": "2026-10-22T18:28:00Z"
+      },
+      {
+        "title": "IndyCar to race in champion Alex Palou\u2019s home country in 2027 for first European race in 20 years",
+        "url": "https://www.indystar.com/story/sports/motor/2026/10/22/indycar-schedule-2027-race-barcelona-spain-europe-champion-alex-palou-home-country/92333099007/",
+        "source": "The Indianapolis Star",
+        "date": "2026-10-22T18:07:43Z"
+      },
+      {
+        "title": "Eric Dane recalls very first sign of ALS in his posthumous memoir",
+        "url": "https://pagesix.com/2026/10/22/celebrity-news/eric-dane-details-first-als-symptom-before-diagnosis-in-posthumous-memoir/",
+        "source": "Page Six",
+        "date": "2026-10-22T17:53:37Z"
+      },
+      {
+        "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+        "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+        "source": "Page Six",
+        "date": "2026-10-22T15:53:55Z"
+      },
+      {
+        "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+        "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+        "source": "Us Weekly",
+        "date": "2026-10-22T14:05:29Z"
+      },
+      {
+        "title": "This AI Model Designs Enzymes With Atomic Precision",
+        "url": "https://singularityhub.com/2026/10/22/a-new-ai-model-designs-enzymes-with-atomic-precision/#article",
+        "source": "Singularity Hub",
+        "date": "2026-10-22T14:00:00Z"
+      },
+      {
+        "title": "Can immersive virtual reality be an alternative world for eliciting consumer willingness to pay for food?",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361063",
+        "source": "Plos.org",
+        "date": "2026-10-22T14:00:00Z"
+      },
+      {
+        "title": "Nirva raises $33 million for ambient AI pendant set to ship by year-end",
+        "url": "https://cryptobriefing.com/nirva-raises-33m-ambient-ai-pendant/",
+        "source": "Crypto Briefing",
+        "date": "2026-10-22T13:35:19Z"
+      },
+      {
+        "title": "Rebecca Gayheart opens up about Eric Dane\u2019s final moments",
+        "url": "https://abcnews.com/GMA/Culture/rebecca-gayheart-opens-eric-danes-final-moments/story?id=137471178",
+        "source": "Abcnews.com",
+        "date": "2026-10-22T13:20:06Z"
+      },
+      {
+        "title": "Liberty Gold Reports Initial Drill Results from its 2026 Drill Program at Black Pine, Idaho, USA",
+        "url": "https://financialpost.com/globe-newswire/liberty-gold-reports-initial-drill-results-from-its-2026-drill-program-at-black-pine-idaho-usa",
+        "source": "Financial Post",
+        "date": "2026-10-22T10:10:44Z"
+      },
+      {
+        "title": "kskimlab added to PyPI",
+        "url": "https://pypi.org/project/kskimlab/",
+        "source": "Pypi.org",
+        "date": "2026-10-22T07:39:09Z"
+      },
+      {
+        "title": "Ferrer and Prilenia Announce Authorization for EU Initiation of Confirmatory PRECISE-HD Study of Pridopidine in Huntington\u2019s Disease",
+        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ferrer-and-prilenia-announce-authorization-for-eu-initiation-of-confirmatory-precise-hd-study-of-pridopidine-in-huntingtons-disease",
+        "source": "Financial Post",
+        "date": "2026-10-22T07:04:33Z"
+      },
+      {
+        "title": "Ready. Set. Run! Time for the RDC Marathon in Durham; Supports ALS research",
+        "url": "https://abc11.com/post/runners-gear-rdc-marathon-durham-fundraiser-als/19967160/",
+        "source": "WTVD-TV",
+        "date": "2026-10-22T03:13:17Z"
+      },
+      {
+        "title": "Molecular functions, cellular responses and pathological implications of the RNA modification N6-methyladenosine",
+        "url": "https://www.nature.com/articles/s41580-026-01039-y",
+        "source": "Nature.com",
+        "date": "2026-10-22T00:00:00Z"
+      },
+      {
+        "title": "Tau isoform mapping across tissues and biofluids reveals a signature distinguishing Alzheimer\u2019s disease from amyotrophic lateral sclerosis",
+        "url": "https://www.nature.com/articles/s41467-026-78390-3",
+        "source": "Nature.com",
+        "date": "2026-10-22T00:00:00Z"
+      },
+      {
+        "title": "Israel\u2019s election overseer on how to stop AI distorting votes",
+        "url": "https://www.nrc.nl/nieuws/2026/10/21/israels-election-overseer-on-how-to-stop-ai-distorting-votes-a4939127",
+        "source": "Www.nrc.nl",
+        "date": "2026-10-21T20:00:00Z"
+      },
+      {
+        "title": "bruise-data added to PyPI",
+        "url": "https://pypi.org/project/bruise-data/",
+        "source": "Pypi.org",
+        "date": "2026-10-21T19:42:16Z"
+      },
+      {
+        "title": "Almadex Expands Claim Block at New Hope, Provides Exploration Update",
+        "url": "https://financialpost.com/globe-newswire/almadex-expands-claim-block-at-new-hope-provides-exploration-update",
+        "source": "Financial Post",
+        "date": "2026-10-21T19:33:57Z"
+      },
+      {
+        "title": "Mustang Completes IP Geophysical Surveys and Announces Q4 Drilling Plans for the Confusion Hills Project, Nevada, USA",
+        "url": "https://financialpost.com/globe-newswire/mustang-completes-ip-geophysical-surveys-and-announces-q4-drilling-plans-for-the-confusion-hills-project-nevada-usa",
+        "source": "Financial Post",
+        "date": "2026-10-21T19:32:32Z"
+      },
+      {
+        "title": "They want your blood",
+        "url": "https://www.theverge.com/column/1015563/blood-death-clock-longevity-apps-health-tech",
+        "source": "The Verge",
+        "date": "2026-10-21T16:49:54Z"
+      },
+      {
+        "title": "You Can\u2019t See Anything About Billy Evans\u2019s New Start-up",
+        "url": "http://nymag.com/intelligencer/article/you-cant-see-anything-about-billy-evanss-haemanthus.html",
+        "source": "New York Magazine",
+        "date": "2026-10-21T16:23:06Z"
+      }
+    ],
+    "generated_at": "2026-10-25T12:59:56.989962"
+  },
+  {
     "date": "2026-10-18",
     "week_of": "October 18, 2026",
     "digest_number": 42,
