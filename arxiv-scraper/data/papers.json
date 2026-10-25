@@ -1,5 +1,26 @@
 [
   {
+    "id": "2610.31165v1",
+    "title": "Network topology shapes consensus and vulnerability in LLM populations",
+    "summary": "As large language models (LLMs) are deployed in interacting populations, their collective behaviour depends not only on the models but also on who interacts with whom. Studies of convention formation in LLM populations have mainly tested well-mixed interactions. We place policies extracted from four LLMs on fully connected, random regular, and heterogeneous networks, with $10^3$ to $10^5$ agents playing the naming game. Topology affects how quickly consensus emerges, sometimes whether it emerges at all, and, in rare cases, which convention wins. Sparsest networks slow consensus up to twelvefold. Yet, by preserving correlations between persistent neighbours, they restore consensus in some cases that fail to converge under well-mixed interactions. Networks also govern vulnerability to adversarial attack. We measure the critical mass of committed agents needed to overturn an established convention. Tipping thresholds follow the same ordering across models and conditions: hubs $\\leq$ random $\\leq$ low-degree nodes. On the most heterogeneous topology, median critical masses are 3%, 16%, and 35%, respectively; targeting hubs requires one-sixth as many committed agents as random placement. For most models, networked populations are easier to tip than well-mixed ones, so well-mixed estimates can overstate robustness. Assessing the safety of multi-agent AI requires mapping who interacts with whom.",
+    "published": "2026-10-22T12:22:40Z",
+    "link": "http://arxiv.org/abs/2610.31165v1",
+    "authors": [
+      "Roberto Passaro",
+      "Ariel Flint",
+      "Romualdo Pastor-Satorras",
+      "Andrea Baronchelli",
+      "Luca Maria Aiello"
+    ],
+    "categories": [
+      "physics.soc-ph",
+      "cs.AI",
+      "cs.CY"
+    ],
+    "ai_summary": "As large language models (LLMs) are deployed in interacting populations, their collective behaviour depends not only on the models but also on who interacts with whom. Studies of convention formation in LLM populations have mainly tested well-mixed interactions.",
+    "selected_date": "2026-10-25"
+  },
+  {
     "id": "2610.30914v1",
     "title": "MIG-COW: Transferable Adversarial Attacks on Deepfake Detectors via Gradient Decomposition",
     "summary": "Despite recent advances, deepfake detectors remain vulnerable to adversarial examples, particularly in diverse, real-world settings. We propose MIG-COW, a novel adversarial attack framework that generates highly generalizable and visually imperceptible adversarial examples. By combining momentum-integrated gradients with a consensus-orthogonal decomposition, MIG-COW captures both shared and model-specific vulnerabilities across heterogeneous CNN and ViT detectors. On the AADD-2025 Challenge benchmarks, MIG-COW achieves a 99.96% white-box attack success rate (ASR) with high perceptual similarity (SSIM), significantly outperforming existing baselines. However, its limited 7.16% ASR against official black-box targets - despite achieving the best overall score - highlights the ongoing challenge of transferability. We also demonstrate that incorporating low-performing but diverse models in the ensemble can degrade attack effectiveness, underscoring the need for careful surrogate model selection in real-world adversarial settings.",
@@ -570,30 +591,5 @@
     ],
     "ai_summary": "Static malware detection for Windows Portable Executable files demands a careful balance between detection effectiveness, computational efficiency, and analytical interpretability. This paper introduces Delphi Scanner, a static malware detection system for Windows PE files that balances efficiency with behavioral interpretation.",
     "selected_date": "2026-09-20"
-  },
-  {
-    "id": "2609.20601v1",
-    "title": "Weather Data Spoofing Attacks on Rain-Adaptive Millimeter-Wave Frequency Selection in V2X Communication Networks",
-    "summary": "Connected vehicles use millimeter-wave (mmWave) sidelinks for the data rates cooperative driving demands, and emerging designs select the carrier band from sensed rainfall. We show that this weather awareness is an attack surface: an adversary who spoofs only the rainfall input dictates the victim's carrier frequency, and through it its communication range, without transmitting on the channel. We evaluate the attack in MilliCar, an ns-3 module that runs the selected band as the real 3GPP NR V2X carrier with per-band propagation, beamforming, and blockage. Forcing the band up to 73 GHz holds an eight-vehicle platoon's reliable range at 38 m while the honest baseline doubles it to 82 m; forcing it down to 5 GHz sustains 97% long-range reception but collapses the transport block to a third and quadruples long-range latency to 12.5 ms. We then implement the defense the mechanism implies. Rain loss grows linearly with distance while path loss grows logarithmically, so a receiver that tests measured SINR against the attenuation its reported weather predicts flags force-up with 98% probability within 1.5 s at a 1% false-alarm rate, and re-selection then restores long-range reception from 60% to 75%. The same test is structurally blind to force-down, because the 5 GHz fallback is nearly rain-immune. An advecting rain cell that swings the local rate from 15 to 81 mm/h leaves every result unchanged. Weather-aware band selection therefore requires an authenticated meteorological input; physical cross-checking covers one half of the threat.",
-    "published": "2026-09-17T15:49:11Z",
-    "link": "http://arxiv.org/abs/2609.20601v1",
-    "authors": [
-      "Rasheed Bello",
-      "Idreez Yusuf",
-      "Justice Adjei Owusu",
-      "Oluwatobiloba Aiyewunmi",
-      "Gurcan Comert",
-      "Judith Mwakalonge",
-      "Esmail Abuhdima",
-      "Abdulmajid Mrebit",
-      "Rajab Ataai",
-      "Vaidyan Varghese"
-    ],
-    "categories": [
-      "cs.CR",
-      "eess.SY"
-    ],
-    "ai_summary": "Connected vehicles use millimeter-wave (mmWave) sidelinks for the data rates cooperative driving demands, and emerging designs select the carrier band from sensed rainfall. We show that this weather awareness is an attack surface: an adversary who spoofs only the rainfall input dictates the victim's carrier frequency, and through it its communication range, without transmitting on the channel.",
-    "selected_date": "2026-09-19"
   }
 ]
