@@ -1,5 +1,25 @@
 [
   {
+    "id": "2610.32626v1",
+    "title": "Privacy-Preserving Federated Loss Exploration for Vision-Based Perception under Non-IID Data",
+    "summary": "Vision-based image classification models benefit from Federated Learning (FL) across vehicles, however learning accurate models from distributed vehicular cameras is challenging due to data heterogeneity and privacy concerns. To improve performance on non-IID data, advanced FL optimization approaches have emerged that share auxiliary insights, such as client gradient behaviors. While these gradient-guided optimized FL methods improve the model accuracy, their reliance on sharing additional gradient information introduces a previously unexplored privacy vulnerability. In our empirical privacy-leakage experiment, we show that a malicious server can infer clients' label sets from shared guidance matrices under heterogeneous client label distributions (simulated via Dirichlet-based label partitions), between 50% and 84% accuracy. To address this privacy leakage, we propose PPFLex that replaces the central server with three Secure Multi-Party Computation (MPC) servers to securely compute the global guidance matrix and perform federated averaging under semi-honest and malicious MPC server assumptions. We evaluate PPFLex on widely used traffic-sign classification datasets (e.g., GTSRB and BTSC) as representative autonomous vehicle perception benchmarks, comparing against baselines. Our results show that PPFLex achieves accuracy comparable to the plain-text FedLEx pipeline while preventing privacy leakage, incurring acceptable MPC overhead.",
+    "published": "2026-10-23T13:41:37Z",
+    "link": "http://arxiv.org/abs/2610.32626v1",
+    "authors": [
+      "Nergiz Yuca",
+      "Christian Intern\u00f2",
+      "Nikolay Matyunin",
+      "Markus Olhofer",
+      "Barbara Hammer",
+      "Stefan Katzenbeisser"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Vision-based image classification models benefit from Federated Learning (FL) across vehicles, however learning accurate models from distributed vehicular cameras is challenging due to data heterogeneity and privacy concerns. To improve performance on non-IID data, advanced FL optimization approaches have emerged that share auxiliary insights, such as client gradient behaviors.",
+    "selected_date": "2026-10-26"
+  },
+  {
     "id": "2610.31165v1",
     "title": "Network topology shapes consensus and vulnerability in LLM populations",
     "summary": "As large language models (LLMs) are deployed in interacting populations, their collective behaviour depends not only on the models but also on who interacts with whom. Studies of convention formation in LLM populations have mainly tested well-mixed interactions. We place policies extracted from four LLMs on fully connected, random regular, and heterogeneous networks, with $10^3$ to $10^5$ agents playing the naming game. Topology affects how quickly consensus emerges, sometimes whether it emerges at all, and, in rare cases, which convention wins. Sparsest networks slow consensus up to twelvefold. Yet, by preserving correlations between persistent neighbours, they restore consensus in some cases that fail to converge under well-mixed interactions. Networks also govern vulnerability to adversarial attack. We measure the critical mass of committed agents needed to overturn an established convention. Tipping thresholds follow the same ordering across models and conditions: hubs $\\leq$ random $\\leq$ low-degree nodes. On the most heterogeneous topology, median critical masses are 3%, 16%, and 35%, respectively; targeting hubs requires one-sixth as many committed agents as random placement. For most models, networked populations are easier to tip than well-mixed ones, so well-mixed estimates can overstate robustness. Assessing the safety of multi-agent AI requires mapping who interacts with whom.",
@@ -570,26 +590,5 @@
     ],
     "ai_summary": "Malware detection is a critical task in cybersecurity, and graph neural networks over control flow graphs have shown promising results for it. However, detectors are usually evaluated on a random split of a corpus collected over a single period, which cannot show how well a model generalizes to later samples.",
     "selected_date": "2026-09-22"
-  },
-  {
-    "id": "2609.19900v1",
-    "title": "Delphi Scanner: efficient and interpretable static malware detection via API sequence modeling",
-    "summary": "Static malware detection for Windows Portable Executable files demands a careful balance between detection effectiveness, computational efficiency, and analytical interpretability. This paper introduces Delphi Scanner, a static malware detection system for Windows PE files that balances efficiency with behavioral interpretation. It uses a convolutional neural network (CNN) to model Windows API sequences to classify PE and a decoupled interpretation layer based on a rule-based layer to categorize APIs into high-level malicious capabilities. Evaluated on over 190,000 Windows PE files, the system achieves 95.35% accuracy with a 1.53~MB model footprint. Robustness experiments on 5,647 out-of-distribution MalwareBazaar samples, paired packed and unpacked executables, and three adversarial manipulation strategies confirm generalization beyond the training distribution and resistance to functionality-preserving evasion techniques. Overall, these results demonstrate that API sequence-based static analysis offers a practical, interpretable, and efficient foundation for malware triage in local deployment scenarios.",
-    "published": "2026-09-17T08:45:30Z",
-    "link": "http://arxiv.org/abs/2609.19900v1",
-    "authors": [
-      "Bijied Brahimi",
-      "Vincent Cohadon",
-      "Gabriel Glazman",
-      "Rayan Al Mohaize",
-      "Omran Berjawi",
-      "Rida Khatoun"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.LG"
-    ],
-    "ai_summary": "Static malware detection for Windows Portable Executable files demands a careful balance between detection effectiveness, computational efficiency, and analytical interpretability. This paper introduces Delphi Scanner, a static malware detection system for Windows PE files that balances efficiency with behavioral interpretation.",
-    "selected_date": "2026-09-20"
   }
 ]
