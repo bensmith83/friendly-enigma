@@ -1,5 +1,27 @@
 [
   {
+    "id": "2610.35071v1",
+    "title": "GuardRAG: A Post-Retrieval Defense against Poisoning Attacks in Retrieval-Augmented Generation",
+    "summary": "Retrieval-Augmented Generation (RAG) enhances the factual grounding of Large Language Models (LLMs) by incorporating external evidence, but also exposes them to corpus poisoning attacks. In particular, coordinated attacks can introduce multiple mutually reinforcing poisoned documents into retrieved contexts, making reliable evidence filtering challenging. To address this problem, we propose GuardRAG, a training-free and plug-and-play post-retrieval defense that exploits the semantic structure of retrieved evidence to identify suspicious document groups. Specifically, GuardRAG first expands the retrieval range and removes near-duplicate candidates, then partitions the retained documents using Hierarchical Agglomerative Clustering (HAC) with a query-adaptive threshold. Finally, it scores and prunes suspicious clusters based on query relevance, cluster size, and semantic compactness. Experiments across three question-answering datasets, multiple poisoning attacks, and six LLMs demonstrate that GuardRAG substantially reduces attack success rates while maintaining answer utility under clean retrieval.",
+    "published": "2026-10-26T09:17:29Z",
+    "link": "http://arxiv.org/abs/2610.35071v1",
+    "authors": [
+      "Linghui Jiao",
+      "Kang Wei",
+      "Fushuo Huo",
+      "Ruijie Zhao",
+      "Yiyang Ni",
+      "Jingcai Guo",
+      "Yipeng Zhou",
+      "Jun Li"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Retrieval-Augmented Generation (RAG) enhances the factual grounding of Large Language Models (LLMs) by incorporating external evidence, but also exposes them to corpus poisoning attacks. In particular, coordinated attacks can introduce multiple mutually reinforcing poisoned documents into retrieved contexts, making reliable evidence filtering challenging.",
+    "selected_date": "2026-10-27"
+  },
+  {
     "id": "2610.32626v1",
     "title": "Privacy-Preserving Federated Loss Exploration for Vision-Based Perception under Non-IID Data",
     "summary": "Vision-based image classification models benefit from Federated Learning (FL) across vehicles, however learning accurate models from distributed vehicular cameras is challenging due to data heterogeneity and privacy concerns. To improve performance on non-IID data, advanced FL optimization approaches have emerged that share auxiliary insights, such as client gradient behaviors. While these gradient-guided optimized FL methods improve the model accuracy, their reliance on sharing additional gradient information introduces a previously unexplored privacy vulnerability. In our empirical privacy-leakage experiment, we show that a malicious server can infer clients' label sets from shared guidance matrices under heterogeneous client label distributions (simulated via Dirichlet-based label partitions), between 50% and 84% accuracy. To address this privacy leakage, we propose PPFLex that replaces the central server with three Secure Multi-Party Computation (MPC) servers to securely compute the global guidance matrix and perform federated averaging under semi-honest and malicious MPC server assumptions. We evaluate PPFLex on widely used traffic-sign classification datasets (e.g., GTSRB and BTSC) as representative autonomous vehicle perception benchmarks, comparing against baselines. Our results show that PPFLex achieves accuracy comparable to the plain-text FedLEx pipeline while preventing privacy leakage, incurring acceptable MPC overhead.",
@@ -571,24 +593,5 @@
     ],
     "ai_summary": "The use of malicious domains is central to cyberattacks such as phishing, malware distribution, impersonation, and fraudulent transactions. Because domains are inexpensive to register and easy to deploy at scale, they remain one of the most common and damaging tools used in cybercrime across industries.",
     "selected_date": "2026-09-23"
-  },
-  {
-    "id": "2609.24280v1",
-    "title": "Temporal Generalization and Explanation Stability of Control Flow Graph Neural Networks for Malware Detection",
-    "summary": "Malware detection is a critical task in cybersecurity, and graph neural networks over control flow graphs have shown promising results for it. However, detectors are usually evaluated on a random split of a corpus collected over a single period, which cannot show how well a model generalizes to later samples. This study addresses that limitation with a strict temporal split: every model is trained on one period and scored once on a later one. Two corpora of control flow graphs, each node carrying 37 features, were extracted statically from 1,989 Windows portable executables: 459 graphs from 2024-2025 for training and 223 from 2026 for evaluation. Twelve variants and a flat-feature control were trained on the earlier corpus. The choice of message-passing operator changes robustness to the shift significantly, and every pairwise gap that survives correction separates an aggregating architecture from one built around a learned attentional readout. The ranking also reverses: the flat control, which sees node features but no topology, is the best in-distribution model and among the worst across the boundary, so a conventional benchmark would have rejected message passing. Neither recalibration nor ensembling substitutes for the operator choice. Attributions do not shift, but explanation validity is architecture-specific, and the most accurate operator on the later corpus is the hardest to explain. An architecture derived from the finding matches the best searched operator without search. The shift affects both malware and benign classes alike, so these are results about robustness to distribution shift, not malware evolution.",
-    "published": "2026-09-21T08:43:36Z",
-    "link": "http://arxiv.org/abs/2609.24280v1",
-    "authors": [
-      "Md. Asif Sajeed",
-      "Md. Nazrul Islam Mondal",
-      "Md Ashraful Hossen Akash"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "ai_summary": "Malware detection is a critical task in cybersecurity, and graph neural networks over control flow graphs have shown promising results for it. However, detectors are usually evaluated on a random split of a corpus collected over a single period, which cannot show how well a model generalizes to later samples.",
-    "selected_date": "2026-09-22"
   }
 ]
