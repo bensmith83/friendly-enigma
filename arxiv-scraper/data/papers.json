@@ -1,5 +1,22 @@
 [
   {
+    "id": "2610.37488v1",
+    "title": "Revisiting Privacy Risks in Quantized Deep Neural Networks",
+    "summary": "Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored. In this paper, we present the first comprehensive empirical study of privacy risks in quantized DNNs, evaluating eight state-of-the-art MIA attacks across six representative quantization methods. Our results reveal that practical quantization levels (4-8 bits) have limited impact on membership privacy risks, with quantized models remaining largely as vulnerable as their full-precision counterparts. Although aggressive low-bit quantization (e.g., 2-bit) can provide meaningful privacy gains, these benefits come at the cost of substantial utility degradation. To understand the underlying causes of these observations, we systematically analyze how different quantization strategies affect model behaviors and outputs, and how these changes influence privacy vulnerability. Beyond evaluating attack risks, we further investigate whether existing privacy defenses developed for full-precision DNNs can effectively protect QNNs. Our results show that these defenses provide only limited additional privacy protection when applied to quantized models, while further amplifying utility degradation. Our study provides practical guidance for privacy-aware deployment of quantized DNNs and motivates the development of new attack and defense mechanisms for QNNs. Our code and datasets are publicly available at https://github.com/JeffffffFu/Priv-QDNN.",
+    "published": "2026-10-27T16:14:21Z",
+    "link": "http://arxiv.org/abs/2610.37488v1",
+    "authors": [
+      "Jie Fu",
+      "Ren Li",
+      "Wendy Hui Wang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored.",
+    "selected_date": "2026-10-28"
+  },
+  {
     "id": "2610.35071v1",
     "title": "GuardRAG: A Post-Retrieval Defense against Poisoning Attacks in Retrieval-Augmented Generation",
     "summary": "Retrieval-Augmented Generation (RAG) enhances the factual grounding of Large Language Models (LLMs) by incorporating external evidence, but also exposes them to corpus poisoning attacks. In particular, coordinated attacks can introduce multiple mutually reinforcing poisoned documents into retrieved contexts, making reliable evidence filtering challenging. To address this problem, we propose GuardRAG, a training-free and plug-and-play post-retrieval defense that exploits the semantic structure of retrieved evidence to identify suspicious document groups. Specifically, GuardRAG first expands the retrieval range and removes near-duplicate candidates, then partitions the retained documents using Hierarchical Agglomerative Clustering (HAC) with a query-adaptive threshold. Finally, it scores and prunes suspicious clusters based on query relevance, cluster size, and semantic compactness. Experiments across three question-answering datasets, multiple poisoning attacks, and six LLMs demonstrate that GuardRAG substantially reduces attack success rates while maintaining answer utility under clean retrieval.",
@@ -574,24 +591,5 @@
     ],
     "ai_summary": "Cyber threats targeting mission-critical infrastructure are becoming more sophisticated while the barrier to launching attacks continues to fall. Traditional point solutions like antivirus and firewalls are reactive and fail to address the combinatorial complexity of modern attack surfaces.",
     "selected_date": "2026-09-29"
-  },
-  {
-    "id": "2609.25882v1",
-    "title": "COBRA: A Content-Agnostic Framework for Zero-Day Detection of Suspicious Domains",
-    "summary": "The use of malicious domains is central to cyberattacks such as phishing, malware distribution, impersonation, and fraudulent transactions. Because domains are inexpensive to register and easy to deploy at scale, they remain one of the most common and damaging tools used in cybercrime across industries. Proactive detection is essential to reducing this window of vulnerability and preventing harm to users. In this work, we propose COBRA: a content-agnostic, registration-time detection framework for identifying and analyzing suspicious domains from day zero. Our approach does not rely on any content-based features, allowing us to classify a domain even before it is populated with content. We analyze the names of newly registered domains and employ a clustering technique to group them based on lexical and structural similarity. We evaluate our methodology using real-world data consisting of 1.5M newly created domains, demonstrating that COBRA detects suspicious domains with a precision of 98.5%, identifying more than 47K distinct newly registered suspicious domains. Furthermore, our results show that domain-name clustering enables accurate early detection, allowing us to identify 80% of suspicious or malicious domains earlier than one of the most widely used threat-intelligence services, which in some cases may require up to 7 days.",
-    "published": "2026-09-22T08:48:08Z",
-    "link": "http://arxiv.org/abs/2609.25882v1",
-    "authors": [
-      "Alexandros Fourtounis",
-      "Emmanouil Papadogiannakis",
-      "Panagiotis Papadopoulos",
-      "Nicolas Kourtellis",
-      "Evangelos Markatos"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "The use of malicious domains is central to cyberattacks such as phishing, malware distribution, impersonation, and fraudulent transactions. Because domains are inexpensive to register and easy to deploy at scale, they remain one of the most common and damaging tools used in cybercrime across industries.",
-    "selected_date": "2026-09-23"
   }
 ]
