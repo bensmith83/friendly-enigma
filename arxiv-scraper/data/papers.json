@@ -1,5 +1,30 @@
 [
   {
+    "id": "2610.37657v1",
+    "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+    "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions. We evaluate HoS on Llama-3.3-70B-Instruct and GPT-OSS-20B. We compare it against SecAlign++, a state-of-the-art finetuning-based defense, and ASIDE, a defense that, like ours, builds instruction-data separation into the model architecture. We show that HoS offers greater robustness to adaptive attacks, better performance on standard utility benchmarks, and matches top performance on standard agentic prompt injection benchmarks. More specifically, the black-box RL-Hammer attack reaches 97% ASR against GPT-OSS-20B and 85% against SecAlign, but only 10% against HoS. Claudini, a state-of-the-art white-box attack, strengthened against HoS through autoresearch, requires 3 times more FLOPs to reach the same ASR on HoS as it does on GPT-OSS-20B or SecAlign. HoS preserves base-model utility across standard multiple-choice benchmarks and prompting setups, whereas SecAlign and ASIDE degrade in few-shot settings. On agentic benchmarks with static attacks, HoS and SecAlign perform similarly and substantially improve the security-utility trade-off over the base model. ASIDE struggles with tool use, achieving only 10% utility. These results show that prompt injection robustness can be achieved and improved through targeted attention interventions.",
+    "published": "2026-10-27T17:58:52Z",
+    "link": "http://arxiv.org/abs/2610.37657v1",
+    "authors": [
+      "Igor Shilov",
+      "Xiaoxue Yang",
+      "Alexander Panfilov",
+      "Evgenii Kortukov",
+      "Matthieu Meeus",
+      "Peter Romov",
+      "Wojciech Samek",
+      "Jonas Geiping",
+      "Yves-Alexandre de Montjoye"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "ai_summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions.",
+    "selected_date": "2026-10-29"
+  },
+  {
     "id": "2610.37488v1",
     "title": "Revisiting Privacy Risks in Quantized Deep Neural Networks",
     "summary": "Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored. In this paper, we present the first comprehensive empirical study of privacy risks in quantized DNNs, evaluating eight state-of-the-art MIA attacks across six representative quantization methods. Our results reveal that practical quantization levels (4-8 bits) have limited impact on membership privacy risks, with quantized models remaining largely as vulnerable as their full-precision counterparts. Although aggressive low-bit quantization (e.g., 2-bit) can provide meaningful privacy gains, these benefits come at the cost of substantial utility degradation. To understand the underlying causes of these observations, we systematically analyze how different quantization strategies affect model behaviors and outputs, and how these changes influence privacy vulnerability. Beyond evaluating attack risks, we further investigate whether existing privacy defenses developed for full-precision DNNs can effectively protect QNNs. Our results show that these defenses provide only limited additional privacy protection when applied to quantized models, while further amplifying utility degradation. Our study provides practical guidance for privacy-aware deployment of quantized DNNs and motivates the development of new attack and defense mechanisms for QNNs. Our code and datasets are publicly available at https://github.com/JeffffffFu/Priv-QDNN.",
@@ -570,26 +595,5 @@
     ],
     "ai_summary": "Generative models for function-valued data, such as time series and solutions of partial differential equations, must learn distributions over infinite-dimensional spaces. Functional Flow Matching (FFM) extends Flow Matching to this setting, learning a velocity field whose flow transports a Gaussian prior to the data distribution, but it inherits the independent endpoint pairing of standard Flow Matching: in each batch, prior and data samples are matched arbitrarily, so the conditional bridge must traverse both the shared global structure of the dataset and instance-specific residuals.",
     "selected_date": "2026-09-30"
-  },
-  {
-    "id": "2609.35414v1",
-    "title": "AI-Based Vulnerability Assessment Capability and Cyber Attack Graph Analysis",
-    "summary": "Cyber threats targeting mission-critical infrastructure are becoming more sophisticated while the barrier to launching attacks continues to fall. Traditional point solutions like antivirus and firewalls are reactive and fail to address the combinatorial complexity of modern attack surfaces. This paper presents an investigation combining two complementary methodologies: Lockheed Martin's Vortex/Crow framework, which applies multi-agent reinforcement learning (MARL) over industry-standard cyber knowledge graph to identify and prioritize attack vectors and TTPs (tactics, techniques, and procedures); and Aalto's probabilistic attack graph model that combines network topology and its vulnerabilities to compute system-level risk metrics. The 2015 Ukraine Power Grid cyberattack serves as a well-documented validation scenario. Applied independently to the same operational technology (OT) network topology, both methodologies converge on the same attack vectors and exploit sequences as those documented in the incident record, thus providing mutual cross-validation. Attack graph analyses using node-level elimination experiments identify industrial control systems (ICS) as the most critical enablers of attack propagation, representing high-priority targets for defensive hardening. Comparison of CVSS (v2.0) and IronMiner vulnerability scoring yields in general consistent results, with IronMiner providing more actionable differentiation at network periphery nodes. The layered methodology of baseline assessment and node-level elimination proves to be scalable to large enterprise networks, thus offering defenders a structured, AI-enabled path to prioritize mitigation under realistic time and resource constraints.",
-    "published": "2026-09-28T15:29:22Z",
-    "link": "http://arxiv.org/abs/2609.35414v1",
-    "authors": [
-      "Joni Herttuainen",
-      "Kirsi Hellsten",
-      "Vesa Kuikka",
-      "Ambrose Kam",
-      "Arlanda Johnson",
-      "David Welsh",
-      "Kimmo K. Kaski"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Cyber threats targeting mission-critical infrastructure are becoming more sophisticated while the barrier to launching attacks continues to fall. Traditional point solutions like antivirus and firewalls are reactive and fail to address the combinatorial complexity of modern attack surfaces.",
-    "selected_date": "2026-09-29"
   }
 ]
