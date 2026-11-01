@@ -15,6 +15,24 @@
       "cs.CR"
     ],
     "ai_summary": "Indirect prompt injection threatens local LLM agents through untrusted tool outputs, motivating defenses that suppress attacks while preserving task evidence under limited inference budgets. We introduce SEAL, which learns a soft prompt and scoring readout offline to sanitize tool outputs using a frozen task model.",
+    "selected_date": "2026-11-01"
+  },
+  {
+    "id": "2610.39758v1",
+    "title": "SEAL: Sealed Queries for Local Sanitization against Indirect Prompt Injection",
+    "summary": "Indirect prompt injection threatens local LLM agents through untrusted tool outputs, motivating defenses that suppress attacks while preserving task evidence under limited inference budgets. We introduce SEAL, which learns a soft prompt and scoring readout offline to sanitize tool outputs using a frozen task model. SEAL constructs scoring queries from trusted initial context and the learned prompt, keeping the reference independent of inspected tool text. It scores tokens without normalization across context tokens and uses preservation regularization to encourage retention of useful evidence during localized deletion. This design requires neither defense-generated tokens nor a separate verifier model. Across AgentDojo and AgentDyn, SEAL suppresses attacks while improving task completion under attack. Specifically, on AgentDojo, SEAL reduces attack success from 34.6\\% to 0.1\\% and increases Joint---task completion without attack success---from 51.4\\% to 77.5\\%, while using approximately $127\\times$ fewer defense-related tokens than PISanitizer, a state-of-the-art prompt injection defense. Replication on a second backbone with the same training recipe supports applicability across model families.",
+    "published": "2026-10-29T10:11:51Z",
+    "link": "http://arxiv.org/abs/2610.39758v1",
+    "authors": [
+      "Doohyun Kim",
+      "Donghwa Kang",
+      "Mingyu Jun",
+      "Brent ByungHoon Kang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Indirect prompt injection threatens local LLM agents through untrusted tool outputs, motivating defenses that suppress attacks while preserving task evidence under limited inference budgets. We introduce SEAL, which learns a soft prompt and scoring readout offline to sanitize tool outputs using a frozen task model.",
     "selected_date": "2026-10-31"
   },
   {
@@ -576,23 +594,5 @@
     ],
     "ai_summary": "Ransomware has emerged as a major cybersecurity threat, with incidents increasing in frequency and impact across critical sectors. These attacks are typically launched through phishing emails, malicious downloads, or exploitation of software vulnerabilities to gain system access.",
     "selected_date": "2026-10-03"
-  },
-  {
-    "id": "2610.02000v1",
-    "title": "Weather-Aware Domain Adaptation for Street-View Weather Recognition",
-    "summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes. We propose Weather-Aware Adversarial Discriminative Domain Adaptation (WA-ADDA), which conditions the domain discriminator on predicted weather to promote features that are both domain-invariant and weather-sensitive. We also assemble a multi-dataset benchmark by unifying diverse non-street-view weather collections as sources and real street-view images as targets, and define a standardized evaluation protocol with macro accuracy as the primary metric. Across backbones (ResNet-50, EfficientNet, VGG, DenseNet), WA-ADDA consistently improves street-view performance and yields strong per-class recalls in challenging conditions while preserving clear-weather accuracy. These findings highlight the feasibility of domain-adapted weather recognition and the value of our benchmark for advancing robust, on-board perception.",
-    "published": "2026-10-01T16:31:43Z",
-    "link": "http://arxiv.org/abs/2610.02000v1",
-    "authors": [
-      "Hossein Maghsoumi",
-      "George Atia",
-      "Yaser P. Fallah"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.LG"
-    ],
-    "ai_summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes.",
-    "selected_date": "2026-10-02"
   }
 ]
