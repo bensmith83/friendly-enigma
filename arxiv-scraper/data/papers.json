@@ -1,5 +1,26 @@
 [
   {
+    "id": "2610.41885v1",
+    "title": "How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces",
+    "summary": "Large language model (LLM)-based agents interact with external tools through protocols such as the Model Context Protocol (MCP), producing tool-call traces that may expose behavioral signals about users. In this work, we systematically study the risk of user-profile inference from MCP tool-call traces, where observers infer user attributes from protocol-valid tool interactions without access to user conversations. We introduce PrivacyTrace, a benchmark containing 1,000 synthetic user profiles and 4,000 agent trajectories across four domains, generated with real MCP tools from 25 servers. Experiments with four mainstream LLM attackers show that tool-call traces enable a 26.25% attack success rate for profile inference, compared with 17.97% from prior-based guessing. Further analysis reveals that tool arguments and returned results provide the main trace-grounded evidence, while linking traces across sessions further amplifies profiling risk. These findings demonstrate that MCP tool-call traces can act as effective behavioral side channels for user profiling, motivating the development of privacy-aware mechanisms for agent-tool interactions. Code and data are available at https://github.com/AI45Lab/PrivacyTrace.",
+    "published": "2026-10-30T15:30:23Z",
+    "link": "http://arxiv.org/abs/2610.41885v1",
+    "authors": [
+      "Donghang Duan",
+      "Qingyu Liu",
+      "Yifei Liu",
+      "Na Zou",
+      "Xia Hu",
+      "Dongrui Liu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "ai_summary": "Large language model (LLM)-based agents interact with external tools through protocols such as the Model Context Protocol (MCP), producing tool-call traces that may expose behavioral signals about users. In this work, we systematically study the risk of user-profile inference from MCP tool-call traces, where observers infer user attributes from protocol-valid tool interactions without access to user conversations.",
+    "selected_date": "2026-11-02"
+  },
+  {
     "id": "2610.39758v1",
     "title": "SEAL: Sealed Queries for Local Sanitization against Indirect Prompt Injection",
     "summary": "Indirect prompt injection threatens local LLM agents through untrusted tool outputs, motivating defenses that suppress attacks while preserving task evidence under limited inference budgets. We introduce SEAL, which learns a soft prompt and scoring readout offline to sanitize tool outputs using a frozen task model. SEAL constructs scoring queries from trusted initial context and the learned prompt, keeping the reference independent of inspected tool text. It scores tokens without normalization across context tokens and uses preservation regularization to encourage retention of useful evidence during localized deletion. This design requires neither defense-generated tokens nor a separate verifier model. Across AgentDojo and AgentDyn, SEAL suppresses attacks while improving task completion under attack. Specifically, on AgentDojo, SEAL reduces attack success from 34.6\\% to 0.1\\% and increases Joint---task completion without attack success---from 51.4\\% to 77.5\\%, while using approximately $127\\times$ fewer defense-related tokens than PISanitizer, a state-of-the-art prompt injection defense. Replication on a second backbone with the same training recipe supports applicability across model families.",
@@ -573,26 +594,5 @@
     ],
     "ai_summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes.",
     "selected_date": "2026-10-04"
-  },
-  {
-    "id": "2610.01949v1",
-    "title": "A Hybrid Approach to Malware Detection: Integrating Few-Shot Model-Agnostic Meta-Learning with Autoencoders",
-    "summary": "Ransomware has emerged as a major cybersecurity threat, with incidents increasing in frequency and impact across critical sectors. These attacks are typically launched through phishing emails, malicious downloads, or exploitation of software vulnerabilities to gain system access. Once inside, the malware encrypts files and demands a ransom, often in cryptocurrency, for the decryption key. Conventional detection methods often struggle with novel or scarce samples, leaving systems vulnerable. To address these challenges, this paper proposes a hybrid deep learning framework that combines an Autoencoder Feature Extractor (AFE) with a Model Agnostic Meta Learning (MAML) classifier for few shot malware detection. The AFE generates compact latent features that reduce noise and dimensionality, while the MAML classifier rapidly adapts to new threats using limited labeled data. Experiments conducted on the Ransomware Dataset 2024 demonstrate the effectiveness of the framework in binary classification tasks. Across one to fifty shot settings, the proposed model consistently achieves high accuracy, F1 score, and Matthews Correlation Coefficient values, maintaining reliable classification even under extreme scarcity. These results highlight the model's robustness and effectiveness in adapting to limited data scenarios, demonstrating the potential of combining feature extraction with meta learning to enhance resilience against malware, particularly in sectors such as healthcare, manufacturing, and public infrastructure, where cyberattacks can cause significant operational and financial disruption.",
-    "published": "2026-10-01T16:11:35Z",
-    "link": "http://arxiv.org/abs/2610.01949v1",
-    "authors": [
-      "Emmanuela Andam",
-      "Yasir Abbas Zaidi",
-      "Abdelali Hadir",
-      "Emmanuel Grant",
-      "Naima Kaabouch"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "ai_summary": "Ransomware has emerged as a major cybersecurity threat, with incidents increasing in frequency and impact across critical sectors. These attacks are typically launched through phishing emails, malicious downloads, or exploitation of software vulnerabilities to gain system access.",
-    "selected_date": "2026-10-03"
   }
 ]
