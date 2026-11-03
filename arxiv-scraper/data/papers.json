@@ -1,5 +1,24 @@
 [
   {
+    "id": "2611.03325v1",
+    "title": "End-to-End NTT on FPGA for FHE Acceleration",
+    "summary": "Fully homomorphic encryption (FHE) enables privacy-preserving computation on encrypted data without decryption. Despite its strong security guarantees, FHE incurs substantial computational and memory overhead. In FHE-based deep learning inference, on average 63% of the CPU time is spent on the number theoretic transform (NTT) and its inverse (INTT), which reduce the complexity of polynomial multiplication from $O(N^2)$ to $O(N \\log N)$. Prior FPGA works follow two approaches: accelerating entire FHE schemes, which yields significant speedups but ties them to specific parameters and algorithms, or accelerating only the NTT, which applies across schemes, algorithms, and libraries. Most FPGA NTT designs require interconnects that grow with parallelism and utilize significant resources, which complicates routing on multi-die FPGAs. Additionally, to the best of our knowledge, end-to-end NTT acceleration within an FHE context has so far been left unexplored. We design a fully unrolled, delay-commutator streaming NTT/INTT kernel, and floorplan it across the three dies of an AMD Alveo V80. At 400 MHz, the kernel transforms a polynomial of $2^{16}$ coefficients every 5.12 $\u03bc$s, the highest throughput among FPGA designs at this size. Offloaded end to end, it is up to 22x faster than the CPU per transform. We integrate the kernel into the Lattigo FHE library and evaluate it end to end. With 128-bit secure parameters, it accelerates core FHE operations, such as key switching and bootstrapping, by 1.8-2.2x, and neural network inference by 1.8-2.1x.",
+    "published": "2026-11-02T15:49:14Z",
+    "link": "http://arxiv.org/abs/2611.03325v1",
+    "authors": [
+      "Mohamed Allam",
+      "Thomas Spendlhofer",
+      "Hugo Sanz-Gonz\u00e1lez",
+      "Antonio J. Pe\u00f1a"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AR"
+    ],
+    "ai_summary": "Fully homomorphic encryption (FHE) enables privacy-preserving computation on encrypted data without decryption. Despite its strong security guarantees, FHE incurs substantial computational and memory overhead.",
+    "selected_date": "2026-11-03"
+  },
+  {
     "id": "2610.41885v1",
     "title": "How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces",
     "summary": "Large language model (LLM)-based agents interact with external tools through protocols such as the Model Context Protocol (MCP), producing tool-call traces that may expose behavioral signals about users. In this work, we systematically study the risk of user-profile inference from MCP tool-call traces, where observers infer user attributes from protocol-valid tool interactions without access to user conversations. We introduce PrivacyTrace, a benchmark containing 1,000 synthetic user profiles and 4,000 agent trajectories across four domains, generated with real MCP tools from 25 servers. Experiments with four mainstream LLM attackers show that tool-call traces enable a 26.25% attack success rate for profile inference, compared with 17.97% from prior-based guessing. Further analysis reveals that tool arguments and returned results provide the main trace-grounded evidence, while linking traces across sessions further amplifies profiling risk. These findings demonstrate that MCP tool-call traces can act as effective behavioral side channels for user profiling, motivating the development of privacy-aware mechanisms for agent-tool interactions. Code and data are available at https://github.com/AI45Lab/PrivacyTrace.",
@@ -576,23 +595,5 @@
     ],
     "ai_summary": "Security benchmarks for LLM-based agents often report the attack success rate (ASR) as a measure of model robustness and use these scores to compare different models and defense mechanisms, assuming that they describe the security of the agent. In this paper, we explore whether it also influences the benchmark's measurement.",
     "selected_date": "2026-10-05"
-  },
-  {
-    "id": "2610.02000v1",
-    "title": "Weather-Aware Domain Adaptation for Street-View Weather Recognition",
-    "summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes. We propose Weather-Aware Adversarial Discriminative Domain Adaptation (WA-ADDA), which conditions the domain discriminator on predicted weather to promote features that are both domain-invariant and weather-sensitive. We also assemble a multi-dataset benchmark by unifying diverse non-street-view weather collections as sources and real street-view images as targets, and define a standardized evaluation protocol with macro accuracy as the primary metric. Across backbones (ResNet-50, EfficientNet, VGG, DenseNet), WA-ADDA consistently improves street-view performance and yields strong per-class recalls in challenging conditions while preserving clear-weather accuracy. These findings highlight the feasibility of domain-adapted weather recognition and the value of our benchmark for advancing robust, on-board perception.",
-    "published": "2026-10-01T16:31:43Z",
-    "link": "http://arxiv.org/abs/2610.02000v1",
-    "authors": [
-      "Hossein Maghsoumi",
-      "George Atia",
-      "Yaser P. Fallah"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.LG"
-    ],
-    "ai_summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes.",
-    "selected_date": "2026-10-04"
   }
 ]
