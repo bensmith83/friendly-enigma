@@ -1,5 +1,23 @@
 [
   {
+    "id": "2611.04939v1",
+    "title": "Robustness Verification against Patch Attacks via Group-Lasso Semidefinite Relaxation",
+    "summary": "Robustness verification is essential for ensuring the safety and security of neural networks, but current methods focus heavily on   norm-ball attacks, which do not adequately model typical real-world threats that present physical perturbations, known as patch attacks. A naive approach requires computationally prohibitive enumeration of all possible patch positions. To address the challenge, we propose a novel neural network verification method specialized to the patch-attack threat. Instead of enumerating patch locations, we first model the patch attack with group-wise sparsity and formulate its verification methods as a mixed-integer semidefinite program (MISDP) by applying SDP relaxation to the neural network. We then propose three relaxations, including Group-Lasso relaxation, that remove the integer variables while preserving the sparse, group-wise structure of the original attack, enabling substantially efficient verification. Our empirical analysis demonstrates that the proposed relaxations require less than 3% of the computation time of the original MISDP, while the Group-Lasso relaxation incurs only a 0.34\\% average increase in the objective value over the original formulation. Furthermore, Group-Lasso achieves a verified rate of 91%, compared with under 70% for prior methods.",
+    "published": "2026-11-03T14:07:46Z",
+    "link": "http://arxiv.org/abs/2611.04939v1",
+    "authors": [
+      "Yukina Nakagawa",
+      "Takami Sato",
+      "Ken Kobayashi",
+      "Kazuhide Nakata"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Robustness verification is essential for ensuring the safety and security of neural networks, but current methods focus heavily on   norm-ball attacks, which do not adequately model typical real-world threats that present physical perturbations, known as patch attacks. A naive approach requires computationally prohibitive enumeration of all possible patch positions.",
+    "selected_date": "2026-11-04"
+  },
+  {
     "id": "2611.03325v1",
     "title": "End-to-End NTT on FPGA for FHE Acceleration",
     "summary": "Fully homomorphic encryption (FHE) enables privacy-preserving computation on encrypted data without decryption. Despite its strong security guarantees, FHE incurs substantial computational and memory overhead. In FHE-based deep learning inference, on average 63% of the CPU time is spent on the number theoretic transform (NTT) and its inverse (INTT), which reduce the complexity of polynomial multiplication from $O(N^2)$ to $O(N \\log N)$. Prior FPGA works follow two approaches: accelerating entire FHE schemes, which yields significant speedups but ties them to specific parameters and algorithms, or accelerating only the NTT, which applies across schemes, algorithms, and libraries. Most FPGA NTT designs require interconnects that grow with parallelism and utilize significant resources, which complicates routing on multi-die FPGAs. Additionally, to the best of our knowledge, end-to-end NTT acceleration within an FHE context has so far been left unexplored. We design a fully unrolled, delay-commutator streaming NTT/INTT kernel, and floorplan it across the three dies of an AMD Alveo V80. At 400 MHz, the kernel transforms a polynomial of $2^{16}$ coefficients every 5.12 $\u03bc$s, the highest throughput among FPGA designs at this size. Offloaded end to end, it is up to 22x faster than the CPU per transform. We integrate the kernel into the Lattigo FHE library and evaluate it end to end. With 128-bit secure parameters, it accelerates core FHE operations, such as key switching and bootstrapping, by 1.8-2.2x, and neural network inference by 1.8-2.1x.",
@@ -574,26 +592,5 @@
     ],
     "ai_summary": "Membership is the root privacy primitive in machine learning: to date, no hardware-based out-of-distribution detection on black-box models has been demonstrated against constant-time, static neural networks with masked confidence. This paper performs the first cycle-level examination of how large language models and vision transformers interact with various modern microarchitecture components, including integrated accelerators, as LLMs scale in size and answers the question of whether the data that a model was trained on affects its execution footprint even without any input-dependent branch, dynamic optimization, or early exit and in constant-time models.",
     "selected_date": "2026-10-06"
-  },
-  {
-    "id": "2610.03585v1",
-    "title": "Threat-Preserving Representation Sensitivity in Agent-Security Benchmarks",
-    "summary": "Security benchmarks for LLM-based agents often report the attack success rate (ASR) as a measure of model robustness and use these scores to compare different models and defense mechanisms, assuming that they describe the security of the agent. In this paper, we explore whether it also influences the benchmark's measurement.   To measure the effect of the benchmark representation, we introduce threat-preserving representation sensitivity (TPRS), which measures how much the ASR changes when we change the agent-visible representation while holding the underlying task, harmful action, security policy, ground truth, environment, and the evaluation criteria fixed.   On Agent Security Bench (ASB), replacing threat-related tool names with threat-neutral names raises the committed attack success rate by 11.67 percentage points on GPT-5-mini and by 13.21 points on Claude Haiku 4.5. On MCPTox, replacing the original neutral tool name with an explicit threat-related name lowers the ASR by 11.00 percentage points on GPT-5-mini and 4.11 points on Claude Haiku 4.5. On AgentDojo, adding threat-related wording to the attack-relevant tool changes ASR by only 0.50 percentage points on GPT-4o-mini, yet the benign utility falls by 5.36 points on tasks requiring that tool.   We ran an experiment on MCPTox where we observed that a threat-neutral name matched on token count, length, and casing reproduces most of the shift produced by the threat-explicit name (8.54 of 11.00 points on GPT-5-mini).   The results show that a security score measured under one representation may fail to generalize across threat-preserving representations of the same security problem. Robustness claims should therefore be supported by performance across a controlled set of threat-preserving representations rather than relying on a single representation-dependent score.",
-    "published": "2026-10-02T16:55:50Z",
-    "link": "http://arxiv.org/abs/2610.03585v1",
-    "authors": [
-      "Neeraj Karamchandani",
-      "Piyush Nagasubramaniam",
-      "Xinhong Xie",
-      "Sencun Zhu",
-      "Dinghao Wu"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "ai_summary": "Security benchmarks for LLM-based agents often report the attack success rate (ASR) as a measure of model robustness and use these scores to compare different models and defense mechanisms, assuming that they describe the security of the agent. In this paper, we explore whether it also influences the benchmark's measurement.",
-    "selected_date": "2026-10-05"
   }
 ]
