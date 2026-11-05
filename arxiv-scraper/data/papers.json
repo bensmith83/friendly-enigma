@@ -1,5 +1,27 @@
 [
   {
+    "id": "2611.06682v1",
+    "title": "SecureGARD: Dynamic Ontology-Guided Governance for Secure Tool-Using LLM Agents",
+    "summary": "Tool-using large language model (LLM) agents translate model outputs into consequential actions, turning indirect prompt injection into an execution-security problem. Existing defenses constrain tool calls, trajectories, or information flows, but often leave action semantics, state dependencies, and evidence relations implicit, limiting generalization across heterogeneous tools and complicating safe updates. We present \\ours{}, a dynamic ontology-guided governance framework. \\ours{} grounds heterogeneous calls in a shared semantic representation and combines an executable ontology with episode-level task state to derive deterministic ready, waiting, and forbidden decisions. A waiting decision identifies an unmet but recoverable obligation, enabling bounded replanning without expanding the agent's authorization boundary. \\ours{} evolves its ontology offline from verified training executions. An offline LLM proposes instance-independent action--state axioms, which are accepted only if they address ontology errors exposed by training failures, preserve logical consistency and protected entailments, and pass held-out validation before the ontology is frozen. We evaluate \\ours{} on AgentDojo, ASB, and AgentDyn under benign and indirect prompt-injection settings. \\ours{} achieves a 0\\% attack success rate (ASR) across all three benchmarks while improving task utility under attack compared with existing baselines. These results show that explicit semantic governance can strengthen execution security without indiscriminate blocking.",
+    "published": "2026-11-04T15:51:30Z",
+    "link": "http://arxiv.org/abs/2611.06682v1",
+    "authors": [
+      "Guoqin Xiong",
+      "Shengtao Wen",
+      "Xiang Chen",
+      "Xinyi Zeng",
+      "Zhaoxin Fan",
+      "Wei Ye",
+      "Xiaofeng Cao",
+      "Sheng-Jun Huang"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "ai_summary": "Tool-using large language model (LLM) agents translate model outputs into consequential actions, turning indirect prompt injection into an execution-security problem. Existing defenses constrain tool calls, trajectories, or information flows, but often leave action semantics, state dependencies, and evidence relations implicit, limiting generalization across heterogeneous tools and complicating safe updates.",
+    "selected_date": "2026-11-05"
+  },
+  {
     "id": "2611.04939v1",
     "title": "Robustness Verification against Patch Attacks via Group-Lasso Semidefinite Relaxation",
     "summary": "Robustness verification is essential for ensuring the safety and security of neural networks, but current methods focus heavily on   norm-ball attacks, which do not adequately model typical real-world threats that present physical perturbations, known as patch attacks. A naive approach requires computationally prohibitive enumeration of all possible patch positions. To address the challenge, we propose a novel neural network verification method specialized to the patch-attack threat. Instead of enumerating patch locations, we first model the patch attack with group-wise sparsity and formulate its verification methods as a mixed-integer semidefinite program (MISDP) by applying SDP relaxation to the neural network. We then propose three relaxations, including Group-Lasso relaxation, that remove the integer variables while preserving the sparse, group-wise structure of the original attack, enabling substantially efficient verification. Our empirical analysis demonstrates that the proposed relaxations require less than 3% of the computation time of the original MISDP, while the Group-Lasso relaxation incurs only a 0.34\\% average increase in the objective value over the original formulation. Furthermore, Group-Lasso achieves a verified rate of 91%, compared with under 70% for prior methods.",
@@ -570,27 +592,5 @@
     ],
     "ai_summary": "The rapid integration of Vision Language Models (VLMs) into sensitive systems introduces critical safety vulnerabilities that remain unexplored in exist studies. While adversarial attack robustness has been extensively studied for image-based models, the susceptibility of VLMs to temporally-aware adversarial attacks against video in driving context poses a distinct and under examined threat.",
     "selected_date": "2026-10-07"
-  },
-  {
-    "id": "2610.06848v1",
-    "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
-    "summary": "Membership is the root privacy primitive in machine learning: to date, no hardware-based out-of-distribution detection on black-box models has been demonstrated against constant-time, static neural networks with masked confidence. This paper performs the first cycle-level examination of how large language models and vision transformers interact with various modern microarchitecture components, including integrated accelerators, as LLMs scale in size and answers the question of whether the data that a model was trained on affects its execution footprint even without any input-dependent branch, dynamic optimization, or early exit and in constant-time models. The results confirm that the answer is yes and identify which modern hardware components, such as TLBs or on-core accelerators, reveal or amplify that effect. The results also answer whether the signal is informative enough to reliably classify the in-/vs/out-of-distribution property of membership. To understand why, we perform a systematic root cause analysis and find that the transformer's tokenization steps, which happen during training, alter the locality of the accesses the model makes to fetch the vocabulary token later during inference and, as a result, change the page table access patterns and TLB in a previously unknown data-dependent way, causing microarchitectural state to vary significantly based on whether or not the input was in the distribution of the transformer training data. Building on the above observation, we introduce TranScope: the first microarchitecture tool for detecting membership information with low cost, no need for a surrogate model, and significantly higher robustness, e.g., 0.6 AUC for PETAL (best previously reported) vs 0.9 AUC (ours). This reintroduces hardware as both an opportunity, e.g., a tool for checking copyright violation for the first time, and a new channel for inferring membership (MIA).",
-    "published": "2026-10-05T17:59:42Z",
-    "link": "http://arxiv.org/abs/2610.06848v1",
-    "authors": [
-      "Joshua Kalyanapu",
-      "Darsh Asher",
-      "Kaushal Mhapsekar",
-      "Bita Aslrousta",
-      "Rushiraj Chaitanyakumar Sheth",
-      "Maharshi Mukeshkumar Oza",
-      "Achyuta Kannan",
-      "Samira Mirbagher Ajorpaz"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Membership is the root privacy primitive in machine learning: to date, no hardware-based out-of-distribution detection on black-box models has been demonstrated against constant-time, static neural networks with masked confidence. This paper performs the first cycle-level examination of how large language models and vision transformers interact with various modern microarchitecture components, including integrated accelerators, as LLMs scale in size and answers the question of whether the data that a model was trained on affects its execution footprint even without any input-dependent branch, dynamic optimization, or early exit and in constant-time models.",
-    "selected_date": "2026-10-06"
   }
 ]
