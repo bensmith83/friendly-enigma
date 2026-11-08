@@ -1,5 +1,22 @@
 [
   {
+    "id": "2611.08343v1",
+    "title": "LABBA: LLM-Assisted Behavioral Biometric Authentication",
+    "summary": "Behavioral biometrics have emerged as a promising complement to traditional physiological biometrics by leveraging dynamic human characteristics. These modalities offer advantages including continuous authentication, inherent liveness detection, and greater resistance to credential theft and other spoofing attacks. However, existing systems remain limited in adaptability, contextual awareness, and semantic reasoning as they primarily rely on similarity metrics, static thresholds, or supervised classifiers. As a result, they often struggle with real-world conditions such as behavioral variability, environmental changes, contextual changes, and adversarial manipulations.   To address these limitations, we systematically integrate LLM-based contextual reasoning into behavioral biometric authentication. LLMs provide capabilities in contextual inference, sequential reasoning, multimodal understanding, and adaptive decision-making. Building on these strengths, we integrate a lightweight LLM-based reasoning module with a novel phone-blowing behavioral biometric technique to develop a context-aware authentication framework. To this end, we first collect blow-acoustic signals from participants and systematically extract spectral and temporal features. These features are aggregated and converted into comparable similarity representations, using either discrete rule-based categories or continuous normalized scores, which are transformed into structured prompts through prompt engineering.   We experimentally evaluate the proposed framework using blow-acoustic data collected from 50 participants under diverse behavioral and contextual conditions. The proposed framework achieves 99.46% and 99.38% authentication accuracy in the rule-based and score-based modes, respectively, outperforming its non-LLM counterpart while maintaining strong robustness under dynamic real-world conditions.",
+    "published": "2026-11-05T17:29:24Z",
+    "link": "http://arxiv.org/abs/2611.08343v1",
+    "authors": [
+      "Howard Halim",
+      "Eyasu Getahun Chekole",
+      "Jianying Zhou"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "Behavioral biometrics have emerged as a promising complement to traditional physiological biometrics by leveraging dynamic human characteristics. These modalities offer advantages including continuous authentication, inherent liveness detection, and greater resistance to credential theft and other spoofing attacks.",
+    "selected_date": "2026-11-08"
+  },
+  {
     "id": "2611.07530v1",
     "title": "JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries",
     "summary": "As large language models (LLMs) are increasingly deployed as general-purpose conversational assistants, they must handle diverse user requests while reliably refusing harmful ones. Jailbreak attacks craft adversarial instructions or conversational contexts to elicit unsafe responses despite these safeguards. However, existing jailbreak benchmarks often rely on manually designed or collected prompts, making it difficult to systematically extend coverage to new threat conditions. Moreover, existing attack search methods typically optimize for attack success rate (ASR), providing limited insight into how model behavior changes locally between safe refusal and unsafe response. To address these limitations, we present JailBound, a unified jailbreak evaluation framework that combines automated benchmark construction with first-order loss (FOL)-guided dual-branch search. JailBound organizes threats by risk category, application domain, and attack type. Conditioned on this taxonomy, a fine-tuned meta-attack generator synthesizes evaluation prompts across diverse threat conditions. FOL serves as a local sensitivity signal for exploring high-value attack states and behavior-sensitive states. We evaluate JailBound across 46 LLMs from 13 model families under a unified experimental protocol. Under matched settings, the High-Value Branch improves average ASR over a ZOL-only baseline by 5.1 and 4.9 percentage points across the two evaluation settings. Under local perturbations, states from the Safety-Sensitivity Branch exhibit higher behavioral flip rates than those from the High-Value Branch across all tested radii for JailBound and S-Eval, indicating greater local sensitivity of judge-assigned safety labels. Warning: this paper includes examples that may be offensive or harmful.",
@@ -578,24 +595,5 @@
     ],
     "ai_summary": "Software-Defined Networking (SDN) is emerging as a promis- ing technology for EV Charging infrastructure (EVCI) since it enables flexible, programmable control of EVCI networks, yet its security gain to EVCI remains underexplored. SDN-enabled EVCI faces an increas- ing number of cyber threats arising from the convergence of IT and OT components; in particular, low-rate Denial-of-Service (DoS) attacks.",
     "selected_date": "2026-10-10"
-  },
-  {
-    "id": "2610.11996v1",
-    "title": "Moving Target Defense in SDN-enabled EV Charging Network",
-    "summary": "Software-Defined Networking (SDN) is emerging as a promis- ing technology for EV Charging infrastructure (EVCI) since it enables flexible, programmable control of EVCI networks, yet its security gain to EVCI remains underexplored. SDN-enabled EVCI faces an increas- ing number of cyber threats arising from the convergence of IT and OT components; in particular, low-rate Denial-of-Service (DoS) attacks. Ear- lier works identify a trend toward low-rate attacks in OT networks that may exhaust SDN switch flow tables and which can result in disabling the entire charging sites without triggering volume-based defenses. In this paper, we propose CS-SHIELD, a Moving Target Defense mecha- nism for SDN-enabled EVCI communication. We showcase the imple- mentation of the proposed mechanism that detects malicious flow table rules via cross-layer identity verification and responds by reassigning virtual IP addresses to all active chargers. Experiments on an emulated SDN testbed with a real charging protocol implementation demonstrate that CS-SHIELD maintains full site availability under attack, responds quickly, adds only a negligible delay under normal conditions. The reas- signing (shuffle) approach at each reaction makes the earlier reconnais- sance knowledge by the attacker rendered worthless.",
-    "published": "2026-10-08T14:04:28Z",
-    "link": "http://arxiv.org/abs/2610.11996v1",
-    "authors": [
-      "Roland Plaka",
-      "Mikael Asplund",
-      "Simin Nadjm-Tehran"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.GT",
-      "cs.NI"
-    ],
-    "ai_summary": "Software-Defined Networking (SDN) is emerging as a promis- ing technology for EV Charging infrastructure (EVCI) since it enables flexible, programmable control of EVCI networks, yet its security gain to EVCI remains underexplored. SDN-enabled EVCI faces an increas- ing number of cyber threats arising from the convergence of IT and OT components; in particular, low-rate Denial-of-Service (DoS) attacks.",
-    "selected_date": "2026-10-09"
   }
 ]
