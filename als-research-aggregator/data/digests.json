@@ -1,5 +1,1254 @@
 [
   {
+    "date": "2026-11-08",
+    "week_of": "November 08, 2026",
+    "digest_number": 45,
+    "weekly_summary": "Unable to generate summary due to API error.",
+    "highlights": [],
+    "categories": {
+      "research": [
+        {
+          "title": "Cha Eunwoo donated 10 million won to a South Korean ALS charity campaign in 2023; two years later, a 23.9 billion won hospital with 76 beds opened after a collective fundraising effort backed by 350,000 donors",
+          "description": "In March 2025, the Seungil Hope Nursing Hospital in Yongin welcomed its first ALS patients, marking a 14-year journey led by dedicated advocates Park Seung-il and Sean. This landmark facility, developed with the generosity of over 350,000 donors and governmen\u2026",
+          "content": "<ul><li>News</li>\r\n<li>World News</li>\r\n<li>Rest of World News</li>\r\n<li>Cha Eunwoo donated 10 million won to a South Korean ALS charity campaign in 2023; two years later, a 23.9 billion won hospital\u2026 [+2207 chars]",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/cha-eunwoo-donated-10-million-won-to-a-south-korean-als-charity-campaign-in-2023-two-years-later-a-23-9-billion-won-hospital-with-76-beds-opened-after-a-collective-fundraising-effort-backed-by-350000-donors/articleshow/135591788.cms",
+          "source_name": "The Times of India",
+          "source_type": "newsapi",
+          "published_at": "2026-11-07T05:16:41Z",
+          "author": "TOI World Desk",
+          "image_url": "https://static.toiimg.com/thumb/msid-135591802,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "is_local_nj": false,
+          "article_id": "3bc5caca7748",
+          "summary": "In March 2025, the Seungil Hope Nursing Hospital in Yongin welcomed its first ALS patients, marking a 14-year journey led by dedicated advocates Park Seung-il and Sean. This landmark facility, develop",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Europe is gearing up for a future war Russia is already waging",
+          "description": "Living in a phoney peace.",
+          "content": "For eight months after France and Britain formally declared war on Germany in September 1939, remarkably little happened. The period became known as the phoney war: a curious interlude during which w\u2026 [+6219 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/11/06/europe-is-gearing-up-for-a-future-war-russia-is-already-waging-a4940691",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-11-06T21:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/B-qN-c4Zef9Y_KmWZCk_VI0aMk4=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/11/06134317/061126OPI_2038290645_Europe-is-gearing-up.jpg",
+          "is_local_nj": false,
+          "article_id": "0e5e5097e98f",
+          "summary": "Living in a phoney peace.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "EXCLUSIVE: Eric Dane's Heartbreaking Final Wishes for His Funeral Revealed",
+          "description": "Eric Dane's final wishes for his funeral included a celebration filled with music, food and laughter.",
+          "content": "Eric Dane revealed his heartbreaking wishes for his own funeral before his death requesting a celebration filled with 1980s music, good food and laughter rather than a traditional, somber farewell.\r\n\u2026 [+4708 chars]",
+          "url": "https://radaronline.com/p/eric-dane-heartbreaking-final-funeral-wishes-revealed/",
+          "source_name": "Radaronline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-06T19:43:40Z",
+          "author": "Aaron Tinney",
+          "image_url": "https://media.radaronline.com/brand-img/4vXI6_ODJ/1200x628/eric-dane-heartbreaking-final-funeral-wishes-revealed-1793987821326.jpg",
+          "is_local_nj": false,
+          "article_id": "35f588138f17",
+          "summary": "Eric Dane's final wishes for his funeral included a celebration filled with music, food and laughter.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane's widow Rebecca Gayheart supported by daughters Billie, 16, and Georgia, 14, at opening of her musical... 7 months after his ALS death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16120805/eric-dane-widow-rebecca-gayheart-supported-daughters-billie-georgia-musical-opening-als-death.html",
+              "digest_date": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "title": "\u201cToo Fast, Too Big\u201d: Activists Across Europe Challenge Data Center Rush",
+          "description": "Protest gegen Rechenzentren in Berlin. \u2013 : Press release of the protest\r\nIn London, Amsterdam, Vienna and other European cities, activists took to the streets on Friday to protest against data centers. The first pan-European action of its kind also drew prote\u2026",
+          "content": "Activists rallied on Friday afternoon outside two data center campuses in Mariendorf, in the first protest against data centers and AI in Berlin according to the organizers. The sites extending over \u2026 [+5116 chars]",
+          "url": "https://netzpolitik.org/2026/too-fast-too-big-activists-across-europe-challenge-data-center-rush/",
+          "source_name": "Netzpolitik.org",
+          "source_type": "newsapi",
+          "published_at": "2026-11-06T18:39:17Z",
+          "author": "Muna Turki",
+          "image_url": "https://cdn.netzpolitik.org/wp-upload/2026/11/4-scaled-e1793988670706.jpg",
+          "is_local_nj": false,
+          "article_id": "59bfa48142a3",
+          "summary": "Protest gegen Rechenzentren in Berlin. \u2013 : Press release of the protest\r\nIn London, Amsterdam, Vienna and other European cities, activists took to the streets on Friday to protest against data centers",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "als-finder 1.2.2",
+          "description": "A high-performance CLI engine for discovering, streaming, and partitioning raw LiDAR point cloud data.",
+          "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe\u2026 [+12 chars]",
+          "url": "https://pypi.org/project/als-finder/1.2.2/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-11-06T16:55:58Z",
+          "author": "jgreenberg@unr.edu",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "6a691c634bb2",
+          "summary": "A high-performance CLI engine for discovering, streaming, and partitioning raw LiDAR point cloud data.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"Estuary\" von Wolves In The Throne Room",
+          "description": "Wolves In The Throne Room - \"Estuary\"",
+          "content": "laut.de-Kritik\r\nEing\u00e4ngiger Black Metal mit epischen Gothic-Momenten.\r\nReview von Stefan Johannesberg\r\nDie W\u00f6lfe verlassen ihren Thronsaal und nehmen uns mit an ein \u00c4stuar, eine trichterf\u00f6rmige Fluss\u2026 [+3262 chars]",
+          "url": "https://laut.de/Wolves-In-The-Throne-Room/Alben/Estuary-127702",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-11-06T12:32:13Z",
+          "author": "Stefan Johannesberg",
+          "image_url": "https://laut.de/Wolves-In-The-Throne-Room/Alben/Estuary-127702/wolves-in-the-throne-room-estuary-254321.jpg?6c4c15",
+          "is_local_nj": false,
+          "article_id": "6730bf818035",
+          "summary": "Wolves In The Throne Room - \"Estuary\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\"S\u00c3\u00a9ance\" von Get Well Soon",
+          "description": "Get Well Soon - \"S\u00e9ance\"",
+          "content": "laut.de-Kritik\r\nDer m\u00fcde Vampir: mehr Schein als Sein.\r\nReview von Kerstin Kratochwill\r\n\"S\u00e9ance\" ist schon das zweite Album von Konstantin Groppers alias Get Well Soon in diesem Jahr: W\u00e4hrend man auf\u2026 [+1980 chars]",
+          "url": "https://laut.de/Get-Well-Soon/Alben/Seance-127651",
+          "source_name": "Laut.de",
+          "source_type": "newsapi",
+          "published_at": "2026-11-06T09:48:25Z",
+          "author": "Kerstin Kratochwill",
+          "image_url": "https://laut.de/Get-Well-Soon/Alben/Seance-127651/get-well-soon-seance-254318.jpg?c4e4c9",
+          "is_local_nj": false,
+          "article_id": "9245b4a663fc",
+          "summary": "Get Well Soon - \"S\u00e9ance\"",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "intsys_car_v1 0.0.9",
+          "description": "Basic control function for the intsys car v1",
+          "content": "This repository contains code run on our intsys cars (v1). It's primarily code to control the motors, servos and sensors.\r\nFahrzeug-Konfiguration\r\nPins und Kalibrierung eines Autos stehen in /etc/int\u2026 [+7352 chars]",
+          "url": "https://pypi.org/project/intsys_car_v1/",
+          "source_name": "Pypi.org",
+          "source_type": "newsapi",
+          "published_at": "2026-11-06T08:59:38Z",
+          "author": "dennis@zumlernen.de",
+          "image_url": "https://pypi.org/static/images/og-card.00947198.webp",
+          "is_local_nj": false,
+          "article_id": "2a65af931b09",
+          "summary": "Basic control function for the intsys car v1",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Complementary spectroscopic methods for simultaneous quantification of tiotropium bromide and olodaterol hydrochloride with analytical performance and environmental sustainability assessment",
+          "description": "Scientific Reports - Complementary spectroscopic methods for simultaneous quantification of tiotropium bromide and olodaterol hydrochloride with analytical performance and environmental...",
+          "content": "The development of efficient, cost-effective, and environmentally friendly analytical methods for drug quality control is essential in modern pharmaceutical analysis. This study presents, to the best\u2026 [+1763 chars]",
+          "url": "https://www.nature.com/articles/s41598-026-74029-x.pdf",
+          "source_name": "Nature.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-06T00:00:00Z",
+          "author": "Mona A. Abdel Rahman, Enas A. Taha, Shymaa S. Soliman",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "680f3a2cddcd",
+          "summary": "Scientific Reports - Complementary spectroscopic methods for simultaneous quantification of tiotropium bromide and olodaterol hydrochloride with analytical performance and environmental...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Donald Trump\u2019s humiliation offers America an opportunity",
+          "description": "Voters demand a new way of doing things in Washington. Let them have it.",
+          "content": "Surfers call it the washing machine. When a giant wave throws you off your board and plunges you underwater, you lose all sense of where you are. That is what befell Donald Trump and his party on Nov\u2026 [+6351 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/11/05/donald-trumps-humiliation-offers-america-an-opportunity-a4940624",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-11-05T21:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/UrX2NvY0xkUpdBu5rIAcC-I8rS4=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/11/05160358/051126OPI_2038245984_trump.jpg",
+          "is_local_nj": false,
+          "article_id": "7006a8083964",
+          "summary": "Voters demand a new way of doing things in Washington. Let them have it.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Oracle Health and Life Sciences Forum 2026",
+          "description": "Each year, the Oracle Health and Life Sciences Forum in Germany brings together healthcare experts from the DACH region (Germany, Austria, Luxembourg) and beyond to learn the latest Oracle Health products, exchange ideas, and share successes achieved.\u200b",
+          "content": "Unter dem Motto \u201eFrom Vision to Reality: The Next Era of Healthcare\u201c zeigt das Oracle Health and Life Sciences Forum 2026, wie Oracle Technologien Innovationen im Gesundheitswesen schon heute Wirklic\u2026 [+895 chars]",
+          "url": "https://eventreg.oracle.com/profile/web/index.cfm?PKwebID=0x975746abcd&source=CORP260401P00004%3Aso%3Ach%3Aor%3Adg%3A%3A%3A%3A&SC=%3Aso%3Ach%3Aor%3Adg%3A%3A%3A%3A&pcode=CORP260401P00004",
+          "source_name": "Oracle.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-05T15:45:39Z",
+          "author": null,
+          "image_url": "https://www.oracle.com/webfolder/dms/prod/i/Oracle-sharing-logo.jpg",
+          "is_local_nj": false,
+          "article_id": "8030b912b368",
+          "summary": "Each year, the Oracle Health and Life Sciences Forum in Germany brings together healthcare experts from the DACH region (Germany, Austria, Luxembourg) and beyond to learn the latest Oracle Health prod",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Cristiano Ronaldo beendet Teamkarriere",
+          "description": null,
+          "content": "Cristiano Ronaldo hat seinen R\u00fccktritt aus der portugiesischen Nationalmannschaft bekanntgegeben. Der Weltstar verabschiedet sich nach 23 Jahren, zahlreichen Rekorden und als langj\u00e4hriger Kapit\u00e4n. De\u2026 [+67 chars]",
+          "url": "https://sport.orf.at/stories/3164547/",
+          "source_name": "Sport.orf.at",
+          "source_type": "newsapi",
+          "published_at": "2026-11-05T10:43:55Z",
+          "author": "ORF.at",
+          "image_url": "https://sport.orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-sport.png",
+          "is_local_nj": false,
+          "article_id": "4be2688c8c81",
+          "summary": "",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "\u2018Cities in the Sky\u2019 and an Imagined High-Density University",
+          "description": "\u2018Cities in the Sky\u2019 and an Imagined High-Density University\n\n \n\n\n \njoshua.m.kim@d\u2026\n\nThu, 11/05/2026 - 03:00 AM\n\nThe economics of skyscrapers.\n \n Byline(s)\n \n Joshua Kim\n \n \n\u2018Cities in the Sky\u2019 and an Imagined High-Density University\n\n \n\n\n \njoshua.m.kim@d\u2026\n\nTh\u2026",
+          "content": "Cities in the Sky: The Quest to Build the Worlds Tallest Skyscrapers by Jason M. Barr\r\nPublished in May of 2024\r\nIn 2022, I riffed on Stefan Als book Supertall to imagine a skyscraper university: flo\u2026 [+4951 chars]",
+          "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/11/05/cities-sky-and-imagined-high-density-university",
+          "source_name": "Inside Higher Ed",
+          "source_type": "newsapi",
+          "published_at": "2026-11-05T08:00:00Z",
+          "author": "joshua.m.kim@dartmouth.edu",
+          "image_url": "https://www.insidehighered.com/sites/default/files/styles/large/public/2026-11/Book_%20Cities_in_the_sky_Jason_M_Barr.jpg?itok=so_OC5us",
+          "is_local_nj": false,
+          "article_id": "df2073526d3b",
+          "summary": "\u2018Cities in the Sky\u2019 and an Imagined High-Density University\n\n \n\n\n \njoshua.m.kim@d\u2026\n\nThu, 11/05/2026 - 03:00 AM\n\nThe economics of skyscrapers.\n \n Byline(s)\n \n Joshua Kim\n \n \n\u2018Cities in the Sky\u2019 and an ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Rebecca Gayheart Dane on Helping Her & Eric Dane\u2019s Daughters Through Grief (Exclusive)",
+          "description": "Eric Dane\u2019s candid new posthumous memoir, \u201cMy Book of Days,\u201d has just dropped, and \"Extra\" spoke to Rebecca Gayheart Dane about the book and how she and their teenage daughters are coping.\n In February, Eric died at the age of 53 after bravely battling ALS.\n \u2026",
+          "content": "Eric Dane\u2019s candid new posthumous memoir, \u201cMy Book of Days,\u201d has just dropped, and \"Extra\" spoke to Rebecca Gayheart Dane about the book and how she and their teenage daughters are coping.\n In Februa\u2026 [+4421 chars]",
+          "url": "https://extratv.com/2026/11/04/rebecca-gayheart-dane-on-helping-her-and-eric-dane-s-daughters-through-grief-exclusive/",
+          "source_name": "Extra",
+          "source_type": "newsapi",
+          "published_at": "2026-11-05T00:10:22Z",
+          "author": null,
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "0f2d81324243",
+          "summary": "Eric Dane\u2019s candid new posthumous memoir, \u201cMy Book of Days,\u201d has just dropped, and \"Extra\" spoke to Rebecca Gayheart Dane about the book and how she and their teenage daughters are coping.\n In Februar",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Arm posts Q2 revenue of $1.44B, up 27%",
+          "description": "Arm Holdings plc announced on Wednesday that its second-quarter fiscal 2027 revenue was $1.44 billion, up 27% year-on-year, marking the company's \"best ever second-quarter revenue.\"Royalty revenue als...",
+          "content": "Arm Holdings plc announced on Wednesday that its second-quarter fiscal 2027 revenue was $1.44 billion, up 27% year-on-year, marking the company's \"best ever second-quarter revenue.\"Royalty revenue al\u2026 [+69 chars]",
+          "url": "https://biztoc.com/x/86d46c01d4d83742",
+          "source_name": "Biztoc.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T21:38:18Z",
+          "author": "breakingthenews.net",
+          "image_url": "https://biztoc.com/cdn/86d46c01d4d83742_s.webp",
+          "is_local_nj": false,
+          "article_id": "7dbfcf284e00",
+          "summary": "Arm Holdings plc announced on Wednesday that its second-quarter fiscal 2027 revenue was $1.44 billion, up 27% year-on-year, marking the company's \"best ever second-quarter revenue.\"Royalty revenue als",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Andy Burnham\u2019s government talks of change, then does nothing",
+          "description": "Britain\u2019s unimpressive budget reveals a lack of ambition.",
+          "content": "You could forgive Andy Burnham for feeling chirpy. Britains prime minister begins his second hundred days with a healthy lead in the polls and a better-than-expected run of economic growth. His chanc\u2026 [+6430 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/11/04/andy-burnhams-government-talks-of-change-then-does-nothing-a4940152",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T21:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/_sukNGIm7APv6vPKSMhtklvnNRQ=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/10/30142437/041126OPI_2038008136_WEB_ILLU_Economist_Andy-Burnham_Tim-McDonagh.jpg",
+          "is_local_nj": false,
+          "article_id": "d5a3639bc9ef",
+          "summary": "Britain\u2019s unimpressive budget reveals a lack of ambition.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "London, Paris, Berlin: Action Against Data Centers Goes Europe-Wide This Weekend",
+          "description": "Protest gegen ein Google-Rechenzentrum im \u00f6sterreichischen Kronstorf im August 2026 \u2013 Alle Rechte vorbehalten: IMAGO / Wolfgang Simlinger\r\nCivil society groups are calling for an immediate moratorium on large data centers in Europe. The initiative \u201eStop Dirty\u2026",
+          "content": "Stop Dirty Data Centres is calling for an immediate moratorium on large data centers in Europe. The initiative is planning protests and community-led actions on November 6 and 7. Actions are coordina\u2026 [+3652 chars]",
+          "url": "https://netzpolitik.org/2026/london-paris-berlin-action-against-data-centers-goes-europe-wide-this-weekend/",
+          "source_name": "Netzpolitik.org",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T18:29:07Z",
+          "author": "Muna Turki",
+          "image_url": "https://cdn.netzpolitik.org/wp-upload/2026/11/imago0865298903h-scaled-e1793805910381.jpg",
+          "is_local_nj": false,
+          "article_id": "1f65a478918a",
+          "summary": "Protest gegen ein Google-Rechenzentrum im \u00f6sterreichischen Kronstorf im August 2026 \u2013 Alle Rechte vorbehalten: IMAGO / Wolfgang Simlinger\r\nCivil society groups are calling for an immediate moratorium ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane reveals horror moment he exploded at 'son of a b***h' co-star Josh Duhamel during botched fight scene: 'I should have walked away'",
+          "description": "My Book Of Days: A Memoir of Moments was released on Tuesday as in it he described in vivid detail the process leading up to his amyotrophic lateral sclerosis diagnosis.",
+          "content": "Eric Dane revealed that he nearly fought Josh Duhamel as he hurled expletives at him on set over two decades ago.\r\nDane died at age 53 earlier this year but a memoir he wrote during his health battle\u2026 [+5566 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16265245/eric-dane-josh-duhamel-fight-las-vegas.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T18:17:10Z",
+          "author": "Justin Enriquez",
+          "image_url": "https://i.dailymail.com/1s/2026/11/04/18/112300241-0-image-a-12_1793816113197.jpg",
+          "is_local_nj": false,
+          "article_id": "6d2f186639de",
+          "summary": "My Book Of Days: A Memoir of Moments was released on Tuesday as in it he described in vivid detail the process leading up to his amyotrophic lateral sclerosis diagnosis.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane Revealed First Sign of ALS Came During a Family Sushi Dinner \u2014 'I Couldn't Grip My Chopsticks'",
+              "url": "https://radaronline.com/p/eric-dane-recalls-first-sign-of-als-came-during-family-sushi-dinner/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane\u2019s Posthumous Memoir Reveals the Five Words He Gave His Daughter Every Morning",
+              "url": "https://thoughtcatalog.com/january-nelson/2026/10/eric-danes-posthumous-memoir-reveals-the-five-words-he-gave-his-daughter-every-morning/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane\u2019s widow Rebecca Gayheart details first ALS symptom she noticed before his diagnosis",
+          "description": "The \"Grey's Anatomy\" actor died in February at age 53. He is survived by his and Gayheart's daughters -- Billie, 16, and Georgia, 14.",
+          "content": "Rebecca Gayheart was concerned about her estranged husband Eric Dane\u2019s headaches ahead of his ALS diagnosis.\r\nThe actress told Drew Barrymore on \u201cPersonal Spaces\u201d Wednesday that this symptom was the \u2026 [+2890 chars]",
+          "url": "https://pagesix.com/2026/11/04/celebrity-news/rebecca-gayheart-details-first-als-symptom-she-noticed-before-eric-danes-diagnosis/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T18:11:34Z",
+          "author": "Riley Cardoza",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/11/rebecca-eric.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "f5b03ba7b128",
+          "summary": "The \"Grey's Anatomy\" actor died in February at age 53. He is survived by his and Gayheart's daughters -- Billie, 16, and Georgia, 14.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane Ignored This Early ALS Symptom Before Diagnosis",
+              "url": "https://www.eonline.com/news/1437435/eric-dane-ignored-first-als-symptom-with-chopsticks-pre-diagnosis-memoir",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane\u2019s Posthumous Memoir Reveals the Five Words He Gave His Daughter Every Morning",
+              "url": "https://thoughtcatalog.com/january-nelson/2026/10/eric-danes-posthumous-memoir-reveals-the-five-words-he-gave-his-daughter-every-morning/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane's Ex-Wife Claims He Was 'In Control of the Way He Was Going to Leave' in Final Days Before ALS Death",
+          "description": "Eric Dane passed away on February 19 at 53 years old from amyotrophic lateral sclerosis, also known as ALS.",
+          "content": "But despite his declining health, the actor wrote My Book of Days: A Memoir in Moments.\r\nIn the tell-all, he shared about his career in Hollywood, starring on shows like Grey's Anatomy and Euphoria, \u2026 [+665 chars]",
+          "url": "https://radaronline.com/p/eric-dane-control-way-he-was-going-leave-final-days-als-death/",
+          "source_name": "Radaronline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T17:27:16Z",
+          "author": "Cassie S",
+          "image_url": "https://media.radaronline.com/brand-img/mbgetbFVd/1200x628/eric-dane-in-control-1793742890785.jpg",
+          "is_local_nj": false,
+          "article_id": "77bc0f700bc2",
+          "summary": "Eric Dane passed away on February 19 at 53 years old from amyotrophic lateral sclerosis, also known as ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Better Call Saul star Russell Andrews, 64, reveals the common symptoms he experienced before shock ALS diagnosis... as he opens up about Eric Dane connection",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16134201/better-call-saul-russell-andrews-als.html",
+              "digest_date": "2026-09-20"
+            },
+            {
+              "title": "Eric Dane's widow Rebecca Gayheart supported by daughters Billie, 16, and Georgia, 14, at opening of her musical... 7 months after his ALS death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16120805/eric-dane-widow-rebecca-gayheart-supported-daughters-billie-georgia-musical-opening-als-death.html",
+              "digest_date": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Opens Up About Eric Dane\u2019s Final Days: \u201cEverything Shifted\u201d - The Hollywood Reporter",
+          "description": "Rebecca Gayheart Opens Up About Eric Dane\u2019s Final Days: \u201cEverything Shifted\u201dThe Hollywood Reporter EXCLUSIVE: Rebecca Gayheart Details Eric Dane\u2019s Final Week of Life: \u2018Had No Idea That Was It\u2019TODAY.com Eric Dane shares regrets, hopes for his teenage daughters\u2026",
+          "content": "If what they've been doing hasn't solved the problem, tell them to\r\ndo something else.\r\n-- Gerald Weinberg, \"The Secrets of Consulting\"",
+          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186590902",
+          "source_name": "Slashdot.org",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T17:12:30Z",
+          "author": "feedfeeder",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "d71d4133f77f",
+          "summary": "Rebecca Gayheart Opens Up About Eric Dane\u2019s Final Days: \u201cEverything Shifted\u201dThe Hollywood Reporter EXCLUSIVE: Rebecca Gayheart Details Eric Dane\u2019s Final Week of Life: \u2018Had No Idea That Was It\u2019TODAY.co",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Vermont Has Spent Nearly a Billion Dollars to Clean Up Lake Champlain. But the Green Slime Keeps Coming Back.",
+          "description": "Vermont kicked off an ambitious effort in 2015 to clean up waterways and meet tougher EPA restrictions. But after a decade and nearly a billion dollars spent, potentially toxic algae still lingers in Lake Champlain. What happened?",
+          "content": "On the last day of August, Jeff van den Noort spotted thick swirls of neon green film coating the water just steps from his home in Vermont. He waded in up to his ankles and dipped a jar to get a sam\u2026 [+18175 chars]",
+          "url": "https://www.propublica.org/article/lake-champlain-algae-bloom-cyanobacteria-water-pollution-vermont",
+          "source_name": "ProPublica",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T15:00:00Z",
+          "author": "Jonathan Mingle, John Dillon",
+          "image_url": "https://www.propublica.org/wp-content/uploads/2026/10/20261007-Kenna-VT-Champlain-87_preview_maxWidth_3000_maxHeight_3000_ppi_72_embedColorProfile_true_quality_95.jpg?resize=2000,1333",
+          "is_local_nj": false,
+          "article_id": "1c47bd33fc0a",
+          "summary": "Vermont kicked off an ambitious effort in 2015 to clean up waterways and meet tougher EPA restrictions. But after a decade and nearly a billion dollars spent, potentially toxic algae still lingers in ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Enya Martin has gone from online comedian to an international stand up tour, to now acting in a play (while playing at a comedy festival). But she still has one huge career ambition to fulfill...",
+              "url": "https://www.dailymail.com/news/article-16178955/Enya-Martin-gone-online-comedian-international-stand-tour-acting-play-playing-comedy-festival-one-huge-career-ambition-fulfill.html",
+              "digest_date": "2026-10-04"
+            }
+          ]
+        },
+        {
+          "title": "Florida man springs to action to help rescue elderly neighbors as rising floodwaters swamp homes",
+          "description": "Heavy downpours on Monday led to unprecedented flash flooding in Eastern Florida, and in one neighborhood a neighbor jumped into action to save people in distress in their homes.",
+          "content": "Heavy downpours on Monday led to unprecedented flash flooding in Eastern Florida, and in one neighborhood a neighbor jumped into action to save people in distress in their homes.\u00a0\r\nRick Addante said \u2026 [+4282 chars]",
+          "url": "https://www.foxweather.com/extreme-weather/video-man-rescues-neighbors-floodingpalm-bay",
+          "source_name": "Foxweather.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T10:11:08Z",
+          "author": "FOX Weather",
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/11/newspress-collage-rl294vfyu-1793785110176.jpg?quality=75&strip=all&1793767153&w=1200",
+          "is_local_nj": false,
+          "article_id": "e13d281ee0b8",
+          "summary": "Heavy downpours on Monday led to unprecedented flash flooding in Eastern Florida, and in one neighborhood a neighbor jumped into action to save people in distress in their homes.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane's widow Rebecca Gayheart reveals she thought he had more time before death from ALS",
+          "description": "Eric Dane's widow, Rebecca Gayheart, is looking back at her final days with her husband before his tragic death from\u00a0amyotrophic lateral sclerosis (ALS).",
+          "content": "Eric Dane's widow, Rebecca Gayheart, is looking back at her final days with her husband before his tragic death from\u00a0amyotrophic lateral sclerosis (ALS).\r\nIn an interview with Maria Shriver on the To\u2026 [+9474 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16264211/Eric-Danes-Rebecca-Gayheart-thought-time-death-ALS.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T06:53:19Z",
+          "author": "Brian Marks, Justin Enriquez",
+          "image_url": "https://i.dailymail.com/1s/2026/11/04/06/112288921-0-image-m-11_1793774249409.jpg",
+          "is_local_nj": false,
+          "article_id": "9722a1005420",
+          "summary": "Eric Dane's widow, Rebecca Gayheart, is looking back at her final days with her husband before his tragic death from\u00a0amyotrophic lateral sclerosis (ALS).",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane\u2019s Posthumous Memoir Reveals the Five Words He Gave His Daughter Every Morning",
+              "url": "https://thoughtcatalog.com/january-nelson/2026/10/eric-danes-posthumous-memoir-reveals-the-five-words-he-gave-his-daughter-every-morning/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Dems take Minnesota, Maine Senate seats",
+          "description": "Democratic Lieutenant Governor Peggy Flanagan is set to win Minnesota's Senate seat, according to CNN, making her among the first Native American women elected to the chamber.Meanwhile, the outlet als...",
+          "content": "Democratic Lieutenant Governor Peggy Flanagan is set to win Minnesota's Senate seat, according to CNN, making her among the first Native American women elected to the chamber.Meanwhile, the outlet al\u2026 [+69 chars]",
+          "url": "https://biztoc.com/x/8ed1374632843b60",
+          "source_name": "Biztoc.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-04T05:44:01Z",
+          "author": "breakingthenews.net",
+          "image_url": "https://biztoc.com/cdn/8ed1374632843b60_s.webp",
+          "is_local_nj": false,
+          "article_id": "044861a2a282",
+          "summary": "Democratic Lieutenant Governor Peggy Flanagan is set to win Minnesota's Senate seat, according to CNN, making her among the first Native American women elected to the chamber.Meanwhile, the outlet als",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Eric Dane names \u2018son of a bitch\u2019 actor he nearly came to blows with on TV set",
+          "description": "The \"Grey's Anatomy\" alum died in February after a public battle with ALS.",
+          "content": "Eric Dane claimed in his posthumous memoir that he nearly came to blows with Josh Duhamel on the set of \u201cLas Vegas\u201d back in 2004. \r\nIm on set, shooting a guest shot for the show \u2018Las Vegas,'\u201d Dane wr\u2026 [+4062 chars]",
+          "url": "https://pagesix.com/2026/11/03/celebrity-news/eric-dane-nearly-fought-josh-duhamel-on-las-vegas-set-memoir/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T23:57:35Z",
+          "author": "Audrey Rock",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/11/147462818.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "8c32e047f4af",
+          "summary": "The \"Grey's Anatomy\" alum died in February after a public battle with ALS.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane Revealed First Sign of ALS Came During a Family Sushi Dinner \u2014 'I Couldn't Grip My Chopsticks'",
+              "url": "https://radaronline.com/p/eric-dane-recalls-first-sign-of-als-came-during-family-sushi-dinner/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane revealed 'weird' first sign of ALS came during family dinner: 'Suddenly I cant work my right hand'",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16229985/eric-dane-als-memoir.html",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Better Call Saul star Russell Andrews, 64, reveals the common symptoms he experienced before shock ALS diagnosis... as he opens up about Eric Dane connection",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16134201/better-call-saul-russell-andrews-als.html",
+              "digest_date": "2026-09-20"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane's final words of advice to his teenage daughters were to 'fight and hold your head up high'... as funeral details are revealed",
+          "description": "My Book Of Days: A Memoir of Moments was released on Tuesday as in it he described in vivid detail the process leading up to his amyotrophic lateral sclerosis (ALS) diagnosis.",
+          "content": "Eric Dane's final words to his teenage daughters were revealed in addition to the details he did not want overlooked for his funeral.\r\nDane died at age 53 earlier this year but a memoir he wrote duri\u2026 [+6257 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16263473/eric-dane-daughters-final-words-als.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T23:38:47Z",
+          "author": "Justin Enriquez",
+          "image_url": "https://i.dailymail.com/1s/2026/11/03/22/112282527-0-image-m-9_1793746350972.jpg",
+          "is_local_nj": false,
+          "article_id": "6e0110e1b739",
+          "summary": "My Book Of Days: A Memoir of Moments was released on Tuesday as in it he described in vivid detail the process leading up to his amyotrophic lateral sclerosis (ALS) diagnosis.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane\u2019s Posthumous Memoir Reveals the Five Words He Gave His Daughter Every Morning",
+              "url": "https://thoughtcatalog.com/january-nelson/2026/10/eric-danes-posthumous-memoir-reveals-the-five-words-he-gave-his-daughter-every-morning/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart opens up about Eric Dane\u2019s final moments",
+              "url": "https://abcnews.com/GMA/Culture/rebecca-gayheart-opens-eric-danes-final-moments/story?id=137471178",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Donald Trump may love the Middle East to death",
+          "description": "The folly of wanting a Middle East run by nationalist strongmen and made rich by global commerce.",
+          "content": "If president Donald Trump loathed the Middle East, that unhappy region might be better off. Were he filled with cold disdain for Israel, Iran or the Arab monarchies of the Persian Gulfas happened wit\u2026 [+6267 chars]",
+          "url": "https://www.nrc.nl/nieuws/2026/11/03/donald-trump-may-love-the-middle-east-to-death-a4940150",
+          "source_name": "Www.nrc.nl",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T21:00:00Z",
+          "author": null,
+          "image_url": "https://images.nrc.nl/6egFVB_0xsLLPyp9-oHpW34iGpI=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/10/30142427/031126OPI_2038007610_WEB_ILLU_Economist_Trump-Love_Chloe-Cushman.jpg",
+          "is_local_nj": false,
+          "article_id": "376a11bdab69",
+          "summary": "The folly of wanting a Middle East run by nationalist strongmen and made rich by global commerce.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Trump\u2019s Midterms Self-Sabotage",
+          "description": "From the From the daily newsletter: Susan B. Glasser on how the President may have swamped his party\u2019s election hopes. newsletter:",
+          "content": "Photograph by Evan Vucci / Reuters\r\nAfter ten years of covering Donald Trumps dominance in Washington, Susan B. Glasser has found the predictions of an incoming blue waveand their implications for th\u2026 [+2343 chars]",
+          "url": "https://www.newyorker.com/newsletter/the-daily/trumps-midterms-self-sabotage",
+          "source_name": "The New Yorker",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T19:00:00Z",
+          "author": "Ian Crouch",
+          "image_url": "https://media.newyorker.com/photos/66bbc14a3a338ff378df3b0c/16:9/w_1280,c_limit/newsletter-flagship-daily-header2.png",
+          "is_local_nj": false,
+          "article_id": "511347c11cb3",
+          "summary": "From the From the daily newsletter: Susan B. Glasser on how the President may have swamped his party\u2019s election hopes. newsletter:",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": []
+        },
+        {
+          "title": "Rebecca Gayheart Recalls Eric Dane's 'Last Trip to the Hospital' Before Death",
+          "description": "Rebecca Gayheart was with husband Eric Dane every step of the way amid his battle with ALS, but she wasn\u2019t prepared for his final trip to the hospital before his death. \u201cHe had gone to the hospital so many times before, and they would patch him up, so to spea\u2026",
+          "content": "Rebecca Gayheart was with husband Eric Dane every step of the way amid his battle with ALS, but she wasn\u2019t prepared for his final trip to the hospital before his death.\r\n\u201cHe had gone to the hospital \u2026 [+3771 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-eric-danes-last-hospital-trip/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T18:21:25Z",
+          "author": "Johnni Macke",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/11/Rebecca-Gayheart-Recalls-Eric-Danes-Last-Trip-to-the-Hospital-Before-His-Death-Everything-Shifted-GettyImages-484500545.jpg?crop=72px%2C33px%2C1221px%2C643px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "41c79f5dc191",
+          "summary": "Rebecca Gayheart was with husband Eric Dane every step of the way amid his battle with ALS, but she wasn\u2019t prepared for his final trip to the hospital before his death. \u201cHe had gone to the hospital so",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Reveals If She Considers Herself a Widow After Eric Dane",
+          "description": "Rebecca Gayheart is reflecting on her \u201ccomplicated\u201d relationship with Eric Dane after his death earlier this year. \u201cI feel solo in a way that is hard,\u201d Gayheart, 55, said on the Tuesday, November 3, episode of the Today show during a sit-down interview with M\u2026",
+          "content": "Rebecca Gayheart is reflecting on her \u201ccomplicated\u201d relationship with Eric Daneafter his death earlier this year.\r\n\u201cI feel solo in a way that is hard,\u201d Gayheart, 55, said on the Tuesday, November 3, \u2026 [+2623 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-says-shes-solo-after-eric-danes-death/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T17:56:13Z",
+          "author": "Ryan Hudgins",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/11/GettyImages-476162934-Rebecca-Gayheart-Eric-Dane.jpg?crop=0px%2C88px%2C1483px%2C778px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "31309a572390",
+          "summary": "Rebecca Gayheart is reflecting on her \u201ccomplicated\u201d relationship with Eric Dane after his death earlier this year. \u201cI feel solo in a way that is hard,\u201d Gayheart, 55, said on the Tuesday, November 3, e",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane Shares Final Advice to Daughters in Posthumous Memoir",
+          "description": "Reading Time: 2 minutesHis memoir is filled with parting words of wisdom.\nEric Dane Shares Final Advice to Daughters in Posthumous Memoir was originally published on The Hollywood Gossip.",
+          "content": "Reading Time: 2minutesHis bittersweet farewell messages to his daughters are now public.\r\nLate actor Eric Dane starred on Greys Anatomy and Euphoria, but he was also a real person who left behind two\u2026 [+2534 chars]",
+          "url": "https://www.thehollywoodgossip.com/eric-dane-memoir-final-advice-daughters/",
+          "source_name": "The Hollywood Gossip",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T16:58:46Z",
+          "author": "Simon Delott",
+          "image_url": "https://cdn.thehollywoodgossip.com/uploads/2026/11/1103_ericdane_header-scaled.jpg",
+          "is_local_nj": false,
+          "article_id": "62ad55b51a05",
+          "summary": "Reading Time: 2 minutesHis memoir is filled with parting words of wisdom.\nEric Dane Shares Final Advice to Daughters in Posthumous Memoir was originally published on The Hollywood Gossip.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane\u2019s Posthumous Memoir Reveals the Five Words He Gave His Daughter Every Morning",
+              "url": "https://thoughtcatalog.com/january-nelson/2026/10/eric-danes-posthumous-memoir-reveals-the-five-words-he-gave-his-daughter-every-morning/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane recalls very first sign of ALS in his posthumous memoir",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/eric-dane-details-first-als-symptom-before-diagnosis-in-posthumous-memoir/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "EXCLUSIVE: Rebecca Gayheart Details Eric Dane\u2019s Final Week of Life: \u2018Had No Idea That Was It\u2019 - TODAY.com",
+          "description": "EXCLUSIVE: Rebecca Gayheart Details Eric Dane\u2019s Final Week of Life: \u2018Had No Idea That Was It\u2019TODAY.com Rebecca Gayheart details Eric Dane\u2019s final week of life: \u2018Had no idea that was it\u2019NBC News Eric Dane shares regrets, hopes for his teenage daughters in emot\u2026",
+          "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way.",
+          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186569512",
+          "source_name": "Slashdot.org",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T15:32:26Z",
+          "author": "feedfeeder",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "c0dfeb32d441",
+          "summary": "EXCLUSIVE: Rebecca Gayheart Details Eric Dane\u2019s Final Week of Life: \u2018Had No Idea That Was It\u2019TODAY.com Rebecca Gayheart details Eric Dane\u2019s final week of life: \u2018Had no idea that was it\u2019NBC News Eric D",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane\u2019s widow Rebecca Gayheart details actor\u2019s brutal decline before ALS death: \u2018Everything shifted\u2019",
+          "description": "\"I had no idea that that was it, that that week was going to be our last week,\u201d she emotionally recalled.",
+          "content": "Rebecca Gayheart emotionally detailed her late husband Eric Dane\u2019s brutal decline in the final week before his tragic death.\r\n\u201cI had no idea that that was it, that that week was going to be our last \u2026 [+5292 chars]",
+          "url": "https://pagesix.com/2026/11/03/celebrity-news/eric-danes-widow-rebecca-gayheart-details-actors-brutal-decline-before-als-death-everything-shifted/",
+          "source_name": "Page Six",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T14:57:17Z",
+          "author": "Jolie Zenna",
+          "image_url": "https://pagesix.com/wp-content/uploads/sites/3/2026/11/gayheart-93.jpg?quality=75&strip=all&w=1200",
+          "is_local_nj": false,
+          "article_id": "da28b1096cf0",
+          "summary": "\"I had no idea that that was it, that that week was going to be our last week,\u201d she emotionally recalled.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane was shockingly misdiagnosed with highly-treatable condition before getting ALS 'death sentence'",
+          "description": "My Book Of Days: A Memoir of Moments was released on Tuesday as in it he described in vivid detail the process leading up to his amyotrophic lateral sclerosis (ALS) diagnosis.",
+          "content": "Eric Dane had been misdiagnosed with a treatable illness months before what he described as receiving his ALS 'death sentence.'\u00a0\r\nDane died at age 53 earlier this year but an upcoming memoir he wrote\u2026 [+4575 chars]",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16262251/eric-dane-misdiagnosed-als-death.html",
+          "source_name": "Dailymail.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T14:48:20Z",
+          "author": "Justin Enriquez",
+          "image_url": "https://i.dailymail.com/1s/2026/11/03/14/112271733-0-image-m-9_1793716341859.jpg",
+          "is_local_nj": false,
+          "article_id": "3371b80a1582",
+          "summary": "My Book Of Days: A Memoir of Moments was released on Tuesday as in it he described in vivid detail the process leading up to his amyotrophic lateral sclerosis (ALS) diagnosis.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane Ignored This Early ALS Symptom Before Diagnosis",
+              "url": "https://www.eonline.com/news/1437435/eric-dane-ignored-first-als-symptom-with-chopsticks-pre-diagnosis-memoir",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Better Call Saul star Russell Andrews, 64, reveals the common symptoms he experienced before shock ALS diagnosis... as he opens up about Eric Dane connection",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16134201/better-call-saul-russell-andrews-als.html",
+              "digest_date": "2026-09-20"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane Initially Received Different Diagnosis Before ALS Battle",
+          "description": "Eric Dane\u00a0was searching for answers before receiving his ALS diagnosis.\u00a0\nIn the\u00a0Grey\u2019s Anatomy\u00a0alum\u2019s new autobiography\u00a0My Bood of Days: A Memoir of Moments, he shared he initially received a...",
+          "content": "Eric Dane\u00a0was searching for answers before receiving his ALS diagnosis.\u00a0\r\nIn the\u00a0Greys Anatomy\u00a0alums new autobiography\u00a0My Bood of Days: A Memoir of Moments, he shared he initially received a separate\u2026 [+961 chars]",
+          "url": "https://www.eonline.com/news/1437760/eric-dane-diagnosed-with-motor-neuropathy-before-als-battle-death",
+          "source_name": "Eonline.com",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T13:58:00Z",
+          "author": "Olivia Evans",
+          "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/20261023/236d2cf1-528f-45f0-8702-86aef132cb57_1792794910.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+          "is_local_nj": false,
+          "article_id": "1ba8b3539bab",
+          "summary": "Eric Dane\u00a0was searching for answers before receiving his ALS diagnosis.\u00a0\nIn the\u00a0Grey\u2019s Anatomy\u00a0alum\u2019s new autobiography\u00a0My Bood of Days: A Memoir of Moments, he shared he initially received a...",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Eric Dane Ignored This Early ALS Symptom Before Diagnosis",
+              "url": "https://www.eonline.com/news/1437435/eric-dane-ignored-first-als-symptom-with-chopsticks-pre-diagnosis-memoir",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Better Call Saul star Russell Andrews, 64, reveals the common symptoms he experienced before shock ALS diagnosis... as he opens up about Eric Dane connection",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16134201/better-call-saul-russell-andrews-als.html",
+              "digest_date": "2026-09-20"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane shares regrets, hopes for his teenage daughters in emotional letter - USA Today",
+          "description": "Eric Dane shares regrets, hopes for his teenage daughters in emotional letterUSA Today Eric Dane received misdiagnosis months before ALS \u2018death sentence\u2019Page Six Eric Dane's wife wants fans to see 'beyond McSteamy' to the complicated person he wasYahoo Everyt\u2026",
+          "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way.",
+          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186568706",
+          "source_name": "Slashdot.org",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T13:52:49Z",
+          "author": "feedfeeder",
+          "image_url": null,
+          "is_local_nj": false,
+          "article_id": "b6639fd709fb",
+          "summary": "Eric Dane shares regrets, hopes for his teenage daughters in emotional letterUSA Today Eric Dane received misdiagnosis months before ALS \u2018death sentence\u2019Page Six Eric Dane's wife wants fans to see 'be",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane recalls very first sign of ALS in his posthumous memoir",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/eric-dane-details-first-als-symptom-before-diagnosis-in-posthumous-memoir/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane's widow Rebecca Gayheart supported by daughters Billie, 16, and Georgia, 14, at opening of her musical... 7 months after his ALS death",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16120805/eric-dane-widow-rebecca-gayheart-supported-daughters-billie-georgia-musical-opening-als-death.html",
+              "digest_date": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Reflects on Eric Dane's Death in Tearful New Interview",
+          "description": "Rebecca Gayheart is shining a light on her new reality less than nine months after husband Eric Dane\u2019s death. \u201cI thought Eric would still be here with us right now. We never, ever anticipated that we would lose him in February,\u201d Gayheart, 55, said on the Tues\u2026",
+          "content": "Rebecca Gayheart is shining a light on her new reality less than nine months after husband Eric Dane\u2019s death.\r\n\u201cI thought Eric would still be here with us right now. We never, ever anticipated that w\u2026 [+3063 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-remembers-eric-dane-in-emotional-interview/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T13:39:32Z",
+          "author": "Mike Vulpo",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/11/Eric-Dane-GettyImages-484493499.jpg?crop=0px%2C96px%2C1329px%2C697px&resize=1200%2C630&quality=70&strip=all",
+          "is_local_nj": false,
+          "article_id": "5ec39aa6fec9",
+          "summary": "Rebecca Gayheart is shining a light on her new reality less than nine months after husband Eric Dane\u2019s death. \u201cI thought Eric would still be here with us right now. We never, ever anticipated that we ",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Rebecca Gayheart Details Eric Dane\u2019s Final Week of Life: \u2018Had No Idea That Was It\u2019",
+          "description": "Rebecca Gayheart spoke with TODAY about Eric Dane\u2019s final week at the hospital. Ahead the release of Dane\u2019s posthumous memoir, she details the moments before his death.",
+          "content": "When the camera cuts, the interview isnt over. With Cut for Time, TODAY.com asks the burning questions our anchors couldnt get to on air.\r\nRebecca Gayheart has opened up about the final days of husba\u2026 [+4257 chars]",
+          "url": "https://www.today.com/health/news/rebecca-gayheart-exclusive-eric-dane-memoir-today-show-rcna606584",
+          "source_name": "TODAY",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T13:00:41Z",
+          "author": "Scott Stump, Robert Powell",
+          "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2026-11/rebecca-gayheart-eric-dane-memoir-today-show-01-mh-11032026-420cc8.jpg",
+          "is_local_nj": false,
+          "article_id": "a0bb78b9e4dc",
+          "summary": "Rebecca Gayheart spoke with TODAY about Eric Dane\u2019s final week at the hospital. Ahead the release of Dane\u2019s posthumous memoir, she details the moments before his death.",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Inside Eric Dane\u2019s devastating phone call to ex Rebecca Gayheart revealing ALS diagnosis",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/inside-eric-danes-devastating-phone-call-to-ex-rebecca-gayheart-revealing-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Rebecca Gayheart Recalls Moment She Learned About Eric Dane's ALS Diagnosis",
+              "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-reaction-to-eric-dane-als-diagnosis/",
+              "digest_date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "title": "Eric Dane Recalls 'Projectile Vomiting' the 1st Time He Did Heroin",
+          "description": "Eric Dane got candid about his drug addiction and recovery in his posthumous memoir, My Book of Days. \u201cThe first time I do heroin, I throw up all over the place,\u201d he wrote in the book, published Tuesday, November 3. \u201cVolcanic projectile vomiting. A mind-blowi\u2026",
+          "content": "Eric Dane got candid about his drug addiction and recovery in his posthumous memoir, My Book of Days.\r\n\u201cThe first time I do heroin, I throw up all over the place,\u201d he wrote in the book, published Tue\u2026 [+2791 chars]",
+          "url": "https://www.usmagazine.com/celebrity-news/news/eric-dane-details-drug-addiction-5150-hold-in-new-book/",
+          "source_name": "Us Weekly",
+          "source_type": "newsapi",
+          "published_at": "2026-11-03T13:00:24Z",
+          "author": "Meredith Nardino",
+          "image_url": "https://www.usmagazine.com/wp-content/uploads/2026/11/Eric-Dane-GettyImages-2154755041.jpg?crop=0px%2C8px%2C1415px%2C742px&resize=1200%2C630&quality=86&strip=all",
+          "is_local_nj": false,
+          "article_id": "ba852641019c",
+          "summary": "Eric Dane got candid about his drug addiction and recovery in his posthumous memoir, My Book of Days. \u201cThe first time I do heroin, I throw up all over the place,\u201d he wrote in the book, published Tuesd",
+          "importance": 3,
+          "key_entities": [],
+          "related_previous": [
+            {
+              "title": "Rebecca Gayheart watched Eric Dane fight for time with daughters during \u2018heartbreaking\u2019 final months",
+              "url": "https://www.foxnews.com/entertainment/rebecca-gayheart-watched-eric-dane-fight-time-daughters-heartbreaking-final-months",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Eric Dane recalls very first sign of ALS in his posthumous memoir",
+              "url": "https://pagesix.com/2026/10/22/celebrity-news/eric-dane-details-first-als-symptom-before-diagnosis-in-posthumous-memoir/",
+              "digest_date": "2026-10-25"
+            },
+            {
+              "title": "Better Call Saul star Russell Andrews, 64, reveals the common symptoms he experienced before shock ALS diagnosis... as he opens up about Eric Dane connection",
+              "url": "https://www.dailymail.com/tvshowbiz/article-16134201/better-call-saul-russell-andrews-als.html",
+              "digest_date": "2026-09-20"
+            }
+          ]
+        }
+      ],
+      "treatment": [],
+      "cure": [],
+      "grants": [],
+      "assistance": [],
+      "local": []
+    },
+    "category_descriptions": {
+      "research": "Scientific studies, clinical trials, lab discoveries",
+      "treatment": "FDA approvals, therapies, symptom management",
+      "cure": "Breakthrough potential, experimental approaches",
+      "grants": "Funding opportunities, research grants",
+      "assistance": "Patient support, caregiver resources, financial aid",
+      "local": "New Jersey events, support groups, charities, volunteer opportunities"
+    },
+    "article_count": 40,
+    "references": [
+      {
+        "title": "Cha Eunwoo donated 10 million won to a South Korean ALS charity campaign in 2023; two years later, a 23.9 billion won hospital with 76 beds opened after a collective fundraising effort backed by 350,000 donors",
+        "url": "https://timesofindia.indiatimes.com/world/rest-of-world/cha-eunwoo-donated-10-million-won-to-a-south-korean-als-charity-campaign-in-2023-two-years-later-a-23-9-billion-won-hospital-with-76-beds-opened-after-a-collective-fundraising-effort-backed-by-350000-donors/articleshow/135591788.cms",
+        "source": "The Times of India",
+        "date": "2026-11-07T05:16:41Z"
+      },
+      {
+        "title": "Europe is gearing up for a future war Russia is already waging",
+        "url": "https://www.nrc.nl/nieuws/2026/11/06/europe-is-gearing-up-for-a-future-war-russia-is-already-waging-a4940691",
+        "source": "Www.nrc.nl",
+        "date": "2026-11-06T21:00:00Z"
+      },
+      {
+        "title": "EXCLUSIVE: Eric Dane's Heartbreaking Final Wishes for His Funeral Revealed",
+        "url": "https://radaronline.com/p/eric-dane-heartbreaking-final-funeral-wishes-revealed/",
+        "source": "Radaronline.com",
+        "date": "2026-11-06T19:43:40Z"
+      },
+      {
+        "title": "\u201cToo Fast, Too Big\u201d: Activists Across Europe Challenge Data Center Rush",
+        "url": "https://netzpolitik.org/2026/too-fast-too-big-activists-across-europe-challenge-data-center-rush/",
+        "source": "Netzpolitik.org",
+        "date": "2026-11-06T18:39:17Z"
+      },
+      {
+        "title": "als-finder 1.2.2",
+        "url": "https://pypi.org/project/als-finder/1.2.2/",
+        "source": "Pypi.org",
+        "date": "2026-11-06T16:55:58Z"
+      },
+      {
+        "title": "\"Estuary\" von Wolves In The Throne Room",
+        "url": "https://laut.de/Wolves-In-The-Throne-Room/Alben/Estuary-127702",
+        "source": "Laut.de",
+        "date": "2026-11-06T12:32:13Z"
+      },
+      {
+        "title": "\"S\u00c3\u00a9ance\" von Get Well Soon",
+        "url": "https://laut.de/Get-Well-Soon/Alben/Seance-127651",
+        "source": "Laut.de",
+        "date": "2026-11-06T09:48:25Z"
+      },
+      {
+        "title": "intsys_car_v1 0.0.9",
+        "url": "https://pypi.org/project/intsys_car_v1/",
+        "source": "Pypi.org",
+        "date": "2026-11-06T08:59:38Z"
+      },
+      {
+        "title": "Complementary spectroscopic methods for simultaneous quantification of tiotropium bromide and olodaterol hydrochloride with analytical performance and environmental sustainability assessment",
+        "url": "https://www.nature.com/articles/s41598-026-74029-x.pdf",
+        "source": "Nature.com",
+        "date": "2026-11-06T00:00:00Z"
+      },
+      {
+        "title": "Donald Trump\u2019s humiliation offers America an opportunity",
+        "url": "https://www.nrc.nl/nieuws/2026/11/05/donald-trumps-humiliation-offers-america-an-opportunity-a4940624",
+        "source": "Www.nrc.nl",
+        "date": "2026-11-05T21:00:00Z"
+      },
+      {
+        "title": "Oracle Health and Life Sciences Forum 2026",
+        "url": "https://eventreg.oracle.com/profile/web/index.cfm?PKwebID=0x975746abcd&source=CORP260401P00004%3Aso%3Ach%3Aor%3Adg%3A%3A%3A%3A&SC=%3Aso%3Ach%3Aor%3Adg%3A%3A%3A%3A&pcode=CORP260401P00004",
+        "source": "Oracle.com",
+        "date": "2026-11-05T15:45:39Z"
+      },
+      {
+        "title": "Cristiano Ronaldo beendet Teamkarriere",
+        "url": "https://sport.orf.at/stories/3164547/",
+        "source": "Sport.orf.at",
+        "date": "2026-11-05T10:43:55Z"
+      },
+      {
+        "title": "\u2018Cities in the Sky\u2019 and an Imagined High-Density University",
+        "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/11/05/cities-sky-and-imagined-high-density-university",
+        "source": "Inside Higher Ed",
+        "date": "2026-11-05T08:00:00Z"
+      },
+      {
+        "title": "Rebecca Gayheart Dane on Helping Her & Eric Dane\u2019s Daughters Through Grief (Exclusive)",
+        "url": "https://extratv.com/2026/11/04/rebecca-gayheart-dane-on-helping-her-and-eric-dane-s-daughters-through-grief-exclusive/",
+        "source": "Extra",
+        "date": "2026-11-05T00:10:22Z"
+      },
+      {
+        "title": "Arm posts Q2 revenue of $1.44B, up 27%",
+        "url": "https://biztoc.com/x/86d46c01d4d83742",
+        "source": "Biztoc.com",
+        "date": "2026-11-04T21:38:18Z"
+      },
+      {
+        "title": "Andy Burnham\u2019s government talks of change, then does nothing",
+        "url": "https://www.nrc.nl/nieuws/2026/11/04/andy-burnhams-government-talks-of-change-then-does-nothing-a4940152",
+        "source": "Www.nrc.nl",
+        "date": "2026-11-04T21:00:00Z"
+      },
+      {
+        "title": "London, Paris, Berlin: Action Against Data Centers Goes Europe-Wide This Weekend",
+        "url": "https://netzpolitik.org/2026/london-paris-berlin-action-against-data-centers-goes-europe-wide-this-weekend/",
+        "source": "Netzpolitik.org",
+        "date": "2026-11-04T18:29:07Z"
+      },
+      {
+        "title": "Eric Dane reveals horror moment he exploded at 'son of a b***h' co-star Josh Duhamel during botched fight scene: 'I should have walked away'",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16265245/eric-dane-josh-duhamel-fight-las-vegas.html",
+        "source": "Dailymail.com",
+        "date": "2026-11-04T18:17:10Z"
+      },
+      {
+        "title": "Eric Dane\u2019s widow Rebecca Gayheart details first ALS symptom she noticed before his diagnosis",
+        "url": "https://pagesix.com/2026/11/04/celebrity-news/rebecca-gayheart-details-first-als-symptom-she-noticed-before-eric-danes-diagnosis/",
+        "source": "Page Six",
+        "date": "2026-11-04T18:11:34Z"
+      },
+      {
+        "title": "Eric Dane's Ex-Wife Claims He Was 'In Control of the Way He Was Going to Leave' in Final Days Before ALS Death",
+        "url": "https://radaronline.com/p/eric-dane-control-way-he-was-going-leave-final-days-als-death/",
+        "source": "Radaronline.com",
+        "date": "2026-11-04T17:27:16Z"
+      },
+      {
+        "title": "Rebecca Gayheart Opens Up About Eric Dane\u2019s Final Days: \u201cEverything Shifted\u201d - The Hollywood Reporter",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186590902",
+        "source": "Slashdot.org",
+        "date": "2026-11-04T17:12:30Z"
+      },
+      {
+        "title": "Vermont Has Spent Nearly a Billion Dollars to Clean Up Lake Champlain. But the Green Slime Keeps Coming Back.",
+        "url": "https://www.propublica.org/article/lake-champlain-algae-bloom-cyanobacteria-water-pollution-vermont",
+        "source": "ProPublica",
+        "date": "2026-11-04T15:00:00Z"
+      },
+      {
+        "title": "Florida man springs to action to help rescue elderly neighbors as rising floodwaters swamp homes",
+        "url": "https://www.foxweather.com/extreme-weather/video-man-rescues-neighbors-floodingpalm-bay",
+        "source": "Foxweather.com",
+        "date": "2026-11-04T10:11:08Z"
+      },
+      {
+        "title": "Eric Dane's widow Rebecca Gayheart reveals she thought he had more time before death from ALS",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16264211/Eric-Danes-Rebecca-Gayheart-thought-time-death-ALS.html",
+        "source": "Dailymail.com",
+        "date": "2026-11-04T06:53:19Z"
+      },
+      {
+        "title": "Dems take Minnesota, Maine Senate seats",
+        "url": "https://biztoc.com/x/8ed1374632843b60",
+        "source": "Biztoc.com",
+        "date": "2026-11-04T05:44:01Z"
+      },
+      {
+        "title": "Eric Dane names \u2018son of a bitch\u2019 actor he nearly came to blows with on TV set",
+        "url": "https://pagesix.com/2026/11/03/celebrity-news/eric-dane-nearly-fought-josh-duhamel-on-las-vegas-set-memoir/",
+        "source": "Page Six",
+        "date": "2026-11-03T23:57:35Z"
+      },
+      {
+        "title": "Eric Dane's final words of advice to his teenage daughters were to 'fight and hold your head up high'... as funeral details are revealed",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16263473/eric-dane-daughters-final-words-als.html",
+        "source": "Dailymail.com",
+        "date": "2026-11-03T23:38:47Z"
+      },
+      {
+        "title": "Donald Trump may love the Middle East to death",
+        "url": "https://www.nrc.nl/nieuws/2026/11/03/donald-trump-may-love-the-middle-east-to-death-a4940150",
+        "source": "Www.nrc.nl",
+        "date": "2026-11-03T21:00:00Z"
+      },
+      {
+        "title": "Trump\u2019s Midterms Self-Sabotage",
+        "url": "https://www.newyorker.com/newsletter/the-daily/trumps-midterms-self-sabotage",
+        "source": "The New Yorker",
+        "date": "2026-11-03T19:00:00Z"
+      },
+      {
+        "title": "Rebecca Gayheart Recalls Eric Dane's 'Last Trip to the Hospital' Before Death",
+        "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-recalls-eric-danes-last-hospital-trip/",
+        "source": "Us Weekly",
+        "date": "2026-11-03T18:21:25Z"
+      },
+      {
+        "title": "Rebecca Gayheart Reveals If She Considers Herself a Widow After Eric Dane",
+        "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-says-shes-solo-after-eric-danes-death/",
+        "source": "Us Weekly",
+        "date": "2026-11-03T17:56:13Z"
+      },
+      {
+        "title": "Eric Dane Shares Final Advice to Daughters in Posthumous Memoir",
+        "url": "https://www.thehollywoodgossip.com/eric-dane-memoir-final-advice-daughters/",
+        "source": "The Hollywood Gossip",
+        "date": "2026-11-03T16:58:46Z"
+      },
+      {
+        "title": "EXCLUSIVE: Rebecca Gayheart Details Eric Dane\u2019s Final Week of Life: \u2018Had No Idea That Was It\u2019 - TODAY.com",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186569512",
+        "source": "Slashdot.org",
+        "date": "2026-11-03T15:32:26Z"
+      },
+      {
+        "title": "Eric Dane\u2019s widow Rebecca Gayheart details actor\u2019s brutal decline before ALS death: \u2018Everything shifted\u2019",
+        "url": "https://pagesix.com/2026/11/03/celebrity-news/eric-danes-widow-rebecca-gayheart-details-actors-brutal-decline-before-als-death-everything-shifted/",
+        "source": "Page Six",
+        "date": "2026-11-03T14:57:17Z"
+      },
+      {
+        "title": "Eric Dane was shockingly misdiagnosed with highly-treatable condition before getting ALS 'death sentence'",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16262251/eric-dane-misdiagnosed-als-death.html",
+        "source": "Dailymail.com",
+        "date": "2026-11-03T14:48:20Z"
+      },
+      {
+        "title": "Eric Dane Initially Received Different Diagnosis Before ALS Battle",
+        "url": "https://www.eonline.com/news/1437760/eric-dane-diagnosed-with-motor-neuropathy-before-als-battle-death",
+        "source": "Eonline.com",
+        "date": "2026-11-03T13:58:00Z"
+      },
+      {
+        "title": "Eric Dane shares regrets, hopes for his teenage daughters in emotional letter - USA Today",
+        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186568706",
+        "source": "Slashdot.org",
+        "date": "2026-11-03T13:52:49Z"
+      },
+      {
+        "title": "Rebecca Gayheart Reflects on Eric Dane's Death in Tearful New Interview",
+        "url": "https://www.usmagazine.com/celebrity-news/news/rebecca-gayheart-remembers-eric-dane-in-emotional-interview/",
+        "source": "Us Weekly",
+        "date": "2026-11-03T13:39:32Z"
+      },
+      {
+        "title": "Rebecca Gayheart Details Eric Dane\u2019s Final Week of Life: \u2018Had No Idea That Was It\u2019",
+        "url": "https://www.today.com/health/news/rebecca-gayheart-exclusive-eric-dane-memoir-today-show-rcna606584",
+        "source": "TODAY",
+        "date": "2026-11-03T13:00:41Z"
+      },
+      {
+        "title": "Eric Dane Recalls 'Projectile Vomiting' the 1st Time He Did Heroin",
+        "url": "https://www.usmagazine.com/celebrity-news/news/eric-dane-details-drug-addiction-5150-hold-in-new-book/",
+        "source": "Us Weekly",
+        "date": "2026-11-03T13:00:24Z"
+      }
+    ],
+    "generated_at": "2026-11-08T14:49:35.284184"
+  },
+  {
     "date": "2026-11-01",
     "week_of": "November 01, 2026",
     "digest_number": 44,
