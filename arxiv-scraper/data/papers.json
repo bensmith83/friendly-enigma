@@ -1,5 +1,28 @@
 [
   {
+    "id": "2611.09446v1",
+    "title": "Logit Laundering: Evading Data-Use Auditing in Large Language Models",
+    "summary": "Data-use auditing in Large Language Models (LLMs) aims to determine whether the given data has been used for training, thereby supporting data ownership safeguards. A dominant solution is data watermarking, which embeds traceable signals into training data and detects them in model outputs. Recent studies have proposed many watermarking-based auditing methods in LLMs. However, systematic investigation from an adversarial perspective remains limited: non-compliant LLM providers would use unauthorized copyrighted datasets for training their own models to enhance model capabilities, while attempting to evade detection by auditors, thereby avoiding legal liability. To fill this research gap, we propose a novel evasion framework, termed Logit Laundering, where the non-compliant LLM provider manipulates model outputs at inference time to undermine detectable watermark signals. Specifically, we design a logit reshaping module to suppress watermark-induced statistical signals by integrating a statistical bias estimator as a plug-and-play component. This design keeps the model parameters unchanged and performs manipulation only in the logit space, thereby enabling auditing evasion while minimizing the impact on model's learned knowledge. To further balance evasion effectiveness and model utility, we introduce a confidence-aware scaling module to adaptively calibrate the suppression strength based on next-token prediction confidence. Extensive evaluations show that Logit Laundering can successfully evade existing various state-of-the-art auditing methods, significantly attenuating detectable signals, while preserving model utility on downstream tasks. Our work highlights the need for exploring more robust auditing methods to guard against evasion behaviors.",
+    "published": "2026-11-06T13:20:30Z",
+    "link": "http://arxiv.org/abs/2611.09446v1",
+    "authors": [
+      "Ruihan Hu",
+      "Wei Luo",
+      "Yu-Ming Shang",
+      "Jiakai Wang",
+      "Chuxuan Zhang",
+      "Mei Li",
+      "Xi Zhang",
+      "Meikang Qiu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Data-use auditing in Large Language Models (LLMs) aims to determine whether the given data has been used for training, thereby supporting data ownership safeguards. A dominant solution is data watermarking, which embeds traceable signals into training data and detects them in model outputs.",
+    "selected_date": "2026-11-09"
+  },
+  {
     "id": "2611.08343v1",
     "title": "LABBA: LLM-Assisted Behavioral Biometric Authentication",
     "summary": "Behavioral biometrics have emerged as a promising complement to traditional physiological biometrics by leveraging dynamic human characteristics. These modalities offer advantages including continuous authentication, inherent liveness detection, and greater resistance to credential theft and other spoofing attacks. However, existing systems remain limited in adaptability, contextual awareness, and semantic reasoning as they primarily rely on similarity metrics, static thresholds, or supervised classifiers. As a result, they often struggle with real-world conditions such as behavioral variability, environmental changes, contextual changes, and adversarial manipulations.   To address these limitations, we systematically integrate LLM-based contextual reasoning into behavioral biometric authentication. LLMs provide capabilities in contextual inference, sequential reasoning, multimodal understanding, and adaptive decision-making. Building on these strengths, we integrate a lightweight LLM-based reasoning module with a novel phone-blowing behavioral biometric technique to develop a context-aware authentication framework. To this end, we first collect blow-acoustic signals from participants and systematically extract spectral and temporal features. These features are aggregated and converted into comparable similarity representations, using either discrete rule-based categories or continuous normalized scores, which are transformed into structured prompts through prompt engineering.   We experimentally evaluate the proposed framework using blow-acoustic data collected from 50 participants under diverse behavioral and contextual conditions. The proposed framework achieves 99.46% and 99.38% authentication accuracy in the rule-based and score-based modes, respectively, outperforming its non-LLM counterpart while maintaining strong robustness under dynamic real-world conditions.",
@@ -576,24 +599,5 @@
     ],
     "ai_summary": "Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model.",
     "selected_date": "2026-10-11"
-  },
-  {
-    "id": "2610.11996v1",
-    "title": "Moving Target Defense in SDN-enabled EV Charging Network",
-    "summary": "Software-Defined Networking (SDN) is emerging as a promis- ing technology for EV Charging infrastructure (EVCI) since it enables flexible, programmable control of EVCI networks, yet its security gain to EVCI remains underexplored. SDN-enabled EVCI faces an increas- ing number of cyber threats arising from the convergence of IT and OT components; in particular, low-rate Denial-of-Service (DoS) attacks. Ear- lier works identify a trend toward low-rate attacks in OT networks that may exhaust SDN switch flow tables and which can result in disabling the entire charging sites without triggering volume-based defenses. In this paper, we propose CS-SHIELD, a Moving Target Defense mecha- nism for SDN-enabled EVCI communication. We showcase the imple- mentation of the proposed mechanism that detects malicious flow table rules via cross-layer identity verification and responds by reassigning virtual IP addresses to all active chargers. Experiments on an emulated SDN testbed with a real charging protocol implementation demonstrate that CS-SHIELD maintains full site availability under attack, responds quickly, adds only a negligible delay under normal conditions. The reas- signing (shuffle) approach at each reaction makes the earlier reconnais- sance knowledge by the attacker rendered worthless.",
-    "published": "2026-10-08T14:04:28Z",
-    "link": "http://arxiv.org/abs/2610.11996v1",
-    "authors": [
-      "Roland Plaka",
-      "Mikael Asplund",
-      "Simin Nadjm-Tehran"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.GT",
-      "cs.NI"
-    ],
-    "ai_summary": "Software-Defined Networking (SDN) is emerging as a promis- ing technology for EV Charging infrastructure (EVCI) since it enables flexible, programmable control of EVCI networks, yet its security gain to EVCI remains underexplored. SDN-enabled EVCI faces an increas- ing number of cyber threats arising from the convergence of IT and OT components; in particular, low-rate Denial-of-Service (DoS) attacks.",
-    "selected_date": "2026-10-10"
   }
 ]
