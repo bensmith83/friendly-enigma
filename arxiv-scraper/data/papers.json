@@ -1,5 +1,29 @@
 [
   {
+    "id": "2611.12479v1",
+    "title": "Brief introduction to post-quantum cryptography in industrial applications",
+    "summary": "The development of Post-Quantum Cryptography (PQC) is directly motivated by the necessity to secure information in the face of the quantum threat. This paper provides an overview of recent developments relevant to PQC adoption across several industrial applications, including IoT, healthcare, civil and infrastructure engineering, and defense. We present a brief, self-contained overview of PQC and its market positioning. We perform implementation experiments on selected quantum-safe methods and quantify several aspects, such as the quantum resources required to break common cryptographic schemes, as well as the performance of the most well-known PQC algorithms. We also discuss the resistance of different PQC classes to quantum attacks and the status of PQC implementations in different programming languages. Finally, we present benchmark results on KEMs and signature algorithms to help select the appropriate algorithm for a specific application based on criteria such as algorithm performance, data lifetime, and level of data sensitivity.",
+    "published": "2026-11-09T14:25:14Z",
+    "link": "http://arxiv.org/abs/2611.12479v1",
+    "authors": [
+      "Mateusz \u017barski",
+      "Jaros\u0142aw Miszczak",
+      "C\u00e9dric Crettaz",
+      "Adela Georgescu",
+      "Deepak V. Katkoria",
+      "Ruxandra F. Olimid",
+      "Mihai Prunescu",
+      "Maria Slim",
+      "Silviu Laurentiu Vasile",
+      "Stella Wohnig"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "The development of Post-Quantum Cryptography (PQC) is directly motivated by the necessity to secure information in the face of the quantum threat. This paper provides an overview of recent developments relevant to PQC adoption across several industrial applications, including IoT, healthcare, civil and infrastructure engineering, and defense.",
+    "selected_date": "2026-11-10"
+  },
+  {
     "id": "2611.09446v1",
     "title": "Logit Laundering: Evading Data-Use Auditing in Large Language Models",
     "summary": "Data-use auditing in Large Language Models (LLMs) aims to determine whether the given data has been used for training, thereby supporting data ownership safeguards. A dominant solution is data watermarking, which embeds traceable signals into training data and detects them in model outputs. Recent studies have proposed many watermarking-based auditing methods in LLMs. However, systematic investigation from an adversarial perspective remains limited: non-compliant LLM providers would use unauthorized copyrighted datasets for training their own models to enhance model capabilities, while attempting to evade detection by auditors, thereby avoiding legal liability. To fill this research gap, we propose a novel evasion framework, termed Logit Laundering, where the non-compliant LLM provider manipulates model outputs at inference time to undermine detectable watermark signals. Specifically, we design a logit reshaping module to suppress watermark-induced statistical signals by integrating a statistical bias estimator as a plug-and-play component. This design keeps the model parameters unchanged and performs manipulation only in the logit space, thereby enabling auditing evasion while minimizing the impact on model's learned knowledge. To further balance evasion effectiveness and model utility, we introduce a confidence-aware scaling module to adaptively calibrate the suppression strength based on next-token prediction confidence. Extensive evaluations show that Logit Laundering can successfully evade existing various state-of-the-art auditing methods, significantly attenuating detectable signals, while preserving model utility on downstream tasks. Our work highlights the need for exploring more robust auditing methods to guard against evasion behaviors.",
@@ -580,24 +604,5 @@
     ],
     "ai_summary": "Agent skills extend the capabilities of AI agents by bundling instructions, code, and resources into reusable packages. During skill execution, agents may produce or modify artifacts, such as files, configurations, and cached data, that are reused by other skills in later sessions.",
     "selected_date": "2026-10-12"
-  },
-  {
-    "id": "2610.12442v1",
-    "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
-    "summary": "Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model should receive as its condition and propose a lifting-free answer: a learned view synthesizer, an LVSM-style transformer fine-tuned to render the egocentric view directly without depth, point clouds, or reprojection, resolving cross-view correspondence internally. In contrast, its probabilistic mapping averages each region over candidate source locations according to a learned correspondence distribution, preserving structure while fine texture is averaged away. We argue that this trade-off suits a diffusion generator, whose denoising training excels at restoring detail, so an effective condition should prioritize structural alignment over sharpness. This distribution's concentration also yields a per-region confidence, used both to mask low-confidence regions and to guide the generator toward high-confidence areas during early layout-forming denoising steps. Our approach consistently outperforms the state-of-the-art explicit pipeline and generalizes to other datasets without retraining. The synthesizer thus supplies view structure, and the diffusion model its detail.",
-    "published": "2026-10-08T17:58:03Z",
-    "link": "http://arxiv.org/abs/2610.12442v1",
-    "authors": [
-      "Suhwan Cho",
-      "Yonwoo Choi",
-      "Soongjin Kim",
-      "Jicheol Park",
-      "Taegyu Lim"
-    ],
-    "categories": [
-      "cs.CV"
-    ],
-    "ai_summary": "Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model.",
-    "selected_date": "2026-10-11"
   }
 ]
