@@ -1,5 +1,25 @@
 [
   {
+    "id": "2611.17065v1",
+    "title": "NonSense: On the (In)security of FPGA Anti-tamper Sensors",
+    "summary": "FPGAs are widely used in mission-critical systems, where a successful physical attack can have serious consequences. This makes resilience to such attacks a critical security requirement. To defend against active physical attacks, such as glitching attacks, modern FPGAs rely on on-chip sensors that detect these disturbances and trigger responses, such as key zeroization, before a device is compromised. These sensors are deployed as both hard-IP blocks and soft-IP cores, and their trustworthiness is often taken for granted. In this work, we challenge that assumption and argue that the sensors themselves are a fragile and underexplored attack surface. Drawing on recent results, we show that both the detection and response mechanisms of state-of-the-art sensors can be bypassed without invasive tampering. We further argue that sensor reliability is reduced by factors rarely captured in threat models, including the spatial and frequency-dependent behavior of the system's power delivery network, which can steer a fault to a target while sparing nearby sensors; environmental conditions such as temperature, which shift detection thresholds; and long-term aging, which drifts sensor calibration and may open silent detection gaps. Finally, we propose a set of countermeasures that harden detection and response mechanisms against these effects.",
+    "published": "2026-11-12T16:40:38Z",
+    "link": "http://arxiv.org/abs/2611.17065v1",
+    "authors": [
+      "Mehmet Ali Cetin",
+      "Fatemeh Khojasteh Dana",
+      "Saleh Khalaj Monfared",
+      "Nima Seyed Aghazadeh",
+      "Maryam Saadat Safa",
+      "Shahin Tajik"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "ai_summary": "FPGAs are widely used in mission-critical systems, where a successful physical attack can have serious consequences. This makes resilience to such attacks a critical security requirement.",
+    "selected_date": "2026-11-14"
+  },
+  {
     "id": "2611.16693v1",
     "title": "MobileProbe: Adaptive Security Evaluation of Mobile Agents via Trajectory-Aware Injection",
     "summary": "Mobile GUI agents read the screen of a phone and operate apps on a user's behalf to complete multi-step tasks such as online shopping or messaging. Because the agent acts on whatever the screen shows, an attacker can embed malicious instructions into ordinary UI content and redirect its actions. We refer to this threat as environmental injection attack (EIA). Existing benchmarks measure this risk by pinning hand-crafted payloads to a fixed step of a fixed task. This approach faces two limitations. First, each payload is bound to one task in one app and does not transfer without manual redesign. Second, agents given the same task may follow different routes, so an agent that never reaches the injected page is recorded as safe without being tested. This insufficient test coverage can cause fixed-point benchmarks to underestimate the security risk of deployed mobile agents.   In this work, we propose MobileProbe, a trajectory-aware red-teaming framework that evaluates mobile agents adaptively. MobileProbe discovers attacker-controllable content surfaces through automated pentesting, localizes vulnerable decision points along the agent's trajectory, and iteratively refines context-aware payloads through a surrogate-filtered evolutionary loop. We construct a benchmark of 83 long-horizon attack instances spanning 12 mobile applications. Each is annotated with a Confidentiality, Integrity, or Availability (CIA) attack goal to cover the principal categories of security threats facing mobile agents. On three representative agent architectures, MobileProbe attains higher attack success rates than human-written, zero-shot LLM, and prior automated red-teaming baselines adapted to the mobile domain. MobileProbe can serve as a pre-deployment auditing tool to systematically uncover vulnerabilities and inform security hardening of mobile agents.",
@@ -591,20 +611,5 @@
     ],
     "ai_summary": "Mobile apps have become ubiquitous in daily life. Despite communication encryption, app fingerprinting (AF) attacks can still enable adversaries to infer the apps in use by analyzing patterns of encrypted network traffic.",
     "selected_date": "2026-10-16"
-  },
-  {
-    "id": "2610.20427v1",
-    "title": "Phantomware: a Data Augmentation Framework for the Detection of Emerging Malware Campaigns",
-    "summary": "Detecting unseen malware variants remains a major challenge as malware families continuously evolve. This issue is exacerbated in data-scarce scenarios such as emerging malware campaigns, where only a few samples are available to train robust detectors. A common strategy is to proactively generate malware variants and use them as augmentation data to expose models to a broader range of potential threats. Existing approaches that generate functional malware variants through adversarial manipulation suffer from several important limitations. Generated samples must remain executable and preserve their malicious behavior, requiring costly validation through execution and analysis. Moreover, the adversarial objective provides limited control over the resulting augmentation dataset: it cannot guarantee the generation of sufficiently diverse variants, or even a single successful sample, making the effectiveness of the augmentation process inherently unpredictable. Finally, these approaches typically rely on a well-trained detector to guide generation, an assumption that may not hold in data-scarce scenarios such as early-stage malware campaigns. We formally and empirically demonstrate these limitations and propose Phantomware, a data augmentation framework designed for extreme data scarce scenarios. Phantomware operates entirely in the representation space of a pretrained malware detector, avoiding the costly generation and validation of functional binaries. By exploiting latent-space geometry, it generates synthetic malware representations of a target family in a controlled manner, providing a constructive guarantee on the generation of diverse training samples. Extensive experiments on real malware families demonstrate that Phantomware improves detection of unseen variants and provides robustness against both real and adversarially generated malware samples.",
-    "published": "2026-10-14T16:18:50Z",
-    "link": "http://arxiv.org/abs/2610.20427v1",
-    "authors": [
-      "Antonino Rullo"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Detecting unseen malware variants remains a major challenge as malware families continuously evolve. This issue is exacerbated in data-scarce scenarios such as emerging malware campaigns, where only a few samples are available to train robust detectors.",
-    "selected_date": "2026-10-15"
   }
 ]
