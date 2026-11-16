@@ -1,5 +1,26 @@
 [
   {
+    "id": "2611.18442v1",
+    "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+    "summary": "Open driving releases and usage-based insurance programs often claim to prevent privacy breaches by omitting GPS records when sharing or collecting vehicle data. However, removing GPS coordinates from driving logs does not erase the location information carried by vehicle signals. While prior route-inference attacks have demonstrated that speed, steering, and driving events can be matched to road networks to reconstruct trajectories, existing studies rely on inconsistent prior assumptions and evaluation metrics and are tested only on small, restricted datasets, making their results difficult to compare and their real-world effectiveness uncertain. We release CANTraj, a naturalistic driving dataset pairing decoded CAN events with time-aligned GNSS trajectories (3,940 drives, 454 drivers), and CANTraj-Bench for evaluating trajectory recovery (3,675 drives, 431 drivers, 1,380 hours, 85,919 km). On 776 evaluation drives from 94 unseen drivers, we compare six re-implemented attacks and benchmark baselines under explicit information-access protocols, paired comparisons, and metrics incorporating failures. Experiments show that combining steering signals with road-network constraints yields the largest gain: With a known start and heading, adding steering to speed raises the online map filter's five-minute route recovery from 56% to 87%, with a median average displacement error of 43 m versus 921 m for map-free dead reckoning. Offline beam search recovers 88% of test routes with the heading and 81% without it. Because methods fail on different windows, we also evaluate an LLM harness that selects among candidate routes on 659 five-minute windows; its best configuration recovers 79% of routes on test and 83% on few-shot, outperforming the best baseline on test and matching it on few-shot. Data and code at huggingface.co/datasets/HenryYHW/CANTraj and github.com/WangYuHang-cmd/GPS--CAN.",
+    "published": "2026-11-13T17:17:13Z",
+    "link": "http://arxiv.org/abs/2611.18442v1",
+    "authors": [
+      "Yuhang Wang",
+      "Jingxin Yang",
+      "Chuheng Wei",
+      "Suyang Chen",
+      "Haozhuang Chi",
+      "Hao Zhou"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DB"
+    ],
+    "ai_summary": "Open driving releases and usage-based insurance programs often claim to prevent privacy breaches by omitting GPS records when sharing or collecting vehicle data. However, removing GPS coordinates from driving logs does not erase the location information carried by vehicle signals.",
+    "selected_date": "2026-11-16"
+  },
+  {
     "id": "2611.17331v1",
     "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
     "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose the fast-weight MLP of TTT to learn the cross-view attention mapping explicitly from its input-output pairs, rather than replacing attention entirely, achieving the same rendering efficiency as TTT while delivering substantially higher quality. The second key addresses a modality misalignment between context prefilling and novel-view rendering: we disentangle context tokens into camera-only context rendering tokens to serve as TTB input, and context ground-truth tokens with image content to serve as the TTB mapping target, ensuring the baked MLPs are relieved of the modality generalization challenge between context and novel-view processing. Our method achieves up to **23x** rendering speedup with quality on par with the state-of-the-art across several benchmarks. Project page: https://test-time-baking.github.io",
@@ -594,22 +615,5 @@
     ],
     "ai_summary": "Mobile apps have become ubiquitous in daily life. Despite communication encryption, app fingerprinting (AF) attacks can still enable adversaries to infer the apps in use by analyzing patterns of encrypted network traffic.",
     "selected_date": "2026-10-18"
-  },
-  {
-    "id": "2610.21935v1",
-    "title": "Defense Filters for Robust Learning of Partially Observed Dynamical Systems",
-    "summary": "Robust estimation of unknown system dynamics from partial observations under attack is a core challenge in learning for control, increasingly critical in multi-agent networks subject to adversarial data poisoning. Existing methods either require highly restrictive assumptions on the adversary or yield weak error bounds. In this paper, we consider identifying partially observed linear dynamical systems subject to adversarial attacks with an attack probability $p < 0.5$ at each time. We propose a defense-filtering framework in which a system designer leverages knowledge of the observation matrix to construct a defense filter satisfying full column rank and subspace separability conditions, which enables the evaluation of a single-attack scenario against observed data. Using this framework, we analyze the constrained $\\ell_2$-norm estimator and establish finite-sample error bounds for recovering the Markov parameter matrix $G^*$. This is the first approach to provide provable system identification guarantees via a defense filter for partially observed systems subject to harsh attack environments where the attack probability approaches $0.5$.",
-    "published": "2026-10-15T14:11:55Z",
-    "link": "http://arxiv.org/abs/2610.21935v1",
-    "authors": [
-      "Jihun Kim",
-      "Javad Lavaei"
-    ],
-    "categories": [
-      "math.OC",
-      "eess.SY"
-    ],
-    "ai_summary": "Robust estimation of unknown system dynamics from partial observations under attack is a core challenge in learning for control, increasingly critical in multi-agent networks subject to adversarial data poisoning. Existing methods either require highly restrictive assumptions on the adversary or yield weak error bounds.",
-    "selected_date": "2026-10-17"
   }
 ]
