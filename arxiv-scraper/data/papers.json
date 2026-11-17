@@ -1,5 +1,23 @@
 [
   {
+    "id": "2611.21579v1",
+    "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+    "summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectives. We present ScenarioForge, which turns high-level requirements into resource-grounded topologies, services, traffic, segmentation, and challenge chains, then instantiates and validates them in the Common Open Research Emulator (CORE). The ScenarioForge Execution Dataset contains 226 materialized scenarios covering 294 Vulhub images and all 85 custom-built challenge-resource generators developed with our AI-assisted scaffolding. All 226 passed construction, preview, sequencing, deployment, strict runtime validation, and live artifact checks; their 867 steps, each an individually verifiable challenge objective, comprise 457 vulnerability-backed and 410 generated-resource-backed instances. In a separate 50-prompt matched benchmark, ScenarioForge+Qwen3.8 and ScenarioForge+GPT5.6 each achieved 50/50 (100%) topology/build success and 160/160 intent fields; direct frontier generation reached 41/50 builds and 147/160 fields only with the full cumulative scaffold: structure, vocabulary, policy, and container-image guidance. The test still omitted ScenarioForge's downstream challenge-resource generation, dependency/flag sequencing, deployment, and live validation. The artifacts support operationally rich, reproducible exercises for training and evaluation.",
+    "published": "2026-11-16T18:49:56Z",
+    "link": "http://arxiv.org/abs/2611.21579v1",
+    "authors": [
+      "Jaime C. Acosta",
+      "Anantaa Kotal",
+      "Aritran Piplai"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "ai_summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectives.",
+    "selected_date": "2026-11-17"
+  },
+  {
     "id": "2611.18442v1",
     "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
     "summary": "Open driving releases and usage-based insurance programs often claim to prevent privacy breaches by omitting GPS records when sharing or collecting vehicle data. However, removing GPS coordinates from driving logs does not erase the location information carried by vehicle signals. While prior route-inference attacks have demonstrated that speed, steering, and driving events can be matched to road networks to reconstruct trajectories, existing studies rely on inconsistent prior assumptions and evaluation metrics and are tested only on small, restricted datasets, making their results difficult to compare and their real-world effectiveness uncertain. We release CANTraj, a naturalistic driving dataset pairing decoded CAN events with time-aligned GNSS trajectories (3,940 drives, 454 drivers), and CANTraj-Bench for evaluating trajectory recovery (3,675 drives, 431 drivers, 1,380 hours, 85,919 km). On 776 evaluation drives from 94 unseen drivers, we compare six re-implemented attacks and benchmark baselines under explicit information-access protocols, paired comparisons, and metrics incorporating failures. Experiments show that combining steering signals with road-network constraints yields the largest gain: With a known start and heading, adding steering to speed raises the online map filter's five-minute route recovery from 56% to 87%, with a median average displacement error of 43 m versus 921 m for map-free dead reckoning. Offline beam search recovers 88% of test routes with the heading and 81% without it. Because methods fail on different windows, we also evaluate an LLM harness that selects among candidate routes on 659 five-minute windows; its best configuration recovers 79% of routes on test and 83% on few-shot, outperforming the best baseline on test and matching it on few-shot. Data and code at huggingface.co/datasets/HenryYHW/CANTraj and github.com/WangYuHang-cmd/GPS--CAN.",
@@ -592,28 +610,5 @@
     ],
     "ai_summary": "Graph Large Language Models (GraphLLMs) enable powerful semantic understanding and reasoning over Text-Attributed Graphs (TAGs), while their semantic reasoning may exhibit vulnerabilities to perturbations in node text and graph structure under adversarial attack evaluation. Existing attacks typically construct textual and structural perturbations in separate stages guided by distinct realization intents.",
     "selected_date": "2026-10-19"
-  },
-  {
-    "id": "2610.22148v1",
-    "title": "MAppPrint: Robust and Real-time Mobile App Fingerprinting via Traffic Behavior Correlation Graphs",
-    "summary": "Mobile apps have become ubiquitous in daily life. Despite communication encryption, app fingerprinting (AF) attacks can still enable adversaries to infer the apps in use by analyzing patterns of encrypted network traffic. However, existing AF attacks suffer from three critical limitations that hinder their practical effectiveness: (i) the inability to capture app-specific traffic dependencies, rendering traffic fingerprints fragile under dynamic networking conditions; (ii) the neglect of latency and throughput considerations, resulting in inefficient real-time user tracking; and (iii) the incapacity to handle mixed traffic generated by multi-app concurrency.   In this paper, we propose MAppPrint, a robust and real-time app fingerprinting framework. MAppPrint introduces a behavior-level traffic fingerprint, i.e., Traffic Behavior Correlation Graph (TBCG), which models app traffic by capturing unit traffic behaviors and their correlations, thereby providing reliable app fingerprints. To enable real-time fingerprinting, MAppPrint incorporates a fingerprint compression algorithm that transforms each TBCG into a compact graph by selectively aggregating redundant information. Furthermore, MAppPrint employs an unsupervised decomposition strategy to disentangle mixed traffic generated by multi-app concurrency, enabling unified identification of both single-app and multi-app traffic. Extensive experimental results demonstrate that MAppPrint achieves 4.9~13.9% improvement in AF precision and 3~6 times improvement in timeliness over state-of-the-art methods. Meanwhile, MAppPrint is robust in dynamic networking conditions, while achieving a throughput of 10.5 GB/s and a prediction latency of 0.68 seconds.",
-    "published": "2026-10-15T16:17:48Z",
-    "link": "http://arxiv.org/abs/2610.22148v1",
-    "authors": [
-      "Tao Duan",
-      "Junzhou Zhao",
-      "Jianglong Li",
-      "RongHua Li",
-      "Youqian Zhang",
-      "Nuo Xu",
-      "Pinghui Wang",
-      "Haibo Hu"
-    ],
-    "categories": [
-      "cs.CR",
-      "cs.NI"
-    ],
-    "ai_summary": "Mobile apps have become ubiquitous in daily life. Despite communication encryption, app fingerprinting (AF) attacks can still enable adversaries to infer the apps in use by analyzing patterns of encrypted network traffic.",
-    "selected_date": "2026-10-18"
   }
 ]
