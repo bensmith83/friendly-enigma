@@ -1,5 +1,23 @@
 [
   {
+    "id": "2611.26094v1",
+    "title": "Phantom of the Masquerade: Graph Neural Network-Based Detection of Masquerade Attacks in Controller Area Networks",
+    "summary": "The lack of built-in security in controller area networks (CANs) exposes modern vehicles and industrial systems to masquerade attacks that can compromise safety and reliability. These attacks inject malicious messages that mimic legitimate communication patterns, making them difficult to detect using existing intrusion detection systems (IDS). Prior graph-based IDS approaches often rely on shallow embeddings that decouple representation learning from classification, which may limit their ability to fully exploit structural and signal-level information. In this paper, we propose PhantoMasq, a graph neural network (GNN)-based framework for detecting masquerade attacks in CAN systems. PhantoMasq models CAN traffic as message sequence graphs enriched with lightweight statistical features derived from signal behavior, enabling joint learning of structural dependencies and temporal characteristics. The detection task is formulated as a graph-level classification problem and solved using graph convolutional networks (GCNs). We evaluate PhantoMasq on the ROAD dataset under a protocol that prevents overlapping windows from spanning training and test data. Across five masquerade attack types, PhantoMasq achieves mean AUC-ROC between 0.831 and 0.999, with performance depending on the transmission rate of the targeted identifier and the magnitude of the induced signal deviation. Against a state-of-the-art graph-embedding baseline evaluated on the same sliding-window configurations, PhantoMasq achieves higher AUC-ROC on all five attack types, by 0.13 to 0.36, and is less sensitive to window configuration. Window-processing latency ranges from 2.33 to 5.94 ms per window on CPU, corresponding to a throughput of 168 to 429 windows per second. We make our implementation and experimental artifacts available to support reproducibility.",
+    "published": "2026-11-19T13:30:46Z",
+    "link": "http://arxiv.org/abs/2611.26094v1",
+    "authors": [
+      "Nehal Ameen",
+      "Pablo Moriano",
+      "Irfan Ahmed"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "ai_summary": "The lack of built-in security in controller area networks (CANs) exposes modern vehicles and industrial systems to masquerade attacks that can compromise safety and reliability. These attacks inject malicious messages that mimic legitimate communication patterns, making them difficult to detect using existing intrusion detection systems (IDS).",
+    "selected_date": "2026-11-21"
+  },
+  {
     "id": "2611.26613v1",
     "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
     "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail. In this paper, we present a systematic action-level analysis of frontier agents on direct robot control across 12 manipulation benchmarks. We introduce AgentRoboCritic, an intent-grounded critique framework in which the policy agent states a local intent alongside each action, and a critic evaluates the action's outcome and failure mode against this intent. Our action-level analysis demonstrates the promising capabilities of frontier agents on direct robot control, including closed-loop recovery from local execution failures, reliable semantic grounding across diverse scenes, and strong zero-shot manipulation without task-specific adaptation. It also identifies their current limitations, including task-relevant physical execution bottlenecks such as grasping and alignment, and uneven recovery across failure modes. Finally, we validate our critic on a 400-action human-annotated benchmark and release a dataset of 12,844 annotated actions alongside a fine-tuned open-source critic, Muse-Glimmer-30B, whose failure-mode accuracy rises from 32.58% to 74.24%, enabling low-cost action-level analysis.",
@@ -595,23 +613,5 @@
     ],
     "ai_summary": "As AI generated images are getting popular these days, discussions on such generations are widely existed in current public forums, software repositories, and photography tutorials. Moreover, with the help of LLM-assisted code translation, malicious actors can adopt such information to evade detectors without specialized knowledge or local GPU execution of the resulting tools.",
     "selected_date": "2026-10-23"
-  },
-  {
-    "id": "2610.29886v1",
-    "title": "Characterizing and Defending Utility-Hijacking in Instruction-Tuning Data Selection",
-    "summary": "Instruction-data selectors choose which instruction-following records are used for fine-tuning, improving alignment quality, raising training efficiency, and filtering out harmful records. A selector's choices thus directly affect the fine-tuned model's safety, yet despite their widespread use, the security of these selectors remains under-studied. We conduct the first systematic study of adaptive supplier-side attacks against utility-oriented instruction-data selectors and introduce utility-hijacking. Utility-hijacking shapes harmful records to remain compatible with a selector while preserving their malicious payload, causing top-k selection to concentrate rather than filter the poison. Achieving both is non-trivial, because optimizing a record for score tends to wash out its payload, while bluntly preserving the payload makes the record look low-value. Our generate-and-rerank procedure generates, per instruction, many payload-bearing candidates and submits only the highest-scoring survivor. Evaluated across three payloads (over-refusal, false-fact injection, and insecure code), six selectors, and victim models from Qwen2.5-7B to Qwen3-32B, utility-hijacking drives refusal from 0% to 94% and insecure code up to 56/90, while false-fact enrichment intensifies with scoring-model scale from 2.84x to 7.04x. To defend against this attack, we propose CONCERT, a targeted defense needing no content detector or poison labels. It flags suppliers selected far more often than chance allows, then re-selects under the same budget, keeping only records that two dissimilar selectors both rank highly. On a Qwen3-32B victim, CONCERT reverses the poison concentration from 6.67x to 0x (code) and 3.59x to 0.67x (facts), and reduces downstream harm by 100% and 75% respectively, at unchanged capability.",
-    "published": "2026-10-21T15:31:04Z",
-    "link": "http://arxiv.org/abs/2610.29886v1",
-    "authors": [
-      "Yahao Ren",
-      "Jian Lou",
-      "Huadi Zheng",
-      "Jiawei Duan"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Instruction-data selectors choose which instruction-following records are used for fine-tuning, improving alignment quality, raising training efficiency, and filtering out harmful records. A selector's choices thus directly affect the fine-tuned model's safety, yet despite their widespread use, the security of these selectors remains under-studied.",
-    "selected_date": "2026-10-22"
   }
 ]
