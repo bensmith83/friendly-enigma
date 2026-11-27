@@ -1,5 +1,26 @@
 [
   {
+    "id": "2611.34467v1",
+    "title": "Attacking Hard-Label Large Vision-Language Models with Model-Sensitive Adversarial Patch Designs",
+    "summary": "Large vision-language models (LVLMs) have demonstrated impressive capabilities in handling multi-modal downstream tasks, gaining increasing popularity. However, recent studies show that LVLMs are susceptible to both intentional and inadvertent attacks. Existing attackers ideally optimize adversarial perturbations with backpropagated gradients from LVLMs, thus limiting their scalability in practical scenarios as real-world LVLM applications will not provide any LVLM's gradient or details. Motivated by this research gap and counter-practical phenomenon, we propose a novel hard-label attack method for LVLMs, named HardPatch, to generate visual adversarial patches by solely querying the model. Our method provides deeper insights into how to investigate the vulnerability of LVLMs in local visual regions and generate corresponding adversarial substitution under the practical yet challenging hard-label setting. Specifically, we first split each image into uniform patches and mask each of them to individually assess their sensitivity to the LVLM model. Then, according to the descending order of sensitive scores, we iteratively select the most vulnerable patch to initialize noise and estimate gradients with further additive random noises for optimization. In this manner, multiple patches are perturbed until the altered image satisfies the adversarial condition. Extensive LVLM models and datasets are evaluated to demonstrate the adversarial nature of HardPatch. Our empirical observations suggest that with appropriate patch substitution and optimization, HardPatch can craft effective adversarial images to attack hard-label LVLMs.",
+    "published": "2026-11-25T14:36:46Z",
+    "link": "http://arxiv.org/abs/2611.34467v1",
+    "authors": [
+      "Nian Ai",
+      "Guangke Chen",
+      "Xiaowen Cai",
+      "Zhongliang Guo",
+      "Daizong Liu",
+      "Pan Zhou",
+      "Ognjen Arandjelovi\u0107"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "ai_summary": "Large vision-language models (LVLMs) have demonstrated impressive capabilities in handling multi-modal downstream tasks, gaining increasing popularity. However, recent studies show that LVLMs are susceptible to both intentional and inadvertent attacks.",
+    "selected_date": "2026-11-27"
+  },
+  {
     "id": "2611.34181v1",
     "title": "Agentic-Level Adversarial Purification: Revisiting Diffusion Purifiers on Native-Resolution Agentic Inputs",
     "summary": "Vision-language agents act on native-resolution renders of multi-element pages, where one perturbed photo or a few altered text strokes can redirect the decision. Any content provider can craft such a perturbation on the open model behind the agent, so a plug-in purifier is the natural first line of defense. Yet diffusion purifiers were designed and evaluated at the fixed resolution of the diffusion model on classifier or natural-image benchmarks, and defense evaluations for agents test JPEG, blur and noise but no diffusion purifier. We present the first study of adversarial purification at the agentic level, for an agent built on Qwen3-VL-8B: purifiers run at native resolution on multi-element inputs, face grey-box attackers who know the agent's model but not the defense, and are compared at matched clean cost. We show that treating agentic inputs as classifier inputs misleads both evaluation and design. Resizing the input to the resolution of the diffusion model, as existing purifiers do, raises the TextVQA clean cost of the Divide-and-Conquer purifier (DC) from 4.0 to 35.7 points. On web-shop pages, DC keeps 85.0% grey-box robust accuracy against web-hardened perturbations, where cheap input transformations at matched clean cost keep at most 40.0%, and this robustness comes from the global noise level: input-estimated masks and noise levels add none. These findings hold on a disjoint held-out set and on a second VLM and yield three requirements for defenses, we release the protocol.",
@@ -592,22 +613,5 @@
     ],
     "ai_summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions.",
     "selected_date": "2026-10-29"
-  },
-  {
-    "id": "2610.37488v1",
-    "title": "Revisiting Privacy Risks in Quantized Deep Neural Networks",
-    "summary": "Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored. In this paper, we present the first comprehensive empirical study of privacy risks in quantized DNNs, evaluating eight state-of-the-art MIA attacks across six representative quantization methods. Our results reveal that practical quantization levels (4-8 bits) have limited impact on membership privacy risks, with quantized models remaining largely as vulnerable as their full-precision counterparts. Although aggressive low-bit quantization (e.g., 2-bit) can provide meaningful privacy gains, these benefits come at the cost of substantial utility degradation. To understand the underlying causes of these observations, we systematically analyze how different quantization strategies affect model behaviors and outputs, and how these changes influence privacy vulnerability. Beyond evaluating attack risks, we further investigate whether existing privacy defenses developed for full-precision DNNs can effectively protect QNNs. Our results show that these defenses provide only limited additional privacy protection when applied to quantized models, while further amplifying utility degradation. Our study provides practical guidance for privacy-aware deployment of quantized DNNs and motivates the development of new attack and defense mechanisms for QNNs. Our code and datasets are publicly available at https://github.com/JeffffffFu/Priv-QDNN.",
-    "published": "2026-10-27T16:14:21Z",
-    "link": "http://arxiv.org/abs/2610.37488v1",
-    "authors": [
-      "Jie Fu",
-      "Ren Li",
-      "Wendy Hui Wang"
-    ],
-    "categories": [
-      "cs.CR"
-    ],
-    "ai_summary": "Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored.",
-    "selected_date": "2026-10-28"
   }
 ]
