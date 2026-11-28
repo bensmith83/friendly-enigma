@@ -1,5 +1,23 @@
 [
   {
+    "id": "2611.34939v1",
+    "title": "A Mesh for Every Moment",
+    "summary": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose fixed grids limit the detail they can capture. At the core of MEMO is a per-Gaussian motion model inspired by Gaussian processes, which represents each Gaussian's position and rotation over time as a combination of temporal Gaussian kernels. The model keeps every Gaussian a valid surface element throughout the sequence and carries an implicit representation of the dynamic geometry, so a mesh can be derived at any time from a field defined by the Gaussians. Although common in real captures, large and fast motion poses a challenge that dynamic Gaussian splatting methods usually overlook. To account for it, we design a track-based initialization scheme that fits each Gaussian's initial trajectory to point tracks in closed form. We evaluate MEMO on Blender-Moments, a new benchmark of nine animated scenes with ground-truth meshes at every frame, and on two real-world datasets. MEMO reconstructs the most accurate geometry among state-of-the-art methods, and remains competitive in novel-view synthesis and training time. Project page: https://memo-4d.github.io",
+    "published": "2026-11-25T18:59:45Z",
+    "link": "http://arxiv.org/abs/2611.34939v1",
+    "authors": [
+      "Roy Or-El",
+      "Jeong Joon Park",
+      "Ira Kemelmacher-Shlizerman"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.GR"
+    ],
+    "ai_summary": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose fixed grids limit the detail they can capture.",
+    "selected_date": "2026-11-28"
+  },
+  {
     "id": "2611.34467v1",
     "title": "Attacking Hard-Label Large Vision-Language Models with Model-Sensitive Adversarial Patch Designs",
     "summary": "Large vision-language models (LVLMs) have demonstrated impressive capabilities in handling multi-modal downstream tasks, gaining increasing popularity. However, recent studies show that LVLMs are susceptible to both intentional and inadvertent attacks. Existing attackers ideally optimize adversarial perturbations with backpropagated gradients from LVLMs, thus limiting their scalability in practical scenarios as real-world LVLM applications will not provide any LVLM's gradient or details. Motivated by this research gap and counter-practical phenomenon, we propose a novel hard-label attack method for LVLMs, named HardPatch, to generate visual adversarial patches by solely querying the model. Our method provides deeper insights into how to investigate the vulnerability of LVLMs in local visual regions and generate corresponding adversarial substitution under the practical yet challenging hard-label setting. Specifically, we first split each image into uniform patches and mask each of them to individually assess their sensitivity to the LVLM model. Then, according to the descending order of sensitive scores, we iteratively select the most vulnerable patch to initialize noise and estimate gradients with further additive random noises for optimization. In this manner, multiple patches are perturbed until the altered image satisfies the adversarial condition. Extensive LVLM models and datasets are evaluated to demonstrate the adversarial nature of HardPatch. Our empirical observations suggest that with appropriate patch substitution and optimization, HardPatch can craft effective adversarial images to attack hard-label LVLMs.",
@@ -588,30 +606,5 @@
     ],
     "ai_summary": "Watermarking is essential for image copyright protection and attribution, yet existing methods suffer from fundamental trade-offs among post-hoc applicability to pre-existing images, multi-bit capacity, training-free deployment, and adversarial resilience. To address these limitations, we propose a training-free watermarking framework that exploits the overcompleteness of diffusion latent spaces to embed multi-bit payloads into arbitrary images while preserving high visual quality.",
     "selected_date": "2026-10-30"
-  },
-  {
-    "id": "2610.37657v1",
-    "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-    "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions. We evaluate HoS on Llama-3.3-70B-Instruct and GPT-OSS-20B. We compare it against SecAlign++, a state-of-the-art finetuning-based defense, and ASIDE, a defense that, like ours, builds instruction-data separation into the model architecture. We show that HoS offers greater robustness to adaptive attacks, better performance on standard utility benchmarks, and matches top performance on standard agentic prompt injection benchmarks. More specifically, the black-box RL-Hammer attack reaches 97% ASR against GPT-OSS-20B and 85% against SecAlign, but only 10% against HoS. Claudini, a state-of-the-art white-box attack, strengthened against HoS through autoresearch, requires 3 times more FLOPs to reach the same ASR on HoS as it does on GPT-OSS-20B or SecAlign. HoS preserves base-model utility across standard multiple-choice benchmarks and prompting setups, whereas SecAlign and ASIDE degrade in few-shot settings. On agentic benchmarks with static attacks, HoS and SecAlign perform similarly and substantially improve the security-utility trade-off over the base model. ASIDE struggles with tool use, achieving only 10% utility. These results show that prompt injection robustness can be achieved and improved through targeted attention interventions.",
-    "published": "2026-10-27T17:58:52Z",
-    "link": "http://arxiv.org/abs/2610.37657v1",
-    "authors": [
-      "Igor Shilov",
-      "Xiaoxue Yang",
-      "Alexander Panfilov",
-      "Evgenii Kortukov",
-      "Matthieu Meeus",
-      "Peter Romov",
-      "Wojciech Samek",
-      "Jonas Geiping",
-      "Yves-Alexandre de Montjoye"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CL",
-      "cs.CR"
-    ],
-    "ai_summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions.",
-    "selected_date": "2026-10-29"
   }
 ]
